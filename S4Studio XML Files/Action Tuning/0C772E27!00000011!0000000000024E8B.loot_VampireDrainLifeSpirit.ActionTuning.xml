@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_VampireDrainLifeSpirit" s="151179">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x45C81751<!--(From Draining a Sim's Life Spirit)--></T>
+          </V>
+          <T n="buff_type">151775<!--buff_Vampire_RecentlyDrank_Strength2--></T>
+        </U>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBC8AC6BC<!--(From Being Bitten by Vampire)--></T>
+          </V>
+          <T n="buff_type">151764<!--buff_Vampire_RecentlyBitten_Strength3--></T>
+        </U>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>151090<!--buff_Vampire_DrinkInProgress--></T>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>151090<!--buff_Vampire_DrinkInProgress--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">295322<!--loot_Werewolf_DogWater--></T>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="relationship_set">
+        <U n="relationship_set">
+          <L n="subject">
+            <E>TargetSim</E>
+          </L>
+          <L n="target_participant_type">
+            <E>AllRelationships</E>
+          </L>
+          <T n="track">16651<!--LTR_Romance_Main--></T>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="relationship_set">
+        <U n="relationship_set">
+          <L n="subject">
+            <E>TargetSim</E>
+          </L>
+          <L n="target_participant_type">
+            <E>AllRelationships</E>
+          </L>
+          <T n="track">16650<!--LTR_Friendship_Main--></T>
+        </U>
+      </V>
+    </V>
+    <V t="relationship_bits_loot">
+      <U n="relationship_bits_loot">
+        <L n="bit_operations">
+          <U>
+            <T n="bit">15792<!--friendship-acquaintances--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15794<!--friendship-bff--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">31211<!--friendship-bff_BromanticPartner--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15795<!--friendship-bff_Evil--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15796<!--friendship-despised--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15802<!--friendship-disliked--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15797<!--friendship-friend--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15798<!--friendship-friend_Evil--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15799<!--friendship-good_friends--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15800<!--friendship-good_friends_Evil--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15801<!--friendship-nemesis--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15809<!--relationshipBits_Friendship_NeutralBit--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15810<!--relationshipBits_Romance_NeutralBit--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15811<!--romantic-Broken_Up--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15812<!--romantic-Broken_Up_Engaged--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15814<!--romantic-Despised_Ex--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15815<!--romantic-Divorced--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15816<!--romantic-Engaged--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15817<!--romantic-Frustrated_Ex--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15818<!--romantic-GettingMarried--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15819<!--romantic_Target_GotColdFeetOf_Actor--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">36957<!--romantic-HasBeenUnfaithful--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">34619<!--romantic-HaveDoneWooHoo--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">97154<!--romantic-HaveDoneWooHoo_Recently--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">39356<!--romantic_Target_LeavedAlterOf_Actor--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15821<!--romantic_Target_LeftTheAlterOf_Actor--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15822<!--romantic-Married--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">99429<!--romantic-Promised--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">99616<!--romantic-RenewingVows--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15825<!--romantic-Significant_Other--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">102081<!--romantic-Widow--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">102911<!--romantic-Widower--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">37265<!--romantic_Target_CheatedWith_Actor--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">104161<!--romantic_Target_IsDeadSpouseOf_Actor--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">10150<!--romantic_FirstKiss--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">77585<!--RomanticCombo_Acquaintances--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15828<!--RomanticCombo_BadMatch--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15843<!--RomanticCombo_BadRomance--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">77648<!--RomanticCombo_Despised--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">77647<!--RomanticCombo_Disliked--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15830<!--RomanticCombo_EnemiesWithBenefits--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15832<!--RomanticCombo_HotAndCold--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15833<!--RomanticCombo_ItsAwkward--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15834<!--RomanticCombo_ItsComplicated--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15835<!--RomanticCombo_ItsVeryAwkward--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15836<!--RomanticCombo_ItsVeryComplicated--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">77633<!--RomanticCombo_JustFriends--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">77634<!--RomanticCombo_JustGoodFriends--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15829<!--RomanticCombo_Lovebirds--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15837<!--RomanticCombo_Lovers--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15838<!--RomanticCombo_RomanticInterest--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15839<!--RomanticCombo_Soulmates--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15840<!--RomanticCombo_Sweethearts--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15841<!--RomanticCombo_TerribleMatch--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15842<!--RomanticCombo_TotalOpposites--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+          <U>
+            <T n="bit">15803<!--has_met--></T>
+            <E n="operation">REMOVE</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">AllRelationships</E>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <E n="subject">TargetSim</E>
+        <T n="trait">151836<!--trait_Hidden_VampirePowerSusceptibility--></T>
+      </U>
+    </V>
+  </L>
+</I>

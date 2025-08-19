@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="skatingRink_Seasonal_Large_Roller" s="186421">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="lighting" t="enabled">
+      <U n="enabled">
+        <L n="component_interactions">
+          <T>180350<!--skatingRink_Lighting_ChangeLightColorIntensity--></T>
+          <T>180112<!--skatingRink_Lighting_On--></T>
+          <T>180090<!--skatingRink_Lighting_Off--></T>
+        </L>
+        <V n="material_state_off" t="enabled" />
+        <V n="material_state_on" t="enabled" />
+      </U>
+    </V>
+    <V n="portal" t="enabled" />
+    <V n="season_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="seasonal_state_mapping">
+          <U>
+            <E n="key">FALL</E>
+            <L n="value">
+              <T>187010<!--skatingRink_SeasonTest_InSeason_False--></T>
+            </L>
+          </U>
+          <U>
+            <E n="key">SPRING</E>
+            <L n="value">
+              <T>187011<!--skatingRink_SeasonTest_InSeason_True--></T>
+            </L>
+          </U>
+          <U>
+            <E n="key">SUMMER</E>
+            <L n="value">
+              <T>187011<!--skatingRink_SeasonTest_InSeason_True--></T>
+            </L>
+          </U>
+          <U>
+            <E n="key">WINTER</E>
+            <L n="value">
+              <T>187010<!--skatingRink_SeasonTest_InSeason_False--></T>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <V n="delinquency_state_changes" t="enabled">
+          <L n="enabled">
+            <U>
+              <E n="key">POWER</E>
+              <L n="value">
+                <T>180105<!--skatingRink_MusicValues_MusicAutoPlayOff--></T>
+                <T>15342<!--StereoChannel_Off--></T>
+                <T>184178<!--skatingRink_LightingValues_Gabo_LightsOff--></T>
+                <T>180101<!--skatingRink_LightingStyle_Off--></T>
+                <T>180093<!--skatingRink_EffectsValue_Off--></T>
+              </L>
+            </U>
+          </L>
+        </V>
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>180194<!--skatingRink_StateValues_Skaters_Active--></T>
+              <T>180104<!--skatingRink_MusicValues_MusicAutoPlayOn--></T>
+              <T>15342<!--StereoChannel_Off--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">15338<!--StereoChannel_Alt--></T>
+                </U>
+                <U>
+                  <T n="state_value">15339<!--StereoChannel_Blues--></T>
+                </U>
+                <U>
+                  <T n="state_value">15340<!--StereoChannel_Classical--></T>
+                </U>
+                <U>
+                  <T n="state_value">15341<!--StereoChannel_Electro--></T>
+                </U>
+                <U>
+                  <T n="state_value">150141<!--stereoChannel_KidsRadio--></T>
+                </U>
+                <U>
+                  <T n="state_value">15343<!--StereoChannel_Pop--></T>
+                </U>
+                <U>
+                  <T n="state_value">32571<!--StereoChannel_Retro--></T>
+                </U>
+                <U>
+                  <T n="state_value">15344<!--StereoChannel_Romance--></T>
+                </U>
+                <U>
+                  <T n="state_value">103697<!--StereoChannel_Spooky--></T>
+                </U>
+                <U>
+                  <T n="state_value">110062<!--StereoChannel_WinterHoliday--></T>
+                </U>
+                <U>
+                  <T n="state_value">179783<!--stereoChannel_SummerStrut--></T>
+                </U>
+              </L>
+            </V>
+            <V n="set_states" t="No_state_list" />
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15342<!--StereoChannel_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>24383<!--StereoOnOff_On--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">NONE</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15342<!--StereoChannel_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>24384<!--StereoOnOff_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15342<!--StereoChannel_Off--></T>
+              <T>15340<!--StereoChannel_Classical--></T>
+              <T>75775<!--StereoWall_Channel_Classical--></T>
+              <T>133569<!--stereoChannel_TalkRadio--></T>
+              <T>133595<!--stereoWall_Channel_TalkRadio--></T>
+              <T>155886<!--StereoChannel_Lullabies--></T>
+              <T>155880<!--StereoWall_Channel_Lullabies--></T>
+              <T>130733<!--StereoChannel_DinnerJazz--></T>
+              <T>130734<!--StereoWall_Channel_DinnerJazz--></T>
+              <T>443870<!--stereoWall_Channel_NatureSounds--></T>
+              <T>443867<!--stereoChannel_NatureSounds--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>153365<!--stereoOnOff_CanDance_False--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15342<!--StereoChannel_Off--></T>
+              <T>15340<!--StereoChannel_Classical--></T>
+              <T>75775<!--StereoWall_Channel_Classical--></T>
+              <T>133569<!--stereoChannel_TalkRadio--></T>
+              <T>133595<!--stereoWall_Channel_TalkRadio--></T>
+              <T>155886<!--StereoChannel_Lullabies--></T>
+              <T>155880<!--StereoWall_Channel_Lullabies--></T>
+              <T>130733<!--StereoChannel_DinnerJazz--></T>
+              <T>130734<!--StereoWall_Channel_DinnerJazz--></T>
+              <T>443870<!--stereoWall_Channel_NatureSounds--></T>
+              <T>443867<!--stereoChannel_NatureSounds--></T>
+            </L>
+            <L n="prohibited_states">
+              <T>24384<!--StereoOnOff_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>153364<!--stereoOnOff_CanDance_True--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">NONE</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>24384<!--StereoOnOff_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>153299<!--stereoOnOff_VFX_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>133569<!--stereoChannel_TalkRadio--></T>
+            </L>
+            <L n="prohibited_states">
+              <T>24384<!--StereoOnOff_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>153260<!--stereoOnOff_VFX_Music--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">NONE</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>24383<!--StereoOnOff_On--></T>
+              <T>133569<!--stereoChannel_TalkRadio--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>153262<!--stereoOnOff_VFX_Talk--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              <T>184184<!--skatingRink_LightingStyle_Select_Party_01--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>184123<!--skatingRink_LightingStyle_On_Party_01--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              <T>184185<!--skatingRink_LightingStyle_Select_Party_02--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>184123<!--skatingRink_LightingStyle_On_Party_01--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              <T>184186<!--skatingRink_LightingStyle_Select_Twinkles--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>184112<!--skatingRink_LightingStyle_On_Twinkles--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              <T>184187<!--skatingRink_LightingStyle_Select_Valentines--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>184116<!--skatingRink_LightingStyle_On_Valentines--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              <T>184188<!--skatingRink_LightingStyle_Select_XmasFlakes--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>184125<!--skatingRink_LightingStyle_On_XmasFlakes--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              <T>184189<!--skatingRink_LightingStyle_Select_XmasTree--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>184127<!--skatingRink_LightingStyle_On_XmasTree--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">103697<!--StereoChannel_Spooky--></T>
+              </U>
+              <U>
+                <T n="key">110062<!--StereoChannel_WinterHoliday--></T>
+              </U>
+              <U>
+                <T n="key">115528<!--StereoChannel_HospitalMusic--></T>
+              </U>
+              <U>
+                <T n="key">118042<!--StereoChannel_NewAge--></T>
+              </U>
+              <U>
+                <T n="key">119694<!--stereoChannel_Backyard--></T>
+              </U>
+              <U>
+                <T n="key">130733<!--StereoChannel_DinnerJazz--></T>
+              </U>
+              <U>
+                <T n="key">132416<!--StereoChannel_Baroque--></T>
+              </U>
+              <U>
+                <T n="key">133568<!--stereoChannel_CulturalWorld--></T>
+              </U>
+              <U>
+                <T n="key">133569<!--stereoChannel_TalkRadio--></T>
+              </U>
+              <U>
+                <T n="key">133570<!--stereoChannel_SPop--></T>
+              </U>
+              <U>
+                <T n="key">134476<!--StereoChannel_Tween--></T>
+              </U>
+              <U>
+                <T n="key">150141<!--stereoChannel_KidsRadio--></T>
+              </U>
+              <U>
+                <T n="key">15338<!--StereoChannel_Alt--></T>
+              </U>
+              <U>
+                <T n="key">15339<!--StereoChannel_Blues--></T>
+              </U>
+              <U>
+                <T n="key">15340<!--StereoChannel_Classical--></T>
+              </U>
+              <U>
+                <T n="key">15341<!--StereoChannel_Electro--></T>
+              </U>
+              <U>
+                <T n="key">15342<!--StereoChannel_Off--></T>
+              </U>
+              <U>
+                <T n="key">15343<!--StereoChannel_Pop--></T>
+              </U>
+              <U>
+                <T n="key">15344<!--StereoChannel_Romance--></T>
+              </U>
+              <U>
+                <T n="key">155886<!--StereoChannel_Lullabies--></T>
+              </U>
+              <U>
+                <T n="key">160778<!--stereoChannel_Disco_Pop--></T>
+              </U>
+              <U>
+                <T n="key">175454<!--stereoChannel_Latin--></T>
+              </U>
+              <U>
+                <T n="key">175728<!--stereoChannel_LatinPop--></T>
+              </U>
+              <U>
+                <T n="key">176938<!--stereoChannel_SingerSongWriter--></T>
+              </U>
+              <U>
+                <T n="key">179783<!--stereoChannel_SummerStrut--></T>
+              </U>
+              <U>
+                <T n="key">197371<!--stereoChannel_HipHop--></T>
+              </U>
+              <U>
+                <T n="key">205229<!--stereoChannel_StrangeTunes--></T>
+              </U>
+              <U>
+                <T n="key">209337<!--stereoChannel_Island--></T>
+              </U>
+              <U>
+                <T n="key">238270<!--stereoChannel_Americana--></T>
+              </U>
+              <U>
+                <T n="key">240055<!--stereoChannel_Focus--></T>
+              </U>
+              <U>
+                <T n="key">240064<!--stereoChannel_Metal--></T>
+              </U>
+              <U>
+                <T n="key">246203<!--stereoChannel_JFolk--></T>
+              </U>
+              <U>
+                <T n="key">247518<!--stereoChannel_Batuu--></T>
+              </U>
+              <U>
+                <T n="key">270460<!--stereoChannel_CottageCore--></T>
+              </U>
+              <U>
+                <T n="key">282818<!--stereoChannel_Brazilian--></T>
+              </U>
+              <U>
+                <T n="key">282828<!--stereoChannel_MixedMusic--></T>
+              </U>
+              <U>
+                <T n="key">312473<!--stereoChannel_Oldies--></T>
+              </U>
+              <U>
+                <T n="key">32571<!--StereoChannel_Retro--></T>
+              </U>
+              <U>
+                <T n="key">331794<!--stereoChannel_Ranch--></T>
+              </U>
+              <U>
+                <T n="key">343009<!--stereoChannel_RnB--></T>
+              </U>
+              <U>
+                <T n="key">443867<!--stereoChannel_NatureSounds--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15342<!--StereoChannel_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">24383<!--StereoOnOff_On--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">185878<!--broadcaster_Reaction_MusicEnjoy--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">24384<!--StereoOnOff_Off--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">24384<!--StereoOnOff_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">153260<!--stereoOnOff_VFX_Music--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">159374<!--broadcaster_Fear_Pet_Stereo--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_2</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_3</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_4</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_5</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_6</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">153262<!--stereoOnOff_VFX_Talk--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">159374<!--broadcaster_Fear_Pet_Stereo--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_2</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_3</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_4</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_5</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep05_rink_music</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_speaker_6</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">153299<!--stereoOnOff_VFX_Off--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="no_broadcaster" />
+                  </V>
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="no_vfx" />
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">153299<!--stereoOnOff_VFX_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">153364<!--stereoOnOff_CanDance_True--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">356063<!--broadcaster_DanceFloor_Danceable--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">153365<!--stereoOnOff_CanDance_False--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="no_broadcaster" />
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">153365<!--stereoOnOff_CanDance_False--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">180104<!--skatingRink_MusicValues_MusicAutoPlayOn--></T>
+              </U>
+              <U>
+                <T n="key">180105<!--skatingRink_MusicValues_MusicAutoPlayOff--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">180105<!--skatingRink_MusicValues_MusicAutoPlayOff--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">180093<!--skatingRink_EffectsValue_Off--></T>
+              </U>
+              <U>
+                <T n="key">180094<!--skatingRink_EffectsValue_On_Confetti--></T>
+              </U>
+              <U>
+                <T n="key">180095<!--skatingRink_EffectsValue_On_Sparkles--></T>
+              </U>
+              <U>
+                <T n="key">180096<!--skatingRink_EffectsValue_On_Stars--></T>
+              </U>
+              <U>
+                <T n="key">180097<!--skatingRink_EffectsValue_On_Snowflakes--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">180093<!--skatingRink_EffectsValue_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">184178<!--skatingRink_LightingValues_Gabo_LightsOff--></T>
+              </U>
+              <U>
+                <T n="key">184179<!--skatingRink_LightingValues_Gabo_LightsOn--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">184178<!--skatingRink_LightingValues_Gabo_LightsOff--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">184184<!--skatingRink_LightingStyle_Select_Party_01--></T>
+              </U>
+              <U>
+                <T n="key">184185<!--skatingRink_LightingStyle_Select_Party_02--></T>
+              </U>
+              <U>
+                <T n="key">184186<!--skatingRink_LightingStyle_Select_Twinkles--></T>
+              </U>
+              <U>
+                <T n="key">184187<!--skatingRink_LightingStyle_Select_Valentines--></T>
+              </U>
+              <U>
+                <T n="key">184188<!--skatingRink_LightingStyle_Select_XmasFlakes--></T>
+              </U>
+              <U>
+                <T n="key">184189<!--skatingRink_LightingStyle_Select_XmasTree--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">184184<!--skatingRink_LightingStyle_Select_Party_01--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">180194<!--skatingRink_StateValues_Skaters_Active--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="autonomy_modifiers">
+                          <U>
+                            <L n="decay_modifiers">
+                              <U>
+                                <T n="key">16633<!--commodity_Object_Brokenness--></T>
+                                <T n="value">0</T>
+                              </U>
+                            </L>
+                          </U>
+                        </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">10</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">1</T>
+                              <T n="stat">233027<!--commodity_Utilities_Power--></T>
+                            </U>
+                          </L>
+                        </U>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">180195<!--skatingRink_StateValues_Skaters_NotActive--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="autonomy_modifiers">
+                          <U>
+                            <L n="decay_modifiers">
+                              <U>
+                                <T n="key">16633<!--commodity_Object_Brokenness--></T>
+                                <T n="value">0</T>
+                              </U>
+                            </L>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">180551<!--skatingRink_StateValues_Skaters_Max--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="autonomy_modifiers">
+                          <U>
+                            <L n="decay_modifiers">
+                              <U>
+                                <T n="key">16633<!--commodity_Object_Brokenness--></T>
+                                <T n="value">0</T>
+                              </U>
+                            </L>
+                          </U>
+                        </L>
+                        <U n="periodic_statistic_change">
+                          <T n="interval">10</T>
+                          <L n="operations">
+                            <U>
+                              <T n="amount">1</T>
+                              <T n="stat">233027<!--commodity_Utilities_Power--></T>
+                            </U>
+                          </L>
+                        </U>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">180195<!--skatingRink_StateValues_Skaters_NotActive--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">187007<!--skatingRink_Seasonal_StateValues_Replace--></T>
+                <U n="value">
+                  <V n="replace_object" t="enabled">
+                    <U n="enabled">
+                      <V n="new_object" t="enabled">
+                        <T n="enabled">196292<!--rinkLarge_EP05CRAFT_seasonal_ice_set1 (Large Seasonal Ice Rink)--></T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">187009<!--skatingRink_Seasonal_StateValues_DoNotReplace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">187009<!--skatingRink_Seasonal_StateValues_DoNotReplace--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">187010<!--skatingRink_SeasonTest_InSeason_False--></T>
+              </U>
+              <U>
+                <T n="key">187011<!--skatingRink_SeasonTest_InSeason_True--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">187011<!--skatingRink_SeasonTest_InSeason_True--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">False</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">180101<!--skatingRink_LightingStyle_Off--></T>
+              </U>
+              <U>
+                <T n="key">184112<!--skatingRink_LightingStyle_On_Twinkles--></T>
+              </U>
+              <U>
+                <T n="key">184116<!--skatingRink_LightingStyle_On_Valentines--></T>
+              </U>
+              <U>
+                <T n="key">184122<!--skatingRink_LightingStyle_On_Party_02--></T>
+              </U>
+              <U>
+                <T n="key">184123<!--skatingRink_LightingStyle_On_Party_01--></T>
+              </U>
+              <U>
+                <T n="key">184125<!--skatingRink_LightingStyle_On_XmasFlakes--></T>
+              </U>
+              <U>
+                <T n="key">184127<!--skatingRink_LightingStyle_On_XmasTree--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">180101<!--skatingRink_LightingStyle_Off--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="stereo" t="enabled">
+      <V n="enabled" t="literal">
+        <U n="literal">
+          <T n="channel_state">15337<!--StereoChannel--></T>
+          <L n="listen_affordances">
+            <T>228413<!--stereo_listen_SkatingRink--></T>
+          </L>
+          <T n="off_state">15342<!--StereoChannel_Off--></T>
+          <L n="unavailable_channels">
+            <U>
+              <L n="channel_states">
+                <T>291864<!--stereoChannel_HSProm_Reward--></T>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </V>
+  </U>
+  <L n="_part_data_map">
+    <U>
+      <T n="key">Entry_0</T>
+      <U n="value">
+        <T n="part_definition">183805<!--objectPart_SkatingRink_Roller--></T>
+        <V n="subroot_index" t="enabled">
+          <T n="enabled">0</T>
+        </V>
+      </U>
+    </U>
+    <U>
+      <T n="key">Entry_1</T>
+      <U n="value">
+        <T n="part_definition">183805<!--objectPart_SkatingRink_Roller--></T>
+        <V n="subroot_index" t="enabled">
+          <T n="enabled">3</T>
+        </V>
+      </U>
+    </U>
+    <U>
+      <T n="key">Entry_2</T>
+      <U n="value">
+        <T n="part_definition">183805<!--objectPart_SkatingRink_Roller--></T>
+        <V n="subroot_index" t="enabled">
+          <T n="enabled">2</T>
+        </V>
+      </U>
+    </U>
+    <U>
+      <T n="key">Entry_3</T>
+      <U n="value">
+        <T n="part_definition">183805<!--objectPart_SkatingRink_Roller--></T>
+        <V n="subroot_index" t="enabled">
+          <T n="enabled">1</T>
+        </V>
+      </U>
+    </U>
+  </L>
+  <L n="_preroll_super_affordances">
+    <T>185331<!--waypoint_SkatingRink_SkateAround_LowSkill--></T>
+    <T>185396<!--waypoint_SkatingRink_SkateAround_MidSkill--></T>
+    <T>172969<!--waypoint_SkatingRink_SkateAround_HighSkill--></T>
+    <T>173336<!--waypoint_SkatingRink_Skate_PracticeTricks--></T>
+    <T>180121<!--skatingRink_WatchSkaters--></T>
+  </L>
+  <V n="_provided_mobile_posture" t="enabled">
+    <U n="enabled">
+      <L n="affordances">
+        <T>182937<!--generic_RollerSkate--></T>
+      </L>
+      <L n="placement_footprint_name_set">
+        <T>_ftp_placementShape</T>
+      </L>
+    </U>
+  </V>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>180084<!--skatingRink_Effects_Off--></T>
+    <T>180088<!--skatingRink_Effects_Confetti--></T>
+    <T>180085<!--skatingRink_Effects_Snowflakes--></T>
+    <T>179955<!--stereo_turnoff_SkatingRink--></T>
+    <T>179953<!--stereo_PickChannel_SkatingRink--></T>
+    <T>179954<!--stereo_skipToNextSong_SkatingRink--></T>
+    <T>180086<!--skatingRink_Effects_Sparkles--></T>
+    <T>180087<!--skatingRink_Effects_Stars--></T>
+    <T>180089<!--skatingRink_Lighting_Style_Party_01--></T>
+    <T>185201<!--skatingRink_Tricks_Stationary_Practice--></T>
+    <T>184162<!--skatingRink_Lighting_Style_Party_02--></T>
+    <T>184107<!--skatingRink_Lighting_Style_Twinkles--></T>
+    <T>184108<!--skatingRink_Lighting_Style_Valentines--></T>
+    <T>184110<!--skatingRink_Lighting_Style_XmasFlakes--></T>
+    <T>184109<!--skatingRink_Lighting_Style_XmasTree--></T>
+    <T>180116<!--skatingRink_MusicAutoPlay_Off--></T>
+    <T>180115<!--skatingRink_MusicAutoPlay_On--></T>
+    <T>180121<!--skatingRink_WatchSkaters--></T>
+    <T>184177<!--skatingRink_Immediates_Lights_Gabo_Off--></T>
+    <T>184176<!--skatingRink_Immediates_Lights_Gabo_On--></T>
+    <T>185203<!--skatingRink_Tricks_Stationary_Routine--></T>
+    <T>185396<!--waypoint_SkatingRink_SkateAround_MidSkill--></T>
+    <T>180519<!--simPickerInteraction_SkatingRink_InviteToSkateWith_Ice--></T>
+    <T>180576<!--waypoint_SkatingRink_Skate_Routine--></T>
+    <T>173336<!--waypoint_SkatingRink_Skate_PracticeTricks--></T>
+    <T>172969<!--waypoint_SkatingRink_SkateAround_HighSkill--></T>
+    <T>185331<!--waypoint_SkatingRink_SkateAround_LowSkill--></T>
+  </L>
+  <T n="allow_preroll_multiple_targets">True</T>
+  <T n="fire_retardant">True</T>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+  <V n="supported_posture_types" t="literal">
+    <L n="literal">
+      <U>
+        <T n="posture_type">182936<!--posture_RollerSkate--></T>
+      </U>
+    </L>
+  </V>
+</I>

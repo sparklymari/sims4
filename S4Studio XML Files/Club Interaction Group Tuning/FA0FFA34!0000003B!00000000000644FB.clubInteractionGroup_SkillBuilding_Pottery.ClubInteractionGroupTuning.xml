@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_SkillBuilding_Pottery" s="410875">
+  <L n="affordances">
+    <T>406944<!--potteryWheel_StartCraftingAutonomously--></T>
+    <T>380275<!--potteryWheel_Staging_InProgress--></T>
+    <T>372469<!--craftingResume_PotteryWheel--></T>
+    <T>371785<!--potteryWheel_StartCrafting--></T>
+    <T>405100<!--pottery_NPCPractice_Glaze_Start--></T>
+    <T>405435<!--pottery_Scrap_NPC--></T>
+    <T>394901<!--pottery_Glaze_Resume--></T>
+    <T>394315<!--pottery_Glaze_Spray--></T>
+    <T>394317<!--pottery_Glaze_Wait--></T>
+    <T>395558<!--pottery_Repair_MainStaging--></T>
+    <T>390804<!--pottery_Repair_StartObject--></T>
+    <T>394587<!--pottery_Glaze_GlazeObject--></T>
+    <T>447882<!--objectPicker_Pottery_Repair_ObjectInInventory--></T>
+    <T>447880<!--objectPicker_Pottery_Repair_ObjectInWorld--></T>
+    <T>448311<!--objectPicker_Pottery_Glaze_FromInventory--></T>
+    <T>448313<!--objectPicker_Pottery_Glaze_FromWorld--></T>
+    <T>448312<!--objectPicker_Pottery_UnbreakableGlaze_FromInventory--></T>
+    <T>448314<!--objectPicker_Pottery_UnbreakableGlaze_FromWorld--></T>
+  </L>
+  <E n="category">ART_AND_MUSIC</E>
+  <T n="category_icon" p="InEP18\UI\Icons\Clubs\clubIndicator_Pottery.png">2f7d0004:00000000:690490a6b793e98a</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x2473D9E2<!--Do Pottery--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x1D1D4CFA<!--Sims will make pottery with:--></T>
+        <T>0xBABBD57D<!--• Pottery Kilns--></T>
+        <T>0xE245D198<!--• Pottery Wheels--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x2E315451<!--Do Pottery--></T>
+  <T n="tooltip_template_negative">0x626D7501<!--Don't Do Pottery--></T>
+</I>

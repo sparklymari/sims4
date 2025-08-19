@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="death_All" s="16338">
+  <L n="value">
+    <T>13299<!--death_Hunger--></T>
+    <T>13300<!--death_OldAge--></T>
+    <T>8650<!--death_Electrocution--></T>
+    <T>9252<!--death_Anger--></T>
+    <T>9297<!--death_Laughter--></T>
+    <T>9316<!--death_ElderExhaustion--></T>
+    <T>32314<!--death_Embarrassment--></T>
+    <T>77372<!--death_Fire--></T>
+    <T>103463<!--death_Drown--></T>
+    <T>119504<!--death_SteamRoom--></T>
+    <T>132535<!--death_Pufferfish_SeatedAtSurface--></T>
+    <T>132534<!--death_Pufferfish--></T>
+    <T>132609<!--Death_Pufferfish_Seated--></T>
+    <T>159835<!--death_OldAge_Cat--></T>
+    <T>159868<!--death_OldAge_Dog--></T>
+    <T>176190<!--death_Poison--></T>
+    <T>181916<!--death_RodentDisease--></T>
+    <T>182162<!--death_Frozen--></T>
+    <T>183022<!--death_Overheat--></T>
+    <T>186301<!--death_Electrocution_Lightning--></T>
+    <T>190745<!--death_ElderExhaustion_DeathFlower--></T>
+    <T>211504<!--Death_Drowning_Ocean--></T>
+    <T>216969<!--death_WitchOverload--></T>
+    <T>228326<!--death_MurphyBed--></T>
+    <T>230792<!--death_MurphyBed_debug--></T>
+    <T>231080<!--death_MurphyBed_NoLoveseat--></T>
+    <T>286935<!--death_Meteorite--></T>
+    <T>284361<!--death_StinkBomb--></T>
+    <T>284362<!--death_UrbanMyth--></T>
+    <T>321074<!--death_OldAge_Horse--></T>
+    <T>343783<!--death_MoldSystem--></T>
+    <T>377382<!--death_BrokenHeart_FoodSharing--></T>
+    <T>377381<!--death_BrokenHeart--></T>
+    <T>375454<!--death_PetCrow--></T>
+    <T>420875<!--SI_DeathInSleep_Start--></T>
+  </L>
+</I>

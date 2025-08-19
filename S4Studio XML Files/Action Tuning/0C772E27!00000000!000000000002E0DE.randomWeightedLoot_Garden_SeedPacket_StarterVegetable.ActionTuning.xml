@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Garden_SeedPacket_StarterVegetable" s="188638">
+  <V n="_luck_tuning" t="enabled">
+    <U n="enabled">
+      <L n="loot_actions">
+        <T>471525<!--loot_LuckSys_ImpactOnAction_Collectibles_RWL--></T>
+      </L>
+    </U>
+  </V>
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">3</T>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>WINTER</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">4</T>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>SPRING</E>
+                      <E>SUMMER</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">3</T>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>SPRING</E>
+                      <E>FALL</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">4</T>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>SPRING</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">3</T>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>SUMMER</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">3</T>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>SPRING</E>
+                      <E>SUMMER</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">4</T>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">85</T>
+      </U>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">50</T>
+            <L n="tests">
+              <L>
+                <V t="season">
+                  <U n="season">
+                    <T n="requires_seasons_pack">False</T>
+                    <L n="seasons">
+                      <E>FALL</E>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <E n="owner_sim">Actor</E>
+          <T n="quantity">1</T>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">65</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">1</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="location">
+                  <U n="location">
+                    <U n="location_tests">
+                      <V n="is_venue_type" t="enabled">
+                        <U n="enabled">
+                          <T n="negate">True</T>
+                          <T n="venue_type">377555<!--venue_Cemetery--></T>
+                        </U>
+                      </V>
+                    </U>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="location">
+                  <U n="location">
+                    <U n="location_tests">
+                      <V n="is_venue_type" t="enabled">
+                        <U n="enabled">
+                          <T n="venue_type">377555<!--venue_Cemetery--></T>
+                        </U>
+                      </V>
+                    </U>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

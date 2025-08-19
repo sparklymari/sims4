@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003B">
+  <Instances>
+    <I name="uuCASPart_TattooArmUpperLeft_yuTattoo_ArmLtUpperEP18Botched" schema="Client_CASThumbnailCamera" type="Object">
+      <T name="CameraPosition">0.7357094,1.4335847,0.65967536</T>
+      <T name="TargetPosition">0.2197773,1.3584768,0.076051384</T>
+      <T name="CameraFOV">25</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Client_CASThumbnailCamera" schema_hash="0x5C3D3343">
+      <Columns>
+        <Column name="CameraPosition" type="Float3" flags="0x00000000" />
+        <Column name="TargetPosition" type="Float3" flags="0x00000000" />
+        <Column name="CameraFOV" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

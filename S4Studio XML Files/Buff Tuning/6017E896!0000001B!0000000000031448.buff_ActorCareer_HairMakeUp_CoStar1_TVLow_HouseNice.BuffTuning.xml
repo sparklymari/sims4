@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_ActorCareer_HairMakeUp_CoStar1_TVLow_HouseNice" s="201800">
+  <V n="_add_test_set" t="tests_set">
+    <L n="tests_set">
+      <L>
+        <V t="situation_running_test">
+          <U n="situation_running_test">
+            <V n="situation_whitelist" t="enabled">
+              <L n="enabled">
+                <T>193617<!--careerSituation_ActorCareer_TVLow_HouseNice--></T>
+              </L>
+            </V>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <V n="appearance_modifier" t="enabled">
+    <U n="enabled">
+      <L n="appearance_modifiers">
+        <L>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">49763<!--yfHair_PonyMedUnkeptBangs_Brown--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">46907<!--yfHair_MediumStraightParted_Auburn--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">49304<!--yfHair_LongWavyOverRtShoulder_DarkBrown--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">91484<!--ymHair_EF02WavyLoose_Orange--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">91490<!--ymHair_EF02WavyLoose_Brown--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">91474<!--ymHair_EF02WavyLoose_Black--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">43240<!--yfMakeupEyeshadow_Cat_Green--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">43239<!--yfMakeupEyeshadow_Cat_Gold--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">202455<!--yfMakeupEyeshadow_EF11ThinShine_Black--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">33210<!--yfMakeupEyeliner_CatEye--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">33210<!--yfMakeupEyeliner_CatEye--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">33210<!--yfMakeupEyeliner_CatEye--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">48595<!--ymMakeupEyeliner_Thin_Black--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">48595<!--ymMakeupEyeliner_Thin_Black--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">48595<!--ymMakeupEyeliner_Thin_Black--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">35576<!--yfMakeupBlush_PinkCoralLt--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">35575<!--yfMakeupBlush_PinkCoral--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">148203<!--yuMakeupBlush_SP09Null--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">44564<!--yfMakeupLipstick_LowSheen_Coral--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">45752<!--yfMakeupLipstick_Glossy_Coral--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">202464<!--yfMakeupLipstick_EF11Matt_BrownDk--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">MALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">27044<!--ymFacialHair_Bald_Orange--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197341<!--testSetInstance_ActorCareer_NotLightSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">27041<!--ymFacialHair_Bald_Brown--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197400<!--testSetInstance_ActorCareer_NotMediumSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+          <U>
+            <V n="modifier" t="set_cas_part">
+              <U n="set_cas_part">
+                <T n="cas_part">27039<!--ymFacialHair_Bald_Black--></T>
+              </U>
+            </V>
+            <U n="weight">
+              <L n="multipliers">
+                <U>
+                  <T n="multiplier">0</T>
+                  <L n="tests">
+                    <L>
+                      <V t="test_set_reference">
+                        <T n="test_set_reference">197401<!--testSetInstance_ActorCareer_NotDarkSkintones--></T>
+                      </V>
+                    </L>
+                    <L>
+                      <V t="sim_info">
+                        <U n="sim_info">
+                          <V n="gender" t="specified">
+                            <E n="specified">FEMALE</E>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+      </L>
+    </U>
+  </V>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="visible">False</T>
+</I>

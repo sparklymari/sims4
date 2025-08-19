@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_APM_CancelEventsOnPODeath" s="361366">
+  <L n="loot_actions">
+    <V t="cancel_scheduled_drama_node">
+      <U n="cancel_scheduled_drama_node">
+        <L n="drama_nodes">
+          <T>347287<!--dramaNode_APM_Charity--></T>
+          <T>347286<!--dramaNode_APM_Cursed--></T>
+          <T>347288<!--dramaNode_APM_Electrical--></T>
+          <T>347290<!--dramaNode_APM_Haunting--></T>
+          <T>347311<!--dramaNode_APM_Infestation--></T>
+          <T>353937<!--dramaNode_APM_LeaseBreak--></T>
+          <T>347312<!--dramaNode_APM_MaintenanceDay--></T>
+          <T>358007<!--dramaNode_APM_RuleBreakNoise--></T>
+          <T>347907<!--dramaNode_APM_RuleBreakTrash--></T>
+          <T>347314<!--dramaNode_APM_SewageLeak--></T>
+          <T>347316<!--dramaNode_APM_TenantRevolt--></T>
+          <T>347317<!--dramaNode_APM_TrashOverload--></T>
+          <T>347115<!--dramaNode_APM_WaterLeak--></T>
+          <T>347284<!--dramaNode_APM_Algae--></T>
+          <T>359181<!--dramaNode_APM_Algae_CommonArea--></T>
+          <T>347285<!--dramaNode_APM_Blight--></T>
+          <T>359184<!--dramaNode_APM_Blight_CommonArea--></T>
+          <T>347289<!--dramaNode_APM_Explosion--></T>
+          <T>359185<!--dramaNode_APM_Explosion_CommonArea--></T>
+          <T>347320<!--dramaNode_muEvent_Charity--></T>
+          <T>347368<!--dramaNode_muEvent_Cursed--></T>
+          <T>347369<!--dramaNode_muEvent_Electrical--></T>
+          <T>347371<!--dramaNode_muEvent_Haunting--></T>
+          <T>347372<!--dramaNode_muEvent_Infestation--></T>
+          <T>347373<!--dramaNode_muEvent_MaintenanceDay--></T>
+          <T>347374<!--dramaNode_muEvent_Nuisance--></T>
+          <T>358008<!--dramaNode_muEvent_RuleBreakNoise--></T>
+          <T>349821<!--dramaNode_muEvent_RuleBreakTrash--></T>
+          <T>347376<!--dramaNode_muEvent_SewageLeak--></T>
+          <T>347377<!--dramaNode_muEvent_TenantRevolt--></T>
+          <T>347378<!--dramaNode_muEvent_TrashOverload--></T>
+          <T>347379<!--dramaNode_muEvent_WaterLeak--></T>
+          <T>347318<!--dramaNode_muEvent_Algae--></T>
+          <T>359117<!--dramaNode_muEvent_Algae_CommonArea--></T>
+          <T>347319<!--dramaNode_muEvent_Blight--></T>
+          <T>359118<!--dramaNode_muEvent_Blight_CommonArea--></T>
+          <T>347370<!--dramaNode_muEvent_Explosion--></T>
+          <T>358970<!--dramaNode_muEvent_Explosion_CommonArea--></T>
+        </L>
+        <E n="receiver">Actor</E>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="multi_unit_role_test">
+        <U n="multi_unit_role_test">
+          <V n="role_to_check" t="is_property_owner" />
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

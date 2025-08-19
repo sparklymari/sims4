@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_bookshelf_Werewolf" s="296010">
+  <V n="_anim_overrides" t="enabled">
+    <U n="enabled">
+      <L n="params">
+        <U>
+          <T n="name">surfaceObject</T>
+          <V n="value" t="string">
+            <T n="string">bookcase</T>
+          </V>
+        </U>
+        <U>
+          <T n="name">toddlerObjectName</T>
+          <V n="value" t="string">
+            <T n="string">Bookshelf</T>
+          </V>
+        </U>
+        <U>
+          <T n="name">objectName</T>
+          <V n="value" t="string">
+            <T n="string">bookcase</T>
+          </V>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">MEDIUM</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="inventory" t="enabled">
+      <U n="enabled">
+        <L n="conditional_objects">
+          <U>
+            <L n="objects">
+              <T>202431<!--bookThin_EP06GENactingBeginner_01 (Acting Vol 1: Finding Character)--></T>
+              <T>179016<!--book_GP06GENarchaeologyBeginner (Archaeology Vol 1: Tiny Brushes and You)--></T>
+              <T>76355<!--bookThin_EP01GENbakingBeginner (Baking Vol 1: Mix)--></T>
+              <T>18569<!--bookThinGENBartendingBeginner_01 (Mixology Vol. 1:  Beverage Basics)--></T>
+              <T>34388<!--bookThinGENCharismaBeginner_01 (Charisma Vol 1: Diplomacy for Dummies)--></T>
+              <T>34189<!--bookThinGENComedyBeginner_01 (Comedy Vol 1: Get the Jokes)--></T>
+              <T>34206<!--bookThinGENCookingBeginner_01 (Cooking Vol 1: Let's Cook!)--></T>
+              <T>34342<!--bookGENWritingBeginner_01 (Writing Vol 1: The Conjugation Conundrum)--></T>
+              <T>94425<!--book_GP02GENwellnessBeginner (Wellness Vol 1: Exploring the Mind-Body Connection)--></T>
+              <T>34339<!--bookGENViolinBeginner_01 (Violin Vol 1: Basic Violinin')--></T>
+              <T>34336<!--bookGENVideoGamingBeginner_01 (Video Gaming Vol 1: Trolling for n00bs)--></T>
+              <T>417554<!--book_EP17GENthanatologyBeginner (Thanatology Vol 1: Mortal Mortality)--></T>
+              <T>259584<!--bookThin_EP10GENsnowboardingBeginner (Snowboarding Vol 1: So You Want to Snowboard)--></T>
+              <T>259538<!--bookThin_EP10GENskiingBeginner (Mastery of Skiing Vol 1: Balance and Taking Off)--></T>
+              <T>399552<!--book_EP16GENromanceBeginner (Romance Vol 1: From Flirtation Disaster to Romance Master)--></T>
+              <T>34333<!--bookGENRocketScienceBeginner_01 (Rocket Science Vol 1: So You Want to Be a Rocket Scientist)--></T>
+              <T>259244<!--bookThin_EP10GENclimbingBeginner (Rock Climbing Vol 1: Get a Grip)--></T>
+              <T>231183<!--bookThin_EP08GENroboticsBeginner_01 (Robotics Vol 1: Getting to Know Circuits)--></T>
+              <T>229632<!--bookThin_EP08GENdebateBeginner_01 (Research & Debate Vol 1:  Look it Up)--></T>
+              <T>34330<!--bookGENProgrammingBeginner_01 (Programming Vol 1: Turn It Off and On Again)--></T>
+              <T>34327<!--bookGENPianoBeginner_01 (Piano Vol 1: It's Pretty Black and White)--></T>
+              <T>224831<!--book_SP15GENPhotographyBeginner_01 (Photography Vol.1: Your First Exposure)--></T>
+              <T>162783<!--bookThin_GP05GENparentingBeginner_set1 (Parenting Vol 1: Learning to Crawl)--></T>
+              <T>34324<!--bookGENPaintingBeginner_01 (Painting Vol 1: The Fundamentals of Painting)--></T>
+              <T>34321<!--bookThinGENMischiefBeginner_01 (Mischief Vol 1: What's Funny, What's Illegal?)--></T>
+              <T>34318<!--bookThinGENLogicBeginner_01 (Logic Vol 1: An Introduction to Reason)--></T>
+              <T>251948<!--book_SP17GENKnittingBeginner_01 (Knitting Vol 1: k2tog & The Basics of Yarn)--></T>
+              <T>66159<!--bookThin_GP01GENHerbologyBeginner (Herbalism Vol 1: Let's Get Brewing!)--></T>
+              <T>33900<!--bookThinGENHandinessBeginner_01 (Handiness Vol 1: Try Not to Die!)--></T>
+              <T>34315<!--bookThinGENGuitarBeginner_01 (Guitar Vol 1: Intro to Rocking)--></T>
+              <T>34251<!--bookThinGENGourmetCookingBeginner_01 (Gourmet Cooking Vol 1: Make Food Fancy)--></T>
+              <T>376780<!--bookThin_SP49GENGemologyBeginner_01 (Gemology Vol 1: Shine On!)--></T>
+              <T>34202<!--bookThinGENGardeningBeginner_01 (Gardening Vol 1: Water, Light and Dirt)--></T>
+              <T>196510<!--bookThin_EP05GENskillFlowerArrangingBeginner (Flower Arranging Vol. 1: What is a Flower)--></T>
+              <T>34160<!--bookThinGENFitnessBeginner_01 (Fitness Vol 1: Put Down the Milkshake)--></T>
+              <T>57932<!--bookThinGENFishingBeginner_01 (Fishing Vol 1: Getting Hooked)--></T>
+              <T>246402<!--bookThin_EP09GENFabricationBeginner (Fabrication Vol 1: Thermoplastics and You)--></T>
+              <T>343651<!--book_EP14GENequestrianBeginner (Horse Riding Vol 1: Get Off Your High Horse, You're Still a Beginner)--></T>
+              <T>420685<!--bookThinGENPotteryBeginner_01 (Pottery Vol 1: From Blobs to Jobs)--></T>
+              <T>423122<!--bookThin_EP18GENtattooingBeginner (Tattooing Vol 1: Sketch Twice, Ink Once)--></T>
+              <T>494462<!--book_EP19GENsurvivalSkillBeginner_set1 (Natural Living Vol 1: Sprout about It!)--></T>
+              <T>494520<!--book_EP19GENapothecarySkillBeginner_set1 (Apothecary Vol 1: A Spoonful of Sugar)--></T>
+            </L>
+            <L n="tests">
+              <L>
+                <V t="zone">
+                  <U n="zone">
+                    <U n="zone_tests">
+                      <V n="venue_type" t="enabled">
+                        <U n="enabled">
+                          <V n="whitelist" t="specify">
+                            <U n="specify">
+                              <L n="whitelist">
+                                <T>16874<!--venue_library--></T>
+                              </L>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </U>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+        <V n="get_put" t="generic">
+          <U n="generic">
+            <L n="constraints">
+              <V t="cone">
+                <U n="cone">
+                  <T n="angle">90</T>
+                  <T n="max_radius">1.5</T>
+                  <T n="min_radius">0.5</T>
+                </U>
+              </V>
+              <V t="facing">
+                <U n="facing">
+                  <T n="inner_radius">0</T>
+                </U>
+              </V>
+            </L>
+          </U>
+        </V>
+        <E n="inventory_type">BOOKSHELF</E>
+        <V n="purchasable_objects" t="disabled" />
+        <L n="starting_objects">
+          <T>32855<!--bookGENFlirty_07 (Reel Her In)--></T>
+          <T>33012<!--bookGENInspired_11 (The First Unicorn)--></T>
+          <T>32969<!--bookGENAngry_09 (The Lord of the Swings)--></T>
+          <T>32572<!--bookGENSad_04 (Lucas Dark and The Increasingly Unlikely Series of Coincidences)--></T>
+          <T>32578<!--bookGENMotive_17 (The Glutton Spiel)--></T>
+          <T>32615<!--bookGENHappy_06 (Love in the Time of Sandwiches)--></T>
+          <T>33004<!--bookGENHappy_10 (My Pizzi-cat-o Polka)--></T>
+          <T>312491<!--book_GP12GENvulfgangMulder_set2 (The Wolf Next Door)--></T>
+          <T>310075<!--bookThin_GP12GENpeterBarker_set1 (Peter Barker’s First Moon)--></T>
+          <T>310077<!--book_GP12GENvulfgangMulder_set1 (The Werewolf Who Came in From the Cold)--></T>
+          <T>312497<!--book_GENwerewolf_set2 (Beyond Big & Bad: Rethinking Harmful Werewolf Stereotypes)--></T>
+          <T>310060<!--bookPicture_GENmoon_set1 (A Good Night's Moon)--></T>
+        </L>
+        <T n="visible">True</T>
+      </U>
+    </V>
+    <V n="live_drag_target" t="enabled">
+      <U n="enabled">
+        <L n="drop_tests_and_actions">
+          <U>
+            <E n="drop_type">BOOKSHELF</E>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">110393<!--retailComponent_Default--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">163407<!--statevalue_Pets_Cat_ScratchFurniture_On--></T>
+              </U>
+              <U>
+                <T n="key">163408<!--statevalue_Pets_Cat_ScratchFurniture_Off--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">163408<!--statevalue_Pets_Cat_ScratchFurniture_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">131794<!--Kelpto_Stolen_Object--></T>
+              </U>
+              <U>
+                <T n="key">131795<!--Klepto_Not_Stolen_Object--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">131795<!--Klepto_Not_Stolen_Object--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled" />
+  </U>
+  <L n="_preroll_super_affordances">
+    <T>216125<!--superInteraction_MagicHQ_BrowseBooks_Autonomous--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+  </L>
+  <L n="_super_affordances">
+    <T>37821<!--bookshelf_CleanUp--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>39360<!--bookshelf_Read_Picker--></T>
+    <T>39425<!--bookshelf_Read_Picker_Child--></T>
+    <T>75892<!--Purchase_Books--></T>
+    <T>77412<!--autonomous_Bookshelf_Browse_Picker--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>77414<!--autonomous_Bookshelf_Browse_Picker_Child--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>127423<!--bookshelf_ReadRandom_Rallyable--></T>
+    <T>147615<!--situation_Butler_Autonomous_AddBook--></T>
+    <T>152961<!--purchase_VampireTomes_UltimateTome--></T>
+    <T>153616<!--bookshelf_ReadTo_Picker_ChildBooks--></T>
+    <T>144134<!--generic_Object_Toddler_Have_A_Look_NonRadial--></T>
+    <T>152951<!--purchase_VampireTomes_Vol1--></T>
+    <T>152954<!--purchase_VampireTomes_Vol2--></T>
+    <T>152958<!--purchase_VampireTomes_Vol3--></T>
+    <T>153843<!--purchase_Books_toddler--></T>
+    <T>153829<!--bookshelf_ReadTo_Picker_ChildBooks_Ask--></T>
+    <T>144099<!--generic_Object_Toddler_Check_Out--></T>
+    <T>156095<!--bookshelf_Toddler_Read_Picker--></T>
+    <T>156936<!--generic_Object_Toddler_Check_Out_HighChair--></T>
+    <T>77329<!--autonomous_bookshelf_read_picker--></T>
+    <T>276518<!--infant_WhatsThat--></T>
+    <T>328068<!--infant_WhatsThat_Immobile_InObject--></T>
+    <T>163417<!--debug_ScratchFurniture--></T>
+    <T>163419<!--scratch_ReplaceScratchedObject--></T>
+    <T>163450<!--debug_ScratchFurnitureFix--></T>
+    <T>276516<!--infant_PlayIn_Generic--></T>
+    <T>120562<!--cat_Stand--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>343933<!--snooping_Object_Generic_Tall--></T>
+    <T>362722<!--autonomous_bookshelf_read_picker_LoveStruck--></T>
+    <T>399285<!--si_Thanatology_Read_HistoricalDeath--></T>
+    <T>400272<!--career_Reaper_AssigneeInfo--></T>
+    <T>452003<!--super_FairyJourney_Research_Book--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+  <L n="slot_cost_modifiers">
+    <U>
+      <T n="key">_gameplaySlot_Deco_Large</T>
+      <T n="value">100</T>
+    </U>
+    <U>
+      <T n="key">_gameplaySlot_Deco_Medium</T>
+      <T n="value">100</T>
+    </U>
+    <U>
+      <T n="key">_gameplaySlot_Deco_Small</T>
+      <T n="value">100</T>
+    </U>
+  </L>
+</I>

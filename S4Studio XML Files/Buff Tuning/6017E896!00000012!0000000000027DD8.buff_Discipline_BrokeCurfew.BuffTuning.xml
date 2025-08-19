@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Discipline_BrokeCurfew" s="163288">
+  <L n="_loot_on_addition">
+    <T>312597<!--loot_CrossAge_Interactions_AddLackOfChildDiscipline--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="continuous_statistic_modifier">
+        <U n="continuous_statistic_modifier">
+          <T n="modifier_value">-0.06031746</T>
+          <T n="statistic">161615<!--lifeSkillStatistic_Responsibility--></T>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <V n="provided_template_affordances" t="enabled">
+    <U n="enabled">
+      <V n="post_run_duration" t="Use_Custom_Time">
+        <T n="Use_Custom_Time">720</T>
+      </V>
+      <L n="template_affordances">
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDA30E1C6<!--Ask Not To Break Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130279<!--rel_Gain_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163246<!--disciplineTemplateSocial_AskNotToDo_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDA30E1C6<!--Ask Not To Break Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163247<!--disciplineTemplateSocial_AskNotToDo_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDA30E1C6<!--Ask Not To Break Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">162517<!--disciplineTemplate_AskNotToDo_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x147C7CE8<!--Tell Not To Break Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130279<!--rel_Gain_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163258<!--disciplineTemplateSocial_TellNotToDo_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x147C7CE8<!--Tell Not To Break Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163259<!--disciplineTemplateSocial_TellNotToDo_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x147C7CE8<!--Tell Not To Break Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">162822<!--disciplineTemplate_TellNotToDo_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x506D2BA5<!--Express Disappointment For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130279<!--rel_Gain_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163261<!--disciplineTemplateSocial_ExpressDisappointment_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x506D2BA5<!--Express Disappointment For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163262<!--disciplineTemplateSocial_ExpressDisappointment_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0x506D2BA5<!--Express Disappointment For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">162832<!--disciplineTemplate_ExpressDisappointment_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF7FB29E7<!--Hug It Out Over Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167164<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_HugGain--></T>
+                    <T>11032<!--Rel_Gain_Medium--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163264<!--disciplineTemplateSocial_HugItOut_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF7FB29E7<!--Hug It Out Over Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167164<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_HugGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163265<!--disciplineTemplateSocial_HugItOut_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xF7FB29E7<!--Hug It Out Over Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163073<!--disciplineTemplate_HugItOut_Reject--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDAB35A03<!--Yell At For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167168<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_YellGain--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163280<!--disciplineTemplateSocial_YellAtAbout_Accept_Major--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDAB35A03<!--Yell At For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167168<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_YellGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163281<!--disciplineTemplateSocial_YellAtAbout_Accept_Minor--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xD66B1017<!--Encourage Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167163<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_EncourageLoss--></T>
+                    <T>130279<!--rel_Gain_Small_TargetSim--></T>
+                    <T>163075<!--loot_ParentingSkill_Discipline_Encourage--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">166302<!--disciplineTemplate_Encourage_Irresponsible--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDAADD383<!--Give Time Out For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163266<!--disciplineTemplateSocial_GiveTimeOut--></T>
+          </U>
+        </V>
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xEAEC9EB9<!--Ground For Breaking Curfew--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167166<!--loot_Statistic_LifeSkill_Responsibility_Target_Discipline_MediumGain--></T>
+                    <T>130277<!--rel_Loss_Small_TargetSim--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163267<!--disciplineTemplateSocial_Ground--></T>
+          </U>
+        </V>
+      </L>
+    </U>
+  </V>
+  <T n="visible">False</T>
+</I>

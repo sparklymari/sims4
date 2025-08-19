@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GuidanceTipGroup" i="guidance_tip" m="guidance.guidance_tip" n="guidanceTipGroup_MultiUnit_Landlord_All" s="359444">
+  <L n="items">
+    <T>349708<!--guidanceTip_MultiUnit_A1--></T>
+    <T>352567<!--guidanceTip_MultiUnit_Landlord_BuildBuy_01--></T>
+    <T>352790<!--guidanceTip_MultiUnit_Landlord_BuildBuy_ConvertLot_01--></T>
+    <T>353868<!--guidanceTip_MultiUnit_Landlord_BuildBuy_ConvertLot_02--></T>
+    <T>354962<!--guidanceTip_MultiUnit_Landlord_BuildBuy_Units_Reminder--></T>
+    <T>352485<!--guidanceTip_MultiUnit_Landlord_Live_01--></T>
+    <T>353070<!--guidanceTip_MultiUnit_Landlord_Live_01_A--></T>
+    <T>352569<!--guidanceTip_MultiUnit_Landlord_Live_02--></T>
+    <T>355034<!--guidanceTip_MultiUnit_Landlord_Live_02_A--></T>
+    <T>358445<!--guidanceTip_MultiUnit_Landlord_Live_02_A_Alt--></T>
+    <T>355149<!--guidanceTip_MultiUnit_Landlord_Live_02_B--></T>
+    <T>359186<!--guidanceTip_MultiUnit_Landlord_Live_02_FromPurchaseLot--></T>
+    <T>358931<!--guidanceTip_MultiUnit_Landlord_Live_02_MultiUnitOwner--></T>
+    <T>352791<!--guidanceTip_MultiUnit_Landlord_Live_03--></T>
+    <T>353072<!--guidanceTip_MultiUnit_Landlord_Live_04--></T>
+    <T>354754<!--guidanceTip_MultiUnit_Landlord_Live_End--></T>
+    <T>358930<!--guidanceTip_MultiUnit_Landlord_Live_SingleUnitOwner--></T>
+    <T>358929<!--guidanceTip_MultiUnit_Landlord_Live_SingleUnitOwner_End--></T>
+    <T>353111<!--guidanceTip_MultiUnit_Landlord_Neighborhood_01--></T>
+    <T>352562<!--guidanceTip_MultiUnit_Landlord_Travel_01--></T>
+    <T>352564<!--guidanceTip_MultiUnit_Landlord_Travel_02--></T>
+    <T>352407<!--guidanceTip_MultiUnit_Reminder--></T>
+    <T>359446<!--guidanceTip_MultiUnit_Landlord_Neighborhood_00--></T>
+  </L>
+</I>

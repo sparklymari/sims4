@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Trait_Infant" s="271169">
+  <L n="_loot_on_addition">
+    <T>289380<!--loot_InfantMilestone_Infant_SetImmobile_Autonomy--></T>
+  </L>
+  <L n="_loot_on_instance">
+    <T>289380<!--loot_InfantMilestone_Infant_SetImmobile_Autonomy--></T>
+    <T>289893<!--loot_InfantMilestone_BG_Core--></T>
+    <T>309451<!--loot_Infant_Crawling--></T>
+    <T>313551<!--loot_InfantVOX_BG--></T>
+    <T>324650<!--loot_Infant_Carry_Default_Back_Carrier--></T>
+    <T>324273<!--loot_TemporaryStay_StayOverSchedule_InfantIntro--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <V n="auto_situation" t="enabled">
+    <U n="enabled">
+      <T n="invite_actor">False</T>
+      <T n="situation">273083<!--caregiverSituation_Infants--></T>
+      <T n="user_facing">False</T>
+    </U>
+  </V>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="mood_effect_modifier">
+        <U n="mood_effect_modifier">
+          <L n="mood_effect_mapping">
+            <U>
+              <T n="key">14632<!--Mood_Angry--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14633<!--Mood_Bored--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14634<!--Mood_Confident--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14635<!--Mood_Embarrassed--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14636<!--Mood_Energized--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14638<!--Mood_Flirty--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14639<!--Mood_Focused--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14640<!--Mood_Happy--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14641<!--Mood_Inspired--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14642<!--Mood_Playful--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14643<!--Mood_Sad--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14644<!--Mood_Dazed--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14645<!--Mood_Stressed--></T>
+              <T n="value">0.5</T>
+            </U>
+            <U>
+              <T n="key">14646<!--Mood_Uncomfortable--></T>
+              <T n="value">0.5</T>
+            </U>
+          </L>
+        </U>
+      </V>
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="commodities_to_add">
+            <T>282865<!--commodity_Infant_TimeAlone--></T>
+            <T>274093<!--commodity_Infant_Diaper--></T>
+          </L>
+          <L n="decay_modifiers">
+            <U>
+              <T n="key">142037<!--motive_Toddler_Attention--></T>
+              <T n="value">3.6</T>
+            </U>
+            <U>
+              <T n="key">16652<!--motive_Bladder--></T>
+              <T n="value">2</T>
+            </U>
+            <U>
+              <T n="key">16654<!--motive_Energy--></T>
+              <T n="value">2.5</T>
+            </U>
+            <U>
+              <T n="key">16655<!--motive_Fun--></T>
+              <T n="value">2.1</T>
+            </U>
+            <U>
+              <T n="key">16656<!--motive_Hunger--></T>
+              <T n="value">2</T>
+            </U>
+            <U>
+              <T n="key">16657<!--motive_Hygiene--></T>
+              <T n="value">0.48</T>
+            </U>
+          </L>
+          <V n="off_lot_autonomy_rule" t="enabled">
+            <V n="enabled" t="default_behavior">
+              <U n="default_behavior">
+                <T n="radius">15</T>
+                <T n="tolerance">3.5</T>
+              </U>
+            </V>
+          </V>
+          <L n="stat_use_multiplier">
+            <U>
+              <T n="key">142037<!--motive_Toddler_Attention--></T>
+              <U n="value">
+                <E n="apply_direction">INCREASE</E>
+                <T n="multiplier">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="key">16655<!--motive_Fun--></T>
+              <U n="value">
+                <E n="apply_direction">INCREASE</E>
+                <T n="multiplier">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <V n="interactions" t="enabled">
+    <U n="enabled">
+      <L n="interaction_items">
+        <T>286334<!--infant_BehaviorIdles_Babble--></T>
+        <T>286337<!--infant_BehaviorIdles_BlowRaspberry--></T>
+        <T>319011<!--infant_BehaviorIdles_Playmat--></T>
+        <T>275238<!--infant_BehaviorIdles_Cooing--></T>
+        <T>275234<!--infant_BehaviorIdles_GrabFeet--></T>
+        <T>275228<!--infant_BehaviorIdles_Hiccup--></T>
+        <T>286976<!--infant_BehaviorIdles_PlaceToesInMouth--></T>
+        <T>275229<!--infant_BehaviorIdles_Sneezing--></T>
+        <T>275232<!--infant_BehaviorIdles_SuckFingers--></T>
+        <T>275237<!--infant_BehaviorIdles_Wiggle--></T>
+        <T>275236<!--infant_BehaviorIdles_Wobbling--></T>
+        <T>328796<!--idle_InfantMilestones_PushAnticipation--></T>
+      </L>
+    </U>
+  </V>
+  <V n="line_of_sight_distance_multiplier" t="enabled">
+    <T n="enabled">50</T>
+  </V>
+  <T n="refresh_on_add">True</T>
+  <T n="show_timeout">False</T>
+  <T n="success_modifier">0</T>
+  <L n="super_affordances">
+    <T>164020<!--parameterizedAutonomy_RouteFails--></T>
+    <T>274414<!--infant_Diaper_Blowout--></T>
+    <T>274413<!--infant_Diaper_Use--></T>
+    <T>273807<!--socialSuperInteraction_CarryPickUp_Infant_ToBathe--></T>
+    <T>273808<!--socialSuperInteraction_CarryPickUp_Infant_ToBatheBubbles--></T>
+    <T>275895<!--socialSuperInteraction_CarryPickUp_Infant_ToHighChair--></T>
+    <T>282427<!--socialSuperInteraction_CarryPickUp_Infant_ToHighChair_GiveFood--></T>
+    <T>275896<!--socialSuperInteraction_CarryPickUp_Infant_ToCrib--></T>
+    <T>275889<!--simPickerInteraction_ToddlersAndInfants_Handoff_Adult--></T>
+    <T>276982<!--PC_Watch_Infant--></T>
+    <T>276827<!--TYAE_Watch_Infant--></T>
+    <T>276968<!--TYAE_CheckOn_Infant--></T>
+    <T>307677<!--infant_PreSleep--></T>
+    <T>315322<!--infant_Diaper_Use_Standing--></T>
+    <T>317396<!--socialSuperInteraction_CarryPickUp_Infant_BringInside--></T>
+    <T>328271<!--TYAE_CheckOn_Infant_Batuu--></T>
+    <T>411284<!--TYAE_CheckOn_Infant_SmallBusinessEmployee--></T>
+    <T>330802<!--TYAE_CheckOn_Infant_Nanny--></T>
+    <T>309443<!--Sim_Carry_Social_Infant_HelpWithNeeds--></T>
+    <T>307742<!--Sim_Carry_Social_Infant_SuperSolve--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">179604<!--cheat_SetStatisticOnObject--></T>
+      <T n="allow_self">True</T>
+      <V n="object_filter" t="allow_all" />
+    </U>
+    <U>
+      <T n="affordance">238794<!--sim_Immediate_GetOut_Target--></T>
+    </U>
+    <U>
+      <T n="affordance">274891<!--infant_Watch--></T>
+    </U>
+    <U>
+      <T n="affordance">317594<!--infant_WiggleToMusic--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Stereo</E>
+            <E>Func_SmartHub</E>
+            <E>Func_EntertainmentCenter</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">324302<!--infant_Watch_Carried--></T>
+    </U>
+    <U>
+      <T n="affordance">326839<!--infant_Watch_Immobile_InObject--></T>
+    </U>
+  </L>
+  <T n="ui_sort_order">1</T>
+  <T n="visible">False</T>
+  <V n="walkstyle" t="enabled">
+    <U n="enabled">
+      <T n="can_replace_with_short_walkstyle">False</T>
+      <E n="priority">INFANT_CRAWL</E>
+      <T n="walkstyle" p="InGame\Locomotion\CrawlInfantLevel02.walkstyle">27c01d95:00000000:000000005b933bba</T>
+    </U>
+  </V>
+  <V n="walkstyle_behavior_override" t="enabled">
+    <U n="enabled">
+      <L n="removed_run_flags">
+        <E>RUN_ALLOWED_INDOORS</E>
+        <E>RUN_ALLOWED_OUTDOORS</E>
+      </L>
+    </U>
+  </V>
+</I>

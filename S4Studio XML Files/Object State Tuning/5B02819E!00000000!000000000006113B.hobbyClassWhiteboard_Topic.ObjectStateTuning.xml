@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="hobbyClassWhiteboard_Topic" s="397627">
+  <L n="_values">
+    <T>397664<!--hobbyClassWhiteboard_Topic_None--></T>
+    <T>397651<!--hobbyClassWhiteboard_Topic_Active--></T>
+    <T>397647<!--hobbyClassWhiteboard_Topic_Animals--></T>
+    <T>397648<!--hobbyClassWhiteboard_Topic_CreativeCrafts--></T>
+    <T>397649<!--hobbyClassWhiteboard_Topic_Culinary--></T>
+    <T>397650<!--hobbyClassWhiteboard_Topic_Engineering--></T>
+    <T>397652<!--hobbyClassWhiteboard_Topic_Knowledge--></T>
+    <T>397653<!--hobbyClassWhiteboard_Topic_Nature--></T>
+    <T>397654<!--hobbyClassWhiteboard_Topic_Performance--></T>
+    <T>397663<!--hobbyClassWhiteboard_Topic_Social--></T>
+  </L>
+</I>

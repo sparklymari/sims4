@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalActor" i="situation_goal" m="situations.situation_goal_actor" n="situationGoalActor_HobbyClass_SkillUp" s="398318">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Events\HolidayTraditions_SkillUp_bg.png">2f7d0004:00000000:7ec911f33284cff9</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x4931EBAC<!--Level up a Skill--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0xF42E7FCC<!--Level up a Skill by listening to a Lecture or by using nearby Skill Building Objects. Asking the Instructor for Mentoring will speed up the process!--></T>
+      </V>
+    </U>
+  </V>
+  <V n="_goal_test" t="buff">
+    <U n="buff">
+      <V n="whitelist" t="enabled">
+        <L n="enabled">
+          <T>282273<!--buff_SkillUp_CheckFlag--></T>
+        </L>
+      </V>
+    </U>
+  </V>
+  <L n="_post_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+    <V t="situation_job">
+      <U n="situation_job">
+        <L n="situation_jobs">
+          <T>397234<!--job_HobbyClass_ClassMember_CTYAE--></T>
+          <T>400498<!--job_HobbyClass_ClassMember_TYAE--></T>
+          <T>397235<!--job_HobbyClass_Instructor--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="balance_system.balance_system_tuning.BalanceSystemTuning" schema="balance_system.balance_system_tuning.BalanceSystemTuning" type="Object">
+      <T name="BALANCE_MAX_VALUE">100</T>
+      <T name="BALANCE_MIN_VALUE">25</T>
+      <T name="BALANCE_SYSTEM_COMMODITY">427050</T>
+      <T name="MAJOR_IMBALANCE_MIN_VALUE">-100</T>
+      <T name="MINOR_IMBALANCE_MIN_VALUE">-35</T>
+      <L name="VISIBILITY_UI_DESCRIPTIONS">
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x23FD00A1</T>
+          <T name="buff_reference">432400</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x947A02DC</T>
+          <T name="buff_reference">434805</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0xBE88C2AE</T>
+          <T name="buff_reference">434803</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x47651695</T>
+          <T name="buff_reference">432689</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x09746373</T>
+          <T name="buff_reference">434804</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0xD7682E98</T>
+          <T name="buff_reference">447968</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x56E87E37</T>
+          <T name="buff_reference">432688</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x9D971573</T>
+          <T name="buff_reference">432687</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x8F5F5B36</T>
+          <T name="buff_reference">447969</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x22A842D1</T>
+          <T name="buff_reference">432401</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0xE6630D7C</T>
+          <T name="buff_reference">452109</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x68F2DFFC</T>
+          <T name="buff_reference">432796</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x638127AA</T>
+          <T name="buff_reference">427745</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0xE1F5C9E2</T>
+          <T name="buff_reference">432795</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x0771B4DA</T>
+          <T name="buff_reference">432794</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x2A942C11</T>
+          <T name="buff_reference">432793</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0xFAE2E274</T>
+          <T name="buff_reference">452108</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0xE41310EE</T>
+          <T name="buff_reference">452107</T>
+        </U>
+        <U type="Object" schema="TunableVisibilityUIDescription">
+          <T name="buff_description">0x8E2500C6</T>
+          <T name="buff_reference">458761</T>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="balance_system.balance_system_tuning.BalanceSystemTuning" schema_hash="0x06A1F088">
+      <Columns>
+        <Column name="BALANCE_MAX_VALUE" type="Single" flags="0x00000000" />
+        <Column name="BALANCE_MIN_VALUE" type="Single" flags="0x00000000" />
+        <Column name="BALANCE_SYSTEM_COMMODITY" type="TableSetReference" flags="0x00000000" />
+        <Column name="MAJOR_IMBALANCE_MIN_VALUE" type="Single" flags="0x00000000" />
+        <Column name="MINOR_IMBALANCE_MIN_VALUE" type="Single" flags="0x00000000" />
+        <Column name="VISIBILITY_UI_DESCRIPTIONS" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableVisibilityUIDescription" schema_hash="0xD475B481">
+      <Columns>
+        <Column name="buff_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="buff_reference" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

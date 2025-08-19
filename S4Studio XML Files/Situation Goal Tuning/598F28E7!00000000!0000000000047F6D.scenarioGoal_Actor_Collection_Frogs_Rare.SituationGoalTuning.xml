@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalActor" i="situation_goal" m="situations.situation_goal_actor" n="scenarioGoal_Actor_Collection_Frogs_Rare" s="294765">
+  <T n="_cooldown">0</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\Headline_CollectionRareRarity.png">2f7d0004:00000000:e131c301cce1ed15</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x6270F2A6<!--Catch or Breed unique Rare Frogs--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x30C96E77<!--Breeding different types of frogs together is a great way to try and find new Frogs--></T>
+      </V>
+    </U>
+  </V>
+  <V n="_goal_test" t="collection">
+    <U n="collection">
+      <E n="collection_type">Frogs</E>
+      <V n="specific_items" t="enabled">
+        <L n="enabled">
+          <T>33345<!--collectTerrariumGENFrog_03_redWaves (Heartsurfer Frog)--></T>
+          <T>33344<!--collectTerrariumGENFrog_03_purpleWaves (Surfer Eggplant Frog)--></T>
+          <T>33341<!--collectTerrariumGENFrog_03_yellowWaves (Sunsurfer Frog)--></T>
+          <T>33359<!--collectTerrariumGENFrog_05_yellowSpiral (Whirlyflower Frog)--></T>
+          <T>33355<!--collectTerrariumGENFrog_05_redSpiral (Bullseye Frog)--></T>
+          <T>33356<!--collectTerrariumGENFrog_05_purpleSpiral (Eggplant Whirl Frog)--></T>
+        </L>
+      </V>
+      <U n="threshold">
+        <T n="value">4</T>
+      </U>
+    </U>
+  </V>
+  <T n="_score">0</T>
+  <T n="audio_sting_on_complete" p="" />
+  <T n="should_reevaluate_on_load">True</T>
+  <T n="use_numeric_test_results">True</T>
+</I>

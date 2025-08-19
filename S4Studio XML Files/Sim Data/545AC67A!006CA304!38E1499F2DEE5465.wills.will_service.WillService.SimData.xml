@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="wills.will_service.WillService" schema="wills.will_service.WillService" type="Object">
+      <U name="SHADY_MERCHANT_TUNING" schema="TunableTuple">
+        <T name="will_note_text">0xB4AEA13F</T>
+      </U>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="wills.will_service.WillService" schema_hash="0xBD20812B">
+      <Columns>
+        <Column name="SHADY_MERCHANT_TUNING" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableTuple" schema_hash="0xFBF693F7">
+      <Columns>
+        <Column name="will_note_text" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

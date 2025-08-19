@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherForcastList" i="snippet" m="snippets" n="weatherForcastList_Fall_Summit_Early" s="245808">
+  <L n="value">
+    <U>
+      <T n="forecast">183969<!--forecast_ChanceOfRain_Rain_Cold--></T>
+    </U>
+    <U>
+      <T n="forecast">183967<!--forecast_ChanceOfRain_Rain_Cool--></T>
+      <T n="weight">3</T>
+    </U>
+    <U>
+      <T n="forecast">182390<!--forecast_ChanceOfRain_Rain_Warm_all--></T>
+      <T n="weight">3</T>
+    </U>
+    <U>
+      <T n="forecast">183979<!--forecast_Cloudy_coldCool--></T>
+    </U>
+    <U>
+      <T n="forecast">183975<!--forecast_PartlyCloudy_coldCool--></T>
+    </U>
+    <U>
+      <T n="forecast">182397<!--forecast_PartlyCloudy_coolWarm--></T>
+    </U>
+    <U>
+      <T n="forecast">182400<!--forecast_Sunny_coolWarm--></T>
+      <T n="weight">4</T>
+    </U>
+    <U>
+      <T n="forecast">183971<!--forecast_Sunny_coldCool--></T>
+    </U>
+    <U>
+      <T n="forecast">198553<!--forecast_ChanceOfRain_Storm_Cool--></T>
+      <T n="weight">3</T>
+    </U>
+    <U>
+      <T n="forecast">182395<!--forecast_Cloudy_coolWarm--></T>
+    </U>
+    <U>
+      <T n="forecast">212688<!--forecast_Cloudy_Warm_all--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">212690<!--forecast_PartlyCloudy_Warm_all--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">223316<!--forecast_Rain_Intermittent_Cold--></T>
+    </U>
+    <U>
+      <T n="forecast">223317<!--forecast_Rain_Intermittent_Cool--></T>
+      <T n="weight">3</T>
+    </U>
+    <U>
+      <T n="forecast">223318<!--forecast_Rain_Intermittent_Warm--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">183168<!--forecast_Rain_Storm_Warm_all--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">209690<!--forecast_Sunny_Cool_all--></T>
+    </U>
+    <U>
+      <T n="forecast">186045<!--forecast_Windy_Cold--></T>
+    </U>
+  </L>
+</I>

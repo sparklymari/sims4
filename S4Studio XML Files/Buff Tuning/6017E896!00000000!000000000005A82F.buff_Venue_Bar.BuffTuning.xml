@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Venue_Bar" s="370735">
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13991<!--sim_BeAffectionate--></T>
+      <L n="value">
+        <T>370724<!--mixer_Social_RomanticVenue_AskToSeductiveDance--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>370725<!--sI_RomanticVenue_SeductiveDance--></T>
+    <T>377788<!--autonomous_ObjectPicker_RomanticVenue_SeductiveDance--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">371179<!--simPickerInteraction_RomanticVenue_SeductiveDance--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Stereo</E>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

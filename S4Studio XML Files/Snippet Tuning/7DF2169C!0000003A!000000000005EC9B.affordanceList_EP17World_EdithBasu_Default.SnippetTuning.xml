@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_EP17World_EdithBasu_Default" s="388251">
+  <L n="value">
+    <T>27173<!--Idle_Chatting_STC--></T>
+    <T>13998<!--sim_Chat--></T>
+    <T>13991<!--sim_BeAffectionate--></T>
+    <T>202635<!--si_Touching_TwoSim_Generic--></T>
+    <T>388279<!--social_EP17World_EdithBasu_AttemptCommunication--></T>
+    <T>388841<!--social_EP17World_EdithBasu_MockEdith--></T>
+    <T>389203<!--EP17World_EdithBasu_Nope--></T>
+  </L>
+</I>

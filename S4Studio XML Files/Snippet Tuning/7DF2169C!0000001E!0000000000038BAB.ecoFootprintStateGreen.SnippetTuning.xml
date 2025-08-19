@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="EcoFootprintState" i="snippet" m="eco_footprint.eco_footprint_state" n="ecoFootprintStateGreen" s="232363">
+  <V n="_display_data" t="disabled" />
+  <L n="effects">
+    <T>234371<!--streetInstancedSimLootEffect_EcoFootprint_Green--></T>
+    <T>236380<!--streetLootEffect_EcoFootprint_Green--></T>
+    <T>235315<!--streetMapOverlayEffect_EcoFootprint_Green--></T>
+    <T>243435<!--streetWeatherEffect_EcoFootprint_Green--></T>
+    <T>239481<!--streetCreateSituationEffect--></T>
+  </L>
+</I>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_RandomWeather_Gemology" s="355897">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="weather_start_event">
+        <U n="weather_start_event">
+          <U n="duration">
+            <T n="lower_bound">6</T>
+            <T n="upper_bound">8</T>
+          </U>
+          <T n="weather_event">182353<!--weather_Cloudy_Warm--></T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="weather_start_event">
+        <U n="weather_start_event">
+          <U n="duration">
+            <T n="lower_bound">6</T>
+            <T n="upper_bound">8</T>
+          </U>
+          <T n="weather_event">182339<!--weather_PartlyCloudy_Warm--></T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="weather_start_event">
+        <U n="weather_start_event">
+          <U n="duration">
+            <T n="lower_bound">6</T>
+            <T n="upper_bound">8</T>
+          </U>
+          <L n="tests">
+            <L>
+              <V t="zone">
+                <U n="zone">
+                  <U n="zone_tests">
+                    <V n="world_tests" t="enabled">
+                      <U n="enabled">
+                        <V n="blacklist" t="specify">
+                          <U n="specify">
+                            <L n="blacklist">
+                              <T>208803<!--Ohan'ali Town--></T>
+                              <T>212324<!--Mua Pel'am--></T>
+                              <T>207075<!--Lani St. Taz--></T>
+                              <T>287514<!--Porto Luminoso--></T>
+                              <T>287635<!--Terra Amorosa--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+          <T n="weather_event">188239<!--weather_Sunsnow_Cool--></T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="weather_start_event">
+        <U n="weather_start_event">
+          <U n="duration">
+            <T n="lower_bound">6</T>
+            <T n="upper_bound">8</T>
+          </U>
+          <T n="weather_event">182337<!--weather_Sunny_Warm--></T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="weather_start_event">
+        <U n="weather_start_event">
+          <U n="duration">
+            <T n="lower_bound">6</T>
+            <T n="upper_bound">8</T>
+          </U>
+          <T n="weather_event">182341<!--weather_Windy_Warm--></T>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="weather_start_event">
+        <U n="weather_start_event">
+          <U n="duration">
+            <T n="lower_bound">6</T>
+            <T n="upper_bound">8</T>
+          </U>
+          <T n="weather_event">182365<!--weather_Rain_Light_Warm--></T>
+        </U>
+      </V>
+    </U>
+  </L>
+</I>

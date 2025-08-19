@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_IslandConservation_Cleanup_Trashpile" s="210358">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <U n="chance">
+          <T n="base_chance">40</T>
+        </U>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">15</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218626<!--collectFishLarge_EP07GENbluefinTuna (Bluefin Tuna)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218627<!--collectFishLarge_EP07GENcoralScorpion (Scorpionfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218612<!--collectFishLarge_EP07GENgoldenMahimahi (Golden Mahi Mahi)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218343<!--collectFishLarge_EP07GENmahimahi (Mahi Mahi)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218344<!--collectFishLarge_EP07GENprincessParrotfish (Parrotfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218614<!--collectFishLarge_EP07GENroyalSabrefish (Royal Sabrefish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218345<!--collectFishLarge_EP07GENswordfish (Swordfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218348<!--collectFishMed_EP07GENrainbowButterfly (Butterflyfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218346<!--collectFishMed_EP07GENcelestialGrouper (Celestial Grouper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218347<!--collectFishMed_EP07GENcoralLeopardShark (Leopard Shark)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77035<!--FishFreshness_Foul--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219163<!--trashGEN_01_IslandConservation_simInventory (Trash Pile)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">50</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

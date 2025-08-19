@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="Goal_NeighborhoodPotLuck_Eat" s="342079">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP15\UI\Icons\Events\EventGoal_NeighborhoodPotluck.png">2f7d0004:00000000:1c6fa82629679199</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x20FBD1E<!--Eat Potluck Food--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x5B3DD2DE<!--Eat everything! --></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="tags">
+      <E>Interaction_Consume</E>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_iterations">4</T>
+  <T n="_score">100</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

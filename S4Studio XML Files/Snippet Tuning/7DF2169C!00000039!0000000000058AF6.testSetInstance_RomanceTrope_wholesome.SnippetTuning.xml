@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_RomanceTrope_wholesome" s="363254">
+  <L n="test">
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="npc" t="enabled">
+            <T n="enabled">True</T>
+          </V>
+        </U>
+      </V>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="npc" t="enabled">
+            <T n="enabled">True</T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="relationship">
+        <U n="relationship">
+          <U n="required_relationship_bits">
+            <L n="match_all">
+              <T>362475<!--romanceTrope_wholesome--></T>
+            </L>
+          </U>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="relationship">
+        <U n="relationship">
+          <U n="prohibited_relationship_bits">
+            <L n="match_any">
+              <T>363250<!--romanceTrope_WorkingOnRomanceDynamic--></T>
+            </L>
+          </U>
+          <U n="required_relationship_bits">
+            <L n="match_any">
+              <T>362482<!--romanceTrope_NotWholesome--></T>
+            </L>
+          </U>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="relationship">
+        <U n="relationship">
+          <U n="prohibited_relationship_bits">
+            <L n="match_any">
+              <T>363250<!--romanceTrope_WorkingOnRomanceDynamic--></T>
+            </L>
+          </U>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>363091<!--buff_RomanceDynamics_RomanceTropeAdventureCooldown--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>363091<!--buff_RomanceDynamics_RomanceTropeAdventureCooldown--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="npc" t="enabled">
+            <T n="enabled">True</T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="existence">
+        <U n="existence">
+          <T n="exists">False</T>
+          <E n="participant">Actor</E>
+          <T n="require_instantiated">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="existence">
+        <U n="existence">
+          <T n="exists">False</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="relationship">
+        <U n="relationship">
+          <U n="prohibited_relationship_bits">
+            <L n="match_any">
+              <T>15816<!--romantic-Engaged--></T>
+              <T>15822<!--romantic-Married--></T>
+              <T>15825<!--romantic-Significant_Other--></T>
+              <T>274846<!--romantic-Married_Newlywed--></T>
+              <T>99429<!--romantic-Promised--></T>
+            </L>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

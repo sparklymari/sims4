@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_StarWars_Reputation_FirstOrder_Level1" s="244627">
+  <T n="icon" p="InGP09\UI\Icons\Headlines\Headline_firstOrder.png">2f7d0004:00000000:ab702678234d87da</T>
+  <T n="name">0xE5DCA533<!--First Order--></T>
+  <V n="reward_description" t="disabled" />
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <T n="buff_type">325690<!--buff_AspirationComplete_Invisible--></T>
+          </U>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244230<!--ymBody_GP09FirstOrderUniform_SolidBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244232<!--ymBody_GP09FirstOrderUniform_SolidBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244231<!--ymBody_GP09FirstOrderUniform_SolidGrayDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">243793<!--yfBody_GP09FirstOrderUniform_SolidBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">243795<!--yfBody_GP09FirstOrderUniform_SolidBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">243794<!--yfBody_GP09FirstOrderUniform_SolidGrayDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">243332<!--yuHat_GP09FirstOrder_SolidBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">243330<!--yuHat_GP09FirstOrder_SolidBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">243331<!--yuHat_GP09FirstOrder_SolidGrayDk--></T>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

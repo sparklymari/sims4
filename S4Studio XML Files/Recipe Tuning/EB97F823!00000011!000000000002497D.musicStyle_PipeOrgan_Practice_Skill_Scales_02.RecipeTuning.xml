@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_PipeOrgan_Practice_Skill_Scales_02" s="149885">
+  <L n="music_tracks">
+    <T>149719<!--musicTrack_PipeOrgan_Practice_Skill02_09_Scales--></T>
+    <T>149720<!--musicTrack_PipeOrgan_Practice_Skill02_10_Scales--></T>
+    <T>149713<!--musicTrack_PipeOrgan_Practice_Skill02_11_Scales--></T>
+    <T>149718<!--musicTrack_PipeOrgan_Practice_Skill02_12_Scales--></T>
+    <T>149717<!--musicTrack_PipeOrgan_Practice_Skill02_13_Scales--></T>
+    <T>149714<!--musicTrack_PipeOrgan_Practice_Skill02_14_Scales--></T>
+    <T>149715<!--musicTrack_PipeOrgan_Practice_Skill02_15_Scales--></T>
+    <T>149716<!--musicTrack_PipeOrgan_Practice_Skill02_16_Scales--></T>
+  </L>
+</I>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Object_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused" s="236456">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x4BE1B5FF<!--(From Drinking Fizzy Juice or Seltzer)--></T>
+          </V>
+          <T n="buff_type">236561<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_PassedOut--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236419<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_6--></T>
+                    <T>236416<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_6--></T>
+                    <T>236423<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_6--></T>
+                    <T>236435<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_6--></T>
+                    <T>236377<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_6--></T>
+                    <T>236431<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_6--></T>
+                    <T>236439<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_6--></T>
+                    <T>236624<!--buff_JuiceFizzer_DrinkEffects_Suspicious_DangerouslyFizzy--></T>
+                    <T>236623<!--buff_JuiceFizzer_DrinkEffects_Suspicious_HorriblyFizzy--></T>
+                    <T>315782<!--buff_Object_RanchNectar_MoodEffects_Confident_6--></T>
+                    <T>315786<!--buff_Object_RanchNectar_MoodEffects_Energized_6--></T>
+                    <T>315790<!--buff_Object_RanchNectar_MoodEffects_Flirty_6--></T>
+                    <T>315794<!--buff_Object_RanchNectar_MoodEffects_Happy_6--></T>
+                    <T>315798<!--buff_Object_RanchNectar_MoodEffects_Inspired_6--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>236417<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_1--></T>
+          <T>236418<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_3--></T>
+          <T>236419<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_6--></T>
+          <T>236414<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_1--></T>
+          <T>236415<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_3--></T>
+          <T>236416<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_6--></T>
+          <T>236421<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_1--></T>
+          <T>236422<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_3--></T>
+          <T>236423<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_6--></T>
+          <T>236433<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_1--></T>
+          <T>236434<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_3--></T>
+          <T>236435<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_6--></T>
+          <T>236372<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_1--></T>
+          <T>236375<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_3--></T>
+          <T>236377<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_6--></T>
+          <T>236429<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_1--></T>
+          <T>236430<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_3--></T>
+          <T>236431<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_6--></T>
+          <T>236437<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_1--></T>
+          <T>236438<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_3--></T>
+          <T>236439<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_6--></T>
+          <T>236624<!--buff_JuiceFizzer_DrinkEffects_Suspicious_DangerouslyFizzy--></T>
+          <T>236623<!--buff_JuiceFizzer_DrinkEffects_Suspicious_HorriblyFizzy--></T>
+          <T>236622<!--buff_JuiceFizzer_DrinkEffects_Suspicious_WeirdlyFizzy--></T>
+          <T>315780<!--buff_Object_RanchNectar_MoodEffects_Confident_1--></T>
+          <T>315781<!--buff_Object_RanchNectar_MoodEffects_Confident_3--></T>
+          <T>315782<!--buff_Object_RanchNectar_MoodEffects_Confident_6--></T>
+          <T>315784<!--buff_Object_RanchNectar_MoodEffects_Energized_1--></T>
+          <T>315785<!--buff_Object_RanchNectar_MoodEffects_Energized_3--></T>
+          <T>315786<!--buff_Object_RanchNectar_MoodEffects_Energized_6--></T>
+          <T>315788<!--buff_Object_RanchNectar_MoodEffects_Flirty_1--></T>
+          <T>315789<!--buff_Object_RanchNectar_MoodEffects_Flirty_3--></T>
+          <T>315790<!--buff_Object_RanchNectar_MoodEffects_Flirty_6--></T>
+          <T>315792<!--buff_Object_RanchNectar_MoodEffects_Happy_1--></T>
+          <T>315793<!--buff_Object_RanchNectar_MoodEffects_Happy_3--></T>
+          <T>315794<!--buff_Object_RanchNectar_MoodEffects_Happy_6--></T>
+          <T>315796<!--buff_Object_RanchNectar_MoodEffects_Inspired_1--></T>
+          <T>315797<!--buff_Object_RanchNectar_MoodEffects_Inspired_3--></T>
+          <T>315798<!--buff_Object_RanchNectar_MoodEffects_Inspired_6--></T>
+          <T>323632<!--buff_Object_RanchNectar_MoodEffects_Happy_2--></T>
+          <T>323633<!--buff_Object_RanchNectar_MoodEffects_Happy_4--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236561<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_PassedOut--></T>
+                    <T>323417<!--buff_Object_RanchNectar_PassedOut--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">236627<!--juiceFizzer_HorribleOrDangerous_PreviousWeirdlyFizzy--></T>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x4BE1B5FF<!--(From Drinking Fizzy Juice or Seltzer)--></T>
+          </V>
+          <T n="buff_type">236435<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_6--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236418<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_3--></T>
+                    <T>236415<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_3--></T>
+                    <T>236422<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_3--></T>
+                    <T>236434<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_3--></T>
+                    <T>236375<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_3--></T>
+                    <T>236430<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_3--></T>
+                    <T>236438<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_3--></T>
+                    <T>315785<!--buff_Object_RanchNectar_MoodEffects_Energized_3--></T>
+                    <T>315789<!--buff_Object_RanchNectar_MoodEffects_Flirty_3--></T>
+                    <T>315793<!--buff_Object_RanchNectar_MoodEffects_Happy_3--></T>
+                    <T>315797<!--buff_Object_RanchNectar_MoodEffects_Inspired_3--></T>
+                    <T>315781<!--buff_Object_RanchNectar_MoodEffects_Confident_3--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>236417<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_1--></T>
+          <T>236418<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_3--></T>
+          <T>236414<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_1--></T>
+          <T>236415<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_3--></T>
+          <T>236421<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_1--></T>
+          <T>236422<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_3--></T>
+          <T>236434<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_3--></T>
+          <T>236433<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_1--></T>
+          <T>236372<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_1--></T>
+          <T>236375<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_3--></T>
+          <T>236429<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_1--></T>
+          <T>236430<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_3--></T>
+          <T>236437<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_1--></T>
+          <T>236438<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_3--></T>
+          <T>236624<!--buff_JuiceFizzer_DrinkEffects_Suspicious_DangerouslyFizzy--></T>
+          <T>236623<!--buff_JuiceFizzer_DrinkEffects_Suspicious_HorriblyFizzy--></T>
+          <T>236622<!--buff_JuiceFizzer_DrinkEffects_Suspicious_WeirdlyFizzy--></T>
+          <T>315780<!--buff_Object_RanchNectar_MoodEffects_Confident_1--></T>
+          <T>315781<!--buff_Object_RanchNectar_MoodEffects_Confident_3--></T>
+          <T>315784<!--buff_Object_RanchNectar_MoodEffects_Energized_1--></T>
+          <T>315785<!--buff_Object_RanchNectar_MoodEffects_Energized_3--></T>
+          <T>315788<!--buff_Object_RanchNectar_MoodEffects_Flirty_1--></T>
+          <T>315789<!--buff_Object_RanchNectar_MoodEffects_Flirty_3--></T>
+          <T>315792<!--buff_Object_RanchNectar_MoodEffects_Happy_1--></T>
+          <T>315793<!--buff_Object_RanchNectar_MoodEffects_Happy_3--></T>
+          <T>315796<!--buff_Object_RanchNectar_MoodEffects_Inspired_1--></T>
+          <T>315797<!--buff_Object_RanchNectar_MoodEffects_Inspired_3--></T>
+          <T>323632<!--buff_Object_RanchNectar_MoodEffects_Happy_2--></T>
+          <T>323633<!--buff_Object_RanchNectar_MoodEffects_Happy_4--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236435<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_6--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x4BE1B5FF<!--(From Drinking Fizzy Juice or Seltzer)--></T>
+          </V>
+          <T n="buff_type">236434<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_3--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236417<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_1--></T>
+                    <T>236414<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_1--></T>
+                    <T>236421<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_1--></T>
+                    <T>236433<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_1--></T>
+                    <T>236372<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_1--></T>
+                    <T>236429<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_1--></T>
+                    <T>236437<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_1--></T>
+                    <T>315784<!--buff_Object_RanchNectar_MoodEffects_Energized_1--></T>
+                    <T>315788<!--buff_Object_RanchNectar_MoodEffects_Flirty_1--></T>
+                    <T>315792<!--buff_Object_RanchNectar_MoodEffects_Happy_1--></T>
+                    <T>315796<!--buff_Object_RanchNectar_MoodEffects_Inspired_1--></T>
+                    <T>315780<!--buff_Object_RanchNectar_MoodEffects_Confident_1--></T>
+                    <T>323632<!--buff_Object_RanchNectar_MoodEffects_Happy_2--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>236417<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_1--></T>
+          <T>236414<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_1--></T>
+          <T>236421<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_1--></T>
+          <T>236433<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_1--></T>
+          <T>236372<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_1--></T>
+          <T>236429<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_1--></T>
+          <T>236437<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_1--></T>
+          <T>315784<!--buff_Object_RanchNectar_MoodEffects_Energized_1--></T>
+          <T>315788<!--buff_Object_RanchNectar_MoodEffects_Flirty_1--></T>
+          <T>315792<!--buff_Object_RanchNectar_MoodEffects_Happy_1--></T>
+          <T>315796<!--buff_Object_RanchNectar_MoodEffects_Inspired_1--></T>
+          <T>315780<!--buff_Object_RanchNectar_MoodEffects_Confident_1--></T>
+          <T>323632<!--buff_Object_RanchNectar_MoodEffects_Happy_2--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236434<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_3--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x4BE1B5FF<!--(From Drinking Fizzy Juice or Seltzer)--></T>
+          </V>
+          <T n="buff_type">236433<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_1--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <L n="blacklist">
+                  <T>236417<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_1--></T>
+                  <T>236418<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_3--></T>
+                  <T>236419<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Confident_6--></T>
+                  <T>236414<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_1--></T>
+                  <T>236415<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_3--></T>
+                  <T>236416<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Energized_6--></T>
+                  <T>236421<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_1--></T>
+                  <T>236422<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_3--></T>
+                  <T>236423<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Flirty_6--></T>
+                  <T>236433<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_1--></T>
+                  <T>236434<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_3--></T>
+                  <T>236435<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Focused_6--></T>
+                  <T>236372<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_1--></T>
+                  <T>236375<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_3--></T>
+                  <T>236377<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Happy_6--></T>
+                  <T>236429<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_1--></T>
+                  <T>236430<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_3--></T>
+                  <T>236431<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Inspired_6--></T>
+                  <T>236437<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_1--></T>
+                  <T>236438<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_3--></T>
+                  <T>236439<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_Playful_6--></T>
+                  <T>236561<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_PassedOut--></T>
+                  <T>236624<!--buff_JuiceFizzer_DrinkEffects_Suspicious_DangerouslyFizzy--></T>
+                  <T>236623<!--buff_JuiceFizzer_DrinkEffects_Suspicious_HorriblyFizzy--></T>
+                  <T>236622<!--buff_JuiceFizzer_DrinkEffects_Suspicious_WeirdlyFizzy--></T>
+                  <T>315781<!--buff_Object_RanchNectar_MoodEffects_Confident_3--></T>
+                  <T>315782<!--buff_Object_RanchNectar_MoodEffects_Confident_6--></T>
+                  <T>315784<!--buff_Object_RanchNectar_MoodEffects_Energized_1--></T>
+                  <T>315785<!--buff_Object_RanchNectar_MoodEffects_Energized_3--></T>
+                  <T>315786<!--buff_Object_RanchNectar_MoodEffects_Energized_6--></T>
+                  <T>315788<!--buff_Object_RanchNectar_MoodEffects_Flirty_1--></T>
+                  <T>315789<!--buff_Object_RanchNectar_MoodEffects_Flirty_3--></T>
+                  <T>315790<!--buff_Object_RanchNectar_MoodEffects_Flirty_6--></T>
+                  <T>315792<!--buff_Object_RanchNectar_MoodEffects_Happy_1--></T>
+                  <T>315793<!--buff_Object_RanchNectar_MoodEffects_Happy_3--></T>
+                  <T>315794<!--buff_Object_RanchNectar_MoodEffects_Happy_6--></T>
+                  <T>315796<!--buff_Object_RanchNectar_MoodEffects_Inspired_1--></T>
+                  <T>315780<!--buff_Object_RanchNectar_MoodEffects_Confident_1--></T>
+                  <T>315797<!--buff_Object_RanchNectar_MoodEffects_Inspired_3--></T>
+                  <T>315798<!--buff_Object_RanchNectar_MoodEffects_Inspired_6--></T>
+                  <T>323632<!--buff_Object_RanchNectar_MoodEffects_Happy_2--></T>
+                  <T>323633<!--buff_Object_RanchNectar_MoodEffects_Happy_4--></T>
+                </L>
+                <V n="whitelist" t="disabled" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>236623<!--buff_JuiceFizzer_DrinkEffects_Suspicious_HorriblyFizzy--></T>
+          <T>236624<!--buff_JuiceFizzer_DrinkEffects_Suspicious_DangerouslyFizzy--></T>
+          <T>236622<!--buff_JuiceFizzer_DrinkEffects_Suspicious_WeirdlyFizzy--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236561<!--buff_JuiceFizzer_DrinkEffects_JuiceAndSeltzer_PassedOut--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>236622<!--buff_JuiceFizzer_DrinkEffects_Suspicious_WeirdlyFizzy--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>236624<!--buff_JuiceFizzer_DrinkEffects_Suspicious_DangerouslyFizzy--></T>
+                    <T>236623<!--buff_JuiceFizzer_DrinkEffects_Suspicious_HorriblyFizzy--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

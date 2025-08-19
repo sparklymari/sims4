@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Werewolf_Scavenger_DigSpot" s="292383">
+  <V n="_luck_tuning" t="enabled">
+    <U n="enabled">
+      <L n="loot_actions">
+        <T>471525<!--loot_LuckSys_ImpactOnAction_Collectibles_RWL--></T>
+      </L>
+    </U>
+  </V>
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310642<!--collectRelicMedium_GP12GENheadBone_set1 (Tamed Cowplant Skull)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.8</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310641<!--collectRelicMedium_GP12GENjawBone_set1 (Tamed Cowplant Jawbone)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.8</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310643<!--collectRelicMedium_GP12GENtablet01_set1 (Myshupotamian Tablet: Wise Wolfman)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.6</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">313178<!--collectRelicMedium_GP12GENtablet02_set1 (Myshupotamian Tablet: Cowplant Taming)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.6</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310634<!--collectRelicMedium_GP12GENwolfFigurine01_set1 (Canine Familiar Figurine: "Brutus")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.6</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310635<!--collectRelicMedium_GP12GENwolfFigurine02_set1 (Canine Familiar Figurine: "Renga")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.4</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310636<!--collectRelicMedium_GP12GENwolfFigurine03_set1 (Canine Familiar Figurine: "Verity")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.4</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310637<!--collectRelicMedium_GP12GENwolfFigurine04_set1 (Canine Familiar Figurine: "Gibby")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.6</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310645<!--collectRelicSmall_GP12GENpot01_set1 (Mooncaster Pot Shard: "Learning")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.8</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">311044<!--collectRelicSmall_GP12GENpot02_set1 (Mooncaster Pot Shard: "Turning")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.6</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">311045<!--collectRelicSmall_GP12GENpot03_set1 (Mooncaster Pot Shard: "Planting")--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.6</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP12\Audio\bumpers\bumper_gp12_werewolf_lore_relic_found.propx">39b2aa4a:00000000:b43670eaedb39231</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310640<!--collectRelicSmall_GP12GENpot04_set1 (Mooncaster Pot Lid)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.4</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">309814<!--drinkTumblerShrt_GP12GENcure (Wolf-B-Gone)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.01</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310083<!--book_GP12GENsecret_set1 (A History of Moonwood Mill)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310081<!--bookThin_GP12GENwereMagazine_set1 (WE’RE Living Magazine)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">312499<!--book_GP12GENsecret_set2 (An Insider’s Guide to Being a Werewolf)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="resource_key">
+                    <U n="resource_key">
+                      <T n="key" p="InGP12\UI\Icons\Headlines\headline_Scavenger.png">2f7d0004:00000000:8df30dc909b1a188</T>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x17F0B8E1<!--{0.SimFirstName} found something while scavenging! \n{2.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">312500<!--book_GP12GENsecret_set3 (The Diary of Greggorius Lunvik)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+</I>

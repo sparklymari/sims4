@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Reaping_Soothe" s="392523">
+  <T n="_cancel_on_travel">True</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_convivial.png">2f7d0004:00000000:e5c5b8e3365490af</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0xB3BD3AD9<!--Soothe Witness--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x2F797D0B<!--Locate a Witness Sim nearby and Soothe.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>393734<!--mixer_social_ReaperCareer_Soothe--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_score">5</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

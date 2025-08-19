@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000006A">
+  <Instances>
+    <I name="object_SP65Appliance_Microwave_Set1" schema="GameObject" type="Object">
+      <U name="_components" schema="TunableTuple">
+        <V name="object_relationships" variant="0xC1A03855" />
+      </U>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="GameObject" schema_hash="0x1E75924B">
+      <Columns>
+        <Column name="_components" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableTuple" schema_hash="0x63A92969">
+      <Columns>
+        <Column name="object_relationships" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

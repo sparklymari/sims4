@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Apothecary_ApothecaryIngredients_Create_All_Debug" s="442946">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">False</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">462796<!--ingredientApothecary_EP19GENacorn_set1 ({S.Acorn}{P.Acorns})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">False</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">462797<!--ingredientApothecary_EP19GENauraPetal_set1 ({S.Aura Petal}{P.Aura Petals})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">False</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">462798<!--ingredientApothecary_EP19GENbones_set1 ({S.Small Critter Bone}{P.Small Critter Bones})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">462799<!--ingredientApothecary_EP19GENlightningRootLeaf_set1 ({S.Lightning Root Leaf}{P.Lightning Root Leaves})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">462810<!--ingredientApothecary_EP19GENmoss_set1 ({S.Lump of Moss}{P.Lumps of Moss})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472071<!--drinkSerum_EP19GENbottledEmotion_angry_set10 ({S.Angry Emotion Potion}{P.Angry Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472078<!--drinkSerum_EP19GENbottledEmotion_bored_set11 ({S.Bored Emotion Potion}{P.Bored Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472077<!--drinkSerum_EP19GENbottledEmotion_confident_set12 ({S.Confident Emotion Potion}{P.Confident Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472069<!--drinkSerum_EP19GENbottledEmotion_embarrassed_set13 ({S.Embarrassed Emotion Potion}{P.Embarrassed Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472074<!--drinkSerum_EP19GENbottledEmotion_energized_set5 ({S.Energized Emotion Potion}{P.Energized Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472076<!--drinkSerum_EP19GENbottledEmotion_flirty_set6 ({S.Flirty Emotion Potion}{P.Flirty Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472073<!--drinkSerum_EP19GENbottledEmotion_focused_set7 ({S.Focused Emotion Potion}{P.Focused Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">462892<!--drinkSerum_EP19GENbottledEmotion_happy_set1 ({S.Happy Emotion Potion}{P.Happy Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472072<!--drinkSerum_EP19GENbottledEmotion_inspired_set4 ({S.Inspired Emotion Potion}{P.Inspired Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472075<!--drinkSerum_EP19GENbottledEmotion_playful_set8 ({S.Playful Emotion Potion}{P.Playful Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472067<!--drinkSerum_EP19GENbottledEmotion_sad_set2 ({S.Sad Emotion Potion}{P.Sad Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472070<!--drinkSerum_EP19GENbottledEmotion_scared_set9 ({S.Scared Emotion Potion}{P.Scared Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">472068<!--drinkSerum_EP19GENbottledEmotion_tense_set3 ({S.Tense Emotion Potion}{P.Tense Emotion Potions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">5</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

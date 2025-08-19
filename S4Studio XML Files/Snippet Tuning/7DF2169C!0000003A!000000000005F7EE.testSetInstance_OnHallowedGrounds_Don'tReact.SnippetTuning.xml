@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_OnHallowedGrounds_Don'tReact" s="391150">
+  <L n="test">
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>383203<!--trait_Skeptical--></T>
+            <T>381402<!--trait_IsGhost--></T>
+            <T>379635<!--trait_Macabre--></T>
+            <T>253268<!--trait_Brave--></T>
+            <T>175972<!--trait_Hidden_Skeleton--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

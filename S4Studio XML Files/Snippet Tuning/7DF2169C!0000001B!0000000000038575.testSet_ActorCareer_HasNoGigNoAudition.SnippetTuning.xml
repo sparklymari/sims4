@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_ActorCareer_HasNoGigNoAudition" s="230773">
+  <L n="test">
+    <L>
+      <V t="career_gig_test">
+        <U n="career_gig_test">
+          <T n="career">189135<!--career_Adult_Active_ActorCareer--></T>
+          <T n="negate">True</T>
+        </U>
+      </V>
+      <V t="drama_node">
+        <U n="drama_node">
+          <L n="drama_nodes">
+            <T>194462<!--runAffordanceDramaNode_ActorCareer_Auditions_Commercial_Hospital--></T>
+            <T>194461<!--runAffordanceDramaNode_ActorCareer_Auditions_Commercial_HouseNice--></T>
+            <T>194463<!--runAffordanceDramaNode_ActorCareer_Auditions_Commercial_Kids--></T>
+            <T>193028<!--runAffordanceDramaNode_ActorCareer_Auditions_Commercial_Pirate--></T>
+            <T>194464<!--runAffordanceDramaNode_ActorCareer_Auditions_Commercial_Western--></T>
+            <T>194466<!--runAffordanceDramaNode_ActorCareer_Auditions_Movie_City--></T>
+            <T>194467<!--runAffordanceDramaNode_ActorCareer_Auditions_Movie_Medieval--></T>
+            <T>194468<!--runAffordanceDramaNode_ActorCareer_Auditions_Movie_Pirate--></T>
+            <T>194469<!--runAffordanceDramaNode_ActorCareer_Auditions_Movie_Superhero--></T>
+            <T>194470<!--runAffordanceDramaNode_ActorCareer_Auditions_Movie_Victorian--></T>
+            <T>194465<!--runAffordanceDramaNode_ActorCareer_Auditions_Movie_Western--></T>
+            <T>194475<!--runAffordanceDramaNode_ActorCareer_Auditions_TVHigh_Apocalypse--></T>
+            <T>194473<!--runAffordanceDramaNode_ActorCareer_Auditions_TVHigh_Hospital--></T>
+            <T>194474<!--runAffordanceDramaNode_ActorCareer_Auditions_TVHigh_Police--></T>
+            <T>194472<!--runAffordanceDramaNode_ActorCareer_Auditions_TVHigh_Victorian--></T>
+            <T>194471<!--runAffordanceDramaNode_ActorCareer_Auditions_TVHigh_Western--></T>
+            <T>194477<!--runAffordanceDramaNode_ActorCareer_Auditions_TVLow_HouseLow--></T>
+            <T>194479<!--runAffordanceDramaNode_ActorCareer_Auditions_TVLow_HouseNice--></T>
+            <T>194476<!--runAffordanceDramaNode_ActorCareer_Auditions_TVLow_Kids--></T>
+            <T>194478<!--runAffordanceDramaNode_ActorCareer_Auditions_TVLow_Pirate--></T>
+            <T>194480<!--runAffordanceDramaNode_ActorCareer_Auditions_TVLow_Western--></T>
+          </L>
+          <T n="exists">False</T>
+          <V n="receiver_sim" t="enabled">
+            <E n="enabled">Actor</E>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

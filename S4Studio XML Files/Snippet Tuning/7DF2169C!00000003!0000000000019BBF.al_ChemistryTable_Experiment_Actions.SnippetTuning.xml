@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="al_ChemistryTable_Experiment_Actions" s="105407">
+  <L n="value">
+    <T>105399<!--mixer_ChemistryLab_AddChemical--></T>
+    <T>105400<!--mixer_ChemistryLab_AddIngredient--></T>
+    <T>105401<!--mixer_ChemistryLab_Boil--></T>
+    <T>105402<!--mixer_ChemistryLab_Electrify--></T>
+    <T>105403<!--mixer_ChemistryLab_Explosions--></T>
+    <T>105405<!--mixer_ChemistryLab_Shake--></T>
+    <T>105406<!--mixer_ChemistryLab_Taste--></T>
+    <T>105404<!--mixer_ChemistryLab_Zap--></T>
+    <T>114578<!--mixer_ChemistryLab_Idle--></T>
+    <T>116601<!--mixer_ChemistryLab_FizzyExplosion--></T>
+  </L>
+</I>

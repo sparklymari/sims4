@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Pause_Droids_Routing" s="244769">
+  <L n="value">
+    <T>234274<!--Droid_Socials_Ask_About_Batuu--></T>
+    <T>234275<!--Droid_Socials_Complain_About_First_Order--></T>
+    <T>234276<!--Droid_Socials_Complain_About_Resistance--></T>
+    <T>234179<!--Droid_Socials_Compliment_Droid--></T>
+    <T>242904<!--droid_Socials_Discuss_Prefered_Schematics--></T>
+    <T>242909<!--droid_Socials_Discuss_Sabacc_Strategy--></T>
+    <T>234278<!--Droid_Socials_Enthuse_About_First_Order--></T>
+    <T>234277<!--Droid_Socials_Enthuse_About_Resistance--></T>
+    <T>242908<!--droid_Socials_Joke_About_Droids_Programming--></T>
+    <T>242903<!--droid_Socials_Joke_About_Protocol_Droids--></T>
+    <T>234177<!--Droid_Socials_Scold--></T>
+    <T>242854<!--droid_Upgrade_Pilot_Computer_Integration_Chip--></T>
+    <T>242859<!--droid_Upgrade_Pilot_Computer_Integration_Chip_Resume--></T>
+    <T>242864<!--droid_Upgrade_Pilot_Interstellar_Navigation_Schematics--></T>
+    <T>242866<!--droid_Upgrade_Pilot_Interstellar_Navigation_Schematics_Resume--></T>
+    <T>242853<!--droid_Upgrade_Protocol_Aural_Sensor_Translator--></T>
+    <T>242871<!--droid_Upgrade_Protocol_Aural_Sensor_Translator_Resume--></T>
+    <T>242877<!--droid_Upgrade_Protocol_Personality_Matrix--></T>
+    <T>242879<!--droid_Upgrade_Protocol_Personality_Matrix_Resume--></T>
+    <T>242852<!--droid_Upgrade_Scout_Integrated_Surveillance_Processor--></T>
+    <T>242881<!--droid_Upgrade_Scout_Integrated_Surveillance_Processor_Resume--></T>
+    <T>242887<!--droid_Upgrade_Scout_Physics_Processor--></T>
+    <T>242889<!--droid_Upgrade_Scout_Physics_Processor_Resume--></T>
+    <T>234140<!--Droid_Replace_Personality_Chip--></T>
+    <T>242339<!--droid_BB_DeActivate--></T>
+    <T>242915<!--droid_Home_Tinker_With--></T>
+    <T>230818<!--droid_BB_Follow--></T>
+  </L>
+</I>

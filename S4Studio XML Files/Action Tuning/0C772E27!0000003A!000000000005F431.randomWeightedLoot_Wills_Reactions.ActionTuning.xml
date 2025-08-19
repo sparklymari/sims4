@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Wills_Reactions" s="390193">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389075<!--buff_Wills_Emotion_Angry--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <E n="subject">Actor</E>
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14632<!--Mood_Angry--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389079<!--buff_Wills_Emotion_Bored--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14633<!--Mood_Bored--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389080<!--buff_Wills_Emotion_Embarrassed--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14635<!--Mood_Embarrassed--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389081<!--buff_Wills_Emotion_Flirty--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14638<!--Mood_Flirty--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389078<!--buff_Wills_Emotion_Happy--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14640<!--Mood_Happy--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389112<!--buff_Wills_Emotion_Inspired--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14641<!--Mood_Inspired--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389113<!--buff_Wills_Emotion_Playful--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14642<!--Mood_Playful--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389114<!--buff_Wills_Emotion_Sad--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14643<!--Mood_Sad--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDA623230<!--(From Will Reading)--></T>
+            </V>
+            <T n="buff_type">389115<!--buff_Wills_Emotion_Tense--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="will">
+                  <U n="will">
+                    <V n="test_type" t="sim_will_mood">
+                      <U n="sim_will_mood">
+                        <T n="mood">14645<!--Mood_Stressed--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Werewolf_AllowedOnGreg_Default" s="293991">
+  <L n="value">
+    <T>27173<!--Idle_Chatting_STC--></T>
+    <T>13998<!--sim_Chat--></T>
+    <T>13991<!--sim_BeAffectionate--></T>
+    <T>202635<!--si_Touching_TwoSim_Generic--></T>
+    <T>287764<!--mixer_social_Fight_targeted_mean_SimToWerewolf--></T>
+    <T>290816<!--mixer_social_Fight_targeted_mean_SimToWerewolf_Start--></T>
+    <T>287840<!--mixer_social_Fight_targeted_mean_VampireToWerewolf_Start--></T>
+    <T>287838<!--mixer_social_Fight_targeted_mean_WerewolfToWerewolf_Start--></T>
+    <T>287770<!--social_Werewolf_Fight_Target--></T>
+    <T>287769<!--social_Werewolf_Fight_Actor_WerewolfToWerewolf--></T>
+    <T>287845<!--social_Werewolf_Fight_Actor_VampireToWerewolf_NoGarlic--></T>
+    <T>287846<!--social_Werewolf_Fight_Actor_VampireToWerewolf_WithGarlic--></T>
+    <T>287849<!--social_Werewolf_Intimidation--></T>
+    <T>286410<!--social_Werewolf_AttemptHumanCommunication--></T>
+    <T>296734<!--si_Touching_WerewolfFight_WithSim--></T>
+    <T>290133<!--social_WolfTown_Greg_AttemptToCommunicate--></T>
+  </L>
+</I>

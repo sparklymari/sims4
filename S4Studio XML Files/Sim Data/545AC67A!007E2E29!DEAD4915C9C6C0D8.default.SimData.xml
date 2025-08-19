@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Renderer.GlobalHighlightSettings" type="Object">
+      <T name="HighlightColor">1,1,1</T>
+      <T name="HighlightOpacity">0.3</T>
+      <T name="HighlightBoostColor">1,1,1</T>
+      <T name="HighlightBoostOpacity">0.7</T>
+      <T name="HighlightTintColor">1,1,1</T>
+      <T name="HighlightTintOpacity">1</T>
+      <T name="HighlightBuildBuyColor">0.8,0.5,0</T>
+      <T name="HighlightBuildBuyOpacity">0.8</T>
+      <T name="TintHighlightColor">1.2,1.2,1.2</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Renderer.GlobalHighlightSettings" schema_hash="0xDD49E18E">
+      <Columns>
+        <Column name="HighlightColor" type="Float3" flags="0x00000000" />
+        <Column name="HighlightOpacity" type="Single" flags="0x00000000" />
+        <Column name="HighlightBoostColor" type="Float3" flags="0x00000000" />
+        <Column name="HighlightBoostOpacity" type="Single" flags="0x00000000" />
+        <Column name="HighlightTintColor" type="Float3" flags="0x00000000" />
+        <Column name="HighlightTintOpacity" type="Single" flags="0x00000000" />
+        <Column name="HighlightBuildBuyColor" type="Float3" flags="0x00000000" />
+        <Column name="HighlightBuildBuyOpacity" type="Single" flags="0x00000000" />
+        <Column name="TintHighlightColor" type="Float3" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

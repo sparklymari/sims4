@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Objective" i="objective" m="event_testing.objective_tuning" n="objectives_Asp_Batuu_Prelude_Task1" s="243152">
+  <L n="completion_loot">
+    <T>273578<!--loot_Want_AspirationCompleted--></T>
+    <T>357714<!--loot_PivotalMoment_AspirationGoalComplete--></T>
+  </L>
+  <T n="display_text">0x528EB41C<!--Visit Every Neighborhood on Batuu--></T>
+  <V n="objective_completion_type" t="unique_locations">
+    <U n="unique_locations">
+      <T n="unique_locations_required_to_pass">3</T>
+    </U>
+  </V>
+  <V n="objective_test" t="zone">
+    <U n="zone">
+      <U n="zone_tests">
+        <V n="world_tests" t="enabled">
+          <U n="enabled">
+            <V n="whitelist" t="specify">
+              <U n="specify">
+                <L n="whitelist">
+                  <T>239559<!--First Order District--></T>
+                  <T>239558<!--Resistance Encampment--></T>
+                  <T>239557<!--Black Spire Outpost--></T>
+                </L>
+              </U>
+            </V>
+          </U>
+        </V>
+      </U>
+    </U>
+  </V>
+  <T n="satisfaction_points">50</T>
+  <T n="tooltip">0x1B025BD9<!--Travel to Batuu by using your phone to Take Vacation. Once on Batuu you can Travel to the different neighborhoods using the phone to get to the map.--></T>
+</I>

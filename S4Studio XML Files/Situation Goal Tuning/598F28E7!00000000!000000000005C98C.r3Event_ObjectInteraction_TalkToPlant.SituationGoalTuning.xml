@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="r3Event_ObjectInteraction_TalkToPlant" s="379276">
+  <T n="_cooldown">0</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_plantsimleaf.png">2f7d0004:00000000:798b20da9a79fbac</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x3434BB4<!--Talk to {0.Number} Plants--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0xC5908FC4<!--Select a plant in your garden and talk to it!\n\n<i>(+25 Event Points)</i>--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>13419<!--Gardening_Talk_To_Plants--></T>
+      <T>235312<!--gardening_VerticalGarden_Talk_To_Plants--></T>
+      <T>345163<!--gardening_Talk_To_Plants_MoldSystem_Ghost--></T>
+      <T>260536<!--super_GiantCrops_Plant_TalkToCrop--></T>
+      <T>265126<!--super_GiantCrops_Plant_TalkToCrop_NatureConversationalistTrait--></T>
+      <T>260738<!--gardenPlant_ChildTalk_VerticalGarden--></T>
+      <T>260405<!--gardenPlant_ChildTalk--></T>
+      <T>260464<!--gardenPlant_ToddlerTalk_Babble--></T>
+      <T>432888<!--super_PottedPlants_Gardening_TalkToPlants--></T>
+      <T>467861<!--super_Gardening_TalkToPlants_FromTrait--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_iterations">3</T>
+  <L n="_post_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+  </L>
+  <T n="_score">0</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <V n="tutorial_tip_group" t="disabled" />
+</I>

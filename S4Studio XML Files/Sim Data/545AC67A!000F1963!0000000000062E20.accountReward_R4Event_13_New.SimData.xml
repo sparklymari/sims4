@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="accountReward_R4Event_13_New" schema="AccountReward" type="Object">
+      <T name="category">0xCBBCC5E8</T>
+      <T name="image">00B2D882-00000000-CB5445DEF78A0F6C</T>
+      <L name="items">
+        <V type="Variant" variant="0x94E0249D" schema="Tunable_AspirationTrackAccountRewardItem">
+          <T name="item_resource">396862</T>
+        </V>
+      </L>
+      <T name="location_tip">0xDE1E2AF7</T>
+      <T name="reward_description">0xAE48C1C6</T>
+      <T name="reward_name">0x261C9459</T>
+      <T name="reward_thumbnail_image">00B2D882-00000000-CB5445DEF78A0F6C</T>
+      <V name="reward_timeline_image" variant="0xCA1F42EC">
+        <T type="ResourceKey">00B2D882-00000000-F2B479F04FA08ED8</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="AccountReward" schema_hash="0x808D1581">
+      <Columns>
+        <Column name="category" type="LocalizationKey" flags="0x00000000" />
+        <Column name="image" type="ResourceKey" flags="0x00000000" />
+        <Column name="items" type="Vector" flags="0x00000000" />
+        <Column name="location_tip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_thumbnail_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="reward_timeline_image" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_AspirationTrackAccountRewardItem" schema_hash="0x340D57E7">
+      <Columns>
+        <Column name="item_resource" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

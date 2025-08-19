@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_HQSabotage_ExpelGhost" s="401255">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP17\UI\Icons\Headlines\headline_GhostHeadlines.png">2f7d0004:00000000:c5730589fa2a5c1c</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x6E43D97<!--Expel Mischievous Ghost--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0xC60A45B9<!--Find the Ghost hiding in an eerily floating object and select Expel Ghost to banish them from the office.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>422817<!--social_Career_Reaper_Expel_MischieviousGhost--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_score">15</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

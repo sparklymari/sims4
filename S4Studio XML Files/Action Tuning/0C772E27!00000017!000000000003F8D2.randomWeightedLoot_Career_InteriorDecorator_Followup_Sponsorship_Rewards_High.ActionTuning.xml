@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Career_InteriorDecorator_Followup_Sponsorship_Rewards_High" s="260306">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x526093AA<!--Hello, Beautiful. You don't know me, but I've been admiring your Interior Decoration work from afar for quite some time. I think your flawless, brilliant hands would be the perfect vessel to help inspire a revived appreciation of the arts. Please accept a prized piece from my own private collection to use in any of your upcoming decoration gigs.\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">17827<!--paintWallTUD1x1x3_01_set1 (No. 46 Landscape)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">44202<!--paintWallGENScenery2x1x1_01_set1 (Martian Memories Landscape #1)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">44203<!--paintWallGENScenery2x1x1_01_set2 (Martian Memories Landscape #2)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">44204<!--paintWallGENScenery2x1x1_01_set3 (Martian Memories Landscape #3)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x50A20532<!--{0.SimFirstName}, this is your lucky day. Hi, I'm Kip from Reclamation Homeware and we'd love to encourage you to start using our classic furnishings as one of your go-to brands when you're working with Clients. As a token of our future gratitude for your support, we'd like to offer you a small gift.\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">42548<!--dresserGFMetalTrim2x1_01_set1 (The Architrave)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">14752<!--dresserC2x1_01_set1 (The Neo)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">15305<!--sculptFloorCAngular_01_set1 (The Renascent)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">14748<!--deskC2x1_01_set1 (The Recognizer)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">16532<!--diningHutchC_01_set1 (The Centurion)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">16544<!--paintWallC3x1x1_01_set1 (The Amour-propre)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x9BCB9E59<!--Here at PostRustic, we believe every kitchen and every bathroom needs a piece of PostRustic flair. We've understood this logic for a long time now, and we've been patiently waiting for the rest of the world to come to that conclusion as well. Would you be able to help PostRustic speed up that realization and start featuring our fine kitchen and bathroom décor items in your Interior Decoration jobs? Allow us to gift you a piece for free to get you started.\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">48046<!--sitLivingGFLeather_01_set1 (Crate Expectations Leather Chair)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">42943<!--bookCaseFloorGFSlanted2x1x3_01_set1 (RAW Bookshelf)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">47947<!--sculptTableGFTeapot_01_set1 (RAW Antique Teapot)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">47998<!--showerBoxGFFrame1x1_01_set1 (RAW Walk-In Shower)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x1DF45136<!--A happy kitchen is a Schmapple kitchen. Schmapple Headquarters would like to see our line of sexy, revolutionary kitchen appliances in the homes of your clients. They deserve no less than the Schmapple dream. Please consider our offer and accept this token of our appreciation. Schmapple Schmapple.\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">19584<!--microwaveDS_01_set1 (The Schmapple Micro)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">19552<!--coffeeMachineDS_01_set1 (The Schmapple Coffee)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">14756<!--fridgeDS_02_set1 (The Schmapple Fridge)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">15729<!--stoveMinorDS_01_set1 (The Schmapple Oven)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x6808763A<!--InvisiView. Why subject your clients to normal TVs when you could be revamping their space with a TV that actually improves their eyesight? Please accept this token of our gratitude with the understanding that you will most certainly be using it in one of your next interior decoration gigs.\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">40586<!--tvWallDS2x1_01_set1 (InvisiView Flat-Screen HDTV)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">40582<!--tvSurfaceDS2x1_01_set1 (InvisiView Flat Panel Tabletop TV)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0x2F0BDEA0<!--Hello, Friend. I am stunned by the beauty your decorated spaces emit. I am Edgar, an avid collector of relics that once belonged to the most breathtaking Princess Cordelia. However, as I grow older and weaker by the day, I fear that if her furnishings aren't passed down her memory may be forgotten... forever. Could you please, please keep my precious Cordelia alive by adorning the homes of future clients with these priceless furnishings? It's growing so dark. So cold. Please accept this heirloom as my last... dying... <i>ggggwwwwwggggggggghhhhhhhhn</i>\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">13336<!--sculptTableQATeaSet_01_set1 (Royal Crabtree Tea Set)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">13697<!--sculptWallQADove_01_set1 (Goldora Dove Décor)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29667<!--mirrorFloorQA_01_set1 (Captain Chaz MacFreeling Mirror)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">10536<!--sitBarstoolQA_03_set1 (Cephalopod Bar Stool with Back Support)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">3562<!--mirrorWallQA1x1x3_02_set1 (Captain Chaz MacFreeling Porthole Mirror)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">8912<!--sitDiningQA_02_set1 (Arrrmed Dining Chair)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">3297<!--paintWallQA2x1x2_03_set1 (Ode to Jazz 6: “Ghost Quartet”)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">10497<!--dresserQA2x1_01_set1 (Unmentionables Dresser)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">3298<!--paintWallQA1x1x4_01_set1 (Blue for the Blues Wall Painting  )--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">31060<!--sculptTableQAShip_01_set1 (Captain Chaz MacFreeling’s Galleon)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">1542<!--sitLoveseatQA2x1_01_set1 (Ocean’s Current Loveseat)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">1545<!--sitSofaQA3X1_01_set1 (Captain Rodrigo De Pablo Couch)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">31293<!--sculptTableQABust_01_set1 (Princess Cordelia Royal Bust)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">11486<!--deskQA2x1_01_set1 (All-Purpose Desk)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">2429<!--paintWallQA2x1x2_02_set1 (Jazz Cats: Whiskers of a Forgotten Past)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33565<!--tableDiningQA3x1_01_set1 (“Arrr Ye Eating That” Dining Table
+)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">13340<!--sculptWallQAPlates_01_set1 (Polly Wants a Plate Tree)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29663<!--diningHutchQA_01_set1 (Sea Princess Dining Hutch)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">8988<!--pedestalGENButlerCardholder_01_set1 (Bob the Butler Fancy Sculpture)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="force_family_inventory">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="audio_sting" t="enabled">
+                  <U n="enabled">
+                    <T n="audio" p="InGP10\Audio\music\bumpers\bumper_gp10_reputation_sponsorship.propx">39b2aa4a:00000000:e3141f7955ded804</T>
+                  </U>
+                </V>
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Object</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xC33098C5<!--Be classy, be spontaneous, be flexible. Be all the <i>Be's</i> with new <i>Be Modular</i> shelving. Would you make sure to spread the joy of our new flexible <i>Be Modular</i> shelving line to all of your clients by featuring our timeless functional pieces in your Decoration Gigs? Here's a taste to get you started.\n\n{2.String} can be found in the Household Inventory.\n--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                      <V t="participant_type">
+                        <U n="participant_type">
+                          <V n="objects" t="from_participant">
+                            <U n="from_participant">
+                              <E n="participant">Object</E>
+                            </U>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">268488<!--bookcaseFloorSnap1x1_GP10MODC_set1 (The Acute Floor-Placed Bookcase by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">268374<!--bookcaseFloorSnap1x1_GP10RET_set1 (The Rounded Floor-Placed Bookcase by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">268486<!--deskSnap2x1_GP10MODC_set1 (The Acute Desk made for Discerning Space Savers by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">268383<!--deskSnap2x1_GP10RET_set1 (The Rounded Desk... brought to you by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">270412<!--tvStandSnap2x1_GP10MODC_set1 (The Acute Floor TV Stand by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">273024<!--tvStandSnap2x1_GP10RET_set1 (The Rounded Floor TV Stand by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">268480<!--tvStandWallSnap2x1_GP10MODC_set1 (The Acute Wall Mounted TV Stand by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">268478<!--tvStandWallSnap2x1_GP10RET_set1 (The Rounded Wall Mounted TV Stand by Be Modular)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+</I>

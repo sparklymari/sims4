@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Gossip" s="383711">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_Gregarious.png">2f7d0004:00000000:016d27cd7207f71e</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x8BA9AC9B<!--Socialize with Coworkers--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0xE088CB5<!--Socialize with a Coworker by being Friendly or Gossiping about Grim.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordance_lists">
+      <T>163713<!--social_Mixers_Romance_NonTouching_ForReference--></T>
+      <T>163704<!--social_Mixers_Funny_NonTouching_ForReference--></T>
+      <T>163702<!--social_Mixers_Friendly_NonTouching_ForReference--></T>
+      <T>163715<!--social_Mixers_Special_NonTouching_ForReference--></T>
+      <T>163708<!--social_Mixers_Mischief_NonTouching_ForReference--></T>
+      <T>163706<!--social_Mixers_Mean_NonTouching_ForReference--></T>
+    </L>
+    <L n="tags">
+      <E>Interaction_SocialAll</E>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

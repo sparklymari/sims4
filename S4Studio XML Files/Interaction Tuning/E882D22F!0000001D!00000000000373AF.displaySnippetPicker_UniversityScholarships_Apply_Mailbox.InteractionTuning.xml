@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="DisplaySnippetPickerSuperInteraction" i="interaction" m="display_snippet_tuning" n="displaySnippetPicker_UniversityScholarships_Apply_Mailbox" s="226223">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">False</T>
+  <T n="category">219678<!--university_PieMenuCategories_Computer--></T>
+  <V n="content_score" t="disabled" />
+  <L n="continuations">
+    <L>
+      <U>
+        <T n="affordance">227904<!--Scholarships_Apply_Mailbox_PickerResultCheck--></T>
+      </U>
+    </L>
+  </L>
+  <T n="display_name">0x7C7E2248<!--Apply for Scholarships--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <U n="display_snippet_text_tokens">
+    <L n="tokens">
+      <V t="participant_type" />
+    </L>
+  </U>
+  <L n="display_snippets">
+    <U>
+      <T n="display_snippet">225369<!--university_Scholarships_Skill_AlleyCat--></T>
+      <L n="loot_on_selected">
+        <T>225876<!--loot_Scholarships_Apply_Skill_AlleyCat--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226378<!--testSet_University_Scholarships_PickerTests_Skill_AlleyCat--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226057<!--university_Scholarships_Skill_Athletics--></T>
+      <L n="loot_on_selected">
+        <T>226301<!--loot_Scholarships_Apply_Skill_Athletics--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226395<!--testSet_University_Scholarships_PickerTests_Skill_Athletics--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226064<!--university_Scholarships_Skill_BuildingTheFuture--></T>
+      <L n="loot_on_selected">
+        <T>226302<!--loot_Scholarships_Apply_Skill_BuildingTheFuture--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226398<!--testSet_University_Scholarships_PickerTests_Skill_BuildingTheFuture--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226059<!--university_Scholarships_Skill_ESport--></T>
+      <L n="loot_on_selected">
+        <T>226303<!--loot_Scholarships_Apply_Skill_ESport--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226399<!--testSet_University_Scholarships_PickerTests_Skill_ESport--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226062<!--university_Scholarships_Skill_FoodAndDrink--></T>
+      <L n="loot_on_selected">
+        <T>226304<!--loot_Scholarships_Apply_Skill_FoodAndDrink--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226400<!--testSet_University_Scholarships_PickerTests_Skill_FoodAndDrink--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226055<!--university_Scholarships_Skill_FriendOfTheAnimals--></T>
+      <L n="loot_on_selected">
+        <T>226305<!--loot_Scholarships_Apply_Skill_FriendOfTheAnimals--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226401<!--testSet_University_Scholarships_PickerTests_Skill_FriendOfTheAnimals--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226048<!--university_Scholarships_Skill_FutureStar--></T>
+      <L n="loot_on_selected">
+        <T>226306<!--loot_Scholarships_Apply_Skill_FutureStar--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226402<!--testSet_University_Scholarships_PickerTests_Skill_FutureStar--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">223420<!--university_Scholarships_Skill_TheGreatOutdoors--></T>
+      <L n="loot_on_selected">
+        <T>225875<!--loot_Scholarships_Apply_Skill_TheGreatOutdoors--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226403<!--testSet_University_Scholarships_PickerTests_Skill_TheGreatOutdoors--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226111<!--university_Scholarships_Career_SuperScout--></T>
+      <L n="loot_on_selected">
+        <T>226309<!--loot_Scholarships_Apply_Career_SuperScout--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226364<!--testSet_University_Scholarships_PickerTests_Career_SuperScout--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226112<!--university_Scholarships_Career_WorkplaceScholar--></T>
+      <L n="loot_on_selected">
+        <T>226310<!--loot_Scholarships_Apply_Career_WorkplaceScholar--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226388<!--testSet_University_Scholarships_PickerTests_Career_WorkplaceScholar--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">225366<!--university_Scholarships_Need_EducationForAll--></T>
+      <L n="loot_on_selected">
+        <T>226307<!--loot_Scholarships_Apply_Need_EducationForAll--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226439<!--testSet_University_Scholarships_PickerTests_Need_EducationForAll--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226065<!--university_Scholarships_Need_HelpingHand--></T>
+      <L n="loot_on_selected">
+        <T>226308<!--loot_Scholarships_Apply_Need_HelpingHand--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226437<!--testSet_University_Scholarships_PickerTests_Need_HelpingHand--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226138<!--university_Scholarships_World_CityLife--></T>
+      <L n="loot_on_selected">
+        <T>226323<!--loot_Scholarships_Apply_World_CityLife--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226431<!--testSet_University_Scholarships_PickerTests_World_CityLife--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226137<!--university_Scholarships_World_FameWorld--></T>
+      <L n="loot_on_selected">
+        <T>226311<!--loot_Scholarships_Apply_World_FameWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226430<!--testSet_University_Scholarships_PickerTests_World_FameWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226187<!--university_Scholarships_World_IslandWorld--></T>
+      <L n="loot_on_selected">
+        <T>226318<!--loot_Scholarships_Apply_World_IslandWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226426<!--testSet_University_Scholarships_PickerTests_World_IslandWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226190<!--university_Scholarships_World_Magic--></T>
+      <L n="loot_on_selected">
+        <T>226321<!--loot_Scholarships_Apply_World_Magic--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226422<!--testSet_University_Scholarships_PickerTests_World_Magic--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226136<!--university_Scholarships_World_Newcrest--></T>
+      <L n="loot_on_selected">
+        <T>226313<!--loot_Scholarships_Apply_World_Newcrest--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226382<!--testSet_University_Scholarships_PickerTests_World_Newcrest--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226191<!--university_Scholarships_World_NorthEurope--></T>
+      <L n="loot_on_selected">
+        <T>226322<!--loot_Scholarships_Apply_World_NorthEurope--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226429<!--testSet_University_Scholarships_PickerTests_World_NorthEurope--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226183<!--university_Scholarships_World_OasisSprings--></T>
+      <L n="loot_on_selected">
+        <T>226314<!--loot_Scholarships_Apply_World_OasisSprings--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226423<!--testSet_University_Scholarships_PickerTests_World_OasisSprings--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226186<!--university_Scholarships_World_PetWorld--></T>
+      <L n="loot_on_selected">
+        <T>226317<!--loot_Scholarships_Apply_World_PetWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226425<!--testSet_University_Scholarships_PickerTests_World_PetWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226188<!--university_Scholarships_World_Retail--></T>
+      <L n="loot_on_selected">
+        <T>226319<!--loot_Scholarships_Apply_World_Retail--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226427<!--testSet_University_Scholarships_PickerTests_World_Retail--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226185<!--university_Scholarships_World_StrangeTown--></T>
+      <L n="loot_on_selected">
+        <T>226316<!--loot_Scholarships_Apply_World_StrangeTown--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226424<!--testSet_University_Scholarships_PickerTests_World_StrangeTown--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226139<!--university_Scholarships_World_UniversityWorld--></T>
+      <L n="loot_on_selected">
+        <T>226324<!--loot_Scholarships_Apply_World_UniversityWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226432<!--testSet_University_Scholarships_PickerTests_World_UniversityWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226189<!--university_Scholarships_World_VampireWorld--></T>
+      <L n="loot_on_selected">
+        <T>226320<!--loot_Scholarships_Apply_World_VampireWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226428<!--testSet_University_Scholarships_PickerTests_World_VampireWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">226184<!--university_Scholarships_World_WillowCreek--></T>
+      <L n="loot_on_selected">
+        <T>226315<!--loot_Scholarships_Apply_World_WillowCreek--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">226421<!--testSet_University_Scholarships_PickerTests_World_WillowCreek--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">241782<!--university_Scholarships_World_EcoWorld--></T>
+      <L n="loot_on_selected">
+        <T>241785<!--loot_Scholarships_Apply_World_EcoWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">241784<!--testSet_University_Scholarships_PickerTests_World_EcoWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">294979<!--university_Scholarships_World_Summit--></T>
+      <L n="loot_on_selected">
+        <T>295178<!--loot_Scholarships_Apply_World_Summit--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">295175<!--testSet_University_Scholarships_PickerTests_World_Summit--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">294980<!--university_Scholarships_World_CottageWorld--></T>
+      <L n="loot_on_selected">
+        <T>295180<!--loot_Scholarships_Apply_World_CottageWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">295177<!--testSet_University_Scholarships_PickerTests_World_CottageWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">294981<!--university_Scholarships_World_Riviera--></T>
+      <L n="loot_on_selected">
+        <T>295179<!--loot_Scholarships_Apply_World_Riviera--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">295176<!--testSet_University_Scholarships_PickerTests_World_Riviera--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">294976<!--university_Scholarships_World_Wolftown--></T>
+      <L n="loot_on_selected">
+        <T>294977<!--loot_Scholarships_Apply_World_Wolftown--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">294975<!--testSet_University_Scholarships_PickerTests_World_Wolftown--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">299831<!--university_Scholarships_World_HighSchoolWorld--></T>
+      <L n="loot_on_selected">
+        <T>299830<!--loot_Scholarships_Apply_HighSchoolWorld--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">299832<!--testSet_University_Scholarships_PickerTests_World_HighSchoolWorld--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">348994<!--university_Scholarships_World_BayArea--></T>
+      <L n="loot_on_selected">
+        <T>349000<!--loot_Scholarships_Apply_BayArea--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">348998<!--testSet_University_Scholarships_PickerTests_World_BayArea--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">348993<!--university_Scholarships_World_EP14World--></T>
+      <L n="loot_on_selected">
+        <T>348999<!--loot_Scholarships_Apply_EP14World--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">348997<!--testSet_University_Scholarships_PickerTests_World_EP14World--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+    <U>
+      <T n="display_snippet">440724<!--university_Scholarships_World_EP19World--></T>
+      <L n="loot_on_selected">
+        <T>440723<!--loot_Scholarships_Apply_EP19World--></T>
+      </L>
+      <L n="tests">
+        <L>
+          <V t="test_set_reference">
+            <T n="test_set_reference">440725<!--testSet_University_Scholarships_PickerTests_World_EP19World--></T>
+          </V>
+        </L>
+      </L>
+    </U>
+  </L>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="item_picker">
+    <U n="item_picker">
+      <T n="min_choices">1</T>
+      <V n="title" t="enabled">
+        <T n="enabled">0x7C7E2248<!--Apply for Scholarships--></T>
+      </V>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

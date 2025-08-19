@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Role_Highschool_Active_Player_Orientation" s="276707">
+  <V n="_add_buff_on_remove" t="enabled">
+    <U n="enabled">
+      <U n="buff">
+        <T n="buff_type">285130<!--buff_Social_Media_Enable_OrientationFinished--></T>
+      </U>
+    </U>
+  </V>
+  <V n="_add_test_set" t="tests_set">
+    <L n="tests_set">
+      <L>
+        <V t="trait">
+          <U n="trait">
+            <L n="blacklist_traits">
+              <T>276765<!--trait_HighSchool_Active_HadOrientation--></T>
+            </L>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>276698<!--mixer_Social_HighSchool_Active_GetClassList--></T>
+        <T>276701<!--mixer_Social_HighSchool_Active_TalkToTeacher--></T>
+        <T>283799<!--mixer_HighSchool_Active_HSExit_Principal_Dropout--></T>
+        <T>283800<!--mixer_HighSchool_Active_HSExit_Principal_GraduateEarly--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="target_super_affordances" />
+  <T n="visible">False</T>
+</I>

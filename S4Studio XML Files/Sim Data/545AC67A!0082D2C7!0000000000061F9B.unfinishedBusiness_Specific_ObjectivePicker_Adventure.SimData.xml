@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003A">
+  <Instances>
+    <I name="unfinishedBusiness_Specific_ObjectivePicker_Adventure" schema="UnfinishedBusinessObjectivePickerSuperInteraction" type="Object">
+      <L name="objectives">
+        <T type="TableSetReference">382418</T>
+        <T type="TableSetReference">382420</T>
+        <T type="TableSetReference">382415</T>
+        <T type="TableSetReference">382424</T>
+        <T type="TableSetReference">382419</T>
+        <T type="TableSetReference">398397</T>
+        <T type="TableSetReference">382414</T>
+        <T type="TableSetReference">382428</T>
+        <T type="TableSetReference">382417</T>
+        <T type="TableSetReference">382426</T>
+        <T type="TableSetReference">382413</T>
+        <T type="TableSetReference">382416</T>
+        <T type="TableSetReference">398415</T>
+        <T type="TableSetReference">398392</T>
+        <T type="TableSetReference">415639</T>
+        <T type="TableSetReference">382422</T>
+        <T type="TableSetReference">382423</T>
+        <T type="TableSetReference">382425</T>
+        <T type="TableSetReference">382421</T>
+        <T type="TableSetReference">407269</T>
+        <T type="TableSetReference">407271</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="UnfinishedBusinessObjectivePickerSuperInteraction" schema_hash="0xB693BE76">
+      <Columns>
+        <Column name="objectives" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

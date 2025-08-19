@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_TeenRelationshipDrama_DecayCrushInRelationship" s="347734">
+  <L n="loot_actions">
+    <V t="statistics">
+      <V n="statistics" t="relationship_change">
+        <U n="relationship_change">
+          <T n="amount">-1.1</T>
+          <L n="subject">
+            <E>Listeners</E>
+          </L>
+          <L n="target_participant_type">
+            <E>Actor</E>
+          </L>
+          <T n="track">272837<!--sentimentTrack_Actor_HasCrushOn_Target_LT_generic--></T>
+        </U>
+      </V>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="relationship">
+        <U n="relationship">
+          <U n="required_relationship_bits">
+            <L n="match_any">
+              <T>15818<!--romantic-GettingMarried--></T>
+              <T>15829<!--RomanticCombo_Lovebirds--></T>
+              <T>15837<!--RomanticCombo_Lovers--></T>
+              <T>15839<!--RomanticCombo_Soulmates--></T>
+              <T>15840<!--RomanticCombo_Sweethearts--></T>
+              <T>15816<!--romantic-Engaged--></T>
+              <T>15822<!--romantic-Married--></T>
+              <T>15825<!--romantic-Significant_Other--></T>
+            </L>
+          </U>
+          <L n="subject">
+            <E>Listeners</E>
+          </L>
+          <L n="target_sim">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="socialMixers_kissing" s="26684">
+  <L n="value">
+    <T>14565<!--Wedding_BrideGroom_Kiss_Auto--></T>
+    <T>26131<!--mixer_social_FirstKiss_targeted_romance_STC--></T>
+    <T>26168<!--mixer_social_BlowAKiss_targeted_romance_highScore--></T>
+    <T>25872<!--mixer_social_SuaveKiss_targeted_romance_emotionSpecific--></T>
+    <T>25865<!--mixer_social_PassionateKiss_targeted_romance_emotionSpecific--></T>
+    <T>25873<!--mixer_social_FrenziedKiss_targeted_romance_emotionSpecific--></T>
+    <T>211844<!--mixer_social_Mermaid_KissinWater--></T>
+    <T>186374<!--mixer_social_Mistletoe_kiss--></T>
+    <T>205837<!--mixer_social_Mermaid_MerfolkKiss_targeted_alwaysOn--></T>
+    <T>214084<!--mixer_social_Mermaid_KissinWater_Mermaid--></T>
+  </L>
+</I>

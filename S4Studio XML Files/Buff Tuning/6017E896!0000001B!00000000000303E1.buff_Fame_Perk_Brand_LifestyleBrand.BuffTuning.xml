@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Fame_Perk_Brand_LifestyleBrand" s="197601">
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>195048<!--mixer_Social_LifestyleBrand_Enthuse--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="provided_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>195049<!--mixer_Social_LifestyleBrand_Chat--></T>
+      </L>
+    </U>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">194934<!--computer_LifestyleBrand_Start--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Computer</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">194936<!--computer_LifestyleBrand_Update--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Computer</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">194935<!--computer_LifestyleBrand_Stop--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Computer</E>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

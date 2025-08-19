@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="sim_ScentWith_Continuation" s="188802">
+  <V n="_saveable" t="enabled" />
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">188803<!--object_ArrangementTable_Scent--></T>
+      </U>
+    </U>
+  </V>
+  <V n="canonical_animation" t="enabled">
+    <U n="enabled">
+      <T n="factory">188803<!--object_ArrangementTable_Scent--></T>
+    </U>
+  </V>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0x115C845C<!--Adding Scent--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186838<!--flowerArrangement_State_Loot_Scent_Tulip--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186835<!--flowerArrangement_State_Loot_Scent_Begonia--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">188675<!--gardenFlower_EP05GENbegonia ({S.Begonia}{P.Begonias})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186839<!--flowerArrangement_State_Loot_Scent_BirdOfParadise--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186827<!--flowerArrangement_State_Loot_Scent_Bluebell--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186833<!--flowerArrangement_State_Loot_Scent_ChristmasRose--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">188677<!--gardenFlower_EP05GENchristmasRose ({S.Christmas Rose}{P.Christmas Roses})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186840<!--flowerArrangement_State_Loot_Scent_Chrysanthemum--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186837<!--flowerArrangement_State_Loot_Scent_Crocus--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">188679<!--gardenFlower_EP05GENcrocus ({S.Crocus}{P.Crocuses})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186828<!--flowerArrangement_State_Loot_Scent_Dahlia--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">188681<!--gardenFlower_EP05GENdahlia ({S.Dahlia}{P.Dahlias})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186826<!--flowerArrangement_State_Loot_Scent_Daisy--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186836<!--flowerArrangement_State_Loot_Scent_DeathFlower--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186831<!--flowerArrangement_State_Loot_Scent_Lily--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186834<!--flowerArrangement_State_Loot_Scent_Orchid--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186829<!--flowerArrangement_State_Loot_Scent_Rose--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186830<!--flowerArrangement_State_Loot_Scent_Snapdragon--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>186832<!--flowerArrangement_State_Loot_Scent_Snowdrop--></T>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_object">
+                    <U n="destroy_object">
+                      <V n="objects_to_destroy" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">PickedObject</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+                <T n="force_outcome_on_exit">True</T>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">188685<!--gardenFlower_EP05GENsnowdrop ({S.Snow Drop}{P.Snow Drops})--></T>
+                    </U>
+                  </V>
+                  <V n="subject_specific_tests" t="single_object">
+                    <U n="single_object">
+                      <E n="target">PickedObject</E>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified" />
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

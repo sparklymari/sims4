@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_SurgeryTable_TreatmentMixers" s="110485">
+  <L n="value">
+    <T>110397<!--mixer_surgeryTable_EggBeater--></T>
+    <T>110396<!--mixer_surgeryTable_Glue--></T>
+    <T>110398<!--mixer_surgeryTable_Grabber--></T>
+    <T>110389<!--mixer_surgeryTable_Laser--></T>
+  </L>
+</I>

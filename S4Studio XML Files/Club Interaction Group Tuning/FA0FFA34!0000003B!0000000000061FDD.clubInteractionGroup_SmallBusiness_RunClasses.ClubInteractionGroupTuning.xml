@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_SmallBusiness_RunClasses" s="401373">
+  <L n="affordances">
+    <T>396472<!--sI_HobbyClass_StartLecture_Wellness--></T>
+    <T>396454<!--sI_HobbyClass_StartLecture_RockClimbing--></T>
+    <T>396453<!--sI_HobbyClass_StartLecture_Skiing--></T>
+    <T>396452<!--sI_HobbyClass_StartLecture_Snowboarding--></T>
+    <T>396051<!--si_HobbyClass_StartLecture_Fitness--></T>
+    <T>396497<!--sI_HobbyClass_StartLecture_Bowling--></T>
+    <T>396357<!--sI_HobbyClass_StartLecture_Veterinarian--></T>
+    <T>396636<!--sI_HobbyClass_StartLecture_Equestrian--></T>
+    <T>396649<!--sI_HobbyClass_StartLecture_DogTraining--></T>
+    <T>396418<!--sI_HobbyClass_StartLecture_Knitting--></T>
+    <T>396039<!--si_HobbyClass_StartLecture_Painting--></T>
+    <T>396054<!--si_HobbyClass_StartLecture_Pottery--></T>
+    <T>396053<!--si_HobbyClass_StartLecture_Tattooing--></T>
+    <T>396515<!--sI_HobbyClass_StartLecture_Gemology--></T>
+    <T>396455<!--sI_HobbyClass_StartLecture_CrossStitch--></T>
+    <T>396052<!--si_HobbyClass_StartLecture_Photography--></T>
+    <T>396264<!--sI_HobbyClass_StartLecture_Baking--></T>
+    <T>396036<!--si_HobbyClass_StartLecture_Bartending--></T>
+    <T>396042<!--si_HobbyClass_StartLecture_GourmetCooking--></T>
+    <T>396043<!--si_HobbyClass_StartLecture_HomestyleCooking--></T>
+    <T>396387<!--sI_HobbyClass_StartLecture_JuiceFizzing--></T>
+    <T>396637<!--sI_HobbyClass_StartLecture_RanchNectar--></T>
+    <T>396378<!--sI_HobbyClass_StartLecture_Robotics--></T>
+    <T>396386<!--sI_HobbyClass_StartLecture_Fabrication--></T>
+    <T>396035<!--si_HobbyClass_StartLecture_Handiness--></T>
+    <T>396045<!--si_HobbyClass_StartLecture_Programming--></T>
+    <T>396046<!--si_HobbyClass_StartLecture_RocketScience--></T>
+    <T>396037<!--si_HobbyClass_StartLecture_VideoGaming--></T>
+    <T>396429<!--sI_HobbyClass_StartLecture_VampireLore--></T>
+    <T>396491<!--sI_HobbyClass_StartLecture_Archaeology--></T>
+    <T>396379<!--sI_HobbyClass_StartLecture_ResearchDebate--></T>
+    <T>396044<!--si_HobbyClass_StartLecture_Logic--></T>
+    <T>396040<!--si_HobbyClass_StartLecture_Writing--></T>
+    <T>401565<!--si_HobbyClass_StartLecture_Writing_HobbyMeetup--></T>
+    <T>396501<!--sI_HobbyClass_StartLecture_Medium--></T>
+    <T>396585<!--sI_HobbyClass_StartLecture_Entrepreneur--></T>
+    <T>396464<!--sI_HobbyClass_StartLecture_Thanatology--></T>
+    <T>396468<!--sI_HobbyClass_StartLecture_Herbalism--></T>
+    <T>396417<!--sI_HobbyClass_StartLecture_FlowerArranging--></T>
+    <T>396041<!--si_HobbyClass_StartLecture_Fishing--></T>
+    <T>396034<!--si_HobbyClass_StartLecture_Gardening--></T>
+    <T>396350<!--sI_HobbyClass_StartLecture_DJMixing--></T>
+    <T>396428<!--sI_HobbyClass_StartLecture_PipeOrgan--></T>
+    <T>396057<!--si_HobbyClass_StartLecture_Singing--></T>
+    <T>396406<!--sI_HobbyClass_StartLecture_Acting--></T>
+    <T>396048<!--si_HobbyClass_StartLecture_Guitar--></T>
+    <T>396049<!--si_HobbyClass_StartLecture_Piano--></T>
+    <T>396050<!--si_HobbyClass_StartLecture_Violin--></T>
+    <T>396351<!--sI_HobbyClass_StartLecture_Dancing--></T>
+    <T>396407<!--sI_HobbyClass_StartLecture_MediaProduction--></T>
+    <T>396589<!--sI_HobbyClass_StartLecture_Parenting--></T>
+    <T>396638<!--sI_HobbyClass_StartLecture_Romance--></T>
+    <T>396033<!--si_HobbyClass_StartLecture_Charisma--></T>
+    <T>396038<!--si_HobbyClass_StartLecture_Comedy--></T>
+    <T>396047<!--si_HobbyClass_StartLecture_Mischief--></T>
+    <T>396490<!--sI_HobbyClass_StartLecture_LocalCulture--></T>
+    <T>444968<!--sI_HobbyClass_StartLecture_Apothecary--></T>
+    <T>454641<!--sI_HobbyClass_StartLecture_NLS--></T>
+  </L>
+  <E n="category">HOBBIES</E>
+  <T n="category_icon" p="InEP18\UI\Icons\Clubs\Rules\clubs_rules_Classes.png">2f7d0004:00000000:bba1f9ca9af01b91</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="club_rule">False</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xB297B0AA<!--Run Lectures and Classes--></T>
+  <T n="small_business_customer_rule">False</T>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x2F2D9FCA<!--Sims will lecture using:--></T>
+        <T>0x51F08119<!--• Hobby Whiteboard--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x481E26D1<!--**DEBUG**--></T>
+  <T n="tooltip_template_negative">0x481E26D1<!--**DEBUG**--></T>
+</I>

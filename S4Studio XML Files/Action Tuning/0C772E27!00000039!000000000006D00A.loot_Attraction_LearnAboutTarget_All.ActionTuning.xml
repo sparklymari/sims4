@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Attraction_LearnAboutTarget_All" s="446474">
+  <L n="loot_actions">
+    <V t="know_other_sims_trait">
+      <U n="know_other_sims_trait">
+        <V n="notification" t="enabled">
+          <U n="enabled">
+            <V n="dialog" t="single">
+              <V n="single" t="literal">
+                <U n="literal">
+                  <V n="icon" t="enabled">
+                    <V n="enabled" t="participant">
+                      <U n="participant">
+                        <L n="participant_type">
+                          <E>TargetSim</E>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="secondary_icon" t="enabled">
+                    <V n="enabled" t="participant" />
+                  </V>
+                  <V n="text" t="single">
+                    <T n="single">0x7B31BF4A<!--{0.SimFirstName} has learned the turn ons and turn offs of {1.SimFirstName} which are: \n{2.String}--></T>
+                  </V>
+                  <V n="text_tokens" t="enabled" />
+                  <L n="ui_responses">
+                    <U>
+                      <T n="text">0xEABE5948<!--View Lessons--></T>
+                      <V n="tutorial_id" t="enabled">
+                        <T n="enabled">392731<!--tutorial_EP16_AttractionGlossary--></T>
+                      </V>
+                      <E n="ui_request">SHOW_LESSONS</E>
+                    </U>
+                  </L>
+                  <E n="visual_type">INFORMATION</E>
+                </U>
+              </V>
+            </V>
+          </U>
+        </V>
+        <T n="notification_group_preferences">True</T>
+        <V n="traits" t="specified">
+          <U n="specified">
+            <L n="potential_traits">
+              <T>365709<!--trait_Attraction_Activities_Broke_TurnOff--></T>
+              <T>365708<!--trait_Attraction_Activities_Broke_TurnOn--></T>
+              <T>365711<!--trait_Attraction_Activities_CareerMinded_TurnOff--></T>
+              <T>365710<!--trait_Attraction_Activities_CareerMinded_TurnOn--></T>
+              <T>365735<!--trait_Attraction_Activities_HighlySkilled_TurnOff--></T>
+              <T>365734<!--trait_Attraction_Activities_HighlySkilled_TurnOn--></T>
+              <T>365741<!--trait_Attraction_Activities_SelfEmployed_TurnOff--></T>
+              <T>365740<!--trait_Attraction_Activities_SelfEmployed_TurnOn--></T>
+              <T>365743<!--trait_Attraction_Activities_Slacker_TurnOff--></T>
+              <T>365742<!--trait_Attraction_Activities_Slacker_TurnOn--></T>
+              <T>365745<!--trait_Attraction_Activities_Taken_TurnOff--></T>
+              <T>365744<!--trait_Attraction_Activities_Taken_TurnOn--></T>
+              <T>365747<!--trait_Attraction_Activities_Wealthy_TurnOff--></T>
+              <T>365746<!--trait_Attraction_Activities_Wealthy_TurnOn--></T>
+              <T>363398<!--trait_Attraction_Characteristics_Ambitionless_TurnOff--></T>
+              <T>363397<!--trait_Attraction_Characteristics_Ambitionless_TurnOn--></T>
+              <T>363922<!--trait_Attraction_Characteristics_Ambitious_TurnOff--></T>
+              <T>363923<!--trait_Attraction_Characteristics_Ambitious_TurnOn--></T>
+              <T>363924<!--trait_Attraction_Characteristics_Argumentative_TurnOff--></T>
+              <T>363925<!--trait_Attraction_Characteristics_Argumentative_TurnOn--></T>
+              <T>363926<!--trait_Attraction_Characteristics_Cerebral_TurnOff--></T>
+              <T>363927<!--trait_Attraction_Characteristics_Cerebral_TurnOn--></T>
+              <T>363928<!--trait_Attraction_Characteristics_Clean_TurnOff--></T>
+              <T>363929<!--trait_Attraction_Characteristics_Clean_TurnOn--></T>
+              <T>363930<!--trait_Attraction_Characteristics_Egotistical_TurnOff--></T>
+              <T>363931<!--trait_Attraction_Characteristics_Egotistical_TurnOn--></T>
+              <T>363932<!--trait_Attraction_Characteristics_EmotionalDecisionMakers_TurnOff--></T>
+              <T>363933<!--trait_Attraction_Characteristics_EmotionalDecisionMakers_TurnOn--></T>
+              <T>363934<!--trait_Attraction_Characteristics_FamilyMotivated_TurnOff--></T>
+              <T>363935<!--trait_Attraction_Characteristics_FamilyMotivated_TurnOn--></T>
+              <T>363936<!--trait_Attraction_Characteristics_Funny_TurnOff--></T>
+              <T>363937<!--trait_Attraction_Characteristics_Funny_TurnOn--></T>
+              <T>363938<!--trait_Attraction_Characteristics_Hardworking_TurnOff--></T>
+              <T>363939<!--trait_Attraction_Characteristics_Hardworking_TurnOn--></T>
+              <T>363940<!--trait_Attraction_Characteristics_HighEnergy_TurnOff--></T>
+              <T>363941<!--trait_Attraction_Characteristics_HighEnergy_TurnOn--></T>
+              <T>363942<!--trait_Attraction_Characteristics_Homebody_TurnOff--></T>
+              <T>363943<!--trait_Attraction_Characteristics_Homebody_TurnOn--></T>
+              <T>363944<!--trait_Attraction_Characteristics_Idealist_TurnOff--></T>
+              <T>363945<!--trait_Attraction_Characteristics_Idealist_TurnOn--></T>
+              <T>363946<!--trait_Attraction_Characteristics_Messy_TurnOff--></T>
+              <T>363947<!--trait_Attraction_Characteristics_Messy_TurnOn--></T>
+              <T>363948<!--trait_Attraction_Characteristics_NatureEnthusiast_TurnOff--></T>
+              <T>363949<!--trait_Attraction_Characteristics_NatureEnthusiast_TurnOn--></T>
+              <T>363950<!--trait_Attraction_Characteristics_Optimistic_TurnOff--></T>
+              <T>363951<!--trait_Attraction_Characteristics_Optimistic_TurnOn--></T>
+              <T>363952<!--trait_Attraction_Characteristics_Pessimistic_TurnOff--></T>
+              <T>363953<!--trait_Attraction_Characteristics_Pessimistic_TurnOn--></T>
+              <T>363954<!--trait_Attraction_Characteristics_PetEnthusiast_TurnOff--></T>
+              <T>363955<!--trait_Attraction_Characteristics_PetEnthusiast_TurnOn--></T>
+              <T>405526<!--trait_Attraction_Characteristics_RomanceEnthusiast_TurnOff--></T>
+              <T>405527<!--trait_Attraction_Characteristics_RomanceEnthusiast_TurnOn--></T>
+              <T>363956<!--trait_Attraction_Characteristics_Spirited_TurnOff--></T>
+              <T>363957<!--trait_Attraction_Characteristics_Spirited_TurnOn--></T>
+              <T>363402<!--trait_Attraction_Fashion_Basics_TurnOff--></T>
+              <T>363401<!--trait_Attraction_Fashion_Basics_TurnOn--></T>
+              <T>364950<!--trait_Attraction_Fashion_Boho_TurnOff--></T>
+              <T>364951<!--trait_Attraction_Fashion_Boho_TurnOn--></T>
+              <T>373277<!--trait_Attraction_Fashion_Costumes_TurnOff--></T>
+              <T>373276<!--trait_Attraction_Fashion_Costumes_TurnOn--></T>
+              <T>364952<!--trait_Attraction_Fashion_Country_TurnOff--></T>
+              <T>364953<!--trait_Attraction_Fashion_Country_TurnOn--></T>
+              <T>364955<!--trait_Attraction_Fashion_Hipster_TurnOff--></T>
+              <T>364954<!--trait_Attraction_Fashion_Hipster_TurnOn--></T>
+              <T>364957<!--trait_Attraction_Fashion_Outdoorsy_TurnOff--></T>
+              <T>364956<!--trait_Attraction_Fashion_Outdoorsy_TurnOn--></T>
+              <T>364958<!--trait_Attraction_Fashion_Polished_TurnOff--></T>
+              <T>364959<!--trait_Attraction_Fashion_Polished_TurnOn--></T>
+              <T>364960<!--trait_Attraction_Fashion_Preppy_TurnOff--></T>
+              <T>364961<!--trait_Attraction_Fashion_Preppy_TurnOn--></T>
+              <T>364963<!--trait_Attraction_Fashion_Rocker_TurnOff--></T>
+              <T>364962<!--trait_Attraction_Fashion_Rocker_TurnOn--></T>
+              <T>364965<!--trait_Attraction_Fashion_Streetwear_TurnOff--></T>
+              <T>364964<!--trait_Attraction_Fashion_Streetwear_TurnOn--></T>
+              <T>363405<!--trait_Attraction_HairColor_Auburn_TurnOff--></T>
+              <T>363406<!--trait_Attraction_HairColor_Auburn_TurnOn--></T>
+              <T>364993<!--trait_Attraction_HairColor_Black_TurnOff--></T>
+              <T>364992<!--trait_Attraction_HairColor_Black_TurnOn--></T>
+              <T>364994<!--trait_Attraction_HairColor_Blonde_TurnOff--></T>
+              <T>364995<!--trait_Attraction_HairColor_Blonde_TurnOn--></T>
+              <T>364998<!--trait_Attraction_HairColor_Brown_TurnOff--></T>
+              <T>364999<!--trait_Attraction_HairColor_Brown_TurnOn--></T>
+              <T>364997<!--trait_Attraction_HairColor_DarkBlue_TurnOff--></T>
+              <T>364996<!--trait_Attraction_HairColor_DarkBlue_TurnOn--></T>
+              <T>365000<!--trait_Attraction_HairColor_Gray_TurnOff--></T>
+              <T>365001<!--trait_Attraction_HairColor_Gray_TurnOn--></T>
+              <T>365003<!--trait_Attraction_HairColor_Green_TurnOff--></T>
+              <T>365002<!--trait_Attraction_HairColor_Green_TurnOn--></T>
+              <T>365004<!--trait_Attraction_HairColor_HotPink_TurnOff--></T>
+              <T>365005<!--trait_Attraction_HairColor_HotPink_TurnOn--></T>
+              <T>365007<!--trait_Attraction_HairColor_Orange_TurnOff--></T>
+              <T>365006<!--trait_Attraction_HairColor_Orange_TurnOn--></T>
+              <T>365009<!--trait_Attraction_HairColor_Platinum_TurnOff--></T>
+              <T>365008<!--trait_Attraction_HairColor_Platinum_TurnOn--></T>
+              <T>365011<!--trait_Attraction_HairColor_PurplePastel_TurnOff--></T>
+              <T>365010<!--trait_Attraction_HairColor_PurplePastel_TurnOn--></T>
+              <T>365013<!--trait_Attraction_HairColor_Red_TurnOff--></T>
+              <T>365012<!--trait_Attraction_HairColor_Red_TurnOn--></T>
+              <T>365015<!--trait_Attraction_HairColor_Turquoise_TurnOff--></T>
+              <T>365014<!--trait_Attraction_HairColor_Turquoise_TurnOn--></T>
+              <T>365017<!--trait_Attraction_HairColor_White_TurnOff--></T>
+              <T>365016<!--trait_Attraction_HairColor_White_TurnOn--></T>
+              <T>363480<!--trait_Attraction_OutfitColor_Black_TurnOff--></T>
+              <T>363481<!--trait_Attraction_OutfitColor_Black_TurnOn--></T>
+              <T>365029<!--trait_Attraction_OutfitColor_Blue_TurnOff--></T>
+              <T>365028<!--trait_Attraction_OutfitColor_Blue_TurnOn--></T>
+              <T>365031<!--trait_Attraction_OutfitColor_Brown_TurnOff--></T>
+              <T>365030<!--trait_Attraction_OutfitColor_Brown_TurnOn--></T>
+              <T>365033<!--trait_Attraction_OutfitColor_Gray_TurnOff--></T>
+              <T>365032<!--trait_Attraction_OutfitColor_Gray_TurnOn--></T>
+              <T>365035<!--trait_Attraction_OutfitColor_Green_TurnOff--></T>
+              <T>365034<!--trait_Attraction_OutfitColor_Green_TurnOn--></T>
+              <T>365037<!--trait_Attraction_OutfitColor_Orange_TurnOff--></T>
+              <T>365036<!--trait_Attraction_OutfitColor_Orange_TurnOn--></T>
+              <T>365039<!--trait_Attraction_OutfitColor_Pink_TurnOff--></T>
+              <T>365038<!--trait_Attraction_OutfitColor_Pink_TurnOn--></T>
+              <T>365041<!--trait_Attraction_OutfitColor_Purple_TurnOff--></T>
+              <T>365040<!--trait_Attraction_OutfitColor_Purple_TurnOn--></T>
+              <T>365042<!--trait_Attraction_OutfitColor_Red_TurnOff--></T>
+              <T>365043<!--trait_Attraction_OutfitColor_Red_TurnOn--></T>
+              <T>365045<!--trait_Attraction_OutfitColor_White_TurnOff--></T>
+              <T>365044<!--trait_Attraction_OutfitColor_White_TurnOn--></T>
+              <T>365047<!--trait_Attraction_OutfitColor_Yellow_TurnOff--></T>
+              <T>365046<!--trait_Attraction_OutfitColor_Yellow_TurnOn--></T>
+              <T>363455<!--trait_Attraction_RomanceStyles_Affection_TurnOff--></T>
+              <T>363456<!--trait_Attraction_RomanceStyles_Affection_TurnOn--></T>
+              <T>364600<!--trait_Attraction_RomanceStyles_Flirting_TurnOff--></T>
+              <T>364601<!--trait_Attraction_RomanceStyles_Flirting_TurnOn--></T>
+              <T>364660<!--trait_Attraction_RomanceStyles_GiftGiving_TurnOff--></T>
+              <T>364661<!--trait_Attraction_RomanceStyles_GiftGiving_TurnOn--></T>
+              <T>364662<!--trait_Attraction_RomanceStyles_PhysicalIntimacy_TurnOff--></T>
+              <T>364663<!--trait_Attraction_RomanceStyles_PhysicalIntimacy_TurnOn--></T>
+              <T>364664<!--trait_Attraction_RomanceStyles_Woohoo_TurnOff--></T>
+              <T>364665<!--trait_Attraction_RomanceStyles_Woohoo_TurnOn--></T>
+              <T>377508<!--trait_Attraction_SkillArchetypes_Academic_TurnOff--></T>
+              <T>377507<!--trait_Attraction_SkillArchetypes_Academic_TurnOn--></T>
+              <T>377495<!--trait_Attraction_SkillArchetypes_Arts&Crafts_TurnOff--></T>
+              <T>377494<!--trait_Attraction_SkillArchetypes_Arts&Crafts_TurnOn--></T>
+              <T>377510<!--trait_Attraction_SkillArchetypes_Cooking_TurnOff--></T>
+              <T>377509<!--trait_Attraction_SkillArchetypes_Cooking_TurnOn--></T>
+              <T>377512<!--trait_Attraction_SkillArchetypes_DrinkMaking_TurnOff--></T>
+              <T>377511<!--trait_Attraction_SkillArchetypes_DrinkMaking_TurnOn--></T>
+              <T>377514<!--trait_Attraction_SkillArchetypes_Engineering_TurnOff--></T>
+              <T>377513<!--trait_Attraction_SkillArchetypes_Engineering_TurnOn--></T>
+              <T>377516<!--trait_Attraction_SkillArchetypes_Health&Sports_TurnOff--></T>
+              <T>377515<!--trait_Attraction_SkillArchetypes_Health&Sports_TurnOn--></T>
+              <T>377518<!--trait_Attraction_SkillArchetypes_Interpersonal_TurnOff--></T>
+              <T>377517<!--trait_Attraction_SkillArchetypes_Interpersonal_TurnOn--></T>
+              <T>377520<!--trait_Attraction_SkillArchetypes_Media&Tech_TurnOff--></T>
+              <T>377519<!--trait_Attraction_SkillArchetypes_Media&Tech_TurnOn--></T>
+              <T>377522<!--trait_Attraction_SkillArchetypes_Nature_TurnOff--></T>
+              <T>377521<!--trait_Attraction_SkillArchetypes_Nature_TurnOn--></T>
+              <T>377524<!--trait_Attraction_SkillArchetypes_Performer_TurnOff--></T>
+              <T>377523<!--trait_Attraction_SkillArchetypes_Performer_TurnOn--></T>
+              <T>377526<!--trait_Attraction_SkillArchetypes_SenseOfHumor_TurnOff--></T>
+              <T>377525<!--trait_Attraction_SkillArchetypes_SenseOfHumor_TurnOn--></T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

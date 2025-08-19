@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="whim_UnfinishedBusiness_WriteGoal" s="424189">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP17\UI\Icons\Whims\Whims_BucketList.png">2f7d0004:00000000:ff25cc067a1cd2b2</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x8FFD64D7<!--Write a Bucket List Goal--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x810FAF9<!--Using a Computer or Journal, write a Bucket List goal.--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>272907<!--goalLoot_WantFear_Fulfillment_Gain--></T>
+    <T>291795<!--goalLoot_Want_Fulfilled_BuffGain_Happy--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>380506<!--book_UnfinishedBusiness_Contemplate_Adventure--></T>
+      <T>380507<!--book_UnfinishedBusiness_Contemplate_Create--></T>
+      <T>380508<!--book_UnfinishedBusiness_Contemplate_Family--></T>
+      <T>380509<!--book_UnfinishedBusiness_Contemplate_Party--></T>
+      <T>380510<!--book_UnfinishedBusiness_Contemplate_Success--></T>
+      <T>380511<!--book_UnfinishedBusiness_Contemplate_Trait--></T>
+      <T>380512<!--book_UnfinishedBusiness_Contemplate_Travel--></T>
+      <T>380513<!--book_UnfinishedBusiness_Contemplate_Woohoo--></T>
+      <T>398375<!--book_UnfinishedBusiness_Specific_Adventure--></T>
+      <T>398376<!--book_UnfinishedBusiness_Specific_Create--></T>
+      <T>398377<!--book_UnfinishedBusiness_Specific_Family--></T>
+      <T>398378<!--book_UnfinishedBusiness_Specific_Party--></T>
+      <T>398379<!--book_UnfinishedBusiness_Specific_Success--></T>
+      <T>398380<!--book_UnfinishedBusiness_Specific_Trait--></T>
+      <T>398381<!--book_UnfinishedBusiness_Specific_Travel--></T>
+      <T>398382<!--book_UnfinishedBusiness_Specific_Woohoo--></T>
+      <T>380349<!--computer_UnfinishedBusiness_Write--></T>
+      <T>380352<!--computer_UnfinishedBusiness_Contemplate_Adventure--></T>
+      <T>380440<!--computer_UnfinishedBusiness_Contemplate_Create--></T>
+      <T>380438<!--computer_UnfinishedBusiness_Contemplate_Family--></T>
+      <T>380436<!--computer_UnfinishedBusiness_Contemplate_Party--></T>
+      <T>380439<!--computer_UnfinishedBusiness_Contemplate_Success--></T>
+      <T>380441<!--computer_UnfinishedBusiness_Contemplate_Trait--></T>
+      <T>380435<!--computer_UnfinishedBusiness_Contemplate_Travel--></T>
+      <T>380437<!--computer_UnfinishedBusiness_Contemplate_Woohoo--></T>
+      <T>398366<!--computer_UnfinishedBusiness_Specific_Adventure--></T>
+      <T>398367<!--computer_UnfinishedBusiness_Specific_Create--></T>
+      <T>398368<!--computer_UnfinishedBusiness_Specific_Family--></T>
+      <T>398369<!--computer_UnfinishedBusiness_Specific_Party--></T>
+      <T>398370<!--computer_UnfinishedBusiness_Specific_Success--></T>
+      <T>398371<!--computer_UnfinishedBusiness_Specific_Trait--></T>
+      <T>398373<!--computer_UnfinishedBusiness_Specific_Travel--></T>
+      <T>398372<!--computer_UnfinishedBusiness_Specific_Woohoo--></T>
+      <T>380443<!--book_UnfinishedBusiness_Write--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <L n="_pre_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="trait">
+      <U n="trait">
+        <L n="blacklist_traits">
+          <T>381402<!--trait_IsGhost--></T>
+          <T>377828<!--trait_MovingOn_Hidden_DreamsFulfilled--></T>
+          <T>377826<!--trait_MovingOn_Hidden_NoRegrets--></T>
+          <T>377827<!--trait_MovingOn_Hidden_QuiteAJourney--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="_score">25</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

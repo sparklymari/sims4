@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="r4Event_ObjectInteraction_SearchForShards" s="426986">
+  <T n="_cooldown">0</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Events\headline_ShardOfTimeIcon3_50x50.png">2f7d0004:00000000:80345fda2cfc2bfd</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x1E063B51<!--Search Objects for Shards of Time--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x62706B73<!--Even everyday items can contain echoes of the past.\n\nSelect Search for Shard of Time on items such as Sofas, Bookshelves, Computers, Refrigerators or maybe other objects.\n\nIf you're observant, you will find one...or three!\n\n<i>(+35 Event Points)</i>--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>426984<!--object_R4EVent_SearchForShard--></T>
+    </L>
+    <V n="interaction_outcome" t="enabled">
+      <E n="enabled">SUCCESS</E>
+    </V>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_iterations">3</T>
+  <L n="_post_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+  </L>
+  <T n="_score">0</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <V n="goal_completion_notification" t="enabled">
+    <U n="enabled">
+      <V n="icon" t="enabled">
+        <V n="enabled" t="resource_key">
+          <U n="resource_key">
+            <T n="key" p="InGame\UI\Icons\Headlines\Events\headline_ShardOfTimeIcon3_50x50.png">2f7d0004:00000000:80345fda2cfc2bfd</T>
+          </U>
+        </V>
+      </V>
+      <V n="text" t="single">
+        <T n="single">0x61C13285<!--Through research, discovery and a diligent eye {0.SimFirstName} has found more Shards of Time!\n\n{0.SimPronounSubjective} has found not one, but many. Now what? There must be some way to activate them.\n\n{0.SimFirstName} should return to Emit and show him what {0.SimPronounSubjective} uncovered!--></T>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0x7F092F87<!--All Shards Found--></T>
+      </V>
+    </U>
+  </V>
+  <V n="tutorial_tip_group" t="disabled" />
+</I>

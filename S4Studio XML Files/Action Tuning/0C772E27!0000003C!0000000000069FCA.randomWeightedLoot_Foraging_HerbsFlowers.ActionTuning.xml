@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Foraging_HerbsFlowers" s="434122">
+  <V n="_luck_tuning" t="enabled">
+    <U n="enabled">
+      <L n="loot_actions">
+        <T>452778<!--loot_LuckSys_ImpactOnAction_Foraging--></T>
+      </L>
+    </U>
+  </V>
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">465420<!--notification_ObjectReward_Foraging--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188683<!--gardenFlower_EP05GENholly ({S.Holly}{P.Hollies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">67604<!--gardenPlantFlower_GP01GENchamomile (Chamomile)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">67626<!--gardenPlantFlower_GP01GENchamomile_toxic (Toxic Chamomile)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">0.5</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>104096<!--region_Destination_CampingForest--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">-25</T>
+      </U>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.75</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">3</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">4</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">465420<!--notification_ObjectReward_Foraging--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188675<!--gardenFlower_EP05GENbegonia ({S.Begonia}{P.Begonias})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188677<!--gardenFlower_EP05GENchristmasRose ({S.Christmas Rose}{P.Christmas Roses})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188679<!--gardenFlower_EP05GENcrocus ({S.Crocus}{P.Crocuses})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188681<!--gardenFlower_EP05GENdahlia ({S.Dahlia}{P.Dahlias})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188685<!--gardenFlower_EP05GENsnowdrop ({S.Snow Drop}{P.Snow Drops})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177328<!--gardenFlower_EP04GENcatnipNormal ({S.Catnip}{P.Catnip})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177330<!--gardenFlower_EP04GENcatnipMadnip ({S.Madnip}{P.Madnip})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177332<!--gardenFlower_EP04GENcatnipNapnip ({S.Napnip}{P.Napnip})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177341<!--gardenFlower_EP04GENcatnipNuzzlenip ({S.Nuzzlenip}{P.Nuzzlenip})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">0.75</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>166547<!--region_Residential_PetWorld--></T>
+                                  </L>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">67365<!--gardenFlower_GP01GENfireleaf_toxic ({S.Poison Fireleaf}{P.Poison Fireleaves})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">0.5</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>104096<!--region_Destination_CampingForest--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">145294<!--gardenFlower_GP04wolfsbane ({S.Wolfsbane}{P.Wolfsbanes})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">0.25</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>152175<!--region_Residential_VampireWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">10</T>
+      </U>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.25</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">3</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">4</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.75</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                          <T n="upper_bound">10</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.25</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>439939<!--buff_FairyOccult_Ability_Passive_ImprovedForagingAndGathering--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">465420<!--notification_ObjectReward_Foraging--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">227209<!--gardenFruit_GP08GENvalerian ({S.Valerian Root}{P.Valerian Roots})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>216626<!--region_Residential_Magic--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">36257<!--gardenPlantFlowerGEN_birdofparadise (Bird of Paradise Plant)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">466377<!--gardenFlower_EP19GENauraBlossom_set1 ({S.Aura Blossom Seed}{P.Aura Blossom Seeds})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">466375<!--gardenFruit_EP19GENlightningRoot_set1 ({S.Lightning Root Seed}{P.Lightning Root Seeds})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">466373<!--gardenFruit_EP19GENmoodBush_set1 ({S.Moody Shrub Seed}{P.Moody Shrub Seeds})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1.25</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>421095<!--region_Residential_EP19World--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">25</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">1</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">3</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.25</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">4</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                          <T n="upper_bound">10</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.25</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>439939<!--buff_FairyOccult_Ability_Passive_ImprovedForagingAndGathering--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">452718<!--loot_FairyJourney_Foraging_Seed--></T>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">10</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">0.5</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">6</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.25</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">7</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>439939<!--buff_FairyOccult_Ability_Passive_ImprovedForagingAndGathering--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="region">
+                  <U n="region">
+                    <V n="blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>421095<!--region_Residential_EP19World--></T>
+                      </L>
+                    </V>
+                    <V n="subject" t="enabled" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

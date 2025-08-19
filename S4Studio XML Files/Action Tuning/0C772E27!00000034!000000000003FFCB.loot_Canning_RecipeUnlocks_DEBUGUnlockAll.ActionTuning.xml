@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Canning_RecipeUnlocks_DEBUGUnlockAll" s="262091">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">278924<!--foodIngredient_GENsack_sugar (Sugar)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">6</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">266633<!--egg_EP11GEN_set1_white ({S.Egg}{P.Eggs})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">4</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271852<!--drinkBottle_EP11GENmilk_set1_base ({S.Bottle of Milk}{P.Bottles of Milk})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270187<!--gardenFruitCropLarge_EP11GENPumpkin_set1 (Oversized Pumpkin)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270299<!--gardenFruitCropMedium_EP11GENPumpkin_set1 (Medium Pumpkin)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270293<!--gardenFruitCropSmall_EP11GENPumpkin_set1 (Small Pumpkin)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270291<!--gardenFruitCropSmall_EP11GENLettuce_set1 (Small Lettuce)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270297<!--gardenFruitCropMedium_EP11GENLettuce_set1 (Medium Lettuce)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270186<!--gardenFruitCropLarge_EP11GENLettuce_set1 (Oversized Lettuce)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270185<!--gardenFruitCropLarge_EP11GENAubergine_set1 (Oversized Aubergine)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270295<!--gardenFruitCropMedium_EP11GENAubergine_set1 (Medium Aubergine)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270289<!--gardenFruitCropSmall_EP11GENAubergine_set1 (Small Aubergine)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271877<!--gardenFruitCropSmall_EP11GENWatermelon_set1 (Small Watermelon)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271875<!--gardenFruitCropMedium_EP11GENWatermelon_set1 (Medium Watermelon)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271873<!--gardenFruitCropLarge_EP11GENWatermelon_set1 (Oversized Watermelon)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">283842<!--gardenFruitCropLarge_EP11GENmushroom_set1 (Oversized Mushroom)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">283840<!--gardenFruitCropMedium_EP11GENmushroom_set1 (Mushroom)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">283838<!--gardenFruitCropSmall_EP11GENmushroom_set1 (Small Mushroom)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">281906<!--gardenPlantSprout_EP11GEN_mushroomWildCharming (** DEBUG **)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">281907<!--gardenPlantSprout_EP11GEN_mushroomWildLovely (** DEBUG **)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">281908<!--gardenPlantSprout_EP11GEN_mushroomWildMysterious (** DEBUG **)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">281909<!--gardenPlantSprout_EP11GEN_mushroomWildNightly (** DEBUG **)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">281910<!--gardenPlantSprout_EP11GEN_mushroomWildSpicy (** DEBUG **)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">281911<!--gardenPlantSprout_EP11GEN_mushroomWildVerdant (** DEBUG **)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271115<!--foodJarEatSingle_EP11GENcustard (Custard)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271117<!--foodJarEatSingle_EP11GENjamApple (Apple Jam)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271127<!--foodJarEatSingle_EP11GENjamBlackberry (Blackberry Jam)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271111<!--foodJarEatSingle_EP11GENjamBlueberry (Blueberry Jam)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271125<!--foodJarEatSingle_EP11GENjamCowberry (Cowberry Jam)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271113<!--foodJarEatSingle_EP11GENjamRaspberry (Raspberry Jam)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271109<!--foodJarEatSingle_EP11GENjamStrawberry (Strawberry Jam)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271131<!--foodJarEatSingle_EP11GENmayonnaise (Mayonnaise)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">283767<!--foodJarEatSingle_EP11GENmeatSubstitute (Meat Substitute)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271123<!--foodJarEatSingle_EP11GENpreservesAubergine (Aubergine Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271121<!--foodJarEatSingle_EP11GENpreservesLettuce (Lettuce Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271135<!--foodJarEatSingle_EP11GENpreservesMushroom_set1 (Charming Mushroom Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">282489<!--foodJarEatSingle_EP11GENpreservesMushroom_set2 (Lovely Mushroom Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">282490<!--foodJarEatSingle_EP11GENpreservesMushroom_set3 (Nightly Mushroom Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">282492<!--foodJarEatSingle_EP11GENpreservesMushroom_set4 (Mushroom Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">282491<!--foodJarEatSingle_EP11GENpreservesMushroom_set5 (Spicy Mushroom Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">282493<!--foodJarEatSingle_EP11GENpreservesMushroom_set6 (Verdant Mushroom Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">282494<!--foodJarEatSingle_EP11GENpreservesMushroom_set7--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271119<!--foodJarEatSingle_EP11GENpreservesPumpkin (Pumpkin Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271146<!--foodJarEatSingle_EP11GENpreservesWatermelon (Watermelon Conserve)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271133<!--foodJarEatSingle_EP11GENsauceChocolate (Chocolate Syrup)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">271129<!--foodJarEatSingle_EP11GENsauceTomato (Tomato Sauce)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+      </U>
+    </V>
+  </L>
+</I>

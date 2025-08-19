@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_HauntedHouse_Career_Doll" s="256636">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">260866<!--sculptTableMedium_SP18RWdoll_set1 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263514<!--sculptTableMedium_SP18RWdoll_set2 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263515<!--sculptTableMedium_SP18RWdoll_set3 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263516<!--sculptTableMedium_SP18RWdoll_set4 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263835<!--sculptTableMedium_SP18RWdoll_set5 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263836<!--sculptTableMedium_SP18RWdoll_set6 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">264718<!--sculptTableMedium_SP18RWdoll_set7 (Hello Dahlia)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">0.1</T>
+      </U>
+    </U>
+  </L>
+</I>

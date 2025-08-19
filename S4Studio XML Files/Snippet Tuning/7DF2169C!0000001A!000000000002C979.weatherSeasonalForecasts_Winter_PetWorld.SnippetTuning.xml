@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherSeasonalForecasts" i="snippet" m="snippets" n="weatherSeasonalForecasts_Winter_PetWorld" s="182649">
+  <L n="value">
+    <U>
+      <E n="key">EARLY</E>
+      <T n="value">182636<!--weatherForcastList_Winter_PetWorld_Early--></T>
+    </U>
+    <U>
+      <E n="key">LATE</E>
+      <T n="value">182637<!--weatherForcastList_Winter_PetWorld_Late--></T>
+    </U>
+    <U>
+      <E n="key">MID</E>
+      <T n="value">182638<!--weatherForcastList_Winter_PetWorld_Mid--></T>
+    </U>
+  </L>
+</I>

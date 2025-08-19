@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_CottageLiving_NotebookEntry_GiantCrop" s="266688">
+  <L n="loot_actions">
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_new_entry">
+          <U n="create_new_entry">
+            <T n="notebook_entry">269832<!--notebookEntryCountryItemSansDefinition_GiantCrops_Aubergine--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270185<!--gardenFruitCropLarge_EP11GENAubergine_set1 (Oversized Aubergine)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270295<!--gardenFruitCropMedium_EP11GENAubergine_set1 (Medium Aubergine)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270289<!--gardenFruitCropSmall_EP11GENAubergine_set1 (Small Aubergine)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_new_entry">
+          <U n="create_new_entry">
+            <T n="notebook_entry">269834<!--notebookEntryCountryItemSansDefinition_GiantCrops_Lettuce--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270186<!--gardenFruitCropLarge_EP11GENLettuce_set1 (Oversized Lettuce)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270297<!--gardenFruitCropMedium_EP11GENLettuce_set1 (Medium Lettuce)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270291<!--gardenFruitCropSmall_EP11GENLettuce_set1 (Small Lettuce)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_new_entry">
+          <U n="create_new_entry">
+            <T n="notebook_entry">269835<!--notebookEntryCountryItemSansDefinition_GiantCrops_Pumpkin--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270187<!--gardenFruitCropLarge_EP11GENPumpkin_set1 (Oversized Pumpkin)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270299<!--gardenFruitCropMedium_EP11GENPumpkin_set1 (Medium Pumpkin)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">270293<!--gardenFruitCropSmall_EP11GENPumpkin_set1 (Small Pumpkin)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_new_entry">
+          <U n="create_new_entry">
+            <T n="notebook_entry">269836<!--notebookEntryCountryItemSansDefinition_GiantCrops_Watermelon--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271873<!--gardenFruitCropLarge_EP11GENWatermelon_set1 (Oversized Watermelon)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271875<!--gardenFruitCropMedium_EP11GENWatermelon_set1 (Medium Watermelon)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271877<!--gardenFruitCropSmall_EP11GENWatermelon_set1 (Small Watermelon)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_new_entry">
+          <U n="create_new_entry">
+            <T n="notebook_entry">269833<!--notebookEntryCountryItemSansDefinition_GiantCrops_GiantMushroom--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">283842<!--gardenFruitCropLarge_EP11GENmushroom_set1 (Oversized Mushroom)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">283840<!--gardenFruitCropMedium_EP11GENmushroom_set1 (Mushroom)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">283838<!--gardenFruitCropSmall_EP11GENmushroom_set1 (Small Mushroom)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

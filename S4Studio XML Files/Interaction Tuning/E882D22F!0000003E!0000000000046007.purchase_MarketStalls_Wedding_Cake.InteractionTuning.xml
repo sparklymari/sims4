@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchase_MarketStalls_Wedding_Cake" s="286727">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">False</T>
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0x89EC1430<!--Purchase Wedding Cake--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Func_Marketstalls_PurchaseNonFood</E>
+  </L>
+  <L n="loots_on_purchase">
+    <T>152038<!--loot_Buff_MarketStalls_RemoveHaggle--></T>
+    <T>281517<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set1--></T>
+    <T>281518<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set2--></T>
+    <T>281519<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set3--></T>
+    <T>281520<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set4--></T>
+    <T>281521<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set5--></T>
+    <T>281522<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set6--></T>
+    <T>281523<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set7--></T>
+    <T>281524<!--loot_WeddingCake_Purchased_Computer_CylinderFloral_Set8--></T>
+    <T>281500<!--loot_WeddingCake_Purchased_Computer_Heart_Set1--></T>
+    <T>281501<!--loot_WeddingCake_Purchased_Computer_Heart_Set2--></T>
+    <T>281502<!--loot_WeddingCake_Purchased_Computer_Heart_Set3--></T>
+    <T>281503<!--loot_WeddingCake_Purchased_Computer_Heart_Set4--></T>
+    <T>281504<!--loot_WeddingCake_Purchased_Computer_Heart_Set5--></T>
+    <T>281505<!--loot_WeddingCake_Purchased_Computer_Heart_Set6--></T>
+    <T>281509<!--loot_WeddingCake_Purchased_Computer_Hexagon_Set1--></T>
+    <T>281510<!--loot_WeddingCake_Purchased_Computer_Hexagon_Set2--></T>
+    <T>281511<!--loot_WeddingCake_Purchased_Computer_Hexagon_Set3--></T>
+    <T>281512<!--loot_WeddingCake_Purchased_Computer_Hexagon_Set4--></T>
+    <T>281513<!--loot_WeddingCake_Purchased_Computer_Hexagon_Set5--></T>
+    <T>281508<!--loot_WeddingCake_Purchased_Computer_Hexagon_Set6--></T>
+    <T>281526<!--loot_WeddingCake_Purchased_Computer_Pillow_Set1--></T>
+    <T>281527<!--loot_WeddingCake_Purchased_Computer_Pillow_Set2--></T>
+    <T>281528<!--loot_WeddingCake_Purchased_Computer_Pillow_Set3--></T>
+    <T>281529<!--loot_WeddingCake_Purchased_Computer_Pillow_Set4--></T>
+    <T>281530<!--loot_WeddingCake_Purchased_Computer_Pillow_Set5--></T>
+    <T>281533<!--loot_WeddingCake_Purchased_Computer_Square_Set1--></T>
+    <T>281534<!--loot_WeddingCake_Purchased_Computer_Square_Set2--></T>
+    <T>281535<!--loot_WeddingCake_Purchased_Computer_Square_Set3--></T>
+    <T>281536<!--loot_WeddingCake_Purchased_Computer_Square_Set4--></T>
+    <T>281537<!--loot_WeddingCake_Purchased_Computer_Square_Set5--></T>
+    <T>281538<!--loot_WeddingCake_Purchased_Computer_Square_Set6--></T>
+    <T>281539<!--loot_WeddingCake_Purchased_Computer_Square_Set7--></T>
+    <T>281698<!--loot_WeddingCake_Purchased_Computer_CupcakeTower_Set1--></T>
+    <T>281699<!--loot_WeddingCake_Purchased_Computer_CupcakeTower_Set2--></T>
+    <T>281700<!--loot_WeddingCake_Purchased_Computer_CupcakeTower_Set3--></T>
+    <T>281671<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set1--></T>
+    <T>281680<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set10--></T>
+    <T>281681<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set11--></T>
+    <T>281672<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set2--></T>
+    <T>281673<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set3--></T>
+    <T>281674<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set4--></T>
+    <T>281675<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set5--></T>
+    <T>281676<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set6--></T>
+    <T>281677<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set7--></T>
+    <T>281678<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set8--></T>
+    <T>281679<!--loot_WeddingCake_Purchased_Computer_Cylinder_Set9--></T>
+    <T>281683<!--loot_WeddingCake_Purchased_Computer_Cylinder3D_Set1--></T>
+    <T>281684<!--loot_WeddingCake_Purchased_Computer_Cylinder3D_Set2--></T>
+    <T>281685<!--loot_WeddingCake_Purchased_Computer_Cylinder3D_Set3--></T>
+    <T>281686<!--loot_WeddingCake_Purchased_Computer_Cylinder3D_Set4--></T>
+    <T>281687<!--loot_WeddingCake_Purchased_Computer_Cylinder3D_Set5--></T>
+    <T>281692<!--loot_WeddingCake_Purchased_Computer_CylinderBeachy_Set1--></T>
+    <T>281693<!--loot_WeddingCake_Purchased_Computer_CylinderBeachy_Set2--></T>
+    <T>281694<!--loot_WeddingCake_Purchased_Computer_CylinderBeachy_Set3--></T>
+    <T>281695<!--loot_WeddingCake_Purchased_Computer_CylinderBeachy_Set4--></T>
+    <T>281696<!--loot_WeddingCake_Purchased_Computer_CylinderBeachy_Set5--></T>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <L n="categories">
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_CupcakeTower</E>
+          <T n="tooltip">0x66F323BB<!--Cupcake Display--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Cylinder</E>
+          <T n="tooltip">0x1706F8E0<!--Round Four-Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Cylinder_3D</E>
+          <T n="tooltip">0x8744197A<!--Square Design Round Four-Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Cylinder_Beachy</E>
+          <T n="tooltip">0xCF1FD428<!--Beachy Four-Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Cylinder_Floral</E>
+          <T n="tooltip">0x1200E394<!--Round Two-Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Heart</E>
+          <T n="tooltip">0xB8821B58<!--Heart Two-Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Hexagon</E>
+          <T n="tooltip">0xF7B9ADDB<!--Hexagon Three Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Pillow</E>
+          <T n="tooltip">0x3911249D<!--Pillow Two-Tiered--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Filters\Food\icon_filter_food_cake.png">2f7d0004:00000000:3dcd0f33b17bce85</T>
+          <E n="tag">Func_WeddingCake_Square</E>
+          <T n="tooltip">0x5277B225<!--Square Three Tiered--></T>
+        </U>
+      </L>
+      <V n="max_selectable" t="unlimited" />
+      <V n="text" t="disabled" />
+      <T n="use_dropdown_filter">True</T>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.75</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>132805<!--buff_Object_MarketStalls_Haggle--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.2</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>148137<!--buff_Object_MarketStalls_InTheKnow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">1.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>237110<!--buff_Trait_Freegan_DiscountDenied_Final--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>234624<!--buff_Trait_Freegan_ToughNegotiator--></T>
+                    <T>234623<!--buff_Trait_Freegan_SweetSavings--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>249840<!--buff_Trait_WorldlyKnowledge_NoteworthyNegotiation--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">294994<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set1 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298349<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set2 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298350<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set3 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298351<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set4 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298352<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set5 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298353<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set6 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298354<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set7 (Floral Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">298355<!--foodPlateEatWedCakeMulti_GP11GEN2tierCylinderFloral_set8 (Floral Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">4</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">295006<!--foodPlateEatWedCakeMulti_GP11GEN2tierHeart_set1 (Heart Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">300817<!--foodPlateEatWedCakeMulti_GP11GEN2tierHeart_set2 (Heart Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">300818<!--foodPlateEatWedCakeMulti_GP11GEN2tierHeart_set3 (Heart Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">300819<!--foodPlateEatWedCakeMulti_GP11GEN2tierHeart_set4 (Heart Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">300820<!--foodPlateEatWedCakeMulti_GP11GEN2tierHeart_set5 (Heart Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">300821<!--foodPlateEatWedCakeMulti_GP11GEN2tierHeart_set6 (Heart Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">3</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">295004<!--foodPlateEatWedCakeMulti_GP11GEN2tierPillow_set1 (Pillow Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">299522<!--foodPlateEatWedCakeMulti_GP11GEN2tierPillow_set2 (Pillow Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">299523<!--foodPlateEatWedCakeMulti_GP11GEN2tierPillow_set3 (Pillow Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">299524<!--foodPlateEatWedCakeMulti_GP11GEN2tierPillow_set4 (Pillow Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">299525<!--foodPlateEatWedCakeMulti_GP11GEN2tierPillow_set5 (Pillow Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">2</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">295000<!--foodPlateEatWedCakeMulti_GP11GEN3tierHexagon_set1 (Hexagon Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301138<!--foodPlateEatWedCakeMulti_GP11GEN3tierHexagon_set2 (Hexagon Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301139<!--foodPlateEatWedCakeMulti_GP11GEN3tierHexagon_set3 (Hexagon Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301140<!--foodPlateEatWedCakeMulti_GP11GEN3tierHexagon_set4 (Hexagon Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301141<!--foodPlateEatWedCakeMulti_GP11GEN3tierHexagon_set5 (Hexagon Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301142<!--foodPlateEatWedCakeMulti_GP11GEN3tierHexagon_set6 (Hexagon Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">3</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">294998<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set1 (Square Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301617<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set2 (Square Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301618<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set3 (Square Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301619<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set4 (Square Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301620<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set5 (Square Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301621<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set6 (Square Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">301622<!--foodPlateEatWedCakeMulti_GP11GEN3tierSquare_set7 (Square Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">3</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">295002<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set1 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302524<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set2 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302525<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set3 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302533<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set4 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302531<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set5 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302532<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set6 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302530<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set7 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302528<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set8 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302529<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set9 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302527<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set10 (Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">302526<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder_set11 (Round Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">5</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">294996<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder3dDesign_set1 (Square Design Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303238<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder3dDesign_set2 (Square Design Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303239<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder3dDesign_set3 (Square Design Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303241<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder3dDesign_set4 (Square Design Round Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303240<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinder3dDesign_set5 (Square Design Round Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">2</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">295010<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinderBeachy_set1 (Beachy Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303207<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinderBeachy_set2 (Beachy Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303208<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinderBeachy_set3 (Beachy Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303209<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinderBeachy_set4 (Beachy Wedding Cake)--></T>
+          </U>
+          <U>
+            <T n="item">303210<!--foodPlateEatWedCakeMulti_GP11GEN4tierCylinderBeachy_set5 (Beachy Wedding Cake)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">2</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">295008<!--foodPlateEatWedCakeMulti_GP11GENcupcakeTower_set1 (Cupcake Wedding Cake Display)--></T>
+          </U>
+          <U>
+            <T n="item">299181<!--foodPlateEatWedCakeMulti_GP11GENcupcakeTower_set2 (Cupcake Wedding Cake Display)--></T>
+          </U>
+          <U>
+            <T n="item">299182<!--foodPlateEatWedCakeMulti_GP11GENcupcakeTower_set3 (Cupcake Wedding Cake Display)--></T>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="participant">
+            <U n="participant">
+              <L n="participant_type">
+                <E>TargetSim</E>
+              </L>
+            </U>
+          </V>
+        </V>
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0xB32A17F7<!--Thanks for purchasing! The items {0.SimFirstName} bought can be found in {M0.his}{F0.her} inventory.--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <T n="show_discount">True</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003A">
+  <Instances>
+    <I name="unfinishedBusiness_Specific_ObjectivePicker_Woohoo" schema="UnfinishedBusinessObjectivePickerSuperInteraction" type="Object">
+      <L name="objectives">
+        <T type="TableSetReference">382438</T>
+        <T type="TableSetReference">382430</T>
+        <T type="TableSetReference">382436</T>
+        <T type="TableSetReference">398402</T>
+        <T type="TableSetReference">382437</T>
+        <T type="TableSetReference">382434</T>
+        <T type="TableSetReference">398403</T>
+        <T type="TableSetReference">382440</T>
+        <T type="TableSetReference">382433</T>
+        <T type="TableSetReference">398411</T>
+        <T type="TableSetReference">382439</T>
+        <T type="TableSetReference">382435</T>
+        <T type="TableSetReference">382431</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="UnfinishedBusinessObjectivePickerSuperInteraction" schema_hash="0xB693BE76">
+      <Columns>
+        <Column name="objectives" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

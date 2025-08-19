@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SmallBusinessSeed" i="small_business_seed" m="small_business.small_business_seed" n="smallBusinessSeed_NewUniversityCommons" s="438249">
+  <T n="business_description_key">0xAE54345F<!--University Commons are a great place to have some fun, playing both physical and table games, as well as a having places to just study or do homework.--></T>
+  <T n="business_icon" p="InEP18\UI\Icons\Headlines\headline_Logo_Books.png">2f7d0004:00000000:55a01677efa85086</T>
+  <T n="business_name_key">0xCF7F449A<!--University Commons--></T>
+  <L n="customer_rules">
+    <T>127699<!--clubInteractionGroup_ObjectBased_DoHomework--></T>
+    <T>122482<!--clubInteractionGroup_ObjectBased_Read--></T>
+    <T>128505<!--clubInteractionGroup_ObjectBased_PlayPhysicalGames--></T>
+    <T>122439<!--clubInteractionGroup_SkillBuilding_PlayVideoGames--></T>
+    <T>122422<!--clubInteractionGroup_Social_BeFriendly--></T>
+  </L>
+</I>

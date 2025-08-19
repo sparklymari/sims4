@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_TownMascot" s="252340">
+  <L n="value">
+    <T>14410<!--terrain-gohere--></T>
+    <T>251854<!--reaction_Mixer_Aggregate_TownMascotDance--></T>
+    <T>251699<!--idle_trait_TownMascot--></T>
+    <T>250273<!--townMascot_AskForCapsule--></T>
+    <T>250414<!--townMascot_danceWIthMascot--></T>
+    <T>250275<!--townMascot_takeSelfie--></T>
+    <T>250307<!--si_TownMascot_HangAroundStatue--></T>
+    <T>183067<!--snowpal_StartBuild_Group--></T>
+    <T>248114<!--snowpal_MountainSnow_StartBuild_Group--></T>
+    <T>233575<!--sim_GetOut_Target--></T>
+    <T>183066<!--snowPal_Building_FromCont_Group--></T>
+    <T>184246<!--snowPal_CreateObject_FromCont_Group--></T>
+    <T>252718<!--social_EP10_Festivals_AskAboutVoidCritterHunt--></T>
+    <T>252719<!--social_EP10_Festivals_ClaimPrize--></T>
+    <T>183067<!--snowpal_StartBuild_Group--></T>
+    <T>183007<!--snowPal_PickedCont--></T>
+    <T>250969<!--snowPal_SnowDrift_PickedCont--></T>
+    <T>183054<!--snowPal_PickedCont_SnowDrift--></T>
+    <T>183009<!--snowPal_Building_PickedCont--></T>
+    <T>183147<!--snowPal_Mixers_AddSnow--></T>
+    <T>183146<!--SnowPal_Mixers_Build--></T>
+    <T>189570<!--snowPal_Mixers_Idle--></T>
+    <T>255070<!--townMascot_takeSelfie_p--></T>
+    <T>254211<!--sim_HipBump_TownMascot--></T>
+    <T>254220<!--townMascot_danceWithMascot_p--></T>
+  </L>
+</I>

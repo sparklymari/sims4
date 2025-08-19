@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="HouseholdReward" i="reward" m="rewards.reward" n="reward_PoolParty_Gold" s="341564">
+  <T n="icon" p="InGame\UI\Icons\Events\EventGoal_RewardGold.png">2f7d0004:00000000:5b5e8aec109cc09e</T>
+  <T n="name">0x85BAD94B<!--Gold Level--></T>
+  <V n="notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGame\UI\Icons\Events\EventGoal_RewardGold.png">2f7d0004:00000000:5b5e8aec109cc09e</T>
+            </U>
+          </V>
+        </V>
+        <V n="text" t="single">
+          <T n="single">0x41920CFE<!--The Pool Party was a huge success! Guests couldn't help but marvel at the unforgettable experience they had just been a part of. Gold Level rewards include a new Float Lounger and a boost to the Unit Rating.\n\nThis item can be found in the <b>Household Inventory</b>.--></T>
+        </V>
+        <V n="title" t="enabled">
+          <T n="enabled">0xF01CDC0E<!--Reward Earned--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x28FCC57A<!--Gold level reward unlocks the new Float Lounger.--></T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">364048<!--sitLoungeFloat_EP15RW_set1 (Pool Party Float Lounger)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">10</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <T n="buff_type">350268<!--buff_LandlordTenant_Hidden_GoldEvents--></T>
+          </U>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <T n="buff_type">354135<!--buff_LandlordTenant_GoldSocialEventComplete--></T>
+          </U>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="object_definition">
+        <U n="object_definition">
+          <T n="definition">364048<!--sitLoungeFloat_EP15RW_set1 (Pool Party Float Lounger)--></T>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

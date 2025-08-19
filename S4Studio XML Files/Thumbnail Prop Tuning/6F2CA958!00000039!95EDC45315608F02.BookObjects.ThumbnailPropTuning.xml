@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Client_MatchmakingThumbnailProps" i="thumbnailProp" m="thumbnailProp.Client_MatchmakingThumbnailProps" n="BookObjects" s="10803506942251667202">
+  <L n="ObjectID">
+    <T>32534<!--bookGENFlirty_06 (Twelve or so Swatches of WooHoo)--></T>
+    <T>43406<!--bookGENCraftSupernatural_01 (The Book of Life)--></T>
+    <T>43375<!--bookGENCraftPoems_01 (** DEBUG **)--></T>
+    <T>32869<!--bookGENInspired_08 (The Adventures of Pink Ruffles)--></T>
+  </L>
+</I>

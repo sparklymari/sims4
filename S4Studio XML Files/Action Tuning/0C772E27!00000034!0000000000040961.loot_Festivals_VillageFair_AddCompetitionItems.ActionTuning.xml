@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Festivals_VillageFair_AddCompetitionItems" s="264545">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">263031<!--animalAvianRooster_EP11GEN_set1 (White Rooster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277972<!--animalAvianRooster_EP11GEN_evil (Evil Rooster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">266633<!--egg_EP11GEN_set1_white ({S.Egg}{P.Eggs})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272308<!--egg_EP11GEN_set2_Gold (Golden Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272309<!--egg_EP11GEN_set3_Chocolate (Chocolate Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272310<!--egg_EP11GEN_set4_obsidian (Obsidian Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272311<!--egg_EP11GEN_set5_Blue (Blue Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272312<!--egg_EP11GEN_set6_Green (Green Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272313<!--egg_EP11GEN_set7_Orange (Orange Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272314<!--egg_EP11GEN_set8_Rainbow (Rainbow Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272317<!--woolLlama_EP11GEN_set1 (White Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277729<!--woolLlama_EP11GEN_set5 (Red Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277730<!--woolLlama_EP11GEN_set2 (Beige Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277721<!--woolLlama_EP11GEN_set11 (Black Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277722<!--woolLlama_EP11GEN_set7 (Blue Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277723<!--woolLlama_EP11GEN_set4 (Brown Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277724<!--woolLlama_EP11GEN_set10 (Gold Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277725<!--woolLlama_EP11GEN_set8 (Green Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277726<!--woolLlama_EP11GEN_set6 (Orange Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277727<!--woolLlama_EP11GEN_set3 (Pink Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277728<!--woolLlama_EP11GEN_set9 (Rainbow Wool)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">271852<!--drinkBottle_EP11GENmilk_set1_base ({S.Bottle of Milk}{P.Bottles of Milk})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277795<!--drinkBottle_EP11GENmilk_set8_red (Fire Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277731<!--drinkBottle_EP11GENmilk_set2_black (Obsidian Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277732<!--drinkBottle_EP11GENmilk_set1_blue (Enriched Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277733<!--drinkBottle_EP11GENmilk_set3_brown (Chocolate Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277734<!--drinkBottle_EP11GENmilk_set4_gold (Golden Honey Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277735<!--drinkBottle_EP11GENmilk_set1_green (Mighty Plant Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277736<!--drinkBottle_EP11GENmilk_set5_orange (Pumpkin Spice Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277737<!--drinkBottle_EP11GENmilk_set6_pink (Strawberry Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">277794<!--drinkBottle_EP11GENmilk_set7_rainbow (Rainbow Milk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270186<!--gardenFruitCropLarge_EP11GENLettuce_set1 (Oversized Lettuce)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270185<!--gardenFruitCropLarge_EP11GENAubergine_set1 (Oversized Aubergine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270187<!--gardenFruitCropLarge_EP11GENPumpkin_set1 (Oversized Pumpkin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">271873<!--gardenFruitCropLarge_EP11GENWatermelon_set1 (Oversized Watermelon)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">264866<!--animalCow_EP11GEN_set1 (Spotted Cow)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">269148<!--animalLlama_EP11GEN_set1 (White Llama)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15744<!--recipe_Food_Homestyle_ApplePie-Large--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256411<!--recipe_Food_Homestyle_CottagePie_Multi--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256423<!--recipe_Food_Homestyle_Pies_Blueberry_Large--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256425<!--recipe_Food_Homestyle_Pies_Chocolate_Large--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256427<!--recipe_Food_Homestyle_Pies_Meat_Large--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256429<!--recipe_Food_Homestyle_Pies_Pumpkin_Large--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256431<!--recipe_Food_Homestyle_Pies_Raspberry_Large--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="random_by_tags">
+          <U n="random_by_tags">
+            <L n="filter_tags">
+              <E>Func_AnimalObject_Livestock_Chicken_Hen</E>
+              <E>Func_AnimalObject_Livestock_Chicken_Rooster</E>
+            </L>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">266319<!--animalObjects_Generic_MasterController_InInventory--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="quantity">2</T>
+        <T n="set_value_to_crafted_tooltip">False</T>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="participant" t="enabled" />
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>259423<!--festival_VillageFair_Chicken_Competitor--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="random_by_tags">
+          <U n="random_by_tags">
+            <L n="filter_tags">
+              <E>Func_AnimalObject_Livestock_Cow</E>
+            </L>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">266319<!--animalObjects_Generic_MasterController_InInventory--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="quantity">2</T>
+        <T n="set_value_to_crafted_tooltip">False</T>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="participant" t="enabled" />
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>259424<!--festival_VillageFair_CowLlama_Competitor--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+            <V t="festival_running">
+              <U n="festival_running">
+                <V n="drama_node" t="enabled">
+                  <T n="enabled">259969<!--festivalContestDramaNode_VillageFair_CowMilk--></T>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="random_by_tags">
+          <U n="random_by_tags">
+            <L n="filter_tags">
+              <E>Func_AnimalObject_Livestock_Llama</E>
+            </L>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">266319<!--animalObjects_Generic_MasterController_InInventory--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="quantity">2</T>
+        <T n="set_value_to_crafted_tooltip">False</T>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="participant" t="enabled" />
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>259424<!--festival_VillageFair_CowLlama_Competitor--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+            <V t="festival_running">
+              <U n="festival_running">
+                <V n="drama_node" t="enabled">
+                  <T n="enabled">259970<!--festivalContestDramaNode_VillageFair_LlamaWool--></T>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

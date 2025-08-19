@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_NoCurses_NoBlessings_PickedSim" s="176896">
+  <L n="test">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>175022<!--curses_AncientSickness_Common--></T>
+            <T>175023<!--curses_AncientSickness_Rare--></T>
+            <T>175024<!--curses_AncientSickness_Uncommon--></T>
+            <T>175188<!--curses_GreedyNeeds_Common--></T>
+            <T>175190<!--curses_GreedyNeeds_Rare--></T>
+            <T>175189<!--curses_GreedyNeeds_Uncommon--></T>
+            <T>175223<!--curses_MarkedForDeath_Rare--></T>
+            <T>175224<!--curses_MarkedForDeath_Uncommon--></T>
+            <T>175267<!--curses_SeeingThings_Common--></T>
+            <T>175269<!--curses_SeeingThings_Rare--></T>
+            <T>175268<!--curses_SeeingThings_Uncommon--></T>
+            <T>174906<!--curses_PersonalRainCloud_Common--></T>
+            <T>174907<!--curses_PersonalRainCloud_Rare--></T>
+            <T>174908<!--curses_PersonalRainCloud_Uncommon--></T>
+            <T>175088<!--blessings_AncientJoy--></T>
+            <T>175284<!--blessings_GloriousTastes--></T>
+            <T>175207<!--blessings_ItsAllGood--></T>
+            <T>175014<!--blessings_PersonalSun--></T>
+            <T>176399<!--blessings_Effects_ImASkeleton_Common--></T>
+            <T>176401<!--blessings_Effects_ImASkeleton_Rare--></T>
+            <T>176400<!--blessings_Effects_ImASkeleton_Uncommon--></T>
+            <T>180774<!--buff_Curses_MarkedForDeath_Common--></T>
+          </L>
+          <E n="subject">PickedSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

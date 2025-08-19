@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_MassageTable_Portable" s="272308">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="inventory_item" t="enabled">
+      <U n="enabled">
+        <V n="no_carry_add_to_sim_inventory_affordances" t="OVERRIDE">
+          <L n="OVERRIDE">
+            <T>127354<!--si_SwipeIntoSimInventory_ReserveAll--></T>
+          </L>
+        </V>
+        <V n="put_away_affordance" t="OVERRIDE">
+          <T n="OVERRIDE">127354<!--si_SwipeIntoSimInventory_ReserveAll--></T>
+        </V>
+        <V n="register_with_lost_and_found" t="enabled" />
+        <T n="skip_carry_pose">True</T>
+        <L n="valid_inventory_types">
+          <E>SIM</E>
+          <E>STORAGE_CHEST_DORM</E>
+        </L>
+      </U>
+    </V>
+    <V n="object_relationships" t="enabled">
+      <U n="enabled">
+        <V n="number_of_allowed_relationships" t="enabled" />
+        <T n="relationship_stat">119087<!--statistic_Object_Staff_Assigned_Relationship--></T>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">115301<!--retailComponent_Default_LowAppeal--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>15132<!--Dirty_Clean--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15130<!--DirtyState_Clean--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15133<!--Dirty_Dirty--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15131<!--DirtyState_Dirty--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>39611<!--FireState_Burn_Material_Change--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>101103<!--DirtyState_Neutral--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>39611<!--FireState_Burn_Material_Change--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15134<!--Dirty_Neutral--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15132<!--Dirty_Clean--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15132<!--Dirty_Clean--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">15133<!--Dirty_Dirty--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">Dirty</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15134<!--Dirty_Neutral--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15132<!--Dirty_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">101103<!--DirtyState_Neutral--></T>
+              </U>
+              <U>
+                <T n="key">15130<!--DirtyState_Clean--></T>
+              </U>
+              <U>
+                <T n="key">15131<!--DirtyState_Dirty--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15130<!--DirtyState_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">235497<!--ecoFootprint_Object_AcidRain_Outside--></T>
+              </U>
+              <U>
+                <T n="key">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">255047<!--dustLevel_Object_Values_None--></T>
+              </U>
+              <U>
+                <T n="key">255048<!--dustLevel_Object_Values_Clean--></T>
+              </U>
+              <U>
+                <T n="key">255049<!--dustLevel_Object_Values_Dusty--></T>
+              </U>
+              <U>
+                <T n="key">255050<!--dustLevel_Object_Values_Dirty--></T>
+              </U>
+              <U>
+                <T n="key">255051<!--dustLevel_Object_Values_Filthy--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">255047<!--dustLevel_Object_Values_None--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">272409<!--massageTable_Tend_No--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">272548<!--wellness_ActivityPromoted_Yes--></T>
+              </U>
+              <U>
+                <T n="key">272549<!--wellness_ActivityPromoted_No--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">272549<!--wellness_ActivityPromoted_No--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+        <V n="timed_state_triggers" t="enabled">
+          <L n="enabled">
+            <U>
+              <T n="key">272548<!--wellness_ActivityPromoted_Yes--></T>
+              <U n="value">
+                <L n="ops">
+                  <U>
+                    <L n="states_to_trigger">
+                      <T>272549<!--wellness_ActivityPromoted_No--></T>
+                    </L>
+                    <T n="trigger_time">600</T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled">
+      <U n="enabled">
+        <L n="custom_tooltips">
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="in_inventory" />
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x144FD666<!--{0.ObjectName}--></T>
+                  </V>
+                  <V n="text_tokens" t="enabled">
+                    <U n="enabled">
+                      <L n="tokens">
+                        <V t="participant_type">
+                          <U n="participant_type">
+                            <V n="objects" t="from_participant">
+                              <U n="from_participant">
+                                <E n="participant">Object</E>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="weather_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="outside_loot">
+          <U>
+            <E n="key">AnyRain</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>235500<!--loot_EcoFootprint_Object_AcidRain_End--></T>
+              </L>
+              <L n="start_loot">
+                <T>235499<!--loot_EcoFootprint_Object_AcidRain--></T>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="zone_modifier_component" t="enabled">
+      <U n="enabled">
+        <L n="zone_modifiers">
+          <U>
+            <T n="key">272553<!--zoneModifiers_Hidden_WellnessActivityPromoted--></T>
+            <L n="value">
+              <V t="state">
+                <U n="state">
+                  <U n="state_value_test">
+                    <U n="states">
+                      <V n="whitelist" t="specify">
+                        <U n="specify">
+                          <L n="whitelist">
+                            <T>272548<!--wellness_ActivityPromoted_Yes--></T>
+                          </L>
+                        </U>
+                      </V>
+                    </U>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_part_data">
+    <U>
+      <L n="overlapping_parts">
+        <T>1</T>
+      </L>
+      <T n="part_definition">118076<!--objectMassageTable_Masseuse_0--></T>
+    </U>
+    <U>
+      <V n="is_mirrored" t="enabled">
+        <T n="enabled">True</T>
+      </V>
+      <L n="overlapping_parts">
+        <T>1</T>
+      </L>
+      <T n="part_definition">118078<!--objectMassageTable_Masseuse_1--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">1</T>
+      </V>
+    </U>
+    <U>
+      <L n="overlapping_parts">
+        <T>3</T>
+      </L>
+      <T n="part_definition">118079<!--objectMassageTable_Customer_2--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">2</T>
+      </V>
+    </U>
+    <U>
+      <L n="overlapping_parts">
+        <T>2</T>
+      </L>
+      <T n="part_definition">118080<!--objectMassageTable_Customer_3--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">3</T>
+      </V>
+    </U>
+    <U>
+      <T n="part_definition">122543<!--part_MassageTable_Deco--></T>
+      <V n="subroot_index" t="disabled" />
+    </U>
+  </L>
+  <L n="_preroll_super_affordances">
+    <T>119072<!--massageTable_WaitForWork--></T>
+    <T>273439<!--massageTable_WaitForWork_PlayerIsTending--></T>
+  </L>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>117579<!--generic_MassageTableCustomer--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>117711<!--massageTable_Clean--></T>
+    <T>33960<!--Cheat_MakeClean--></T>
+    <T>13142<!--Cheat_MakeDirty--></T>
+    <T>117749<!--massageTable_Social_DeepTissue--></T>
+    <T>117753<!--massageTable_Social_FertilityMassage--></T>
+    <T>117750<!--massageTable_Social_SportsMassage--></T>
+    <T>117752<!--massageTable_Social_StoneMassage--></T>
+    <T>117748<!--massageTable_Social_SwedishMassage--></T>
+    <T>117759<!--massageTable_Social_Aroma_Lavender--></T>
+    <T>117758<!--massageTable_Social_Aroma_LotusBlossom--></T>
+    <T>117751<!--massageTable_Social_Aroma_Mint--></T>
+    <T>117757<!--massageTable_Social_Aroma_YlangYlang--></T>
+    <T>117761<!--massageTable_SimPicker_GiveSwedishMassage--></T>
+    <T>118174<!--massageTable_SimPicker_GiveDeepTissueMassage--></T>
+    <T>118177<!--massageTable_SimPicker_GiveFertilityMassage--></T>
+    <T>118175<!--massageTable_SimPicker_GiveSportsMassage--></T>
+    <T>118176<!--massageTable_SimPicker_GiveStoneMassage--></T>
+    <T>118184<!--massageTable_SimPicker_GiveMassage_Aromatherapy_Lavender--></T>
+    <T>118183<!--massageTable_SimPicker_GiveMassage_Aromatherapy_LotusBlossom--></T>
+    <T>118182<!--massageTable_SimPicker_GiveMassage_Aromatherapy_Mint--></T>
+    <T>118181<!--massageTable_SimPicker_GiveMassage_Aromatherapy_Ylang--></T>
+    <T>117762<!--massage_SimPicker_AskForSwedishMassage--></T>
+    <T>118222<!--massage_SimPicker_AskForDeepTissueMassage--></T>
+    <T>118224<!--massage_SimPicker_AskForFertilityMassage--></T>
+    <T>118223<!--massage_SimPicker_AskForSportsMassage--></T>
+    <T>118225<!--massage_SimPicker_AskForStoneMassage--></T>
+    <T>118229<!--massageTable_SimPicker_AskForMassage_Aromatherapy_Lavender--></T>
+    <T>118230<!--massageTable_SimPicker_AskForMassage_Aromatherapy_LotusBlossom--></T>
+    <T>118227<!--massageTable_SimPicker_AskForMassage_Aromatherapy_Mint--></T>
+    <T>118228<!--massageTable_SimPicker_AskForMassage_Aromatherapy_Ylang--></T>
+    <T>119072<!--massageTable_WaitForWork--></T>
+    <T>119375<!--massageTable_ReadMagazine--></T>
+    <T>119462<!--massageTable_SimPicker_GetMassage_DeepTissue--></T>
+    <T>119464<!--massageTable_SimPicker_GetMassage_FertilityMassage--></T>
+    <T>119463<!--massageTable_SimPicker_GetMassage_SportsMassage--></T>
+    <T>119465<!--massageTable_SimPicker_GetMassage_StoneMassage--></T>
+    <T>119461<!--massageTable_SimPicker_GetMassage_SwedishMassage--></T>
+    <T>119472<!--massageTable_SimPicker_GetMassage_Aromatherapy_Lavender--></T>
+    <T>119471<!--massageTable_SimPicker_GetMassage_Aromatherapy_LotusBlossom--></T>
+    <T>119469<!--massageTable_SimPicker_GetMassage_Aromatherapy_Mint--></T>
+    <T>119470<!--massageTable_SimPicker_GetMassage_Aromatherapy_YlangYlang--></T>
+    <T>121324<!--autonomousSimPicker_MassageTable_GetMassage_Aromatherapy--></T>
+    <T>121322<!--autonomousSimPicker_MassageTable_GetMassage_DeepTissue--></T>
+    <T>121323<!--autonomousSimPicker_MassageTable_GetMassage_StoneMassage--></T>
+    <T>121320<!--autonomousSimPicker_MassageTable_GetMassage_Swedish--></T>
+    <T>123761<!--massageTable_HireSpecificNPC_Picker--></T>
+    <T>123759<!--object_HireNPC_MassageTherapist--></T>
+    <T>272382<!--massageTable_Tend--></T>
+    <T>272546<!--phone_Wellness_PromoteActivity--></T>
+    <T>272598<!--massageTable_SimPicker_GiveDeepTissueMassage_Tend--></T>
+    <T>272599<!--massageTable_SimPicker_GiveFertilityMassage_Tend--></T>
+    <T>272600<!--massageTable_SimPicker_GiveMassage_Aromatherapy_Lavender_Tend--></T>
+    <T>272601<!--massageTable_SimPicker_GiveMassage_Aromatherapy_LotusBlossom_Tend--></T>
+    <T>272602<!--massageTable_SimPicker_GiveMassage_Aromatherapy_Mint_Tend--></T>
+    <T>272603<!--massageTable_SimPicker_GiveMassage_Aromatherapy_Ylang_Tend--></T>
+    <T>272604<!--massageTable_SimPicker_GiveSportsMassage_Tend--></T>
+    <T>272605<!--massageTable_SimPicker_GiveStoneMassage_Tend--></T>
+    <T>272606<!--massageTable_SimPicker_GiveSwedishMassage_Tend--></T>
+    <T>273438<!--massageTable_ReadMagazine_PlayerIsTending--></T>
+    <T>273439<!--massageTable_WaitForWork_PlayerIsTending--></T>
+    <T>120215<!--generic_MassageTableTherapist--></T>
+    <T>120274<!--massageTable_SI_DeepTissue_Start--></T>
+    <T>120273<!--massageTable_SI_FertilityMassage_Start--></T>
+    <T>120271<!--massageTable_SI_SportsMassage_Start--></T>
+    <T>120272<!--massageTable_SI_StoneMassage_Start--></T>
+    <T>120270<!--massageTable_SI_SwedishMassage_Start--></T>
+    <T>120280<!--massageTable_SI_Aroma_Lavender_Start--></T>
+    <T>120281<!--massageTable_SI_Aroma_LotusBlossom_Start--></T>
+    <T>120282<!--massageTable_SI_Aroma_Mint_Start--></T>
+    <T>120283<!--massageTable_SI_Aroma_YlangYlang_Start--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>393658<!--ghostPowers_Abilities_Helpful_NoPossess_Instantly_Clean--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.75</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.25</T>
+      </U>
+    </L>
+  </U>
+</I>

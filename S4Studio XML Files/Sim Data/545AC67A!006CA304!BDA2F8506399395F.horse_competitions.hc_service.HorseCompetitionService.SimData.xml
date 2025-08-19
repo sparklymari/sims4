@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="horse_competitions.hc_service.HorseCompetitionService" schema="horse_competitions.hc_service.HorseCompetitionService" type="Object">
+      <L name="COMPETITION_CATEGORIES">
+        <T type="TableSetReference">330058</T>
+        <T type="TableSetReference">330070</T>
+        <T type="TableSetReference">330069</T>
+        <T type="TableSetReference">330071</T>
+        <T type="TableSetReference">334418</T>
+      </L>
+      <V name="NO_COMPETITION_SELECTED_HERO_IMAGE" variant="0xF8CBBF4C">
+        <T type="ResourceKey">00B2D882-00000000-F38FBCC121729E4A</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="horse_competitions.hc_service.HorseCompetitionService" schema_hash="0x07D1ECE3">
+      <Columns>
+        <Column name="COMPETITION_CATEGORIES" type="Vector" flags="0x00000000" />
+        <Column name="NO_COMPETITION_SELECTED_HERO_IMAGE" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

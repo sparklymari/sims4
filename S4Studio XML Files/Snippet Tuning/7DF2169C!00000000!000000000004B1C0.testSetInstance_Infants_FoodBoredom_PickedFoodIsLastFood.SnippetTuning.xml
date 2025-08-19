@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_Infants_FoodBoredom_PickedFoodIsLastFood" s="307648">
+  <L n="test">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307631<!--buff_Infant_HighChair_LastFoodEaten_Applesauce--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294162<!--cupSmall_EF48GENbabyFood_Applesauce (Applesauce)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307639<!--buff_Infant_HighChair_LastFoodEaten_BananaSlices--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294156<!--foodPlateEatSingle_EF48GENbananaSlice (Banana Slices)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307632<!--buff_Infant_HighChair_LastFoodEaten_CrushedCarrots--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294167<!--cupSmall_EF48GENbabyFood_CrushedCarrots (Crushed Carrots)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307643<!--buff_Infant_HighChair_LastFoodEaten_HomemadeHummus--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294174<!--cupSmall_EF48GENbabyFood_HomemadeHummus (Homemade Hummus)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307635<!--buff_Infant_HighChair_LastFoodEaten_IceCream--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294170<!--cupSmall_EF48GENbabyFood_IceCream (Ice Cream)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307644<!--buff_Infant_HighChair_LastFoodEaten_MashedMango--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294163<!--cupSmall_EF48GENbabyFood_MashedMango (Mashed Mango)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307647<!--buff_Infant_HighChair_LastFoodEaten_MashedPeas--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294166<!--cupSmall_EF48GENbabyFood_MashedPeas (Mashed Peas)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307641<!--buff_Infant_HighChair_LastFoodEaten_OatmealCereal--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294172<!--cupSmall_EF48GENbabyFood_OatmealCereal (Oatmeal Cereal)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307636<!--buff_Infant_HighChair_LastFoodEaten_OatyOs--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294157<!--foodPlateEatSingle_EF48GENoatyO (Oaty O's)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307646<!--buff_Infant_HighChair_LastFoodEaten_PapayaPaste--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294165<!--cupSmall_EF48GENbabyFood_PapayaPaste (Papaya Paste)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307638<!--buff_Infant_HighChair_LastFoodEaten_PeanutButterPuffs--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294158<!--foodPlateEatSingle_EF48GENpeanutButterPuff (Peanut Butter Puffs)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307633<!--buff_Infant_HighChair_LastFoodEaten_PumpkinPuree--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294168<!--cupSmall_EF48GENbabyFood_PumpkinPuree (Pumpkin Puree)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307640<!--buff_Infant_HighChair_LastFoodEaten_RicePorridge--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294171<!--cupSmall_EF48GENbabyFood_RicePorridge (Rice Porridge)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307645<!--buff_Infant_HighChair_LastFoodEaten_SmashedAvocado--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294164<!--cupSmall_EF48GENbabyFood_SmashedAvocado (Smashed Avocado)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307634<!--buff_Infant_HighChair_LastFoodEaten_SmashedLemon--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294169<!--cupSmall_EF48GENbabyFood_SmashedLemon (Smashed Lemon)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307642<!--buff_Infant_HighChair_LastFoodEaten_SweetPotatoPuree--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294173<!--cupSmall_EF48GENbabyFood_SweetPotatoPuree (Sweet Potato Puree)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307630<!--buff_Infant_HighChair_LastFoodEaten_Yogurt--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294161<!--cupSmall_EF48GENbabyFood_Yogurt (Yogurt)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">TargetSim</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>307637<!--buff_Infant_HighChair_LastFoodEaten_YogurtMelts--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294159<!--foodPlateEatSingle_EF48GENyogurtMelt (Yogurt Melts)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

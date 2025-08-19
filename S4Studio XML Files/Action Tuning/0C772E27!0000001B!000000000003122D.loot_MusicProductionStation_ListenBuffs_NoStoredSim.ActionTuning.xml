@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_MusicProductionStation_ListenBuffs_NoStoredSim" s="201261">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195378<!--buff_MusicProductionStation_ListenBuffs_ListenAnger--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">74148<!--CraftingEmotion_Angry--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195377<!--buff_MusicProductionStation_ListenBuffs_ListenConfident--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">74149<!--CraftingEmotion_Confident--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195374<!--buff_MusicProductionStation_ListenBuffs_ListenFlirty--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">74146<!--CraftingEmotion_Flirty--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195375<!--buff_MusicProductionStation_ListenBuffs_ListenFocused--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">100930<!--CraftingEmotion_Focused--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195373<!--buff_MusicProductionStation_ListenBuffs_ListenHappy--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">74181<!--CraftingEmotion_None--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195376<!--buff_MusicProductionStation_ListenBuffs_ListenPlayful--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">74147<!--CraftingEmotion_Playful--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xBA696B6<!--(From Listening to a Track)--></T>
+          </V>
+          <T n="buff_type">195372<!--buff_MusicProductionStation_ListenBuffs_ListenSad--></T>
+        </U>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">74150<!--CraftingEmotion_Sad--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

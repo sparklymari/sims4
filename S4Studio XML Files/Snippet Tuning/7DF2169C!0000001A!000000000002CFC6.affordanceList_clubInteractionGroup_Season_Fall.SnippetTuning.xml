@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_clubInteractionGroup_Season_Fall" s="184262">
+  <L n="value">
+    <T>182894<!--Seasonal_Throwing_Mud--></T>
+    <T>183250<!--LeafPile_Hangout--></T>
+    <T>183079<!--LeafPile_PlayIn--></T>
+    <T>183234<!--LeafPile_PlayWith--></T>
+    <T>182902<!--LeafPile_Light--></T>
+    <T>188594<!--scarecrow_TellHarvestJokes--></T>
+    <T>188595<!--scarecrow_InsultBarnyardSmell--></T>
+    <T>188593<!--scarecrow_DiscussTheBirds--></T>
+    <T>187935<!--scarecrow_ChatWithScarecrow--></T>
+    <T>187070<!--scarecrow_Leave--></T>
+    <T>187933<!--scarecrow_Examine--></T>
+    <T>187934<!--scarecrow_CheckPockets--></T>
+    <T>187936<!--scarecrow_AskForGardeningTips--></T>
+    <T>187071<!--scarecrow_Arrive--></T>
+    <T>181842<!--seasonal_SimPicker_Throwing_Mud--></T>
+  </L>
+</I>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="objectState_MemorialPortrait_States" s="384765">
+  <L n="_values">
+    <T>394232<!--memorialPortrait_Values_Frame4--></T>
+    <T>394233<!--memorialPortrait_Values_Frame5--></T>
+    <T>385526<!--memorialPortrait_Values_Frame1--></T>
+    <T>385527<!--memorialPortrait_Values_Frame2--></T>
+    <T>385528<!--memorialPortrait_Values_Frame3--></T>
+    <T>394234<!--memorialPortrait_Values_Frame6--></T>
+    <T>394235<!--memorialPortrait_Values_Frame7--></T>
+    <T>394236<!--memorialPortrait_Values_Frame8--></T>
+    <T>394399<!--memorialPortrait_Values_FrameInital--></T>
+  </L>
+</I>

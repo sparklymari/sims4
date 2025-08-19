@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_JuiceFizzing_ProductVFX" s="241034">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241063<!--juiceFizzer_Product_Happy--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244436<!--drinkPack_EP09GENjuiceHappy (Happy Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">243970<!--drinkBottle_EP09GENjuiceHappy (Happy Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241051<!--juiceFizzer_Product_Confident--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244677<!--drinkPack_EP09GENjuiceConfident (Confident Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244653<!--drinkBottle_EP09GENjuiceConfident (Confident Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241052<!--juiceFizzer_Product_Energized--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244678<!--drinkPack_EP09GENjuiceEnergized (Energized Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244654<!--drinkBottle_EP09GENjuiceEnergized (Energized Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241065<!--juiceFizzer_Product_Flirty--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244679<!--drinkPack_EP09GENjuiceFlirty (Flirty Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244655<!--drinkBottle_EP09GENjuiceFlirty (Flirty Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241064<!--juiceFizzer_Product_Inspired--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244680<!--drinkPack_EP09GENjuiceInspired (Inspired Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244656<!--drinkBottle_EP09GENjuiceInspired (Inspired Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241062<!--juiceFizzer_Product_Focused--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244681<!--drinkPack_EP09GENjuiceFocused (Focused Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244657<!--drinkBottle_EP09GENjuiceFocused (Focused Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241061<!--juiceFizzer_Product_Playful--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244682<!--drinkPack_EP09GENjuicePlayful (Playful Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244658<!--drinkBottle_EP09GENjuicePlayful (Playful Fizzy Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241066<!--juiceFizzer_Product_Honey--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244688<!--drinkPack_EP09GENjuiceHoney (Fizzy Honey)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244662<!--drinkBottle_EP09GENjuiceHoney (Fizzy Honey)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241054<!--juiceFizzer_Product_Plasma--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244683<!--drinkPack_EP09GENjuicePlasma (Fizzy Plasma)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244660<!--drinkBottle_EP09GENjuicePlasma (Fizzy Plasma)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241053<!--juiceFizzer_Product_Strange--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244685<!--drinkPack_EP09GENjuiceStrange (Strange Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244661<!--drinkBottle_EP09GENjuiceStrange (Strange Juice)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241055<!--juiceFizzer_Product_Tofizz--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244684<!--drinkPack_EP09GENjuiceTofizz (Tofizz)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244659<!--drinkBottle_EP09GENjuiceTofizz (Tofizz)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241056<!--juiceFizzer_Product_Suspicious--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244440<!--drinkPack_EP09GENsuspicious_set1 (Suspicious Fizz)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244044<!--drinkBottle_EP09GENsuspicious_set1 (Suspicious Fizz)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241057<!--juiceFizzer_Product_Floral--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244438<!--drinkPack_EP09GENkombuchaFloral (Floral Kombucha)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244430<!--drinkTumbler_EP09GENkombuchaFloral (Floral Kombucha)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241058<!--juiceFizzer_Product_Herbal--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244686<!--drinkPack_EP09GENkombuchaHerbal (Herbal Kombucha)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244669<!--drinkTumbler_EP09GENkombuchaHerbal (Herbal Kombucha)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241059<!--juiceFizzer_Product_Grimbucha--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244687<!--drinkPack_EP09GENkombuchaGrim (Grimbucha)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244670<!--drinkTumbler_EP09GENkombuchaGrim (Grimbucha)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">241060<!--juiceFizzer_Product_Seltzer--></T>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244671<!--drinkBox_EP09GENseltzerConfident (Confident Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244663<!--drinkCan_EP09GENseltzerconfident (Confident Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244664<!--drinkCan_EP09GENseltzerEnergized (Energized Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244665<!--drinkCan_EP09GENseltzerFlirty (Flirty Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244667<!--drinkCan_EP09GENseltzerFocused (Focused Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244428<!--drinkCan_EP09GENseltzerHappy (Happy Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244666<!--drinkCan_EP09GENseltzerInspired (Inspired Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244668<!--drinkCan_EP09GENseltzerPlayful (Playful Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244672<!--drinkBox_EP09GENseltzerEnergized (Energized Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244673<!--drinkBox_EP09GENseltzerFlirty (Flirty Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244675<!--drinkBox_EP09GENseltzerFocused (Focused Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244434<!--drinkBox_EP09GENseltzerHappy (Happy Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244674<!--drinkBox_EP09GENseltzerInspired (Inspired Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_def">
+                  <U n="has_object_with_def">
+                    <T n="definition">244676<!--drinkBox_EP09GENseltzerPlayful (Playful Seltzer )--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

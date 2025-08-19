@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="careerRewards_RomanceConsultant_Therapist_Level1" s="366998">
+  <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png">2f7d0004:00000000:a6ed756af9cb04a1</T>
+  <T n="name">0x9A909927</T>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x9A909927</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="money">
+        <U n="money">
+          <V n="money" t="literal">
+            <U n="literal">
+              <T n="value">1877</T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="display_text">
+        <U n="display_text">
+          <V n="text" t="override">
+            <T n="override">0x40CEA3A6<!--Romance Counselor Uniform--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408003<!--yfBody_EP16RomanceConsultantTherapistDress_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408004<!--yfBody_EP16RomanceConsultantTherapistDress_Cream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408005<!--yfBody_EP16RomanceConsultantTherapistDress_DeepRed--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408006<!--yfBody_EP16RomanceConsultantTherapistDress_GrayHeart--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408088<!--yfBody_EP16RomanceConsultantTherapistDress_Green--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408007<!--yfBody_EP16RomanceConsultantTherapistDress_PinkRed--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408008<!--yfBody_EP16RomanceConsultantTherapistDress_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408010<!--yfBody_EP16RomanceConsultantTherapistDress_WhitePink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408009<!--yfBody_EP16RomanceConsultantTherapistDress_WhiteRose--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">404434<!--yfShoes_EP16Heel_SolidWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407677<!--ymBody_EP16RomanceConsultantTherapistSuit_BeigeCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407678<!--ymBody_EP16RomanceConsultantTherapistSuit_BlackBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407679<!--ymBody_EP16RomanceConsultantTherapistSuit_BrownWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407680<!--ymBody_EP16RomanceConsultantTherapistSuit_BurgundyBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407681<!--ymBody_EP16RomanceConsultantTherapistSuit_BurgundyCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407682<!--ymBody_EP16RomanceConsultantTherapistSuit_GreenCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407683<!--ymBody_EP16RomanceConsultantTherapistSuit_ScarletCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407684<!--ymBody_EP16RomanceConsultantTherapistSuit_WhiteBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">407681<!--ymBody_EP16RomanceConsultantTherapistSuit_BurgundyCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408589<!--yfBody_EP16RomanceConsultantTherapistSuit_BeigeCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408590<!--yfBody_EP16RomanceConsultantTherapistSuit_BlackBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408591<!--yfBody_EP16RomanceConsultantTherapistSuit_BrownWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408592<!--yfBody_EP16RomanceConsultantTherapistSuit_BurgundyBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408593<!--yfBody_EP16RomanceConsultantTherapistSuit_BurgundyCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408594<!--yfBody_EP16RomanceConsultantTherapistSuit_GreenCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408595<!--yfBody_EP16RomanceConsultantTherapistSuit_ScarletCream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408596<!--yfBody_EP16RomanceConsultantTherapistSuit_WhiteBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408319<!--ymBody_EP16RomanceConsultantTherapistDress_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408320<!--ymBody_EP16RomanceConsultantTherapistDress_Cream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408321<!--ymBody_EP16RomanceConsultantTherapistDress_DeepRed--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408327<!--ymBody_EP16RomanceConsultantTherapistDress_GrayHeart--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408322<!--ymBody_EP16RomanceConsultantTherapistDress_Green--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408323<!--ymBody_EP16RomanceConsultantTherapistDress_PinkRed--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408324<!--ymBody_EP16RomanceConsultantTherapistDress_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408325<!--ymBody_EP16RomanceConsultantTherapistDress_WhitePink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">408326<!--ymBody_EP16RomanceConsultantTherapistDress_WhiteRose--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">400257<!--ymShoes_EP16Loafers_SolidTan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">5</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

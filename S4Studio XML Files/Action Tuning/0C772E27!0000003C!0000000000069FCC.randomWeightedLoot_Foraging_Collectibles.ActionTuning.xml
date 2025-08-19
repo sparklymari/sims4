@@ -1,0 +1,3903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Foraging_Collectibles" s="434124">
+  <V n="_luck_tuning" t="enabled">
+    <U n="enabled">
+      <L n="loot_actions">
+        <T>452778<!--loot_LuckSys_ImpactOnAction_Foraging--></T>
+      </L>
+    </U>
+  </V>
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">465420<!--notification_ObjectReward_Foraging--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28925<!--collectElementGEN_01_alcineat (Alcineat)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28928<!--collectElementGEN_01_goobleck (Goobleck)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28920<!--collectElementGEN_01_melacoo (Melacoo)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28923<!--collectElementGEN_01_oxylin (Oxypin)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28921<!--collectElementGEN_01_ozinate (Ozinate)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28918<!--collectElementGEN_01_phozone (Phozone)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28423<!--collectElementGEN_01_sealium (Selium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28390<!--collectElementGEN_01_sydrolin (Sydrolin)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29147<!--collectFossil_01_cephalopod (Fossilized Sea Monster)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29148<!--collectFossil_01_claw (Raptor Claw)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29146<!--collectFossil_01_egg (Fossilized Egg)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29149<!--collectFossil_01_plant (Fossilized Plant Imprint)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29151<!--collectFossil_02_dinoArms (Hilariously Tiny T-Rex Arms)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29153<!--collectFossil_02_hand (Fossilized Sim Hand)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29150<!--collectFossil_02_hoof (Pre-Historic Hoofprint)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29152<!--collectFossil_02_trilobite (Enormous Trilobite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29154<!--collectFossil_03_arrowhead (Prehistoric Rock)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28783<!--collectMetalSmGEN_01_phozonite (Phozonite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28784<!--collectMetalSmGEN_01_punium (Punium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376796<!--collectMetalSm_SP49GEN_01_silver (Silver)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1.5</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">2</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">176915<!--collectBirdFeatherDisplay_EP04GEN_01 (Pigeon Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">176989<!--collectBirdFeatherDisplay_EP04GEN_02 (Seagull Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">176991<!--collectBirdFeatherDisplay_EP04GEN_03 (Crow Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">176994<!--collectBirdFeatherDisplay_EP04GEN_04 (Duck Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">176996<!--collectBirdFeatherDisplay_EP04GEN_05 (Finch Feather)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>166547<!--region_Residential_PetWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">127408<!--collectSnowGlobe_EP03GEN_set1 (Newcrest Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130804<!--collectSnowGlobe_EP03GEN_set2 (The City Bridge Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130785<!--collectSnowGlobe_EP03GEN_set3 (City Skyline Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130805<!--collectSnowGlobe_EP03GEN_set4 (Tudor House Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130806<!--collectSnowGlobe_EP03GEN_set5 (Haunted Mansion Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130807<!--collectSnowGlobe_EP03GEN_set6 (Yuma Heights Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130808<!--collectSnowGlobe_EP03GEN_set7 (The Willow Creek Lighthouse Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">125954<!--collectPaintWall_EP03GENposterCity_set1 ('Self Portrait?' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131249<!--collectPaintWall_EP03GENposterCity_set2 (Red Hearts, White Diamonds)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131250<!--collectPaintWall_EP03GENposterCity_set3 ('Uptown Anarchy' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131251<!--collectPaintWall_EP03GENposterCity_set4 (Fashion District Travel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131252<!--collectPaintWall_EP03GENposterCity_set5 (Freezer Bunny Falls)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131253<!--collectPaintWall_EP03GENposterCity_set6 ('Stargarden Maiden' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131254<!--collectPaintWall_EP03GENposterCity_set7 (Parfum L'esprit d'escalier)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>134252<!--region_Residential_CityLife--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29332<!--collectMySimsBuddy_01 (Buddy)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29333<!--collectMySimsCandy_01 (DJ Candy)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29343<!--collectMySimsChaz_01 (Chaz McFreely)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29347<!--collectMySimsGino_01 (Chef Gino)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29345<!--collectMySimsElmira_01 (Elmira Clamp)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29348<!--collectMySimsGonk_01 (Gonk)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29350<!--collectMySimsHopper_01 (Hopper)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29346<!--collectMySimsGabby_01 (Ol' Gabby)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29341<!--collectMySimsYuki_01 (Yuki)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29337<!--collectMySimsPoppy_01 (Poppy)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124471<!--collectMonsterBattleCard_SP07GENwater_set1 (Kampos)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124478<!--collectMonsterBattleCard_SP07GENearth_set1 (Nymphaea)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124480<!--collectMonsterBattleCard_SP07GENvoid_set1 (Wisp)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124479<!--collectMonsterBattleCard_SP07GENfire_set1 (Yorier)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126478<!--collectMonsterBattleCard_SP07GENair_set3 (Meduso)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1.5</T>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">72392<!--collectMetalMed_EP01GENblutonium (Blutonium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">72394<!--collectMetalMed_EP01GENsolarium (Solarium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">72395<!--collectCrystalMed_EP01GEN_crandestine (Crandestine)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">72396<!--collectCrystalMed_EP01GEN_nitelite (Nitelite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">66814<!--collectGeode_EP01GENrough (Unpolished Geode)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24398<!--collectJarGENAlien_01 (Dead Pink Whale)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24399<!--collectJarGENAlien_02 (Dead Blue Slug)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24401<!--collectJarGENAlien_03 (Dead Red Coral)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24403<!--collectJarGENAlien_05 (Dead Space Porcupine)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23678<!--collectRockSmGENSpace_01 (Common Space Rock)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24408<!--collectTerrariumGENAlien_05 (Live Space Porcupine)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>108705<!--region_Career_AlienWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65104<!--collectTerrarium_GP01GENinsectBee_set1 ({S.Bee}{P.Bees})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65106<!--collectTerrarium_GP01GENinsectButterflyBlueMorpho_set1 ({S.Blue Morpho Butterfly}{P.Blue Morpho Butterflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65098<!--collectTerrarium_GP01GENinsectFireAnt_set1 ({S.Fire Ant}{P.Fire Ants})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65286<!--collectTerrarium_GP01GENinsectFirefly_set1 ({S.Firefly}{P.Fireflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65102<!--collectTerrarium_GP01GENinsectButterflyJezebel_set1 ({S.Jezebel Butterfly}{P.Jezebel Butterflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65079<!--collectTerrarium_GP01GENinsectKatydid_set1 ({S.Katydid}{P.Katydids})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65105<!--collectTerrarium_GP01GENinsectLadybug_set1 ({S.Ladybug}{P.Ladybugs})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65103<!--collectTerrarium_GP01GENinsectMothLuna_set1 ({S.Luna Moth}{P.Luna Moths})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65100<!--collectTerrarium_GP01GENinsectMosquito_set1 ({S.Mosquito}{P.Mosquitoes})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65101<!--collectTerrarium_GP01GENinsectStinkbug_set1 ({S.Stink Bug}{P.Stink Bugs})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65077<!--collectTerrarium_GP01GENinsectTermite_set1 ({S.Termite}{P.Termites})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>104096<!--region_Destination_CampingForest--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364953<!--collectMarble_EP15GEN_common_set1 (Lumberjackson Red)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364668<!--collectMarble_EP15GEN_common_set2 (Olive's Garden)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364669<!--collectMarble_EP15GEN_common_set3 (Belladonna Cove)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364670<!--collectMarble_EP15GEN_common_set4 (Eyes of Pinochle Point)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364671<!--collectMarble_EP15GEN_common_set5 (Road to Nowhere)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364672<!--collectMarble_EP15GEN_common_set6 (Rainbow)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364674<!--collectMarble_EP15GEN_common_set7 (Sulani Swirl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368114<!--collectTasselWall_EP15GEN_Blue_set7 (Blue Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368112<!--collectTasselWall_EP15GEN_Green_set5 (Green Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368113<!--collectTasselWall_EP15GEN_LtBlue_set6 (Turquoise Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368111<!--collectTasselWall_EP15GEN_LtGreen_set4 (Light Green Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368117<!--collectTasselWall_EP15GEN_Magenta_set10 (Magenta Tassel)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>337554<!--region_Residential_MultiUnitWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422217<!--collectTerrarium_EP16GENaxolotl_01_copper (Copper Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422223<!--collectTerrarium_EP16GENaxolotl_01_gold (Gold Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422224<!--collectTerrarium_EP16GENaxolotl_01_green (Green Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422227<!--collectTerrarium_EP16GENaxolotl_01_lavendar (Lavender Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">417062<!--collectTerrarium_EP16GENaxolotl_01_pink (Pink Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422226<!--collectTerrarium_EP16GENaxolotl_01_copperWild (Wild Copper Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>362425<!--region_Residential_EP16World--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259315<!--sculptTableSmall_EP10GENgachapon_set9 (Buddy Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259308<!--sculptTableSmall_EP10GENgachapon_set2 (Gnome Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259307<!--sculptTableSmall_EP10GENgachapon_set1 (Yamachan Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259318<!--sculptTableSmall_EP10GENgachapon_set12 (Jasmine Holiday Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259316<!--sculptTableSmall_EP10GENgachapon_set10 (Ol' Gabby Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259312<!--sculptTableSmall_EP10GENgachapon_set6 (Princess Cordelia Simmi)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>238454<!--region_Residential_MountainWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33324<!--collectTerrariumGENFrog_01_brownSolid (Dirt Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33336<!--collectTerrariumGENFrog_02_brownSpots (Spotted Dirt Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33348<!--collectTerrariumGENFrog_04_brownStripes (Striped Dirt Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33319<!--collectTerrariumGENFrog_01_PurpleSolid (Eggplant Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33323<!--collectTerrariumGENFrog_01_RedSolid (Heart Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33276<!--collectTerrariumGENFrog_01_GreenSolid (Leaf Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33335<!--collectTerrariumGENFrog_02_greenSpots (Spotted Leaf Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33346<!--collectTerrariumGENFrog_04_greenStripes (Striped Leaf Frog)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310645<!--collectRelicSmall_GP12GENpot01_set1 (Mooncaster Pot Shard: "Learning")--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310641<!--collectRelicMedium_GP12GENjawBone_set1 (Tamed Cowplant Jawbone)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310642<!--collectRelicMedium_GP12GENheadBone_set1 (Tamed Cowplant Skull)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>285909<!--region_Residential_WolfTown--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.25</T>
+                        <L n="tests">
+                          <L>
+                            <V t="trait">
+                              <U n="trait">
+                                <L n="blacklist_traits">
+                                  <T>289780<!--trait_OccultWerewolf--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219206<!--collectSeaShell_EP07GEN05_set2 (Scallop Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">216983<!--collectSeaShell_EP07GEN03_set1 (Tulip Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219205<!--collectSeaShell_EP07GEN05_set1 (Scallop Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219183<!--collectSeaShell_EP07GEN03_set2 (Tulip Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219170<!--collectSeaShell_EP07GEN01_set2 (Small Conch Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">216979<!--collectSeaShell_EP07GEN01_set1 (Small Conch Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219215<!--collectTreasureBuriedSml_EP07GENcoin_set4 (The Eyes of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219216<!--collectTreasureBuriedSml_EP07GENcoin_set5 (The Eyes of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219217<!--collectTreasureBuriedSml_EP07GENcoin_set6 (The Eyes of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219220<!--collectTreasureBuriedSml_EP07GENcomb_set4 (The Fingers of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219221<!--collectTreasureBuriedSml_EP07GENcomb_set5 (The Fingers of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219222<!--collectTreasureBuriedSml_EP07GENcomb_set6 (The Fingers of Sulani)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>208308<!--region_Residential_IslandWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222627<!--magicWand_GP08GEN08_set1 (Ancient Wood Wand)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222616<!--magicWand_GP08GEN03_set1 (Wood Wand)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222622<!--magicWand_GP08GEN06_set1 (Natural Wand)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222625<!--magicWand_GP08GEN07_set1 (Marble Wand)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">229066<!--magicWand_GP08GEN09_set2 (Bone Wand)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>216626<!--region_Residential_Magic--></T>
+                                    <T>219134<!--region_Hidden_Magic_Venue--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">257323<!--CollectDataPad_Cabinet (Batuu Record: Droid Depot Storage)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254301<!--CollectDataPad_CommunicationDish (Batuu Record: 1.4 FD P-Tower)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254295<!--CollectDataPad_CookiesShip (Batuu Record: Modified Utilipede Transport)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254292<!--CollectDataPad_DianogaTank (Batuu Record: Black Spire Water Pipes)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254297<!--CollectDataPad_DroidScrapCart (Batuu Record: Salvage Cart)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254299<!--CollectDataPad_DroidTorture (Batuu Record: Recharging Gonk Droid)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254296<!--CollectDataPad_FORepeater (Batuu Record: FWMB-10 Repeating Blaster)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">254288<!--CollectDataPad_GonkDroid (Batuu Record: Gonk Droid)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239840<!--collectCrystalKyber_GP09GEN_blue (Blue Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239842<!--collectCrystalKyber_GP09GEN_green (Green Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239841<!--collectCrystalKyber_GP09GEN_red (Red Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>231104<!--region_Destination_Batuu--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299200<!--collectBottleMessage_GP11GENshortRound_blue (Message in a Bottle: A Thousand Leaves)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299202<!--collectBottleMessage_GP11GENshortRound_brown (Message in a Bottle: An 'Imminent' Warning)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299189<!--collectBottleMessage_GP11GENshortTaper_clear (Message in a Bottle: An Inspiring Role-Model)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">295471<!--collectBottleMessage_GP11GENshortTaper_green (Message in a Bottle: A Pirate's Joke)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299191<!--collectBottleMessage_GP11GENtallCylinder_red (Message in a Bottle: Till Death...)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299192<!--collectBottleMessage_GP11GENtallCylinder_blue (Message in a Bottle: A Lover's Grudge)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299198<!--collectBottleMessage_GP11GENtallSquare_brown (Message in a Bottle: A Grim Promise)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299197<!--collectBottleMessage_GP11GENtallSquare_clear (Message in a Bottle: Moonlit Musings)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">295475<!--collectBottleMessage_GP11GENtallSquare_green (Message in a Bottle: A Bright Hello)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>272129<!--region_Residential_WeddingWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">-25</T>
+      </U>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.75</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">3</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">4</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">465420<!--notification_ObjectReward_Foraging--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28919<!--collectElementGEN_01_peryllium (Peryllium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28916<!--collectElementGEN_01_plathium (Plathium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28922<!--collectElementGEN_01_volenton (Volenton)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29158<!--collectFossil_04_udder (Fossilized Udder)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29156<!--collectFossil_03_mustache (Perfectly Preserved Mustache)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29155<!--collectFossil_03_bird (Prehistoric Bird)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28780<!--collectMetalSmGEN_01_flamingonium (Flamingonium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28764<!--collectMetalMedGEN_01_ironyum (Ironyum)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28786<!--collectMetalSmGEN_01_socialite (Socialite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376795<!--collectMetalSm_SP49GEN_01_gold (Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">176998<!--collectBirdFeatherDisplay_EP04GEN_06 (Cardinal Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177002<!--collectBirdFeatherDisplay_EP04GEN_07 (Heron Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177004<!--collectBirdFeatherDisplay_EP04GEN_08 (Blue Jay Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177006<!--collectBirdFeatherDisplay_EP04GEN_09 (Pheasant Feather)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>166547<!--region_Residential_PetWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131255<!--collectPaintWall_EP03GENposterCity_set8 (Night of the Culling)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131256<!--collectPaintWall_EP03GENposterCity_set9 (Willam goes Acoustic)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131257<!--collectPaintWall_EP03GENposterCity_set10 ('Uptown Down' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131258<!--collectPaintWall_EP03GENposterCity_set11 (The Night Light Legacy)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131259<!--collectPaintWall_EP03GENposterCity_set12 ('Electric Llama Land' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130786<!--collectSnowGlobe_EP03GEN_set8 (Freezer Bunny Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130787<!--collectSnowGlobe_EP03GEN_set9 (Emily Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130809<!--collectSnowGlobe_EP03GEN_set10 (The City Skyscraper Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130810<!--collectSnowGlobe_EP03GEN_set11 (Stanley the Jackalope Snow Globe)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130811<!--collectSnowGlobe_EP03GEN_set12 (Magnolia Steamboat Snow Globe )--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>134252<!--region_Residential_CityLife--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29344<!--collectMySimsDrF_01 (Dr. F)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29351<!--collectMySimsJenny_01 (Jenny)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29334<!--collectMySimsLeaf_01 (Leaf)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29335<!--collectMySimsLyndsay_01 (Lyndsay)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29336<!--collectMySimsMorcubus_01 (Morcubus)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29339<!--collectMySimsTrevor_01 (Trevor Verily)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126481<!--collectMonsterBattleCard_SP07GENwater_set3 (Bubalus)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126484<!--collectMonsterBattleCard_SP07GENvoid_set3 (Wickyn)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124477<!--collectMonsterBattleCard_SP07GENair_set1 (Avesu)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126479<!--collectMonsterBattleCard_SP07GENair_set4 (Nimbus)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126480<!--collectMonsterBattleCard_SP07GENwater_set2 (Pleuro)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126485<!--collectMonsterBattleCard_SP07GENvoid_set4 (Vulpes)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126487<!--collectMonsterBattleCard_SP07GENfire_set3 (Cyprin)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126488<!--collectMonsterBattleCard_SP07GENfire_set4 (Fissure)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126489<!--collectMonsterBattleCard_SP07GENearth_set2 (Mytheme)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126491<!--collectMonsterBattleCard_SP07GENearth_set4 (Simgaia)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1.5</T>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24402<!--collectJarGENAlien_04 (Dead Space Squid)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">72398<!--collectElement_EP01GENxenopetrium (Xenopetrium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24404<!--collectTerrariumGENAlien_01 (Live Pink Whale)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24406<!--collectTerrariumGENAlien_03 (Live Red Coral)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23680<!--collectRockLgGENSpace_01 (Large Space Rock)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23679<!--collectRockMedGENSpace_01 (Uncommon Space Rock)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>108705<!--region_Career_AlienWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65111<!--collectTerrarium_GP01GENinsectDragonfly_set1 ({S.Dragonfly}{P.Dragonflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65112<!--collectTerrarium_GP01GENinsectJewelbeetle_set1 ({S.Jewel Beetle}{P.Jewel Beetles})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65108<!--collectTerrarium_GP01GENinsectLocust_set1 ({S.Locust}{P.Locusts})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65109<!--collectTerrarium_GP01GENinsectMantis_set1 ({S.Mantis}{P.Mantes})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65107<!--collectTerrarium_GP01GENinsectButterflyMonarch_set1 ({S.Monarch Butterfly}{P.Monarch Butterflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65113<!--collectTerrarium_GP01GENinsectWalkingStick_set1 ({S.Walking Stick}{P.Walking Sticks})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>104096<!--region_Destination_CampingForest--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364721<!--collectMarble_EP15GEN_uncommon_set11 (Servos Steel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364720<!--collectMarble_EP15GEN_uncommon_set10 (Confetti Chaos)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364722<!--collectMarble_EP15GEN_uncommon_set12 (Midnight Hollow Marble)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364673<!--collectMarble_EP15GEN_uncommon_set8 (Selvadorada Sun)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364719<!--collectMarble_EP15GEN_uncommon_set9 (Al Simhara Marble)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368109<!--collectTasselWall_EP15GEN_Orange_set2 (Orange Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368116<!--collectTasselWall_EP15GEN_Pink_set9 (Pink Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368115<!--collectTasselWall_EP15GEN_Purple_set8 (Purple Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">363803<!--collectTasselWall_EP15GEN_Red_set1 (Red Tassel)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">368110<!--collectTasselWall_EP15GEN_Yellow_set3 (Yellow Tassel)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>337554<!--region_Residential_MultiUnitWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422221<!--collectTerrarium_EP16GENaxolotl_02_albino (Albino Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422225<!--collectTerrarium_EP16GENaxolotl_02_blue (Blue Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422230<!--collectTerrarium_EP16GENaxolotl_02_goldFirefly (Gold Firefly Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422228<!--collectTerrarium_EP16GENaxolotl_02_pinkChimera (Pink Chimera Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422229<!--collectTerrarium_EP16GENaxolotl_02_pinkFirefly (Pink Firefly Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>362425<!--region_Residential_EP16World--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259311<!--sculptTableSmall_EP10GENgachapon_set5 (Father Winter Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259317<!--sculptTableSmall_EP10GENgachapon_set11 (Madame Zoe Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259309<!--sculptTableSmall_EP10GENgachapon_set3 (Izzy Fabulous Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259313<!--sculptTableSmall_EP10GENgachapon_set7 (Mayor Whiskers Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259314<!--sculptTableSmall_EP10GENgachapon_set8 (Pit Beast Simmi)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>238454<!--region_Residential_MountainWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33342<!--collectTerrariumGENFrog_03_brownWaves (Dirtsurfer Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33357<!--collectTerrariumGENFrog_05_brownSpiral (Dirtwhirl Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33339<!--collectTerrariumGENFrog_02_purpleSpots (Spotted Eggplant Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33353<!--collectTerrariumGENFrog_04_purpleStripes (Striped Eggplant Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33337<!--collectTerrariumGENFrog_02_redSpots (Spotted Heart Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33350<!--collectTerrariumGENFrog_04_redStripes (Striped Heart Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33340<!--collectTerrariumGENFrog_03_greenWaves (Surfer Leaf Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33354<!--collectTerrariumGENFrog_05_greenSpiral (HypnoFrog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33320<!--collectTerrariumGENFrog_01_yellowSolid (Sunflower Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33338<!--collectTerrariumGENFrog_02_yellowSpots (Leopard Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33349<!--collectTerrariumGENFrog_04_yellowStripes (Tiger Frog)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">1.25</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310634<!--collectRelicMedium_GP12GENwolfFigurine01_set1 (Canine Familiar Figurine: "Brutus")--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310636<!--collectRelicMedium_GP12GENwolfFigurine03_set1 (Canine Familiar Figurine: "Verity")--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">311045<!--collectRelicSmall_GP12GENpot03_set1 (Mooncaster Pot Shard: "Planting")--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">311044<!--collectRelicSmall_GP12GENpot02_set1 (Mooncaster Pot Shard: "Turning")--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310643<!--collectRelicMedium_GP12GENtablet01_set1 (Myshupotamian Tablet: Wise Wolfman)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">313178<!--collectRelicMedium_GP12GENtablet02_set1 (Myshupotamian Tablet: Cowplant Taming)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>285909<!--region_Residential_WolfTown--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.25</T>
+                        <L n="tests">
+                          <L>
+                            <V t="trait">
+                              <U n="trait">
+                                <L n="blacklist_traits">
+                                  <T>289780<!--trait_OccultWerewolf--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219175<!--collectSeaShell_EP07GEN02_set2 (Moon Snail Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219209<!--collectSeaShell_EP07GEN06_set2 (Sea Urchin Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">216981<!--collectSeaShell_EP07GEN02_set1 (Moon Snail Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219208<!--collectSeaShell_EP07GEN06_set1 (Sea Urchin Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">214039<!--collectTreasureBuriedSml_EP07GENcoin_set1 (The Eyes of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219213<!--collectTreasureBuriedSml_EP07GENcoin_set2 (The Eyes of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">216989<!--collectTreasureBuriedSml_EP07GENcomb_set1 (The Fingers of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219218<!--collectTreasureBuriedSml_EP07GENcomb_set2 (The Fingers of Sulani)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>208308<!--region_Residential_IslandWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222618<!--magicWand_GP08GEN04_set1 (Wand of Astral Creation)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">229067<!--magicWand_GP08GEN10_set2 (Magician's Wand)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">229005<!--magicWand_GP08GEN01_set2 (Wand of the Forgotten)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>216626<!--region_Residential_Magic--></T>
+                                    <T>219134<!--region_Hidden_Magic_Venue--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239846<!--collectCrystalKyber_GP09GEN_white (White Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239844<!--collectCrystalKyber_GP09GEN_yellow (Yellow Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>231104<!--region_Destination_Batuu--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">10</T>
+      </U>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.25</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">3</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">4</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.75</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                          <T n="upper_bound">10</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.25</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>439939<!--buff_FairyOccult_Ability_Passive_ImprovedForagingAndGathering--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">465420<!--notification_ObjectReward_Foraging--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">384507<!--collectCrystalRefined_GP06GEN_amber (Refined Amber)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28924<!--collectElementGEN_01_firaxium (Firaxium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28926<!--collectElementGEN_01_crytacoo (Crytacoo)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28917<!--collectElementGEN_01_plumbobus (Plumbobus)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29160<!--collectFossil_04_alien (Fossilized Alien Skull)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29159<!--collectFossil_04_plumbob (Fossilized Whatzit)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29157<!--collectFossil_03_skull (Pre-Pre-Pre Sim Head)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28781<!--collectMetalSmGEN_01_literalite (Literalite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28773<!--collectMetalMedGEN_01_romantium (Romantium)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376797<!--collectMetalSm_SP49GEN_01_roseGold (Rose Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1.5</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">2</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177008<!--collectBirdFeatherDisplay_EP04GEN_10 (Puffin Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177010<!--collectBirdFeatherDisplay_EP04GEN_11 (Parrot Feather)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">177012<!--collectBirdFeatherDisplay_EP04GEN_12 (Spotted Sixam Feather)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>166547<!--region_Residential_PetWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130788<!--collectSnowGlobe_EP03GEN_set13 (Plumbob Snow Globe (Limited Edition))--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130812<!--collectSnowGlobe_EP03GEN_set14 (The Reaper Snow Globe (Limited Edition))--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">130789<!--collectSnowGlobe_EP03GEN_set15 (Age of the Dinosaur Snow Globe (Limited Edition))--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131260<!--collectPaintWall_EP03GENposterCity_set13 ('Every Pancake Tells A Lie' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131261<!--collectPaintWall_EP03GENposterCity_set14 ('Aspiration' by Angsty)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131262<!--collectPaintWall_EP03GENposterCity_set15 ('What's Necks?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>134252<!--region_Residential_CityLife--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29338<!--collectMySimsTobor_01 (TOBOR)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29340<!--collectMySimsViolet_01 (Violet)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29342<!--collectMySimsCarl_01 (Zombie Carl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29349<!--collectMySimsGothBoy_01 (Goth Boy)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126477<!--collectMonsterBattleCard_SP07GENair_set2 (Dicoatl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126482<!--collectMonsterBattleCard_SP07GENwater_set4 (Arcticorn)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126483<!--collectMonsterBattleCard_SP07GENvoid_set2 (Veild)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126486<!--collectMonsterBattleCard_SP07GENfire_set2 (Canis)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126490<!--collectMonsterBattleCard_SP07GENearth_set3 (Suintor)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1.5</T>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24405<!--collectTerrariumGENAlien_02 (Live Blue Slug)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">24407<!--collectTerrariumGENAlien_04 (Live Space Squid)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23677<!--collectRockXLgGENSpace_01 (Unnaturally Large Space Rock)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>108705<!--region_Career_AlienWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65117<!--collectTerrarium_GP01GENinsectDragonflyDragon_set1 ({S.Dragon Dragonfly}{P.Dragon Dragonflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65116<!--collectTerrarium_GP01GENinsectSootSpirit_set1 ({S.Dust Spirit}{P.Dust Spirits})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65115<!--collectTerrarium_GP01GENinsectFireflyRainbow_set1 ({S.Rainbow Firefly}{P.Rainbow Fireflies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65114<!--collectTerrarium_GP01GENinsectWillOTheWisp_set1 ({S.Will-o-the-Wisp}{P.Will-o-the-Wisps})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>104096<!--region_Destination_CampingForest--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364723<!--collectMarble_EP15GEN_rare_set13 (Eye of the Tiger)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364724<!--collectMarble_EP15GEN_rare_set14 (El Bandito's Treasure)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">364725<!--collectMarble_EP15GEN_rare_set15 (Princess Cordelia's Lost Marble)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>337554<!--region_Residential_MultiUnitWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422231<!--collectTerrarium_EP16GENaxolotl_03_black (Black Melanoid Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422232<!--collectTerrarium_EP16GENaxolotl_03_blueFluor (Blue Fluorescent Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422233<!--collectTerrarium_EP16GENaxolotl_03_goldFluor (Gold Fluorescent Axolotl)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422222<!--collectTerrarium_EP16GENaxolotl_03_greenChimera (Green Chimera Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>362425<!--region_Residential_EP16World--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259310<!--sculptTableSmall_EP10GENgachapon_set4 (Medieval Grim Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259327<!--sculptTableSmall_EP10GENgachapon_set21 (Golden Buddy Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259320<!--sculptTableSmall_EP10GENgachapon_set14 (Golden Gnome Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259319<!--sculptTableSmall_EP10GENgachapon_set13 (Golden Yamachan Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259330<!--sculptTableSmall_EP10GENgachapon_set24 (Golden Jasmine Holiday Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259328<!--sculptTableSmall_EP10GENgachapon_set22 (Golden Ol' Gabby Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259324<!--sculptTableSmall_EP10GENgachapon_set18 (Golden Princess Cordelia Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259323<!--sculptTableSmall_EP10GENgachapon_set17 (Golden Father Winter Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259329<!--sculptTableSmall_EP10GENgachapon_set23 (Golden Madame Zoe Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259321<!--sculptTableSmall_EP10GENgachapon_set15 (Golden Izzy Fabulous Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259325<!--sculptTableSmall_EP10GENgachapon_set19 (Golden Mayor Whiskers Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259326<!--sculptTableSmall_EP10GENgachapon_set20 (Golden Pit Beast Simmi)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">259322<!--sculptTableSmall_EP10GENgachapon_set16 (Golden Medieval Grim Simmi)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>238454<!--region_Residential_MountainWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33344<!--collectTerrariumGENFrog_03_purpleWaves (Surfer Eggplant Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33356<!--collectTerrariumGENFrog_05_purpleSpiral (Eggplant Whirl Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33345<!--collectTerrariumGENFrog_03_redWaves (Heartsurfer Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33355<!--collectTerrariumGENFrog_05_redSpiral (Bullseye Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33341<!--collectTerrariumGENFrog_03_yellowWaves (Sunsurfer Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33359<!--collectTerrariumGENFrog_05_yellowSpiral (Whirlyflower Frog)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165664<!--collectSeed_EF05GENspringSeed_set1 (Angry Magic Bean)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165665<!--collectSeed_EF05GENspringSeed_set2 (Playful Magic Bean)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165666<!--collectSeed_EF05GENspringSeed_set3 (Sad Magic Bean)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165667<!--collectSeed_EF05GENspringSeed_set4 (Uncomfortable Magic Bean)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165668<!--collectSeed_EF05GENspringSeed_set5 (Flirty Magic Bean)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165669<!--collectSeed_EF05GENspringSeed_set6 (Confident Magic Bean)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310635<!--collectRelicMedium_GP12GENwolfFigurine02_set1 (Canine Familiar Figurine: "Renga")--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310640<!--collectRelicSmall_GP12GENpot04_set1 (Mooncaster Pot Lid)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">310637<!--collectRelicMedium_GP12GENwolfFigurine04_set1 (Canine Familiar Figurine: "Gibby")--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>285909<!--region_Residential_WolfTown--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0.25</T>
+                        <L n="tests">
+                          <L>
+                            <V t="trait">
+                              <U n="trait">
+                                <L n="blacklist_traits">
+                                  <T>289780<!--trait_OccultWerewolf--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">216985<!--collectSeaShell_EP07GEN04_set1 (Abalone Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219203<!--collectSeaShell_EP07GEN04_set2 (Abalone Shell)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219214<!--collectTreasureBuriedSml_EP07GENcoin_set3 (The Eyes of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219219<!--collectTreasureBuriedSml_EP07GENcomb_set3 (The Fingers of Sulani)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">219228<!--collectTreasureBuriedSml_EP07GENjewelry_set5 (The Heart of Sulani)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>DIRT</E>
+                                        <E>GRASS</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">1.5</T>
+                        <L n="tests">
+                          <L>
+                            <V t="pick_info_test">
+                              <U n="pick_info_test">
+                                <V n="pick_type_test" t="pick_type">
+                                  <U n="pick_type">
+                                    <V n="terrain_tags" t="enabled">
+                                      <L n="enabled">
+                                        <E>SAND</E>
+                                      </L>
+                                    </V>
+                                    <T n="test_floor_tiles">True</T>
+                                  </U>
+                                </V>
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>208308<!--region_Residential_IslandWorld--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222620<!--magicWand_GP08GEN05_set1 (Wand of The Elementals)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">222612<!--magicWand_GP08GEN01_set1 (Wand of the Forgotten)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>216626<!--region_Residential_Magic--></T>
+                                    <T>219134<!--region_Hidden_Magic_Venue--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239845<!--collectCrystalKyber_GP09GEN_black (Black Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">239843<!--collectCrystalKyber_GP09GEN_purple (Purple Kyber Crystal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <L n="multipliers">
+                      <U>
+                        <T n="multiplier">0</T>
+                        <L n="tests">
+                          <L>
+                            <V t="region">
+                              <U n="region">
+                                <V n="blacklist" t="enabled">
+                                  <L n="enabled">
+                                    <T>231104<!--region_Destination_Batuu--></T>
+                                  </L>
+                                </V>
+                                <V n="subject" t="enabled" />
+                              </U>
+                            </V>
+                          </L>
+                        </L>
+                      </U>
+                    </L>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">25</T>
+      </U>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">0</T>
+                          <T n="upper_bound">3</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.25</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">4</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.5</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">434909<!--statistic_Skill_NLS--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">9</T>
+                          <T n="upper_bound">10</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.25</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>439939<!--buff_FairyOccult_Ability_Passive_ImprovedForagingAndGathering--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

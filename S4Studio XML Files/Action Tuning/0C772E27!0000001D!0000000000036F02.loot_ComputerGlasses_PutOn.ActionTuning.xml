@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ComputerGlasses_PutOn" s="225026">
+  <L n="loot_actions">
+    <V t="trait_add">
+      <U n="trait_add">
+        <T n="trait">225007<!--trait_ComputerGlasses_Wearing--></T>
+      </U>
+    </V>
+    <V t="hidden_inventory_transfer">
+      <U n="hidden_inventory_transfer">
+        <E n="target_participant_type">Object</E>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">230701<!--computerGlasses_EP08GEN_set1_red (Computer Glasses)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">225159<!--trait_ComputerGlasses_Wearing_Red--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">234820<!--computerGlasses_EP08GEN_set6_pink (Computer Glasses)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">225160<!--trait_ComputerGlasses_Wearing_Pink--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">234819<!--computerGlasses_EP08GEN_set5_blue (Computer Glasses)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">225161<!--trait_ComputerGlasses_Wearing_Blue--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">234818<!--computerGlasses_EP08GEN_set4_green (Computer Glasses)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">225162<!--trait_ComputerGlasses_Wearing_Green--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">234816<!--computerGlasses_EP08GEN_set2_orange (Computer Glasses)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">225163<!--trait_ComputerGlasses_Wearing_Orange--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">234817<!--computerGlasses_EP08GEN_set3_amber (Computer Glasses)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">225164<!--trait_ComputerGlasses_Wearing_Yellow--></T>
+      </U>
+    </V>
+  </L>
+</I>

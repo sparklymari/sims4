@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_WitchOccult_CanUseWand" s="215322">
+  <L n="test">
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="whitelist_traits">
+            <T>215298<!--trait_WitchOccult_Wands_PreferWands--></T>
+          </L>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_tag">
+            <U n="has_object_with_tag">
+              <L n="tag_set">
+                <E>Func_Wands</E>
+              </L>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>216813<!--buff_AutonomyMod_Magic_Duelist_Duel--></T>
+              <T>216882<!--buff_AutonomyMod_Magic_Duelist_GotoDuel--></T>
+              <T>213055<!--buff_MagicVenueNPC_Intermediate--></T>
+              <T>213039<!--buff_MagicVenueNPC_Novice--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>222845<!--buff_WitchOccult_UseWand_NPC--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

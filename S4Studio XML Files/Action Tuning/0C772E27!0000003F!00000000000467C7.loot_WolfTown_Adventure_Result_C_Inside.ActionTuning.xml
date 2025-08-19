@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_WolfTown_Adventure_Result_C_Inside" s="288711">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xA66CB355<!--{0.SimFirstName} found something in the Underground!\n\nItems Received: \n{1.String}--></T>
+              </V>
+              <V n="text_tokens" t="enabled">
+                <U n="enabled">
+                  <L n="tokens">
+                    <V t="participant_type" />
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">223846<!--recipe_Drink_Fridge_Juice_Canned--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285952<!--recipe_Drink_Snack_Midnight_Powersip--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">223848<!--recipe_Drink_Fridge_Water_Canned--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">223847<!--recipe_Drink_Fridge_Soda_OffBrand--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">69283<!--sitLiving_GP01GENtarpSquare_set1 (The Gordian Throne)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">69277<!--sitLiving_GP01GENtarpRounded_set1 (The Gordian Basic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">70932<!--tent_GP01GENsmall_set1 (Easy Camper Tent)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">255705<!--tentSmall_EP10SNOWmodernTek_set1 (Canvas Cabin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">69323<!--tableDining2x1_GP01GENfolding_set1 (Pocket Puter Folding Table)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">71835<!--tableGame_GP01GENfolding_set1 (Wolf Pytts' Essential Gaming Table)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">288125<!--yogaMat_GP02GEN02_set10 (The Perfect Yoga Mat)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">110976<!--danceFloor3x3_EP02GENcardboard_set3 (Hip to the Max Cardboard Dance Floor )--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">311099<!--telescope_GP12GENantique_set1 (Avelina's Trusty Telescope)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">319622<!--telescope_GP12GENantique_set2 (Avelina's Trusty Telescope)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">318466<!--magicWand_GP12GENmoonwood_set1 (Moonwood Wand)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">320047<!--magicWand_GP12GENmoonwood_set2 (Moonwood Wand)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310912<!--sculptTableSmall_GP12GENmoonFlowerCase_set1 (Moonpetal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310083<!--book_GP12GENsecret_set1 (A History of Moonwood Mill)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312499<!--book_GP12GENsecret_set2 (An Insider’s Guide to Being a Werewolf)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312500<!--book_GP12GENsecret_set3 (The Diary of Greggorius Lunvik)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310081<!--bookThin_GP12GENwereMagazine_set1 (WE’RE Living Magazine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">227184<!--magicBroom_GP08GEN04_set1 (Rocket Broom)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231302<!--bookLarge_GP08GENmischiefLow_furio (Tome of Furio)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231310<!--bookLarge_GP08GENpracticalHigh_herbio (Tome of Herbio)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231305<!--bookLarge_GP08GENpracticalLow_repairio (Tome of Repairio)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">144863<!--book_GP04GENtome_set1 (Encyclopedia Vampirica Volume 1)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">144864<!--book_GP04GENtome_set2 (Encyclopedia Vampirica Volume 2)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145407<!--book_GP04GENtome_set3 (Encyclopedia Vampirica Volume 3)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145294<!--gardenFlower_GP04wolfsbane ({S.Wolfsbane}{P.Wolfsbanes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">147520<!--gardenSeedPacket_GP04GEN_wolfsbane (Wolfsbane Seeds)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285952<!--recipe_Drink_Snack_Midnight_Powersip--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310912<!--sculptTableSmall_GP12GENmoonFlowerCase_set1 (Moonpetal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">227209<!--gardenFruit_GP08GENvalerian ({S.Valerian Root}{P.Valerian Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

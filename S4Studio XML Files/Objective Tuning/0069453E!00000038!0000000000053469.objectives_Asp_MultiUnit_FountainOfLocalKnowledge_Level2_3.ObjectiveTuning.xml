@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Objective" i="objective" m="event_testing.objective_tuning" n="objectives_Asp_MultiUnit_FountainOfLocalKnowledge_Level2_3" s="341097">
+  <L n="additional_tests">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362761<!--foodBowlEatSingle_EP15GENhaloHalo (Halo-Halo)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362767<!--foodPlateEatSingle_EP15GENbibingka (Bibingka)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">8585<!--foodPlateEatSingleGENStirFryChicken_01 (Chicken Stir Fry)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">258028<!--foodPlateEatSingle_EF26GENchimichurriSkewers (Chicken Chimichurri Skewer)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362765<!--foodPlateEatSingle_EP15GENpancitBihon (Pancit Bihon)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362763<!--foodPlateEatSingle_EP15GENbanhXeo (Banh Xeo)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362766<!--foodPlateEatSingle_EP15GENsatay (Malaysian Satay)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362636<!--foodBowlEatSingle_EP15GENsteamedRice (Steamed Rice)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">8627<!--foodPlateEatSingleGENNoodlesGarlic_01 ({S.Garlic Noodles}{P.Garlic Noodles})--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">122951<!--foodPlateEatSingleGENStirFryTofu_01 (Tofu Stir Fry )--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362750<!--foodBowlEatSingle_EP15GENsamosaSoup (Burmese Samosa Soup)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">362762<!--foodPlateEatSingle_EP15GENtofuPadThai (Tofu Pad Thai)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="completion_loot">
+    <T>273578<!--loot_Want_AspirationCompleted--></T>
+    <T>357714<!--loot_PivotalMoment_AspirationGoalComplete--></T>
+  </L>
+  <T n="display_text">0x221CABE<!--Buy Food at the Night Market--></T>
+  <V n="objective_test" t="ran_interaction_test">
+    <U n="ran_interaction_test">
+      <L n="affordances">
+        <T>132699<!--si_MarketStalls_OrderFood--></T>
+        <T>239607<!--si_MarketStalls_OrderFoodOrDrink--></T>
+      </L>
+    </U>
+  </V>
+  <T n="satisfaction_points">200</T>
+  <T n="tooltip">0x78A2F4B7<!--Visit the Morensong neighborhood in Tomarang. Find the Night Market Stalls and try some of the local cuisine! Night Market Stalls are only open from 6PM to 2AM. --></T>
+</I>

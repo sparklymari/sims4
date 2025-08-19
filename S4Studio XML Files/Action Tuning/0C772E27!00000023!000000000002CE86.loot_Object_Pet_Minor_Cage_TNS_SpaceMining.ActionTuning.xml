@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Object_Pet_Minor_Cage_TNS_SpaceMining" s="183942">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <U n="chance">
+          <T n="base_chance">30</T>
+        </U>
+        <T n="force_family_inventory">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28925<!--collectElementGEN_01_alcineat (Alcineat)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28928<!--collectElementGEN_01_goobleck (Goobleck)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28927<!--collectElementGEN_01_hodorium (Wolfium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28921<!--collectElementGEN_01_ozinate (Ozinate)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28919<!--collectElementGEN_01_peryllium (Peryllium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28390<!--collectElementGEN_01_sydrolin (Sydrolin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72398<!--collectElement_EP01GENxenopetrium (Xenopetrium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28926<!--collectElementGEN_01_crytacoo (Crytacoo)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28924<!--collectElementGEN_01_firaxium (Firaxium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28920<!--collectElementGEN_01_melacoo (Melacoo)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28923<!--collectElementGEN_01_oxylin (Oxypin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28918<!--collectElementGEN_01_phozone (Phozone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28916<!--collectElementGEN_01_plathium (Plathium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28917<!--collectElementGEN_01_plumbobus (Plumbobus)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28423<!--collectElementGEN_01_sealium (Selium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28922<!--collectElementGEN_01_volenton (Volenton)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <E n="subject">LotOwnerSingleAndInstanced</E>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <U n="chance">
+          <T n="base_chance">100</T>
+        </U>
+        <T n="force_family_inventory">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23677<!--collectRockXLgGENSpace_01 (Unnaturally Large Space Rock)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23678<!--collectRockSmGENSpace_01 (Common Space Rock)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23679<!--collectRockMedGENSpace_01 (Uncommon Space Rock)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23680<!--collectRockLgGENSpace_01 (Large Space Rock)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <E n="subject">LotOwnerSingleAndInstanced</E>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <U n="chance">
+          <T n="base_chance">20</T>
+        </U>
+        <T n="force_family_inventory">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72395<!--collectCrystalMed_EP01GEN_crandestine (Crandestine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72396<!--collectCrystalMed_EP01GEN_nitelite (Nitelite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <E n="subject">LotOwnerSingleAndInstanced</E>
+      </U>
+    </V>
+    <V t="notification_and_dialog">
+      <U n="notification_and_dialog">
+        <V n="dialog" t="notification">
+          <U n="notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InSP14\UI\Icons\Headlines\headline_HamsterRocket.png">2f7d0004:00000000:b9080162665d3612</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant">
+                <U n="participant">
+                  <L n="participant_type">
+                    <E>Object</E>
+                  </L>
+                </U>
+              </V>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x5B858D94<!--{0.ObjectName}'s miniature rocket launches have resulted in a lucrative asteroid mining operation. It's graciously placed some of the space minerals it returned with inside the household's inventory.--></T>
+            </V>
+            <V n="text_tokens" t="enabled">
+              <U n="enabled">
+                <L n="tokens">
+                  <V t="participant_type">
+                    <U n="participant_type">
+                      <V n="objects" t="from_participant">
+                        <U n="from_participant">
+                          <E n="participant">Object</E>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </V>
+            <V n="title" t="enabled">
+              <T n="enabled">0x74869412<!--Tiny Space Delivery--></T>
+            </V>
+          </U>
+        </V>
+        <E n="subject">LotOwnerSingleAndInstanced</E>
+      </U>
+    </V>
+  </L>
+</I>

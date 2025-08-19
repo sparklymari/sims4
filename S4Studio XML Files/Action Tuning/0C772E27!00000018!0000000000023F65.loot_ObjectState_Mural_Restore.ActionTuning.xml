@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectState_Mural_Restore" s="147301">
+  <L n="loot_actions">
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">147256<!--commodity_Mural_Decay--></T>
+          <L n="subject">
+            <E>Object</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147267<!--mural_DefacedOff--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147307<!--mural_Wall_Decay_6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">146766<!--mural_Wall_Complete--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147612<!--mural_RollUp_Decay_6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147506<!--mural_Rollup_StateValues_Complete--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147857<!--mural_Floor_Decay_6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147824<!--mural_Floor_StateValues_Complete--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148184<!--mural_Garage_Decay_6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148174<!--mural_Garage_StateValues_Complete--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">146735<!--mural_Wall_Fish_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">146581<!--mural_Wall_Fish_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">146746<!--mural_Wall_Flowers_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">146599<!--mural_Wall_Flowers_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147493<!--mural_Wall_Tree_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">146607<!--mural_Wall_Tree_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147387<!--mural_Wall_Leaves_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">146604<!--mural_Wall_Leaves_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147553<!--mural_RollUp_Fish_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147554<!--mural_RollUp_Fish_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147588<!--mural_RollUp_Flowers_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147589<!--mural_RollUp_Flowers_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147833<!--mural_Floor_Magenta_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147834<!--mural_Floor_Magenta_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147842<!--mural_Floor_Mosaic_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147843<!--mural_Floor_Mosaic_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147960<!--mural_Garage_Fish_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147961<!--mural_Garage_Fish_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">147986<!--mural_Garage_Flowers_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">147987<!--mural_Garage_Flowers_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148300<!--mural_Wall_MagentaCity_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148301<!--mural_Wall_MagentaCity_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148322<!--mural_Wall_MosaicCity_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148323<!--mural_Wall_MosaicCity_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148344<!--mural_Wall_OrangeCity_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148345<!--mural_Wall_OrangeCity_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148366<!--mural_Wall_ZillaCity_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148367<!--mural_Wall_ZillaCity_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148597<!--mural_Wall_ActGlobe_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148598<!--mural_Wall_ActGlobe_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148619<!--mural_Wall_ActTrees_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148620<!--mural_Wall_ActTrees_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148562<!--mural_Wall_OptUniverse_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148563<!--mural_Wall_OptUniverse_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148540<!--mural_Wall_OptKoi_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148541<!--mural_Wall_OptKoi_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148496<!--mural_Wall_OptCanyon_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148497<!--mural_Wall_OptCanyon_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148518<!--mural_Wall_OptGarden_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148519<!--mural_Wall_OptGarden_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148456<!--mural_Wall_FigKing_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148457<!--mural_Wall_FigKing_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148412<!--mural_Wall_FigGeisha_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148413<!--mural_Wall_FigGeisha_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148390<!--mural_Wall_FigEgypt_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148391<!--mural_Wall_FigEgypt_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148434<!--mural_Wall_FigGang_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148435<!--mural_Wall_FigGang_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148842<!--mural_Wall_CulGirl_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148843<!--mural_Wall_CulGirl_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148820<!--mural_Wall_CulJapanese_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148821<!--mural_Wall_CulJapanese_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148886<!--mural_Wall_CulFish_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148887<!--mural_Wall_CulFish_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148864<!--mural_Wall_CulElephant_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148865<!--mural_Wall_CulElephant_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148794<!--mural_Wall_BasicPiece_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148795<!--mural_Wall_BasicPiece_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148772<!--mural_Wall_PurplePiece_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148773<!--mural_Wall_PurplePiece_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149132<!--mural_RollUp_GrafGreen_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149133<!--mural_RollUp_GrafGreen_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149110<!--mural_RollUp_GrafGold_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149111<!--mural_RollUp_GrafGold_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148973<!--mural_RollUp_Butterfly_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148974<!--mural_RollUp_Butterfly_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">148997<!--mural_RollUp_Tree_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">148998<!--mural_RollUp_Tree_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149020<!--mural_RollUp_CulButterfly_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149021<!--mural_RollUp_CulButterfly_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149086<!--mural_RollUp_CulPeacock_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149087<!--mural_RollUp_CulPeacock_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149042<!--mural_RollUp_CulFlower_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149043<!--mural_RollUp_CulFlower_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149064<!--mural_RollUp_CulOctopus_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149065<!--mural_RollUp_CulOctopus_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149154<!--mural_RollUp_CityClouds_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149155<!--mural_RollUp_CityClouds_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149198<!--mural_RollUp_CityLines_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149199<!--mural_RollUp_CityLines_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149220<!--mural_RollUp_CityNight_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149221<!--mural_RollUp_CityNight_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">149176<!--mural_RollUp_CityLayers_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">149177<!--mural_RollUp_CityLayers_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">150869<!--mural_RollUp_Act_Globe_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">150871<!--mural_RollUp_Act_Globe_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">150851<!--mural_RollUp_Act_Trees_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">150852<!--mural_RollUp_Act_Trees_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">150920<!--mural_RollUp_Fig_Girl_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">150921<!--mural_RollUp_Fig_Girl_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">150912<!--mural_RollUp_Fig_Heart_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">150913<!--mural_RollUp_Fig_Heart_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">150915<!--mural_RollUp_Fig_HatLady_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">150916<!--mural_RollUp_Fig_HatLady_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">150909<!--mural_RollUp_Fig_Penguin_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">150911<!--mural_RollUp_Fig_Penguin_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">151625<!--mural_RollUp_OptFountain_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">151626<!--mural_RollUp_OptFountain_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">151603<!--mural_RollUp_OptFish_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">151604<!--mural_RollUp_OptFish_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">151647<!--mural_RollUp_OptRainbow_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">151648<!--mural_RollUp_OptRainbow_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">151680<!--mural_RollUp_OptBirds_Complete--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">151681<!--mural_RollUp_OptBirds_Defaced--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

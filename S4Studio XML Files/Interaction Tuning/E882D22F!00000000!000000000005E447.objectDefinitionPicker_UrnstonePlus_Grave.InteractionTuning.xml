@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectDefinitionPickerInteraction" i="interaction" m="objects.definition_picker_interaction" n="objectDefinitionPicker_UrnstonePlus_Grave" s="386119">
+  <V n="_saveable" t="disabled" />
+  <T n="category">386121<!--pieMenuCategory_Gravesite_Urnstone--></T>
+  <V n="content_score" t="disabled" />
+  <V n="continuation" t="enabled">
+    <L n="enabled">
+      <U>
+        <T n="affordance">386437<!--immediate_UrnstonePlus_SetState_Grave--></T>
+      </U>
+    </L>
+  </V>
+  <T n="display_name">0xCFE5791D<!--Gravestone--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="object_tags_or_definition" t="specific_items">
+    <U n="specific_items">
+      <L n="item_list">
+        <T>67529<!--tombstone_EP01GENalien01_set1 (Cenotaph)--></T>
+        <T>441583<!--tombstone_EP17GEN01_set1 (Grave Importance Headstone)--></T>
+        <T>442220<!--tombstone_EP17GEN02_set1 (Amalgamated Stone Headstone)--></T>
+        <T>442222<!--tombstone_EP17GEN03_set1 (Life's Pinnacle Headstone)--></T>
+        <T>442242<!--tombstone_EP17GEN04_set1 (The Crow's Perch Headstone)--></T>
+        <T>453185<!--tombstone_EP07GENmerfolk_set1 (Merfolk Tombstone)--></T>
+        <T>465924<!--tombstone_EP19GENfairy_set1 (Fairy Tombstone)--></T>
+        <T>261567<!--tombstone_EP10GENjapan_02_set1 (Mt. Komorebi Tombstone)--></T>
+        <T>442249<!--tombstone_EP17GEN05_set1 (Sun and Stars Headstone)--></T>
+        <T>442256<!--tombstone_EP17GENskull_set1 (Thick Skull Headstone)--></T>
+        <T>442258<!--tombstone_EP17GENtree_set1 (The Guardian Tree's Blessing Headstone)--></T>
+        <T>341463<!--tombstone_EP14GENhorse_set1 (Horse Tombstone)--></T>
+        <T>148305<!--tombstone_GP04GENvampire_set1 (Vampire Tombstone)--></T>
+        <T>222676<!--tombstone_GP08GENwitch_set1 (Spellcaster's Tombstone)--></T>
+        <T>310771<!--tombstone_GP12GENwerewolf_set1 (Werewolf Tombstone)--></T>
+        <T>18590<!--tombstoneGEN_01 (Tombstone)--></T>
+      </L>
+    </U>
+  </V>
+  <V n="picker_dialog" t="object_picker">
+    <U n="object_picker">
+      <E n="dialog_style">LARGE_ICON</E>
+      <T n="hide_row_description">True</T>
+      <T n="num_columns">4</T>
+      <E n="picker_type">OBJECT_LARGE</E>
+      <V n="title" t="enabled">
+        <T n="enabled">0x636B9874<!--Select Gravestone--></T>
+      </V>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="location">
+      <U n="location">
+        <U n="location_tests">
+          <V n="is_in_slot" t="enabled">
+            <U n="enabled">
+              <V n="slot_test_type" t="any_slot">
+                <U n="any_slot">
+                  <T n="require_slotted">False</T>
+                </U>
+              </V>
+            </U>
+          </V>
+        </U>
+        <E n="subject">Object</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">404575<!--testSet_FloatingUrn_Disallow--></T>
+    </V>
+  </L>
+</I>

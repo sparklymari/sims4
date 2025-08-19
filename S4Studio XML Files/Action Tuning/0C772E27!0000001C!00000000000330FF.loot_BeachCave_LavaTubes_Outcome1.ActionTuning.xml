@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_BeachCave_LavaTubes_Outcome1" s="209151">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">210474<!--buff_BeachCave_LavaTubes_Outcome1_Hidden--></T>
+        </U>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72395<!--collectCrystalMed_EP01GEN_crandestine (Crandestine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72396<!--collectCrystalMed_EP01GEN_nitelite (Nitelite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178735<!--collectCrystalMed_GP06GEN_alexandrite (Alexandrite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178736<!--collectCrystalMed_GP06GEN_amazonite (Amazonite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

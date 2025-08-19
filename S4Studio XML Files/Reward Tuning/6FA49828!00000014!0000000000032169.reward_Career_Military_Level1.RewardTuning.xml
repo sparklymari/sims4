@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_Career_Military_Level1" s="205161">
+  <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png">2f7d0004:00000000:a6ed756af9cb04a1</T>
+  <T n="name">0x9A909927</T>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x9A909927</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="object_definition">
+        <U n="object_definition">
+          <T n="definition">209437<!--collectMedalMilitaryCareer_GP07RW01_MClvl01 (Tech Team Excellence Award)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210231<!--yfBottom_GP07MilitaryLow_Blue--></T>
+          <V n="text" t="override">
+            <T n="override">0x2A778262<!--New Clothes!--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210232<!--yfBottom_GP07MilitaryLow_Brown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210233<!--yfBottom_GP07MilitaryLow_CamoGreen--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210234<!--yfBottom_GP07MilitaryLow_CamoPurple--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210235<!--yfBottom_GP07MilitaryLow_CamoTan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210236<!--yfBottom_GP07MilitaryLow_CamoTeal--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210237<!--yfBottom_GP07MilitaryLow_CamoWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210238<!--yfBottom_GP07MilitaryLow_Gray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210240<!--yfBottom_GP07MilitaryLow_Green--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210239<!--yfBottom_GP07MilitaryLow_Tan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210132<!--ymBottom_GP07MilitaryLow_Blue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210133<!--ymBottom_GP07MilitaryLow_Brown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210134<!--ymBottom_GP07MilitaryLow_CamoGreen--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210135<!--ymBottom_GP07MilitaryLow_CamoPurple--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210136<!--ymBottom_GP07MilitaryLow_CamoTan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210137<!--ymBottom_GP07MilitaryLow_CamoTeal--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210138<!--ymBottom_GP07MilitaryLow_CamoWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210139<!--ymBottom_GP07MilitaryLow_Gray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">209895<!--ymBottom_GP07MilitaryLow_Green--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">210140<!--ymBottom_GP07MilitaryLow_Tan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211874<!--yfTop_GP07MilitaryLow_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211875<!--yfTop_GP07MilitaryLow_Brown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211876<!--yfTop_GP07MilitaryLow_BrownDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211881<!--yfTop_GP07MilitaryLow_Gray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211877<!--yfTop_GP07MilitaryLow_Green--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211878<!--yfTop_GP07MilitaryLow_GreenLt--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211879<!--yfTop_GP07MilitaryLow_Purple--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211880<!--yfTop_GP07MilitaryLow_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211287<!--ymTop_GP07MilitaryLow_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211288<!--ymTop_GP07MilitaryLow_Brown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211289<!--ymTop_GP07MilitaryLow_BrownDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211280<!--ymTop_GP07MilitaryLow_Gray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211290<!--ymTop_GP07MilitaryLow_Green--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211291<!--ymTop_GP07MilitaryLow_GreenLt--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211292<!--ymTop_GP07MilitaryLow_Purple--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">211293<!--ymTop_GP07MilitaryLow_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">5</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

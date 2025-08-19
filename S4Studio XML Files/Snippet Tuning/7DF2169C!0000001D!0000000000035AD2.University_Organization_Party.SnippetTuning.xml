@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Organization" i="snippet" m="display_snippet_tuning" n="University_Organization_Party" s="219858">
+  <V n="_display_data" t="optional_display_mixin">
+    <U n="optional_display_mixin">
+      <V n="instance_display_description" t="enabled_display_description">
+        <T n="enabled_display_description">0xC81760D2<!--Party lightly with School Spirit Day or party hard with the Game Day Party! Expect your school’s Lobster Mascot or the Juice Keg to make an appearance at one or both of these gatherings.--></T>
+      </V>
+      <V n="instance_display_icon" t="enabled_display_icon">
+        <T n="enabled_display_icon" p="InEP08\UI\Icons\Organizations\org_uniParty.png">2f7d0004:00000000:62fa50eea149bae2</T>
+      </V>
+      <V n="instance_display_name" t="enabled_display_name">
+        <T n="enabled_display_name">0xAF528CDB<!--Foxbury Spirit Squad--></T>
+      </V>
+      <V n="instance_display_tooltip" t="disabled" />
+    </U>
+  </V>
+  <V n="no_events_are_scheduled_string" t="enabled">
+    <T n="enabled">0x83DE0B9F<!--There are no Bar Venues in the world to support the Event.--></T>
+  </V>
+  <T n="organization_filter">228077<!--filter_CollegeOrganizations_Party--></T>
+  <L n="organization_task_data">
+    <U>
+      <T n="organization_task">226503<!--university_OrgTask_SchoolSpirit_Party_PrankRivalSportsShell--></T>
+    </U>
+    <U>
+      <T n="organization_task">226504<!--university_OrgTask_SchoolSpirit_Party_PrankRivalStatue--></T>
+    </U>
+    <U>
+      <T n="organization_task">226505<!--university_OrgTask_SchoolSpirit_Party_RaiseBanner--></T>
+    </U>
+    <U>
+      <T n="organization_task">226506<!--university_OrgTask_SchoolSpirit_Party_Socialize--></T>
+    </U>
+    <U>
+      <T n="organization_task">226509<!--university_OrgTask_SchoolSpirit_Party_StartSchoolCheer--></T>
+    </U>
+    <U>
+      <T n="organization_task">226510<!--university_OrgTask_SchoolSpirit_Party_TauntRival--></T>
+    </U>
+  </L>
+  <T n="progress_statistic">209084<!--rankedStatistic_CollegeOrganization_Progress_SchoolSpirit_Party--></T>
+</I>

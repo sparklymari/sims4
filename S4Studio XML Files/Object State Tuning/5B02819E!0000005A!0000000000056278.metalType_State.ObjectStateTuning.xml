@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="metalType_State" s="352888">
+  <L n="_values">
+    <T>352868<!--metalType_Alcron--></T>
+    <T>352869<!--metalType_Baconite--></T>
+    <T>352878<!--metalType_Crytunium--></T>
+    <T>352879<!--metalType_DeathMetal--></T>
+    <T>352880<!--metalType_Flamingonium--></T>
+    <T>352884<!--metalType_Furium--></T>
+    <T>352865<!--metalType_Gold--></T>
+    <T>352870<!--metalType_HeavyMetal--></T>
+    <T>352881<!--metalType_Ironyum--></T>
+    <T>352885<!--metalType_Literalite--></T>
+    <T>352871<!--metalType_Obtainium--></T>
+    <T>352872<!--metalType_Ozinold--></T>
+    <T>352873<!--metalType_Phozonite--></T>
+    <T>352874<!--metalType_Plathinum--></T>
+    <T>352875<!--metalType_Punium--></T>
+    <T>352876<!--metalType_Pyrite--></T>
+    <T>352886<!--metalType_Romantium--></T>
+    <T>352867<!--metalType_RoseGold--></T>
+    <T>352887<!--metalType_Sadnum--></T>
+    <T>352866<!--metalType_Silver--></T>
+    <T>352882<!--metalType_Simtanium--></T>
+    <T>352883<!--metalType_Socialite--></T>
+    <T>352877<!--metalType_Utranium--></T>
+    <T>356081<!--metalType_Blutonium--></T>
+    <T>356080<!--metalType_Solarium--></T>
+    <T>359723<!--metalType_None--></T>
+  </L>
+  <T n="persists_across_gallery">True</T>
+</I>

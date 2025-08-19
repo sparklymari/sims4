@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PaintingTexture" i="recipe" m="crafting.painting" n="paintingTexture_CrossStitch_SmallHoop_Foods_BeefWellington" s="263512">
+  <L n="canvas_types">
+    <E>CrossStitchHoop_Small</E>
+  </L>
+  <T n="texture" p="InEP11\Objects\Buy\CrossStitchHoop\crossStitchHoop_EP11\crossStitchHoop_EP11_level5_beefWellington.tga">2f7d0006:00000000:f306fc50b56b40de</T>
+</I>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="moodBuff_Hidden_Possessed" s="201540">
+  <V n="_add_test_set" t="tests_set">
+    <L n="tests_set">
+      <L>
+        <V t="sim_info">
+          <U n="sim_info">
+            <V n="species" t="specified">
+              <U n="specified">
+                <L n="species">
+                  <E />
+                </L>
+              </U>
+            </V>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <T n="_ignore_weather">True</T>
+  <L n="_loot_on_addition">
+    <T>230419<!--loot_Humanoid_Robots_Buffs_EmotionVFX_Remove--></T>
+    <T>227816<!--loot_Humanoid_Robots_Buffs_EmotionVFX_Add--></T>
+    <T>272536<!--loot_Aspiration_Wellness_MaintainHarmonyNegative--></T>
+    <T>203164<!--loot_Possessed_AddOverlayTrait--></T>
+  </L>
+  <L n="_loot_on_instance">
+    <T>203164<!--loot_Possessed_AddOverlayTrait--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>203166<!--loot_Possessed_RemoveOverlayTrait--></T>
+    <T>77734<!--emotion_Start_Fine--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="pie_menu_modifier">
+        <U n="pie_menu_modifier">
+          <V n="affordance_filter" t="by_affordance_filter">
+            <U n="by_affordance_filter">
+              <V n="affordance_filter" t="literal">
+                <U n="literal">
+                  <V n="default_inclusion" t="include_all">
+                    <U n="include_all">
+                      <L n="exclude_affordances">
+                        <T>204339<!--si_InfectedChemicalAnalyzer_AnalyzeInfectiousPlants--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="suppression_tooltip" t="enabled">
+            <T n="enabled">0x350BF558<!--Cannot do this while possessed!--></T>
+          </V>
+        </U>
+      </V>
+      <V t="pie_menu_modifier">
+        <U n="pie_menu_modifier">
+          <V n="affordance_filter" t="by_affordance_filter">
+            <U n="by_affordance_filter">
+              <V n="affordance_filter" t="literal">
+                <U n="literal">
+                  <V n="default_inclusion" t="exclude_all">
+                    <U n="exclude_all">
+                      <L n="include_lists">
+                        <T>204342<!--affordanceList_PossessedUserDirectedAffordances--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="suppression_tooltip" t="disabled" />
+        </U>
+      </V>
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="locked_stats">
+            <T>149541<!--commodity_Motive_Visible_Vampire_Thirst--></T>
+            <T>150238<!--commodity_Motive_Visible_Vampire_Power--></T>
+            <T>162675<!--motive_PlantSim_Water--></T>
+            <T>16656<!--motive_Hunger--></T>
+            <T>16652<!--motive_Bladder--></T>
+            <T>16655<!--motive_Fun--></T>
+            <T>16657<!--motive_Hygiene--></T>
+            <T>16658<!--motive_Social--></T>
+            <T>16654<!--motive_Energy--></T>
+          </L>
+          <T n="locked_stats_autosatisfy_on_unlock">False</T>
+          <V n="only_scored_static_commodities" t="enabled">
+            <L n="enabled">
+              <T>203049<!--staticCommodity_Infect_House--></T>
+              <T>203132<!--staticCommodity_Infect_House_AddPlant--></T>
+              <T>204299<!--commodity_RoleAutonomy_WelcomeWagon_GoToFrontDoor--></T>
+              <T>16433<!--StaticCommodity_RingDoorbell--></T>
+              <T>204730<!--staticCommodity_InfectedAttack--></T>
+              <T>202885<!--staticCommodity_Possessed--></T>
+              <T>203731<!--staticCommodity_MotherPlantBattle_ZombieLaugh--></T>
+              <T>203730<!--staticCommodity_MotherPlantBattle_ZombieWander--></T>
+              <T>24237<!--StaticCommodity_LeaveLotNow--></T>
+              <T>24314<!--StaticCommodity_LeaveLotNowMustRun--></T>
+              <T>207523<!--staticCommodity_PossessedChat--></T>
+            </L>
+          </V>
+          <V n="only_scored_stats" t="enabled">
+            <L n="enabled">
+              <T>202880<!--commodity_Emotion_Autonomy_Possessed--></T>
+            </L>
+          </V>
+          <V n="provided_affordance_compatibility" t="literal">
+            <U n="literal">
+              <V n="default_inclusion" t="exclude_all">
+                <U n="exclude_all">
+                  <L n="include_affordances">
+                    <T>203406<!--Object_InfectionScanner_Fight--></T>
+                    <T>119788<!--FruitCakeBearer_Carry_Fruitcake--></T>
+                    <T>204297<!--welcomeWagon_Interactions_go_to_front_door--></T>
+                    <T>13135<!--carry_holdobject--></T>
+                    <T>13983<!--sim-stand--></T>
+                    <T>119788<!--FruitCakeBearer_Carry_Fruitcake--></T>
+                    <T>204297<!--welcomeWagon_Interactions_go_to_front_door--></T>
+                    <T>13135<!--carry_holdobject--></T>
+                    <T>13983<!--sim-stand--></T>
+                    <T>24309<!--npc_leave_lot_now_must_run--></T>
+                    <T>99554<!--npc_leave_lot_now_must_run_ss3_request--></T>
+                    <T>24236<!--npc_leave_lot_now--></T>
+                    <T>103885<!--ghost_leave_lot_now--></T>
+                    <T>187242<!--ghost_leave_lot_now_walkby--></T>
+                    <T>124972<!--npc_Leave_Lot_Now_Must_Run_Klobber_Everything--></T>
+                    <T>176461<!--Push_Leave_Lot--></T>
+                    <T>112429<!--NPCLeaveLotNow_NPC_WaveGoodBye--></T>
+                    <T>120598<!--si_WelcomeWagon_GoTo_ArrivalSpawn_NoDoorTNS--></T>
+                    <T>120395<!--si_WelcomeWagon_GoTo_ArrivalSpawn--></T>
+                    <T>203513<!--waypoint_Zombie_Wander--></T>
+                    <T>203688<!--motherPlant_zombieLaugh--></T>
+                    <T>204378<!--motherPlant_Fight_StartAtSpawnPoint_Zombie--></T>
+                  </L>
+                  <L n="include_lists">
+                    <T>203006<!--affordanceList_TargetPossessedInteractions--></T>
+                    <T>203014<!--affordanceList_PossessedAutonomousInteractions--></T>
+                    <T>222488<!--affordanceList_Familiar_SimInteractions--></T>
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+          <T n="super_affordance_suppress_on_add">True</T>
+          <E n="super_affordance_suppression_mode">USE_AFFORDANCE_COMPATIBILITY_AND_WHITELIST</E>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="static_commodity_to_add">
+    <T>202885<!--staticCommodity_Possessed--></T>
+  </L>
+  <L n="super_affordances">
+    <T>203543<!--autonomousSimPickerSuperInteraction_InfectedFight_InfectedInitiate--></T>
+    <T>202969<!--social_NonTouching_NormaltoPossessed_TrytoTalk--></T>
+    <T>203020<!--autonomousSimPicker_Possessed_P2N_Chat--></T>
+    <T>203017<!--autonomousSimPicker_Possessed_P2P_Chat--></T>
+    <T>202888<!--waypoint_Possessed_Wander--></T>
+    <T>202891<!--autonomous_ObjectPicker_Possessed_Idle--></T>
+    <T>202889<!--autonomous_ObjectPicker_Possessed_Plants--></T>
+    <T>202998<!--si_Touching_Social_Possessed_TrytoWakeUp--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">202956<!--social_NonTouching_PossessedtoNormal_Greet--></T>
+    </U>
+    <U>
+      <T n="affordance">202955<!--social_NonTouching_PossessedtoPossessed_Greet--></T>
+    </U>
+    <U>
+      <T n="affordance">202935<!--social_NonTouching_PossessedtoPossessed--></T>
+    </U>
+    <U>
+      <T n="affordance">202936<!--social_NonTouching_PossessedtoNormal--></T>
+    </U>
+    <U>
+      <T n="affordance">202905<!--si_Possessed_CryOver--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Woodworking</E>
+            <E>Func_Gardening</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">202900<!--terrain_Possessed_PlantSpore_Start--></T>
+      <V n="object_filter" t="filter_by_terrain">
+        <U n="filter_by_terrain">
+          <L n="disallowed_surfaces">
+            <E>SURFACETYPE_OBJECT</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">202922<!--si_Possessed_Liberate--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Gardening</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">202924<!--gardening_Revive_Generic_Possessed--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Gardening</E>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <T n="visible">False</T>
+  <V n="walkstyle" t="enabled">
+    <U n="enabled">
+      <E n="priority">INFECTION_POSSESSED</E>
+      <T n="walkstyle" p="InGP07\Locomotion\GP07_WalkPossessed.walkstyle">27c01d95:00000000:00000000a68a97e0</T>
+    </U>
+  </V>
+  <V n="walkstyle_behavior_override" t="enabled">
+    <U n="enabled">
+      <V n="run_walkstyle" t="Override">
+        <T n="Override" p="InGP07\Locomotion\RunPossessed.walkstyle">27c01d95:00000000:000000006d00cf8b</T>
+      </V>
+      <V n="short_walkstyle" t="Override">
+        <T n="Override" p="InGP07\Locomotion\GP07_WalkPossessed.walkstyle">27c01d95:00000000:00000000a68a97e0</T>
+      </V>
+    </U>
+  </V>
+</I>

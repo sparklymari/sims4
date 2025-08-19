@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_EmotionPositive_Or_Fine_withTooltip_Target" s="156591">
+  <L n="test">
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14634<!--Mood_Confident--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14636<!--Mood_Energized--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14638<!--Mood_Flirty--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14639<!--Mood_Focused--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14640<!--Mood_Happy--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14641<!--Mood_Inspired--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14642<!--Mood_Playful--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14637<!--Mood_Fine--></T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x15CFB0D6<!--{1.SimFirstName} needs to be in a better emotional state in order to do this.--></T>
+          </V>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

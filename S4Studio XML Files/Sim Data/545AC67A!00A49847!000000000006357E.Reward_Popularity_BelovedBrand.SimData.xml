@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003B">
+  <Instances>
+    <I name="Reward_Popularity_BelovedBrand" schema="SimReward" type="Object">
+      <T name="icon">00B2D882-00000000-D5D7AADA78C0F34D</T>
+      <T name="name">0xFED31D4F</T>
+      <V name="reward_description" variant="0xF8CBBF4C">
+        <T type="LocalizationKey">0xF2B51C88</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="SimReward" schema_hash="0xEEED38EF">
+      <Columns>
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

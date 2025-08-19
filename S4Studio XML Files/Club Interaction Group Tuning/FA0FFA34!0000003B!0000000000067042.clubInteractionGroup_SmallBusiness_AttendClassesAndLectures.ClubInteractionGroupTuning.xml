@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_SmallBusiness_AttendClassesAndLectures" s="421954">
+  <L n="affordances">
+    <T>396404<!--sI_HobbyClass_ListenToLecture_Acting--></T>
+    <T>396597<!--sI_HobbyClass_ListenToLecture_Skiing--></T>
+    <T>396604<!--sI_HobbyClass_ListenToLecture_Equestrian--></T>
+    <T>396101<!--sI_HobbyClass_ListenToLecture_Charisma--></T>
+    <T>396352<!--sI_HobbyClass_ListenToLecture_Dancing--></T>
+    <T>396599<!--sI_HobbyClass_ListenToLecture_LocalCulture--></T>
+    <T>396130<!--sI_HobbyClass_ListenToLecture_Fitness--></T>
+    <T>396594<!--sI_HobbyClass_ListenToLecture_Snowboarding--></T>
+    <T>396635<!--sI_HobbyClass_ListenToLecture_RanchNectar--></T>
+    <T>396639<!--sI_HobbyClass_ListenToLecture_Flirty_Romance--></T>
+    <T>396469<!--sI_HobbyClass_ListenToLecture_Herbalism--></T>
+    <T>396473<!--sI_HobbyClass_ListenToLecture_Wellness--></T>
+    <T>396590<!--sI_HobbyClass_ListenToLecture_Parenting--></T>
+    <T>396492<!--sI_HobbyClass_ListenToLecture_Archaeology--></T>
+    <T>396356<!--sI_HobbyClass_ListenToLecture_Veterinarian--></T>
+    <T>396377<!--sI_HobbyClass_ListenToLecture_ResearchDebate--></T>
+    <T>396384<!--sI_HobbyClass_ListenToLecture_Fabrication--></T>
+    <T>396451<!--sI_HobbyClass_ListenToLecture_RockClimbing--></T>
+    <T>396102<!--sI_HobbyClass_ListenToLecture_Gardening--></T>
+    <T>396103<!--sI_HobbyClass_ListenToLecture_Handiness--></T>
+    <T>396124<!--sI_HobbyClass_ListenToLecture_Programming--></T>
+    <T>396125<!--sI_HobbyClass_ListenToLecture_RocketScience--></T>
+    <T>396516<!--sI_HobbyClass_ListenToLecture_Gemology--></T>
+    <T>396430<!--sI_HobbyClass_ListenToLecture_VampireLore--></T>
+    <T>396376<!--sI_HobbyClass_ListenToLecture_Robotics--></T>
+    <T>396120<!--sI_HobbyClass_ListenToLecture_Fishing--></T>
+    <T>396123<!--sI_HobbyClass_ListenToLecture_Logic--></T>
+    <T>396105<!--sI_HobbyClass_ListenToLecture_VideoGaming--></T>
+    <T>396498<!--sI_HobbyClass_ListenToLecture_Bowling--></T>
+    <T>396648<!--sI_HobbyClass_ListenToLecture_DogTraining--></T>
+    <T>396385<!--sI_HobbyClass_ListenToLecture_JuiceFizzing--></T>
+    <T>396502<!--sI_HobbyClass_ListenToLecture_Medium--></T>
+    <T>396456<!--sI_HobbyClass_ListenToLecture_CrossStitch--></T>
+    <T>396586<!--sI_HobbyClass_ListenToLecture_Entrepreneur--></T>
+    <T>396465<!--sI_HobbyClass_ListenToLecture_Thanatology--></T>
+    <T>396265<!--sI_HobbyClass_ListenToLecture_Baking--></T>
+    <T>396349<!--sI_HobbyClass_ListenToLecture_DJMixing--></T>
+    <T>396416<!--sI_HobbyClass_ListenToLecture_FlowerArranging--></T>
+    <T>396104<!--sI_HobbyClass_ListenToLecture_Bartending--></T>
+    <T>396121<!--sI_HobbyClass_ListenToLecture_GourmetCooking--></T>
+    <T>396127<!--sI_HobbyClass_ListenToLecture_Guitar--></T>
+    <T>396122<!--sI_HobbyClass_ListenToLecture_HomestyleCooking--></T>
+    <T>396118<!--sI_HobbyClass_ListenToLecture_Painting--></T>
+    <T>396132<!--sI_HobbyClass_ListenToLecture_Tattooing--></T>
+    <T>396119<!--sI_HobbyClass_ListenToLecture_Writing--></T>
+    <T>396427<!--sI_HobbyClass_ListenToLecture_PipeOrgan--></T>
+    <T>394106<!--si_HobbyClass_ListenToLecture_Singing--></T>
+    <T>396405<!--sI_HobbyClass_ListenToLecture_MediaProduction--></T>
+    <T>396419<!--sI_HobbyClass_ListenToLecture_Knitting--></T>
+    <T>396131<!--sI_HobbyClass_ListenToLecture_Photography--></T>
+    <T>396128<!--sI_HobbyClass_ListenToLecture_Piano--></T>
+    <T>396133<!--sI_HobbyClass_ListenToLecture_Pottery--></T>
+    <T>396129<!--sI_HobbyClass_ListenToLecture_Violin--></T>
+    <T>396106<!--sI_HobbyClass_ListenToLecture_Comedy--></T>
+    <T>396126<!--sI_HobbyClass_ListenToLecture_Mischief--></T>
+    <T>419232<!--sI_HobbyClass_WatchDemonstration_Charisma--></T>
+    <T>420143<!--sI_HobbyClass_WatchDemonstration_Guitar--></T>
+    <T>420714<!--sI_HobbyClass_WatchDemonstration_Medium--></T>
+    <T>420682<!--sI_HobbyClass_WatchDemonstration_Singing--></T>
+    <T>420146<!--sI_HobbyClass_WatchDemonstration_Violin--></T>
+    <T>400166<!--sI_HobbyClass_WatchDemonstration_Painting--></T>
+    <T>420144<!--sI_HobbyClass_WatchDemonstration_Programming--></T>
+    <T>419231<!--sI_HobbyClass_WatchDemonstration_VideoGaming--></T>
+    <T>420625<!--sI_HobbyClass_WatchDemonstration_Baking--></T>
+    <T>400162<!--sI_HobbyClass_WatchDemonstration_Bartending--></T>
+    <T>400165<!--sI_HobbyClass_WatchDemonstration_Cooking--></T>
+    <T>420623<!--sI_HobbyClass_WatchDemonstration_FlowerArranging--></T>
+    <T>420662<!--sI_HobbyClass_WatchDemonstration_Gardening--></T>
+    <T>420622<!--sI_HobbyClass_WatchDemonstration_Gemology--></T>
+    <T>400164<!--sI_HobbyClass_WatchDemonstration_Handiness--></T>
+    <T>420624<!--sI_HobbyClass_WatchDemonstration_Knitting--></T>
+    <T>399817<!--sI_HobbyClass_WatchDemonstration_Pottery--></T>
+    <T>400167<!--sI_HobbyClass_WatchDemonstration_Tattooing--></T>
+    <T>420114<!--sI_HobbyClass_WatchDemonstration_Logic--></T>
+    <T>420145<!--sI_HobbyClass_WatchDemonstration_Piano--></T>
+    <T>445005<!--sI_HobbyClass_WatchDemonstration_Apothecary--></T>
+    <T>454639<!--sI_HobbyClass_ListenToLecture_NLS--></T>
+    <T>444973<!--sI_HobbyClass_ListenToLecture_Apothecary--></T>
+  </L>
+  <E n="category">HOBBIES</E>
+  <T n="category_icon" p="InEP18\UI\Icons\Clubs\Rules\clubs_rules_Classes.png">2f7d0004:00000000:bba1f9ca9af01b91</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="club_rule">False</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x5E17AB4D<!--Attend Classes and Lectures--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xF5944A18<!--Sims will join classes and listen to lectures on:--></T>
+        <T>0x51F08119<!--• Hobby Whiteboard--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x481E26D1<!--**DEBUG**--></T>
+  <T n="tooltip_template_negative">0x481E26D1<!--**DEBUG**--></T>
+</I>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="crafting.recipe.Recipe" schema="crafting.recipe.Recipe" type="Object">
+      <T name="cooking_time_reduced_inactive_text">0xE5F1219A</T>
+      <T name="cooking_time_reduced_text">0x7E3CC11A</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="crafting.recipe.Recipe" schema_hash="0x57EBADA1">
+      <Columns>
+        <Column name="cooking_time_reduced_inactive_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="cooking_time_reduced_text" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

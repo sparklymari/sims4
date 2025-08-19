@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="bathtub_UseAll" s="24270">
+  <L n="value">
+    <T>13073<!--bathtub_Nap--></T>
+    <T>13076<!--bathtub_Play--></T>
+    <T>13084<!--bathtub_TakeBath--></T>
+    <T>13087<!--bathtub_TakeBubbleBath--></T>
+    <T>120340<!--bathtub_TakeBathWithSoak_CitrusSoak--></T>
+    <T>120341<!--bathtub_TakeBathWithSoak_LavenderFoam--></T>
+    <T>120339<!--bathtub_TakeBathWithSoak_MuscleReleaseSoak--></T>
+    <T>120337<!--bathtub_TakeBathWithSoak_RosePetalSoak--></T>
+    <T>120342<!--bathtub_TakeBathWithSoak_MilkHoneySoak--></T>
+    <T>121575<!--bathtub_TakeBathWithSoak_MilkHoneySoak_DirtyBath--></T>
+    <T>120336<!--bathtub_TakeMudBath--></T>
+    <T>121573<!--bathtub_TakeMudBath_DirtyBath--></T>
+    <T>355169<!--bathtub_TakeBath_WaterHeater_Cold--></T>
+    <T>239038<!--bathtub_TakeBath_OfftheGrid--></T>
+    <T>213938<!--bathtub_TakeBath_Mermaid--></T>
+    <T>343777<!--bathtub_TakeBath_MoldSystem--></T>
+  </L>
+</I>

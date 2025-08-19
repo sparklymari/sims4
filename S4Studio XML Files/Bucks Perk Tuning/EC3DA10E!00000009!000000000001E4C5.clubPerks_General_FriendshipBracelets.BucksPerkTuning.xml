@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_FriendshipBracelets" s="124101">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0xDE5F4A5B<!--Friendship Bracelets--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_FriendshipBracelet.png">2f7d0004:00000000:63b71d43dad05369</T>
+  </U>
+  <T n="perk_description">0x3D6BE77C<!--Show who your true friends are. Once purchased don't forget to apply it to your Club's uniform from the Club Panel.--></T>
+  <L n="rewards">
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112611<!--yuAcc_WristLeftEP02BraceletFriend_Atom--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112587<!--yuAcc_WristLeftEP02BraceletFriend_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">111811<!--yuAcc_WristLeftEP02BraceletFriend_Black--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">111812<!--yuAcc_WristLeftEP02BraceletFriend_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112588<!--yuAcc_WristLeftEP02BraceletFriend_Book--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112099<!--yuAcc_WristLeftEP02BraceletFriend_Brown--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112589<!--yuAcc_WristLeftEP02BraceletFriend_Butterfly--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112590<!--yuAcc_WristLeftEP02BraceletFriend_Chess--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112591<!--yuAcc_WristLeftEP02BraceletFriend_Coffee--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112592<!--yuAcc_WristLeftEP02BraceletFriend_Diamond--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112593<!--yuAcc_WristLeftEP02BraceletFriend_DJ--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112594<!--yuAcc_WristLeftEP02BraceletFriend_Drama--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112595<!--yuAcc_WristLeftEP02BraceletFriend_Drink--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112596<!--yuAcc_WristLeftEP02BraceletFriend_Dumbell--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112597<!--yuAcc_WristLeftEP02BraceletFriend_Fire--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112598<!--yuAcc_WristLeftEP02BraceletFriend_Fish--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112599<!--yuAcc_WristLeftEP02BraceletFriend_Flirt--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112600<!--yuAcc_WristLeftEP02BraceletFriend_Food--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112601<!--yuAcc_WristLeftEP02BraceletFriend_Gaming--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112602<!--yuAcc_WristLeftEP02BraceletFriend_Gardens--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112100<!--yuAcc_WristLeftEP02BraceletFriend_Green--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112603<!--yuAcc_WristLeftEP02BraceletFriend_Jester--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112604<!--yuAcc_WristLeftEP02BraceletFriend_Music--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112101<!--yuAcc_WristLeftEP02BraceletFriend_Orange--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112605<!--yuAcc_WristLeftEP02BraceletFriend_Paint--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112102<!--yuAcc_WristLeftEP02BraceletFriend_Pink--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112103<!--yuAcc_WristLeftEP02BraceletFriend_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112606<!--yuAcc_WristLeftEP02BraceletFriend_Rainbow--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112104<!--yuAcc_WristLeftEP02BraceletFriend_Red--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112607<!--yuAcc_WristLeftEP02BraceletFriend_Rocket--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112608<!--yuAcc_WristLeftEP02BraceletFriend_Skull--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112609<!--yuAcc_WristLeftEP02BraceletFriend_SunGlasses--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112610<!--yuAcc_WristLeftEP02BraceletFriend_Wrench--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">112105<!--yuAcc_WristLeftEP02BraceletFriend_Yellow--></T>
+      </U>
+    </V>
+  </L>
+</I>

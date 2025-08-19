@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_EP14World_Rabbithole_Cave_Debug_GiveAllItems" s="325751">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">341476<!--wildGrassHay_EP14GEN_set1 (Prairie Grass Hay)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">345909<!--drinkBottleNectar_EP14GEN_wildGrassNectar (Prairie Grass Nectar)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">338596<!--animalSheepMini_EP14GEN_set1 (White Mini Sheep)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">1</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">115910<!--drinkTumblerFill_waterFlat (A Full Glass)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">345907<!--drinkBottleNectar_EP14GEN_potatoNectar (Potato Nectar)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">345906<!--drinkBottleNectar_EP14GEN_energyNectar (Energy Nectar)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">33341<!--collectTerrariumGENFrog_03_yellowWaves (Sunsurfer Frog)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">1</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">33349<!--collectTerrariumGENFrog_04_yellowStripes (Tiger Frog)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">1</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">33338<!--collectTerrariumGENFrog_02_yellowSpots (Leopard Frog)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">1</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">44785<!--collectFishMedGENRainbow_01 (Rainbowfish)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">278923<!--foodIngredient_GENMeat01_redMeat (Wrapped Red Meat)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">16019<!--drinkCupGENCoffee_01 (Coffee)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">61965<!--futureCubeGEN_01_black (Future Cube by Paltry Predictions, Inc.)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">98932<!--foodPlateEatSingleEFFruitcake (Gourmet Fruitcake)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">334188<!--drinkBottleNectar_EP14GEN_grapeNectar (Grape Nectar)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">346669<!--drinkBottleNectar_EP14GEN_lifeNectar (Vitality Nectar)--></T>
+          </U>
+        </V>
+        <L n="initial_states">
+          <U>
+            <T n="state">15113<!--Consumable_Untouched--></T>
+          </U>
+        </L>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+  </L>
+</I>

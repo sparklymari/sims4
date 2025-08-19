@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Pregnancy_GenderChance_FavorMale_periodic" s="118418">
+  <L n="loot_actions">
+    <V t="statistics">
+      <V n="statistics" t="statistic_change">
+        <U n="statistic_change">
+          <T n="advertise">False</T>
+          <T n="amount">-0.138</T>
+          <T n="stat">117011<!--statistic_Pregnancy_GenderChance--></T>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>12561<!--buff_Pregnancy_Trimester1--></T>
+                      <T>97309<!--buff_Pregnancy_Trimester1_HatesChildren--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_change">
+        <U n="statistic_change">
+          <T n="advertise">False</T>
+          <T n="amount">-0.104</T>
+          <T n="stat">117011<!--statistic_Pregnancy_GenderChance--></T>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>12562<!--buff_Pregnancy_Trimester2--></T>
+                      <T>97310<!--buff_Pregnancy_Trimester2_HatesChildren--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_change">
+        <U n="statistic_change">
+          <T n="advertise">False</T>
+          <T n="amount">-0.083</T>
+          <T n="stat">117011<!--statistic_Pregnancy_GenderChance--></T>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>12563<!--buff_Pregnancy_Trimester3--></T>
+                      <T>97311<!--buff_Pregnancy_Trimester3_HatesChildren--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="state_white_black">
+        <U n="state_white_black">
+          <U n="states">
+            <V n="whitelist" t="specify">
+              <U n="specify">
+                <L n="whitelist">
+                  <T>15338<!--StereoChannel_Alt--></T>
+                  <T>75773<!--StereoWall_Channel_Alt--></T>
+                  <T>166592<!--stereoChannel_Alt_EarBuds--></T>
+                  <T>223487<!--stereoChannel_Alt_Bot--></T>
+                </L>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

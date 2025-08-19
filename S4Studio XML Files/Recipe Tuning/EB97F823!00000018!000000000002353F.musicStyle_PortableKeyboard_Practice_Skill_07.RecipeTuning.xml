@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_PortableKeyboard_Practice_Skill_07" s="144703">
+  <L n="music_tracks">
+    <T>144613<!--musicTrack_PortableKeyboard_Practice_Skill_07_01--></T>
+    <T>144614<!--musicTrack_PortableKeyboard_Practice_Skill_07_02--></T>
+    <T>144615<!--musicTrack_PortableKeyboard_Practice_Skill_07_03--></T>
+    <T>144616<!--musicTrack_PortableKeyboard_Practice_Skill_07_04--></T>
+    <T>144617<!--musicTrack_PortableKeyboard_Practice_Skill_07_05--></T>
+    <T>150246<!--musicTrack_PortableKeyboard_Practice_Skill_07_06--></T>
+    <T>144619<!--musicTrack_PortableKeyboard_Practice_Skill_07_07--></T>
+    <T>144620<!--musicTrack_PortableKeyboard_Practice_Skill_07_08--></T>
+    <T>144621<!--musicTrack_PortableKeyboard_Practice_Skill_07_09--></T>
+    <T>144622<!--musicTrack_PortableKeyboard_Practice_Skill_07_10--></T>
+    <T>144623<!--musicTrack_PortableKeyboard_Practice_Skill_07_11--></T>
+  </L>
+</I>

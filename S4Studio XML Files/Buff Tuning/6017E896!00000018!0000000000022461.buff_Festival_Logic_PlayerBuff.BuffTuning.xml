@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Festival_Logic_PlayerBuff" s="140385">
+  <L n="_loot_on_addition">
+    <T>142273<!--loot_Career_Critic_hasBeenToFestival--></T>
+    <T>154336<!--loot_Festival_PlayerBuff_Autonomy--></T>
+    <T>246337<!--loot_Lifestyles_Progress_Unlock_FrequentTraveler--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>154337<!--loot_Festival_RemoveBuffs_PlayerAutonomy--></T>
+  </L>
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>147450<!--mixer_Social_ArgueGif_Targeted_Friendly_AlwaysOn_STC_LogicFestival--></T>
+        <T>147451<!--mixer_Social_DebateAntBears_Targeted_Friendly_AlwaysOn_STC_LogicFestival--></T>
+        <T>147448<!--mixer_Social_RantAboutShow_Targeted_Friendly_AlwaysOn_STC_LogicFestival--></T>
+        <T>147449<!--mixer_Social_TalkAboutCosplayers_Targeted_Friendly_AlwaysOn_STC_LogicFestival--></T>
+        <T>147465<!--mixer_Socials_JokeAboutPi_Targeted_Funny_AlwaysOn_STC_LogicFestival--></T>
+        <T>147466<!--mixer_Socials_JokeAboutRocketWoohoo_Targeted_Funny_AlwaysOn_STC_LogicFestival--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0x2336E2C0<!--Being around so many smart individuals will increase the speed of building logic, programming, and video gaming Skill while attending the festival.--></T>
+  <T n="buff_name">0xC55E718F<!--Among Geniuses--></T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="stat_use_multiplier">
+            <U>
+              <T n="key">16703<!--statistic_Skill_AdultMajor_Programming--></T>
+              <U n="value">
+                <T n="multiplier">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="key">16706<!--statistic_Skill_AdultMajor_Logic--></T>
+              <U n="value">
+                <T n="multiplier">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="key">16710<!--statistic_Skill_AdultMajor_RocketScience--></T>
+              <U n="value">
+                <T n="multiplier">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="key">16712<!--statistic_Skill_AdultMajor_VideoGaming--></T>
+              <U n="value">
+                <T n="multiplier">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </V>
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="score_multipliers">
+            <U>
+              <T n="key">16677<!--statistic_Object_RocketShip-Progress--></T>
+              <T n="value">4</T>
+            </U>
+          </L>
+          <V n="subject" t="apply_on_interaction_to_participant">
+            <V n="apply_on_interaction_to_participant" t="enabled" />
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InEP03\UI\Icons\Buffs\Buffs_Festival.png">2f7d0004:00000000:d3228ec51b5ee9b4</T>
+  <T n="mood_type">14639<!--Mood_Focused--></T>
+  <T n="mood_weight">1</T>
+  <T n="show_timeout">False</T>
+  <T n="visible">True</T>
+</I>

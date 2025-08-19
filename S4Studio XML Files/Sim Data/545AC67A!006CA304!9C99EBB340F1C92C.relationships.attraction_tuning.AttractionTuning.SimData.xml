@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="relationships.attraction_tuning.AttractionTuning" schema="relationships.attraction_tuning.AttractionTuning" type="Object">
+      <T name="ATTRACTION_RELATIONSHIP_TRACK">358555</T>
+      <T name="UNKNOWN_DESCRIPTION">0xC8D0BE84</T>
+      <T name="UNKNOWN_ICON">00B2D882-00000000-63F9304689C85DA8</T>
+      <T name="UNKNOWN_TITLE">0x5C6D27D4</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="relationships.attraction_tuning.AttractionTuning" schema_hash="0xABF9B113">
+      <Columns>
+        <Column name="ATTRACTION_RELATIONSHIP_TRACK" type="TableSetReference" flags="0x00000000" />
+        <Column name="UNKNOWN_DESCRIPTION" type="LocalizationKey" flags="0x00000000" />
+        <Column name="UNKNOWN_ICON" type="ResourceKey" flags="0x00000000" />
+        <Column name="UNKNOWN_TITLE" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

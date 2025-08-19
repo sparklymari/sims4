@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="notebook_View_CottageLiving_AnimalFeed" s="266694">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_from_portrait">True</T>
+  <T n="allow_from_sim_inventory">True</T>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0xF3022429<!--Open Notebook--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="basic_extras">
+          <V t="loot">
+            <U n="loot">
+              <L n="loot_list">
+                <T>266691<!--lootActions_CottageLiving_NotebookEntry_AnimalFeed--></T>
+              </L>
+              <V n="timing" t="at_beginning" />
+            </U>
+          </V>
+          <V t="display_notebook_ui">
+            <U n="display_notebook_ui">
+              <V n="initial_selected_category" t="enabled">
+                <E n="enabled">Cottage Living</E>
+              </V>
+              <V n="initial_selected_subcategory" t="enabled">
+                <E n="enabled">Cottage Living Animal Feed</E>
+              </V>
+            </U>
+          </V>
+        </L>
+      </U>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>TODDLER</E>
+            <E>BABY</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271544<!--animalFeedBag_EP11GEN_set1_blueberry (Fruity Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259129<!--recipe_Food_AnimalObject_LivestockFeed_Blueberry--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271541<!--animalFeedBag_EP11GEN_set3_chocolatey (Chocolatey Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259130<!--recipe_Food_AnimalObject_LivestockFeed_Chocolatey--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271538<!--animalFeedBag_EP11GEN_set4_fishy (Fishy Protein Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259131<!--recipe_Food_AnimalObject_LivestockFeed_Fishy--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271540<!--animalFeedBag_EP11GEN_set5_flirty (Flirty Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259132<!--recipe_Food_AnimalObject_LivestockFeed_Flirty--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271545<!--animalFeedBag_EP11GEN_set6_golden (Golden Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259133<!--recipe_Food_AnimalObject_LivestockFeed_Golden--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271537<!--animalFeedBag_EP11GEN_set7_healthy (Healthy Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259134<!--recipe_Food_AnimalObject_LivestockFeed_Healthy--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271534<!--animalFeedBag_EP11GEN_set8_normal (Friendly Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259135<!--recipe_Food_AnimalObject_LivestockFeed_Normal--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271542<!--animalFeedBag_EP11GEN_set9_obsidian (Midnight Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259136<!--recipe_Food_AnimalObject_LivestockFeed_Obsidian--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271543<!--animalFeedBag_EP11GEN_set10_pumpkin (Pumpkin Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259137<!--recipe_Food_AnimalObject_LivestockFeed_Pumpkin--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271546<!--animalFeedBag_EP11GEN_set11_rainbow (Rainbow Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259138<!--recipe_Food_AnimalObject_LivestockFeed_Rainbow--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271535<!--animalFeedBag_EP11GEN_set12_social (Animal Party Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259139<!--recipe_Food_AnimalObject_LivestockFeed_Social--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271548<!--animalFeedBag_EP11GEN_set13_spicy (Spicy Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259140<!--recipe_Food_AnimalObject_LivestockFeed_SpicyBeef--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">271547<!--animalFeedBag_EP11GEN_set14_veggie (Veggie Treat)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="unlock_tracker">
+        <U n="unlock_tracker">
+          <V n="unlock_item" t="unlock_recipe">
+            <T n="unlock_recipe">259141<!--recipe_Food_AnimalObject_LivestockFeed_Veggie--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R5Event_11" s="443669">
+  <T n="category">0xBABED714<!--Decorations--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Preview\NatureEvent_Preview_Rocks.png">2f7d0004:00000000:8f5772d44409ba1e</T>
+  <L n="items">
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479428<!--rockLot1x1_EF63EVRclustersRound_set1 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479429<!--rockLot1x1_EF63EVRclustersRound_set2 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479430<!--rockLot1x1_EF63EVRclustersRound_set3 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479431<!--rockLot1x1_EF63EVRclustersRound_set4 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479432<!--rockLot1x1_EF63EVRclustersRound_set5 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479433<!--rockLot1x1_EF63EVRclustersRound_set6 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479434<!--rockLot1x1_EF63EVRclustersRound_set7 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479435<!--rockLot1x1_EF63EVRclustersRound_set8 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479436<!--rockLot1x1_EF63EVRclustersRound_set9 (Cove Stone - Round)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479442<!--rockLot1x1_EF63EVRclustersShort_set1 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479443<!--rockLot1x1_EF63EVRclustersShort_set2 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479444<!--rockLot1x1_EF63EVRclustersShort_set3 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479445<!--rockLot1x1_EF63EVRclustersShort_set4 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479446<!--rockLot1x1_EF63EVRclustersShort_set5 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479447<!--rockLot1x1_EF63EVRclustersShort_set6 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479448<!--rockLot1x1_EF63EVRclustersShort_set7 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479467<!--rockLot1x1_EF63EVRclustersShort_set8 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479468<!--rockLot1x1_EF63EVRclustersShort_set9 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479469<!--rockLot1x1_EF63EVRclustersShort_set10 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479470<!--rockLot1x1_EF63EVRclustersShort_set11 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479471<!--rockLot1x1_EF63EVRclustersShort_set12 (Cove Stone - Flat)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479472<!--rockLot1x1_EF63EVRclustersTall_set1 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479473<!--rockLot1x1_EF63EVRclustersTall_set2 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479474<!--rockLot1x1_EF63EVRclustersTall_set3 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479475<!--rockLot1x1_EF63EVRclustersTall_set4 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479476<!--rockLot1x1_EF63EVRclustersTall_set5 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479477<!--rockLot1x1_EF63EVRclustersTall_set6 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479478<!--rockLot1x1_EF63EVRclustersTall_set7 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479479<!--rockLot1x1_EF63EVRclustersTall_set8 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479480<!--rockLot1x1_EF63EVRclustersTall_set9 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479481<!--rockLot1x1_EF63EVRclustersTall_set10 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479482<!--rockLot1x1_EF63EVRclustersTall_set11 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479483<!--rockLot1x1_EF63EVRclustersTall_set12 (Cove Stone Cluster)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x21A251BA<!--Find this item in Build Mode under Rocks, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x13A536DF<!--A set of three decorative rocks, freshly excavated from Willow Creek.--></T>
+  <T n="reward_name">0xED141386<!--Cove Stones--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\END\NatureEvent_END_Rocks.png">2f7d0004:00000000:e08ea7a68fe23801</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_Rocks.png">2f7d0004:00000000:69e1169b84f53416</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_Rocks.png">2f7d0004:00000000:69e1169b84f53416</T>
+</I>

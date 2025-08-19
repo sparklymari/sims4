@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="business.unit_rating.unit_rating_tuning.UnitRatingTuning" schema="business.unit_rating.unit_rating_tuning.UnitRatingTuning" type="Object">
+      <L name="BED_COUNT">
+        <U type="Object" schema="BedCount">
+          <T name="NumBeds">0</T>
+          <T name="UnitRating">-100</T>
+        </U>
+        <U type="Object" schema="BedCount">
+          <T name="NumBeds">1</T>
+          <T name="UnitRating">15</T>
+        </U>
+        <U type="Object" schema="BedCount">
+          <T name="NumBeds">2</T>
+          <T name="UnitRating">25</T>
+        </U>
+        <U type="Object" schema="BedCount">
+          <T name="NumBeds">3</T>
+          <T name="UnitRating">35</T>
+        </U>
+      </L>
+      <L name="FRIDGE_COUNT">
+        <U type="Object" schema="FridgeCount">
+          <T name="NumFridge">0</T>
+          <T name="UnitRating">-15</T>
+        </U>
+        <U type="Object" schema="FridgeCount">
+          <T name="NumFridge">1</T>
+          <T name="UnitRating">5</T>
+        </U>
+        <U type="Object" schema="FridgeCount">
+          <T name="NumFridge">2</T>
+          <T name="UnitRating">10</T>
+        </U>
+      </L>
+      <L name="IN_UNIT_ENVIRONMENT_SCORE">
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">0</T>
+          <T name="UnitRating">-100</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">1</T>
+          <T name="UnitRating">-50</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">2</T>
+          <T name="UnitRating">-25</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">3</T>
+          <T name="UnitRating">0</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">4</T>
+          <T name="UnitRating">10</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">5</T>
+          <T name="UnitRating">15</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">6</T>
+          <T name="UnitRating">20</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">7</T>
+          <T name="UnitRating">25</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">8</T>
+          <T name="UnitRating">30</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">9</T>
+          <T name="UnitRating">35</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">10</T>
+          <T name="UnitRating">40</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">11</T>
+          <T name="UnitRating">45</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">12</T>
+          <T name="UnitRating">50</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">13</T>
+          <T name="UnitRating">50</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">14</T>
+          <T name="UnitRating">55</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">15</T>
+          <T name="UnitRating">65</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">16</T>
+          <T name="UnitRating">70</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">17</T>
+          <T name="UnitRating">70</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">18</T>
+          <T name="UnitRating">75</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">19</T>
+          <T name="UnitRating">80</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">20</T>
+          <T name="UnitRating">85</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">21</T>
+          <T name="UnitRating">85</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">22</T>
+          <T name="UnitRating">90</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">23</T>
+          <T name="UnitRating">90</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">24</T>
+          <T name="UnitRating">95</T>
+        </U>
+        <U type="Object" schema="InUnitEnvironmentScoreMapping">
+          <T name="EnvironmentScore">25</T>
+          <T name="UnitRating">100</T>
+        </U>
+      </L>
+      <T name="IN_UNIT_ENVIRONMENT_SCORE_STEP">2</T>
+      <T name="MAINTENANCE_RATING_START_VALUE">-100</T>
+      <L name="PERSONAL_AMENITY_COUNT">
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">0</T>
+          <T name="UnitRating">0</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">1</T>
+          <T name="UnitRating">5</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">2</T>
+          <T name="UnitRating">10</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">3</T>
+          <T name="UnitRating">15</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">4</T>
+          <T name="UnitRating">20</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">5</T>
+          <T name="UnitRating">25</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">6</T>
+          <T name="UnitRating">30</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">7</T>
+          <T name="UnitRating">35</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">8</T>
+          <T name="UnitRating">40</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">9</T>
+          <T name="UnitRating">45</T>
+        </U>
+        <U type="Object" schema="PersonalAmenityCount">
+          <T name="NumPersonalAmenity">10</T>
+          <T name="UnitRating">50</T>
+        </U>
+      </L>
+      <L name="PERSONAL_TAG_TO_RATING_CONTRIBUTION">
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">970</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">968</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">165</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">174</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">175</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">186</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">1022</T>
+          <T name="RatingContributionObject">2</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">1023</T>
+          <T name="RatingContributionObject">0</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">777</T>
+          <T name="RatingContributionObject">1</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">474</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">1002</T>
+          <T name="RatingContributionObject">4</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">999</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">481</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">75781</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">75779</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">75780</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">75778</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">748</T>
+          <T name="RatingContributionObject">3</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">1315</T>
+          <T name="RatingContributionObject">2</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">2478</T>
+          <T name="RatingContributionObject">1</T>
+        </U>
+        <U type="Object" schema="PersonalTagToRatingContribution">
+          <T name="PersonalTag">1881</T>
+          <T name="RatingContributionObject">0</T>
+        </U>
+      </L>
+      <L name="SHARED_AMENITY_COUNT">
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">0</T>
+          <T name="UnitRating">0</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">1</T>
+          <T name="UnitRating">10</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">2</T>
+          <T name="UnitRating">15</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">3</T>
+          <T name="UnitRating">20</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">4</T>
+          <T name="UnitRating">25</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">5</T>
+          <T name="UnitRating">30</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">6</T>
+          <T name="UnitRating">35</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">7</T>
+          <T name="UnitRating">40</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">8</T>
+          <T name="UnitRating">45</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">9</T>
+          <T name="UnitRating">50</T>
+        </U>
+        <U type="Object" schema="SharedAmenityCount">
+          <T name="NumSharedAmenity">10</T>
+          <T name="UnitRating">55</T>
+        </U>
+      </L>
+      <L name="SHARED_ENVIRONMENT_SCORE">
+        <U type="Object" schema="SharedEnvironmentScore">
+          <T name="EnvironmentScore">0</T>
+          <T name="UnitRating">0</T>
+        </U>
+        <U type="Object" schema="SharedEnvironmentScore">
+          <T name="EnvironmentScore">1</T>
+          <T name="UnitRating">10</T>
+        </U>
+        <U type="Object" schema="SharedEnvironmentScore">
+          <T name="EnvironmentScore">2</T>
+          <T name="UnitRating">20</T>
+        </U>
+        <U type="Object" schema="SharedEnvironmentScore">
+          <T name="EnvironmentScore">3</T>
+          <T name="UnitRating">30</T>
+        </U>
+        <U type="Object" schema="SharedEnvironmentScore">
+          <T name="EnvironmentScore">4</T>
+          <T name="UnitRating">40</T>
+        </U>
+      </L>
+      <T name="SHARED_ENVIRONMENT_SCORE_STEP">5</T>
+      <L name="SHARED_TAG_TO_RATING_CONTRIBUTION">
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">970</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">968</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">165</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">174</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">175</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">186</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">1022</T>
+          <T name="RatingContributionObject">2</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">1023</T>
+          <T name="RatingContributionObject">0</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">777</T>
+          <T name="RatingContributionObject">1</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">474</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">1002</T>
+          <T name="RatingContributionObject">4</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">999</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">481</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">75781</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">75779</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">75780</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">75778</T>
+          <T name="RatingContributionObject">5</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">748</T>
+          <T name="RatingContributionObject">3</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">1315</T>
+          <T name="RatingContributionObject">2</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">2478</T>
+          <T name="RatingContributionObject">1</T>
+        </U>
+        <U type="Object" schema="TagToRatingContribution">
+          <T name="SharedTag">1881</T>
+          <T name="RatingContributionObject">0</T>
+        </U>
+      </L>
+      <L name="SHOWER_TUB_COUNT">
+        <U type="Object" schema="ShowerTubCount">
+          <T name="NumShowerTub">0</T>
+          <T name="UnitRating">-15</T>
+        </U>
+        <U type="Object" schema="ShowerTubCount">
+          <T name="NumShowerTub">1</T>
+          <T name="UnitRating">5</T>
+        </U>
+        <U type="Object" schema="ShowerTubCount">
+          <T name="NumShowerTub">2</T>
+          <T name="UnitRating">10</T>
+        </U>
+        <U type="Object" schema="ShowerTubCount">
+          <T name="NumShowerTub">3</T>
+          <T name="UnitRating">15</T>
+        </U>
+      </L>
+      <L name="SQUARE_FOOTAGE">
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">0</T>
+          <T name="UnitRating">-100</T>
+        </U>
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">1</T>
+          <T name="UnitRating">-50</T>
+        </U>
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">2</T>
+          <T name="UnitRating">-40</T>
+        </U>
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">3</T>
+          <T name="UnitRating">0</T>
+        </U>
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">4</T>
+          <T name="UnitRating">50</T>
+        </U>
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">5</T>
+          <T name="UnitRating">70</T>
+        </U>
+        <U type="Object" schema="SquareFootageMapping">
+          <T name="SquareFootage">6</T>
+          <T name="UnitRating">100</T>
+        </U>
+      </L>
+      <T name="SQUARE_FOOTAGE_STEP">25</T>
+      <L name="STOVE_OVEN_COUNT">
+        <U type="Object" schema="StoveOvenCount">
+          <T name="NumStoveOven">0</T>
+          <T name="UnitRating">-15</T>
+        </U>
+        <U type="Object" schema="StoveOvenCount">
+          <T name="NumStoveOven">1</T>
+          <T name="UnitRating">5</T>
+        </U>
+        <U type="Object" schema="StoveOvenCount">
+          <T name="NumStoveOven">2</T>
+          <T name="UnitRating">10</T>
+        </U>
+      </L>
+      <L name="TOILET_COUNT">
+        <U type="Object" schema="ToiletCount">
+          <T name="NumToilets">0</T>
+          <T name="UnitRating">-15</T>
+        </U>
+        <U type="Object" schema="ToiletCount">
+          <T name="NumToilets">1</T>
+          <T name="UnitRating">5</T>
+        </U>
+        <U type="Object" schema="ToiletCount">
+          <T name="NumToilets">2</T>
+          <T name="UnitRating">10</T>
+        </U>
+        <U type="Object" schema="ToiletCount">
+          <T name="NumToilets">3</T>
+          <T name="UnitRating">15</T>
+        </U>
+      </L>
+    </I>
+    <I name="business.unit_rating.unit_rating_tuning.UnitRatingSubcatTuning" schema="business.unit_rating.unit_rating_tuning.UnitRatingSubcatTuning" type="Object">
+      <L name="AMENITIES_TO_RATING">
+        <U type="Object" schema="AmenitiesToRating">
+          <T name="Amenities">-100</T>
+          <T name="RatingSubScore">0</T>
+        </U>
+        <U type="Object" schema="AmenitiesToRating">
+          <T name="Amenities">50</T>
+          <T name="RatingSubScore">1</T>
+        </U>
+        <U type="Object" schema="AmenitiesToRating">
+          <T name="Amenities">99</T>
+          <T name="RatingSubScore">2</T>
+        </U>
+      </L>
+      <L name="ENVIRONMENT_SCORE_TO_RATING">
+        <U type="Object" schema="EnvironmentScoreToRating">
+          <T name="EnvironmentScore">-100</T>
+          <T name="RatingSubScore">0</T>
+        </U>
+        <U type="Object" schema="EnvironmentScoreToRating">
+          <T name="EnvironmentScore">40</T>
+          <T name="RatingSubScore">1</T>
+        </U>
+        <U type="Object" schema="EnvironmentScoreToRating">
+          <T name="EnvironmentScore">99</T>
+          <T name="RatingSubScore">2</T>
+        </U>
+      </L>
+      <L name="MAINTENANCE_TO_RATING">
+        <U type="Object" schema="MaintenanceToRating">
+          <T name="Maintenance">-100</T>
+          <T name="RatingSubScore">0</T>
+        </U>
+        <U type="Object" schema="MaintenanceToRating">
+          <T name="Maintenance">-60</T>
+          <T name="RatingSubScore">1</T>
+        </U>
+        <U type="Object" schema="MaintenanceToRating">
+          <T name="Maintenance">75</T>
+          <T name="RatingSubScore">2</T>
+        </U>
+      </L>
+      <L name="UNIT_SIZE_TO_RATING">
+        <U type="Object" schema="UnitSizeToRating">
+          <T name="MinUnitSize">-100</T>
+          <T name="RatingSubScore">0</T>
+        </U>
+        <U type="Object" schema="UnitSizeToRating">
+          <T name="MinUnitSize">0</T>
+          <T name="RatingSubScore">1</T>
+        </U>
+        <U type="Object" schema="UnitSizeToRating">
+          <T name="MinUnitSize">99</T>
+          <T name="RatingSubScore">2</T>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="business.unit_rating.unit_rating_tuning.UnitRatingTuning" schema_hash="0xCC9DFB07">
+      <Columns>
+        <Column name="BED_COUNT" type="Vector" flags="0x00000000" />
+        <Column name="FRIDGE_COUNT" type="Vector" flags="0x00000000" />
+        <Column name="IN_UNIT_ENVIRONMENT_SCORE" type="Vector" flags="0x00000000" />
+        <Column name="IN_UNIT_ENVIRONMENT_SCORE_STEP" type="Int32" flags="0x00000000" />
+        <Column name="MAINTENANCE_RATING_START_VALUE" type="Int32" flags="0x00000000" />
+        <Column name="PERSONAL_AMENITY_COUNT" type="Vector" flags="0x00000000" />
+        <Column name="PERSONAL_TAG_TO_RATING_CONTRIBUTION" type="Vector" flags="0x00000000" />
+        <Column name="SHARED_AMENITY_COUNT" type="Vector" flags="0x00000000" />
+        <Column name="SHARED_ENVIRONMENT_SCORE" type="Vector" flags="0x00000000" />
+        <Column name="SHARED_ENVIRONMENT_SCORE_STEP" type="Int32" flags="0x00000000" />
+        <Column name="SHARED_TAG_TO_RATING_CONTRIBUTION" type="Vector" flags="0x00000000" />
+        <Column name="SHOWER_TUB_COUNT" type="Vector" flags="0x00000000" />
+        <Column name="SQUARE_FOOTAGE" type="Vector" flags="0x00000000" />
+        <Column name="SQUARE_FOOTAGE_STEP" type="Int32" flags="0x00000000" />
+        <Column name="STOVE_OVEN_COUNT" type="Vector" flags="0x00000000" />
+        <Column name="TOILET_COUNT" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="BedCount" schema_hash="0xF9075AD8">
+      <Columns>
+        <Column name="NumBeds" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="FridgeCount" schema_hash="0x911E3E81">
+      <Columns>
+        <Column name="NumFridge" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="InUnitEnvironmentScoreMapping" schema_hash="0x8D5063AD">
+      <Columns>
+        <Column name="EnvironmentScore" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="PersonalAmenityCount" schema_hash="0x6140D1C5">
+      <Columns>
+        <Column name="NumPersonalAmenity" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="PersonalTagToRatingContribution" schema_hash="0x7B82773B">
+      <Columns>
+        <Column name="PersonalTag" type="Int64" flags="0x00000000" />
+        <Column name="RatingContributionObject" type="Int64" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="SharedAmenityCount" schema_hash="0x5F638B7F">
+      <Columns>
+        <Column name="NumSharedAmenity" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="SharedEnvironmentScore" schema_hash="0x9529080D">
+      <Columns>
+        <Column name="EnvironmentScore" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TagToRatingContribution" schema_hash="0xC7A8BA86">
+      <Columns>
+        <Column name="SharedTag" type="Int64" flags="0x00000000" />
+        <Column name="RatingContributionObject" type="Int64" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="ShowerTubCount" schema_hash="0xD5B51551">
+      <Columns>
+        <Column name="NumShowerTub" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="SquareFootageMapping" schema_hash="0xDEC91270">
+      <Columns>
+        <Column name="SquareFootage" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="StoveOvenCount" schema_hash="0xE2D83A91">
+      <Columns>
+        <Column name="NumStoveOven" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="ToiletCount" schema_hash="0xEC46577C">
+      <Columns>
+        <Column name="NumToilets" type="Int32" flags="0x00000000" />
+        <Column name="UnitRating" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="business.unit_rating.unit_rating_tuning.UnitRatingSubcatTuning" schema_hash="0x5BD39AFD">
+      <Columns>
+        <Column name="AMENITIES_TO_RATING" type="Vector" flags="0x00000000" />
+        <Column name="ENVIRONMENT_SCORE_TO_RATING" type="Vector" flags="0x00000000" />
+        <Column name="MAINTENANCE_TO_RATING" type="Vector" flags="0x00000000" />
+        <Column name="UNIT_SIZE_TO_RATING" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="AmenitiesToRating" schema_hash="0x82E9395C">
+      <Columns>
+        <Column name="Amenities" type="Int32" flags="0x00000000" />
+        <Column name="RatingSubScore" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="EnvironmentScoreToRating" schema_hash="0xE4DE0A1C">
+      <Columns>
+        <Column name="EnvironmentScore" type="Int32" flags="0x00000000" />
+        <Column name="RatingSubScore" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="MaintenanceToRating" schema_hash="0x374FB51C">
+      <Columns>
+        <Column name="Maintenance" type="Int32" flags="0x00000000" />
+        <Column name="RatingSubScore" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="UnitSizeToRating" schema_hash="0xE3457FF2">
+      <Columns>
+        <Column name="MinUnitSize" type="Int32" flags="0x00000000" />
+        <Column name="RatingSubScore" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectDefinitionPickerInteraction" i="interaction" m="objects.definition_picker_interaction" n="objectDefinitionPicker_Pottery_Glazing_CandleLantern" s="387685">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_from_sim_inventory">True</T>
+  <V n="content_score" t="disabled" />
+  <V n="continuation" t="enabled">
+    <L n="enabled">
+      <U>
+        <T n="affordance">387681<!--pottery_Glaze_PrepKiln--></T>
+        <T n="preserve_preferred_object">False</T>
+        <E n="target">Object</E>
+      </U>
+    </L>
+  </V>
+  <L n="definition_to_loot">
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421047<!--lightTableCandle_EP18ceramic_set2 (Matte)--></T>
+      </U>
+      <T n="loot_to_apply">388512<!--loot_Pottery_Glazing_Pre_Set2--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421048<!--lightTableCandle_EP18ceramic_set3 (Shiny)--></T>
+      </U>
+      <T n="loot_to_apply">388511<!--loot_Pottery_Glazing_Pre_Set3--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421049<!--lightTableCandle_EP18ceramic_set4 (Retro)--></T>
+      </U>
+      <T n="loot_to_apply">388516<!--loot_Pottery_Glazing_Pre_Set4--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421050<!--lightTableCandle_EP18ceramic_set5 (Contemporary)--></T>
+      </U>
+      <T n="loot_to_apply">388514<!--loot_Pottery_Glazing_Pre_Set5--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421051<!--lightTableCandle_EP18ceramic_set6 (Modern)--></T>
+      </U>
+      <T n="loot_to_apply">388513<!--loot_Pottery_Glazing_Pre_Set6--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421052<!--lightTableCandle_EP18ceramic_set7 (Industrial)--></T>
+      </U>
+      <T n="loot_to_apply">388518<!--loot_Pottery_Glazing_Pre_Set7--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421053<!--lightTableCandle_EP18ceramic_set8 (Rustic)--></T>
+      </U>
+      <T n="loot_to_apply">388515<!--loot_Pottery_Glazing_Pre_Set8--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421054<!--lightTableCandle_EP18ceramic_set9 (Minimalist)--></T>
+      </U>
+      <T n="loot_to_apply">388530<!--loot_Pottery_Glazing_Pre_Set9--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421055<!--lightTableCandle_EP18ceramic_set10 (Vintage)--></T>
+      </U>
+      <T n="loot_to_apply">388517<!--loot_Pottery_Glazing_Pre_Set10--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">421056<!--lightTableCandle_EP18ceramic_set11 (Blush)--></T>
+      </U>
+      <T n="loot_to_apply">388529<!--loot_Pottery_Glazing_Pre_Set11--></T>
+    </U>
+  </L>
+  <T n="display_name">0x941DBA0D<!--Glaze--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="object_tags_or_definition" t="specific_items">
+    <U n="specific_items">
+      <L n="item_list">
+        <T>421056<!--lightTableCandle_EP18ceramic_set11 (Blush)--></T>
+        <T>421055<!--lightTableCandle_EP18ceramic_set10 (Vintage)--></T>
+        <T>421047<!--lightTableCandle_EP18ceramic_set2 (Matte)--></T>
+        <T>421048<!--lightTableCandle_EP18ceramic_set3 (Shiny)--></T>
+        <T>421049<!--lightTableCandle_EP18ceramic_set4 (Retro)--></T>
+        <T>421050<!--lightTableCandle_EP18ceramic_set5 (Contemporary)--></T>
+        <T>421051<!--lightTableCandle_EP18ceramic_set6 (Modern)--></T>
+        <T>421052<!--lightTableCandle_EP18ceramic_set7 (Industrial)--></T>
+        <T>421053<!--lightTableCandle_EP18ceramic_set8 (Rustic)--></T>
+        <T>421054<!--lightTableCandle_EP18ceramic_set9 (Minimalist)--></T>
+      </L>
+    </U>
+  </V>
+  <V n="picker_dialog" t="object_picker">
+    <U n="object_picker">
+      <T n="force_done_button">False</T>
+      <T n="is_sortable">True</T>
+      <T n="num_columns">3</T>
+      <E n="picker_type">OBJECT_TEXT</E>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <T n="single_push_continuation">True</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals" />
+  <L n="tests" />
+</I>

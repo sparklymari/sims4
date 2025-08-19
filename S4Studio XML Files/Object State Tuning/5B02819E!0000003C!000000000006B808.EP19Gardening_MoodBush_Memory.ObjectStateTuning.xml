@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="EP19Gardening_MoodBush_Memory" s="440328">
+  <L n="_values">
+    <T>440265<!--state_EP19Gardening_MoodBush_Memory_Angry--></T>
+    <T>440266<!--state_EP19Gardening_MoodBush_Memory_Bored--></T>
+    <T>440317<!--state_EP19Gardening_MoodBush_Memory_Confident--></T>
+    <T>440318<!--state_EP19Gardening_MoodBush_Memory_Embarrassed--></T>
+    <T>440319<!--state_EP19Gardening_MoodBush_Memory_Energized--></T>
+    <T>440320<!--state_EP19Gardening_MoodBush_Memory_Flirty--></T>
+    <T>440321<!--state_EP19Gardening_MoodBush_Memory_Focused--></T>
+    <T>440322<!--state_EP19Gardening_MoodBush_Memory_Funny--></T>
+    <T>440323<!--state_EP19Gardening_MoodBush_Memory_Happy--></T>
+    <T>440324<!--state_EP19Gardening_MoodBush_Memory_Inspired--></T>
+    <T>440325<!--state_EP19Gardening_MoodBush_Memory_Sad--></T>
+    <T>440326<!--state_EP19Gardening_MoodBush_Memory_Scared--></T>
+    <T>440327<!--state_EP19Gardening_MoodBush_Memory_Tense--></T>
+    <T>440330<!--state_EP19Gardening_MoodBush_Memory_Default--></T>
+  </L>
+  <T n="persists_across_gallery">True</T>
+</I>

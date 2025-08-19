@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PaintingStyle" i="recipe" m="crafting.painting" n="paintingStyle_CraftHoliday_Flowers" s="185271">
+  <T n="_display_name">0x7A955A13<!--Flowers--></T>
+  <L n="_textures">
+    <U>
+      <T n="texture">185239<!--paintingTexture_Holiday_Flower--></T>
+    </U>
+  </L>
+</I>

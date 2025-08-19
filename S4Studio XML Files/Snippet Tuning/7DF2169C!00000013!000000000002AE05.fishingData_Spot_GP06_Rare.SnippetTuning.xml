@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_Spot_GP06_Rare" s="175621">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">178741<!--collectFishMed_GP06GENArmoredCatfish (Armored Catfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">178739<!--collectFishLarge_GP06GENElectricEel (Electric Eel)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">178743<!--collectFishLarge_GP06GENTambaqui (Tambaqui)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44788<!--collectFishSmallGENPirahna_01 (Piranha)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44910<!--collectFishMedGENCatfish_01_set1 (Catfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">94655<!--collectFishMed_GP02GENdiscus (Discus)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <T n="treasure">179359<!--machete_GP06GEN (Jungle Machete)--></T>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179453<!--bottleSmall_GP06GEN_fireFoam (Fire Foam)--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">178722<!--collectTreasure_GP06GEN_set7 (Skull Diamond Gold Perereca)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">186982<!--collectTreasureMedium_GP06GENplate_set1 (Omiscan Gold Calendar Plate)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179461<!--pepperSpray_GP06GEN_powder (Lightning Insulation Powder)--></T>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">7</T>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+  </U>
+</I>

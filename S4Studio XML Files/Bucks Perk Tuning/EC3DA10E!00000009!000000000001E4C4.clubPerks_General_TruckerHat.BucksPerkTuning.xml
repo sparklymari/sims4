@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_TruckerHat" s="124100">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0x1C2EF08A<!--Trucker Hat--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_CASBasebalCap.png">2f7d0004:00000000:c33f28020dd3e342</T>
+  </U>
+  <T n="perk_description">0x780CD0B5<!--Represent your Club with this stylish Club Hat. Once purchased don't forget to apply it to your Club's uniform from the Club Panel.--></T>
+  <L n="rewards">
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">103259<!--yuHat_EP02TruckerHat_ArtPalette--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104101<!--yuHat_EP02TruckerHat_Atom--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104102<!--yuHat_EP02TruckerHat_Barbell--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104103<!--yuHat_EP02TruckerHat_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104104<!--yuHat_EP02TruckerHat_Book--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104105<!--yuHat_EP02TruckerHat_Butterfly--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104106<!--yuHat_EP02TruckerHat_Chess--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104107<!--yuHat_EP02TruckerHat_Cocktail--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104108<!--yuHat_EP02TruckerHat_Coffee--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104109<!--yuHat_EP02TruckerHat_Diamond--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104110<!--yuHat_EP02TruckerHat_Dining--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104111<!--yuHat_EP02TruckerHat_Discoball--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104112<!--yuHat_EP02TruckerHat_Drama--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104113<!--yuHat_EP02TruckerHat_Fire--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104114<!--yuHat_EP02TruckerHat_Fish--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104115<!--yuHat_EP02TruckerHat_Games--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104116<!--yuHat_EP02TruckerHat_Jester--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104117<!--yuHat_EP02TruckerHat_MusicNotes--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104118<!--yuHat_EP02TruckerHat_Pirate--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104119<!--yuHat_EP02TruckerHat_Plant--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104120<!--yuHat_EP02TruckerHat_Rainbow--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104121<!--yuHat_EP02TruckerHat_Rocketship--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104122<!--yuHat_EP02TruckerHat_RoseLips--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104123<!--yuHat_EP02TruckerHat_Sunglasses--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104124<!--yuHat_EP02TruckerHat_Wrench--></T>
+      </U>
+    </V>
+  </L>
+</I>

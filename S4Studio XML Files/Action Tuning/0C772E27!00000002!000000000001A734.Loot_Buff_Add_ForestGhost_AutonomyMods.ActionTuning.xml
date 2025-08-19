@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="Loot_Buff_Add_ForestGhost_AutonomyMods" s="108340">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">108322<!--buff_AutonomyMod_ForestGhost_Gloomy--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>9332<!--trait_Gloomy--></T>
+                  <T>16860<!--trait_Slob--></T>
+                  <T>16832<!--trait_Clumsy--></T>
+                  <T>215779<!--trait_Cauldron_Potion_Luck_Clumsy--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">108323<!--buff_AutonomyMod_ForestGhost_Goofy--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>9337<!--trait_Goofball--></T>
+                  <T>16830<!--trait_Childish--></T>
+                  <T>9322<!--trait_Cheerful--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">108324<!--buff_AutonomyMod_ForestGhost_Mean--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>16857<!--trait_Mean--></T>
+                  <T>16845<!--trait_HotHeaded--></T>
+                  <T>16844<!--trait_HatesChildren--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">9336<!--Buff_Trait_FeelingSad--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>108315<!--trait_ForestGhost_Gloomy--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">27207<!--Buff_Trait_FeelingAngry--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>108317<!--trait_ForestGhost_Mean--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">9341<!--Buff_Trait_FeelingPlayful--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>108316<!--trait_ForestGhost_Goofy--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

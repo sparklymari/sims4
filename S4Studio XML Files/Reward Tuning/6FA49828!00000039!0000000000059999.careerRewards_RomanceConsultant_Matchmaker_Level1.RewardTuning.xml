@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="careerRewards_RomanceConsultant_Matchmaker_Level1" s="367001">
+  <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png">2f7d0004:00000000:a6ed756af9cb04a1</T>
+  <T n="name">0x9A909927</T>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x9A909927</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="money">
+        <U n="money">
+          <V n="money" t="literal">
+            <U n="literal">
+              <T n="value">1844</T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="display_text">
+        <U n="display_text">
+          <V n="text" t="override">
+            <T n="override">0x6E61CC2D<!--Matchmaker Uniform--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405764<!--yfBody_EP16RomanceConsultantMatchmakerDress_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405765<!--yfBody_EP16RomanceConsultantMatchmakerDress_BrownPattern--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405766<!--yfBody_EP16RomanceConsultantMatchmakerDress_Cream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405767<!--yfBody_EP16RomanceConsultantMatchmakerDress_Olive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405771<!--yfBody_EP16RomanceConsultantMatchmakerDress_Red--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405768<!--yfBody_EP16RomanceConsultantMatchmakerDress_Pink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405769<!--yfBody_EP16RomanceConsultantMatchmakerDress_Tan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405770<!--yfBody_EP16RomanceConsultantMatchmakerDress_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">404435<!--yfShoes_EP16Heel_SolidRedGold--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406122<!--ymBody_EP16RomanceConsultantMatchmakerDress_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406129<!--ymBody_EP16RomanceConsultantMatchmakerDress_BrownPattern--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406123<!--ymBody_EP16RomanceConsultantMatchmakerDress_Cream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406124<!--ymBody_EP16RomanceConsultantMatchmakerDress_Olive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406125<!--ymBody_EP16RomanceConsultantMatchmakerDress_Pink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406126<!--ymBody_EP16RomanceConsultantMatchmakerDress_Red--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406127<!--ymBody_EP16RomanceConsultantMatchmakerDress_Tan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">406128<!--ymBody_EP16RomanceConsultantMatchmakerDress_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405441<!--ymBody_EP16RomanceConsultantTopMatchmaker_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405442<!--ymBody_EP16RomanceConsultantTopMatchmaker_BrownPattern--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405443<!--ymBody_EP16RomanceConsultantTopMatchmaker_Cream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405444<!--ymBody_EP16RomanceConsultantTopMatchmaker_Olive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405445<!--ymBody_EP16RomanceConsultantTopMatchmaker_Pink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405448<!--ymBody_EP16RomanceConsultantTopMatchmaker_Red--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405446<!--ymBody_EP16RomanceConsultantTopMatchmaker_Tan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">405447<!--ymBody_EP16RomanceConsultantTopMatchmaker_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413166<!--yfBody_EP16RomanceConsultantTopMatchmaker_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413167<!--yfBody_EP16RomanceConsultantTopMatchmaker_BrownPattern--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413168<!--yfBody_EP16RomanceConsultantTopMatchmaker_Cream--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413169<!--yfBody_EP16RomanceConsultantTopMatchmaker_Olive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413170<!--yfBody_EP16RomanceConsultantTopMatchmaker_Pink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413173<!--yfBody_EP16RomanceConsultantTopMatchmaker_Red--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413171<!--yfBody_EP16RomanceConsultantTopMatchmaker_Tan--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">413172<!--yfBody_EP16RomanceConsultantTopMatchmaker_White--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="display_text">
+        <U n="display_text">
+          <V n="text" t="override">
+            <T n="override">0x19F18223<!--Suggest Potential Match--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">400258<!--ymShoes_EP16Loafers_SolidWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">5</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

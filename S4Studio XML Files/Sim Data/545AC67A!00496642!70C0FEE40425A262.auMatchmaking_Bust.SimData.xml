@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="auMatchmaking_Bust" schema="Client_CASThumbnailCamera" type="Object">
+      <T name="CameraPosition">-0.10877124,1.6702107,3.0216851</T>
+      <T name="TargetPosition">0.016892292,1.5471848,-0.22712466</T>
+      <T name="CameraFOV">13</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Client_CASThumbnailCamera" schema_hash="0x5C3D3343">
+      <Columns>
+        <Column name="CameraPosition" type="Float3" flags="0x00000000" />
+        <Column name="TargetPosition" type="Float3" flags="0x00000000" />
+        <Column name="CameraFOV" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_MechanicalSuit_Disallow" s="230389">
+  <L n="test">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>226719<!--buff_MechanicalSuit_Body_BeigeWhite--></T>
+            <T>226294<!--buff_MechanicalSuit_Body_BlackBlue--></T>
+            <T>226720<!--buff_MechanicalSuit_Body_BlueRed--></T>
+            <T>226721<!--buff_MechanicalSuit_Body_GrayBrown--></T>
+            <T>226722<!--buff_MechanicalSuit_Body_GreenBrown--></T>
+            <T>226723<!--buff_MechanicalSuit_Body_RedGreen--></T>
+            <T>226724<!--buff_MechanicalSuit_Body_WhiteCopper--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x29D7B4E7<!--Must remove ExoMech Suit to change outfit--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

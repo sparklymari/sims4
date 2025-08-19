@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_PathObstacles_Adventure_C_Option_2_Success" s="176083">
+  <L n="loot_actions">
+    <V t="vfx">
+      <U n="vfx">
+        <E n="subject">TargetTeleportPortalObjectDestinations</E>
+        <U n="vfx">
+          <T n="effect_name">gp06_path_obstacles_sounds</T>
+        </U>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178736<!--collectCrystalMed_GP06GEN_amazonite (Amazonite)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

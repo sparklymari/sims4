@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_GhostPowers" s="421801">
+  <L n="value">
+    <T>391838<!--socialSI_GhostPowers_MotiveEvil_Absorb_Energy--></T>
+    <T>391840<!--socialSI_GhostPowers_MotiveEvil_Absorb_Fun--></T>
+    <T>391833<!--socialSI_GhostPowers_MotiveEvil_Absorb_Hunger--></T>
+    <T>391839<!--socialSI_GhostPowers_MotiveEvil_Absorb_Social--></T>
+    <T>391905<!--socialSI_GhostPowers_MotiveEvil_Drain_Bladder--></T>
+    <T>391904<!--socialSI_GhostPowers_MotiveEvil_Drain_Energy--></T>
+    <T>391908<!--socialSI_GhostPowers_MotiveEvil_Drain_Fun--></T>
+    <T>391861<!--socialSI_GhostPowers_MotiveEvil_Drain_Hunger--></T>
+    <T>391906<!--socialSI_GhostPowers_MotiveEvil_Drain_Hygiene--></T>
+    <T>391907<!--socialSI_GhostPowers_MotiveEvil_Drain_Social--></T>
+    <T>391917<!--socialSI_GhostPowers_MotiveEvil_DrainLife--></T>
+    <T>391838<!--socialSI_GhostPowers_MotiveEvil_Absorb_Energy--></T>
+    <T>391701<!--ghostPowers_Abilities_Chaos_GiveNightmare--></T>
+    <T>391761<!--ghostPowers_Abilities_Scary_LevitateSim_ActiveSim--></T>
+    <T>391760<!--ghostPowers_Abilities_Scary_LevitateSim_NPC--></T>
+    <T>421115<!--socialSI_GhostPowers_MotiveGood_DetectMood--></T>
+    <T>395065<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Energy--></T>
+    <T>395066<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Fun--></T>
+    <T>395068<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Life--></T>
+    <T>395067<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Social--></T>
+    <T>392902<!--socialSI_GhostPowers_WarmEmbrace--></T>
+    <T>393238<!--ghostPowers_Abilities_Comfort_GiveGoodDream--></T>
+    <T>393958<!--ghostPowers_Abilities_Ultimate_Curse--></T>
+    <T>393957<!--ghostPowers_Abilities_Ultimate_GoodFortune--></T>
+    <T>402006<!--ghostPowers_Abilities_Comfort_GiveGoodDream_NPC_Autonomous--></T>
+    <T>392606<!--ghostPowers_Abilities_GhostNap--></T>
+    <T>402013<!--ghostPowers_Abilities_Chaos_GiveNightmare_NPC_Autonmous--></T>
+    <T>422450<!--socialSI_GhostPowers_Scare_HauntingShriek--></T>
+  </L>
+</I>

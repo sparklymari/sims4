@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_FamilyGift_FromDramaNode" s="164887">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="disabled" />
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137412<!--toyHand_EF04GENBear_set1 (Mr. Blue Bear)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137842<!--toyHand_EF04GENButterfly_set1 (Butterfly McButterflyface)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">151892<!--toyHand_EF04GENDucky_set1 (Ducky)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137841<!--toyHand_EF04GENTentacles_set1 (Tentacle Tom)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">11490<!--toyHandGENEmotionDollRobot_01_set1 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30094<!--toyHandGENToyBoxHero_01_set1 (The Purple Pursuer Action Figure)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30097<!--toyHandGENToyBoxHeroine_01_set1 (The Purple Protector Action Figure)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30328<!--toyHandGENToyBoxMonster_01_set1 (Chompy the Monsta)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">153527<!--toyHandSmall_EF04GENCar_set1 (Classic Wood-Mobile)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">153506<!--toyHandSmall_EF04GENCat_set1 (Mrs. Meowness)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22321<!--toyHandSmallGENCar_01 (Speedy Sportscar Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22288<!--toyHandSmallGENCarriage_01 (Fantasy Carriage Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22323<!--toyHandSmallGENDragon_01 (Fearsome Dragon Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22325<!--toyHandSmallGENHelicopter_01 (Fully Functional Helicopter Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22286<!--toyHandSmallGENHorse_01 (Pretty Prancing Palomino Pony Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <T n="place_in_mailbox">True</T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified">
+                  <L n="specified">
+                    <E>CHILD</E>
+                    <E>TODDLER</E>
+                  </L>
+                </V>
+                <V n="npc" t="enabled" />
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified">
+                  <L n="specified">
+                    <E>TEEN</E>
+                    <E>YOUNGADULT</E>
+                    <E>ADULT</E>
+                    <E>ELDER</E>
+                    <E>CHILD</E>
+                    <E>TODDLER</E>
+                  </L>
+                </V>
+                <V n="npc" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="prohibited_relationship_bits">
+                  <L n="match_any">
+                    <T>162462<!--rbc_FamilyAcquired_Negative--></T>
+                  </L>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="disabled" />
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30528<!--collectTimeCapsuleGEN_01 (Time Capsule)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28927<!--collectElementGEN_01_hodorium (Wolfium)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29152<!--collectFossil_02_trilobite (Enormous Trilobite)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159869<!--sculptTableMedium_GP05GENplate_set15 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159856<!--sculptTableMedium_GP05GENplate_set2 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159857<!--sculptTableMedium_GP05GENplate_set3 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159858<!--sculptTableMedium_GP05GENplate_set4 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159859<!--sculptTableMedium_GP05GENplate_set5 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159860<!--sculptTableMedium_GP05GENplate_set6 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159861<!--sculptTableMedium_GP05GENplate_set7 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159862<!--sculptTableMedium_GP05GENplate_set8 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <T n="place_in_mailbox">True</T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified" />
+                <V n="npc" t="enabled" />
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified" />
+                <V n="npc" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="prohibited_relationship_bits">
+                  <L n="match_any">
+                    <T>162462<!--rbc_FamilyAcquired_Negative--></T>
+                  </L>
+                </U>
+                <L n="subject">
+                  <E>Actor</E>
+                </L>
+                <L n="target_sim">
+                  <E>TargetSim</E>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="disabled" />
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137412<!--toyHand_EF04GENBear_set1 (Mr. Blue Bear)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137842<!--toyHand_EF04GENButterfly_set1 (Butterfly McButterflyface)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">151892<!--toyHand_EF04GENDucky_set1 (Ducky)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137841<!--toyHand_EF04GENTentacles_set1 (Tentacle Tom)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">11490<!--toyHandGENEmotionDollRobot_01_set1 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30094<!--toyHandGENToyBoxHero_01_set1 (The Purple Pursuer Action Figure)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30097<!--toyHandGENToyBoxHeroine_01_set1 (The Purple Protector Action Figure)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30328<!--toyHandGENToyBoxMonster_01_set1 (Chompy the Monsta)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">153527<!--toyHandSmall_EF04GENCar_set1 (Classic Wood-Mobile)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">153506<!--toyHandSmall_EF04GENCat_set1 (Mrs. Meowness)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22321<!--toyHandSmallGENCar_01 (Speedy Sportscar Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22288<!--toyHandSmallGENCarriage_01 (Fantasy Carriage Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22323<!--toyHandSmallGENDragon_01 (Fearsome Dragon Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22325<!--toyHandSmallGENHelicopter_01 (Fully Functional Helicopter Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22286<!--toyHandSmallGENHorse_01 (Pretty Prancing Palomino Pony Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159864<!--sculptTableMedium_GP05GENplate_set10 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159865<!--sculptTableMedium_GP05GENplate_set11 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159866<!--sculptTableMedium_GP05GENplate_set12 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159867<!--sculptTableMedium_GP05GENplate_set13 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159868<!--sculptTableMedium_GP05GENplate_set14 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159869<!--sculptTableMedium_GP05GENplate_set15 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">159863<!--sculptTableMedium_GP05GENplate_set9 (Decorative Collectible Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <T n="place_in_mailbox">True</T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified">
+                  <L n="specified">
+                    <E>TEEN</E>
+                    <E>YOUNGADULT</E>
+                    <E>ADULT</E>
+                    <E>ELDER</E>
+                  </L>
+                </V>
+                <V n="npc" t="enabled" />
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified">
+                  <L n="specified">
+                    <E>TODDLER</E>
+                    <E>CHILD</E>
+                  </L>
+                </V>
+                <V n="npc" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="prohibited_relationship_bits">
+                  <L n="match_any">
+                    <T>162462<!--rbc_FamilyAcquired_Negative--></T>
+                  </L>
+                </U>
+                <L n="subject">
+                  <E>Actor</E>
+                </L>
+                <L n="target_sim">
+                  <E>TargetSim</E>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="disabled" />
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45028<!--collectFishSmallGENMinnow_01 (Minnow)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77035<!--FishFreshness_Foul--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77035<!--FishFreshness_Foul--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77035<!--FishFreshness_Foul--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <T n="place_in_mailbox">True</T>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="npc" t="enabled" />
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="npc" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>162462<!--rbc_FamilyAcquired_Negative--></T>
+                  </L>
+                </U>
+                <L n="subject">
+                  <E>Actor</E>
+                </L>
+                <L n="target_sim">
+                  <E>TargetSim</E>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

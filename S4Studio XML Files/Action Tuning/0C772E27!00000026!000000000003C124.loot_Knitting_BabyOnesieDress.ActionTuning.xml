@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Knitting_BabyOnesieDress" s="246052">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244061<!--babyCloth_Values_Onesie_1--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254547<!--Knitting_Baby_1 (Green Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244062<!--babyCloth_Values_Onesie_2--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254548<!--Knitting_Baby_2 (Red Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244063<!--babyCloth_Values_Onesie_3--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254549<!--Knitting_Baby_3 (Yellow Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244064<!--babyCloth_Values_Onesie_4--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254550<!--Knitting_Baby_4 (Dark Red Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244065<!--babyCloth_Values_Onesie_5--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254551<!--Knitting_Baby_5 (Green Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244066<!--babyCloth_Values_Onesie_6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254552<!--Knitting_Baby_6 (Teal Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244067<!--babyCloth_Values_Onesie_7--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254553<!--Knitting_Baby_7 (Gray & Blue Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244068<!--babyCloth_Values_Onesie_8--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254554<!--Knitting_Baby_8 (Green & Red Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244069<!--babyCloth_Values_Onesie_9--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254555<!--Knitting_Baby_9 (Gray Two-tone Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244070<!--babyCloth_Values_Onesie_10--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254556<!--Knitting_Baby_10 (Teal & Green Striped Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244071<!--babyCloth_Values_Onesie_11--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254557<!--Knitting_Baby_11 (Purple Striped Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244072<!--babyCloth_Values_Onesie_12--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254558<!--Knitting_Baby_12 (Green & Yellow Striped Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244073<!--babyCloth_Values_Onesie_13--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254559<!--Knitting_Baby_13 (Yellow Newborn Onesie with Orange Star)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244074<!--babyCloth_Values_Onesie_14--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254560<!--Knitting_Baby_14 (Newborn Onesie with Ice Cream Cone)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244075<!--babyCloth_Values_Onesie_15--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254561<!--Knitting_Baby_15 (Newborn Onesie with Bee & Flowers)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244076<!--babyCloth_Values_Onesie_16--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254562<!--Knitting_Baby_16 (Green Hedgehog Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">244060<!--babyCloth_Values_Onesie_17--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">254563<!--Knitting_Baby_17 (Dark Blue Bear Face Newborn Onesie)--></T>
+                  </U>
+                </V>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">PickedObject</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

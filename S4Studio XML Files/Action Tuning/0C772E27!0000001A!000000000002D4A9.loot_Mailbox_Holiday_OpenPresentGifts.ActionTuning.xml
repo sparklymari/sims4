@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Mailbox_Holiday_OpenPresentGifts" s="185513">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="reference">
+            <T n="reference">185516<!--notification_ObjectReward_Mailbox_GetGift_OpenPresent--></T>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">76464<!--photoCamera_EP01GENCheap_set1 (Barely Better Digital Camera)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">62724<!--seedPacket_Garden_Starter_Deluxe_VegetablesHerbs (Farmer Veggies and Herbs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">35725<!--sculptTableGENGnome_01_set1 (There’s No Place like Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">36414<!--sculptTableGENGnome_02_set1 (Happy Gnome Garden Pal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">36990<!--sculptTableGENGnome_03_set1 (Gnome Matter What, I’m Still Your Baby)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72247<!--sculptTableMedium_EF01GENgnomePool_set1 (Poolside Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72714<!--sculptTableMedium_EF02GENgnomeCareer_set1 (Strictly Business Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">89383<!--sculptTableMedium_EF0GENgnomeBunny_set1 (Mr. Floppy the Gnome)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30601<!--collectPostcardGENStandard_01_appaloosaPlains (Appaloosa Plains:  Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30595<!--collectPostcardGENRounded_01_barnacleBay (Barnacle Bay: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30591<!--collectPostcardGENBent_01_littleHaven (Littlehaven: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30600<!--collectPostcardGENStandard_01_bridgeport (Bridgeport: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30604<!--collectPostcardGENStandard_01_islaParadiso (Isla Paradiso: Postcard)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29332<!--collectMySimsBuddy_01 (Buddy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29343<!--collectMySimsChaz_01 (Chaz McFreely)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29350<!--collectMySimsHopper_01 (Hopper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29341<!--collectMySimsYuki_01 (Yuki)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29334<!--collectMySimsLeaf_01 (Leaf)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">3889<!--paintWallQA1x1x2_01_set1 (Ode to Jazz 2: “Goldentips”)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">2429<!--paintWallQA2x1x2_02_set1 (Jazz Cats: Whiskers of a Forgotten Past)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">60477<!--paintWallQA2x1x2_03_set2 (Ode to Jazz 6: “Ghost Quartet”)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">10530<!--paintWallQA2x1x2_06_set1 (Land-Coral Garden)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">10527<!--paintWallQA2x1x3_06_set1 (“Blooming Beauty” Wall Painting)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72091<!--paintwall1x1x1_EF02RWposterInspirational_set1 (Inspirational Mouse Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45901<!--paintWallGENBookReadPoster1x1x2_01_set1 (Raising a Reader Kids’ Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46097<!--paintWallGENPosterDino1x1x1_01_set1 (Read-asaurus Rex Kids’ Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">74196<!--paintWall1x1x2_EF02RWposterAthlete_set1 (Sole Star Athletic Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">74202<!--paintWall1x1x2_EF02RWposterAthlete_set2 (Sole Star Athletic Poster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32632<!--bookGENHappy_08 (The Plunder Games)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32578<!--bookGENMotive_17 (The Glutton Spiel)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32982<!--bookGENSad_07 (The Bladder Games)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32619<!--bookGENInspired_06 (Orbital Pudding)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32864<!--bookGENFocus_07 (Piano Bars and You:  How to Hold a Note Without a Paper Bag)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">8891<!--lightFloorQACandleholder_01_set1 (Two Thousand Ounces of Gold Under the Sea)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">147023<!--lightTableMedium_EF09GENCandles_set1 (A Story of Three Candles)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">42226<!--sculptTableGENBathFoldedLaundry_01_set1 (Lucky Man Folded Laundry)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19552<!--coffeeMachineDS_01_set1 (The Schmapple Coffee)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33590<!--lightTableER_02 (Shine On Ambitions Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33592<!--lightTableER_03 (UV Light Late Night Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33594<!--lightTableER_04 (Beacon of Ages Generations Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33597<!--lightTableER_05 (Paws Anonymous Pets Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33599<!--lightTableER_06 (Your Name in Lights Showtime Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33601<!--lightTableER_07 (Enchanted Aurora Supernatural Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33603<!--lightTableER_08 (Whatever the Weather Seasons Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33605<!--lightTableER_09 (Alma Mater University Life Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33607<!--lightTableER_10 (Tiki Topper Island Paradise Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33609<!--lightTableER_11 (Time Travelers Into the Future Award)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33588<!--lightTableER_01 (Never Ending World Adventures Award)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Fear_Horses_Trait_Effects" s="323759">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="pie_menu_modifier">
+        <U n="pie_menu_modifier">
+          <V n="affordance_filter" t="by_affordance_filter">
+            <U n="by_affordance_filter">
+              <V n="affordance_filter" t="literal">
+                <U n="literal">
+                  <V n="default_inclusion" t="include_all">
+                    <U n="include_all">
+                      <L n="exclude_affordances">
+                        <T>322226<!--horseSocials_SimToHorse_Touching_Friendly_Hug--></T>
+                        <T>319845<!--HorseSocials_SimToHorse_Touching_Friendly_ScratchNeck--></T>
+                        <T>319839<!--HorseSocialMixers_SimToHorse_Friendly_WhatsWrong--></T>
+                        <T>328007<!--horseSocials_SimToHorse_Touching_Friendly_CheerUp--></T>
+                        <T>319837<!--HorseSocialMixers_SimToHorse_Friendly_TalkTo--></T>
+                        <T>323557<!--HorseSocialMixers_SimToHorse_Friendly_Trait_Horse_IntellectualChat--></T>
+                        <T>322434<!--horseSocials_HorseToSim_Greeting--></T>
+                        <T>322271<!--HorseSocials_HorseToSim_Introduction--></T>
+                        <T>322436<!--horseSocials_SimToHorse_Greeting--></T>
+                        <T>322272<!--HorseSocials_SimToHorse_Introduction--></T>
+                        <T>322226<!--horseSocials_SimToHorse_Touching_Friendly_Hug--></T>
+                        <T>319845<!--HorseSocials_SimToHorse_Touching_Friendly_ScratchNeck--></T>
+                        <T>316806<!--SI_HorseRiding_MountHorse--></T>
+                        <T>312888<!--SI_HorseRiding_MountHorse_Begin--></T>
+                        <T>320656<!--SI_HorseRiding_MountHorse_Prepare--></T>
+                        <T>323943<!--HorseSocialMixers_SimToHorse_Friendly_TellJoke--></T>
+                        <T>323931<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_CheerUp--></T>
+                        <T>323932<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_Hug--></T>
+                        <T>323928<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_Scratch--></T>
+                        <T>323930<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_TellJoke--></T>
+                        <T>323877<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_WhatsWrong--></T>
+                        <T>323929<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_TalkTo--></T>
+                        <T>322226<!--horseSocials_SimToHorse_Touching_Friendly_Hug--></T>
+                        <T>319845<!--HorseSocials_SimToHorse_Touching_Friendly_ScratchNeck--></T>
+                        <T>340913<!--HorseSocialMixers_SimToHorse_Friendly_AskForCooperation--></T>
+                        <T>340911<!--horseSocials_SimToHorse_Touching_Friendly_MellowOut--></T>
+                        <T>349169<!--horseSocials_SimToHorse_Touching_Friendly_ShareDesireForIndependence--></T>
+                        <T>329672<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAboutFavorite--></T>
+                        <T>329666<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAboutTraining--></T>
+                        <T>329684<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAdvice--></T>
+                        <T>329658<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_Compliment--></T>
+                        <T>329681<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_TalkAbout--></T>
+                        <T>329673<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAboutFavorite--></T>
+                        <T>329667<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAboutTraining--></T>
+                        <T>329685<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAdvice--></T>
+                        <T>329659<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_Compliment--></T>
+                        <T>329682<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_TalkAbout--></T>
+                        <T>329703<!--horseSocialMixers_SimToHorse_HorseTraining_Equestrian_AskFeedback--></T>
+                        <T>329700<!--horseSocialMixers_SimToHorse_HorseTraining_Equestrian_Encourage--></T>
+                        <T>329674<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAboutFavorite--></T>
+                        <T>329668<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAboutTraining--></T>
+                        <T>329686<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAdvice--></T>
+                        <T>329683<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_TalkAbout--></T>
+                        <T>329660<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_Compliment--></T>
+                        <T>329699<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_AskAbout--></T>
+                        <T>329695<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_AskAdvice--></T>
+                        <T>329661<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Compliment--></T>
+                        <T>329691<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Comfort--></T>
+                        <T>329696<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_ControlTemper--></T>
+                        <T>329692<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Gossip--></T>
+                        <T>329675<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAboutFavorite--></T>
+                        <T>329687<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAdvice--></T>
+                        <T>329669<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAboutTraining--></T>
+                        <T>329662<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_Compliment--></T>
+                        <T>329678<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_TalkAbout--></T>
+                        <T>329676<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAboutFavorite--></T>
+                        <T>329670<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAboutTraining--></T>
+                        <T>329688<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAdvice--></T>
+                        <T>329663<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_Compliment--></T>
+                        <T>329679<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_TalkAbout--></T>
+                        <T>329701<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Equestrian_Encourage--></T>
+                        <T>329702<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Equestrian_AskFeedback--></T>
+                        <T>329677<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAboutFavorite--></T>
+                        <T>329671<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAboutTraining--></T>
+                        <T>329689<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAdvice--></T>
+                        <T>329664<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_Compliment--></T>
+                        <T>329680<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_TalkAbout--></T>
+                        <T>329698<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_AskAbout--></T>
+                        <T>329665<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Compliment--></T>
+                        <T>329690<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Comfort--></T>
+                        <T>329694<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_AskAdvice--></T>
+                        <T>329697<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_ControlTemper--></T>
+                        <T>329693<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Gossip--></T>
+                        <T>325728<!--horseSocials_SimToHorse_SuggestToSocializeWith_Goat--></T>
+                        <T>325726<!--horseSocials_SimToHorse_SuggestToSocializeWith_Horse--></T>
+                        <T>325727<!--horseSocials_SimToHorse_SuggestToSocializeWith_Sheep--></T>
+                        <T>325729<!--horseSocials_SimToHorse_SuggestToSocializeWith_Sim--></T>
+                        <T>340997<!--horseSocials_SimToHorse_Touching_Friendly_GetStableGossip_Horse--></T>
+                        <T>328397<!--horseInteractions_SimToHorse_CallOver--></T>
+                        <T>341053<!--horseSocials_SimToHorse_Touching_Friendly_BaskInHorseBravery--></T>
+                        <T>329389<!--sI_HorseRiding_MountHorse_Begin_EnduranceRide--></T>
+                        <T>329390<!--sI_HorseRiding_MountHorse_Begin_EnergeticRide--></T>
+                        <T>329396<!--sI_HorseRiding_MountHorse_Begin_LeisureRide--></T>
+                        <T>325728<!--horseSocials_SimToHorse_SuggestToSocializeWith_Goat--></T>
+                        <T>325726<!--horseSocials_SimToHorse_SuggestToSocializeWith_Horse--></T>
+                        <T>325727<!--horseSocials_SimToHorse_SuggestToSocializeWith_Sheep--></T>
+                        <T>325729<!--horseSocials_SimToHorse_SuggestToSocializeWith_Sim--></T>
+                        <T>325500<!--horseSocials_SimToHorse_Touching_Friendly_WhisperTo--></T>
+                        <T>325499<!--horseSocials_SimToHorse_Touching_Friendly_RubNeck--></T>
+                        <T>330598<!--si_EquestrianCenter_ViewCompetitions--></T>
+                        <T>325730<!--simPicker_HorseSocials_SocializeWithSims--></T>
+                        <T>325462<!--simPicker_HorseSocials_SocializeWithHorses--></T>
+                        <T>325466<!--filteredObjectPicker_AnimalObject_Goats_SocializeWith--></T>
+                        <T>325467<!--filteredObjectPicker_AnimalObject_Sheep_SocializeWith--></T>
+                        <T>345427<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_RubNeck--></T>
+                        <T>345636<!--horseSocialCarryMixers_SimToRiddenHorse_Friendly_MellowOut--></T>
+                        <T>328878<!--horseSocials_SimToFoal_Touching_Cradle--></T>
+                        <T>329220<!--horseSocials_SimToFoal_Touching_GentleTouch--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="suppression_tooltip" t="enabled">
+            <T n="enabled">0x3E109E68<!--{0.SimFirstName} is way too terrified to interact with Horses.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="pie_menu_modifier">
+        <U n="pie_menu_modifier">
+          <V n="affordance_filter" t="by_affordance_filter">
+            <U n="by_affordance_filter">
+              <V n="affordance_filter" t="literal">
+                <U n="literal">
+                  <V n="default_inclusion" t="include_all">
+                    <U n="include_all">
+                      <L n="exclude_affordances">
+                        <T>324132<!--horseSocials_SimToHorse_Touching_PetCare_HandFeed--></T>
+                        <T>324136<!--objectInInventoryPickerInteraction_HorseCare_HandFeed--></T>
+                        <T>329278<!--objectInInventoryPickerInteraction_HorseCare_WeanToHay--></T>
+                        <T>329218<!--horseSocials_SimToFoal_Touching_WeanToHay--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="suppression_tooltip" t="enabled">
+            <T n="enabled">0xBAB1873E<!--{0.SimFirstName} is too terrified to Hand Feed. Better make sure an Animal Feeder is stocked so the Horse can eat.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="pie_menu_modifier">
+        <U n="pie_menu_modifier">
+          <V n="affordance_filter" t="by_affordance_filter">
+            <U n="by_affordance_filter">
+              <V n="affordance_filter" t="literal">
+                <U n="literal">
+                  <V n="default_inclusion" t="include_all">
+                    <U n="include_all">
+                      <L n="exclude_affordances">
+                        <T>324133<!--horseSocials_SimToHorse_Touching_PetCare_BrushCoat--></T>
+                        <T>324134<!--horseSocials_SimToHorse_Touching_PetCare_CleanHooves--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="suppression_tooltip" t="enabled">
+            <T n="enabled">0x44BE546<!--{0.SimFirstName} is too terrified to clean a Horse right now. Use another Sim or hire a Ranch Hand. --></T>
+          </V>
+        </U>
+      </V>
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <V n="affordance_compatibility" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="default_inclusion" t="include_all">
+                  <U n="include_all">
+                    <L n="exclude_affordances">
+                      <T>328878<!--horseSocials_SimToFoal_Touching_Cradle--></T>
+                      <T>329220<!--horseSocials_SimToFoal_Touching_GentleTouch--></T>
+                      <T>329218<!--horseSocials_SimToFoal_Touching_WeanToHay--></T>
+                      <T>322272<!--HorseSocials_SimToHorse_Introduction--></T>
+                      <T>322436<!--horseSocials_SimToHorse_Greeting--></T>
+                      <T>322226<!--horseSocials_SimToHorse_Touching_Friendly_Hug--></T>
+                      <T>341053<!--horseSocials_SimToHorse_Touching_Friendly_BaskInHorseBravery--></T>
+                      <T>324133<!--horseSocials_SimToHorse_Touching_PetCare_BrushCoat--></T>
+                      <T>324134<!--horseSocials_SimToHorse_Touching_PetCare_CleanHooves--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="visible">False</T>
+  <V n="walkstyle" t="enabled">
+    <U n="enabled">
+      <E n="priority">INTERACTION</E>
+      <T n="walkstyle" p="InGame\Locomotion\RunPanic.walkstyle">27c01d95:00000000:00000000278b1e71</T>
+    </U>
+  </V>
+</I>

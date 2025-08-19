@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000038">
+  <Instances>
+    <I name="Rule_PMI_MaxHousehold" schema="BusinessRule" type="Object">
+      <T name="fine">1000</T>
+      <T name="icon">00B2D882-00000000-BDF4EA91D165C1A6</T>
+      <T name="rule_description">0x1B708146</T>
+      <T name="rule_name">0x9260BAD9</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="BusinessRule" schema_hash="0x13650CEF">
+      <Columns>
+        <Column name="fine" type="Int32" flags="0x00000000" />
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="rule_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="rule_name" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

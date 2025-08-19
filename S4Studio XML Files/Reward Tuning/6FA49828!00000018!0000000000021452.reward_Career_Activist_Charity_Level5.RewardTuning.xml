@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_Career_Activist_Charity_Level5" s="136274">
+  <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png">2f7d0004:00000000:a6ed756af9cb04a1</T>
+  <T n="name">0x9A909927</T>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x9A909927</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="money">
+        <U n="money">
+          <V n="money" t="literal">
+            <U n="literal">
+              <T n="value">736</T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="display_text">
+        <U n="display_text">
+          <V n="text" t="override">
+            <T n="override">0xC32F8724<!--New Create-a-Sim Clothes!--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135386<!--yfBody_EP03PoliticsSuitHigh_Black--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135391<!--yfBody_EP03PoliticsSuitHigh_Blue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135387<!--yfBody_EP03PoliticsSuitHigh_Gray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135388<!--yfBody_EP03PoliticsSuitHigh_Khaki--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135389<!--yfBody_EP03PoliticsSuitHigh_Orange--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135390<!--yfBody_EP03PoliticsSuitHigh_Pink--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135562<!--ymBody_EP03PoliticsSuitHigh--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135558<!--ymBody_EP03PoliticsSuitHigh_BlackSolid--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135559<!--ymBody_EP03PoliticsSuitHigh_BluePinstripe--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135560<!--ymBody_EP03PoliticsSuitHigh_GrayPinstripe--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">135561<!--ymBody_EP03PoliticsSuitHigh_NavySolid--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">5</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

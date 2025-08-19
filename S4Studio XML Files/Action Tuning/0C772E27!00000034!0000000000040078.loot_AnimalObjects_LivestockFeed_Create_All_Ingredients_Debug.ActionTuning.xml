@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_AnimalObjects_LivestockFeed_Create_All_Ingredients_Debug" s="262264">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270297<!--gardenFruitCropMedium_EP11GENLettuce_set1 (Medium Lettuce)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">44785<!--collectFishMedGENRainbow_01 (Rainbowfish)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">256445<!--Recipe_Food_Canning_StrawberryJam--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">256448<!--Recipe_Food_Canning_Custard--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">272255<!--gardenFruit_EP11GENMushroomWildSpicy ({S.Spicy Mushroom}{P.Spicy Mushrooms})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270299<!--gardenFruitCropMedium_EP11GENPumpkin_set1 (Medium Pumpkin)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">256449<!--Recipe_Food_Canning_AppleJam--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">256446<!--Recipe_Food_Canning_BlueberryJam--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270295<!--gardenFruitCropMedium_EP11GENAubergine_set1 (Medium Aubergine)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">260295<!--recipe_Food_AnimalObjectIngredients_Egg_Gold--></T>
+            <T n="show_crafted_by_text">False</T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">260296<!--recipe_Food_AnimalObjectIngredients_Egg_Obsidian--></T>
+            <T n="show_crafted_by_text">False</T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">256453<!--Recipe_Food_Canning_CowberryJam--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">196135<!--drinkJar_EP05GENhoney_set1 (Honey)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">278924<!--foodIngredient_GENsack_sugar (Sugar)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">260297<!--recipe_Food_AnimalObjectIngredients_Egg_Green--></T>
+            <T n="show_crafted_by_text">False</T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">260299<!--recipe_Food_AnimalObjectIngredients_Egg_Blue--></T>
+            <T n="show_crafted_by_text">False</T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">260298<!--recipe_Food_AnimalObjectIngredients_Egg_Orange--></T>
+            <T n="show_crafted_by_text">False</T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+  </L>
+</I>

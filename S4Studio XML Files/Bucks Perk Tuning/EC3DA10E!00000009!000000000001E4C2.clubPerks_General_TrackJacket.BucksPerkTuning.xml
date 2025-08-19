@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_TrackJacket" s="124098">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0xA9CDC231<!--Track Jacket--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_CASTrackJacket.png">2f7d0004:00000000:fc409e243f670941</T>
+  </U>
+  <T n="perk_description">0xE29CA336<!--Represent your Club with this stylish Track Jacket. Once purchased don't forget to apply it to your Club's uniform from the Club Panel.--></T>
+  <L n="rewards">
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104688<!--yfTop_EP02JacketTrackVarsity_Atom--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104712<!--yfTop_EP02JacketTrackVarsity_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104689<!--yfTop_EP02JacketTrackVarsity_Book--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104690<!--yfTop_EP02JacketTrackVarsity_Butterfly--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104691<!--yfTop_EP02JacketTrackVarsity_Chess--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104692<!--yfTop_EP02JacketTrackVarsity_Coffee--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104693<!--yfTop_EP02JacketTrackVarsity_Diamond--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104694<!--yfTop_EP02JacketTrackVarsity_DJbooth--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104695<!--yfTop_EP02JacketTrackVarsity_Drama--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104696<!--yfTop_EP02JacketTrackVarsity_Drink--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104697<!--yfTop_EP02JacketTrackVarsity_Dumbell--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104698<!--yfTop_EP02JacketTrackVarsity_Fire--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104699<!--yfTop_EP02JacketTrackVarsity_Fish--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104700<!--yfTop_EP02JacketTrackVarsity_Flirt--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104701<!--yfTop_EP02JacketTrackVarsity_Food--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104702<!--yfTop_EP02JacketTrackVarsity_Gaming--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104703<!--yfTop_EP02JacketTrackVarsity_Gardens--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104704<!--yfTop_EP02JacketTrackVarsity_Jester--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104705<!--yfTop_EP02JacketTrackVarsity_Music--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104706<!--yfTop_EP02JacketTrackVarsity_Paint--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104707<!--yfTop_EP02JacketTrackVarsity_Rainbow--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104708<!--yfTop_EP02JacketTrackVarsity_Rocket--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104709<!--yfTop_EP02JacketTrackVarsity_Skull--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104710<!--yfTop_EP02JacketTrackVarsity_Sunglasses--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104711<!--yfTop_EP02JacketTrackVarsity_Wrench--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104269<!--ymTop_EP02JacketTrackVarsity_Atom--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104290<!--ymTop_EP02JacketTrackVarsity_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104270<!--ymTop_EP02JacketTrackVarsity_Book--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104271<!--ymTop_EP02JacketTrackVarsity_Butterfly--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104272<!--ymTop_EP02JacketTrackVarsity_Chess--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104273<!--ymTop_EP02JacketTrackVarsity_Coffee--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104274<!--ymTop_EP02JacketTrackVarsity_Diamond--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104275<!--ymTop_EP02JacketTrackVarsity_Djbooth--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104276<!--ymTop_EP02JacketTrackVarsity_Drama--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104277<!--ymTop_EP02JacketTrackVarsity_Drink--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104278<!--ymTop_EP02JacketTrackVarsity_Dumbell--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104279<!--ymTop_EP02JacketTrackVarsity_Fire--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104293<!--ymTop_EP02JacketTrackVarsity_Fish--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104280<!--ymTop_EP02JacketTrackVarsity_Flirt--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104281<!--ymTop_EP02JacketTrackVarsity_Food--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104282<!--ymTop_EP02JacketTrackVarsity_Gaming--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104294<!--ymTop_EP02JacketTrackVarsity_Gardens--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104283<!--ymTop_EP02JacketTrackVarsity_Jester--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104284<!--ymTop_EP02JacketTrackVarsity_Music--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104285<!--ymTop_EP02JacketTrackVarsity_Paint--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104286<!--ymTop_EP02JacketTrackVarsity_Rainbow--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104291<!--ymTop_EP02JacketTrackVarsity_Rocket--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104287<!--ymTop_EP02JacketTrackVarsity_Skull--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104288<!--ymTop_EP02JacketTrackVarsity_Sunglasses--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">104289<!--ymTop_EP02JacketTrackVarsity_Wrench--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">200</T>
+</I>

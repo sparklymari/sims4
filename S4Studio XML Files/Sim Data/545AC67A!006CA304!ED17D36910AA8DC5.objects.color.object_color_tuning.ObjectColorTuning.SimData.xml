@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="objects.color.object_color_tuning.ObjectColorTuning" schema="objects.color.object_color_tuning.ObjectColorTuning" type="Object">
+      <L name="OBJECT_COLOR_PALETTE">
+        <U type="Object" schema="ObjectColorPaletteTuple">
+          <T name="key">2</T>
+          <U name="value" schema="TunablePaletteEntryTuple">
+            <L name="colors">
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">76</T>
+                    <T name="g">6</T>
+                    <T name="r">240</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">35</T>
+                    <T name="g">48</T>
+                    <T name="r">203</T>
+                  </U>
+                </L>
+                <T name="name">0x1008815B</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">102</T>
+                    <T name="g">59</T>
+                    <T name="r">60</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">85</T>
+                    <T name="g">50</T>
+                    <T name="r">51</T>
+                  </U>
+                </L>
+                <T name="name">0xCB16CDC6</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">175</T>
+                    <T name="g">179</T>
+                    <T name="r">163</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">124</T>
+                    <T name="g">127</T>
+                    <T name="r">117</T>
+                  </U>
+                </L>
+                <T name="name">0x6C277E69</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">227</T>
+                    <T name="g">180</T>
+                    <T name="r">75</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">199</T>
+                    <T name="g">131</T>
+                    <T name="r">70</T>
+                  </U>
+                </L>
+                <T name="name">0x371E2214</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">246</T>
+                    <T name="g">144</T>
+                    <T name="r">177</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">206</T>
+                    <T name="g">107</T>
+                    <T name="r">127</T>
+                  </U>
+                </L>
+                <T name="name">0x2EFF22BF</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">48</T>
+                    <T name="g">246</T>
+                    <T name="r">252</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">48</T>
+                    <T name="g">206</T>
+                    <T name="r">252</T>
+                  </U>
+                </L>
+                <T name="name">0x104E1C2A</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">56</T>
+                    <T name="g">246</T>
+                    <T name="r">230</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">67</T>
+                    <T name="g">230</T>
+                    <T name="r">158</T>
+                  </U>
+                </L>
+                <T name="name">0x6699199D</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">255</T>
+                    <T name="g">255</T>
+                    <T name="r">255</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">128</T>
+                    <T name="g">128</T>
+                    <T name="r">128</T>
+                  </U>
+                </L>
+                <T name="name">0x23B83888</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">188</T>
+                    <T name="g">127</T>
+                    <T name="r">255</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">166</T>
+                    <T name="g">64</T>
+                    <T name="r">252</T>
+                  </U>
+                </L>
+                <T name="name">0x0AE8BC13</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">254</T>
+                    <T name="g">124</T>
+                    <T name="r">129</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">254</T>
+                    <T name="g">27</T>
+                    <T name="r">109</T>
+                  </U>
+                </L>
+                <T name="name">0xAF74689E</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">29</T>
+                    <T name="g">215</T>
+                    <T name="r">134</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">101</T>
+                    <T name="g">194</T>
+                    <T name="r">53</T>
+                  </U>
+                </L>
+                <T name="name">0x653D422A</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">252</T>
+                    <T name="g">246</T>
+                    <T name="r">100</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">203</T>
+                    <T name="g">192</T>
+                    <T name="r">5</T>
+                  </U>
+                </L>
+                <T name="name">0x83EE48BF</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">234</T>
+                    <T name="g">81</T>
+                    <T name="r">240</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">168</T>
+                    <T name="g">50</T>
+                    <T name="r">185</T>
+                  </U>
+                </L>
+                <T name="name">0x78A75E88</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">190</T>
+                    <T name="g">116</T>
+                    <T name="r">67</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">168</T>
+                    <T name="g">47</T>
+                    <T name="r">25</T>
+                  </U>
+                </L>
+                <T name="name">0xBB883F9D</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">157</T>
+                    <T name="g">61</T>
+                    <T name="r">170</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">157</T>
+                    <T name="g">61</T>
+                    <T name="r">170</T>
+                  </U>
+                </L>
+                <T name="name">0x2005F3C6</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">0</T>
+                    <T name="g">174</T>
+                    <T name="r">252</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">0</T>
+                    <T name="g">135</T>
+                    <T name="r">232</T>
+                  </U>
+                </L>
+                <T name="name">0x64F7A75B</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">98</T>
+                    <T name="g">129</T>
+                    <T name="r">255</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">44</T>
+                    <T name="g">83</T>
+                    <T name="r">251</T>
+                  </U>
+                </L>
+                <T name="name">0x8C0D4814</T>
+              </U>
+              <U type="Object" schema="TunableObjectColorTuple">
+                <L name="color">
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">102</T>
+                    <T name="g">255</T>
+                    <T name="r">100</T>
+                  </U>
+                  <U type="Object" schema="TunableColorRGBA">
+                    <T name="a">255</T>
+                    <T name="b">85</T>
+                    <T name="g">50</T>
+                    <T name="r">51</T>
+                  </U>
+                </L>
+                <T name="name">0xE5887582</T>
+              </U>
+            </L>
+            <V name="use_default" variant="0xF8CBBF4C">
+              <T type="LocalizationKey">0x9F7A26B0</T>
+            </V>
+          </U>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="objects.color.object_color_tuning.ObjectColorTuning" schema_hash="0x75B15963">
+      <Columns>
+        <Column name="OBJECT_COLOR_PALETTE" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="ObjectColorPaletteTuple" schema_hash="0x37732D64">
+      <Columns>
+        <Column name="key" type="Int64" flags="0x00000000" />
+        <Column name="value" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunablePaletteEntryTuple" schema_hash="0x81982284">
+      <Columns>
+        <Column name="colors" type="Vector" flags="0x00000000" />
+        <Column name="use_default" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableObjectColorTuple" schema_hash="0x6D6B8A56">
+      <Columns>
+        <Column name="color" type="Vector" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableColorRGBA" schema_hash="0x4A938D09">
+      <Columns>
+        <Column name="a" type="Int32" flags="0x00000000" />
+        <Column name="b" type="Int32" flags="0x00000000" />
+        <Column name="g" type="Int32" flags="0x00000000" />
+        <Column name="r" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

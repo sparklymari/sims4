@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AttractionPreference" i="trait" m="traits.attraction_preference" n="trait_Attraction_RomanceStyles_PhysicalIntimacy_TurnOn" s="364663">
+  <L n="ages">
+    <E>TEEN</E>
+    <E>ADULT</E>
+    <E>ELDER</E>
+    <E>YOUNGADULT</E>
+  </L>
+  <L n="buffs">
+    <U>
+      <T n="buff_type">365340<!--buff_Attraction_HasTurnOn--></T>
+    </U>
+  </L>
+  <T n="cas_trait_asm_param">PositiveReactions</T>
+  <L n="conflicting_traits">
+    <T>364662<!--trait_Attraction_RomanceStyles_PhysicalIntimacy_TurnOff--></T>
+  </L>
+  <T n="display_name">0xDED45B3A<!--Physical Intimacy--></T>
+  <T n="display_name_gender_neutral">0xD789A0EA<!--Physical Intimacy--></T>
+  <T n="icon" p="InGame\UI\Icons\CAS\Traits\Preferences\traits_PhysicalIntimacy_bg.png">2f7d0004:00000000:0f90f4d6646e49ba</T>
+  <T n="persistable">True</T>
+  <T n="preference_item">364668<!--collectMarble_EP15GEN_common_set2 (Olive's Garden)--></T>
+  <L n="species">
+    <E />
+  </L>
+  <T n="trait_description">0xB3A3F5F5<!--Physical Intimacy--></T>
+  <E n="trait_type">LIKE</E>
+</I>

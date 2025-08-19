@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_ClubSeal" s="128899">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0x7DA414EB<!--Club Seal--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_ClubSeal.png">2f7d0004:00000000:28aede26f1f571c8</T>
+  </U>
+  <T n="perk_description">0xEF528BEC<!--This Club Seal is the ultimate display of Club pride. Display it proudly in your Club hangout or house.--></T>
+  <L n="rewards">
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110355<!--sculptWall_EP02RWsealClub_set1 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110767<!--sculptWall_EP02RWsealClub_set2 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110768<!--sculptWall_EP02RWsealClub_set3 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110769<!--sculptWall_EP02RWsealClub_set4 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110770<!--sculptWall_EP02RWsealClub_set5 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110771<!--sculptWall_EP02RWsealClub_set6 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110772<!--sculptWall_EP02RWsealClub_set7 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110773<!--sculptWall_EP02RWsealClub_set8 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110774<!--sculptWall_EP02RWsealClub_set9 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110775<!--sculptWall_EP02RWsealClub_set10 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110776<!--sculptWall_EP02RWsealClub_set11 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110777<!--sculptWall_EP02RWsealClub_set12 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110778<!--sculptWall_EP02RWsealClub_set13 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110779<!--sculptWall_EP02RWsealClub_set14 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110780<!--sculptWall_EP02RWsealClub_set15 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110781<!--sculptWall_EP02RWsealClub_set16 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110782<!--sculptWall_EP02RWsealClub_set17 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110783<!--sculptWall_EP02RWsealClub_set18 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110784<!--sculptWall_EP02RWsealClub_set19 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110785<!--sculptWall_EP02RWsealClub_set20 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110786<!--sculptWall_EP02RWsealClub_set21 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110787<!--sculptWall_EP02RWsealClub_set22 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110788<!--sculptWall_EP02RWsealClub_set23 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110789<!--sculptWall_EP02RWsealClub_set24 (Club Seal)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110790<!--sculptWall_EP02RWsealClub_set25 (Club Seal)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">600</T>
+</I>

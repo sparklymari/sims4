@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_NoOccult_Actor" s="216576">
+  <L n="test">
+    <L>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>218444<!--trait_Humanoid_Robots_MainTrait--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>149527<!--trait_OccultVampire--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>102785<!--trait_OccultAlien--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>199043<!--trait_OccultMermaid--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>213050<!--trait_Occult_WitchOccult--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>289780<!--trait_OccultWerewolf--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>433287<!--trait_OccultFairy_AllAges--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>162668<!--trait_PlantSim--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>149428<!--buff_VampireCreation_AppetiteLost--></T>
+            <T>149427<!--buff_VampireCreation_DisgustedByFood--></T>
+            <T>149423<!--buff_VampireCreation_StrangelyHungry--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>205931<!--buff_Mermaid_StrangeSensations--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>288318<!--buff_WerewolfCreation_InsatiableHunger2--></T>
+            <T>288315<!--buff_WerewolfCreation_InsatiableHunger1--></T>
+          </L>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>435938<!--buff_FairyJourney_Marking--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

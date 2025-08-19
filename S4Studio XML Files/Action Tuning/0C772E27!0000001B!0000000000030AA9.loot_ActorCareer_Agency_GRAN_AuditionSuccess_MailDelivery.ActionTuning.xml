@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ActorCareer_Agency_GRAN_AuditionSuccess_MailDelivery" s="199337">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25003<!--plantPotTableMIS_04_set1 (Mega Flower Pot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">24999<!--plantPotTableMIS_03_set1 (Mega Table Vase)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33347<!--plantPotTableKID_01_Set1 (Little Buddy Bud Vase)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29560<!--plantPotTableFCSunflowerPail_01_set1 (Bucket o’ Sunshine)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">8970<!--plantPotTableFCLily_01_set1 (Lovely Lily Pot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">6696<!--plantPotTableGENRose_01_set1 (Sumptuous Floral Fantasy Arrangement)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">8977<!--plantPotTableQA_01_Set1 (Crabtree Planter Pot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">36919<!--sculptTableGENFlowerWaterCan_01_set1 (Florist’s Dream Watering Can)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">38293<!--sculptTableTUDWateringCanFlowers_01_set1 (Florist's Dream Potted Lily)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">11275<!--plantPotTableTUD_03_set1 (Feng Shui Planter)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">181032<!--plantPotFloor_EF07EAM_set1 (Cities In Dust Potted Faux Plant)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <T n="place_in_mailbox">True</T>
+      </U>
+    </V>
+  </L>
+</I>

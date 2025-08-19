@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R5Event_05" s="443653">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Preview\NatureEvent_Preview_CAS_BathingWear.png">2f7d0004:00000000:b4d4216cf686dee2</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474988<!--yfBody_EF63EVREdenBathingWear_Aqua--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474989<!--yfBody_EF63EVREdenBathingWear_Brown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474990<!--yfBody_EF63EVREdenBathingWear_Fuchsia--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474991<!--yfBody_EF63EVREdenBathingWear_Lavender--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474998<!--yfBody_EF63EVREdenBathingWear_LeafGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474992<!--yfBody_EF63EVREdenBathingWear_LtBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474993<!--yfBody_EF63EVREdenBathingWear_Pink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474994<!--yfBody_EF63EVREdenBathingWear_PinkGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474995<!--yfBody_EF63EVREdenBathingWear_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474996<!--yfBody_EF63EVREdenBathingWear_WhitGold--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">474997<!--yfBody_EF63EVREdenBathingWear_YellowGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475032<!--ymBottom_EF63EVREdenBathingWear_Aqua--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475033<!--ymBottom_EF63EVREdenBathingWear_Brown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475034<!--ymBottom_EF63EVREdenBathingWear_Fuchsia--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475035<!--ymBottom_EF63EVREdenBathingWear_Lavender--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475042<!--ymBottom_EF63EVREdenBathingWear_LeafGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475036<!--ymBottom_EF63EVREdenBathingWear_LtBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475037<!--ymBottom_EF63EVREdenBathingWear_Pink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475038<!--ymBottom_EF63EVREdenBathingWear_PinkGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475039<!--ymBottom_EF63EVREdenBathingWear_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475040<!--ymBottom_EF63EVREdenBathingWear_WhitGold--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475041<!--ymBottom_EF63EVREdenBathingWear_YellowGreen--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x500D5859<!--Find this item in Create a Sim under Swimsuits, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0xA308A5E8<!--Make a splash at your local lake or lagoon in these leafy swimsuits!--></T>
+  <T n="reward_name">0x3A59DC07<!--Flowing Fronds Swimwear--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\END\NatureEvent_END_CAS_BathingWear.png">2f7d0004:00000000:b72041af00da50e9</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_CAS_BathingWear.png">2f7d0004:00000000:82a6e331626512da</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_CAS_BathingWear.png">2f7d0004:00000000:82a6e331626512da</T>
+</I>

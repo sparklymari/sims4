@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_StarWars_Reputation_Scoundrel_Level4" s="244641">
+  <T n="icon" p="InGP09\UI\Icons\Headlines\Headline_scoundrel.png">2f7d0004:00000000:0e196fda249b533d</T>
+  <T n="name">0x300725D3<!--Scoundrel--></T>
+  <V n="reward_description" t="disabled" />
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <T n="buff_type">325690<!--buff_AspirationComplete_Invisible--></T>
+          </U>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250996<!--yfBody_GP09Jumpsuit_SolidBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250997<!--yfBody_GP09Jumpsuit_SolidBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">251004<!--yfBody_GP09Jumpsuit_SolidBrown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250998<!--yfBody_GP09Jumpsuit_SolidKhaki--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250999<!--yfBody_GP09Jumpsuit_SolidOlive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">251000<!--yfBody_GP09Jumpsuit_SolidRed--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">251001<!--yfBody_GP09Jumpsuit_SolidTaupe--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">251002<!--yfBody_GP09Jumpsuit_SolidWarmGray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">251003<!--yfBody_GP09Jumpsuit_SolidWhite--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250254<!--ymBody_GP09Jumpsuit_SolidBlack--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250255<!--ymBody_GP09Jumpsuit_SolidBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250256<!--ymBody_GP09Jumpsuit_SolidBrown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250257<!--ymBody_GP09Jumpsuit_SolidKhaki--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250258<!--ymBody_GP09Jumpsuit_SolidOlive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250259<!--ymBody_GP09Jumpsuit_SolidRed--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250262<!--ymBody_GP09Jumpsuit_SolidTaupe--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250260<!--ymBody_GP09Jumpsuit_SolidWarmGray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">250261<!--ymBody_GP09Jumpsuit_SolidWhite--></T>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

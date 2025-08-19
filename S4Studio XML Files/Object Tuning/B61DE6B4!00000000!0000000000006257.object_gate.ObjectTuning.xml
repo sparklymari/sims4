@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Door" i="object" m="objects.doors.door" n="object_gate" s="25175">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">NONE</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="portal" t="enabled">
+      <U n="enabled">
+        <V n="_portal_animation_component" t="enabled">
+          <U n="enabled">
+            <T n="_portal_asm" p="InGame\Sage\Door_OpenClose.interactionasm">02d5df13:00000000:8eb45e8e9b0eee0c</T>
+          </U>
+        </V>
+        <L n="_portal_data">
+          <T>337572<!--portalData_Gate--></T>
+        </L>
+        <V n="_portal_locking_component" t="enabled">
+          <U n="enabled">
+            <L n="preset_lock_datas">
+              <V t="unlock_buff">
+                <U n="unlock_buff">
+                  <L n="buffs">
+                    <T>422124<!--buff_Burglar_Role_Active--></T>
+                    <T>422126<!--buff_Burglar_Role_Leave--></T>
+                    <T>422125<!--buff_Burglar_Role_Arrested--></T>
+                    <T>427070<!--buff_Burglar_Role_Holding--></T>
+                    <T>421848<!--buff_BurglarPolice_Role_PreFight--></T>
+                    <T>426716<!--buff_BurglarPolice_Role_PostArrest--></T>
+                    <T>422063<!--buff_BurglarPolice_Role_PostFight--></T>
+                    <T>234743<!--buff_Situation_Fire_Firefighter_Role_FightFire--></T>
+                    <T>423365<!--buff_Burglar_Hidden_JustLeftSituation--></T>
+                  </L>
+                  <E n="lock_priority">OVERRIDE_PLAYER_LOCK</E>
+                </U>
+              </V>
+              <V t="lock_creature">
+                <U n="lock_creature">
+                  <L n="creature_types">
+                    <E>Chick</E>
+                    <E>Rooster</E>
+                    <E>Hen</E>
+                  </L>
+                  <E n="lock_priority">PLAYER_LOCK</E>
+                </U>
+              </V>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">29002<!--FrontDoor_Disabled--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">29002<!--FrontDoor_Disabled--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>261756<!--door_Padlock_ImmediateInteractions_Unlocks_Chickens--></T>
+    <T>261757<!--door_Padlock_ImmediateInteraction_Locks_Chickens--></T>
+    <T>281942<!--door_Padlock_ImmediateInteraction_Lock_BabyProof--></T>
+    <T>282125<!--toddler_gate_breakloose--></T>
+    <T>325262<!--door_Padlock_ImmediateInteraction_Locks_Goats--></T>
+    <T>325263<!--door_Padlock_ImmediateInteraction_Locks_Sheep--></T>
+    <T>325288<!--door_Padlock_ImmediateInteractions_Unlocks_Goats--></T>
+    <T>325289<!--door_Padlock_ImmediateInteractions_Unlocks_Sheep--></T>
+    <T>326539<!--door_Padlock_ImmediateInteraction_Locks_Horse--></T>
+    <T>303786<!--door_Padlock_ImmediateInteractions_Unlocks_RanchHand--></T>
+    <T>303787<!--door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_RanchHand--></T>
+    <T>117847<!--door_Padlock_ImmediateInteraction_Lock--></T>
+    <T>117850<!--door_Padlock_ImmediateInteractions_Unlock_Actor--></T>
+    <T>117852<!--door_Padlock_ImmediateInteractions_Unlock_All--></T>
+    <T>117861<!--door_Padlock_ImmediateInteraction_Lock_Everyone_Allow_Actor--></T>
+    <T>117863<!--door_Padlock_ImmediateInteractions_Unlock_Household--></T>
+    <T>117866<!--door_Padlock_ImmediateInteractions_Unlock_Employees--></T>
+    <T>117869<!--door_Padlock_ImmediateInteraction_Lock_Everyone_Allow_Household--></T>
+    <T>117871<!--door_Padlock_ImmediateInteraction_Lock_Everyone_Allow_Employees--></T>
+    <T>128564<!--clubPickerSuperInteraction_Padlock_Lock_Everyone_Allow_Club--></T>
+    <T>128565<!--clubPickerSuperInteraction_Padlock_Unlock_Club--></T>
+    <T>152935<!--vampire_SpiritPowers_AlwaysWelcome_DoorLock_Actor--></T>
+    <T>152936<!--vampire_SpiritPowers_AlwaysWelcome_DoorLock_All--></T>
+    <T>159332<!--door_Padlock_ImmediateInteraction_Lock_Pet_Cat--></T>
+    <T>159331<!--door_Padlock_ImmediateInteraction_Lock_Pet_Dog--></T>
+    <T>152939<!--vampire_SpiritPowers_AlwaysWelcome_DoorUnlock_Actor--></T>
+    <T>152940<!--vampire_SpiritPowers_AlwaysWelcome_DoorUnlock_All--></T>
+    <T>146183<!--door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_Butler--></T>
+    <T>146179<!--door_Padlock_ImmediateInteractions_Unlock_Butler--></T>
+    <T>164217<!--lockHouseholdSimsPickerInteraction_lock_door--></T>
+    <T>164218<!--lockHouseholdSimsPickerInteraction_unlock_door--></T>
+    <T>167285<!--door_Padlock_ImmediateInteraction_Lock_AllPets--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

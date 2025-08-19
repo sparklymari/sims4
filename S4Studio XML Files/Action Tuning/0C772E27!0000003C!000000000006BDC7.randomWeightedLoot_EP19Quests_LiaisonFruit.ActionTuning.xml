@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_EP19Quests_LiaisonFruit" s="441799">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">29009<!--gardenFruitGENAlien_01 ({S.UFO (Unidentified Fruit Object)}{P.UFO (Unidentified Fruit Objects)})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">125468<!--gardenFruit_GENGrowfruit_01 (Growfruit)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">466373<!--gardenFruit_EP19GENmoodBush_set1 ({S.Moody Shrub Seed}{P.Moody Shrub Seeds})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">466375<!--gardenFruit_EP19GENlightningRoot_set1 ({S.Lightning Root Seed}{P.Lightning Root Seeds})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">466377<!--gardenFlower_EP19GENauraBlossom_set1 ({S.Aura Blossom Seed}{P.Aura Blossom Seeds})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+  </L>
+</I>

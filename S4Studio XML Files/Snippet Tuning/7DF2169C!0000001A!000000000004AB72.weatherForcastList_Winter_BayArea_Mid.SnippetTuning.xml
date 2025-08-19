@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherForcastList" i="snippet" m="snippets" n="weatherForcastList_Winter_BayArea_Mid" s="306034">
+  <L n="value">
+    <U>
+      <T n="forecast">183967<!--forecast_ChanceOfRain_Rain_Cool--></T>
+      <T n="weight">1</T>
+    </U>
+    <U>
+      <T n="forecast">182390<!--forecast_ChanceOfRain_Rain_Warm_all--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">182397<!--forecast_PartlyCloudy_coolWarm--></T>
+      <T n="weight">4</T>
+    </U>
+    <U>
+      <T n="forecast">183973<!--forecast_Rain_Cool--></T>
+      <T n="weight">1</T>
+    </U>
+    <U>
+      <T n="forecast">182400<!--forecast_Sunny_coolWarm--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">183971<!--forecast_Sunny_coldCool--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">186016<!--forecast_Windy_Cool--></T>
+      <T n="weight">1</T>
+    </U>
+    <U>
+      <T n="forecast">182397<!--forecast_PartlyCloudy_coolWarm--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">212688<!--forecast_Cloudy_Warm_all--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">212661<!--forecast_Sunny_Warm_all--></T>
+      <T n="weight">2</T>
+    </U>
+  </L>
+</I>

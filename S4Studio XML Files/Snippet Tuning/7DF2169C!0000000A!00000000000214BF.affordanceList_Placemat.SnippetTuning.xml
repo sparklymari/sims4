@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Placemat" s="136383">
+  <L n="value">
+    <T>133638<!--placemat_Craft_Autonomously--></T>
+    <T>134099<!--placemat_StartCraftPicture--></T>
+    <T>134034<!--Placemat_StartDrawing_Seated--></T>
+    <T>133689<!--placemat_CreatePicture--></T>
+    <T>133690<!--placemat_ColorPicture_Staging--></T>
+    <T>133710<!--placemat_ColorPicture_Staging_Adult--></T>
+    <T>133744<!--crafting_Resume_Placemat--></T>
+  </L>
+</I>

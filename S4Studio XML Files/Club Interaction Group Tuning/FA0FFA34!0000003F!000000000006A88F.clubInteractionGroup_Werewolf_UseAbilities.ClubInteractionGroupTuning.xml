@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_Werewolf_UseAbilities" s="436367">
+  <L n="affordances">
+    <T>287848<!--werewolf_Abilities_Devour--></T>
+    <T>287828<!--werewolf_Abilities_Groom--></T>
+    <T>287830<!--werewolf_Abilities_Hunt--></T>
+    <T>287831<!--werewolf_Abilities_Primal--></T>
+    <T>287829<!--werewolf_Abilities_Resist--></T>
+    <T>287825<!--werewolf_Abilities_Smell--></T>
+    <T>287824<!--werewolf_Abilities_Howl_Lunar--></T>
+    <T>287822<!--werewolf_Abilities_Howl_Pack--></T>
+    <T>287821<!--werewolf_Abilities_Howl_Somber--></T>
+    <T>287823<!--werewolf_Abilities_Howl_Vicious--></T>
+    <T>287820<!--werewolf_Abilities_Howl_Basic--></T>
+    <T>293623<!--werewolf_Abilities_Howl_Basic_Rampage--></T>
+    <T>287837<!--werewolf_Abilities_Mark--></T>
+    <T>289561<!--werewolf_Abilities_Mark_Rally--></T>
+    <T>290887<!--werewolf_Abilities_Mark_Self--></T>
+    <T>287836<!--werewolf_Abilities_Nap--></T>
+    <T>290889<!--werewolf_Abilities_Nap_Self--></T>
+    <T>287852<!--werewolf_Abilities_Scavenge--></T>
+    <T>297154<!--werewolf_Abilities_Scavenge_Self--></T>
+    <T>287844<!--werewolf_Transform_Mastery--></T>
+  </L>
+  <E n="category">MISCHIEF_AND_MAYHEM</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\club_rules_WerewolfPowers.png">2f7d0004:00000000:a9f1ceb800807805</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xFF10EA84<!--Use Werewolf Abilities--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xA334B709<!--Werewolf Sims will use their werewolf abilities.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x89891ECB<!--Use Werewolf Abilities--></T>
+  <T n="tooltip_template_negative">0xCAA35B3F<!--Don't Use Werewolf Abilities--></T>
+</I>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_PremadesSetup_EP14_AnimalFamilySimChild_HorseTrainer" s="336406">
+  <L n="loot_actions">
+    <V t="actions">
+      <T n="actions">336288<!--loot_Sentiment_AddSentiment_Close_generic_ST_AboutTarget--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+    </V>
+    <V t="relationship_bits_loot">
+      <U n="relationship_bits_loot">
+        <L n="bit_operations">
+          <U>
+            <T n="bit">8829<!--family_Target_IsAuntUncleOf_Actor--></T>
+            <E n="operation">ADD</E>
+            <E n="recipients">Actor</E>
+            <E n="targets">TargetSim</E>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="relationship_bits_loot">
+      <U n="relationship_bits_loot">
+        <L n="bit_operations">
+          <U>
+            <T n="bit">9989<!--family_Target_IsNieceNephewOf_Actor--></T>
+            <E n="operation">ADD</E>
+            <E n="recipients">TargetSim</E>
+            <E n="targets">Actor</E>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">337273<!--loot_Sentiment_AddSentiment_Adoring_generic_TargetAboutActor--></T>
+    </V>
+  </L>
+</I>

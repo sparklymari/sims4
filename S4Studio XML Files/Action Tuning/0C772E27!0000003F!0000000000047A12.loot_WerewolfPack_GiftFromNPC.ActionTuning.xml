@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_WerewolfPack_GiftFromNPC" s="293394">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>TargetSim</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xD925F3BB<!--Nice! {0.SimFirstName} just received the following packmate gift from {1.SimFirstName}:\n{2.String}--></T>
+              </V>
+              <V n="text_tokens" t="enabled">
+                <U n="enabled">
+                  <L n="tokens">
+                    <V t="participant_type">
+                      <U n="participant_type">
+                        <V n="objects" t="from_participant">
+                          <U n="from_participant">
+                            <E n="participant">TargetSim</E>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                    <V t="participant_type">
+                      <U n="participant_type">
+                        <V n="objects" t="from_participant" />
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30528<!--collectTimeCapsuleGEN_01 (Time Capsule)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">256985<!--gachaponCapsule_EP10GEN_common (Common Simmi Capsule)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141329<!--bottleBubble_EP03GEN_fleaMarket (Flea Market Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33324<!--collectTerrariumGENFrog_01_brownSolid (Dirt Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33276<!--collectTerrariumGENFrog_01_GreenSolid (Leaf Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33319<!--collectTerrariumGENFrog_01_PurpleSolid (Eggplant Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216983<!--collectSeaShell_EP07GEN03_set1 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219205<!--collectSeaShell_EP07GEN05_set1 (Scallop Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310642<!--collectRelicMedium_GP12GENheadBone_set1 (Tamed Cowplant Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310641<!--collectRelicMedium_GP12GENjawBone_set1 (Tamed Cowplant Jawbone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310645<!--collectRelicSmall_GP12GENpot01_set1 (Mooncaster Pot Shard: "Learning")--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15778<!--recipe_Food_Snack_Chips--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">75375<!--recipe_Food_Homestyle_Grill_HotDog-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">205439<!--recipe_Food_Homestyle_VeggieDumplings_Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">257309<!--recipe_Food_Homestyle_ButterChicken-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">33412<!--recipe_Food_Homestyle_CookieChocolateChip-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">75393<!--recipe_Food_Homestyle_Grill_Steak-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285967<!--recipe_Food_Homestyle_Grill_MushroomSteak-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15771<!--recipe_Food_Homestyle_Pancakes-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">257383<!--recipe_Food_Homestyle_ChocolateMousse-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15776<!--recipe_Food_Homestyle_Spaghetti-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">284886<!--recipe_Food_Homestyle_RiceCake_Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15765<!--recipe_Food_Homestyle_GrilledCheese-Single--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246130<!--gardenFruit_EP09GENmeatCube (Faux Meat Cube)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246131<!--gardenFruit_EP09GENmeatJerky (Faux Jerky Cube)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45028<!--collectFishSmallGENMinnow_01 (Minnow)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44912<!--collectFishSmallGENGold_01 (Goldfish)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+  </L>
+</I>

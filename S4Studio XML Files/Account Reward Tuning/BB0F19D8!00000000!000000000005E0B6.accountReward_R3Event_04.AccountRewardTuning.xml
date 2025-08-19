@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R3Event_04" s="385206">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Rewards\GrimEvent_CASPants_Large.png">2f7d0004:00000000:856b53791edb9954</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445384<!--yfBottom_EF61PantsGoth_PatternBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445385<!--yfBottom_EF61PantsGoth_PatternRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445386<!--yfBottom_EF61PantsGoth_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445387<!--yfBottom_EF61PantsGoth_SolidGray--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445388<!--yfBottom_EF61PantsGoth_SolidPurple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445389<!--yfBottom_EF61PantsGoth_SolidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445390<!--yfBottom_EF61PantsGoth_SolidTeal--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445391<!--yfBottom_EF61PantsGoth_StripedBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443281<!--ymBottom_EF61PantsGoth_PatternBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443282<!--ymBottom_EF61PantsGoth_PatternRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443283<!--ymBottom_EF61PantsGoth_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445382<!--ymBottom_EF61PantsGoth_SolidGray--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443284<!--ymBottom_EF61PantsGoth_SolidPurple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443285<!--ymBottom_EF61PantsGoth_SolidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443287<!--ymBottom_EF61PantsGoth_SolidTeal--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443286<!--ymBottom_EF61PantsGoth_StripedBlack--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x572D0882<!--Find this item under Bottoms in Create a Sim, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0xE5DC7107<!--Darkness meets denim with these sleek and traditional goth jeans.--></T>
+  <T n="reward_name">0x828AEEBE<!--Trad Goth Jeans--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\ThumbnailsFSI\GrimEvent_CASPants_s.png">2f7d0004:00000000:153bbc62ca0c0dde</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Thumbnails\GrimEvent_CASPants.png">2f7d0004:00000000:631749c760ce8fc0</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Thumbnails\GrimEvent_CASPants.png">2f7d0004:00000000:631749c760ce8fc0</T>
+</I>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_PassOut_SIs" s="231133">
+  <L n="value">
+    <T>267351<!--super_Ponds_EnergyFailure_ExitPond--></T>
+    <T>24433<!--sim_EnergyFailure_PunchingBag--></T>
+    <T>14029<!--sim_EnergyFailure--></T>
+    <T>109524<!--sim_EnergyFailure_Pool_Pregnant--></T>
+    <T>154218<!--sim_EnergyFailure_FromPlasmaLoss--></T>
+    <T>213429<!--sim_EnergyFailure_Wading--></T>
+    <T>208599<!--sim_EnergyFailure_JuiceKeg--></T>
+    <T>126279<!--interactiveBush_PassOut--></T>
+    <T>150522<!--vampires_MindPowers_IrresistibleSlumber_PassOut--></T>
+    <T>177765<!--passOut_Basic--></T>
+    <T>180799<!--passOut_GhostBelch--></T>
+    <T>177766<!--passOut_Poisoned--></T>
+    <T>203550<!--motherPlant_KnockedOut--></T>
+    <T>207182<!--motherPlant_KnockedOut_infected--></T>
+  </L>
+</I>

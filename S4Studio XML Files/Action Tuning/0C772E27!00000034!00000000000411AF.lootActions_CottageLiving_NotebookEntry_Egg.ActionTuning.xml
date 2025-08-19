@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_CottageLiving_NotebookEntry_Egg" s="266671">
+  <L n="loot_actions">
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266375<!--notebookEntryCountryItem_Egg--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">266633<!--egg_EP11GEN_set1_white ({S.Egg}{P.Eggs})--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266449<!--notebookEntryCountryItem_Egg_Gold--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272308<!--egg_EP11GEN_set2_Gold (Golden Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266448<!--notebookEntryCountryItem_Egg_Chocolate--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272309<!--egg_EP11GEN_set3_Chocolate (Chocolate Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266451<!--notebookEntryCountryItem_Egg_Obsidian--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272310<!--egg_EP11GEN_set4_obsidian (Obsidian Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266447<!--notebookEntryCountryItem_Egg_Blue--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272311<!--egg_EP11GEN_set5_Blue (Blue Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266450<!--notebookEntryCountryItem_Egg_Green--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272312<!--egg_EP11GEN_set6_Green (Green Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266452<!--notebookEntryCountryItem_Egg_Orange--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272313<!--egg_EP11GEN_set7_Orange (Orange Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266453<!--notebookEntryCountryItem_Egg_Rainbow--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">272314<!--egg_EP11GEN_set8_Rainbow (Rainbow Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">270124<!--notebookEntryCountryItem_Egg_HatchableEgg--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">284595<!--eggHatchable_EP11GEN_set1_white (Hatchable Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">270125<!--notebookEntryCountryItem_Egg_HatchableGolden--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">284597<!--eggHatchable_EP11GEN_set2_Gold (Hatchable Golden Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">270126<!--notebookEntryCountryItem_Egg_HatchableObsidian--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">284596<!--eggHatchable_EP11GEN_set4_obsidian (Hatchable Obsidian Egg)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

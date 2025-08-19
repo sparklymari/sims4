@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_BeachCave_PlayfulDolphins_Outcome1" s="209200">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">210488<!--buff_BeachCave_PlayfulDolphins_Outcome1_Hidden--></T>
+        </U>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218343<!--collectFishLarge_EP07GENmahimahi (Mahi Mahi)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218344<!--collectFishLarge_EP07GENprincessParrotfish (Parrotfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218614<!--collectFishLarge_EP07GENroyalSabrefish (Royal Sabrefish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218346<!--collectFishMed_EP07GENcelestialGrouper (Celestial Grouper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218347<!--collectFishMed_EP07GENcoralLeopardShark (Leopard Shark)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218348<!--collectFishMed_EP07GENrainbowButterfly (Butterflyfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218349<!--collectFishSmall_EP07GENfightingPlakat (Fighting Plakat)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

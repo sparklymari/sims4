@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Mentor" s="402853">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_scythe.png">2f7d0004:00000000:c7c12ed9acb0a54c</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x371E5EFF<!--Mentor Coworker--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x2E792B71<!--Select a Coworker Sim while they Practice Reaping and choose Mentor.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>402675<!--mentor_Career_Reaper_Practice--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

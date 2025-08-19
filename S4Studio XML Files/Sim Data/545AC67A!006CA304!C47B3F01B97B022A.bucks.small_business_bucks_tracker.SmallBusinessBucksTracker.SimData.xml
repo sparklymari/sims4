@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="bucks.small_business_bucks_tracker.SmallBusinessBucksTracker" schema="bucks.small_business_bucks_tracker.SmallBusinessBucksTracker" type="Object">
+      <L name="BUCKS_TRACKER_REWARDS_CATEGORIES">
+        <U type="Object" schema="CategoryMapping">
+          <T name="key">1</T>
+          <U name="value" schema="RewardCategoryInfoTuple">
+            <T name="category_name">0xCEA773F2</T>
+            <T name="category_tooltip">0xCEA773F2</T>
+            <L name="rewards">
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">1</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">2</T>
+                <T name="value">373036</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">3</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">4</T>
+                <T name="value">373032</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">5</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">6</T>
+                <T name="value">373030</T>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U type="Object" schema="CategoryMapping">
+          <T name="key">2</T>
+          <U name="value" schema="RewardCategoryInfoTuple">
+            <T name="category_name">0xCEA773F2</T>
+            <T name="category_tooltip">0xCEA773F2</T>
+            <L name="rewards">
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">1</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">2</T>
+                <T name="value">373035</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">3</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">4</T>
+                <T name="value">373034</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">5</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">6</T>
+                <T name="value">405245</T>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U type="Object" schema="CategoryMapping">
+          <T name="key">3</T>
+          <U name="value" schema="RewardCategoryInfoTuple">
+            <T name="category_name">0xCEA773F2</T>
+            <T name="category_tooltip">0xCEA773F2</T>
+            <L name="rewards">
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">1</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">2</T>
+                <T name="value">405243</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">3</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">4</T>
+                <T name="value">373033</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">5</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">6</T>
+                <T name="value">373031</T>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U type="Object" schema="CategoryMapping">
+          <T name="key">4</T>
+          <U name="value" schema="RewardCategoryInfoTuple">
+            <T name="category_name">0xCEA773F2</T>
+            <T name="category_tooltip">0xCEA773F2</T>
+            <L name="rewards">
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">1</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">2</T>
+                <T name="value">399821</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">3</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">4</T>
+                <T name="value">405248</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">5</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">6</T>
+                <T name="value">405247</T>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U type="Object" schema="CategoryMapping">
+          <T name="key">5</T>
+          <U name="value" schema="RewardCategoryInfoTuple">
+            <T name="category_name">0xCEA773F2</T>
+            <T name="category_tooltip">0xCEA773F2</T>
+            <L name="rewards">
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">1</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">2</T>
+                <T name="value">405244</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">3</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">4</T>
+                <T name="value">405249</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">5</T>
+                <T name="value">0</T>
+              </U>
+              <U type="Object" schema="RewardCategoryMapping">
+                <T name="key">6</T>
+                <T name="value">405246</T>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="bucks.small_business_bucks_tracker.SmallBusinessBucksTracker" schema_hash="0xB343CA27">
+      <Columns>
+        <Column name="BUCKS_TRACKER_REWARDS_CATEGORIES" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="CategoryMapping" schema_hash="0x0EF181AD">
+      <Columns>
+        <Column name="key" type="Int32" flags="0x00000000" />
+        <Column name="value" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="RewardCategoryInfoTuple" schema_hash="0x6D3F3C96">
+      <Columns>
+        <Column name="category_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="category_tooltip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="rewards" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="RewardCategoryMapping" schema_hash="0xFBD7AE4A">
+      <Columns>
+        <Column name="key" type="Int32" flags="0x00000000" />
+        <Column name="value" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

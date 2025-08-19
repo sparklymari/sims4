@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="crystalType_State" s="352553">
+  <L n="_values">
+    <T>352837<!--crystalType_Alabaster--></T>
+    <T>352860<!--crystalType_Alexandrite--></T>
+    <T>352859<!--crystalType_Amazonite--></T>
+    <T>352861<!--crystalType_Amber--></T>
+    <T>352838<!--crystalType_Amethyst--></T>
+    <T>352839<!--crystalType_Citrine--></T>
+    <T>352857<!--crystalType_Crandestine--></T>
+    <T>352840<!--crystalType_Diamond--></T>
+    <T>352841<!--crystalType_Emerald--></T>
+    <T>352842<!--crystalType_FireOpal--></T>
+    <T>352843<!--crystalType_Hematite--></T>
+    <T>352863<!--crystalType_Jade--></T>
+    <T>352844<!--crystalType_Jet--></T>
+    <T>352845<!--crystalType_Jonquilyst--></T>
+    <T>352862<!--crystalType_Moonstone--></T>
+    <T>352858<!--crystalType_Nitelite--></T>
+    <T>352846<!--crystalType_OrangeTopaz--></T>
+    <T>352847<!--crystalType_PeachQuartz--></T>
+    <T>352848<!--crystalType_Plumbite--></T>
+    <T>352849<!--crystalType_Quartz--></T>
+    <T>352850<!--crystalType_Rainborz--></T>
+    <T>352851<!--crystalType_RoseQuartz--></T>
+    <T>352852<!--crystalType_Ruby--></T>
+    <T>352853<!--crystalType_Sapphire--></T>
+    <T>352854<!--crystalType_Shinalite--></T>
+    <T>352855<!--crystalType_Simanite--></T>
+    <T>352856<!--crystalType_Turquoise--></T>
+    <T>359724<!--crystalType_None--></T>
+    <T>360000<!--crystalType_Botched--></T>
+  </L>
+  <T n="persists_across_gallery">True</T>
+</I>

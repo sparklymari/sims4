@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Trait_practiceMakesPerfect_Tier0_Traits" s="371501">
+  <L n="loot_actions">
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="blacklist_traits">
+                  <T>371389<!--trait_PracticeMakesPerfect_BuffTrait_Creative_Tier1--></T>
+                  <T>371390<!--trait_PracticeMakesPerfect_BuffTrait_Creative_Tier2--></T>
+                  <T>371391<!--trait_PracticeMakesPerfect_BuffTrait_Creative_Tier3--></T>
+                  <T>371392<!--trait_PracticeMakesPerfect_BuffTrait_Creative_Tier4--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">371379<!--trait_PracticeMakesPerfect_BuffTrait_Creative_Tier0--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="blacklist_traits">
+                  <T>371394<!--trait_PracticeMakesPerfect_BuffTrait_Mental_Tier1--></T>
+                  <T>371395<!--trait_PracticeMakesPerfect_BuffTrait_Mental_Tier2--></T>
+                  <T>371396<!--trait_PracticeMakesPerfect_BuffTrait_Mental_Tier3--></T>
+                  <T>371397<!--trait_PracticeMakesPerfect_BuffTrait_Mental_Tier4--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">371393<!--trait_PracticeMakesPerfect_BuffTrait_Mental_Tier0--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="blacklist_traits">
+                  <T>371399<!--trait_PracticeMakesPerfect_BuffTrait_Physical_Tier1--></T>
+                  <T>371400<!--trait_PracticeMakesPerfect_BuffTrait_Physical_Tier2--></T>
+                  <T>371401<!--trait_PracticeMakesPerfect_BuffTrait_Physical_Tier3--></T>
+                  <T>371402<!--trait_PracticeMakesPerfect_BuffTrait_Physical_Tier4--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">371398<!--trait_PracticeMakesPerfect_BuffTrait_Physical_Tier0--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="blacklist_traits">
+                  <T>371404<!--trait_PracticeMakesPerfect_BuffTrait_Social_Tier1--></T>
+                  <T>371405<!--trait_PracticeMakesPerfect_BuffTrait_Social_Tier2--></T>
+                  <T>371406<!--trait_PracticeMakesPerfect_BuffTrait_Social_Tier3--></T>
+                  <T>371407<!--trait_PracticeMakesPerfect_BuffTrait_Social_Tier4--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">371403<!--trait_PracticeMakesPerfect_BuffTrait_Social_Tier0--></T>
+      </U>
+    </V>
+    <V t="schedule_drama_node">
+      <U n="schedule_drama_node">
+        <T n="drama_node">371142<!--dialogDramaNode_PracticeMakesPerfect_Decay--></T>
+        <L n="tests">
+          <L>
+            <V t="drama_node">
+              <U n="drama_node">
+                <T n="check_active_nodes">True</T>
+                <L n="drama_nodes">
+                  <T>371142<!--dialogDramaNode_PracticeMakesPerfect_Decay--></T>
+                </L>
+                <T n="exists">False</T>
+              </U>
+            </V>
+          </L>
+        </L>
+        <V n="time_delay" t="disabled" />
+      </U>
+    </V>
+  </L>
+</I>

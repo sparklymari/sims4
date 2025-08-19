@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_DecemberEvent_02" s="427765">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Rewards\December_winterJacketAll_large.png">2f7d0004:00000000:5d98b4b086224a1f</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462580<!--cuTop_EFDec24EVRwinterJacket_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462581<!--cuTop_EFDec24EVRwinterJacket_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462582<!--cuTop_EFDec24EVRwinterJacket_Brown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462583<!--cuTop_EFDec24EVRwinterJacket_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462584<!--cuTop_EFDec24EVRwinterJacket_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462585<!--cuTop_EFDec24EVRwinterJacket_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462587<!--cuTop_EFDec24EVRwinterJacket_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462586<!--cuTop_EFDec24EVRwinterJacket_Yellow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462593<!--yfTop_EFDec24EVRwinterJacket_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462594<!--yfTop_EFDec24EVRwinterJacket_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462595<!--yfTop_EFDec24EVRwinterJacket_Brown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462596<!--yfTop_EFDec24EVRwinterJacket_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462597<!--yfTop_EFDec24EVRwinterJacket_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462598<!--yfTop_EFDec24EVRwinterJacket_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462600<!--yfTop_EFDec24EVRwinterJacket_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462599<!--yfTop_EFDec24EVRwinterJacket_Yellow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462606<!--ymTop_EFDec24EVRwinterJacket_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462607<!--ymTop_EFDec24EVRwinterJacket_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462608<!--ymTop_EFDec24EVRwinterJacket_Brown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462609<!--ymTop_EFDec24EVRwinterJacket_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462610<!--ymTop_EFDec24EVRwinterJacket_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462611<!--ymTop_EFDec24EVRwinterJacket_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462613<!--ymTop_EFDec24EVRwinterJacket_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462612<!--ymTop_EFDec24EVRwinterJacket_Yellow--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0xBD933C25<!--Find this item under Tops in Create a Sim, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x4007F7A9<!--The Slick Panel Jacket is not just stylish, it's weather resistant too. Available in multiple color options, you will be the center of attention when out and about.--></T>
+  <T n="reward_name">0xBE032B8C<!--Slick Panel Jacket--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\ThumbnailsFSI\December_winterJacketAll_s.png">2f7d0004:00000000:c512c1106b044bd1</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_winterJacketAll.png">2f7d0004:00000000:4829773a4c1dded3</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_winterJacketAll.png">2f7d0004:00000000:4829773a4c1dded3</T>
+</I>

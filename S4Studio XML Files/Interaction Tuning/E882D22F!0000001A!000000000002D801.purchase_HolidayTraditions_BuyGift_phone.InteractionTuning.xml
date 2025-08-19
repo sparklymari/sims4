@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchase_HolidayTraditions_BuyGift_phone" s="186369">
+  <V n="_saveable" t="disabled" />
+  <T n="category">283064<!--phoneCategories_Shopping--></T>
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0xF5FD7C7A<!--Purchase Gifts--></T>
+  <V n="display_name_overrides" t="testable">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x9631291B<!--Purchase Gifts--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="holiday_test" />
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="active_holiday" />
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <L n="categories">
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_booksstack.png">2f7d0004:00000000:00ab69cbd7ba305e</T>
+          <E n="tag">Func_Book</E>
+          <T n="tooltip">0x5398308B<!--Books--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_SuperHeroMale.png">2f7d0004:00000000:baaf5f51a353ba6e</T>
+          <E n="tag">Func_Toy</E>
+          <T n="tooltip">0xEC76F0DC<!--Toys--></T>
+        </U>
+        <U>
+          <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_bonsai.png">2f7d0004:00000000:aef12a925a4289de</T>
+          <E n="tag">Func_Gardening</E>
+          <T n="tooltip">0x85B60621<!--Gardening--></T>
+        </U>
+      </L>
+      <E n="dialog_style">DEFAULT</E>
+      <T n="hide_row_description">True</T>
+      <T n="is_sortable">True</T>
+      <V n="max_selectable" t="unlimited" />
+      <E n="row_description_display">NO_DESCRIPTION</E>
+      <T n="use_dropdown_filter">True</T>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <V n="pie_menu_option" t="use_picker" />
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="specific_items">
+      <U n="specific_items">
+        <L n="item_list">
+          <T>228500<!--seedPacket_Garden_Starter_Magic (Starter Magical Plants)--></T>
+          <T>231503<!--soccerBall_EP08GEN_set1 (GnomeSports Soccer Ball)--></T>
+          <T>22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+          <T>11490<!--toyHandGENEmotionDollRobot_01_set1 (Bleep the Robot)--></T>
+          <T>30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+          <T>30094<!--toyHandGENToyBoxHero_01_set1 (The Purple Pursuer Action Figure)--></T>
+          <T>30097<!--toyHandGENToyBoxHeroine_01_set1 (The Purple Protector Action Figure)--></T>
+          <T>30328<!--toyHandGENToyBoxMonster_01_set1 (Chompy the Monsta)--></T>
+          <T>153527<!--toyHandSmall_EF04GENCar_set1 (Classic Wood-Mobile)--></T>
+          <T>151892<!--toyHand_EF04GENDucky_set1 (Ducky)--></T>
+          <T>137842<!--toyHand_EF04GENButterfly_set1 (Butterfly McButterflyface)--></T>
+          <T>137412<!--toyHand_EF04GENBear_set1 (Mr. Blue Bear)--></T>
+          <T>137841<!--toyHand_EF04GENTentacles_set1 (Tentacle Tom)--></T>
+          <T>186233<!--toyHand_SP14GENhamster_set1 (Fozzy Ozzie Ozzie Toy)--></T>
+          <T>158265<!--toyBallPet_EP04GENBall_set1 (Ball! Ball! Ball!)--></T>
+          <T>160101<!--toyBallPet_EP04GENSqueaky_set1 (WHATWASTHAT? Squeakenthinger)--></T>
+          <T>141047<!--bookPicture_EF04Sleepytime (Like You for the Time Being)--></T>
+          <T>141029<!--bookPicture_EF04Princesses (Princess Plumbob's Castle)--></T>
+          <T>141042<!--bookPicture_EF04Farm (Charlotte's Pig)--></T>
+          <T>135227<!--bookPicture_EF04Babies (Baby Bill and the Bobcat)--></T>
+          <T>162686<!--bookThin_GP05GENjournal01_set1 (Private Journal)--></T>
+          <T>32511<!--bookGENSad_02 (The 50 Shades on My Windows)--></T>
+          <T>32572<!--bookGENSad_04 (Lucas Dark and The Increasingly Unlikely Series of Coincidences)--></T>
+          <T>32562<!--bookGENMotive_14 (The Cherry Lip Balm Caper)--></T>
+          <T>33022<!--bookGENMotive_21 (The Spy Who Loved Measles)--></T>
+          <T>18620<!--bookGENPlayful_02 (Playing With Your Food)--></T>
+          <T>32619<!--bookGENInspired_06 (Orbital Pudding)--></T>
+          <T>32541<!--bookGENHappy_04 (The Sauntering Dead)--></T>
+          <T>32631<!--bookGENHappy_07 (Atlas Hugged)--></T>
+          <T>32604<!--bookGENFocus_06 (Allegro a la Pernambuco!)--></T>
+          <T>32864<!--bookGENFocus_07 (Piano Bars and You:  How to Hold a Note Without a Paper Bag)--></T>
+          <T>19339<!--bookGENFlirty_02 (Untamed Treachery of the Heart)--></T>
+          <T>32855<!--bookGENFlirty_07 (Reel Her In)--></T>
+          <T>32599<!--bookGENConfident_06 (I Beg Variations)--></T>
+          <T>32600<!--bookGENBoring_06 (A Game of Groans)--></T>
+          <T>32972<!--bookGENBoring_07 (Etude in Double Stops and Other Fancy Things)--></T>
+          <T>32588<!--bookGENAngry_06 (The Swift and the Angriest)--></T>
+          <T>23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+          <T>23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+          <T>23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+          <T>21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+          <T>45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+          <T>45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+          <T>45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+          <T>23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+          <T>188700<!--seedPacket_Garden_EP05_winter (Seasonal Winter Plants)--></T>
+          <T>188699<!--seedPacket_Garden_EP05_fall (Seasonal Fall Plants)--></T>
+          <T>188702<!--seedPacket_Garden_EP05_spring (Seasonal Spring Plants)--></T>
+          <T>188697<!--seedPacket_Garden_EP05_summer (Seasonal Summer Plants)--></T>
+          <T>59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+          <T>59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+          <T>59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+          <T>59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+          <T>76464<!--photoCamera_EP01GENCheap_set1 (Barely Better Digital Camera)--></T>
+          <T>124480<!--collectMonsterBattleCard_SP07GENvoid_set1 (Wisp)--></T>
+          <T>126487<!--collectMonsterBattleCard_SP07GENfire_set3 (Cyprin)--></T>
+          <T>76928<!--photoCamera_EP01GENExpensive_set1 (Crystal Clear Digital Camera)--></T>
+          <T>126483<!--collectMonsterBattleCard_SP07GENvoid_set2 (Veild)--></T>
+          <T>126484<!--collectMonsterBattleCard_SP07GENvoid_set3 (Wickyn)--></T>
+          <T>76921<!--photoCamera_EP01GENModerate_set1 (Appreciably Average Digital Camera)--></T>
+          <T>67359<!--bottleMedicine_EP01GENbottleMedicine (Medicine)--></T>
+          <T>73104<!--simRay_EP01GEN01_set1 (SimRay)--></T>
+          <T>39962<!--stereoTableLOW_01_set1 (Kaboom Box)--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="disabled" />
+  <T n="show_descriptions">False</T>
+  <E n="target_type">ACTOR</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">237832<!--testSet_PhoneInteractions_CanUsePhone--></T>
+    </V>
+  </L>
+  <V n="utility_info" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">POWER</E>
+        <U n="value">
+          <L n="shutoff_tooltip_override">
+            <U>
+              <E n="key">OFF_THE_GRID</E>
+              <T n="value">0x14E615DA<!--The internet does not work without a supply of power while Off-the-Grid.--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+  </V>
+</I>

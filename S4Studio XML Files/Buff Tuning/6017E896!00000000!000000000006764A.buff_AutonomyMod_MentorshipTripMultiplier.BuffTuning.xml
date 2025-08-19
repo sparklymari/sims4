@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_AutonomyMod_MentorshipTripMultiplier" s="423498">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="score_multipliers" />
+          <L n="static_commodity_score_multipliers">
+            <U>
+              <T n="key">161845<!--staticCommodity_Piano_PracticePiano--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161847<!--staticCommodity_Guitar_PracticeGuitar--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161848<!--staticCommodity_Violin_PracticeViolin--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161874<!--staticCommodity_Writing_PracticeWriting--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161884<!--staticCommodity_Programming_PracticeProgramming--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161941<!--staticCommodity_Bartending_PracticeMakingDrinks--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161954<!--staticCommodity_DJ_PracticeDJing--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161986<!--staticCommodity_PipeOrgan_PracticePipeOrgan--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">161991<!--staticCommodity_Baking_BakeAutonomously--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">162004<!--staticCommodity_Singing_PracticeSinging--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">162015<!--staticCommodity_Charisma_PracticeSpeech--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">168145<!--staticCommodity_Gardening_DoGardeningThings--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">168154<!--staticCommodity_GourmetCooking_CookGourmetMeal--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">168159<!--staticCommodity_Mischief_PrankOrTroll--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">28351<!--StaticCommodity_MentorPainting--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387697<!--staticCommodity_Mentor_Pottery--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387702<!--staticCommodity_Mentor_Mixology--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387703<!--staticCommodity_Mentor_Charisma--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387704<!--staticCommodity_Mentor_Comedy--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387799<!--staticCommodity_Mentor_Cooking--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387800<!--staticCommodity_Mentor_Fishing--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387801<!--staticCommodity_Mentor_Gardening--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387802<!--staticCommodity_Mentor_Logic--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387803<!--staticCommodity_Mentor_Mischief--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387804<!--staticCommodity_Mentor_Programming--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387805<!--staticCommodity_Mentor_Writing--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387806<!--staticCommodity_Mentor_Instrument--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">387807<!--staticCommodity_Mentor_Singing--></T>
+              <T n="value">3</T>
+            </U>
+            <U>
+              <T n="key">397174<!--staticCommodity_BuildSkill_Pottery--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">397396<!--staticCommodity_Fishing_PondSign_NPC--></T>
+              <T n="value">1.25</T>
+            </U>
+            <U>
+              <T n="key">40334<!--StaticCommodity_FitnessMentor--></T>
+              <T n="value">3</T>
+            </U>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="visible">False</T>
+</I>

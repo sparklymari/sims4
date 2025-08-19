@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Batuu_Cheat_Give_Items" s="243157">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247084<!--sculptTableSmall_GP09GENsalvageDroid_set1 (Scrap Metal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239505<!--blasterMed_GP09GENF11D (F-11D Blaster Rifle)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240676<!--blasterSml_GP09GENDL44_set1 (DL-44 Blaster Pistol)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246275<!--sculptTableSmall_GP09GENthermalDetonator_set1 (Thermal Detonator)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">253236<!--packageGEN_01_Dok_Ondar_Antiquities (Dok-Ondar's Lost Antiquities)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">252643<!--PackageGEN_01_Resistance_Disguise (Resistance Disguise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">250415<!--gadgetMed_GP09GENdatapad_Compiled_Info (Compiled Batuu Report)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">250291<!--gadgetMed_GP09GENdatapad_FO_AccessCode (First Order Access Codes)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">250292<!--gadgetMed_GP09GENdatapad_FO_LogFiles (First Order Log Files)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">250414<!--gadgetMed_GP09GENdatapad_Piece_Of_Info (Information Fragment)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">241821<!--holocron_GP09GENjedi_set1 (Jedi Holocron)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">242786<!--holocron_GP09GENsith_set1 (Sith Holocron)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240064<!--dataSpike_GP09GEN (Dataspike)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">241542<!--sculptTableMedium_GP09GENelectrobinoculars_set1 (TD2.3 Electrobinoculars)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246217<!--gameCardSingle_GP09GENid (Fake ID Card)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246277<!--sculptTableSmall_GP09GENcomlink_set1 (Comlink)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239332<!--lightsaber_GP09GENelemental_01 (Ornate Elemental Nature Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239562<!--lightsaber_GP09GENelemental_02 (Dominant Elemental Nature Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239566<!--lightsaber_GP09GENpeace_01 (Elegant Peace and Justice Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239572<!--lightsaber_GP09GENpower_01 (Bold Power and Control Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243101<!--lightsaber_GP09GENprotection_01 (Sturdy Protection and Defense Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">251122<!--boxGift_GEN_HondosBox (Hondo's Package)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">253888<!--packageGEN_01_FirstOrder_Uniform (First Order Uniform)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">253973<!--gameCardSingle_GP09GEN_FirstOrder_Id (First Order ID)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">29</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247084<!--sculptTableSmall_GP09GENsalvageDroid_set1 (Scrap Metal)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">9</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240064<!--dataSpike_GP09GEN (Dataspike)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239840<!--collectCrystalKyber_GP09GEN_blue (Blue Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239845<!--collectCrystalKyber_GP09GEN_black (Black Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239842<!--collectCrystalKyber_GP09GEN_green (Green Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239841<!--collectCrystalKyber_GP09GEN_red (Red Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239843<!--collectCrystalKyber_GP09GEN_purple (Purple Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

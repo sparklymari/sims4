@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_EP14World_Rabbithole_Cave_Gameplay_ObjectRewards_TreasureChest" s="325814">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <E n="expand_behavior">FORCE_EXPAND</E>
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xCBF7D9EE<!--Cave Items Picked Up:\n\n{4.String}\n\n--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15221<!--GardeningQuality_10_Pristine--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">151892<!--toyHand_EF04GENDucky_set1 (Ducky)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137841<!--toyHand_EF04GENTentacles_set1 (Tentacle Tom)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">137412<!--toyHand_EF04GENBear_set1 (Mr. Blue Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22286<!--toyHandSmallGENHorse_01 (Pretty Prancing Palomino Pony Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15687<!--recipe_Drink_Snack_OrangeJuice--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">25775<!--recipe_Drink_Snack_Milk--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">223847<!--recipe_Drink_Fridge_Soda_OffBrand--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15778<!--recipe_Food_Snack_Chips--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">29698<!--recipe_Food_Cupcake_RedVelvet--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">309992<!--recipe_Drink_Bar_Coffee--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">309993<!--recipe_Drink_Bar_Tea--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">309993<!--recipe_Drink_Bar_Tea--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">148705<!--recipe_Food_Toddler_ChickenNuggets--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">75385<!--recipe_Food_Homestyle_Grill_Salmon-Single--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61965<!--futureCubeGEN_01_black (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21501<!--futureCubeGEN_01_grey (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61964<!--futureCubeGEN_01_white (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">29880<!--recipe_Woodwork_Sculpture_Horse--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29151<!--collectFossil_02_dinoArms (Hilariously Tiny T-Rex Arms)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29157<!--collectFossil_03_skull (Pre-Pre-Pre Sim Head)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29159<!--collectFossil_04_plumbob (Fossilized Whatzit)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29146<!--collectFossil_01_egg (Fossilized Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29160<!--collectFossil_04_alien (Fossilized Alien Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29150<!--collectFossil_02_hoof (Pre-Historic Hoofprint)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32800<!--collectFossilRock_01 (Limestone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29152<!--collectFossil_02_trilobite (Enormous Trilobite)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">193547<!--seedPacket_Garden_rare (Rare Plants)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">193549<!--seedPacket_Garden_uncommon (Uncommon Plants)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">62723<!--seedPacket_Garden_Starter_Deluxe_FlowersFruit (Farmer Flowers and Fruit)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">70908<!--sculptTable_BONUS01GENgnomeGhost01_set1 (The Ghastly Ghostly Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">35725<!--sculptTableGENGnome_01_set1 (There’s No Place like Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">36414<!--sculptTableGENGnome_02_set1 (Happy Gnome Garden Pal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">36990<!--sculptTableGENGnome_03_set1 (Gnome Matter What, I’m Still Your Baby)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72247<!--sculptTableMedium_EF01GENgnomePool_set1 (Poolside Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72714<!--sculptTableMedium_EF02GENgnomeCareer_set1 (Strictly Business Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">76822<!--sculptTableMedium_EF03GENgnomeAnniversary_set1 (Happy Gnomiversary!)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">85456<!--sculptTableMedium_EF0GENgnomeAlien_set1 (Guardian of the Gnomelaxy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">89383<!--sculptTableMedium_EF0GENgnomeBunny_set1 (Mr. Floppy the Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">88170<!--sculptTableMedium_EF0gnomeNude_set1 (Bare Essentials Gnome)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">98978<!--sculptTableMedium_EFDeathgnome_set1 (Don’t Fear the Reagnomper)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">217192<!--computerDesktopPortable_EF15RWfreelancer_set1 (FreeRoam Portable Computing Device)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">76928<!--photoCamera_EP01GENExpensive_set1 (Crystal Clear Digital Camera)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">76921<!--photoCamera_EP01GENModerate_set1 (Appreciably Average Digital Camera)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">39962<!--stereoTableLOW_01_set1 (Kaboom Box)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">206205<!--gadgetLrg_EF12GENsketchpad_set1 (Digitalistic Sketchpad)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">57281<!--musicGuitarER_01_set1 (Freezer Bunny Blues Guitar)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">27232<!--musicGuitarGEN_01_set2 (Pied Piper Acoustic Guitar)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32107<!--musicGuitarRWEntSigned_01_set2 (Rock Legend Signed Guitar)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20359<!--musicViolinGEN_01_set1 (Stringvarius Violin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23794<!--musicViolinHIGHStrad_01_set2 (The Virtuoso Violin)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">57932<!--bookThinGENFishingBeginner_01 (Fishing Vol 1: Getting Hooked)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">57931<!--bookGENFishingIntermediate_01 (Fishing Vol 2: Tackles and Techniques)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">57933<!--bookGENFishingAdvanced_01 (Fishing Vol 3: See the Fish, Be the Fish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34160<!--bookThinGENFitnessBeginner_01 (Fitness Vol 1: Put Down the Milkshake)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34159<!--bookGENFitnessIntermediate_01 (Fitness Vol 2: Be World's Strongest)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34158<!--bookGENFitnessAdvanced_01 (Fitness Vol 3: Pressing Steel)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34202<!--bookThinGENGardeningBeginner_01 (Gardening Vol 1: Water, Light and Dirt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34201<!--bookGENGardeningIntermediate_01 (Gardening Vol 2: Getting Your Thumbs Green)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34203<!--bookGENGardeningAdvanced_01 (Gardening Vol 3: Strange and Forbidden Plant Genetics)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32561<!--bookGENMotive_13 (The All Revealing Selfie)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32631<!--bookGENHappy_07 (Atlas Hugged)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32599<!--bookGENConfident_06 (I Beg Variations)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28928<!--collectElementGEN_01_goobleck (Goobleck)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28927<!--collectElementGEN_01_hodorium (Wolfium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28919<!--collectElementGEN_01_peryllium (Peryllium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28918<!--collectElementGEN_01_phozone (Phozone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28917<!--collectElementGEN_01_plumbobus (Plumbobus)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28922<!--collectElementGEN_01_volenton (Volenton)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28923<!--collectElementGEN_01_oxylin (Oxypin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28924<!--collectElementGEN_01_firaxium (Firaxium)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

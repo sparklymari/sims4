@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="CAS.SimLightingParamsWorldData" type="Object">
+      <T name="LightBaseHeight">0</T>
+      <T name="SunScale">1</T>
+      <T name="SunSaturation">0.1</T>
+      <T name="SunClamp">1.25</T>
+      <T name="SourceScale">0.9</T>
+      <T name="SourceClamp">100</T>
+      <T name="DistMin">100</T>
+      <T name="DistMax">101</T>
+      <T name="FadeMin">0</T>
+      <T name="FadeMax">120</T>
+      <T name="FadePower">1</T>
+      <T name="KeyHeight">1.15</T>
+      <T name="KeyAngle">46.5</T>
+      <T name="KeyClamp">0.5</T>
+      <T name="KeyMin">0</T>
+      <T name="KeyIntensity">1.5</T>
+      <T name="KeySaturation">1</T>
+      <T name="KeyFloor">0.11,0.11,0.11</T>
+      <T name="KeyPedestal">0,0,0</T>
+      <T name="FillHeight">0.764</T>
+      <T name="FillAngle">-20</T>
+      <T name="FillClamp">0.5</T>
+      <T name="FillMin">0</T>
+      <T name="FillIntensity">1.5</T>
+      <T name="FillSaturation">1</T>
+      <T name="FillFloor">0.11,0.11,0.11</T>
+      <T name="FillPedestal">0,0,0</T>
+      <T name="Rim1Color">0.2,0.3,0.45</T>
+      <T name="Rim1Height">1.2</T>
+      <T name="Rim1Angle">-130</T>
+      <T name="Rim1Intensity">1.2</T>
+      <T name="Rim1MaxRatio">0</T>
+      <T name="Rim2Color">0.2,0.3,0.45</T>
+      <T name="Rim2Height">1.2</T>
+      <T name="Rim2Angle">130</T>
+      <T name="Rim2Intensity">1.5</T>
+      <T name="Rim2MaxRatio">0</T>
+      <T name="AmbientIntensityMin">0.5</T>
+      <T name="AmbientIntensityMax">1</T>
+      <T name="AmbientFromRoomFactor">0</T>
+      <T name="AmbientFromLightsFactor">0.47</T>
+      <T name="AmbientFromOutdoorsFactor">0</T>
+      <T name="AmbientFromSunFactor">0.194</T>
+      <T name="AmbientDimming">2</T>
+      <T name="BBBEnableCustom">1</T>
+      <T name="BBBBaseColor">0.35,0.35,0.75</T>
+      <T name="BBBKeyIntensity">1</T>
+      <T name="BBBFillIntensity">1</T>
+      <T name="BBBAmbientIntensityMin">0</T>
+      <T name="BBBAmbientIntensityMax">0</T>
+      <T name="BBBFadeLumaStart">0.1</T>
+      <T name="BBBFadeLumaEnd">0.35</T>
+      <T name="BBBFadeSaturation">1</T>
+      <T name="PointLightFraction">0.8</T>
+      <T name="PointLightMaxLumaIncrease">8</T>
+      <T name="PointLightMaxLumaDecrease">8</T>
+      <T name="BBBMaxLumaDelta">8</T>
+      <T name="PointLightExtrusionSkySide">1</T>
+      <T name="PointLightExtrusionSunSide">1</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="CAS.SimLightingParamsWorldData" schema_hash="0x310E705E">
+      <Columns>
+        <Column name="LightBaseHeight" type="Single" flags="0x00000000" />
+        <Column name="SunScale" type="Single" flags="0x00000000" />
+        <Column name="SunSaturation" type="Single" flags="0x00000000" />
+        <Column name="SunClamp" type="Single" flags="0x00000000" />
+        <Column name="SourceScale" type="Single" flags="0x00000000" />
+        <Column name="SourceClamp" type="Single" flags="0x00000000" />
+        <Column name="DistMin" type="Single" flags="0x00000000" />
+        <Column name="DistMax" type="Single" flags="0x00000000" />
+        <Column name="FadeMin" type="Single" flags="0x00000000" />
+        <Column name="FadeMax" type="Single" flags="0x00000000" />
+        <Column name="FadePower" type="Single" flags="0x00000000" />
+        <Column name="KeyHeight" type="Single" flags="0x00000000" />
+        <Column name="KeyAngle" type="Single" flags="0x00000000" />
+        <Column name="KeyClamp" type="Single" flags="0x00000000" />
+        <Column name="KeyMin" type="Single" flags="0x00000000" />
+        <Column name="KeyIntensity" type="Single" flags="0x00000000" />
+        <Column name="KeySaturation" type="Single" flags="0x00000000" />
+        <Column name="KeyFloor" type="Float3" flags="0x00000000" />
+        <Column name="KeyPedestal" type="Float3" flags="0x00000000" />
+        <Column name="FillHeight" type="Single" flags="0x00000000" />
+        <Column name="FillAngle" type="Single" flags="0x00000000" />
+        <Column name="FillClamp" type="Single" flags="0x00000000" />
+        <Column name="FillMin" type="Single" flags="0x00000000" />
+        <Column name="FillIntensity" type="Single" flags="0x00000000" />
+        <Column name="FillSaturation" type="Single" flags="0x00000000" />
+        <Column name="FillFloor" type="Float3" flags="0x00000000" />
+        <Column name="FillPedestal" type="Float3" flags="0x00000000" />
+        <Column name="Rim1Color" type="Float3" flags="0x00000000" />
+        <Column name="Rim1Height" type="Single" flags="0x00000000" />
+        <Column name="Rim1Angle" type="Single" flags="0x00000000" />
+        <Column name="Rim1Intensity" type="Single" flags="0x00000000" />
+        <Column name="Rim1MaxRatio" type="Single" flags="0x00000000" />
+        <Column name="Rim2Color" type="Float3" flags="0x00000000" />
+        <Column name="Rim2Height" type="Single" flags="0x00000000" />
+        <Column name="Rim2Angle" type="Single" flags="0x00000000" />
+        <Column name="Rim2Intensity" type="Single" flags="0x00000000" />
+        <Column name="Rim2MaxRatio" type="Single" flags="0x00000000" />
+        <Column name="AmbientIntensityMin" type="Single" flags="0x00000000" />
+        <Column name="AmbientIntensityMax" type="Single" flags="0x00000000" />
+        <Column name="AmbientFromRoomFactor" type="Single" flags="0x00000000" />
+        <Column name="AmbientFromLightsFactor" type="Single" flags="0x00000000" />
+        <Column name="AmbientFromOutdoorsFactor" type="Single" flags="0x00000000" />
+        <Column name="AmbientFromSunFactor" type="Single" flags="0x00000000" />
+        <Column name="AmbientDimming" type="Single" flags="0x00000000" />
+        <Column name="BBBEnableCustom" type="Boolean" flags="0x00000000" />
+        <Column name="BBBBaseColor" type="Float3" flags="0x00000000" />
+        <Column name="BBBKeyIntensity" type="Single" flags="0x00000000" />
+        <Column name="BBBFillIntensity" type="Single" flags="0x00000000" />
+        <Column name="BBBAmbientIntensityMin" type="Single" flags="0x00000000" />
+        <Column name="BBBAmbientIntensityMax" type="Single" flags="0x00000000" />
+        <Column name="BBBFadeLumaStart" type="Single" flags="0x00000000" />
+        <Column name="BBBFadeLumaEnd" type="Single" flags="0x00000000" />
+        <Column name="BBBFadeSaturation" type="Boolean" flags="0x00000000" />
+        <Column name="PointLightFraction" type="Single" flags="0x00000000" />
+        <Column name="PointLightMaxLumaIncrease" type="Single" flags="0x00000000" />
+        <Column name="PointLightMaxLumaDecrease" type="Single" flags="0x00000000" />
+        <Column name="BBBMaxLumaDelta" type="Single" flags="0x00000000" />
+        <Column name="PointLightExtrusionSkySide" type="Single" flags="0x00000000" />
+        <Column name="PointLightExtrusionSunSide" type="Single" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

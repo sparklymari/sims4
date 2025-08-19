@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_FindingIslandRewards_Seashells_Rare_diving" s="212806">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="reference">
+            <T n="reference">207624<!--notification_ObjectReward_FindingIslandRewards_Seashells--></T>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled">
+              <U n="enabled">
+                <L n="loot_actions">
+                  <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                </L>
+              </U>
+            </V>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216979<!--collectSeaShell_EP07GEN01_set1 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219170<!--collectSeaShell_EP07GEN01_set2 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219205<!--collectSeaShell_EP07GEN05_set1 (Scallop Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219206<!--collectSeaShell_EP07GEN05_set2 (Scallop Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216983<!--collectSeaShell_EP07GEN03_set1 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219183<!--collectSeaShell_EP07GEN03_set2 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">65</T>
+                </U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213745<!--conch_EP07GEN_set1 ("Ordinary" Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216981<!--collectSeaShell_EP07GEN02_set1 (Moon Snail Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219175<!--collectSeaShell_EP07GEN02_set2 (Moon Snail Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219208<!--collectSeaShell_EP07GEN06_set1 (Sea Urchin Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219209<!--collectSeaShell_EP07GEN06_set2 (Sea Urchin Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">85</T>
+                </U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216985<!--collectSeaShell_EP07GEN04_set1 (Abalone Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219203<!--collectSeaShell_EP07GEN04_set2 (Abalone Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216985<!--collectSeaShell_EP07GEN04_set1 (Abalone Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219203<!--collectSeaShell_EP07GEN04_set2 (Abalone Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216818<!--foodGRipGENkelp_01 (Mermadic Kelp)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">246337<!--loot_Lifestyles_Progress_Unlock_FrequentTraveler--></T>
+    </V>
+  </L>
+</I>

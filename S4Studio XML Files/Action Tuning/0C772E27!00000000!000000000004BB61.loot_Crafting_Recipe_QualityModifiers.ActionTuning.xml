@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Crafting_Recipe_QualityModifiers" s="310113">
+  <L n="loot_actions">
+    <V t="actions">
+      <T n="actions">258754<!--loot_Trait_Perfectionist_AttemptQualityIncrease--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">317907<!--loot_MidlifeCrisis_Active_CreativeBonus--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">283795<!--loot_Fear_Failure_CraftingEffects--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">308180<!--loot_Burnout_CraftingQuality--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">355936<!--loot_Gemology_Amber_Success--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">393412<!--loot_Tarot_QualityModifer--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">427520<!--loot_LuckSys_CraftingQuality--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">439728<!--loot_Ailments_CreationImpulse_QualityModifiers--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">445088<!--loot_EP19Quests_Misc_GnomeBoost--></T>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_MakeTreats" s="424305">
+  <L n="affordances">
+    <T>383491<!--candyMaker_StartCraftingAutonomously--></T>
+    <T>383490<!--candyMaker_StartCraftingAutonomously_RequiredIngredients--></T>
+    <T>379382<!--candyMaker_Staging_CottonCandy--></T>
+    <T>379381<!--candyMaker_Staging_Jellybeans--></T>
+    <T>379383<!--candyMaker_Staging_SwirlLolly--></T>
+    <T>377735<!--candyMaker_StartCrafting--></T>
+    <T>377737<!--candyMaker_StartCrafting_RequiredIngredients--></T>
+    <T>377736<!--candyMaker_StartCrafting_Shocked--></T>
+    <T>377738<!--candyMaker_StartCrafting_ShockedRequiredIngredients--></T>
+    <T>179275<!--PopcornPopper_StartCooking_Autonomous--></T>
+    <T>129876<!--popcornPopper_StartCrafting_Caramel--></T>
+    <T>129878<!--popcornPopper_StartCrafting_Cheddar--></T>
+    <T>129877<!--popcornPopper_StartCrafting_Kettle--></T>
+    <T>129875<!--popcornPopper_StartCrafting_Popcorn--></T>
+    <T>129872<!--popcornPopper_StartRecipes--></T>
+    <T>126020<!--iceCreamMachine_CookIceCream_Autonomously--></T>
+    <T>346795<!--iceCreamMachine_CookIceCream_Autonomously_Child--></T>
+    <T>121009<!--IceCreamMachine_CraftCarton--></T>
+    <T>346794<!--IceCreamMachine_CraftCarton_Child--></T>
+    <T>120921<!--iceCream_StartCrafting_Carton--></T>
+    <T>347271<!--iceCream_StartCrafting_Carton_Child--></T>
+    <T>112479<!--cupcakeMachine_StartBakingAutonomously--></T>
+    <T>26336<!--cupcakeMachine_CookGroupCupcake_Autonomously--></T>
+    <T>13293<!--cupcakemaker_StartCrafting--></T>
+    <T>261960<!--cupcakemaker_StartCrafting_RequiredIngredients--></T>
+    <T>112202<!--cupcakemaker_StartBaking--></T>
+    <T>261964<!--cupcakemaker_StartBaking_RequiredIngredients--></T>
+  </L>
+  <E n="category">FOOD_AND_DRINK</E>
+  <T n="category_icon" p="InEP18\UI\Icons\Clubs\Rules\Club_Rules_MakeCandy.png">2f7d0004:00000000:f627199a6816b65d</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xF605D69D<!--Make Treats--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xFA1A7EFC<!--Sims will make treats in:--></T>
+        <T>0xD248EC3D<!--• Candy Machines--></T>
+        <T>0xD535DA4B<!--• Cupcake Factories--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">SP03</E>
+      <L n="value">
+        <T>0xF70B5634<!--• Ice Cream Machines--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">SP05</E>
+      <L n="value">
+        <T>0xF73720D1<!--• Popcorn Poppers--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xFA1A7EFC<!--Sims will make treats in:--></T>
+        <T>0xD248EC3D<!--• Candy Machines--></T>
+        <T>0xD535DA4B<!--• Cupcake Factories--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">SP03</E>
+      <L n="value">
+        <T>0xF70B5634<!--• Ice Cream Machines--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">SP05</E>
+      <L n="value">
+        <T>0xF73720D1<!--• Popcorn Poppers--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x32157B6<!--Make Treats--></T>
+  <T n="tooltip_template_negative">0x6B4D7420<!--Don't Make Treats--></T>
+</I>

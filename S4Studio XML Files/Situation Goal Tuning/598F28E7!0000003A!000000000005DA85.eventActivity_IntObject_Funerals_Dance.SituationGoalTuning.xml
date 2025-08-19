@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="eventActivity_IntObject_Funerals_Dance" s="383621">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Events\EventGoal_Dancing.png">2f7d0004:00000000:70230f93d239c3c3</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x14F7E71<!--Dancing--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x2CEC1539<!--Select a Stereo that's playing music and choose Dance--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>413977<!--loot_Funerals_WillActivity_Buffs_Dance--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>115871<!--solo_danceActive--></T>
+      <T>14316<!--stereo_danceActive--></T>
+      <T>147361<!--stereo_Toddlers_DanceActive_Clap--></T>
+      <T>147362<!--stereo_Toddlers_DanceActive_Spin--></T>
+      <T>147360<!--stereo_Toddlers_DanceActive_WaveHands--></T>
+      <T>228789<!--stereo_Humanoid_Robots_Dance--></T>
+      <T>14315<!--stereo_Dance--></T>
+      <T>76323<!--stereo_Dance_WallSpeaker--></T>
+      <T>122399<!--DJBooth_Dance--></T>
+      <T>128572<!--DJBooth_stereo_Dance--></T>
+      <T>123173<!--danceFloor_Dance--></T>
+      <T>303992<!--stereo_CountryDancing--></T>
+      <T>382394<!--stereo_Macabre_Dance--></T>
+      <T>400943<!--stereo_Macabre_Dance_MacabreTourists--></T>
+      <T>305312<!--danceFloor_CountryDancing--></T>
+      <T>343712<!--stereo_ChildoftheSEA_Dance--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <L n="_post_tests">
+    <V t="buff">
+      <U n="buff">
+        <V n="whitelist" t="enabled">
+          <L n="enabled">
+            <T>392383<!--buff_Funerals_RoleBuffs_Celebration--></T>
+            <T>392384<!--buff_Funerals_RoleBuffs_Mingle--></T>
+            <T>392381<!--buff_Funerals_RoleBuffs_Mourn--></T>
+            <T>403982<!--buff_Funerals_RoleBuffs_Sleep--></T>
+            <T>392382<!--buff_Funerals_RoleBuffs_Speeches--></T>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+  </L>
+  <T n="_score">25</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <L n="role_tags">
+    <E>role_funeral</E>
+  </L>
+</I>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_ActorCareer_Guitar" s="193840">
+  <L n="music_tracks">
+    <T>198767<!--musicTrack_ActorCareer_Commercial_Western_PlayGuitar--></T>
+    <T>200038<!--musicTrack_ActorCareer_TVLow_Kids_PlayGuitar--></T>
+    <T>200187<!--musicTrack_ActorCareer_TVHigh_Apocalypse_PlayGuitar--></T>
+    <T>200226<!--musicTrack_ActorCareer_TVHigh_Western_PlayGuitar--></T>
+    <T>200311<!--musicTrack_ActorCareer_Movie_Western_PlayGuitar--></T>
+  </L>
+</I>

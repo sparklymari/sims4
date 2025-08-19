@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_JuiceFizzing_Ingredients_Kombucha" s="235999">
+  <L n="test">
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_tag">
+            <U n="has_object_with_tag">
+              <L n="tag_set">
+                <E>Func_Ingredient_Kombucha_EP09</E>
+              </L>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">145294<!--gardenFlower_GP04wolfsbane ({S.Wolfsbane}{P.Wolfsbanes})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">72385<!--gardenFlower_EP01GENmaw ({S.Fang Flower}{P.Fang Flowers})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">188675<!--gardenFlower_EP05GENbegonia ({S.Begonia}{P.Begonias})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">188677<!--gardenFlower_EP05GENchristmasRose ({S.Christmas Rose}{P.Christmas Roses})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">188679<!--gardenFlower_EP05GENcrocus ({S.Crocus}{P.Crocuses})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">188681<!--gardenFlower_EP05GENdahlia ({S.Dahlia}{P.Dahlias})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">188683<!--gardenFlower_EP05GENholly ({S.Holly}{P.Hollies})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">188685<!--gardenFlower_EP05GENsnowdrop ({S.Snow Drop}{P.Snow Drops})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

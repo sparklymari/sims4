@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Batuu_Social_New_SNPC_isActor_Rey" s="240776">
+  <L n="value">
+    <T>241740<!--social_Sabacc_AccuseofCheating--></T>
+    <T>246156<!--sim_Chat_SNPC--></T>
+    <T>250759<!--social_Sabacc_AskToLeave--></T>
+    <T>251544<!--social_Batuu_Missions_Listen_Ask_About--></T>
+    <T>251674<!--social_Batuu_Missions_Listen_Paired--></T>
+    <T>242356<!--socialMixer_Sabacc_Raise_Credits--></T>
+    <T>239200<!--social_Sabacc_DealCards--></T>
+    <T>237791<!--social_Sabacc_JoinGame--></T>
+    <T>230949<!--social_Sabacc_PlayGame--></T>
+    <T>245673<!--mixer_Social_Batuu_SNPC_GiveBuff_Rey--></T>
+    <T>235128<!--socialMixer_Sabacc_CallSabacc--></T>
+    <T>233810<!--socialMixer_Sabacc_DealHand--></T>
+    <T>234332<!--socialMixer_Sabacc_EveryoneFolded--></T>
+    <T>234316<!--socialMixer_Sabacc_Fold--></T>
+    <T>233812<!--socialMixer_Sabacc_Folded_Skip--></T>
+    <T>233814<!--socialMixer_Sabacc_GG_Winner--></T>
+    <T>234315<!--socialMixer_Sabacc_Raise--></T>
+    <T>242126<!--social_Batuu_Missions_Rey_Erase_Mind--></T>
+    <T>250943<!--lightSaber_Spar_Mixers_SNPC_Rey_Back--></T>
+    <T>232269<!--social_Lightsaber_Spar_Listen--></T>
+    <T>250944<!--lightSaber_Spar_Mixers_SNPC_Rey_BackFromForward--></T>
+    <T>250945<!--lightSaber_Spar_Mixers_SNPC_Rey_Center--></T>
+    <T>250946<!--lightSaber_Spar_Mixers_SNPC_Rey_Forward--></T>
+    <T>250947<!--lightSaber_Spar_Mixers_SNPC_Rey_ForwardFromBack--></T>
+    <T>240442<!--mixer_Social_Batuu_SNPC_Rey_MindTrick--></T>
+    <T>240039<!--mixer_Social_Batuu_Vi_DiscussStrategy--></T>
+    <T>240040<!--mixer_Social_Batuu_Vi_DiscussFO--></T>
+    <T>238170<!--mixer_social_Batuu_Reputation_EnthuseAbout_StoppingFirstOrder--></T>
+    <T>238178<!--mixer_social_Batuu_Reputation_TellTalesOfGalacticAdventure--></T>
+    <T>240516<!--social_Batuu_SNPC_Rey_MindTrick--></T>
+    <T>240639<!--social_Batuu_SNPC_Kylo_LashOut--></T>
+  </L>
+</I>

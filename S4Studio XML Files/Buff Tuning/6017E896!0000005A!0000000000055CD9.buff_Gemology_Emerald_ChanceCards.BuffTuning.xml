@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Gemology_Emerald_ChanceCards" s="351449">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0x2A0FD5E2<!--{0.SimFirstName} feels guided by {0.SimPronounPossessiveDependent} own wisdom. {0.SimPronounSubjective} will make impeccable choices in academic and professional pursuits.--></T>
+  <T n="buff_name">0xC146C35D<!--Good Decision Making--></T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="adventure_moments_success_modifier">
+        <U n="adventure_moments_success_modifier">
+          <L n="success_modifiers">
+            <T>106741<!--statistic_Career_Performance_Athlete--></T>
+            <T>24169<!--statistic_Career_Performance_Gradeschool--></T>
+            <T>24168<!--statistic_Career_Performance_Highschool--></T>
+            <T>24170<!--statistic_Career_Performance_Astronaut--></T>
+            <T>106742<!--statistic_Career_Performance_Business--></T>
+            <T>27782<!--statistic_Career_Performance_Criminal--></T>
+            <T>24167<!--statistic_Career_Performance_Culinary--></T>
+            <T>27781<!--statistic_Career_Performance_Entertainer--></T>
+            <T>27786<!--statistic_Career_Performance_Painter--></T>
+            <T>27780<!--statistic_Career_Performance_SecretAgent--></T>
+            <T>193216<!--statistic_Career_Performance_StyleInfluencer--></T>
+            <T>27783<!--statistic_Career_Performance_TechGuru--></T>
+            <T>35169<!--statistic_Career_Performance_Teen_Babysitter--></T>
+            <T>35168<!--statistic_Career_Performance_Teen_Barista--></T>
+            <T>35165<!--statistic_Career_Performance_Teen_FastFood--></T>
+            <T>35166<!--statistic_Career_Performance_Teen_ManualLabor--></T>
+            <T>35167<!--statistic_Career_Performance_Teen_Retail--></T>
+            <T>27784<!--statistic_Career_Performance_Writer--></T>
+            <T>108581<!--statistic_Career_Performance_Detective--></T>
+            <T>108718<!--statistic_Career_Performance_Doctor--></T>
+            <T>108717<!--statistic_Career_Performance_Scientist--></T>
+            <T>202507<!--statistic_Career_Performance_Military--></T>
+            <T>141770<!--statistic_Career_Performance_Activist--></T>
+            <T>136181<!--statistic_Career_Performance_Critic--></T>
+            <T>135394<!--statistic_Career_Performance_SocialMedia--></T>
+            <T>186187<!--statistic_Career_Performance_Gardener--></T>
+            <T>186592<!--statistic_Career_Performance_Volunteer_Scouting--></T>
+            <T>196749<!--statistic_Career_Performance_Actor--></T>
+            <T>199905<!--statistic_Career_Performance_DramaClub--></T>
+            <T>204844<!--statistic_Career_Performance_Conservationist--></T>
+            <T>209811<!--statistic_Career_Performance_OddJob--></T>
+            <T>208423<!--statistic_Career_Performance_PartTime_Diver--></T>
+            <T>208188<!--statistic_Career_Performance_PartTime_Fisherman--></T>
+            <T>205651<!--statistic_Career_Performance_PartTime_Lifeguard--></T>
+            <T>217278<!--statistic_Career_Performance_E-Sports--></T>
+            <T>220345<!--statistic_Career_Performance_Education--></T>
+            <T>218433<!--statistic_Career_Performance_Engineer--></T>
+            <T>223348<!--statistic_Career_Performance_Law--></T>
+            <T>221099<!--statistic_Career_Performance_SoccerTeam--></T>
+            <T>232712<!--statistic_Career_Performance_CivilDesigner--></T>
+            <T>248136<!--statistic_Career_Performance_CorporateWorker--></T>
+            <T>214786<!--statistic_Career_Performance_Freelancer_Fashion_Photographer--></T>
+            <T>252644<!--statistic_Career_Performance_Freelancer_ParanormalInvestigator--></T>
+            <T>277633<!--statistic_Career_Performance_Teen_SimsfluencerSideHustle--></T>
+            <T>274325<!--statistic_Career_Performance_Teen_StreamerSideHustle--></T>
+            <T>353309<!--statistic_Career_Performance_PartTime_Handyperson--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InSP49\UI\Icons\Buffs\buffs_Jewelry_Career.png">2f7d0004:00000000:96eb59981915e403</T>
+  <T n="mood_type">14639<!--Mood_Focused--></T>
+  <T n="mood_weight">1</T>
+  <L n="tags">
+    <E>Buff_CrystalCharged</E>
+  </L>
+</I>

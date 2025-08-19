@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="casPreferenceGroup_likesdislikes" schema="CasPreferenceGroup" type="Object">
+      <L name="ages">
+        <T type="Int64">4</T>
+        <T type="Int64">8</T>
+        <T type="Int64">16</T>
+        <T type="Int64">32</T>
+        <T type="Int64">64</T>
+      </L>
+      <T name="capacity">50</T>
+      <L name="categories">
+        <T type="TableSetReference">264576</T>
+        <T type="TableSetReference">259880</T>
+        <T type="TableSetReference">307794</T>
+        <T type="TableSetReference">264579</T>
+        <T type="TableSetReference">272754</T>
+        <T type="TableSetReference">307793</T>
+        <T type="TableSetReference">264581</T>
+      </L>
+      <T name="counter_text">0xD0F6D0AF</T>
+      <T name="detailed_description">0x16F78E00</T>
+      <T name="dislike_button_text">0x869566B7</T>
+      <T name="header_name">0xD823BB08</T>
+      <T name="help_tooltip">0xFD044FA9</T>
+      <T name="icon">00B2D882-00000000-9C1906FA05D98BD9</T>
+      <T name="icon_selected">00B2D882-00000000-8DA6DA7834292D5C</T>
+      <T name="items_name_negative">0x25825441</T>
+      <T name="items_name_negative_header_formatted">0xACE07389</T>
+      <T name="items_name_positive">0x5882AF5F</T>
+      <T name="items_name_positive_header_formatted">0x63BA2001</T>
+      <T name="like_button_text">0x6D44D03B</T>
+      <T name="name">0xD823BB08</T>
+      <T name="none_selected_text">0x53D1B246</T>
+      <T name="randomization_minimum_required_dislikes">3</T>
+      <T name="randomization_minimum_required_likes">3</T>
+      <T name="show_flair">0</T>
+      <T name="telemetry_name">lcnt</T>
+      <T name="timeline_label_name">preference</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="CasPreferenceGroup" schema_hash="0xA2790EC5">
+      <Columns>
+        <Column name="ages" type="Vector" flags="0x00000000" />
+        <Column name="capacity" type="Int32" flags="0x00000000" />
+        <Column name="categories" type="Vector" flags="0x00000000" />
+        <Column name="counter_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="detailed_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="dislike_button_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="header_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="help_tooltip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="icon_selected" type="ResourceKey" flags="0x00000000" />
+        <Column name="items_name_negative" type="LocalizationKey" flags="0x00000000" />
+        <Column name="items_name_negative_header_formatted" type="LocalizationKey" flags="0x00000000" />
+        <Column name="items_name_positive" type="LocalizationKey" flags="0x00000000" />
+        <Column name="items_name_positive_header_formatted" type="LocalizationKey" flags="0x00000000" />
+        <Column name="like_button_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="none_selected_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="randomization_minimum_required_dislikes" type="Int32" flags="0x00000000" />
+        <Column name="randomization_minimum_required_likes" type="Int32" flags="0x00000000" />
+        <Column name="show_flair" type="Boolean" flags="0x00000000" />
+        <Column name="telemetry_name" type="String" flags="0x00000000" />
+        <Column name="timeline_label_name" type="String" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

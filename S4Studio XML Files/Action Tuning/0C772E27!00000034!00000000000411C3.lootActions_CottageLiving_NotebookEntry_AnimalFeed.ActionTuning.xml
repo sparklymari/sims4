@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_CottageLiving_NotebookEntry_AnimalFeed" s="266691">
+  <L n="loot_actions">
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259129<!--recipe_Food_AnimalObject_LivestockFeed_Blueberry--></T>
+            <T n="reference_notebook_entry">266434<!--notebookEntryAnimalFeed_Blueberry--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271544<!--animalFeedBag_EP11GEN_set1_blueberry (Fruity Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259137<!--recipe_Food_AnimalObject_LivestockFeed_Pumpkin--></T>
+            <T n="reference_notebook_entry">266442<!--notebookEntryAnimalFeed_Pumpkin--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271543<!--animalFeedBag_EP11GEN_set10_pumpkin (Pumpkin Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259138<!--recipe_Food_AnimalObject_LivestockFeed_Rainbow--></T>
+            <T n="reference_notebook_entry">266443<!--notebookEntryAnimalFeed_Rainbow--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271546<!--animalFeedBag_EP11GEN_set11_rainbow (Rainbow Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259139<!--recipe_Food_AnimalObject_LivestockFeed_Social--></T>
+            <T n="reference_notebook_entry">266444<!--notebookEntryAnimalFeed_Social--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271535<!--animalFeedBag_EP11GEN_set12_social (Animal Party Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259140<!--recipe_Food_AnimalObject_LivestockFeed_SpicyBeef--></T>
+            <T n="reference_notebook_entry">266445<!--notebookEntryAnimalFeed_Spicy--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271548<!--animalFeedBag_EP11GEN_set13_spicy (Spicy Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259141<!--recipe_Food_AnimalObject_LivestockFeed_Veggie--></T>
+            <T n="reference_notebook_entry">266446<!--notebookEntryAnimalFeed_Veggie--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271547<!--animalFeedBag_EP11GEN_set14_veggie (Veggie Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259130<!--recipe_Food_AnimalObject_LivestockFeed_Chocolatey--></T>
+            <T n="reference_notebook_entry">266435<!--notebookEntryAnimalFeed_Chocolate--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271541<!--animalFeedBag_EP11GEN_set3_chocolatey (Chocolatey Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259131<!--recipe_Food_AnimalObject_LivestockFeed_Fishy--></T>
+            <T n="reference_notebook_entry">266436<!--notebookEntryAnimalFeed_Fishy--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271538<!--animalFeedBag_EP11GEN_set4_fishy (Fishy Protein Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259132<!--recipe_Food_AnimalObject_LivestockFeed_Flirty--></T>
+            <T n="reference_notebook_entry">266437<!--notebookEntryAnimalFeed_Flirty--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271540<!--animalFeedBag_EP11GEN_set5_flirty (Flirty Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259133<!--recipe_Food_AnimalObject_LivestockFeed_Golden--></T>
+            <T n="reference_notebook_entry">266438<!--notebookEntryAnimalFeed_Golden--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271545<!--animalFeedBag_EP11GEN_set6_golden (Golden Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259134<!--recipe_Food_AnimalObject_LivestockFeed_Healthy--></T>
+            <T n="reference_notebook_entry">266439<!--notebookEntryAnimalFeed_Healthy--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271537<!--animalFeedBag_EP11GEN_set7_healthy (Healthy Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259135<!--recipe_Food_AnimalObject_LivestockFeed_Normal--></T>
+            <T n="reference_notebook_entry">266440<!--notebookEntryAnimalFeed_Normal--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271534<!--animalFeedBag_EP11GEN_set8_normal (Friendly Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_recipe">
+          <U n="create_entry_from_recipe">
+            <T n="recipe">259136<!--recipe_Food_AnimalObject_LivestockFeed_Obsidian--></T>
+            <T n="reference_notebook_entry">266441<!--notebookEntryAnimalFeed_Obsidian--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271542<!--animalFeedBag_EP11GEN_set9_obsidian (Midnight Treat)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

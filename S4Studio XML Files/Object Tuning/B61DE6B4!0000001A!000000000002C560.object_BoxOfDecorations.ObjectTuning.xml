@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_BoxOfDecorations" s="181600">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">115301<!--retailComponent_Default_LowAppeal--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">182234<!--boxOfDecorations_DecorationsDown--></T>
+              </U>
+              <U>
+                <T n="key">182235<!--boxOfDecorations_DecorationsUp--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">182234<!--boxOfDecorations_DecorationsDown--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">187120<!--boxOfDecorations_Sabotage_Primed--></T>
+              </U>
+              <U>
+                <T n="key">187121<!--boxOfDecorations_Sabotage_Off--></T>
+              </U>
+              <U>
+                <T n="key">187192<!--boxOfDecorations_Sabotage_Broken--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">187121<!--boxOfDecorations_Sabotage_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">190692<!--boxOfDecorations_Visual_Open--></T>
+              </U>
+              <U>
+                <T n="key">190693<!--boxOfDecorations_Visual_Closed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">190693<!--boxOfDecorations_Visual_Closed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>183966<!--holidayDecorations_Picker_Eaves_Everyday--></T>
+    <T>183989<!--holidayDecorations_Picker_Foundations_Everyday--></T>
+    <T>183733<!--holidayDecorations_Picker_Eaves--></T>
+    <T>183987<!--holidayDecorations_Picker_Foundations_Holiday--></T>
+    <T>187191<!--immediate_HolidayDecorations_BoxOfDecorations_Toggle--></T>
+    <T>181609<!--holidayDecorations_BoxOfDecorations_RandomFind--></T>
+    <T>181607<!--holidayDecorations_BoxOfDecorations_ResetToDefault--></T>
+    <T>187115<!--holidayDecorations_BoxOfDecorations_Sabotage--></T>
+    <T>187194<!--holidayDecorations_BoxOfDecorations_Sabotage_Trigger--></T>
+    <T>189455<!--holidayDecorations_BoxOfDecorations_ResetToDefault_Holiday--></T>
+    <T>188695<!--holidayDecorations_Picker_Fences_Holiday--></T>
+    <T>188696<!--holidayDecorations_Picker_Friezes_Holiday--></T>
+    <T>188697<!--holidayDecorations_Picker_Spandrels_Holiday--></T>
+    <T>188689<!--holidayDecorations_Picker_Fences_Everyday--></T>
+    <T>188690<!--holidayDecorations_Picker_Friezes_Everyday--></T>
+    <T>188691<!--holidayDecorations_Picker_Spandrels_Everyday--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

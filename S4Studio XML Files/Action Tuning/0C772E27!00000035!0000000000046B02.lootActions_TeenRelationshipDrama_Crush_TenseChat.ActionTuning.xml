@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_TeenRelationshipDrama_Crush_TenseChat" s="289538">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x22E7E68<!--(From Having a Crush)--></T>
+          </V>
+          <T n="buff_type">289486<!--buff_TeenRelationshipDrama_Crush_TenseChat--></T>
+        </U>
+        <U n="chance">
+          <T n="base_chance">20</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0</T>
+              <L n="tests">
+                <L>
+                  <V t="relationship">
+                    <U n="relationship">
+                      <U n="required_relationship_bits">
+                        <L n="match_any">
+                          <T>15818<!--romantic-GettingMarried--></T>
+                          <T>15829<!--RomanticCombo_Lovebirds--></T>
+                          <T>15837<!--RomanticCombo_Lovers--></T>
+                          <T>15839<!--RomanticCombo_Soulmates--></T>
+                          <T>15840<!--RomanticCombo_Sweethearts--></T>
+                          <T>15816<!--romantic-Engaged--></T>
+                          <T>15822<!--romantic-Married--></T>
+                          <T>15825<!--romantic-Significant_Other--></T>
+                        </L>
+                      </U>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+        <E n="subject">Actor</E>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">303020<!--testSetInstance_TeenRelationshipDrama_ActorHasCrushOnTarget--></T>
+      </V>
+    </L>
+  </L>
+</I>

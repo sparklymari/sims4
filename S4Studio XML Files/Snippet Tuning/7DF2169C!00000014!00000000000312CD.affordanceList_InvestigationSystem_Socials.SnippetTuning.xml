@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_InvestigationSystem_Socials" s="201421">
+  <L n="value">
+    <T>201103<!--mixer_Social_Investigation_Act1_QuestionAboutBase--></T>
+    <T>201093<!--mixer_Social_Investigation_Act1_QuestionAboutLab--></T>
+    <T>201105<!--mixer_Social_Investigation_Act1_QuestionAboutMilitaryOperations--></T>
+    <T>201094<!--mixer_Social_Investigation_Act1_RequestKeycard--></T>
+    <T>201104<!--mixer_Social_Investigation_Act1_ShareConspiracyTheories--></T>
+    <T>201106<!--mixer_Social_Investigation_AllActs_AskAboutStrangerville--></T>
+    <T>202073<!--mixer_Social_Investigation_Act3_Recruit--></T>
+    <T>202063<!--mixer_Social_Investigation_Act2_TalkAboutSpores--></T>
+    <T>202065<!--mixer_Social_Investigation_Act2_SeduceForScanner--></T>
+    <T>202066<!--mixer_Social_Investigation_Act2_PullRank--></T>
+    <T>202064<!--mixer_Social_Investigation_Act2_AskToCraftFilter--></T>
+  </L>
+</I>

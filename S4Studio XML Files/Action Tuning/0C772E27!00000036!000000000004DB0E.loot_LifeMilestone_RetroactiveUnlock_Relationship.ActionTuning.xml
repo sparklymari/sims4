@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_LifeMilestone_RetroactiveUnlock_Relationship" s="318222">
+  <L n="loot_actions">
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">306209<!--lifeMilestone_Adopted--></T>
+        <L n="relationship_bits">
+          <T>310896<!--relbit_AdoptedBySim--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">306218<!--lifeMilestone_AdoptedSim--></T>
+        <L n="relationship_bits">
+          <T>310897<!--relbit_AdoptedSim--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="any_bits_in_common">True</T>
+        <T n="developmental_milestone">306219<!--lifeMilestone_BestFriend--></T>
+        <L n="relationship_bits">
+          <T>15794<!--friendship-bff--></T>
+          <T>31211<!--friendship-bff_BromanticPartner--></T>
+          <T>15795<!--friendship-bff_Evil--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="any_bits_in_common">True</T>
+        <T n="developmental_milestone">306223<!--lifeMilestone_Enemy--></T>
+        <L n="relationship_bits">
+          <T>26560<!--SpecialBits_Enemy--></T>
+          <T>26561<!--SpecialBits_ArchEnemies--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">306224<!--lifeMilestone_Engaged--></T>
+        <L n="relationship_bits">
+          <T>15816<!--romantic-Engaged--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">325449<!--lifeMilestone_RetroactiveOnly_HadSim--></T>
+        <L n="relationship_bits">
+          <T>8805<!--family_Target_IsSonOrDaughterOf_Actor--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="any_bits_in_common">True</T>
+        <T n="developmental_milestone">306225<!--lifeMilestone_FellInLove--></T>
+        <L n="relationship_bits">
+          <T>15829<!--RomanticCombo_Lovebirds--></T>
+          <T>15837<!--RomanticCombo_Lovers--></T>
+          <T>15839<!--RomanticCombo_Soulmates--></T>
+          <T>15840<!--RomanticCombo_Sweethearts--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">306217<!--lifeMilestone_SignificantOther--></T>
+        <L n="relationship_bits">
+          <T>15825<!--romantic-Significant_Other--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="any_bits_in_common">True</T>
+        <T n="developmental_milestone">306222<!--lifeMilestone_EndedRomanticRel--></T>
+        <L n="relationship_bits">
+          <T>15811<!--romantic-Broken_Up--></T>
+          <T>15812<!--romantic-Broken_Up_Engaged--></T>
+          <T>15815<!--romantic-Divorced--></T>
+          <T>97332<!--ShortTerm_JustBrokeUpOrDivorced--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">306213<!--lifeMilestone_Married--></T>
+        <L n="relationship_bits">
+          <T>15822<!--romantic-Married--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">335740<!--lifeMilestone_Widowed--></T>
+        <L n="relationship_bits">
+          <T>102081<!--romantic-Widow--></T>
+          <T>102911<!--romantic-Widower--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="any_bits_in_common">True</T>
+        <T n="developmental_milestone">306229<!--lifeMilestone_AdoptedPet--></T>
+        <L n="relationship_bits">
+          <T>148063<!--relationshipBit_Target_IsCatOwnedBy_Actor--></T>
+          <T>148061<!--relationshipBit_Target_IsDogOwnedBy_Actor--></T>
+        </L>
+      </U>
+    </V>
+    <V t="reevaluate_relationship_goal">
+      <U n="reevaluate_relationship_goal">
+        <T n="developmental_milestone">338093<!--lifeMilestone_Life_AdoptedHorse--></T>
+        <L n="relationship_bits">
+          <T>321334<!--relationshipBit_Target_IsHorseOwnedBy_Actor--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

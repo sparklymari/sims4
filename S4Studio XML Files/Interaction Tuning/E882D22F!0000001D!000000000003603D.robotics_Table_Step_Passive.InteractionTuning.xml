@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CraftingStepInteraction" i="interaction" m="crafting.crafting_interactions" n="robotics_Table_Step_Passive" s="221245">
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V n="_interruptible" t="enabled">
+    <T n="enabled">False</T>
+  </V>
+  <T n="allow_user_directed">False</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">222008<!--RoboticsTable_Passive_Actions--></T>
+      </U>
+    </U>
+  </V>
+  <V n="basic_focus" t="do_not_change_focus" />
+  <L n="basic_liabilities">
+    <V t="critical_priority">
+      <U n="critical_priority">
+        <E n="priority_on_push">High</E>
+      </U>
+    </V>
+  </L>
+  <T n="display_name">0xDAD329A4<!--Practice Welding Techniques--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="loot_list" />
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>221700<!--loot_RoboticsTable_CraftingProgress_HumanoidRobot--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="user_running_interaction">
+                <U n="user_running_interaction">
+                  <L n="affordances">
+                    <T>221698<!--roboticsTable_CraftingPhase_HumanoidRobot--></T>
+                  </L>
+                  <E n="participant">Actor</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>221673<!--loot_RoboticsTable_CraftingProgress_Large--></T>
+                </L>
+              </U>
+              <U n="weight">
+                <L n="multipliers">
+                  <U>
+                    <T n="multiplier">0</T>
+                    <L n="tests">
+                      <L>
+                        <V t="crafting_recipe">
+                          <U n="crafting_recipe">
+                            <V n="recipe_test" t="by_recipe">
+                              <U n="by_recipe">
+                                <L n="valid_recipes">
+                                  <T>229562<!--recipe_RoboticsTable_ToyRobot_1--></T>
+                                  <T>229563<!--recipe_RoboticsTable_ToyRobot_2--></T>
+                                  <T>229564<!--recipe_RoboticsTable_ToyRobot_3--></T>
+                                  <T>229565<!--recipe_RoboticsTable_ToyRobot_4--></T>
+                                  <T>225388<!--recipe_RoboticsTable_Bots_Cleaner_NoCost--></T>
+                                  <T>225389<!--recipe_RoboticsTable_Bots_Gardening_NoCost--></T>
+                                  <T>225390<!--recipe_RoboticsTable_Bots_Party_NoCost--></T>
+                                  <T>225391<!--recipe_RoboticsTable_Bots_Repair_NoCost--></T>
+                                  <T>221217<!--recipe_RoboticsTable_RoboticArm--></T>
+                                  <T>223505<!--recipe_RoboticsTable_RoboticArm_BlackBlue--></T>
+                                  <T>223506<!--recipe_RoboticsTable_RoboticArm_BlueRed--></T>
+                                  <T>223507<!--recipe_RoboticsTable_RoboticArm_GrayBrown--></T>
+                                  <T>223508<!--recipe_RoboticsTable_RoboticArm_GreenBrown--></T>
+                                  <T>223509<!--recipe_RoboticsTable_RoboticArm_RedGreen--></T>
+                                  <T>223510<!--recipe_RoboticsTable_RoboticArm_WhiteCopper--></T>
+                                  <T>225661<!--recipe_RoboticsTable_ComputerGlasses_Blue--></T>
+                                  <T>225662<!--recipe_RoboticsTable_ComputerGlasses_Green--></T>
+                                  <T>225663<!--recipe_RoboticsTable_ComputerGlasses_Orange--></T>
+                                  <T>225660<!--recipe_RoboticsTable_ComputerGlasses_Pink--></T>
+                                  <T>225659<!--recipe_RoboticsTable_ComputerGlasses_Red--></T>
+                                  <T>225664<!--recipe_RoboticsTable_ComputerGlasses_Yellow--></T>
+                                  <T>221229<!--recipe_RoboticsTable_MechanicalHelmet--></T>
+                                  <T>227850<!--recipe_RoboticsTable_MechanicalHelmet_BlackBlue--></T>
+                                  <T>227851<!--recipe_RoboticsTable_MechanicalHelmet_BlackCopper--></T>
+                                  <T>227852<!--recipe_RoboticsTable_MechanicalHelmet_BlackGold--></T>
+                                  <T>227853<!--recipe_RoboticsTable_MechanicalHelmet_BlackGray--></T>
+                                  <T>227854<!--recipe_RoboticsTable_MechanicalHelmet_BlueGray--></T>
+                                  <T>227855<!--recipe_RoboticsTable_MechanicalHelmet_GrayBlack--></T>
+                                  <T>227856<!--recipe_RoboticsTable_MechanicalHelmet_GreenBlack--></T>
+                                  <T>221228<!--recipe_RoboticsTable_MechanicalSuit--></T>
+                                  <T>226868<!--recipe_RoboticsTable_MechanicalSuit_BeigeWhite--></T>
+                                  <T>226869<!--recipe_RoboticsTable_MechanicalSuit_BlackBlue--></T>
+                                  <T>226870<!--recipe_RoboticsTable_MechanicalSuit_BlueRed--></T>
+                                  <T>226871<!--recipe_RoboticsTable_MechanicalSuit_GrayBrown--></T>
+                                  <T>226872<!--recipe_RoboticsTable_MechanicalSuit_GreenBrown--></T>
+                                  <T>226873<!--recipe_RoboticsTable_MechanicalSuit_RedGreen--></T>
+                                  <T>226874<!--recipe_RoboticsTable_MechanicalSuit_WhiteCopper--></T>
+                                  <T>222707<!--recipe_RoboticsTable_QuadCopter_1--></T>
+                                  <T>227929<!--recipe_RoboticsTable_QuadCopter_2--></T>
+                                  <T>227933<!--recipe_RoboticsTable_QuadCopter_3--></T>
+                                  <T>227934<!--recipe_RoboticsTable_QuadCopter_4--></T>
+                                  <T>227935<!--recipe_RoboticsTable_QuadCopter_5--></T>
+                                  <T>227930<!--recipe_RoboticsTable_QuadCopter_6--></T>
+                                  <T>227931<!--recipe_RoboticsTable_QuadCopter_7--></T>
+                                  <T>227932<!--recipe_RoboticsTable_QuadCopter_8--></T>
+                                  <T>221215<!--recipe_RoboticsTable_ToyRobot_9--></T>
+                                  <T>228716<!--recipe_RoboticsTable_Bots_Cleaner_1--></T>
+                                  <T>228717<!--recipe_RoboticsTable_Bots_Cleaner_2--></T>
+                                  <T>228718<!--recipe_RoboticsTable_Bots_Cleaner_3--></T>
+                                  <T>228720<!--recipe_RoboticsTable_Bots_Gardening_1--></T>
+                                  <T>228721<!--recipe_RoboticsTable_Bots_Gardening_2--></T>
+                                  <T>228719<!--recipe_RoboticsTable_Bots_Gardening_3--></T>
+                                  <T>228723<!--recipe_RoboticsTable_Bots_Party_1--></T>
+                                  <T>228724<!--recipe_RoboticsTable_Bots_Party_2--></T>
+                                  <T>228725<!--recipe_RoboticsTable_Bots_Party_3--></T>
+                                  <T>228722<!--recipe_RoboticsTable_Bots_Party_Gold--></T>
+                                  <T>228727<!--recipe_RoboticsTable_Bots_Repair_1--></T>
+                                  <T>228728<!--recipe_RoboticsTable_Bots_Repair_2--></T>
+                                  <T>228726<!--recipe_RoboticsTable_Bots_Repair_3--></T>
+                                  <T>229566<!--recipe_RoboticsTable_ToyRobot_5--></T>
+                                  <T>229567<!--recipe_RoboticsTable_ToyRobot_6--></T>
+                                  <T>229568<!--recipe_RoboticsTable_ToyRobot_7--></T>
+                                  <T>229561<!--recipe_RoboticsTable_ToyRobot_8--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </U>
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>223620<!--loot_RoboticsTable_CraftingProgress_Medium--></T>
+                </L>
+              </U>
+              <U n="weight">
+                <T n="base_value">1</T>
+                <L n="multipliers">
+                  <U>
+                    <T n="multiplier">0</T>
+                    <L n="tests">
+                      <L>
+                        <V t="crafting_recipe">
+                          <U n="crafting_recipe">
+                            <V n="recipe_test" t="by_recipe">
+                              <U n="by_recipe">
+                                <L n="valid_recipes">
+                                  <T>225388<!--recipe_RoboticsTable_Bots_Cleaner_NoCost--></T>
+                                  <T>225389<!--recipe_RoboticsTable_Bots_Gardening_NoCost--></T>
+                                  <T>225390<!--recipe_RoboticsTable_Bots_Party_NoCost--></T>
+                                  <T>225391<!--recipe_RoboticsTable_Bots_Repair_NoCost--></T>
+                                  <T>221217<!--recipe_RoboticsTable_RoboticArm--></T>
+                                  <T>223505<!--recipe_RoboticsTable_RoboticArm_BlackBlue--></T>
+                                  <T>223506<!--recipe_RoboticsTable_RoboticArm_BlueRed--></T>
+                                  <T>223507<!--recipe_RoboticsTable_RoboticArm_GrayBrown--></T>
+                                  <T>223508<!--recipe_RoboticsTable_RoboticArm_GreenBrown--></T>
+                                  <T>223509<!--recipe_RoboticsTable_RoboticArm_RedGreen--></T>
+                                  <T>223510<!--recipe_RoboticsTable_RoboticArm_WhiteCopper--></T>
+                                  <T>225661<!--recipe_RoboticsTable_ComputerGlasses_Blue--></T>
+                                  <T>225662<!--recipe_RoboticsTable_ComputerGlasses_Green--></T>
+                                  <T>225663<!--recipe_RoboticsTable_ComputerGlasses_Orange--></T>
+                                  <T>225660<!--recipe_RoboticsTable_ComputerGlasses_Pink--></T>
+                                  <T>225659<!--recipe_RoboticsTable_ComputerGlasses_Red--></T>
+                                  <T>225664<!--recipe_RoboticsTable_ComputerGlasses_Yellow--></T>
+                                  <T>221229<!--recipe_RoboticsTable_MechanicalHelmet--></T>
+                                  <T>227850<!--recipe_RoboticsTable_MechanicalHelmet_BlackBlue--></T>
+                                  <T>227851<!--recipe_RoboticsTable_MechanicalHelmet_BlackCopper--></T>
+                                  <T>227852<!--recipe_RoboticsTable_MechanicalHelmet_BlackGold--></T>
+                                  <T>227853<!--recipe_RoboticsTable_MechanicalHelmet_BlackGray--></T>
+                                  <T>227854<!--recipe_RoboticsTable_MechanicalHelmet_BlueGray--></T>
+                                  <T>227855<!--recipe_RoboticsTable_MechanicalHelmet_GrayBlack--></T>
+                                  <T>227856<!--recipe_RoboticsTable_MechanicalHelmet_GreenBlack--></T>
+                                  <T>221228<!--recipe_RoboticsTable_MechanicalSuit--></T>
+                                  <T>226868<!--recipe_RoboticsTable_MechanicalSuit_BeigeWhite--></T>
+                                  <T>226869<!--recipe_RoboticsTable_MechanicalSuit_BlackBlue--></T>
+                                  <T>226870<!--recipe_RoboticsTable_MechanicalSuit_BlueRed--></T>
+                                  <T>226871<!--recipe_RoboticsTable_MechanicalSuit_GrayBrown--></T>
+                                  <T>226872<!--recipe_RoboticsTable_MechanicalSuit_GreenBrown--></T>
+                                  <T>226873<!--recipe_RoboticsTable_MechanicalSuit_RedGreen--></T>
+                                  <T>226874<!--recipe_RoboticsTable_MechanicalSuit_WhiteCopper--></T>
+                                  <T>228716<!--recipe_RoboticsTable_Bots_Cleaner_1--></T>
+                                  <T>228717<!--recipe_RoboticsTable_Bots_Cleaner_2--></T>
+                                  <T>228718<!--recipe_RoboticsTable_Bots_Cleaner_3--></T>
+                                  <T>228720<!--recipe_RoboticsTable_Bots_Gardening_1--></T>
+                                  <T>221254<!--recipe_RoboticsTable_BehaviorBombs_Tidy--></T>
+                                  <T>221255<!--recipe_RoboticsTable_BehaviorBombs_Study--></T>
+                                  <T>221253<!--recipe_RoboticsTable_BehaviorBombs_Party--></T>
+                                  <T>221256<!--recipe_RoboticsTable_BehaviorBombs_Energy--></T>
+                                  <T>228721<!--recipe_RoboticsTable_Bots_Gardening_2--></T>
+                                  <T>228719<!--recipe_RoboticsTable_Bots_Gardening_3--></T>
+                                  <T>228723<!--recipe_RoboticsTable_Bots_Party_1--></T>
+                                  <T>228724<!--recipe_RoboticsTable_Bots_Party_2--></T>
+                                  <T>228725<!--recipe_RoboticsTable_Bots_Party_3--></T>
+                                  <T>228722<!--recipe_RoboticsTable_Bots_Party_Gold--></T>
+                                  <T>228727<!--recipe_RoboticsTable_Bots_Repair_1--></T>
+                                  <T>228728<!--recipe_RoboticsTable_Bots_Repair_2--></T>
+                                  <T>228726<!--recipe_RoboticsTable_Bots_Repair_3--></T>
+                                </L>
+                              </U>
+                            </V>
+                            <V n="subject" t="enabled">
+                              <E n="enabled">CraftingObject</E>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </U>
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>223619<!--loot_RoboticsTable_CraftingProgress_Small--></T>
+                </L>
+              </U>
+              <U n="weight">
+                <L n="multipliers">
+                  <U>
+                    <T n="multiplier">0</T>
+                    <L n="tests">
+                      <L>
+                        <V t="crafting_recipe">
+                          <U n="crafting_recipe">
+                            <V n="recipe_test" t="by_recipe">
+                              <U n="by_recipe">
+                                <L n="valid_recipes">
+                                  <T>221256<!--recipe_RoboticsTable_BehaviorBombs_Energy--></T>
+                                  <T>221253<!--recipe_RoboticsTable_BehaviorBombs_Party--></T>
+                                  <T>221255<!--recipe_RoboticsTable_BehaviorBombs_Study--></T>
+                                  <T>221254<!--recipe_RoboticsTable_BehaviorBombs_Tidy--></T>
+                                  <T>221219<!--recipe_RoboticsTable_ComputerChip--></T>
+                                  <T>221223<!--recipe_RoboticsTable_Mechanism--></T>
+                                  <T>221215<!--recipe_RoboticsTable_ToyRobot_9--></T>
+                                  <T>221228<!--recipe_RoboticsTable_MechanicalSuit--></T>
+                                  <T>226868<!--recipe_RoboticsTable_MechanicalSuit_BeigeWhite--></T>
+                                  <T>226869<!--recipe_RoboticsTable_MechanicalSuit_BlackBlue--></T>
+                                  <T>226870<!--recipe_RoboticsTable_MechanicalSuit_BlueRed--></T>
+                                  <T>226871<!--recipe_RoboticsTable_MechanicalSuit_GrayBrown--></T>
+                                  <T>226872<!--recipe_RoboticsTable_MechanicalSuit_GreenBrown--></T>
+                                  <T>226873<!--recipe_RoboticsTable_MechanicalSuit_RedGreen--></T>
+                                  <T>226874<!--recipe_RoboticsTable_MechanicalSuit_WhiteCopper--></T>
+                                  <T>222707<!--recipe_RoboticsTable_QuadCopter_1--></T>
+                                  <T>227929<!--recipe_RoboticsTable_QuadCopter_2--></T>
+                                  <T>227933<!--recipe_RoboticsTable_QuadCopter_3--></T>
+                                  <T>227934<!--recipe_RoboticsTable_QuadCopter_4--></T>
+                                  <T>227935<!--recipe_RoboticsTable_QuadCopter_5--></T>
+                                  <T>227930<!--recipe_RoboticsTable_QuadCopter_6--></T>
+                                  <T>227931<!--recipe_RoboticsTable_QuadCopter_7--></T>
+                                  <T>227932<!--recipe_RoboticsTable_QuadCopter_8--></T>
+                                  <T>229562<!--recipe_RoboticsTable_ToyRobot_1--></T>
+                                  <T>229563<!--recipe_RoboticsTable_ToyRobot_2--></T>
+                                  <T>229564<!--recipe_RoboticsTable_ToyRobot_3--></T>
+                                  <T>229565<!--recipe_RoboticsTable_ToyRobot_4--></T>
+                                  <T>229566<!--recipe_RoboticsTable_ToyRobot_5--></T>
+                                  <T>229567<!--recipe_RoboticsTable_ToyRobot_6--></T>
+                                  <T>229568<!--recipe_RoboticsTable_ToyRobot_7--></T>
+                                  <T>229561<!--recipe_RoboticsTable_ToyRobot_8--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </U>
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>228651<!--loot_RoboticsTable_CraftingProgress_VerySmall--></T>
+                </L>
+              </U>
+              <U n="weight">
+                <L n="multipliers">
+                  <U>
+                    <T n="multiplier">0</T>
+                    <L n="tests">
+                      <L>
+                        <V t="crafting_recipe">
+                          <U n="crafting_recipe">
+                            <V n="recipe_test" t="by_recipe">
+                              <U n="by_recipe">
+                                <L n="valid_recipes">
+                                  <T>221256<!--recipe_RoboticsTable_BehaviorBombs_Energy--></T>
+                                  <T>221253<!--recipe_RoboticsTable_BehaviorBombs_Party--></T>
+                                  <T>221255<!--recipe_RoboticsTable_BehaviorBombs_Study--></T>
+                                  <T>221254<!--recipe_RoboticsTable_BehaviorBombs_Tidy--></T>
+                                  <T>229562<!--recipe_RoboticsTable_ToyRobot_1--></T>
+                                  <T>229563<!--recipe_RoboticsTable_ToyRobot_2--></T>
+                                  <T>229564<!--recipe_RoboticsTable_ToyRobot_3--></T>
+                                  <T>229565<!--recipe_RoboticsTable_ToyRobot_4--></T>
+                                  <T>225388<!--recipe_RoboticsTable_Bots_Cleaner_NoCost--></T>
+                                  <T>225389<!--recipe_RoboticsTable_Bots_Gardening_NoCost--></T>
+                                  <T>225390<!--recipe_RoboticsTable_Bots_Party_NoCost--></T>
+                                  <T>225391<!--recipe_RoboticsTable_Bots_Repair_NoCost--></T>
+                                  <T>221219<!--recipe_RoboticsTable_ComputerChip--></T>
+                                  <T>221223<!--recipe_RoboticsTable_Mechanism--></T>
+                                  <T>221215<!--recipe_RoboticsTable_ToyRobot_9--></T>
+                                  <T>225662<!--recipe_RoboticsTable_ComputerGlasses_Green--></T>
+                                  <T>225661<!--recipe_RoboticsTable_ComputerGlasses_Blue--></T>
+                                  <T>225663<!--recipe_RoboticsTable_ComputerGlasses_Orange--></T>
+                                  <T>225660<!--recipe_RoboticsTable_ComputerGlasses_Pink--></T>
+                                  <T>225659<!--recipe_RoboticsTable_ComputerGlasses_Red--></T>
+                                  <T>225664<!--recipe_RoboticsTable_ComputerGlasses_Yellow--></T>
+                                  <T>221229<!--recipe_RoboticsTable_MechanicalHelmet--></T>
+                                  <T>227850<!--recipe_RoboticsTable_MechanicalHelmet_BlackBlue--></T>
+                                  <T>227851<!--recipe_RoboticsTable_MechanicalHelmet_BlackCopper--></T>
+                                  <T>227852<!--recipe_RoboticsTable_MechanicalHelmet_BlackGold--></T>
+                                  <T>227853<!--recipe_RoboticsTable_MechanicalHelmet_BlackGray--></T>
+                                  <T>227854<!--recipe_RoboticsTable_MechanicalHelmet_BlueGray--></T>
+                                  <T>227855<!--recipe_RoboticsTable_MechanicalHelmet_GrayBlack--></T>
+                                  <T>227856<!--recipe_RoboticsTable_MechanicalHelmet_GreenBlack--></T>
+                                  <T>221217<!--recipe_RoboticsTable_RoboticArm--></T>
+                                  <T>223505<!--recipe_RoboticsTable_RoboticArm_BlackBlue--></T>
+                                  <T>223506<!--recipe_RoboticsTable_RoboticArm_BlueRed--></T>
+                                  <T>223507<!--recipe_RoboticsTable_RoboticArm_GrayBrown--></T>
+                                  <T>223508<!--recipe_RoboticsTable_RoboticArm_GreenBrown--></T>
+                                  <T>223509<!--recipe_RoboticsTable_RoboticArm_RedGreen--></T>
+                                  <T>223510<!--recipe_RoboticsTable_RoboticArm_WhiteCopper--></T>
+                                  <T>222707<!--recipe_RoboticsTable_QuadCopter_1--></T>
+                                  <T>227929<!--recipe_RoboticsTable_QuadCopter_2--></T>
+                                  <T>227933<!--recipe_RoboticsTable_QuadCopter_3--></T>
+                                  <T>227934<!--recipe_RoboticsTable_QuadCopter_4--></T>
+                                  <T>227935<!--recipe_RoboticsTable_QuadCopter_5--></T>
+                                  <T>227930<!--recipe_RoboticsTable_QuadCopter_6--></T>
+                                  <T>227931<!--recipe_RoboticsTable_QuadCopter_7--></T>
+                                  <T>227932<!--recipe_RoboticsTable_QuadCopter_8--></T>
+                                  <T>228716<!--recipe_RoboticsTable_Bots_Cleaner_1--></T>
+                                  <T>228717<!--recipe_RoboticsTable_Bots_Cleaner_2--></T>
+                                  <T>228718<!--recipe_RoboticsTable_Bots_Cleaner_3--></T>
+                                  <T>228720<!--recipe_RoboticsTable_Bots_Gardening_1--></T>
+                                  <T>228721<!--recipe_RoboticsTable_Bots_Gardening_2--></T>
+                                  <T>228719<!--recipe_RoboticsTable_Bots_Gardening_3--></T>
+                                  <T>228723<!--recipe_RoboticsTable_Bots_Party_1--></T>
+                                  <T>228724<!--recipe_RoboticsTable_Bots_Party_2--></T>
+                                  <T>228725<!--recipe_RoboticsTable_Bots_Party_3--></T>
+                                  <T>228722<!--recipe_RoboticsTable_Bots_Party_Gold--></T>
+                                  <T>228727<!--recipe_RoboticsTable_Bots_Repair_1--></T>
+                                  <T>228728<!--recipe_RoboticsTable_Bots_Repair_2--></T>
+                                  <T>228726<!--recipe_RoboticsTable_Bots_Repair_3--></T>
+                                  <T>229566<!--recipe_RoboticsTable_ToyRobot_5--></T>
+                                  <T>229567<!--recipe_RoboticsTable_ToyRobot_6--></T>
+                                  <T>229568<!--recipe_RoboticsTable_ToyRobot_7--></T>
+                                  <T>229561<!--recipe_RoboticsTable_ToyRobot_8--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="user_running_interaction">
+                <U n="user_running_interaction">
+                  <L n="affordances">
+                    <T>218736<!--roboticsTable_CraftingPhase_Craftables--></T>
+                  </L>
+                  <E n="participant">Actor</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="sub_action">
+    <T n="base_weight">2</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals" />
+  <L n="tests">
+    <L>
+      <V t="statistic">
+        <U n="statistic">
+          <T n="stat">16574<!--commodity_CraftingProgress--></T>
+          <V n="threshold" t="value_threshold">
+            <U n="value_threshold">
+              <T n="value">5</T>
+            </U>
+          </V>
+          <E n="who">CraftingObject</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="user_running_interaction">
+        <U n="user_running_interaction">
+          <L n="affordances">
+            <T>221698<!--roboticsTable_CraftingPhase_HumanoidRobot--></T>
+          </L>
+          <E n="participant">Actor</E>
+          <T n="test_for_not_running">False</T>
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="visible">False</T>
+</I>

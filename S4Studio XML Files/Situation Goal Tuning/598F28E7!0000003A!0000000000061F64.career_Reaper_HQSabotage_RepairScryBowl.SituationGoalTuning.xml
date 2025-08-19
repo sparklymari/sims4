@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_HQSabotage_RepairScryBowl" s="401252">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_wrench.png">2f7d0004:00000000:9999ece5ae028a1b</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x8B8FD2F5<!--Repair Scry Bowl--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x1F81A09F<!--Select the Scry Bowl and choose Repair. A higher Handiness Skill will help this go faster!--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>400218<!--object_Repair_ReaperCareer_ScryOrb--></T>
+      <T>393996<!--career_Reaper_Objects_RewardTouch--></T>
+      <T>215504<!--spells_Object_Repair_Fix--></T>
+      <T>216926<!--spells_Object_Repair_Fix_SpectralReach--></T>
+    </L>
+    <V n="interaction_outcome" t="enabled">
+      <E n="enabled">SUCCESS</E>
+    </V>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_score">15</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

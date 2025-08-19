@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Dolphins_Fetch_Reward" s="207100">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x20C25FB8<!--{0.SimFirstName} got something... interesting from asking a dolphin to fetch:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218346<!--collectFishMed_EP07GENcelestialGrouper (Celestial Grouper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44912<!--collectFishSmallGENGold_01 (Goldfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45444<!--collectFishSmallGENGuppy_01 (Guppy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45028<!--collectFishSmallGENMinnow_01 (Minnow)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218350<!--collectFishSmall_EP07GENneonAngel (Neon Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77034<!--FishFreshness_Poor--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15212<!--GardeningQuality_01_Sickly--></T>
+                  <T>15194<!--FruitDecay_1_RottenFruit--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46351<!--sculptTableGENCDPile_01_set1 (Stack of CDs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25075<!--sculptTableSCKitchenUtensils_01_set1 (Countertop Kitchen Utensils)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">155152<!--trashGen_01_smallTrash (Trash Pile)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32801<!--collectFossilBroken_01 (Broken Fossil)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22485<!--gardenTwigsGEN_01 (Twigs)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61964<!--futureCubeGEN_01_white (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25077<!--sculptTableSCKitchenUtensils_01_set3 (Countertop Kitchen Utensils)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46353<!--sculptTableGENCDPile_01_set3 (Stack of CDs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216979<!--collectSeaShell_EP07GEN01_set1 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216983<!--collectSeaShell_EP07GEN03_set1 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219205<!--collectSeaShell_EP07GEN05_set1 (Scallop Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207279<!--bit_Dolphin_Indifferent--></T>
+                    <T>207278<!--bit_Dolphin_Wary--></T>
+                    <T>207277<!--bit_Dolphin_Disliked--></T>
+                    <T>207276<!--bit_Dolphin_Feared--></T>
+                  </L>
+                </U>
+                <T n="track">207130<!--objectRelationshipTrack_Dolphin_Standard--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207279<!--bit_Dolphin_Indifferent--></T>
+                    <T>207278<!--bit_Dolphin_Wary--></T>
+                    <T>207277<!--bit_Dolphin_Disliked--></T>
+                    <T>207276<!--bit_Dolphin_Feared--></T>
+                  </L>
+                </U>
+                <T n="track">207131<!--objectRelationshipTrack_Dolphin_Albino--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207279<!--bit_Dolphin_Indifferent--></T>
+                    <T>207278<!--bit_Dolphin_Wary--></T>
+                    <T>207277<!--bit_Dolphin_Disliked--></T>
+                    <T>207276<!--bit_Dolphin_Feared--></T>
+                  </L>
+                </U>
+                <T n="track">207132<!--objectRelationshipTrack_Dolphin_Merfolk--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xCD41CE22<!--{0.SimFirstName} got something special from playing fetch with that dolphin!\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218346<!--collectFishMed_EP07GENcelestialGrouper (Celestial Grouper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44912<!--collectFishSmallGENGold_01 (Goldfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218350<!--collectFishSmall_EP07GENneonAngel (Neon Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45236<!--collectFishSmallGENBetta_01 (Betta)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77033<!--FishFreshness_Average--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15213<!--GardeningQuality_02_Frail--></T>
+                  <T>15196<!--FruitDecay_3_FallenFruit--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61964<!--futureCubeGEN_01_white (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25041<!--sculptTableFCPitcherWoodenSpoons_02_set3 (Pretty as a Pitcher)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">43271<!--sculptTableGENCologne_01_set3 (Men’s Cologne)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219170<!--collectSeaShell_EP07GEN01_set2 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219183<!--collectSeaShell_EP07GEN03_set2 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219206<!--collectSeaShell_EP07GEN05_set2 (Scallop Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28591<!--sculptTableGENWoodworkKnifeBlock_01 (Knotty or Knife Block)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25076<!--sculptTableSCKitchenUtensils_01_set2 (Countertop Kitchen Utensils)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46352<!--sculptTableGENCDPile_01_set2 (Stack of CDs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25039<!--sculptTableFCPitcherWoodenSpoons_02_set1 (Pretty as a Pitcher)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">43269<!--sculptTableGENCologne_01_set1 (Men’s Cologne)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32801<!--collectFossilBroken_01 (Broken Fossil)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22485<!--gardenTwigsGEN_01 (Twigs)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207281<!--bit_Dolphin_Chum--></T>
+                    <T>207280<!--bit_Dolphin_Curious--></T>
+                  </L>
+                </U>
+                <T n="track">207130<!--objectRelationshipTrack_Dolphin_Standard--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207281<!--bit_Dolphin_Chum--></T>
+                    <T>207280<!--bit_Dolphin_Curious--></T>
+                  </L>
+                </U>
+                <T n="track">207131<!--objectRelationshipTrack_Dolphin_Albino--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207281<!--bit_Dolphin_Chum--></T>
+                    <T>207280<!--bit_Dolphin_Curious--></T>
+                  </L>
+                </U>
+                <T n="track">207132<!--objectRelationshipTrack_Dolphin_Merfolk--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x17BCAB43<!--{0.SimFirstName} got some good stuff from that dolphin!\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218346<!--collectFishMed_EP07GENcelestialGrouper (Celestial Grouper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218348<!--collectFishMed_EP07GENrainbowButterfly (Butterflyfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44785<!--collectFishMedGENRainbow_01 (Rainbowfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218350<!--collectFishSmall_EP07GENneonAngel (Neon Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45236<!--collectFishSmallGENBetta_01 (Betta)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218349<!--collectFishSmall_EP07GENfightingPlakat (Fighting Plakat)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45186<!--collectFishSmallGENRedTailedShark_01 (Red-Tailed Black Shark)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77031<!--FishFreshness_Great--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15214<!--GardeningQuality_03_Meager--></T>
+                  <T>15197<!--FruitDecay_4_RipeFruit--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20727<!--voodooDollGEN_01 (Madame Zoe's Voodoo Doll)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219140<!--sculptTableSmall_EP07RWdiveTank_set1 (Scuba Dive Tank)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219470<!--sculptWall_EP07ISLEutensils_set5 (Masarap Ang Spoon and Fork)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219425<!--sculptWall_EP07GENmask_set7 (The Laughing Man)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216981<!--collectSeaShell_EP07GEN02_set1 (Moon Snail Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219175<!--collectSeaShell_EP07GEN02_set2 (Moon Snail Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219208<!--collectSeaShell_EP07GEN06_set1 (Sea Urchin Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219209<!--collectSeaShell_EP07GEN06_set2 (Sea Urchin Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61964<!--futureCubeGEN_01_white (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">25041<!--sculptTableFCPitcherWoodenSpoons_02_set3 (Pretty as a Pitcher)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">43271<!--sculptTableGENCologne_01_set3 (Men’s Cologne)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216979<!--collectSeaShell_EP07GEN01_set1 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219170<!--collectSeaShell_EP07GEN01_set2 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216983<!--collectSeaShell_EP07GEN03_set1 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219183<!--collectSeaShell_EP07GEN03_set2 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207283<!--bit_Dolphin_BestFriend--></T>
+                    <T>207282<!--bit_Dolphin_Friend--></T>
+                  </L>
+                </U>
+                <T n="track">207130<!--objectRelationshipTrack_Dolphin_Standard--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207283<!--bit_Dolphin_BestFriend--></T>
+                    <T>207282<!--bit_Dolphin_Friend--></T>
+                  </L>
+                </U>
+                <T n="track">207131<!--objectRelationshipTrack_Dolphin_Albino--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207283<!--bit_Dolphin_BestFriend--></T>
+                    <T>207282<!--bit_Dolphin_Friend--></T>
+                  </L>
+                </U>
+                <T n="track">207132<!--objectRelationshipTrack_Dolphin_Merfolk--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x17BCAB43<!--{0.SimFirstName} got some good stuff from that dolphin!\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218348<!--collectFishMed_EP07GENrainbowButterfly (Butterflyfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44785<!--collectFishMedGENRainbow_01 (Rainbowfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218350<!--collectFishSmall_EP07GENneonAngel (Neon Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45236<!--collectFishSmallGENBetta_01 (Betta)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218349<!--collectFishSmall_EP07GENfightingPlakat (Fighting Plakat)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45186<!--collectFishSmallGENRedTailedShark_01 (Red-Tailed Black Shark)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45030<!--collectFishMedGENAngler_01 (Anglerfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44788<!--collectFishSmallGENPirahna_01 (Piranha)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>77030<!--FishFreshness_Excellent--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15215<!--GardeningQuality_04_Scrubby--></T>
+                  <T>15197<!--FruitDecay_4_RipeFruit--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">206205<!--gadgetLrg_EF12GENsketchpad_set1 (Digitalistic Sketchpad)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">76928<!--photoCamera_EP01GENExpensive_set1 (Crystal Clear Digital Camera)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219224<!--collectTreasureBuriedSml_EP07GENjewelry_set1 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219228<!--collectTreasureBuriedSml_EP07GENjewelry_set5 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219219<!--collectTreasureBuriedSml_EP07GENcomb_set3 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216985<!--collectSeaShell_EP07GEN04_set1 (Abalone Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219203<!--collectSeaShell_EP07GEN04_set2 (Abalone Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213745<!--conch_EP07GEN_set1 ("Ordinary" Conch Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20727<!--voodooDollGEN_01 (Madame Zoe's Voodoo Doll)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219140<!--sculptTableSmall_EP07RWdiveTank_set1 (Scuba Dive Tank)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219472<!--sculptWall_EP07ISLEutensils_set7 (Masarap Ang Spoon and Fork)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219423<!--sculptWall_EP07GENmask_set5 (The Laughing Man)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216981<!--collectSeaShell_EP07GEN02_set1 (Moon Snail Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219208<!--collectSeaShell_EP07GEN06_set1 (Sea Urchin Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219209<!--collectSeaShell_EP07GEN06_set2 (Sea Urchin Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219175<!--collectSeaShell_EP07GEN02_set2 (Moon Snail Shell)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207284<!--bit_Dolphin_Soulmate--></T>
+                  </L>
+                </U>
+                <T n="track">207130<!--objectRelationshipTrack_Dolphin_Standard--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207284<!--bit_Dolphin_Soulmate--></T>
+                  </L>
+                </U>
+                <T n="track">207131<!--objectRelationshipTrack_Dolphin_Albino--></T>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="object_type_relationship">
+              <U n="object_type_relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>207284<!--bit_Dolphin_Soulmate--></T>
+                  </L>
+                </U>
+                <T n="track">207132<!--objectRelationshipTrack_Dolphin_Merfolk--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

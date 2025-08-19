@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PaintingStyle" i="recipe" m="crafting.painting" n="paintingStyle_Placemat_Llama" s="134106">
+  <T n="_display_name">0x658200E9<!--Placemat--></T>
+  <L n="_textures">
+    <U>
+      <T n="texture">133965<!--paintingTexture_Placemat_High_Llama--></T>
+    </U>
+    <U>
+      <T n="texture">134280<!--paintingTexture_Placemat_High_Llama_2--></T>
+    </U>
+    <U>
+      <T n="texture">134281<!--paintingTexture_Placemat_High_Llama_3--></T>
+    </U>
+    <U>
+      <T n="texture">133961<!--paintingTexture_Placemat_Low_Llama--></T>
+    </U>
+    <U>
+      <T n="texture">134286<!--paintingTexture_Placemat_Low_Llama_2--></T>
+    </U>
+    <U>
+      <T n="texture">134287<!--paintingTexture_Placemat_Low_Llama_3--></T>
+    </U>
+    <U>
+      <T n="texture">133958<!--paintingTexture_Placemat_Med_Llama--></T>
+    </U>
+    <U>
+      <T n="texture">134292<!--paintingTexture_Placemat_Med_Llama_2--></T>
+    </U>
+    <U>
+      <T n="texture">134293<!--paintingTexture_Placemat_Med_Llama_3--></T>
+    </U>
+  </L>
+</I>

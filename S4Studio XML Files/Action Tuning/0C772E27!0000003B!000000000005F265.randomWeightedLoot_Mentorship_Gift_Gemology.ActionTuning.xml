@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Mentorship_Gift_Gemology" s="389733">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376780<!--bookThin_SP49GENGemologyBeginner_01 (Gemology Vol 1: Shine On!)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">350972<!--statistic_Skill_AdultMajor_Gemology--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="upper_bound">3</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376777<!--book_SP49GENGemologyIntermediate_01 (Gemology Vol 2: Cutting Corners Carefully)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">350972<!--statistic_Skill_AdultMajor_Gemology--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="lower_bound">4</T>
+                        <T n="upper_bound">6</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376775<!--book_SP49GENGemologyAdvanced_01 (Gemology Vol 3: The Subtle Art of Jewelry Making)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">350972<!--statistic_Skill_AdultMajor_Gemology--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="lower_bound">7</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_recipe">
+                      <U n="specify_recipe">
+                        <T n="recipe">26356<!--recipe_Drink_FocusedPotion--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>15113<!--Consumable_Untouched--></T>
+                    <T>15304<!--Quality_Normal--></T>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="one_of_each" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="one_of_each" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="skill_test">
+        <U n="skill_test">
+          <T n="skill">350972<!--statistic_Skill_AdultMajor_Gemology--></T>
+          <V n="skill_range" t="interval">
+            <U n="interval">
+              <U n="skill_interval">
+                <T n="lower_bound">5</T>
+              </U>
+            </U>
+          </V>
+          <E n="subject">StoredSim</E>
+        </U>
+      </V>
+      <V t="relative_statistic">
+        <U n="relative_statistic">
+          <E n="comparison">LESS</E>
+          <T n="stat">350972<!--statistic_Skill_AdultMajor_Gemology--></T>
+          <E n="target">StoredSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

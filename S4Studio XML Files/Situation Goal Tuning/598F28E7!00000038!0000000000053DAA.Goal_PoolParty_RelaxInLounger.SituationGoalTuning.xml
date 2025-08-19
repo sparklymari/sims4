@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="Goal_PoolParty_RelaxInLounger" s="343466">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP15\UI\Icons\Events\Events_useFloatLounger.png">2f7d0004:00000000:61b5cab1082cd95c</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x5F860D13<!--Relax on a Float Lounger or Lounge Chair--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x6A55551D<!--Select or purchase a Float Lounger or regular Lounge Chair to Relax in.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>211822<!--chair_SitLoungeFloat_Nap--></T>
+      <T>211839<!--chair_SitLoungeFloat_NapFromRelax--></T>
+      <T>210582<!--chair_sitLoungeFloat_Relax--></T>
+      <T>211819<!--chair_SitLoungeFloat_RelaxFromNap--></T>
+      <T>210570<!--generic_SitLoungeFloat--></T>
+      <T>207637<!--generic_LoungeChair--></T>
+      <T>206824<!--chair_LoungeChair_Nap--></T>
+      <T>208934<!--chair_LoungeChair_NapFromRelax--></T>
+      <T>206826<!--chair_LoungeChair_Relax--></T>
+      <T>208937<!--chair_LoungeChair_RelaxFromNap--></T>
+      <T>213283<!--chair_LoungeChair_Relax_Child--></T>
+      <T>213284<!--chair_LoungeChair_RelaxFromNap_Child--></T>
+    </L>
+    <E n="test_event">InteractionStart</E>
+  </U>
+  <T n="_score">15</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

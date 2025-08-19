@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000037">
+  <Instances>
+    <I name="statistic_HorseTransaction_HorseValue" schema="ModifiableStatistic" type="Object">
+      <T name="max_value_tuning">100000</T>
+      <T name="min_value_tuning">0</T>
+      <T name="stat_name">0x00000000</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="ModifiableStatistic" schema_hash="0x5A0CC285">
+      <Columns>
+        <Column name="max_value_tuning" type="Int32" flags="0x00000000" />
+        <Column name="min_value_tuning" type="Int32" flags="0x00000000" />
+        <Column name="stat_name" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

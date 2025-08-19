@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_GiveMassages" s="384872">
+  <L n="affordances">
+    <T>119637<!--massageChair_WaitForWork--></T>
+    <T>273426<!--massageChair_WaitForWork_PlayerIsTending--></T>
+    <T>119072<!--massageTable_WaitForWork--></T>
+    <T>273439<!--massageTable_WaitForWork_PlayerIsTending--></T>
+  </L>
+  <E n="category">HOBBIES</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_spa.png">2f7d0004:00000000:12896e695621641b</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xA3631AC6<!--Give Massages--></T>
+  <T n="small_business_customer_rule">False</T>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xA4810C73<!--Sims will tend and stay near:--></T>
+        <T>0x94B29E87<!--• Massage Chairs\n• Massage Tables--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x2C4815CD<!--Give Massages--></T>
+  <T n="tooltip_template_negative">0xDBFC815D<!--Don't Give Massages--></T>
+</I>

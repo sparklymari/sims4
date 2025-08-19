@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Pottery_SetRepaired_PottedPlants_Pot1" s="454714">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">375012<!--potteryCeramic_VisualState_Repaired_Set1--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396805<!--potteryCeramic_VisualState_Broken_Set1--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374597<!--potteryCeramic_VisualState_Repaired_Set2--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396797<!--potteryCeramic_VisualState_Broken_Set2--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374601<!--potteryCeramic_VisualState_Repaired_Set3--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396798<!--potteryCeramic_VisualState_Broken_Set3--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374595<!--potteryCeramic_VisualState_Repaired_Set4--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396799<!--potteryCeramic_VisualState_Broken_Set4--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374596<!--potteryCeramic_VisualState_Repaired_Set5--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396800<!--potteryCeramic_VisualState_Broken_Set5--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374598<!--potteryCeramic_VisualState_Repaired_Set6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396801<!--potteryCeramic_VisualState_Broken_Set6--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374599<!--potteryCeramic_VisualState_Repaired_Set7--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396802<!--potteryCeramic_VisualState_Broken_Set7--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374600<!--potteryCeramic_VisualState_Repaired_Set8--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396803<!--potteryCeramic_VisualState_Broken_Set8--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374602<!--potteryCeramic_VisualState_Repaired_Set9--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396804<!--potteryCeramic_VisualState_Broken_Set9--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374603<!--potteryCeramic_VisualState_Repaired_Set10--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396795<!--potteryCeramic_VisualState_Broken_Set10--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374604<!--potteryCeramic_VisualState_Repaired_Set11--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396796<!--potteryCeramic_VisualState_Broken_Set11--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">454366<!--potteryCeramic_VisualState_Repaired_Set12--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">454365<!--potteryCeramic_VisualState_Broken_Set12--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396619<!--potteryCeramic_VisualState_Sprayed_Repaired_Set2--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396797<!--potteryCeramic_VisualState_Broken_Set2--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396620<!--potteryCeramic_VisualState_Sprayed_Repaired_Set3--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396798<!--potteryCeramic_VisualState_Broken_Set3--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396621<!--potteryCeramic_VisualState_Sprayed_Repaired_Set4--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396799<!--potteryCeramic_VisualState_Broken_Set4--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396622<!--potteryCeramic_VisualState_Sprayed_Repaired_Set5--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396800<!--potteryCeramic_VisualState_Broken_Set5--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396623<!--potteryCeramic_VisualState_Sprayed_Repaired_Set6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396801<!--potteryCeramic_VisualState_Broken_Set6--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396624<!--potteryCeramic_VisualState_Sprayed_Repaired_Set7--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396802<!--potteryCeramic_VisualState_Broken_Set7--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396625<!--potteryCeramic_VisualState_Sprayed_Repaired_Set8--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396803<!--potteryCeramic_VisualState_Broken_Set8--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396626<!--potteryCeramic_VisualState_Sprayed_Repaired_Set9--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396804<!--potteryCeramic_VisualState_Broken_Set9--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396627<!--potteryCeramic_VisualState_Sprayed_Repaired_Set10--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396795<!--potteryCeramic_VisualState_Broken_Set10--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">396628<!--potteryCeramic_VisualState_Sprayed_Repaired_Set11--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396796<!--potteryCeramic_VisualState_Broken_Set11--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">394319<!--potteryCeramic_GlazeState_Values_Sprayed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374597<!--potteryCeramic_VisualState_Repaired_Set2--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396797<!--potteryCeramic_VisualState_Broken_Set2--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374601<!--potteryCeramic_VisualState_Repaired_Set3--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396798<!--potteryCeramic_VisualState_Broken_Set3--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374595<!--potteryCeramic_VisualState_Repaired_Set4--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396799<!--potteryCeramic_VisualState_Broken_Set4--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374596<!--potteryCeramic_VisualState_Repaired_Set5--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396800<!--potteryCeramic_VisualState_Broken_Set5--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374598<!--potteryCeramic_VisualState_Repaired_Set6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396801<!--potteryCeramic_VisualState_Broken_Set6--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374599<!--potteryCeramic_VisualState_Repaired_Set7--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396802<!--potteryCeramic_VisualState_Broken_Set7--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374600<!--potteryCeramic_VisualState_Repaired_Set8--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396803<!--potteryCeramic_VisualState_Broken_Set8--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374602<!--potteryCeramic_VisualState_Repaired_Set9--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396804<!--potteryCeramic_VisualState_Broken_Set9--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374603<!--potteryCeramic_VisualState_Repaired_Set10--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396795<!--potteryCeramic_VisualState_Broken_Set10--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">374604<!--potteryCeramic_VisualState_Repaired_Set11--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">396796<!--potteryCeramic_VisualState_Broken_Set11--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">374606<!--potteryCeramic_GlazeState_Values_Glazed--></T>
+                <E n="who">SavedActor1</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="tags">
+            <U n="tags">
+              <L n="tag_set">
+                <E>Func_PottedPlants_Pottery_CanGlaze_1</E>
+                <E>Func_PottedPlants_Pottery_CanGlaze_2</E>
+              </L>
+              <E n="test_type">CONTAINS_ANY_TAG_IN_SET</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

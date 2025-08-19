@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000003">
+  <Instances>
+    <I name="relationshipTrack_ShortTermContext_InterrogationTable_Terrified" schema="ShortTermContextRelationshipTrack" type="Object">
+      <T name="display_in_sim_profile">0</T>
+      <V name="display_priority" variant="0xC1A03855" />
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="ShortTermContextRelationshipTrack" schema_hash="0x87B473CC">
+      <Columns>
+        <Column name="display_in_sim_profile" type="Boolean" flags="0x00000000" />
+        <Column name="display_priority" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

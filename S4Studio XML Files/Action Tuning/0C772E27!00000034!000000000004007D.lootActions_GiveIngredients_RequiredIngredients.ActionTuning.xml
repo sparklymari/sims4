@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_GiveIngredients_RequiredIngredients" s="262269">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">4</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270185<!--gardenFruitCropLarge_EP11GENAubergine_set1 (Oversized Aubergine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270186<!--gardenFruitCropLarge_EP11GENLettuce_set1 (Oversized Lettuce)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270187<!--gardenFruitCropLarge_EP11GENPumpkin_set1 (Oversized Pumpkin)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">271873<!--gardenFruitCropLarge_EP11GENWatermelon_set1 (Oversized Watermelon)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246130<!--gardenFruit_EP09GENmeatCube (Faux Meat Cube)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246131<!--gardenFruit_EP09GENmeatJerky (Faux Jerky Cube)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">242040<!--gardenFruit_EP09GENsoybean ({S.Soy Beans}{P.Soy Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">120986<!--collectFishLarge_EP03GENTuna (Tuna)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218626<!--collectFishLarge_EP07GENbluefinTuna (Bluefin Tuna)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45313<!--collectFIshLargeGENSturgeon_01 (Sturgeon)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218612<!--collectFishLarge_EP07GENgoldenMahimahi (Golden Mahi Mahi)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">218343<!--collectFishLarge_EP07GENmahimahi (Mahi Mahi)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45222<!--collectFishLargeGENWolfEel_01 (Wolf Eel)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45030<!--collectFishMedGENAngler_01 (Anglerfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44910<!--collectFishMedGENCatfish_01_set1 (Catfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">44914<!--collectFishMedGENTilapia_01 (Tilapia)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">120988<!--collectFishSmall_EP03GENPufferfish (Pufferfish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65201<!--collectFishSmall_GP01GENcrawdadBlue (Blue Crawdad)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65203<!--collectFishSmall_GP01GENcrawdadRed (Red Crawdad)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">266633<!--egg_EP11GEN_set1_white ({S.Egg}{P.Eggs})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">278923<!--foodIngredient_GENMeat01_redMeat (Wrapped Red Meat)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">278719<!--foodIngredient_GENMeat01_whiteMeat (Wrapped White Meat)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">278715<!--foodIngredient_GENsack_flour (Flour)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">278924<!--foodIngredient_GENsack_sugar (Sugar)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">260099<!--recipe_Food_Homestyle_Cheese_Multi--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256449<!--Recipe_Food_Canning_AppleJam--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256456<!--Recipe_Food_Canning_BlackberryJam--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256446<!--Recipe_Food_Canning_BlueberryJam--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256459<!--Recipe_Food_Canning_ChocolateSyrup--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256453<!--Recipe_Food_Canning_CowberryJam--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256448<!--Recipe_Food_Canning_Custard--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256458<!--Recipe_Food_Canning_Mayonnaise--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256447<!--Recipe_Food_Canning_RaspberryJam--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256445<!--Recipe_Food_Canning_StrawberryJam--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">256457<!--Recipe_Food_Canning_TomatoSauce--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261179<!--recipe_Food_Canning_EggplantConserve_Giant--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261181<!--recipe_Food_Canning_LettuceConserve_Giant--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">257586<!--recipe_Food_Canning_MushroomConserve_Charming--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65485<!--collectFishMed_GP01GENwalleye (Walleye)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261180<!--recipe_Food_Canning_MushroomConserve_Normal--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261182<!--recipe_Food_Canning_PumpkinConserve_Giant--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261186<!--recipe_Food_Canning_WatermelonConserve_Giant--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261365<!--recipe_Drink_AnimalObjectIngredients_Milk_Base--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">260118<!--recipe_Food_Homestyle_MilkBread_Multi--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Renderer.GlobalDofSettings" type="Object">
+      <T name="EnableDof">1</T>
+      <T name="NumKeysToUse">2</T>
+      <T name="NumBlurPasses">1</T>
+      <T name="NearBlurDist_0">0.01</T>
+      <T name="MinFocusDist_0">0.02</T>
+      <T name="MaxFocusDist_0">7.5</T>
+      <T name="FarBlurDist_0">60</T>
+      <T name="NearBlurStrength_0">0.01</T>
+      <T name="FarBlurStrength_0">1</T>
+      <T name="BlurRadiusScaler_0">0.14</T>
+      <T name="ZoomValue_0">3</T>
+      <T name="NearBlurDist_1">14</T>
+      <T name="MinFocusDist_1">28</T>
+      <T name="MaxFocusDist_1">155</T>
+      <T name="FarBlurDist_1">400</T>
+      <T name="NearBlurStrength_1">1</T>
+      <T name="FarBlurStrength_1">0.2</T>
+      <T name="BlurRadiusScaler_1">0.162</T>
+      <T name="ZoomValue_1">60</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Renderer.GlobalDofSettings" schema_hash="0x3E3202BF">
+      <Columns>
+        <Column name="EnableDof" type="Boolean" flags="0x00000000" />
+        <Column name="NumKeysToUse" type="Int32" flags="0x00000000" />
+        <Column name="NumBlurPasses" type="Int32" flags="0x00000000" />
+        <Column name="NearBlurDist_0" type="Single" flags="0x00000000" />
+        <Column name="MinFocusDist_0" type="Single" flags="0x00000000" />
+        <Column name="MaxFocusDist_0" type="Single" flags="0x00000000" />
+        <Column name="FarBlurDist_0" type="Single" flags="0x00000000" />
+        <Column name="NearBlurStrength_0" type="Single" flags="0x00000000" />
+        <Column name="FarBlurStrength_0" type="Single" flags="0x00000000" />
+        <Column name="BlurRadiusScaler_0" type="Single" flags="0x00000000" />
+        <Column name="ZoomValue_0" type="Single" flags="0x00000000" />
+        <Column name="NearBlurDist_1" type="Single" flags="0x00000000" />
+        <Column name="MinFocusDist_1" type="Single" flags="0x00000000" />
+        <Column name="MaxFocusDist_1" type="Single" flags="0x00000000" />
+        <Column name="FarBlurDist_1" type="Single" flags="0x00000000" />
+        <Column name="NearBlurStrength_1" type="Single" flags="0x00000000" />
+        <Column name="FarBlurStrength_1" type="Single" flags="0x00000000" />
+        <Column name="BlurRadiusScaler_1" type="Single" flags="0x00000000" />
+        <Column name="ZoomValue_1" type="Single" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_PipeOrgan_Cinema" s="149889">
+  <L n="music_tracks">
+    <T>149790<!--musicTrack_PipeOrgan_Cinema_High_01--></T>
+    <T>149791<!--musicTrack_PipeOrgan_Cinema_High_02--></T>
+    <T>149789<!--musicTrack_PipeOrgan_Cinema_High_03--></T>
+    <T>149793<!--musicTrack_PipeOrgan_Cinema_Low_01--></T>
+    <T>149794<!--musicTrack_PipeOrgan_Cinema_Low_02--></T>
+    <T>149792<!--musicTrack_PipeOrgan_Cinema_Low_03--></T>
+  </L>
+  <T n="pie_menu_category">149901<!--Instrument_PlaySong_Cinema--></T>
+</I>

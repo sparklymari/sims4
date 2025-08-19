@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R5Event_04" s="443652">
+  <T n="category">0x13C649B7<!--Woodworking Recipe--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Preview\NatureEvent_Preview_WoodChair.png">2f7d0004:00000000:ad90f8f37ebc3eca</T>
+  <L n="items">
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479495<!--sitDining_EF63EVRreclaimed_set1 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479496<!--sitDining_EF63EVRreclaimed_set2 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479497<!--sitDining_EF63EVRreclaimed_set3 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479498<!--sitDining_EF63EVRreclaimed_set4 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479499<!--sitDining_EF63EVRreclaimed_set5 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479500<!--sitDining_EF63EVRreclaimed_set6 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479501<!--sitDining_EF63EVRreclaimed_set7 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479502<!--sitDining_EF63EVRreclaimed_set8 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479503<!--sitDining_EF63EVRreclaimed_set9 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479514<!--sitDining_EF63EVRreclaimed_set10 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479515<!--sitDining_EF63EVRreclaimed_set11 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">479516<!--sitDining_EF63EVRreclaimed_set12 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+    <V t="recipe_item">
+      <U n="recipe_item">
+        <T n="item_resource">447513<!--recipe_Woodwork_R5Event_ReclaimedWoodChair--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">489932<!--sitDining_EF63EVRwoodworkLow_set1 (Reclaimed Wood Dining Chair)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0xA3CF96F0<!--Craft this item by selecting Craft Furniture on a Woodworking Table.\n\nYou can also purchase this item in Build Mode, but it's cheaper to craft it!--></T>
+  <T n="reward_description">0xC6CA7AE5<!--Is this wood locally-sourced?--></T>
+  <T n="reward_name">0x4974C860<!--Reclaimed Wood Dining Chair--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\END\NatureEvent_END_WoodChair.png">2f7d0004:00000000:a03fb578695f7801</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_WoodChair.png">2f7d0004:00000000:39815c858648d382</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_WoodChair.png">2f7d0004:00000000:39815c858648d382</T>
+</I>

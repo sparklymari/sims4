@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_Career_Mortician_Director_Level6" s="378034">
+  <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png">2f7d0004:00000000:a6ed756af9cb04a1</T>
+  <T n="name">0x9A909927</T>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x9A909927</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="money">
+        <U n="money">
+          <V n="money" t="literal">
+            <U n="literal">
+              <T n="value">2666</T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="object_definition">
+        <U n="object_definition">
+          <T n="definition">417614<!--sculptWall_EP17RWfuneralDirector_set1 (Corpus Commendations)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <T n="buff_type">311611<!--buff_LifeMilestone_Hidden_CareerMaxLevel--></T>
+          </U>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">417614<!--sculptWall_EP17RWfuneralDirector_set1 (Corpus Commendations)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">424353<!--sculptWall_EP17RWfuneralDirector_set2 (Corpus Commendations)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">424354<!--sculptWall_EP17RWfuneralDirector_set3 (Corpus Commendations)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">424355<!--sculptWall_EP17RWfuneralDirector_set4 (Corpus Commendations)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="display_text">
+        <U n="display_text">
+          <V n="text" t="override">
+            <T n="override">0xE016B0FC<!--Contemplate Existence--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440926<!--yfBody_EP17FuneralDirector_Amethyst--></T>
+          <V n="text" t="override">
+            <T n="override">0x2A778262<!--New Clothes!--></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440927<!--yfBody_EP17FuneralDirector_Copper--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440928<!--yfBody_EP17FuneralDirector_Emerald--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440929<!--yfBody_EP17FuneralDirector_Ivory--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440932<!--yfBody_EP17FuneralDirector_Onix--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440930<!--yfBody_EP17FuneralDirector_Rust--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">440931<!--yfBody_EP17FuneralDirector_Steel--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436498<!--ymBody_EP17FuneralDirector_Amethyst--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436499<!--ymBody_EP17FuneralDirector_Copper--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436500<!--ymBody_EP17FuneralDirector_Emerald--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436501<!--ymBody_EP17FuneralDirector_Ivory--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436504<!--ymBody_EP17FuneralDirector_Onix--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436502<!--ymBody_EP17FuneralDirector_Rust--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">436503<!--ymBody_EP17FuneralDirector_Steel--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434235<!--yuHat_EP17TopHat_Amethyst--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434235<!--yuHat_EP17TopHat_Amethyst--></T>
+          <V n="text" t="use_default" />
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434236<!--yuHat_EP17TopHat_Copper--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434237<!--yuHat_EP17TopHat_Emerald--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434238<!--yuHat_EP17TopHat_Ivory--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434241<!--yuHat_EP17TopHat_Onix--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434239<!--yuHat_EP17TopHat_Rust--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">434240<!--yuHat_EP17TopHat_Steel--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">5</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FilteredObjectPickerInteraction" i="interaction" m="interactions.picker.filtered_object_picker" n="filteredObjectPicker_AnimalObject_LivestockPen_Assign" s="265413">
+  <V n="_saveable" t="disabled" />
+  <V n="additional_tests" t="enabled">
+    <L n="enabled">
+      <L>
+        <V t="has_parent_object">
+          <U n="has_parent_object">
+            <T n="negate">True</T>
+            <E n="targets">PickedObject</E>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <V n="content_score" t="disabled" />
+  <V n="continuation" t="enabled">
+    <L n="enabled">
+      <U>
+        <T n="affordance">264846<!--sI_AnimalObjects_LivestockPen_AssignContinuation--></T>
+      </U>
+    </L>
+  </V>
+  <T n="display_name">0xB87DB17A<!--Assign Animal to Shed--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <V n="include_participant_inventory" t="enabled" />
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="object_filter" t="object_tags">
+    <U n="object_tags">
+      <L n="tag_set">
+        <E>Func_AnimalObject_Livestock_Cow</E>
+        <E>Func_AnimalObject_Livestock_Llama</E>
+      </L>
+    </U>
+  </V>
+  <V n="on_off_lot_requirement" t="anywhere" />
+  <V n="picker_dialog" t="object_picker">
+    <U n="object_picker">
+      <L n="filter_categories">
+        <U>
+          <T n="category_name">0x6AFC8E44<!--Cows--></T>
+          <U n="icon">
+            <T n="key" p="InEP11\UI\Icons\Filters\icon_filter_cow.png">2f7d0004:00000000:eebb4a56087038f7</T>
+          </U>
+          <E n="tag">Func_AnimalObject_Livestock_Cow</E>
+        </U>
+        <U>
+          <T n="category_name">0x68345F60<!--Llamas--></T>
+          <U n="icon">
+            <T n="key" p="InEP11\UI\Icons\Filters\icon_filter_llama.png">2f7d0004:00000000:7c36d84d09c44d79</T>
+          </U>
+          <E n="tag">Func_AnimalObject_Livestock_Llama</E>
+        </U>
+      </L>
+      <V n="max_selectable" t="static_count" />
+      <T n="num_columns">3</T>
+      <E n="picker_type">OBJECT_TEXT</E>
+      <E n="row_description_display">FULL_DESCRIPTION</E>
+      <V n="title" t="enabled">
+        <T n="enabled">0x14EF7803<!--Choose animal to assign to {1.ObjectName}.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>TODDLER</E>
+            <E>BABY</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">265844<!--testSet_AnimalObjects_LivestockPen_HasNoAnimal--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">266142<!--testSet_AnimalObjects_LivestockPen_WoohooLockout--></T>
+    </V>
+  </L>
+  <L n="use_household_inventory_definition_list">
+    <T>264866<!--animalCow_EP11GEN_set1 (Spotted Cow)--></T>
+    <T>276585<!--animalCow_EP11GEN_set2 (Brown Cow)--></T>
+    <T>279057<!--animalCow_EP11GEN_set3 (Cow)--></T>
+    <T>269148<!--animalLlama_EP11GEN_set1 (White Llama)--></T>
+    <T>272077<!--animalLlama_EP11GEN_set2 (Beige Llama)--></T>
+    <T>272078<!--animalLlama_EP11GEN_set3 (Llama)--></T>
+    <T>278859<!--animalLlama_EP11GEN_set4 (Llama)--></T>
+    <T>278860<!--animalLlama_EP11GEN_set5 (Llama)--></T>
+    <T>278861<!--animalLlama_EP11GEN_set6 (Llama)--></T>
+    <T>278862<!--animalLlama_EP11GEN_set7 (Llama)--></T>
+    <T>278863<!--animalLlama_EP11GEN_set8 (Llama)--></T>
+    <T>278864<!--animalLlama_EP11GEN_set9 (Llama)--></T>
+    <T>278865<!--animalLlama_EP11GEN_set10 (Llama)--></T>
+    <T>278866<!--animalLlama_EP11GEN_set11 (Llama)--></T>
+  </L>
+</I>

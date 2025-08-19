@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_HorseRiding_SimMounted" s="317537">
+  <L n="_loot_on_addition">
+    <T>327016<!--lootActions_EquestrianSkill_Remounting_SaddleSore--></T>
+    <T>334398<!--lootActions_MasterTrainer_HorseTraining_AddBuff_Sim--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>326925<!--lootActions_EquestrianSkill_RemoveNegativeSimBuffs_RemoveTimer_AddPostRideBuffs--></T>
+    <T>334402<!--lootActions_MasterTrainer_HorseTraining_RemoveBuff_Sim--></T>
+    <T>340506<!--lootActions_EquestrianSkill_SimPreference_RemoveBuffs_onSim--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <V n="affordance_compatibility" t="disabled" />
+          <L n="autonomy_constraints">
+            <U>
+              <V n="constraint" t="posture">
+                <U n="posture">
+                  <L n="posture_manifest_tuning">
+                    <U>
+                      <V n="posture_type" t="enabled">
+                        <T n="enabled">132262<!--posture_BeCarried--></T>
+                      </V>
+                    </U>
+                  </L>
+                </U>
+              </V>
+            </U>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_filters">
+        <U n="affordance_filters">
+          <V n="as_actor" t="enabled">
+            <U n="enabled">
+              <V n="interaction_filters" t="enabled">
+                <U n="enabled">
+                  <V n="super_affordance_filter" t="enabled">
+                    <V n="enabled" t="by_affordance_filter">
+                      <U n="by_affordance_filter">
+                        <V n="affordance_filter" t="literal">
+                          <U n="literal">
+                            <V n="default_inclusion" t="include_all">
+                              <U n="include_all">
+                                <L n="exclude_affordances">
+                                  <T>14410<!--terrain-gohere--></T>
+                                  <T>185933<!--terrain-gohere_Rain_Play--></T>
+                                  <T>185934<!--terrain-gohere_Rain_Shower--></T>
+                                  <T>129588<!--terrain-gohere_chatHere--></T>
+                                  <T>318882<!--SimPicker_CallHere_Pets--></T>
+                                  <T>328397<!--horseInteractions_SimToHorse_CallOver--></T>
+                                  <T>328399<!--horseInteractions_SimToHorse_GoHome--></T>
+                                  <T>327437<!--animalObjects_ObjectInInventory_Picker_PlaceInWorld--></T>
+                                  <T>440279<!--terrain-gohere_NLS_BatheInWater--></T>
+                                  <T>440278<!--terrain-gohere_NLS_MeditateOnGround--></T>
+                                  <T>436785<!--terrain-gohere_NLS_SleepOnGround--></T>
+                                  <T>436787<!--terrain-gohere_NLS_SummonABush--></T>
+                                  <T>229978<!--terrain_Vehicle_Bike-GoHere_BikeInInventory--></T>
+                                  <T>227318<!--terrain-walkhere--></T>
+                                  <T>434109<!--terrain-gohere_Foraging_ApothecaryIngredients--></T>
+                                  <T>434112<!--terrain-gohere_Foraging_Collectibles--></T>
+                                  <T>434111<!--terrain-gohere_Foraging_Food--></T>
+                                  <T>434108<!--terrain-gohere_Foraging_Forage--></T>
+                                  <T>434110<!--terrain-gohere_Foraging_Plants--></T>
+                                  <T>436745<!--teleportStyleSuperInteraction_FairyOccult_InstantlyFlyHere--></T>
+                                  <T>14415<!--terrain-teleport--></T>
+                                  <T>252825<!--terrain_SeanceTable_Create--></T>
+                                  <T>253910<!--seanceTable_Create--></T>
+                                  <T>26727<!--terrain-runHere--></T>
+                                  <T>287834<!--terrain-gohere_Werewolf_Mark--></T>
+                                  <T>287851<!--terrain-gohere_Werewolf_Scavenge--></T>
+                                  <T>289577<!--terrain-gohere_Werewolf_GroomSelf--></T>
+                                  <T>296726<!--terrain-gohere_Werewolf_Smell--></T>
+                                  <T>287835<!--terrain-gohere_Werewolf_Nap--></T>
+                                  <T>276978<!--teleportStyleSuperInteraction_Werewolf_Tunneler--></T>
+                                  <T>253998<!--vampire_SpiritPowers_TeleportAsMist--></T>
+                                  <T>253997<!--vampire_SpiritPowers_FlyAsBat--></T>
+                                  <T>214030<!--spells_Terrain_ConjureFood--></T>
+                                  <T>216908<!--spells_Terrain_ConjureFood_SpectralReach--></T>
+                                  <T>214089<!--spells_Terrain_ConjureFood_Grand--></T>
+                                  <T>216910<!--spells_Terrain_ConjureFood_Grand_SpectralReach--></T>
+                                  <T>214455<!--spells_Terrain_Spawn_Plant--></T>
+                                  <T>216912<!--spells_Terrain_Spawn_Plant_SpectralReach--></T>
+                                  <T>216911<!--spells_Terrain_Fire_SpectralReach--></T>
+                                  <T>215178<!--spells_Terrain_Fire--></T>
+                                  <T>214026<!--spells_Terrain_Teleport--></T>
+                                  <T>222119<!--spells_Terrain_Clean_DirtyFloor--></T>
+                                  <T>222120<!--spells_Terrain_Clean_DirtyFloor_SpectralReach--></T>
+                                  <T>217153<!--teleportStyleSuperInteraction_WitchBroom_UserDirected--></T>
+                                  <T>466772<!--terrain-gohere_Foraging_Forage_Rallyable--></T>
+                                  <T>435325<!--FairyJourney_PlantSeedling_Terrain--></T>
+                                  <T>441494<!--fairyJourney_PlantSeedling_Terrain_Fairy--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>349009<!--horseRiding_Rider_AutoSolveMotives_Start_Bladder--></T>
+    <T>349041<!--HorseRiding_Rider_AutoSolveMotives_Start_Charge_Servo--></T>
+    <T>349029<!--HorseRiding_Rider_AutoSolveMotives_Start_Durability_Servo--></T>
+    <T>349023<!--horseRiding_Rider_AutoSolveMotives_Start_Energy--></T>
+    <T>349021<!--horseRiding_Rider_AutoSolveMotives_Start_Hunger--></T>
+    <T>349022<!--horseRiding_Rider_AutoSolveMotives_Start_Hygiene--></T>
+    <T>349045<!--HorseRiding_Rider_AutoSolveMotives_Start_Power_Vampire--></T>
+    <T>349043<!--HorseRiding_Rider_AutoSolveMotives_Start_Thirst_Vampire--></T>
+    <T>349027<!--horseRiding_Rider_AutoSolveMotives_Start_Water_PlantSim--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">346155<!--immediateSuperInteraction-HorseRiding_RideHere_Sim--></T>
+      <V n="object_filter" t="filter_by_terrain" />
+    </U>
+    <U>
+      <T n="affordance">346154<!--immediateSuperInteraction-HorseRiding_TrotHere_Sim--></T>
+      <V n="object_filter" t="filter_by_terrain" />
+    </U>
+    <U>
+      <T n="affordance">346153<!--immediateSuperInteraction-HorseRiding_CanterHere_Sim--></T>
+      <V n="object_filter" t="filter_by_terrain" />
+    </U>
+    <U>
+      <T n="affordance">347558<!--horseRiding_SI_AutonomousChat_WithRiddenHorse--></T>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

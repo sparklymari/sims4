@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="small_business.small_business_tuning.SmallBusinessTunables" schema="small_business.small_business_tuning.SmallBusinessTunables" type="Object">
+      <L name="BUSINESS_RULES_PRESETS">
+        <T type="TableSetReference">427682</T>
+        <T type="TableSetReference">427683</T>
+        <T type="TableSetReference">427684</T>
+        <T type="TableSetReference">427685</T>
+        <T type="TableSetReference">427686</T>
+        <T type="TableSetReference">427687</T>
+        <T type="TableSetReference">427688</T>
+        <T type="TableSetReference">427689</T>
+        <T type="TableSetReference">427690</T>
+        <T type="TableSetReference">401727</T>
+        <T type="TableSetReference">401720</T>
+        <T type="TableSetReference">401729</T>
+        <T type="TableSetReference">401719</T>
+        <T type="TableSetReference">401724</T>
+        <T type="TableSetReference">401728</T>
+        <T type="TableSetReference">401723</T>
+        <T type="TableSetReference">401721</T>
+        <T type="TableSetReference">401722</T>
+        <T type="TableSetReference">401725</T>
+        <T type="TableSetReference">401726</T>
+        <T type="TableSetReference">437250</T>
+        <T type="TableSetReference">437249</T>
+      </L>
+      <L name="SMALL_BUSINESS_ICONS">
+        <T type="ResourceKey">00B2D882-00000000-7E76CA755F5CA7A6</T>
+        <T type="ResourceKey">00B2D882-00000000-46E368BAA27AC114</T>
+        <T type="ResourceKey">00B2D882-00000000-C9A4430CA0E3FC07</T>
+        <T type="ResourceKey">00B2D882-00000000-C5B9E49B8D1CAFE0</T>
+        <T type="ResourceKey">00B2D882-00000000-55A01677EFA85086</T>
+        <T type="ResourceKey">00B2D882-00000000-9070387569BA085F</T>
+        <T type="ResourceKey">00B2D882-00000000-289D1D82A7051E0B</T>
+        <T type="ResourceKey">00B2D882-00000000-2A4D0321668345F5</T>
+        <T type="ResourceKey">00B2D882-00000000-9500A695B4375054</T>
+        <T type="ResourceKey">00B2D882-00000000-F46BC06C99B7A14D</T>
+        <T type="ResourceKey">00B2D882-00000000-83B7F51264BFBDBC</T>
+        <T type="ResourceKey">00B2D882-00000000-FF2FFDB4FA9CE45A</T>
+        <T type="ResourceKey">00B2D882-00000000-1BB4DAA220077253</T>
+        <T type="ResourceKey">00B2D882-00000000-453576DB94038374</T>
+        <T type="ResourceKey">00B2D882-00000000-9AA4DCB82CFA0ADA</T>
+        <T type="ResourceKey">00B2D882-00000000-602524D944AD924E</T>
+        <T type="ResourceKey">00B2D882-00000000-F4B53B98B58E19C5</T>
+        <T type="ResourceKey">00B2D882-00000000-C9B5370CA0F25B29</T>
+        <T type="ResourceKey">00B2D882-00000000-F3D5F9F49C490B12</T>
+        <T type="ResourceKey">00B2D882-00000000-34A7D65E6A0298A8</T>
+        <T type="ResourceKey">00B2D882-00000000-065C0432D2AA3714</T>
+        <T type="ResourceKey">00B2D882-00000000-EA3D21750B214762</T>
+        <T type="ResourceKey">00B2D882-00000000-EA5F26750B3E359A</T>
+        <T type="ResourceKey">00B2D882-00000000-D21A2506BB2B2567</T>
+        <T type="ResourceKey">00B2D882-00000000-4C49E8F3A8CD4790</T>
+        <T type="ResourceKey">00B2D882-00000000-ECD2BA94C93F72A7</T>
+        <T type="ResourceKey">00B2D882-00000000-C16A3BAF492237E8</T>
+        <T type="ResourceKey">00B2D882-00000000-2BE378ADF28F3991</T>
+        <T type="ResourceKey">00B2D882-00000000-B6438F31396493F0</T>
+        <T type="ResourceKey">00B2D882-00000000-A4C5F04C3FA40658</T>
+      </L>
+      <T name="SMALL_BUSINESS_RANK_RANKED_STATISTIC">374179</T>
+      <T name="SMALL_BUSINESS_REPUTATION_RANKED_STATISTIC">376319</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="small_business.small_business_tuning.SmallBusinessTunables" schema_hash="0x45BAF379">
+      <Columns>
+        <Column name="BUSINESS_RULES_PRESETS" type="Vector" flags="0x00000000" />
+        <Column name="SMALL_BUSINESS_ICONS" type="Vector" flags="0x00000000" />
+        <Column name="SMALL_BUSINESS_RANK_RANKED_STATISTIC" type="TableSetReference" flags="0x00000000" />
+        <Column name="SMALL_BUSINESS_REPUTATION_RANKED_STATISTIC" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

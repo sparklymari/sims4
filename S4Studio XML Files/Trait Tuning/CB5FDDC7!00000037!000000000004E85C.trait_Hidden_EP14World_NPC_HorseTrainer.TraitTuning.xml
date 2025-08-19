@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Trait" i="trait" m="traits.traits" n="trait_Hidden_EP14World_NPC_HorseTrainer" s="321628">
+  <L n="ages">
+    <E>TEEN</E>
+    <E>ADULT</E>
+    <E>ELDER</E>
+    <E>YOUNGADULT</E>
+  </L>
+  <L n="buffs">
+    <U>
+      <T n="buff_type">321629<!--buff_Trait_EP14World_NPC_HorseTrainer--></T>
+    </U>
+    <U>
+      <T n="buff_type">323474<!--buff_Trait_EP14World_NPC_Headline_HorseTrainer--></T>
+    </U>
+  </L>
+  <V n="disable_aging" t="disabled" />
+  <T n="display_name">0x9D1629B0<!--Horse Trainer--></T>
+  <T n="display_name_gender_neutral">0x7FD49C98<!--Horse Trainer--></T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="is_npc_only">False</T>
+  <T n="remove_on_death">True</T>
+  <L n="species">
+    <E />
+  </L>
+  <E n="trait_type">HIDDEN</E>
+</I>

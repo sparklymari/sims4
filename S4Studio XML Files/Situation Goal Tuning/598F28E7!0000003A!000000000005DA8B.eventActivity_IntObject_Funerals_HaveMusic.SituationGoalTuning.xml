@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="eventActivity_IntObject_Funerals_HaveMusic" s="383627">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Events\EventGoal_Music.png">2f7d0004:00000000:207a4fb990e10b2a</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x3F935DF<!--Listen to Music--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x708DF994<!--Have a Sim Listen to Music.--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>413973<!--loot_Funerals_WillActivity_Buffs_HaveMusic--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>353772<!--listen_Learn_Mixer_Listen_Stereo--></T>
+      <T>14319<!--stereo_listenPassive--></T>
+      <T>147463<!--stereo_toddlers_listenPassive--></T>
+      <T>130635<!--stereo_listenPassive_mixer_DJBooth--></T>
+      <T>164745<!--stereo_earbuds_listenPassive_FromInventory--></T>
+      <T>35888<!--stereo_ListenDeeply--></T>
+      <T>120022<!--stereo_ListenDeeply_HotTub--></T>
+      <T>168766<!--stereo_earbuds_ListenDeeply--></T>
+      <T>228219<!--stereo_wall_listen--></T>
+      <T>14329<!--stereo_TurnOnAndListen--></T>
+      <T>179104<!--stereo_TurnOnAndListen_HotTub--></T>
+      <T>203710<!--stereo_TurnOnAndListen_Smart_Hub--></T>
+      <T>179145<!--stereo_TurnOnAndListen_dJBooth--></T>
+      <T>223534<!--stereo_TurnOnAndListen_Bot--></T>
+      <T>220193<!--stereo_TurnOnAndListen_HumanoidRobot--></T>
+      <T>179101<!--stereo_TurnOnAndListen_EarBuds--></T>
+      <T>227249<!--stereo_listen--></T>
+      <T>228438<!--stereo_listen_Bot--></T>
+      <T>228439<!--stereo_listen_djBooth--></T>
+      <T>228440<!--stereo_listen_HumanoidRobot--></T>
+      <T>228413<!--stereo_listen_SkatingRink--></T>
+      <T>228436<!--stereo_listen_Smart_Hub--></T>
+      <T>228415<!--stereo_listen_WaterScooter--></T>
+      <T>163310<!--stereo_listen_alt_TeenMoodSwing--></T>
+      <T>161787<!--stereo_listen_classical_CalmEmotions--></T>
+      <T>230689<!--stereo_listen_DJRex--></T>
+      <T>228222<!--stereo_listen_earbuds--></T>
+      <T>228316<!--stereo_listen_HotTub--></T>
+      <T>228317<!--stereo_listen_HotTub_NotInHotTub--></T>
+      <T>119006<!--stereo_HotTub_PickChannel--></T>
+      <T>14326<!--stereo_PickChannel--></T>
+      <T>203703<!--stereo_PickChannel_smart_hub--></T>
+      <T>128427<!--stereo_PickChannel_dJBooth--></T>
+      <T>251227<!--stereo_PickChannel_DJRex--></T>
+      <T>179953<!--stereo_PickChannel_SkatingRink--></T>
+      <T>205058<!--stereo_PickChannel_WaterScooter--></T>
+      <T>223533<!--stereo_PickChannel_Bot--></T>
+      <T>220191<!--stereo_PickChannel_HumanoidRobot--></T>
+      <T>166544<!--stereo_PickChannel_EarBuds--></T>
+    </L>
+    <V n="running_time" t="enabled">
+      <T n="enabled">5</T>
+    </V>
+    <E n="test_event">InteractionUpdate</E>
+  </U>
+  <L n="_post_tests">
+    <V t="buff">
+      <U n="buff">
+        <V n="whitelist" t="enabled">
+          <L n="enabled">
+            <T>392383<!--buff_Funerals_RoleBuffs_Celebration--></T>
+            <T>392384<!--buff_Funerals_RoleBuffs_Mingle--></T>
+            <T>392381<!--buff_Funerals_RoleBuffs_Mourn--></T>
+            <T>403982<!--buff_Funerals_RoleBuffs_Sleep--></T>
+            <T>392382<!--buff_Funerals_RoleBuffs_Speeches--></T>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+  </L>
+  <T n="_score">25</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <L n="role_tags">
+    <E>role_funeral</E>
+  </L>
+</I>

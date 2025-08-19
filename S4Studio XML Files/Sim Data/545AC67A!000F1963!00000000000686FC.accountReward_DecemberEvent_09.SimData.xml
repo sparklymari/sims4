@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="accountReward_DecemberEvent_09" schema="AccountReward" type="Object">
+      <T name="category">0xE3F0F4E8</T>
+      <T name="image">00B2D882-00000000-8A907D9EDCE8A746</T>
+      <L name="items">
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462545</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462546</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462547</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462548</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462549</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462550</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462552</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462551</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462553</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462554</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462555</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462556</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462557</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462558</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462560</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462559</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462561</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462562</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462563</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462564</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462565</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462566</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462568</T>
+        </V>
+        <V type="Variant" variant="0xF635D66E" schema="Tunable_CASAccountRewardItem">
+          <T name="item_resource">462567</T>
+        </V>
+      </L>
+      <T name="location_tip">0x652649F7</T>
+      <T name="reward_description">0x5D4CBD2A</T>
+      <T name="reward_name">0x2A05C5B5</T>
+      <T name="reward_thumbnail_image">00B2D882-00000000-C88795BB90856484</T>
+      <V name="reward_timeline_image" variant="0xCA1F42EC">
+        <T type="ResourceKey">00B2D882-00000000-26F9CECD05DA7546</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="AccountReward" schema_hash="0x808D1581">
+      <Columns>
+        <Column name="category" type="LocalizationKey" flags="0x00000000" />
+        <Column name="image" type="ResourceKey" flags="0x00000000" />
+        <Column name="items" type="Vector" flags="0x00000000" />
+        <Column name="location_tip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_thumbnail_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="reward_timeline_image" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_CASAccountRewardItem" schema_hash="0xF1C0F979">
+      <Columns>
+        <Column name="item_resource" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

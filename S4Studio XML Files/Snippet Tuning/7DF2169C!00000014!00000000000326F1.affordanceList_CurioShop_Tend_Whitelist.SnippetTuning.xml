@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_CurioShop_Tend_Whitelist" s="206577">
+  <L n="value">
+    <T>202372<!--marketStalls_ShopFor_CurioShop--></T>
+    <T>132843<!--social_MarketStall_Haggle--></T>
+    <T>13998<!--sim_Chat--></T>
+    <T>130313<!--ask_toLeaveLot_HiredNPC--></T>
+    <T>237102<!--social_Haggle_Freegan_MarketStall--></T>
+    <T>206881<!--marketStalls_Social_CurioShop_Recruit--></T>
+    <T>206882<!--marketStalls_Social_CurioShop_Recruit_DisplayOnly--></T>
+    <T>203210<!--marketStalls_Social_CurioShop_SecretMenu_BuyHazmatSuit--></T>
+    <T>203176<!--marketStalls_Social_CurioShop_SecretMenu_BuyKeycard--></T>
+    <T>204211<!--social_touching_InfectionCure_TestCure--></T>
+    <T>204212<!--social_touching_InfectionCure_AdministerCure--></T>
+    <T>203178<!--marketStalls_Social_CurioShop_Question_Spores--></T>
+    <T>249834<!--social_NegotiateDiscount_WorldlyKnowledge_MarketStall--></T>
+    <T>204489<!--marketStalls_Social_CurioShop_Question_RequestKeycard--></T>
+    <T>207038<!--marketStalls_Social_CurioShop_Question_AskAboutStrangerville--></T>
+    <T>203461<!--marketStalls_Socials_CurioShop_SellEvidence_Single--></T>
+    <T>203462<!--marketStalls_Socials_CurioShop_SellEvidence_All--></T>
+    <T>202384<!--marketStalls_Social_JustWearCASAsset_CurioShop_Shirt--></T>
+    <T>202385<!--marketStalls_Social_JustWearCASAsset_CurioShop_Hat--></T>
+    <T>202429<!--marketStalls_Social_BuyCASAssetAndWear_CurioShop_Shirt--></T>
+    <T>202380<!--marketStalls_Social_BuyCASAssetAndWear_CurioShop_Hat--></T>
+    <T>202430<!--marketStalls_Social_BuyCASAsset_CurioShop_Shirt--></T>
+    <T>202381<!--marketStalls_Social_BuyCASAsset_CurioShop_Hat--></T>
+  </L>
+</I>

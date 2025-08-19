@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_PortableKeyboard_Practice_Skill_04_Scales" s="144710">
+  <L n="music_tracks">
+    <T>144564<!--musicTrack_PortableKeyboard_Practice_Skill_04_09_Scales--></T>
+    <T>144565<!--musicTrack_PortableKeyboard_Practice_Skill_04_10_Scales--></T>
+    <T>144566<!--musicTrack_PortableKeyboard_Practice_Skill_04_11_Scales--></T>
+    <T>144555<!--musicTrack_PortableKeyboard_Practice_Skill_04_12_Scales--></T>
+    <T>150212<!--musicTrack_PortableKeyboard_Practice_Skill_04_13_Scales--></T>
+    <T>150213<!--musicTrack_PortableKeyboard_Practice_Skill_04_14_Scales--></T>
+    <T>150214<!--musicTrack_PortableKeyboard_Practice_Skill_04_15_Scales--></T>
+    <T>150215<!--musicTrack_PortableKeyboard_Practice_Skill_04_16_Scales--></T>
+    <T>150216<!--musicTrack_PortableKeyboard_Practice_Skill_04_17_Scales--></T>
+    <T>150217<!--musicTrack_PortableKeyboard_Practice_Skill_04_18_Scales--></T>
+    <T>150218<!--musicTrack_PortableKeyboard_Practice_Skill_04_19_Scales--></T>
+    <T>150219<!--musicTrack_PortableKeyboard_Practice_Skill_04_20_Scales--></T>
+    <T>144563<!--musicTrack_PortableKeyboard_Practice_Skill_04_21_Scales--></T>
+  </L>
+</I>

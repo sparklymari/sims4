@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CreateCarriedObjectSuperInteraction" i="interaction" m="interactions.base.create_object_interaction" n="microphone_StartLampoonRoutine" s="197900">
+  <V n="_animation_actor_map" t="reference">
+    <T n="reference">104044<!--CreateAndPickupObject--></T>
+  </V>
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V n="_saveable" t="enabled" />
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">32435<!--staticCommodity_PerformMicrophoneStandup--></T>
+    </U>
+  </L>
+  <T n="acquire_targets_as_resource">False</T>
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">11604<!--Mic_PickUp_PutDown_PickUpMic--></T>
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="state_change">
+      <U n="state_change">
+        <V n="new_value" t="single_value">
+          <U n="single_value">
+            <T n="new_value">30694<!--MicrophoneStand_MicDetached--></T>
+          </U>
+        </V>
+        <V n="timing" t="on_xevt">
+          <U n="on_xevt">
+            <E n="criticality">OnCancel</E>
+            <T n="xevt_id">700</T>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V n="basic_reserve_object" t="enabled" />
+  <L n="cancel_replacement_affordances">
+    <U>
+      <E n="key">CARRY</E>
+      <U n="value">
+        <T n="affordance">13580<!--microphone_PutBack--></T>
+        <V n="target" t="enabled" />
+      </U>
+    </U>
+  </L>
+  <V n="content_score" t="disabled" />
+  <V n="continuation_with_affordance_overrides" t="enabled">
+    <U n="enabled">
+      <L n="continuation">
+        <U>
+          <E n="actor">Actor</E>
+          <T n="affordance">197896<!--microphone_PerformComedyRoutine_SocialGroup_Short_Lampoon--></T>
+          <V n="carry_target" t="enabled">
+            <E n="enabled">CarriedObject</E>
+          </V>
+          <E n="target">Object</E>
+        </U>
+      </L>
+    </U>
+  </V>
+  <V n="definition" t="tuned_definition">
+    <V n="tuned_definition" t="tested">
+      <U n="tested">
+        <L n="records">
+          <U>
+            <U n="item">
+              <T n="definition">4099<!--micGEN_01_prop_set1 (Microphone)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">4098<!--micFloorStandGENWithMic_set1 (The Royal We Microphone)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">63926<!--micGEN_01_prop_set2 (Microphone)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">63924<!--micFloorStandGENWithMic_set2 (The Royal We Microphone)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">63927<!--micGEN_01_prop_set3 (Microphone)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">63925<!--micFloorStandGENWithMic_set3 (The Royal We Microphone)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">202353<!--mic_EP06GENacting_set1 (Mic)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">202355<!--micFloorStand_EP06GENacting_set1 (#Basic Microphone Stand)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">206920<!--mic_EP06GENacting_set2 (Mic)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">206918<!--micFloorStand_EP06GENacting_set2 (#Basic Microphone Stand)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">206921<!--mic_EP06GENacting_set3 (Mic)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">206919<!--micFloorStand_EP06GENacting_set3 (#Basic Microphone Stand)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">297989<!--mic_EP12GEN_set1 (One Two Microphone)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">297987<!--micFloorStand_EP12GEN_set1 (One Two Mic Stand)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">300826<!--mic_EP12GEN_set2 (One Two Microphone)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">300824<!--micFloorStand_EP12GEN_set2 (One Two Mic Stand)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">300827<!--mic_EP12GEN_set3 (One Two Microphone)--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">300825<!--micFloorStand_EP12GEN_set3 (One Two Mic Stand)--></T>
+                      </U>
+                    </V>
+                    <T n="owned">False</T>
+                    <V n="subject_specific_tests" t="single_object" />
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475099<!--micGEN_EP18JAZZ_set1--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454930<!--micFloorstand_EP18JAZZmic_set1 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475108<!--micGEN_EP18JAZZ_set10--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454939<!--micFloorstand_EP18JAZZmic_set10 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475109<!--micGEN_EP18JAZZ_set11--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454940<!--micFloorstand_EP18JAZZmic_set11 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475110<!--micGEN_EP18JAZZ_set12--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454941<!--micFloorstand_EP18JAZZmic_set12 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475100<!--micGEN_EP18JAZZ_set2--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454931<!--micFloorstand_EP18JAZZmic_set2 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475101<!--micGEN_EP18JAZZ_set3--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454932<!--micFloorstand_EP18JAZZmic_set3 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475102<!--micGEN_EP18JAZZ_set4--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454933<!--micFloorstand_EP18JAZZmic_set4 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475103<!--micGEN_EP18JAZZ_set5--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454934<!--micFloorstand_EP18JAZZmic_set5 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475104<!--micGEN_EP18JAZZ_set6--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454935<!--micFloorstand_EP18JAZZmic_set6 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475105<!--micGEN_EP18JAZZ_set7--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454936<!--micFloorstand_EP18JAZZmic_set7 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475106<!--micGEN_EP18JAZZ_set8--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454937<!--micFloorstand_EP18JAZZmic_set8 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <U n="item">
+              <T n="definition">475107<!--micGEN_EP18JAZZ_set9--></T>
+            </U>
+            <L n="tests">
+              <L>
+                <V t="object_definition_criteria">
+                  <U n="object_definition_criteria">
+                    <V n="identity_test" t="definition_id">
+                      <U n="definition_id">
+                        <T n="actual_object">454938<!--micFloorstand_EP18JAZZmic_set9 (Mikro's Ribbon Mic)--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </V>
+  <T n="display_name">0x97D7B1D7<!--Lampoon the Guest of Honor--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <V n="display_name_wrappers" t="enabled">
+    <U n="enabled">
+      <L n="wrappers">
+        <U>
+          <L n="test">
+            <L>
+              <V t="trait">
+                <U n="trait">
+                  <L n="blacklist_traits">
+                    <T>200510<!--trait_Hidden_isDisguised--></T>
+                  </L>
+                </U>
+              </V>
+              <V t="test_set_reference">
+                <T n="test_set_reference">229175<!--testSet_Venue_Residential_Disallow_Actor--></T>
+              </V>
+              <V t="sim_info_gameplay_options" />
+            </L>
+          </L>
+          <T n="wrapper">0xD20B3C9B<!--{0.String} <font color='#199C2C'>(+▰Fame)</font>--></T>
+        </U>
+      </L>
+    </U>
+  </V>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+    <E>Interaction_ComedyMic</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="loot_list">
+          <T>31626<!--Loot_StartComedyRoutine--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_generalEventSocial.png">2f7d0004:00000000:2a39b6e5c58e3ada</T>
+      </U>
+    </V>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <V n="test_disallow_while_running" t="enabled">
+    <U n="enabled">
+      <L n="affordances">
+        <T>13580<!--microphone_PutBack--></T>
+      </L>
+      <T n="test_self">True</T>
+    </U>
+  </V>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified" />
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="posture">
+      <U n="posture">
+        <L n="prohibited_postures">
+          <T>39398<!--posture_Swim--></T>
+        </L>
+      </U>
+    </V>
+    <V t="situation_running_test">
+      <U n="situation_running_test">
+        <V n="situation_whitelist" t="enabled">
+          <L n="enabled">
+            <T>197831<!--lampoonPartySituation--></T>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="situation_job_test">
+      <U n="situation_job_test">
+        <T n="negate">True</T>
+        <L n="situation_jobs">
+          <T>197863<!--job_guest_GuestOfHonor--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

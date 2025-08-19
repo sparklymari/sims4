@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Knitting_FailUnlock_Beanies" s="243680">
+  <L n="loot_actions">
+    <V t="cas_unlock">
+      <U n="cas_unlock">
+        <V n="cas_part_source" t="reference">
+          <U n="reference">
+            <L n="cas_parts">
+              <T>252768<!--cuHat_SP17Animal_MessyPink--></T>
+              <T>252756<!--puHat_SP17Animal_MessyPink--></T>
+              <T>251096<!--yuHat_SP17Animal_MessyPink--></T>
+              <T>342329<!--iuHat_SP17Animal_MessyPink--></T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="object_marketplace">
+      <U n="object_marketplace">
+        <V n="marketplace_operation" t="delist" />
+        <E n="target_participant_type">Object</E>
+      </U>
+    </V>
+  </L>
+</I>

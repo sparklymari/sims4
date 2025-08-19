@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_HorseCustomers" s="413653">
+  <L n="affordances">
+    <T>331612<!--horseObstacles_Barrels_NoRider_Basic_Autonomous--></T>
+    <T>334231<!--horseObstacles_Jumping_NoRider_Basic_Autonomous--></T>
+    <T>328440<!--horseInteractions_HorseToObject_HorseToy_PlayWithBall--></T>
+    <T>322268<!--horseSocials_HorseToHorse_Touching_Friendly_Sniff--></T>
+    <T>328827<!--horseSocials_HorseToSim_Touching_Friendly_Sniff--></T>
+  </L>
+  <E n="category">OUTDOOR</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_HorsesPlayAndLearn.png">2f7d0004:00000000:a28a7e2eeb61721c</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="club_rule">False</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xBCACA38E<!--Horses Play and Learn--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xAF0ED5D<!--Horses will use:\n• Big Balls\n• Horse Barrels\n• Horse Jumps--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x481E26D1<!--**DEBUG**--></T>
+  <T n="tooltip_template_negative">0x481E26D1<!--**DEBUG**--></T>
+</I>

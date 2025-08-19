@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="eventActivity_IntObject_Funerals_ViewBody" s="383616">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_Urn.png">2f7d0004:00000000:ca53d1442d508ac1</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0xCC508F71<!--Mourn Deceased--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x56330355<!--Complete by selecting the Funeral menu on the Urn or Gravestone and having a Sim Mourn, Weep, or Pretend to Wail.--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>413980<!--loot_Funerals_WillActivity_Buffs_ViewBody--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>14500<!--urnstone_MournFriend--></T>
+      <T>103192<!--urnstone_MournLovedOne--></T>
+      <T>14499<!--urnstone_MournEnemy--></T>
+      <T>14501<!--urnstone_MournNeutral--></T>
+      <T>166842<!--urnstone_MournFriend_pets--></T>
+      <T>394343<!--urnstone_BurialCasket_Mourn_Inventory--></T>
+      <T>391350<!--urnstone_Crypt_Mourn_Inventory--></T>
+      <T>383296<!--funerals_Weep--></T>
+      <T>383297<!--funerals_Wail--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <L n="_post_tests">
+    <V t="buff">
+      <U n="buff">
+        <V n="whitelist" t="enabled">
+          <L n="enabled">
+            <T>392383<!--buff_Funerals_RoleBuffs_Celebration--></T>
+            <T>392384<!--buff_Funerals_RoleBuffs_Mingle--></T>
+            <T>392381<!--buff_Funerals_RoleBuffs_Mourn--></T>
+            <T>403982<!--buff_Funerals_RoleBuffs_Sleep--></T>
+            <T>392382<!--buff_Funerals_RoleBuffs_Speeches--></T>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="is_active_sim" t="enabled" />
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+  </L>
+  <T n="_score">25</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <L n="role_tags">
+    <E>role_funeral</E>
+  </L>
+</I>

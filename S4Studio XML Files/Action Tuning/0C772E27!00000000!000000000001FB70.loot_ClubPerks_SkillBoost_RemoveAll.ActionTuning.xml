@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ClubPerks_SkillBoost_RemoveAll" s="129904">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>126252<!--buff_ClubPerks_SkillBoost_AdultMajor_Baking--></T>
+          <T>125834<!--buff_ClubPerks_SkillBoost_AdultMajor_Bartending--></T>
+          <T>125872<!--buff_ClubPerks_SkillBoost_AdultMajor_Charisma--></T>
+          <T>125880<!--buff_ClubPerks_SkillBoost_AdultMajor_Comedy--></T>
+          <T>125881<!--buff_ClubPerks_SkillBoost_AdultMajor_DJ--></T>
+          <T>125882<!--buff_ClubPerks_SkillBoost_AdultMajor_Fishing--></T>
+          <T>125883<!--buff_ClubPerks_SkillBoost_AdultMajor_Fitness--></T>
+          <T>125884<!--buff_ClubPerks_SkillBoost_AdultMajor_Gardening--></T>
+          <T>125885<!--buff_ClubPerks_SkillBoost_AdultMajor_GourmetCooking--></T>
+          <T>125886<!--buff_ClubPerks_SkillBoost_AdultMajor_Guitar--></T>
+          <T>125888<!--buff_ClubPerks_SkillBoost_AdultMajor_Handiness--></T>
+          <T>125889<!--buff_ClubPerks_SkillBoost_AdultMajor_HomestyleCooking--></T>
+          <T>125891<!--buff_ClubPerks_SkillBoost_AdultMajor_Logic--></T>
+          <T>125892<!--buff_ClubPerks_SkillBoost_AdultMajor_Mischief--></T>
+          <T>125894<!--buff_ClubPerks_SkillBoost_AdultMajor_Painting--></T>
+          <T>125896<!--buff_ClubPerks_SkillBoost_AdultMajor_Piano--></T>
+          <T>125897<!--buff_ClubPerks_SkillBoost_AdultMajor_Programming--></T>
+          <T>125899<!--buff_ClubPerks_SkillBoost_AdultMajor_RocketScience--></T>
+          <T>125900<!--buff_ClubPerks_SkillBoost_AdultMajor_VideoGaming--></T>
+          <T>125902<!--buff_ClubPerks_SkillBoost_AdultMajor_Violin--></T>
+          <T>125906<!--buff_ClubPerks_SkillBoost_AdultMajor_Writing--></T>
+          <T>126267<!--buff_ClubPerks_SkillBoost_AdultMajor_Herbalism--></T>
+          <T>128403<!--buff_ClubPerks_SkillBoost_AdultMajor_Wellness--></T>
+          <T>126250<!--buff_ClubPerks_SkillBoost_AdultMinor_Photography--></T>
+          <T>128399<!--buff_ClubPerks_SkillBoost_AdultMinor_Dancing--></T>
+          <T>125912<!--buff_ClubPerks_SkillBoost_Child_Creativity--></T>
+          <T>125915<!--buff_ClubPerks_SkillBoost_Child_Mental--></T>
+          <T>125916<!--buff_ClubPerks_SkillBoost_Child_Motor--></T>
+          <T>125920<!--buff_ClubPerks_SkillBoost_Child_Social--></T>
+          <T>151916<!--buff_ClubPerks_SkillBoost_AdultMajor_Singing--></T>
+          <T>163340<!--buff_ClubPerks_SkillBoost_AdultMinor_Bowling--></T>
+          <T>170916<!--buff_ClubPerks_SkillBoost_AdultMajor_DogTraining--></T>
+          <T>170915<!--buff_ClubPerks_SkillBoost_AdultMajor_Veterinarian--></T>
+          <T>239068<!--buff_ClubPerks_SkillBoost_AdultMinor_JuiceFizzing--></T>
+          <T>231943<!--buff_ClubPerks_SkillBoost_AdultMajor_Fabrication--></T>
+          <T>246489<!--buff_ClubPerks_SkillBoost_AdultMajor_Skiing--></T>
+          <T>253671<!--buff_ClubPerks_SkillBoost_AdultMajor_RockClimbing--></T>
+          <T>263767<!--buff_ClubPerks_SkillBoost_AdultMinor_CrossStitch--></T>
+          <T>332925<!--buff_ClubPerks_SkillBoost_AdultMajor_EquestrianSkill--></T>
+          <T>358413<!--buff_ClubPerks_SkillBoost_AdultMajor_Gemology--></T>
+          <T>393392<!--buff_ClubPerks_SkillBoost_AdultMajor_Romance--></T>
+          <T>395795<!--buff_ClubPerks_SkillBoost_AdultMajor_Tattooing--></T>
+          <T>410877<!--buff_ClubPerks_SkillBoost_AdultMajor_Pottery--></T>
+          <T>398462<!--buff_ClubPerks_SkillBoost_AdultMinor_Thanatology--></T>
+          <T>445831<!--buff_ClubPerks_SkillBoost_AdultMajor_Apothecary--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

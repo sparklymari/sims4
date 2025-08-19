@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="objects.puddles" s="17149811809009162087">
+  <C n="PuddleChoices">
+    <L n="PUDDLE_DEFINITIONS">
+      <T>22620<!--puddleSmall_01_black (Small Puddle)--></T>
+      <T>131822<!--puddleSmall_01_setGreenGoo (** DEBUG **)--></T>
+      <T>131824<!--puddleMedium_01_setGreenGoo (** DEBUG **)--></T>
+      <T>131823<!--puddleLarge_02_setGreenGoo (** DEBUG **)--></T>
+      <T>21129<!--puddleLarge_01_set1 (** DEBUG **)--></T>
+      <T>26389<!--puddleLarge_01_set2 (** DEBUG **)--></T>
+      <T>26390<!--puddleLarge_01_set3 (** DEBUG **)--></T>
+      <T>21127<!--puddleMedium_01_set1 (** DEBUG **)--></T>
+      <T>26392<!--puddleMedium_01_set2 (** DEBUG **)--></T>
+      <T>26393<!--puddleMedium_01_set3 (** DEBUG **)--></T>
+      <T>26394<!--puddleMedium_01_set4 (** DEBUG **)--></T>
+      <T>21124<!--puddleSmall_01_set1 (** DEBUG **)--></T>
+      <T>26395<!--puddleSmall_01_set2 (** DEBUG **)--></T>
+      <T>26396<!--puddleSmall_01_set3 (** DEBUG **)--></T>
+      <T>26397<!--puddleSmall_01_set4 (** DEBUG **)--></T>
+      <T>26398<!--puddleSmall_01_set5 (** DEBUG **)--></T>
+      <T>26399<!--puddleSmall_01_set6 (** DEBUG **)--></T>
+      <T>165470<!--puddleSmall_EP04GENvomit (Barf Puddle)--></T>
+      <T>188533<!--puddleMudLarge_EP05GEN01_set1 (Mud Puddle)--></T>
+      <T>188538<!--puddleMudLarge_EP05GEN02_set1 (Mud Puddle)--></T>
+      <T>188539<!--puddleMudLarge_EP05GEN03_set1 (Mud Puddle)--></T>
+      <T>246224<!--puddleToxicLarge_EP09GEN01 (puddleToxic_EP09GEN01)--></T>
+      <T>246225<!--puddleToxicLarge_EP09GEN02 (puddleToxic_EP09GEN01)--></T>
+      <T>246226<!--puddleToxicLarge_EP09GEN03 (puddleToxic_EP09GEN01)--></T>
+    </L>
+  </C>
+  <C n="PuddleLiquid">
+    <L n="_elements">
+      <T ev="1">Dark Matter</T>
+      <T ev="2">GreenGoo</T>
+      <T ev="57345">Vomit</T>
+      <T ev="59393">Mud</T>
+      <T ev="67585">Acid</T>
+    </L>
+  </C>
+</M>

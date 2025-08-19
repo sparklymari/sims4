@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectCreate_BoxOfDecorations_RandomFind_Spring" s="190014">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition_tested">
+          <U n="definition_tested">
+            <L n="definitions">
+              <U>
+                <T n="definition">189794<!--sculptTableMedium_EP05GENspringTileable_set1 (Spring Is In The Air Flower Arrangement)--></T>
+              </U>
+              <U>
+                <T n="definition">189803<!--sculptTableMedium_EP05GENspringTileable_set10 (Spring Is In The Air Flower Arrangement)--></T>
+              </U>
+              <U>
+                <T n="definition">189800<!--sculptTableMedium_EP05GENspringTileable_set7 (Spring Is In The Air Flower Arrangement)--></T>
+              </U>
+              <U>
+                <T n="definition">189804<!--sculptTableMedium_EP05GENspringTileable_set11 (Spring Is In The Air Flower Arrangement)--></T>
+              </U>
+              <U>
+                <T n="definition">189797<!--sculptTableMedium_EP05GENspringTileable_set4 (Spring Is In The Air Flower Arrangement)--></T>
+              </U>
+              <U>
+                <T n="definition">193723<!--plantPotFloor_EP05GENglass2x2x2_set2 (Titantic Terrarium)--></T>
+              </U>
+              <U>
+                <T n="definition">193726<!--plantPotFloor_EP05GENglass2x2x2_set5 (Titantic Terrarium)--></T>
+              </U>
+              <U>
+                <T n="definition">8980<!--plantPotTableQA_02_set1 (Princess Cordelia Corset Vase)--></T>
+              </U>
+              <U>
+                <T n="definition">61613<!--plantPotTableQA_02_set4 (Princess Cordelia Corset Vase)--></T>
+              </U>
+              <U>
+                <T n="definition">12071<!--sculptTableFCRabbitCeramic_01_set1 (Garden Friend)--></T>
+              </U>
+              <U>
+                <T n="definition">12072<!--sculptTableFCRabbitCeramic_01_set2 (Garden Friend)--></T>
+              </U>
+              <U>
+                <T n="definition">12074<!--sculptTableFCRabbitCeramic_01_set3 (Garden Friend)--></T>
+              </U>
+              <U>
+                <T n="definition">25027<!--sculptTableFCHenBasket_01_set1 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="definition">25028<!--sculptTableFCHenBasket_01_set2 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="definition">25029<!--sculptTableFCHenBasket_01_set3 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="definition">88170<!--sculptTableMedium_EF0gnomeNude_set1 (Bare Essentials Gnome)--></T>
+              </U>
+              <U>
+                <T n="definition">190016<!--sculptTableMedium_EP05GENcards_set2 (Assorted Holiday Card Displays)--></T>
+              </U>
+              <U>
+                <T n="definition">42247<!--sculptTableGENFloristTools_01_set1 (Florist’s Dream Gardening Tools)--></T>
+              </U>
+              <U>
+                <T n="definition">42248<!--sculptTableGENFloristTools_01_set2 (Florist’s Dream Gardening Tools)--></T>
+              </U>
+              <U>
+                <T n="definition">42249<!--sculptTableGENFloristTools_01_set3 (Florist’s Dream Gardening Tools)--></T>
+              </U>
+              <U>
+                <T n="definition">193201<!--umbrellaRack_EP05GENround_set3 (Umbri Umbrella Rack)--></T>
+              </U>
+              <U>
+                <T n="definition">137842<!--toyHand_EF04GENButterfly_set1 (Butterfly McButterflyface)--></T>
+              </U>
+              <U>
+                <T n="definition">144534<!--toyHand_EF04GENButterfly_set2 (Butterfly McButterflyface)--></T>
+              </U>
+              <U>
+                <T n="definition">144535<!--toyHand_EF04GENButterfly_set3 (Butterfly McButterflyface)--></T>
+              </U>
+              <U>
+                <T n="definition">147023<!--lightTableMedium_EF09GENCandles_set1 (A Story of Three Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">147025<!--lightTableMedium_EF09GENCandles_set3 (A Story of Three Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">147026<!--lightTableMedium_EF09GENCandles_set4 (A Story of Three Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">147027<!--lightTableMedium_EF09GENCandles_set5 (A Story of Three Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">24995<!--plantPotTableMIS_01_set1 (Mega Houseplant Pot)--></T>
+              </U>
+              <U>
+                <T n="definition">24996<!--plantPotTableMIS_01_set2 (Mega Houseplant Pot)--></T>
+              </U>
+              <U>
+                <T n="definition">24997<!--plantPotTableMIS_01_set3 (Mega Houseplant Pot)--></T>
+              </U>
+              <U>
+                <T n="definition">33347<!--plantPotTableKID_01_Set1 (Little Buddy Bud Vase)--></T>
+              </U>
+              <U>
+                <T n="definition">33351<!--plantPotTableKID_01_Set2 (Little Buddy Bud Vase)--></T>
+              </U>
+              <U>
+                <T n="definition">33352<!--plantPotTableKID_01_Set3 (Little Buddy Bud Vase)--></T>
+              </U>
+              <U>
+                <T n="definition">189993<!--sculptTableLarge_EP05GENcones_set7 (Spires Of Whimsy)--></T>
+              </U>
+              <U>
+                <T n="definition">189998<!--sculptTableLarge_EP05GENcones_set12 (Spires Of Whimsy)--></T>
+              </U>
+              <U>
+                <T n="definition">190006<!--sculptTableLarge_EP05GENhat_set5 (The Rabbit's Hat)--></T>
+              </U>
+              <U>
+                <T n="definition">190010<!--sculptTableLarge_EP05GENhat_set9 (The Rabbit's Hat)--></T>
+              </U>
+            </L>
+          </U>
+        </V>
+        <V n="location" t="position">
+          <U n="position">
+            <T n="ignore_bb_footprints">False</T>
+            <V n="initial_location" t="from_participant">
+              <U n="from_participant">
+                <E n="participant">Object</E>
+              </U>
+            </V>
+          </U>
+        </V>
+        <E n="owner_sim">Actor</E>
+        <T n="quantity">3</T>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="season">
+              <U n="season">
+                <L n="seasons">
+                  <E>SPRING</E>
+                </L>
+                <V n="time_of_season" t="disabled" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

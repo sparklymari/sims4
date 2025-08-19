@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="story_progression.story_progression_lot_selection" s="191437173753222919">
+  <C n="StoryProgressionLotSelection">
+    <T n="KID_TO_KID_BED_MULTIPLIER">1.2</T>
+    <L n="NUM_BEDS_TO_IDEAL_HOUSEHOLD_CURVE">
+      <U>
+        <T n="Num Beds">1</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">2</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">0.5</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">3</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">0.4</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">0.7</T>
+          </U>
+          <U>
+            <T n="x">3</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">4</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">0.1</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">0.4</T>
+          </U>
+          <U>
+            <T n="x">3</T>
+            <T n="y">0.8</T>
+          </U>
+          <U>
+            <T n="x">4</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">5</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">0.2</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">0.4</T>
+          </U>
+          <U>
+            <T n="x">3</T>
+            <T n="y">0.7</T>
+          </U>
+          <U>
+            <T n="x">4</T>
+            <T n="y">1</T>
+          </U>
+          <U>
+            <T n="x">5</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">6</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">0</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">0.1</T>
+          </U>
+          <U>
+            <T n="x">3</T>
+            <T n="y">0.5</T>
+          </U>
+          <U>
+            <T n="x">4</T>
+            <T n="y">0.75</T>
+          </U>
+          <U>
+            <T n="x">5</T>
+            <T n="y">1</T>
+          </U>
+          <U>
+            <T n="x">6</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">7</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+            <T n="y">0</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">0.1</T>
+          </U>
+          <U>
+            <T n="x">3</T>
+            <T n="y">0.25</T>
+          </U>
+          <U>
+            <T n="x">4</T>
+            <T n="y">0.5</T>
+          </U>
+          <U>
+            <T n="x">5</T>
+            <T n="y">0.8</T>
+          </U>
+          <U>
+            <T n="x">6</T>
+            <T n="y">1</T>
+          </U>
+          <U>
+            <T n="x">7</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <T n="Num Beds">8</T>
+        <L n="Ideal Household Curve">
+          <U>
+            <T n="x">1</T>
+          </U>
+          <U>
+            <T n="x">4</T>
+            <T n="y">0.5</T>
+          </U>
+          <U>
+            <T n="x">8</T>
+            <T n="y">1.2</T>
+          </U>
+          <U>
+            <T n="x">2</T>
+            <T n="y">0.1</T>
+          </U>
+          <U>
+            <T n="x">3</T>
+            <T n="y">0.2</T>
+          </U>
+          <U>
+            <T n="x">5</T>
+            <T n="y">0.6</T>
+          </U>
+          <U>
+            <T n="x">6</T>
+            <T n="y">0.8</T>
+          </U>
+          <U>
+            <T n="x">7</T>
+            <T n="y">1</T>
+          </U>
+          <U>
+            <T n="x">8</T>
+            <T n="y">1.2</T>
+          </U>
+        </L>
+      </U>
+    </L>
+    <L n="REGION_TO_HOUSEHOLD_POPULATION_DATA">
+      <U>
+        <T n="Region Description">117425<!--mixer_yogaMat_TreePose_Practice--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">118310<!--The Old Salt House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">119026<!--20 Culpepper House:Rasoya--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">125063<!--19 Culpepper House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">125064<!--17 Culpepper House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">125065<!--18 Culpepper House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130587<!--2B Jasmine Suites--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130589<!--2A Jasmine Suites:Bheeda--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130959<!--1020 Alto Apartments:Lobo--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130960<!--1010 Alto Apartments--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130962<!--888 Spire Apartments--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130963<!--VIII Landgraab--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130964<!--IX Landgraab:Feng--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130972<!--122 Hakim House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130975<!--121 Hakim House:Jang--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130977<!--Fountainview Penthouse--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130978<!--930 Medina Studios--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130979<!--920 Medina Studios--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130980<!--910 Medina Studios:Benali--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">130992<!--1310 21 Chic Street--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">131013<!--1312 21 Chic Street:Pizzazz--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">131014<!--1313 21 Chic Street--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">131015<!--701 ZenView:Karaoke Legends--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">135231<!--1 Torendi Tower Penthouse--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">137290<!--702 ZenView--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+          <L n="household_description_to_templates">
+            <U>
+              <T n="House Description">118310<!--The Old Salt House--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">119026<!--20 Culpepper House:Rasoya--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">120289<!--Stargazer Lounge--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">120290<!--Skye Fitness--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">120352<!--Planet Honey Pop!--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">123918<!--Casbah Gallery--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154348<!--householdTemplate_ArtsQuarter_African--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">125063<!--19 Culpepper House--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">125064<!--17 Culpepper House--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">125065<!--18 Culpepper House--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">125333<!--Waterside Warble--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130587<!--2B Jasmine Suites--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130589<!--2A Jasmine Suites:Bheeda--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154350<!--householdTemplate_SpiceMarket--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130959<!--1020 Alto Apartments:Lobo--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130960<!--1010 Alto Apartments--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130962<!--888 Spire Apartments--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130963<!--VIII Landgraab--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130964<!--IX Landgraab:Feng--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">98542<!--HH_template_NPC_adult_single--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130972<!--122 Hakim House--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154348<!--householdTemplate_ArtsQuarter_African--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130975<!--121 Hakim House:Jang--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154348<!--householdTemplate_ArtsQuarter_African--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130977<!--Fountainview Penthouse--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154360<!--householdTemplate_ArtsQuarter_MiddleEastern--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130978<!--930 Medina Studios--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154360<!--householdTemplate_ArtsQuarter_MiddleEastern--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130979<!--920 Medina Studios--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154360<!--householdTemplate_ArtsQuarter_MiddleEastern--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130980<!--910 Medina Studios:Benali--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154360<!--householdTemplate_ArtsQuarter_MiddleEastern--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">130992<!--1310 21 Chic Street--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">131013<!--1312 21 Chic Street:Pizzazz--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">131014<!--1313 21 Chic Street--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">131015<!--701 ZenView:Karaoke Legends--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">135231<!--1 Torendi Tower Penthouse--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">137290<!--702 ZenView--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">154351<!--householdTemplate_FashionDistrict--></T>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">146196<!--situationJob_PenthouseNeighbors_Hangout_Munchies_KeyHolders_Glutton--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">146331<!--Straud Mansion:Count Vladislaus Straud IV--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">151348<!--Wolfsbane Manor:Vatore--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">151350<!--Garliclauter Place--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">15740<!--recipe_Food_Gourmet_SandwichMonteCristo-Single--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">23298<!--Slipshod Mesquite:Zest--></T>
+              <U n="Household Templates">
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">23299<!--Sandtrap Flat--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">23301<!--Nookstone--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">23305<!--Vista Quarry--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">23307<!--Cacti Casa:Roomies--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31321<!--Agave Abode--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31324<!--Yuma Heights--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31325<!--Springscape--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31326<!--Raffia Quinta--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31327<!--Rio Verde--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31328<!--Sultry Springside:Caliente--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31329<!--Granada Place--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31430<!--Affluista Mansion:Landgraab--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+          <L n="household_description_to_templates">
+            <U>
+              <T n="House Description">23298<!--Slipshod Mesquite:Zest--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">15949<!--HH_template_NPC_GD_creole--></T>
+                </U>
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">27215<!--HH_template_NPC_GD_worker--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">23299<!--Sandtrap Flat--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27163<!--HH_template_NPC_GD_catlady--></T>
+                </U>
+                <U>
+                  <T n="household_template">27244<!--HH_template_NPC_GD_newlyweds--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">23301<!--Nookstone--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+                <U>
+                  <T n="household_template">27163<!--HH_template_NPC_GD_catlady--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">23305<!--Vista Quarry--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">27232<!--HH_template_NPC_GD_singleMom_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27244<!--HH_template_NPC_GD_newlyweds--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31321<!--Agave Abode--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75895<!--HH_template_NPC_partnersWithKid_female--></T>
+                </U>
+                <U>
+                  <T n="household_template">27232<!--HH_template_NPC_GD_singleMom_african_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31324<!--Yuma Heights--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">75914<!--HH_template_NPC_GD_FamilyWithKids_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27241<!--HH_template_NPC_GD_FamilyWithKids_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31325<!--Springscape--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">75914<!--HH_template_NPC_GD_FamilyWithKids_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27241<!--HH_template_NPC_GD_FamilyWithKids_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31326<!--Raffia Quinta--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27231<!--HH_template_NPC_GD_singleMom_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">75895<!--HH_template_NPC_partnersWithKid_female--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31327<!--Rio Verde--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">75914<!--HH_template_NPC_GD_FamilyWithKids_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27241<!--HH_template_NPC_GD_FamilyWithKids_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31328<!--Sultry Springside:Caliente--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27227<!--HH_template_NPC_GD_coeds_04--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75914<!--HH_template_NPC_GD_FamilyWithKids_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31329<!--Granada Place--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27358<!--HH_template_NPC_GD_adoptedKids_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27268<!--HH_template_NPC_GD_nuclearFamily_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31430<!--Affluista Mansion:Landgraab--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27163<!--HH_template_NPC_GD_catlady--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36265<!--Rattlesnake Juice--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36266<!--The Futures Past--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36267<!--The Solar Flare--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36268<!--Burners & Builders--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">42523<!--Desert Bloom--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">160112</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">164766<!--Chateau Frise:Delgato--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">164768<!--Catscratch Cottage:Lynx--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">164771<!--It's A Good House:Hecking--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">164772<!--Domus Familiaris--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">164776<!--Bedlington Boathouse--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">164777<!--Hound's Head--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">164779<!--Ragdoll Refurb--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">197663</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">201142<!--Upland Place:Jeong--></T>
+              <U n="Household Templates">
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">201143<!--Inner Circle--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">201145<!--Chateau Peak--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">201146<!--The Ward Den:Ward--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">201147<!--Bailey-Moon Manor:Bailey-Moon--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">208768</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">208787<!--Riverside Grove:Sigworth--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">208788<!--Old Penelope:Cahill--></T>
+              <U n="Household Templates">
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">208789<!--Carpophagous Corner--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">208830<!--Dream Weavers Way:Eclectic Arts Household--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">208831<!--Plateau Place--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">208833<!--StrangerVille Overlook:Roswell--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">6</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">210874<!--Slip 42--></T>
+              <U n="Household Templates">
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">216823<!--situationJob_Object_Fashion_Studio_Tripod_Subject--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">207080<!--Reef Finery:Ngata--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">212327<!--Admiral’s Wreckage--></T>
+              <U n="Household Templates">
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">212328<!--Caldera Camp--></T>
+              <U n="Household Templates">
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">212333<!--Chieftain's Villa:Hoapili--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">212339<!--Lagoon Look--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">212341<!--Tangled Flat--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">213424<!--Journey's End:Kahananui--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">213430<!--Pier Perfection--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">214462<!--Kin-Ship:Kealoha--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">221598</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">221617<!--Spring Steppes:Elderberry--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">222460<!--Mossy Lane:Pleasant--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">222462<!--Honeydew Fields--></T>
+              <U n="Household Templates">
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">222656</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">222665<!--Brooks Bridge Borough--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">224724<!--Rock Ridge Canyon:Charm Family--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">224725<!--Creek Side Corner:Amicable Acolytes--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">235805<!--situation_Walkby_Batuu_Citizen--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">237645<!--Pinecrest Apartments #404--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">238482<!--Pinecrest Apartments #402--></T>
+              <U n="Household Templates">
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">238525<!--The Waterfront--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">238632<!--Rockridge Springs--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">238636<!--Miner Mansion:Harris--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">238637<!--Stonestreet Apartments #3--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">241268<!--Stonestreet Apartments #4--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">241999<!--Canal Corner--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">242003<!--Pigulock Manor:Tinker--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">242291<!--The Shipping Views--></T>
+              <U n="Household Templates">
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">242292<!--The Old Mill:Sterling Rico--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">242294<!--The Portsmouth Promenade:Greenburg--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">246370<!--socials_Friendly_Skill_RockClimbing_OfferTips_Continuation--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">249013<!--2-4-3 Wakabamori--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">249014<!--2-5-1 Wakabamori:Ito--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">251675<!--6-4-1 Hanamigawa--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">251676<!--5-6-1 Shinrinyoku:Nishidake--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">251679<!--5-3-1 Shinrinyoku:Akiyama--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">263602<!--social_VillagerHelp_ScoldGroceryOwner--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">263230<!--3 Cobblebottom Street:Scott--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">263231<!--5 Cobblebottom Street--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">263232<!--1 Cobblebottom Street--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">263785<!--13 Nettle Lane--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">263787<!--14 Nettle Lane:Moody & McMillan--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">263789<!--Cordelia's Secret Cottage--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">264835<!--Olde Mill Hill:Watson Family--></T>
+              <U n="Household Templates">
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">264839<!--3 Olde Mill Lane--></T>
+              <U n="Household Templates">
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">264841<!--4 Olde Mill Lane:New Start--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">287506</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">293803<!--The Old Wood Nectary:Markovic--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">293806<!--Rifugio dei Pirati--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294230<!--Piccola Luce--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294233<!--Thebe Estate:Laurent--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">290968<!--loot_Venue_ThriftStore_SetNeutralTrend_Rocker--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">294293<!--Hillside Haven--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294464<!--Golden Peak:Prescott--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294465<!--Town Square Terrace--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294466<!--Water Tower Way:Harjo--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294989<!--BridgeCreek Drive:Price--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">294991<!--LaSuli Point--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">329915<!--rabbitHole_CommunityBoard_HorseTraining_Temperament_Lvl_03--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">332741<!--Palomino Junction--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332742<!--Canyon Crossing:Gooseman--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332744<!--Sweet Nectar Glade:The Nectar Making Duo--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332745<!--Biscuit's Bastion:The Grove Family--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332746<!--Grapevine Terrace--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332747<!--Canter Cottage--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332748<!--The Cozy Corner House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">332749<!--Champion's Grove:Sienna & Flapjack--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">336946<!--Big Sky Reach--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">359471</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">367438<!--Hothotok Shore:Bun Ma--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">367714<!--Chee-wít Chee-waa Kanto--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">395690<!--loot_ImprovedSelf_ChasedByDeath--></T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">395707<!--Mansión de la Pasión--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">395711<!--Casita del Amor--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">395712<!--Calle de la Promesa:López--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">396029<!--Avenida de la Eternidad:Dynamic Daters--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">402297<!--La Suite del Flechazo:Nadir--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">402298<!--Torres Amanecer--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">False</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">415482</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">415496<!--The Cozy Casket House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">415499<!--Old Ravenwood Estate--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">415501<!--Specter Family Manor:Specter--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">415502<!--Crow's Perch--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">415503<!--Moppy Manor--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">416874<!--Mourning Mist Manor:Izadi-Gomes--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">416878<!--Teardrop Cottage:Gomes--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">416879<!--The Marigold Chateau:Aether--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">417419</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">424922<!--Spilled Neon:Sarpong--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">424924<!--The Old Foundry:Urbane Housesharers--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">False</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">424927<!--Terra-Potta:Koopman--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">424929<!--Old Torget House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">424930<!--Koffieboon:Loden--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">8086</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">21313<!--Cypress Terrace:Spencer-Kim-Lewis--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">21332<!--Streamlet Single--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">21334<!--Crick Cabana--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31309<!--Daisy Hovel--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31310<!--Garden Essence:BFF--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31312<!--Rindle Rose--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31313<!--Pique Hearth:Pancakes--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31314<!--Riverside Roost--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31315<!--Umbrage Manor--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31317<!--Ophelia Villa:Goth--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31318<!--Parkshore--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">31429<!--Oakenstead--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">38375<!--Brook Bungalow--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+          </L>
+          <L n="household_description_to_templates">
+            <U>
+              <T n="House Description">21313<!--Cypress Terrace:Spencer-Kim-Lewis--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">15950<!--HH_template_NPC_GD_gentry--></T>
+                </U>
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">21332<!--Streamlet Single--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">27215<!--HH_template_NPC_GD_worker--></T>
+                </U>
+                <U>
+                  <T n="household_template">27244<!--HH_template_NPC_GD_newlyweds--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">21334<!--Crick Cabana--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27231<!--HH_template_NPC_GD_singleMom_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75900<!--HH_template_NPC_GD_roomies_female--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31309<!--Daisy Hovel--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27244<!--HH_template_NPC_GD_newlyweds--></T>
+                </U>
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">27163<!--HH_template_NPC_GD_catlady--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31310<!--Garden Essence:BFF--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">27358<!--HH_template_NPC_GD_adoptedKids_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31312<!--Rindle Rose--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27231<!--HH_template_NPC_GD_singleMom_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">75895<!--HH_template_NPC_partnersWithKid_female--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31313<!--Pique Hearth:Pancakes--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27231<!--HH_template_NPC_GD_singleMom_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">75895<!--HH_template_NPC_partnersWithKid_female--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31314<!--Riverside Roost--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">75895<!--HH_template_NPC_partnersWithKid_female--></T>
+                </U>
+                <U>
+                  <T n="household_template">27231<!--HH_template_NPC_GD_singleMom_caucasian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31315<!--Umbrage Manor--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27358<!--HH_template_NPC_GD_adoptedKids_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27268<!--HH_template_NPC_GD_nuclearFamily_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31317<!--Ophelia Villa:Goth--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27358<!--HH_template_NPC_GD_adoptedKids_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27268<!--HH_template_NPC_GD_nuclearFamily_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31318<!--Parkshore--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27241<!--HH_template_NPC_GD_FamilyWithKids_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75918<!--HH_template_NPC_GD_grandparents_latin_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">31429<!--Oakenstead--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27358<!--HH_template_NPC_GD_adoptedKids_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27268<!--HH_template_NPC_GD_nuclearFamily_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36251<!--Willow Creek Archive--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">75894<!--HH_template_NPC_partners_female--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">15949<!--HH_template_NPC_GD_creole--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36252<!--Movers & Shakers--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">27238<!--HH_template_NPC_GD_voodoo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">27157<!--HH_template_NPC_GD_hermit--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36253<!--The Blue Velvet--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27227<!--HH_template_NPC_GD_coeds_04--></T>
+                </U>
+                <U>
+                  <T n="household_template">75894<!--HH_template_NPC_partners_female--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">27244<!--HH_template_NPC_GD_newlyweds--></T>
+                </U>
+                <U>
+                  <T n="household_template">27360<!--HH_template_NPC_GD_familyWithKids_latin_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">36254<!--Municipal Muses--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27228<!--HH_template_NPC_GD_partners_male--></T>
+                </U>
+                <U>
+                  <T n="household_template">75894<!--HH_template_NPC_partners_female--></T>
+                </U>
+                <U>
+                  <T n="household_template">75896<!--HH_template_NPC_GD_roomies_oddCouple--></T>
+                </U>
+                <U>
+                  <T n="household_template">75903<!--HH_template_NPC_GD_onlyChild_asian_male_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">15950<!--HH_template_NPC_GD_gentry--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75895<!--HH_template_NPC_partnersWithKid_female--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">38375<!--Brook Bungalow--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">15951<!--HH_template_NPC_SO_wt--></T>
+                </U>
+                <U>
+                  <T n="household_template">27232<!--HH_template_NPC_GD_singleMom_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27244<!--HH_template_NPC_GD_newlyweds--></T>
+                </U>
+              </L>
+            </U>
+            <U>
+              <T n="House Description">42531<!--Magnolia Blossom--></T>
+              <L n="Household Templates">
+                <U>
+                  <T n="household_template">27358<!--HH_template_NPC_GD_adoptedKids_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27268<!--HH_template_NPC_GD_nuclearFamily_caucasian_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">27359<!--HH_template_NPC_GD_nuclearFamily_african_01--></T>
+                </U>
+                <U>
+                  <T n="household_template">75901<!--HH_template_NPC_GD_roomies_ThreesCo--></T>
+                </U>
+                <U>
+                  <T n="household_template">75915<!--HH_template_NPC_GD_grandparents_asian_01--></T>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="Region Description">93517</T>
+      </U>
+      <U>
+        <T n="Region Description">99995</T>
+        <U n="Household Population Data">
+          <L n="household_description_to_lot_data">
+            <U>
+              <T n="House Description">101568<!--Rustic Residence--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">101716<!--Cottage Am See:Free Spirits--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102399<!--Von-Windenburg Estate:Villareal--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">5</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102444<!--Waterlock Redoubt:Behr--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102445<!--Factory One:Partihaus--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102446<!--Havisham House--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102447<!--Proprietor’s Square--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">1</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102460<!--Coorinberg Cottage:Munch--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="has_kids_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102461<!--Dresden House:Fyres--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102557<!--The Lighthouse:Bjergsen--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">3</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102559<!--Pier Palace--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">4</T>
+              </U>
+            </U>
+            <U>
+              <T n="House Description">102560<!--Dock Den:Bro--></T>
+              <U n="Household Templates">
+                <T n="has_double_beds">True</T>
+                <T n="total_beds">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+    <T n="RELATIONSHIP_TRACK_MULTIPLIER">0.5</T>
+    <L n="RELATIONSHIP_UTILITY_CURVE">
+      <U>
+        <T n="y">1</T>
+      </U>
+      <U>
+        <T n="x">100</T>
+        <T n="y">1.5</T>
+      </U>
+    </L>
+    <T n="SIGNIFICANT_OTHER_MULTIPLIER">1.5</T>
+  </C>
+</M>

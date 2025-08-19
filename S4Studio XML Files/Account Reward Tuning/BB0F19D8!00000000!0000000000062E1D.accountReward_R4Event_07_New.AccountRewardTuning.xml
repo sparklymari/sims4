@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R4Event_07_New" s="405021">
+  <T n="category">0x1774940A<!--Accessories--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CASemitBowtie_large.png">2f7d0004:00000000:cb0c4d143d349ab0</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">453774<!--ymAcc_NecklaceEF62Bowtie_BlueLt--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">454197<!--ymAcc_NecklaceEF62Bowtie_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">454198<!--ymAcc_NecklaceEF62Bowtie_Pink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">454199<!--ymAcc_NecklaceEF62Bowtie_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">454201<!--ymAcc_NecklaceEF62Bowtie_Yellow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458176<!--yfAcc_NecklaceEF62Bowtie_BlueLt--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458172<!--yfAcc_NecklaceEF62Bowtie_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458173<!--yfAcc_NecklaceEF62Bowtie_Pink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458174<!--yfAcc_NecklaceEF62Bowtie_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458175<!--yfAcc_NecklaceEF62Bowtie_Yellow--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x2487DA0D<!--Find this item in Create a Sim under Accessories, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x890CF8FC<!--Emit often found time travel to be quite a head spin, until he discovered this handy neck stabilizer. Don't leave time without it!--></T>
+  <T n="reward_name">0xB8065A53<!--The Relevart Neck Stabilizer--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CASemitBowtie_large.png">2f7d0004:00000000:cb0c4d143d349ab0</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CASemitBowtie.png">2f7d0004:00000000:8c09c639fb76bd0c</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CASemitBowtie.png">2f7d0004:00000000:8c09c639fb76bd0c</T>
+</I>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="jewelry_crafting.jewelry_crafting_tuning" s="1143934853943165952">
+  <C n="JewelryCraftingTuning">
+    <U n="JEWELRY_DATA">
+      <T n="bad_energy_state_value">361609<!--gemology_BadEnergy_CommodityStateValues_On--></T>
+      <L n="crystal_definition_effects_strings_map">
+        <U>
+          <T n="crystal">178735<!--collectCrystalMed_GP06GEN_alexandrite (Alexandrite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360904<!--localizedString_Gemology_CrystalEffects_Alexandrite--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">178736<!--collectCrystalMed_GP06GEN_amazonite (Amazonite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360912<!--localizedString_Gemology_CrystalEffects_Amazonite--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360906<!--localizedString_Gemology_CrystalEffects_Amethyst--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360907<!--localizedString_Gemology_CrystalEffects_Diamond--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360879<!--localizedString_Gemology_CrystalEffects_Emerald--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360909<!--localizedString_Gemology_CrystalEffects_Hematite--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360901<!--localizedString_Gemology_CrystalEffects_Jonquilyst--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360880<!--localizedString_Gemology_CrystalEffects_OrangeTopaz--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">360914<!--localizedString_Gemology_CrystalEffects_OrangeTopaz_EP13--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360881<!--localizedString_Gemology_CrystalEffects_PeachQuartz--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360903<!--localizedString_Gemology_CrystalEffects_Rainborz--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360895<!--localizedString_Gemology_CrystalEffects_Sapphire--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">360915<!--localizedString_Gemology_CrystalEffects_Sapphire_EP13--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360911<!--localizedString_Gemology_CrystalEffects_Simanite--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360877<!--localizedString_Gemology_CrystalEffects_Alabaster--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360878<!--localizedString_Gemology_CrystalEffects_Citrine--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360908<!--localizedString_Gemology_CrystalEffects_FireOpal--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360900<!--localizedString_Gemology_CrystalEffects_Jet--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360902<!--localizedString_Gemology_CrystalEffects_Plumbite--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360882<!--localizedString_Gemology_CrystalEffects_Quartz--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360883<!--localizedString_Gemology_CrystalEffects_RoseQuartz--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360884<!--localizedString_Gemology_CrystalEffects_Ruby--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360910<!--localizedString_Gemology_CrystalEffects_Shinolite--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360896<!--localizedString_Gemology_CrystalEffects_Turquoise--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360905<!--localizedString_Gemology_CrystalEffects_Amber--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360913<!--localizedString_Gemology_CrystalEffects_Moonstone--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">360916<!--localizedString_Gemology_CrystalEffects_Moonstone_GP04--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">360917<!--localizedString_Gemology_CrystalEffects_Moonstone_GP08--></T>
+            </V>
+            <V t="reference">
+              <T n="reference">360918<!--localizedString_Gemology_CrystalEffects_Moonstone_GP12--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360899<!--localizedString_Gemology_CrystalEffects_Jade--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">72395<!--collectCrystalMed_EP01GEN_crandestine (Crandestine)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360897<!--localizedString_Gemology_CrystalEffects_Crandestine--></T>
+            </V>
+          </L>
+        </U>
+        <U>
+          <T n="crystal">72396<!--collectCrystalMed_EP01GEN_nitelite (Nitelite)--></T>
+          <L n="strings">
+            <V t="reference">
+              <T n="reference">360898<!--localizedString_Gemology_CrystalEffects_Nitelite--></T>
+            </V>
+          </L>
+        </U>
+      </L>
+      <T n="crystal_state">352553<!--crystalType_State--></T>
+      <L n="crystal_state_buff_map">
+        <U>
+          <T n="crystal states">352837<!--crystalType_Alabaster--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xE77C7A04<!--(From Wearing Charged Alabaster)--></T>
+            </V>
+            <T n="buff_type">351441<!--buff_Gemology_Alabaster_NegativeMoodlets--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352838<!--crystalType_Amethyst--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xFC5F580C<!--(From Wearing Charged Amethyst)--></T>
+            </V>
+            <T n="buff_type">351451<!--buff_Gemology_Amethyst_LucidDreams--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352839<!--crystalType_Citrine--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x51BDF7E4<!--(From Wearing Charged Citrine)--></T>
+            </V>
+            <T n="buff_type">351453<!--buff_Gemology_Citrine_FindSimoleons--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352840<!--crystalType_Diamond--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x791ED036<!--(From Wearing Charged Diamond)--></T>
+            </V>
+            <T n="buff_type">351455<!--buff_Gemology_Diamond_PartnersBond--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352841<!--crystalType_Emerald--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x583FFB4C<!--(From Wearing Charged Emerald)--></T>
+            </V>
+            <T n="buff_type">351449<!--buff_Gemology_Emerald_ChanceCards--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352842<!--crystalType_FireOpal--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x55CF00AC<!--(From Wearing Charged Fire Opal)--></T>
+            </V>
+            <T n="buff_type">351456<!--buff_Gemology_FireOpal_DateSuccess--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352843<!--crystalType_Hematite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x7EBF262B<!--(From Wearing Charged Hematite)--></T>
+            </V>
+            <T n="buff_type">351457<!--buff_Gemology_Hematite_Immortal--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352844<!--crystalType_Jet--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x258CFAB8<!--(From Wearing Charged Jet)--></T>
+            </V>
+            <T n="buff_type">351489<!--buff_Gemology_Jet_GrimWoohoo--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352845<!--crystalType_Jonquilyst--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x8886E78<!--(From Wearing Charged Jonquilyst)--></T>
+            </V>
+            <T n="buff_type">351490<!--buff_Gemology_Jonquilyst_TenseMoodlets--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352846<!--crystalType_OrangeTopaz--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x260D32DF<!--(From Wearing Charged Orange Topaz)--></T>
+            </V>
+            <T n="buff_type">351493<!--buff_Gemology_OrangeTopaz_CreativeSkills--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352847<!--crystalType_PeachQuartz--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x7F68E864<!--(From Wearing Charged Peach)--></T>
+            </V>
+            <T n="buff_type">351494<!--buff_Gemology_PeachQuartz_FamilyBond--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352848<!--crystalType_Plumbite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6FABB81D<!--(From Wearing Charged Plumbite)--></T>
+            </V>
+            <T n="buff_type">351495<!--buff_Gemology_Plumbite_MotivesIncrease--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352849<!--crystalType_Quartz--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x7D7DC073<!--(From Wearing Charged Quartz)--></T>
+            </V>
+            <T n="buff_type">351448<!--buff_Gemology_Quartz_AspirationPoints--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352850<!--crystalType_Rainborz--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x701ABBD0<!--(From Wearing Charged Rainborz)--></T>
+            </V>
+            <T n="buff_type">351440<!--buff_Gemology_Rainborz_Brave--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352851<!--crystalType_RoseQuartz--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xACA4644D<!--(From Wearing Charged Rose Quartz)--></T>
+            </V>
+            <T n="buff_type">351496<!--buff_Gemology_Rose_PartnerLoss--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352852<!--crystalType_Ruby--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDF37AE16<!--(From Wearing Charged Ruby)--></T>
+            </V>
+            <T n="buff_type">351497<!--buff_Gemology_Ruby_BadWoohoo--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352853<!--crystalType_Sapphire--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xFD8A9426<!--(From Wearing Charged Sapphire)--></T>
+            </V>
+            <T n="buff_type">351498<!--buff_Gemology_Sapphire_MentalSkills--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352854<!--crystalType_Shinalite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x4D163B22<!--(From Wearing Charged Shinolite)--></T>
+            </V>
+            <T n="buff_type">351499<!--buff_Gemology_Shinolite_Fertility--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352855<!--crystalType_Simanite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6D75A5EC<!--(From Wearing Charged Simanite)--></T>
+            </V>
+            <T n="buff_type">351500<!--buff_Gemology_Simanite_CareerProgress--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352856<!--crystalType_Turquoise--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xED07FE26<!--(From Wearing Charged Turquoise)--></T>
+            </V>
+            <T n="buff_type">351502<!--buff_Gemology_Turquoise_ConfidentSkills--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352857<!--crystalType_Crandestine--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x68F1F5BA<!--(From Wearing Charged Crandestine)--></T>
+            </V>
+            <T n="buff_type">351454<!--buff_Gemology_Crandestine_WeakWill--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352858<!--crystalType_Nitelite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x51D9A9F<!--(From Wearing Charged Nitelite)--></T>
+            </V>
+            <T n="buff_type">351492<!--buff_Gemology_Nitelite_AlienPowers--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352859<!--crystalType_Amazonite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDCFBAC4B<!--(From Wearing Charged Amazonite)--></T>
+            </V>
+            <T n="buff_type">351443<!--buff_Gemology_Amazonite_QualityArtifacts--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352860<!--crystalType_Alexandrite--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xE624C5B7<!--(From Wearing Charged Alexandrite)--></T>
+            </V>
+            <T n="buff_type">351442<!--buff_Gemology_Alexandrite_WantsRefresh--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352861<!--crystalType_Amber--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDBC7F06B<!--(From Wearing Charged Amber)--></T>
+            </V>
+            <T n="buff_type">355896<!--buff_Gemology_Amber_SuccessClearSkies--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352862<!--crystalType_Moonstone--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0xDC8F5E6F<!--(From Wearing Charged Moonstone)--></T>
+            </V>
+            <T n="buff_type">351491<!--buff_Gemology_Moonstone_Occults--></T>
+          </U>
+        </U>
+        <U>
+          <T n="crystal states">352863<!--crystalType_Jade--></T>
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x677810DF<!--(From Wearing Charged Jade)--></T>
+            </V>
+            <T n="buff_type">351458<!--buff_Gemology_Jade_FindCrystals--></T>
+          </U>
+        </U>
+      </L>
+      <U n="drained_buff">
+        <V n="buff_reason" t="enabled">
+          <T n="enabled">0xB7858AB0<!--(From Worn Jewelry Losing Charge)--></T>
+        </V>
+        <T n="buff_type">362158<!--buff_Gemology_Drained_Tense_Jewelry--></T>
+      </U>
+      <T n="drained_state_value">351245<!--crystalCharge_Status_Drained--></T>
+      <T n="draining_state_value">351244<!--crystalCharge_Status_Neutral--></T>
+      <L n="gemstone_cutting_recipes">
+        <T>352900<!--recipe_Gemology_CutGemstone_Spire--></T>
+        <T>352893<!--recipe_Gemology_CutGemstone_Cabochon--></T>
+        <T>352894<!--recipe_Gemology_CutGemstone_Emerald--></T>
+        <T>352898<!--recipe_Gemology_CutGemstone_Seed--></T>
+        <T>352896<!--recipe_Gemology_CutGemstone_Pear--></T>
+        <T>352892<!--recipe_Gemology_CutGemstone_Brilliant--></T>
+        <T>352901<!--recipe_Gemology_CutGemstone_Star--></T>
+        <T>352899<!--recipe_Gemology_CutGemstone_Skull--></T>
+        <T>352895<!--recipe_Gemology_CutGemstone_Heart--></T>
+        <T>352897<!--recipe_Gemology_CutGemstone_Plumbob--></T>
+        <T>361122<!--recipe_Gemology_CutGemstone_Gnome--></T>
+      </L>
+      <L n="jewelry_recipes">
+        <T>355262<!--recipe_Gemology_Jewelry_Bracelet_1--></T>
+        <T>355263<!--recipe_Gemology_Jewelry_Bracelet_2--></T>
+        <T>355264<!--recipe_Gemology_Jewelry_Bracelet_3--></T>
+        <T>355265<!--recipe_Gemology_Jewelry_Bracelet_4--></T>
+        <T>355266<!--recipe_Gemology_Jewelry_Bracelet_5--></T>
+        <T>355267<!--recipe_Gemology_Jewelry_Bracelet_6--></T>
+        <T>355268<!--recipe_Gemology_Jewelry_Bracelet_7--></T>
+        <T>355269<!--recipe_Gemology_Jewelry_Bracelet_8--></T>
+        <T>355270<!--recipe_Gemology_Jewelry_Bracelet_9--></T>
+        <T>355271<!--recipe_Gemology_Jewelry_Bracelet_10--></T>
+        <T>355284<!--recipe_Gemology_Jewelry_Bracelet_11--></T>
+        <T>355261<!--recipe_Gemology_Jewelry_Bracelet_12--></T>
+        <T>355273<!--recipe_Gemology_Jewelry_Earring_1--></T>
+        <T>355274<!--recipe_Gemology_Jewelry_Earring_2--></T>
+        <T>355275<!--recipe_Gemology_Jewelry_Earring_3--></T>
+        <T>355276<!--recipe_Gemology_Jewelry_Earring_4--></T>
+        <T>355277<!--recipe_Gemology_Jewelry_Earring_5--></T>
+        <T>355278<!--recipe_Gemology_Jewelry_Earring_6--></T>
+        <T>355279<!--recipe_Gemology_Jewelry_Earring_7--></T>
+        <T>355280<!--recipe_Gemology_Jewelry_Earring_8--></T>
+        <T>355281<!--recipe_Gemology_Jewelry_Earring_9--></T>
+        <T>355282<!--recipe_Gemology_Jewelry_Earring_10--></T>
+        <T>355283<!--recipe_Gemology_Jewelry_Earring_11--></T>
+        <T>355272<!--recipe_Gemology_Jewelry_Earring_12--></T>
+        <T>355286<!--recipe_Gemology_Jewelry_Necklace_1--></T>
+        <T>355287<!--recipe_Gemology_Jewelry_Necklace_2--></T>
+        <T>355288<!--recipe_Gemology_Jewelry_Necklace_3--></T>
+        <T>355289<!--recipe_Gemology_Jewelry_Necklace_4--></T>
+        <T>355290<!--recipe_Gemology_Jewelry_Necklace_5--></T>
+        <T>355291<!--recipe_Gemology_Jewelry_Necklace_6--></T>
+        <T>355292<!--recipe_Gemology_Jewelry_Necklace_7--></T>
+        <T>355293<!--recipe_Gemology_Jewelry_Necklace_8--></T>
+        <T>355294<!--recipe_Gemology_Jewelry_Necklace_9--></T>
+        <T>355295<!--recipe_Gemology_Jewelry_Necklace_10--></T>
+        <T>355296<!--recipe_Gemology_Jewelry_Necklace_11--></T>
+        <T>355285<!--recipe_Gemology_Jewelry_Necklace_12--></T>
+        <T>355298<!--recipe_Gemology_Jewelry_Ring_1--></T>
+        <T>355299<!--recipe_Gemology_Jewelry_Ring_2--></T>
+        <T>355300<!--recipe_Gemology_Jewelry_Ring_3--></T>
+        <T>355301<!--recipe_Gemology_Jewelry_Ring_4--></T>
+        <T>355302<!--recipe_Gemology_Jewelry_Ring_5--></T>
+        <T>355303<!--recipe_Gemology_Jewelry_Ring_6--></T>
+        <T>355304<!--recipe_Gemology_Jewelry_Ring_7--></T>
+        <T>355305<!--recipe_Gemology_Jewelry_Ring_8--></T>
+        <T>355306<!--recipe_Gemology_Jewelry_Ring_9--></T>
+        <T>355307<!--recipe_Gemology_Jewelry_Ring_10--></T>
+        <T>355308<!--recipe_Gemology_Jewelry_Ring_11--></T>
+        <T>355297<!--recipe_Gemology_Jewelry_Ring_12--></T>
+      </L>
+      <U n="material_picker_tooltip">
+        <V n="cost_color" t="hex">
+          <U n="hex">
+            <T n="hex_code">#199c2c</T>
+          </U>
+        </V>
+        <T n="design_without_crystal_text">0x8A9034A7<!--This design does not require a crystal--></T>
+        <V n="effects_color" t="hex">
+          <U n="hex">
+            <T n="hex_code">#1e81e6</T>
+          </U>
+        </V>
+        <T n="if_charged_text">0x6DD3FA17<!--If Charged on the Crystal Grid:--></T>
+        <T n="not_purchasable_crystal_text">0x4DDE35CA<!--Cannot be purchased--></T>
+        <T n="not_purchasable_design_text">0xA11564A<!--Requires level {0.Number} in Gemology--></T>
+        <T n="not_purchasable_metal_text">0x4DDE35CA<!--Cannot be purchased--></T>
+        <V n="rarity_color" t="hex">
+          <U n="hex">
+            <T n="hex_code">#ae3cde</T>
+          </U>
+        </V>
+      </U>
+      <T n="metal_state">352888<!--metalType_State--></T>
+      <L n="non_purchasable_crystals">
+        <T>28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+        <T>28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+        <T>28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+        <T>28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+        <T>178735<!--collectCrystalMed_GP06GEN_alexandrite (Alexandrite)--></T>
+        <T>376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+      </L>
+      <L n="non_purchasable_metals">
+        <T>28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+        <T>28781<!--collectMetalSmGEN_01_literalite (Literalite)--></T>
+        <T>28773<!--collectMetalMedGEN_01_romantium (Romantium)--></T>
+        <T>28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+        <T>376797<!--collectMetalSm_SP49GEN_01_roseGold (Rose Gold)--></T>
+      </L>
+      <L n="purchasable_crystals">
+        <T>28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+        <T>28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+        <T>28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+        <T>28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+        <T>28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+        <T>28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+        <T>28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+        <T>28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+        <T>28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+        <T>28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+        <T>28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+        <T>28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+        <T>28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+        <T>28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+        <T>28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+        <T>28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+        <T>72395<!--collectCrystalMed_EP01GEN_crandestine (Crandestine)--></T>
+        <T>72396<!--collectCrystalMed_EP01GEN_nitelite (Nitelite)--></T>
+        <T>178736<!--collectCrystalMed_GP06GEN_amazonite (Amazonite)--></T>
+        <T>376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+        <T>376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+      </L>
+      <L n="purchasable_metals">
+        <T>376796<!--collectMetalSm_SP49GEN_01_silver (Silver)--></T>
+        <T>376795<!--collectMetalSm_SP49GEN_01_gold (Gold)--></T>
+        <T>28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+        <T>28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+        <T>28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+        <T>28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+        <T>28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+        <T>28780<!--collectMetalSmGEN_01_flamingonium (Flamingonium)--></T>
+        <T>28764<!--collectMetalMedGEN_01_ironyum (Ironyum)--></T>
+        <T>28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+        <T>28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+        <T>28783<!--collectMetalSmGEN_01_phozonite (Phozonite)--></T>
+        <T>28784<!--collectMetalSmGEN_01_punium (Punium)--></T>
+        <T>28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+        <T>28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+        <T>28786<!--collectMetalSmGEN_01_socialite (Socialite)--></T>
+        <T>28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+        <T>28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+        <T>72392<!--collectMetalMed_EP01GENblutonium (Blutonium)--></T>
+        <T>72394<!--collectMetalMed_EP01GENsolarium (Solarium)--></T>
+      </L>
+      <T n="purchase_multiplier">2.5</T>
+      <U n="wearing_states">
+        <T n="not_worn">127023<!--wornObject_NotWorn--></T>
+        <T n="worn_in_current_outfit">127022<!--wornObject_Worn--></T>
+        <T n="worn_in_other_outfit">356037<!--wornObject_Worn_OtherOutfit--></T>
+      </U>
+    </U>
+    <E n="JEWELRY_NO_CRYSTAL_NEEDED_TAG">Func_NoCrystalNeeded</E>
+    <E n="MATERIAL_IN_INVENTORY_TAG">Func_In_Inventory</E>
+  </C>
+</M>

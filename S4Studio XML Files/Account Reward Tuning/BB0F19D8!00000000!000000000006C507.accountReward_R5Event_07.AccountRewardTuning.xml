@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R5Event_07" s="443655">
+  <T n="category">0x85D90E90<!--Radio Station--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Preview\NatureEvent_Preview_RadioStation.png">2f7d0004:00000000:a7c4ac26bfda6847</T>
+  <L n="items">
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">474656<!--stereoWall_EF63EVR_public_Nature_set1 (Venue Wall Speaker: Nature Soundscapes)--></T>
+      </U>
+    </V>
+    <V t="radio_station_item">
+      <U n="radio_station_item">
+        <T n="genre_id">Nature</T>
+        <T n="item_resource">443867<!--stereoChannel_NatureSounds--></T>
+      </U>
+    </V>
+    <V t="radio_station_item">
+      <U n="radio_station_item">
+        <T n="item_resource">443868<!--stereoChannel_NatureSounds_Bot--></T>
+      </U>
+    </V>
+    <V t="radio_station_item">
+      <U n="radio_station_item">
+        <T n="item_resource">443869<!--stereoChannel_NatureSounds_EarBuds--></T>
+      </U>
+    </V>
+    <V t="radio_station_item">
+      <U n="radio_station_item">
+        <T n="item_resource">443870<!--stereoWall_Channel_NatureSounds--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x906E5E2F<!--Find this item under Listen to on a Stereo--></T>
+  <T n="reward_description">0x643C577E<!--Bring the outdoors inside and relax to the soothing sounds of nature.--></T>
+  <T n="reward_name">0x47BB3501<!--Nature Soundscapes--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\END\NatureEvent_END_RadioStation.png">2f7d0004:00000000:b63e1211ce906a06</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_RadioStation.png">2f7d0004:00000000:1526355baa89765f</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_RadioStation.png">2f7d0004:00000000:1526355baa89765f</T>
+</I>

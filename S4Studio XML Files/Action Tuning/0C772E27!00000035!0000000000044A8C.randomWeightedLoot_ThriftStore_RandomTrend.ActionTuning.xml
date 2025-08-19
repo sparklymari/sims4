@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_ThriftStore_RandomTrend" s="281228">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281234<!--loot_ThriftStore_SetRandomTrend_Basics--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281231<!--loot_ThriftStore_SetRandomTrend_Boho--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281235<!--loot_ThriftStore_SetRandomTrend_Country--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281236<!--loot_ThriftStore_SetRandomTrend_Hipster--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281232<!--loot_ThriftStore_SetRandomTrend_None--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281233<!--loot_ThriftStore_SetRandomTrend_Outdoorsy--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281237<!--loot_ThriftStore_SetRandomTrend_Polished--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281230<!--loot_ThriftStore_SetRandomTrend_Preppy--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281238<!--loot_ThriftStore_SetRandomTrend_Rocker--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">281239<!--loot_ThriftStore_SetRandomTrend_Streetwear--></T>
+      </V>
+    </U>
+  </L>
+</I>

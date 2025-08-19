@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_LifeMilestone_LotBasedBuff_RemoveCheck" s="335357">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>306142<!--buff_LifeMilestone_AbductedByAliensHere_Energized--></T>
+          <T>306143<!--buff_LifeMilestone_AbductedByAliensHere_Scared--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="developmental_milestone">
+              <U n="developmental_milestone">
+                <V n="current_zone" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <T n="developmental_milestone">306239<!--lifeMilestone_AbductedByAliens--></T>
+                <T n="invert">True</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>306140<!--buff_LifeMilestone_CaughtCheaterHere_Angry--></T>
+          <T>306139<!--buff_LifeMilestone_CaughtCheaterHere_Sad--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="developmental_milestone">
+              <U n="developmental_milestone">
+                <V n="current_zone" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <T n="developmental_milestone">306221<!--lifeMilestone_CaughtSimCheating--></T>
+                <T n="invert">True</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>306138<!--buff_LifeMilestone_EngagmentRejectedHere--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="developmental_milestone">
+              <U n="developmental_milestone">
+                <V n="current_zone" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <T n="developmental_milestone">306232<!--lifeMilestone_EngagementRejected--></T>
+                <T n="invert">True</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>306144<!--buff_LifeMilestone_FirstBladderFailHere--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="developmental_milestone">
+              <U n="developmental_milestone">
+                <V n="current_zone" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <T n="developmental_milestone">306234<!--lifeMilestone_FirstBladderFail--></T>
+                <T n="invert">True</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>306146<!--buff_LifeMilestone_GotMarriedHere_Positive--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="developmental_milestone">
+              <U n="developmental_milestone">
+                <V n="current_zone" t="enabled">
+                  <T n="enabled">True</T>
+                </V>
+                <T n="developmental_milestone">306213<!--lifeMilestone_Married--></T>
+                <T n="invert">True</T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

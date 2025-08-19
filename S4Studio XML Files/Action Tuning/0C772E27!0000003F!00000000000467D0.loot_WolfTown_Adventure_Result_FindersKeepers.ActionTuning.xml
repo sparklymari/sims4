@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_WolfTown_Adventure_Result_FindersKeepers" s="288720">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xA66CB355<!--{0.SimFirstName} found something in the Underground!\n\nItems Received: \n{1.String}--></T>
+              </V>
+              <V n="text_tokens" t="enabled">
+                <U n="enabled">
+                  <L n="tokens">
+                    <V t="participant_type" />
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310077<!--book_GP12GENvulfgangMulder_set1 (The Werewolf Who Came in From the Cold)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312491<!--book_GP12GENvulfgangMulder_set2 (The Wolf Next Door)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312492<!--book_GP12GENvulfgangMulder_set3 (Fanged Friends Forever)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312493<!--book_GP12GENvulfgangMulder_set4 (Packs & Prejudice)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310075<!--bookThin_GP12GENpeterBarker_set1 (Peter Barker’s First Moon)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312485<!--bookThin_GP12GENpeterBarker_set2 (Peter Barker’s Homecoming Hijinks)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312486<!--bookThin_GP12GENpeterBarker_set3 (Peter Barker’s Camping Conundrum)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312487<!--bookThin_GP12GENpeterBarker_set4 (Peter Barker…in Space!)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310079<!--book_GENwerewolf_set1 (Dusk Glow 3: Shadowmoon)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312497<!--book_GENwerewolf_set2 (Beyond Big & Bad: Rethinking Harmful Werewolf Stereotypes)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32627<!--bookGENSad_05 (Dusk Glow)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">321046<!--book_GENwerewolf_set3 (Dusk Glow 2: Moonrise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231331<!--book_GP08GENmagic_set6 (Famous Spellcasters Throughout History)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231328<!--book_GP08GENmagic_set3 (A World Without Magic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231327<!--book_GP08GENmagic_set2 (Darley Porter & The Basement of Shadows)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">212866<!--book_GP07curioShop_set1 (Avoiding the Watchful Eye)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59820<!--bookGENEmotionalEnergised_01 (Sleep Less, Jog More)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59825<!--bookGENEmotionalInspired_02 (Embracing the Moment and Inspiring Others)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">63047<!--bookGENEmotionalPlayful_02 (Easy Recall Magic Tricks)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32540<!--bookGENHappy_03 (Chasing the Quadruple Rainbow)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231249<!--bookLarge_GP08GENalchemyLow_luck (Tome of Good Fortune)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">231305<!--bookLarge_GP08GENpracticalLow_repairio (Tome of Repairio)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">75393<!--recipe_Food_Homestyle_Grill_Steak-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285967<!--recipe_Food_Homestyle_Grill_MushroomSteak-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285970<!--recipe_Food_Homestyle_Grill_LunaFish-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285964<!--recipe_Food_Homestyle_Grill_BlueSteak-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15771<!--recipe_Food_Homestyle_Pancakes-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15748<!--recipe_Food_Homestyle_BLT-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15765<!--recipe_Food_Homestyle_GrilledCheese-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">33412<!--recipe_Food_Homestyle_CookieChocolateChip-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">237183<!--recipe_Food_Homestyle_LeafWrappedFish_Grill_Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15750<!--recipe_Food_Homestyle_Cake-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">205439<!--recipe_Food_Homestyle_VeggieDumplings_Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15745<!--recipe_Food_Homestyle_ApplePie-Single--></T>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285952<!--recipe_Drink_Snack_Midnight_Powersip--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">245925<!--dye_EP09GENBlack (Noir Black Dye)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">245920<!--dye_EP09GENBlue (Sky Blue Dye)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">245922<!--dye_EP09GENGreen (Sage Green Dye)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">235809<!--dye_EP09GENRed (Brick Red Dye)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">158265<!--toyBallPet_EP04GENBall_set1 (Ball! Ball! Ball!)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">176148<!--toyBallPet_EP04GENBall_set3 (Ball! Ball! Ball!)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">166691<!--toyBallPet_EP04GENsqueaky_02_set1 (Give A Dog A Bone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">287523<!--faceMaskSpa_GP02GEN_set1 (Relaxing Facial Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">288430<!--faceMaskSpa_GP02GEN_set2 (Animal Facial Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">288432<!--faceMaskSpa_GP02GEN_set4 (Gold Facial Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">62723<!--seedPacket_Garden_Starter_Deluxe_FlowersFruit (Farmer Flowers and Fruit)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">62724<!--seedPacket_Garden_Starter_Deluxe_VegetablesHerbs (Farmer Veggies and Herbs)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">160913<!--poopPetLarge_EP04GEN_set1 (Large Pet Poop)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">125468<!--gardenFruit_GENGrowfruit_01 (Growfruit)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">144964<!--gardenFruit_GP04GENplasma ({S.Plasma Fruit}{P.Plasma Fruit})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33276<!--collectTerrariumGENFrog_01_GreenSolid (Leaf Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33324<!--collectTerrariumGENFrog_01_brownSolid (Dirt Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33319<!--collectTerrariumGENFrog_01_PurpleSolid (Eggplant Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33323<!--collectTerrariumGENFrog_01_RedSolid (Heart Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29146<!--collectFossil_01_egg (Fossilized Egg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29153<!--collectFossil_02_hand (Fossilized Sim Hand)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29148<!--collectFossil_01_claw (Raptor Claw)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29150<!--collectFossil_02_hoof (Pre-Historic Hoofprint)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65105<!--collectTerrarium_GP01GENinsectLadybug_set1 ({S.Ladybug}{P.Ladybugs})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65286<!--collectTerrarium_GP01GENinsectFirefly_set1 ({S.Firefly}{P.Fireflies})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65103<!--collectTerrarium_GP01GENinsectMothLuna_set1 ({S.Luna Moth}{P.Luna Moths})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">65104<!--collectTerrarium_GP01GENinsectBee_set1 ({S.Bee}{P.Bees})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216979<!--collectSeaShell_EP07GEN01_set1 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216983<!--collectSeaShell_EP07GEN03_set1 (Tulip Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219205<!--collectSeaShell_EP07GEN05_set1 (Scallop Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219170<!--collectSeaShell_EP07GEN01_set2 (Small Conch Shell)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310642<!--collectRelicMedium_GP12GENheadBone_set1 (Tamed Cowplant Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310641<!--collectRelicMedium_GP12GENjawBone_set1 (Tamed Cowplant Jawbone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310645<!--collectRelicSmall_GP12GENpot01_set1 (Mooncaster Pot Shard: "Learning")--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310642<!--collectRelicMedium_GP12GENheadBone_set1 (Tamed Cowplant Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310641<!--collectRelicMedium_GP12GENjawBone_set1 (Tamed Cowplant Jawbone)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310645<!--collectRelicSmall_GP12GENpot01_set1 (Mooncaster Pot Shard: "Learning")--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">311327<!--collectFishLarge_GP12GENluna_set1 (Luna Fish)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310912<!--sculptTableSmall_GP12GENmoonFlowerCase_set1 (Moonpetal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

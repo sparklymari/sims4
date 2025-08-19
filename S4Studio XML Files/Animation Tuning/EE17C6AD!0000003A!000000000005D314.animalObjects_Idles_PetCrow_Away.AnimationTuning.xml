@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectAnimationElement" i="animation" m="animation.object_animation" n="animalObjects_Idles_PetCrow_Away" s="381716">
+  <T n="actor_name">crowHome</T>
+  <T n="asm_key" p="InEP17\Sage\Crow_Idles.interactionasm">02d5df13:00000000:582b2b065b789378</T>
+  <L n="begin_states">
+    <T>Away</T>
+  </L>
+</I>

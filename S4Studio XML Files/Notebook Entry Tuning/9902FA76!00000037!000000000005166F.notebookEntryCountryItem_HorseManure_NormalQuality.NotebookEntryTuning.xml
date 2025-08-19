@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="NotebookEntryCountryItem" i="notebook_entry" m="notebook.country_living_notebook_entries" n="notebookEntryCountryItem_HorseManure_NormalQuality" s="333423">
+  <E n="category_id">Ranch Living</E>
+  <T n="entry_text_description">0x81506557<!--<font color='#0949AB'><b>Made by:</b> Cleaning up Horse Manure
+<b>Improve by:</b> Consistently meeting the Needs of the Horse. Manure from Horses that are well cared for is worth more and provides stronger benefits.
+<b>Used for:</b> Fertilizing, which improves the quality of Gardening plants.</font>--></T>
+  <T n="entry_text_flavor">0xD774CBB7<!--Manure that is <b>recommended</b> to use as fertilizer.\n--></T>
+  <T n="entry_text_value">0xEBEDA02C<!--<font color='#199C2C'>{0.Money}</font>--></T>
+  <E n="subcategory_id">Ranch Living Animal Care</E>
+</I>

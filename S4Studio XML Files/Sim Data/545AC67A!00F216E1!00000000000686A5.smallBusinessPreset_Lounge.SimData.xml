@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003B">
+  <Instances>
+    <I name="smallBusinessPreset_Lounge" schema="BusinessPreset" type="Object">
+      <T name="name">0x183FF878</T>
+      <L name="rule_set">
+        <T type="TableSetReference">122434</T>
+        <T type="TableSetReference">122446</T>
+        <T type="TableSetReference">129105</T>
+        <T type="TableSetReference">122484</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="BusinessPreset" schema_hash="0x594024E2">
+      <Columns>
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="rule_set" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_Tattooing_CheckIfForbidden_TargetSim" s="386305">
+  <L n="test">
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="ages" t="specified" />
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+      <V t="situation_job_test">
+        <U n="situation_job_test">
+          <T n="negate">True</T>
+          <E n="participant">TargetSim</E>
+          <L n="situation_jobs">
+            <T>403075<!--job_TattooArtist_Service--></T>
+          </L>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>175972<!--trait_Hidden_Skeleton--></T>
+            <T>177810<!--trait_Hidden_Skeleton_ServiceSkeleton--></T>
+            <T>178437<!--trait_Hidden_Skeleton_TempleSkeleton--></T>
+            <T>253237<!--trait_Bonehilda--></T>
+            <T>181918<!--trait_Ghost_Rodent_Disease--></T>
+            <T>16851<!--trait_isGrimReaper--></T>
+            <T>187088<!--trait_Scarecrow--></T>
+            <T>216314<!--trait_Ghost_Curses_NightStalker_Stalker--></T>
+            <T>249203<!--trait_TownMascot--></T>
+            <T>369735<!--trait_SpecialNPCs_EP16SpecialNPC_TheRingBear--></T>
+            <T>395139<!--trait_ShadyNPC--></T>
+            <T>186785<!--trait_FlowerBunny--></T>
+            <T>377848<!--trait_MasteryPerk_SkillfulSleep_Clone--></T>
+            <T>412517<!--trait_GhostHasRebirthedIntoNewSim--></T>
+          </L>
+          <E n="subject">TargetSim</E>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>276222<!--trait_OccultWerewolf_WereForm--></T>
+          </L>
+          <E n="subject">TargetSim</E>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xFD859C08<!--Werewolves can't get tattooed while in Beast Form.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="trait">
+        <U n="trait">
+          <L n="blacklist_traits">
+            <T>218444<!--trait_Humanoid_Robots_MainTrait--></T>
+          </L>
+          <E n="subject">TargetSim</E>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xB4B794E2<!--Servos can't get tattooed.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="participant_running_interaction">
+        <U n="participant_running_interaction">
+          <L n="affordances">
+            <T>383880<!--si_TattooingTable_Tend_Autonomous--></T>
+            <T>383848<!--si_TattooingTable_Tend_UserDirected--></T>
+          </L>
+          <E n="participant">TargetSim</E>
+          <T n="test_for_not_running">True</T>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xB5077DF6<!--Sims can't get tattooed while tending a Tattoo Table.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="state">
+        <U n="state">
+          <V n="fallback_behavior" t="always_pass" />
+          <E n="operator">NOTEQUAL</E>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xDEC430C3<!--Pregnant Sims can't get tattooed.--></T>
+          </V>
+          <T n="value">75273<!--Pregnant_InLabor--></T>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+      <V t="state">
+        <U n="state">
+          <V n="fallback_behavior" t="always_pass" />
+          <E n="operator">NOTEQUAL</E>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xDEC430C3<!--Pregnant Sims can't get tattooed.--></T>
+          </V>
+          <T n="value">15301<!--Pregnant_SecondTrimester--></T>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+      <V t="state">
+        <U n="state">
+          <V n="fallback_behavior" t="always_pass" />
+          <E n="operator">NOTEQUAL</E>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xDEC430C3<!--Pregnant Sims can't get tattooed.--></T>
+          </V>
+          <T n="value">15302<!--Pregnant_ThirdTrimester--></T>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+      <V t="state">
+        <U n="state">
+          <V n="fallback_behavior" t="always_pass" />
+          <E n="operator">NOTEQUAL</E>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xDEC430C3<!--Pregnant Sims can't get tattooed.--></T>
+          </V>
+          <T n="value">15298<!--Pregnant_FirstTrimester--></T>
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

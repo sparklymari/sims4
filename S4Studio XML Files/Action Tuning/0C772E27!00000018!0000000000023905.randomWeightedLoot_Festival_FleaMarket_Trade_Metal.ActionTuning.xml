@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Festival_FleaMarket_Trade_Metal" s="145669">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28783<!--collectMetalSmGEN_01_phozonite (Phozonite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28784<!--collectMetalSmGEN_01_punium (Punium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28764<!--collectMetalMedGEN_01_ironyum (Ironyum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28780<!--collectMetalSmGEN_01_flamingonium (Flamingonium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28786<!--collectMetalSmGEN_01_socialite (Socialite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28773<!--collectMetalMedGEN_01_romantium (Romantium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28781<!--collectMetalSmGEN_01_literalite (Literalite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376796<!--collectMetalSm_SP49GEN_01_silver (Silver)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">8</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376795<!--collectMetalSm_SP49GEN_01_gold (Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376797<!--collectMetalSm_SP49GEN_01_roseGold (Rose Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.1</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144904<!--collectible_Rarity_Common--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28764<!--collectMetalMedGEN_01_ironyum (Ironyum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28780<!--collectMetalSmGEN_01_flamingonium (Flamingonium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28786<!--collectMetalSmGEN_01_socialite (Socialite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28783<!--collectMetalSmGEN_01_phozonite (Phozonite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28784<!--collectMetalSmGEN_01_punium (Punium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28773<!--collectMetalMedGEN_01_romantium (Romantium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28781<!--collectMetalSmGEN_01_literalite (Literalite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376796<!--collectMetalSm_SP49GEN_01_silver (Silver)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376795<!--collectMetalSm_SP49GEN_01_gold (Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">12</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376797<!--collectMetalSm_SP49GEN_01_roseGold (Rose Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">35</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.15</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144901<!--collectible_Rarity_Uncommon--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28773<!--collectMetalMedGEN_01_romantium (Romantium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28774<!--collectMetalMedGEN_01_sadnum (Sadnum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28781<!--collectMetalSmGEN_01_literalite (Literalite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28759<!--collectMetalMedGEN_01_crytunium (Crytunium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28764<!--collectMetalMedGEN_01_ironyum (Ironyum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28775<!--collectMetalMedGEN_01_simtanium (Simtanium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28780<!--collectMetalSmGEN_01_flamingonium (Flamingonium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28786<!--collectMetalSmGEN_01_socialite (Socialite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28771<!--collectMetalMedGEN_01_ozinold (Ozinold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28772<!--collectMetalMedGEN_01_plathinum (Plathinum)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28776<!--collectMetalMedGEN_01_utranium (Utranium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28777<!--collectMetalSmGEN_01_alcron (Alcron)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28783<!--collectMetalSmGEN_01_phozonite (Phozonite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28784<!--collectMetalSmGEN_01_punium (Punium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28785<!--collectMetalSmGEN_01_pyrite (Pyrite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376796<!--collectMetalSm_SP49GEN_01_silver (Silver)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376795<!--collectMetalSm_SP49GEN_01_gold (Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376797<!--collectMetalSm_SP49GEN_01_roseGold (Rose Gold)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">12</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.05</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144905<!--collectible_Rarity_Rare--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

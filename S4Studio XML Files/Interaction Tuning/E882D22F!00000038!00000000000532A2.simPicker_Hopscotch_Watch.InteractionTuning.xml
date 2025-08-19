@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimPickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="simPicker_Hopscotch_Watch" s="340642">
+  <V n="_saveable" t="disabled" />
+  <L n="actor_continuation">
+    <U>
+      <T n="affordance">340634<!--hopscotch_Watch_Sim--></T>
+      <E n="target">PickedSim</E>
+    </U>
+  </L>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0x383F1E9<!--Supports Large and X-Large Curved Walls--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="include_target_sim">True</T>
+  <T n="include_uninstantiated_sims">False</T>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="sim_picker" />
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <V n="radius" t="enabled">
+    <T n="enabled">8</T>
+  </V>
+  <L n="sim_tests">
+    <L>
+      <V t="participant_running_interaction">
+        <U n="participant_running_interaction">
+          <L n="affordances">
+            <T>340636<!--hopscotch_ThrowStone_A--></T>
+            <T>342360<!--hopscotch_ThrowStone_B--></T>
+            <T>342403<!--hopscotch_ThrowStone_C--></T>
+            <T>342532<!--hopscotch_ThrowStone_D--></T>
+            <T>342593<!--hopscotch_ThrowStone_E--></T>
+            <T>342647<!--hopscotch_ThrowStone_F--></T>
+            <T>342648<!--hopscotch_ThrowStone_G--></T>
+            <T>342649<!--hopscotch_ThrowStone_H--></T>
+            <T>342026<!--hopscotch_Hop_A1--></T>
+            <T>342028<!--hopscotch_Hop_A2--></T>
+            <T>342029<!--hopscotch_Hop_A3--></T>
+            <T>342030<!--hopscotch_Hop_A4--></T>
+            <T>342523<!--hopscotch_Hop_A5--></T>
+            <T>342361<!--hopscotch_Hop_B1--></T>
+            <T>342362<!--hopscotch_Hop_B2--></T>
+            <T>342363<!--hopscotch_Hop_B3--></T>
+            <T>342364<!--hopscotch_Hop_B4--></T>
+            <T>342524<!--hopscotch_Hop_B5--></T>
+            <T>342405<!--hopscotch_Hop_C1--></T>
+            <T>342406<!--hopscotch_Hop_C2--></T>
+            <T>342407<!--hopscotch_Hop_C3--></T>
+            <T>342408<!--hopscotch_Hop_C4--></T>
+            <T>342525<!--hopscotch_Hop_C5--></T>
+            <T>342527<!--hopscotch_Hop_D1--></T>
+            <T>342528<!--hopscotch_Hop_D2--></T>
+            <T>342529<!--hopscotch_Hop_D3--></T>
+            <T>342530<!--hopscotch_Hop_D4--></T>
+            <T>342531<!--hopscotch_Hop_D5--></T>
+            <T>342588<!--hopscotch_Hop_E1--></T>
+            <T>342589<!--hopscotch_Hop_E2--></T>
+            <T>342590<!--hopscotch_Hop_E3--></T>
+            <T>342591<!--hopscotch_Hop_E4--></T>
+            <T>342592<!--hopscotch_Hop_E5--></T>
+            <T>342632<!--hopscotch_Hop_F1--></T>
+            <T>342633<!--hopscotch_Hop_F2--></T>
+            <T>342634<!--hopscotch_Hop_F3--></T>
+            <T>342635<!--hopscotch_Hop_F4--></T>
+            <T>342636<!--hopscotch_Hop_F5--></T>
+            <T>342637<!--hopscotch_Hop_G1--></T>
+            <T>342638<!--hopscotch_Hop_G2--></T>
+            <T>342639<!--hopscotch_Hop_G3--></T>
+            <T>342640<!--hopscotch_Hop_G4--></T>
+            <T>342641<!--hopscotch_Hop_G5--></T>
+            <T>342642<!--hopscotch_Hop_H1--></T>
+            <T>342643<!--hopscotch_Hop_H2--></T>
+            <T>342644<!--hopscotch_Hop_H3--></T>
+            <T>342645<!--hopscotch_Hop_H4--></T>
+            <T>342646<!--hopscotch_Hop_H5--></T>
+          </L>
+          <E n="participant">PickedSim</E>
+          <T n="test_interaction_queue">True</T>
+        </U>
+      </V>
+      <V t="in_use">
+        <U n="in_use">
+          <E n="candidates">PICKED_SIM</E>
+        </U>
+      </V>
+    </L>
+  </L>
+  <V n="single_choice_display_name" t="enabled">
+    <T n="enabled">0x383F1E9<!--Supports Large and X-Large Curved Walls--></T>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

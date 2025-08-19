@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomLoot_Ailments_GetRandomAilment_LowChance" s="429010">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471843<!--loot_Ailments_BuffAssignment_LowChance_BurningPassion--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="test_set_reference">
+                  <T n="test_set_reference">449547<!--testSetInstance_LuckSys_HasNoLuck--></T>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471844<!--loot_Ailments_BuffAssignment_LowChance_CreationImpulse--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471845<!--loot_Ailments_BuffAssignment_LowChance_EmotionalVoid--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471846<!--loot_Ailments_BuffAssignment_LowChance_GnomeMagnet--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471847<!--loot_Ailments_BuffAssignment_LowChance_GreenieMeanie--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471848<!--loot_Ailments_BuffAssignment_LowChance_LuckSuck--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="test_set_reference">
+                  <T n="test_set_reference">449547<!--testSetInstance_LuckSys_HasNoLuck--></T>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471849<!--loot_Ailments_BuffAssignment_LowChance_SimoleonFever--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="test_set_reference">
+                  <T n="test_set_reference">449547<!--testSetInstance_LuckSys_HasNoLuck--></T>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">471850<!--loot_Ailments_BuffAssignment_LowChance_SonicSinuses--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="test_set_reference">
+                  <T n="test_set_reference">449547<!--testSetInstance_LuckSys_HasNoLuck--></T>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="do_nothing" />
+      <U n="weight">
+        <T n="base_value">392</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">448667<!--Apothecary_CelestialProtection_CuresAndElixirs_Loot_Remove_Buff_Actor--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>442917<!--Apothecary_CuresAndElixirs_Buff_CelestialProtection--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="ages" t="specified" />
+        </U>
+      </V>
+      <V t="test_set_reference">
+        <T n="test_set_reference">467660<!--testSet_Ailments_HasNoAilment_NoIncubation_Actor--></T>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>471522<!--buff_BalanceSys_Hidden_AilmentCooldown--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

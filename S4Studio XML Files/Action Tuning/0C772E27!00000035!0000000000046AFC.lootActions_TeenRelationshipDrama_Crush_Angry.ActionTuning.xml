@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_TeenRelationshipDrama_Crush_Angry" s="289532">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x22E7E68<!--(From Having a Crush)--></T>
+          </V>
+          <T n="buff_type">289490<!--buff_TeenRelationshipDrama_Crush_Angry--></T>
+        </U>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">Actor</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>12831<!--MoodBuff_Hidden_Angry--></T>
+              <T>12840<!--MoodBuff_Hidden_Enraged--></T>
+              <T>12827<!--MoodBuff_Hidden_Furious--></T>
+              <T>27321<!--MoodBuff_Hidden_HotHead1--></T>
+              <T>27323<!--MoodBuff_Hidden_HotHead2--></T>
+              <T>27320<!--MoodBuff_Hidden_HotHead3--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

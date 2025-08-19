@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Role_Community_Garden" s="223963">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="commodities_to_add">
+            <T>229801<!--commodity_CommunityLot_Gardener--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="static_commodity_to_add">
+    <T>76154<!--StaticCommodity_TendPlants_others--></T>
+    <T>36207<!--StaticCommodity_TendPlants_same--></T>
+    <T>76311<!--StaticCommodity_PlantSeeds--></T>
+    <T>38542<!--StaticCommodity_SprayPlants--></T>
+    <T>8260<!--StaticCommodity_WaterPlants--></T>
+    <T>38541<!--StaticCommodity_WeedPlants--></T>
+    <T>100777<!--StaticCommodity_HarvestPlants--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">229799<!--gardening_CommunityLot_Gardener_Plant--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_PlanterBox</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">232253<!--gardening_CommunityLot_Gardener_Idle--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Harvestable</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">235301<!--gardening_CommunityLot_Gardener_Plant_Vertical--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_VerticalGarden</E>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

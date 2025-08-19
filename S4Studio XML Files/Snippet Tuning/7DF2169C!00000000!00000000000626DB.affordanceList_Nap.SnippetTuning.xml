@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Nap" s="403163">
+  <L n="value">
+    <T>120185<!--hotTub_Nap--></T>
+    <T>13092<!--bed_Nap_PowerNap--></T>
+    <T>237820<!--dumpster_Nap--></T>
+    <T>155696<!--HighChair_Nap--></T>
+    <T>246194<!--kotatsu_Nap--></T>
+    <T>13073<!--bathtub_Nap--></T>
+    <T>215915<!--bathtub_Nap_Mermaid--></T>
+    <T>124735<!--interactiveBush_Nap--></T>
+    <T>13136<!--chair_Nap--></T>
+    <T>206824<!--chair_LoungeChair_Nap--></T>
+    <T>211822<!--chair_SitLoungeFloat_Nap--></T>
+    <T>243656<!--chair_Nap_RockingChair--></T>
+    <T>243659<!--chair_Nap_RockingChair_Elder--></T>
+    <T>13091<!--bed_Nap--></T>
+    <T>315189<!--bed_Nap_SleepingBag--></T>
+    <T>149949<!--coffin_Nap--></T>
+    <T>208941<!--beachTowel_Nap--></T>
+    <T>135737<!--chair_BubbleBlower_Nap--></T>
+    <T>211839<!--chair_SitLoungeFloat_NapFromRelax--></T>
+    <T>14305<!--sofa_Nap--></T>
+    <T>260139<!--sectional_Sofa_Chaise_Nap--></T>
+    <T>257477<!--kidsTent_Nap--></T>
+    <T>104117<!--Tent_Nap--></T>
+    <T>193412<!--vault_WalkInSafe_Nap--></T>
+    <T>199610<!--sleepingPod_Interactions_Nap--></T>
+    <T>200698<!--sleepingPod_Interactions_Nap_Upgraded--></T>
+    <T>253314<!--si_HotSprings_Nap--></T>
+    <T>391376<!--Crypts_Nap--></T>
+    <T>392606<!--ghostPowers_Abilities_GhostNap--></T>
+    <T>402007<!--ghostPowers_Abilities_GhostNap_NPC_Autonomous--></T>
+    <T>287836<!--werewolf_Abilities_Nap--></T>
+    <T>290889<!--werewolf_Abilities_Nap_Self--></T>
+  </L>
+</I>

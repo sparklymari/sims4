@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="loot_MeditationStool_SelfDiscovery_SkillBoost" s="119092">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119437<!--loot_Meditate_Bartending--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16695<!--statistic_Skill_AdultMajor_Bartending--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119438<!--loot_Meditate_Charisma--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16699<!--statistic_Skill_AdultMajor_Charisma--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119439<!--loot_Meditate_Comedy--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16698<!--statistic_Skill_AdultMajor_Comedy--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119440<!--loot_Meditate_Fishing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119436<!--loot_Meditate_Fitness--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16659<!--skill_Fitness--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119449<!--loot_Meditate_Gardening--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16700<!--statistic_Skill_AdultMajor_Gardening--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119450<!--loot_Meditate_GourmetCooking--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16701<!--statistic_Skill_AdultMajor_GourmetCooking--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119451<!--loot_Meditate_Guitar--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16702<!--statistic_Skill_AdultMajor_Guitar--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119452<!--loot_Meditate_Handiness--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16704<!--statistic_Skill_AdultMajor_Handiness--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119453<!--loot_Meditate_HomestyleCooking--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16705<!--statistic_Skill_AdultMajor_HomestyleCooking--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119454<!--loot_Meditate_Logic--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16706<!--statistic_Skill_AdultMajor_Logic--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119455<!--loot_Meditate_Mischief--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16707<!--statistic_Skill_AdultMajor_Mischief--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119456<!--loot_Meditate_Painting--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16708<!--statistic_Skill_AdultMajor_Painting--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119441<!--loot_Meditate_Piano--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16709<!--statistic_Skill_AdultMajor_Piano--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119442<!--loot_Meditate_Programming--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16703<!--statistic_Skill_AdultMajor_Programming--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">132253<!--loot_Meditate_Baking--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">104198<!--statistic_Skill_AdultMajor_Baking--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119444<!--loot_Meditate_RocketScience--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16710<!--statistic_Skill_AdultMajor_RocketScience--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119445<!--loot_Meditate_VideoGaming--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16712<!--statistic_Skill_AdultMajor_VideoGaming--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119446<!--loot_Meditate_Violin--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16713<!--statistic_Skill_AdultMajor_Violin--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119447<!--loot_Meditate_Writing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16714<!--statistic_Skill_AdultMajor_Writing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">119448<!--loot_Meditate_Wellness--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">117858<!--statistic_Skill_AdultMajor_Wellness--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">132255<!--loot_Meditate_Dancing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">128145<!--statistic_Skill_AdultMinor_Dancing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">132256<!--loot_Meditate_DJMixing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">121612<!--statistic_Skill_AdultMajor_DJMixing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">132252<!--loot_Meditate_Herbalism--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">101920<!--statistic_Skill_AdultMajor_Herbalism--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">132254<!--loot_Meditate_Photography--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">105774<!--statistic_Skill_AdultMajor_Photography--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271290<!--loot_Meditate_Creativity--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16718<!--statistic_Skill_Child_Creativity--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271289<!--loot_Meditate_Mental--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16719<!--statistic_Skill_Child_Mental--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271288<!--loot_Meditate_Motor--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16720<!--statistic_Skill_Child_Motor--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271291<!--loot_Meditate_Social--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">16721<!--statistic_Skill_Child_Social--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271294<!--loot_Meditate_PipeOrgan--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">149665<!--statistic_Skill_AdultMajor_PipeOrgan--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271295<!--loot_Meditate_Robotics--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">217413<!--statistic_Skill_AdultMajor_Robotics--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">271296<!--loot_Meditate_Singing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">137811<!--statistic_Skill_AdultMajor_Singing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">1</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

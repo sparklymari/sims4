@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_OwnableRestaurant_FoodQuality" s="142257">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">141912<!--buff_OwnableRestaurant_FoodQuality_Amazing--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">142341<!--testSetInstance_OwnableRestaurant_ActorIsNPC--></T>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">142174<!--ownableRestaurant_FoodQuality_Values_Amazing--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">141913<!--buff_OwnableRestaurant_FoodQuality_Good--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">142341<!--testSetInstance_OwnableRestaurant_ActorIsNPC--></T>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">142173<!--ownableRestaurant_FoodQuality_Values_Good--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">141914<!--buff_OwnableRestaurant_FoodQuality_Great--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">142341<!--testSetInstance_OwnableRestaurant_ActorIsNPC--></T>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">142172<!--ownableRestaurant_FoodQuality_Values_Great--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">141915<!--buff_OwnableRestaurant_FoodQuality_Poor--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">142341<!--testSetInstance_OwnableRestaurant_ActorIsNPC--></T>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">142170<!--ownableRestaurant_FoodQuality_Values_Poor--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">141916<!--buff_OwnableRestaurant_FoodQuality_Terrible--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">142341<!--testSetInstance_OwnableRestaurant_ActorIsNPC--></T>
+            </V>
+            <V t="state">
+              <U n="state">
+                <T n="value">142171<!--ownableRestaurant_FoodQuality_Values_Terrible--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

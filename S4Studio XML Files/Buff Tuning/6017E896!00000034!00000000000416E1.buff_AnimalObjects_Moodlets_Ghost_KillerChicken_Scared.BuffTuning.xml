@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_AnimalObjects_Moodlets_Ghost_KillerChicken_Scared" s="268001">
+  <V n="_temporary_commodity_info" t="enabled">
+    <U n="enabled">
+      <L n="categories">
+        <E>Scared_Buffs</E>
+      </L>
+    </U>
+  </V>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0x44AF3F35<!--Ahhhhh! Oh no it's a chicken! The memories of how {0.SimFirstName} died are boiling back up again. The fear is real.--></T>
+  <T n="buff_name">0x164946D0<!--Chicken-Phobic--></T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\buffs_Ghost_neg.png">2f7d0004:00000000:43e40ebe426a9236</T>
+  <T n="mood_type">251719<!--Mood_Scared--></T>
+  <T n="mood_weight">2</T>
+</I>

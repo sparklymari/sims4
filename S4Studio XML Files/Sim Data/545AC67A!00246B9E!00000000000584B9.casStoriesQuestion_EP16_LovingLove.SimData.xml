@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000039">
+  <Instances>
+    <I name="casStoriesQuestion_EP16_LovingLove" schema="CasStoriesQuestion" type="Object">
+      <T name="icon">00B2D882-00000000-A041E2281ACBA23C</T>
+      <T name="pack">57</T>
+      <L name="possible_answers">
+        <T type="TableSetReference">361664</T>
+        <T type="TableSetReference">361665</T>
+        <T type="TableSetReference">361676</T>
+      </L>
+      <T name="text">0xC432F935</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="CasStoriesQuestion" schema_hash="0x5ACAD7C3">
+      <Columns>
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="pack" type="Int64" flags="0x00000000" />
+        <Column name="possible_answers" type="Vector" flags="0x00000000" />
+        <Column name="text" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

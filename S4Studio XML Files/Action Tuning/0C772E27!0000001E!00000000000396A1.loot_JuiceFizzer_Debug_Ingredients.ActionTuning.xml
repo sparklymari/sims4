@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_JuiceFizzer_Debug_Ingredients" s="235169">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">10</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">125468<!--gardenFruit_GENGrowfruit_01 (Growfruit)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29009<!--gardenFruitGENAlien_01 ({S.UFO (Unidentified Fruit Object)}{P.UFO (Unidentified Fruit Objects)})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">144964<!--gardenFruit_GP04GENplasma ({S.Plasma Fruit}{P.Plasma Fruit})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178800<!--gardenFruit_GP06GENEmotionalBerry_happy ({S.Merry Berry}{P.Merry Berries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178801<!--gardenFruit_GP06GENEmotionalBerry_confident ({S.Gutsberry}{P.Gutsberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178802<!--gardenFruit_GP06GENEmotionalBerry_energized ({S.Vimberry}{P.Vimberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178803<!--gardenFruit_GP06GENEmotionalBerry_flirty ({S.Flutterberry}{P.Flutterberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178805<!--gardenFruit_GP06GENEmotionalBerry_inspired ({S.Museberry}{P.Museberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178804<!--gardenFruit_GP06GENEmotionalBerry_focused ({S.Cerebrerry}{P.Cerebrerries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178806<!--gardenFruit_GP06GENEmotionalBerry_playful ({S.Razzleberry}{P.Razzleberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">209128<!--gardenFruit_GP07GENinfected (Bizarre Fruit)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196135<!--drinkJar_EP05GENhoney_set1 (Honey)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">242040<!--gardenFruit_EP09GENsoybean ({S.Soy Beans}{P.Soy Beans})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

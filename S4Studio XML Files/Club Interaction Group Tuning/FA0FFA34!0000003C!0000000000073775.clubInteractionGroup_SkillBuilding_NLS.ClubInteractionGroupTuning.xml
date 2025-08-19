@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_SkillBuilding_NLS" s="472949">
+  <L n="affordances">
+    <T>436790<!--sI_NLS_BatheInWater--></T>
+    <T>436794<!--sI_NLS_EatFish--></T>
+    <T>436795<!--sI_NLS_EatFrog--></T>
+    <T>436792<!--sI_NLS_MeditateInNature_Comfortable--></T>
+    <T>439892<!--sI_NLS_MeditateInNature_Uncomfortable--></T>
+    <T>436789<!--sI_NLS_SleepOnGround_Comfortable--></T>
+    <T>427090<!--si_NLS_SleepOnGround_Uncomfortable--></T>
+    <T>436791<!--sI_NLS_SummonAPoohooBush_Comfortable--></T>
+    <T>440048<!--sI_NLS_SummonAPoohooBush_Uncomfortable--></T>
+    <T>436793<!--sI_NLS_TalkToNature_Comfortable--></T>
+    <T>440049<!--sI_NLS_TalkToNature_Uncomfortable--></T>
+    <T>456920<!--EP19World_Shell_FairyHub_SpongeBath_NLS--></T>
+    <T>450532<!--publicBathroom_SpongeBath_NLS--></T>
+    <T>448390<!--computer_Browse_NLS_ResearchNature--></T>
+    <T>103820<!--Gardening_EatHarvestable--></T>
+    <T>265886<!--gardening_EatHarvestable_Spicy--></T>
+    <T>434114<!--sI_Foraging_ApothecaryIngredients--></T>
+    <T>434115<!--sI_Foraging_Collectibles--></T>
+    <T>434116<!--sI_Foraging_Food--></T>
+    <T>434117<!--sI_Foraging_Forage--></T>
+    <T>466771<!--sI_Foraging_Forage_Rallyable--></T>
+    <T>434118<!--sI_Foraging_Plants--></T>
+    <T>440278<!--terrain-gohere_NLS_MeditateOnGround--></T>
+    <T>436785<!--terrain-gohere_NLS_SleepOnGround--></T>
+    <T>436787<!--terrain-gohere_NLS_SummonABush--></T>
+    <T>440279<!--terrain-gohere_NLS_BatheInWater--></T>
+    <T>470443<!--terrain-gohere_NLS_BatheInWater_Ocean--></T>
+    <T>478591<!--publicBathroom_SpongeBath_NLS_Male--></T>
+  </L>
+  <E n="category">OUTDOOR</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_NaturalLiving.png">2f7d0004:00000000:430c026f31201c41</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x6A9BF095<!--Build Natural Living Skill--></T>
+  <T n="small_business_customer_rule">False</T>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x8B84E09E<!--Build Natural Living Skill--></T>
+  <T n="tooltip_template_negative">0x89692748<!--Don't Build Natural Living Skill--></T>
+</I>

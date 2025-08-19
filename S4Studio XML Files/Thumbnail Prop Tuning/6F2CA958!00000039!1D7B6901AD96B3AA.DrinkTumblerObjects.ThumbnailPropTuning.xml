@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Client_MatchmakingThumbnailProps" i="thumbnailProp" m="thumbnailProp.Client_MatchmakingThumbnailProps" n="DrinkTumblerObjects" s="2124407105163539370">
+  <L n="ObjectID">
+    <T>74274<!--drinkTumbler_GP01GENmilk_Expensive (Glass of Milk)--></T>
+    <T>74275<!--drinkTumbler_GP01GENwater_Expensive (Glass of Water)--></T>
+    <T>8085<!--drinkTumblerGEN_01_juicebrew (Drink)--></T>
+  </L>
+</I>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_Career_Activist_Charity_Level4" s="136273">
+  <T n="icon" p="InGame\UI\Icons\Headlines\Final\headline_careerpromotion.png">2f7d0004:00000000:a6ed756af9cb04a1</T>
+  <T n="name">0xE4C23801<!--Posters with a Cause--></T>
+  <V n="reward_description" t="enabled">
+    <T n="enabled">0x9A909927</T>
+  </V>
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="money">
+        <U n="money">
+          <V n="money" t="literal">
+            <U n="literal">
+              <T n="value">589</T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">128842<!--paintWall_EP03RWposterPolitics_set1 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">133591<!--paintWall_EP03RWposterPolitics_set2 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">133592<!--paintWall_EP03RWposterPolitics_set3 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">133593<!--paintWall_EP03RWposterPolitics_set4 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">135030<!--paintWall_EP03RWposterPolitics_set5 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">135031<!--paintWall_EP03RWposterPolitics_set6 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">135032<!--paintWall_EP03RWposterPolitics_set7 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">135033<!--paintWall_EP03RWposterPolitics_set8 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">135034<!--paintWall_EP03RWposterPolitics_set9 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">135035<!--paintWall_EP03RWposterPolitics_set10 (Posters with a Cause)--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="display_text">
+        <U n="display_text">
+          <V n="text" t="override">
+            <T n="override">0xAF36741E<!--Collect Donation (§1000) Interaction --></T>
+          </V>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="bucks">
+        <U n="bucks">
+          <T n="amount">5</T>
+          <E n="bucks_type">InfluenceBuck</E>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

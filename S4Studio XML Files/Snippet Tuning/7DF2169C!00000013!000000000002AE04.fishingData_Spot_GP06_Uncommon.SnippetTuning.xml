@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_Spot_GP06_Uncommon" s="175620">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">178739<!--collectFishLarge_GP06GENElectricEel (Electric Eel)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">178743<!--collectFishLarge_GP06GENTambaqui (Tambaqui)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44910<!--collectFishMedGENCatfish_01_set1 (Catfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">94655<!--collectFishMed_GP02GENdiscus (Discus)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <T n="treasure">179455<!--drinkCan_GP06GEN_liquidRush (Liquid Rush)--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179457<!--foodGrip_GP06GENfoodPacket_01 (Grilled Cheese Ready to Eat)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179460<!--pepperSpray_GP06GEN_fireFlies (Drake's Fire Quencher)--></T>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179359<!--machete_GP06GEN (Jungle Machete)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">11</T>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+  </U>
+</I>

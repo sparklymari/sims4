@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_CritterGifting_High" s="269214">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xF02343<!--{0.SimFirstName} opened the gift given to {0.SimPronounObjective} by the rabbit. {M0.He}{F0.She} received...\n\n{2.String}\n\nIt can be found in {M0.his}{F0.her} personal inventory.<BR><BR>--></T>
+              </V>
+              <V n="text_tokens" t="enabled">
+                <U n="enabled">
+                  <L n="tokens">
+                    <V t="participant_type" />
+                    <V t="participant_type">
+                      <U n="participant_type">
+                        <V n="objects" t="from_participant">
+                          <U n="from_participant">
+                            <E n="participant">Object</E>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </V>
+              <V n="title" t="enabled">
+                <T n="enabled">0xE2677AD1<!--Gift From A Wild Friend--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259136<!--recipe_Food_AnimalObject_LivestockFeed_Obsidian--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259133<!--recipe_Food_AnimalObject_LivestockFeed_Golden--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259138<!--recipe_Food_AnimalObject_LivestockFeed_Rainbow--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261374<!--recipe_Drink_AnimalObjectIngredients_Milk_Black--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261373<!--recipe_Drink_AnimalObjectIngredients_Milk_Gold--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">261372<!--recipe_Drink_AnimalObjectIngredients_Milk_Rainbow--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">262569<!--recipe_Wool_AnimalObjectIngredients_Black--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">262573<!--recipe_Wool_AnimalObjectIngredients_Gold--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">262576<!--recipe_Wool_AnimalObjectIngredients_Rainbow--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">260296<!--recipe_Food_AnimalObjectIngredients_Egg_Obsidian--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">260295<!--recipe_Food_AnimalObjectIngredients_Egg_Gold--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">260346<!--recipe_Food_AnimalObjectIngredients_Egg_Rainbow--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45030<!--collectFishMedGENAngler_01 (Anglerfish)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34203<!--bookGENGardeningAdvanced_01 (Gardening Vol 3: Strange and Forbidden Plant Genetics)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45313<!--collectFIshLargeGENSturgeon_01 (Sturgeon)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34204<!--bookGENCookingAdvanced_01 (Cooking Vol 3: I'm Here to Cook!)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59510<!--collectFishMedGENTreefish_01 (Treefish)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">57933<!--bookGENFishingAdvanced_01 (Fishing Vol 3: See the Fish, Be the Fish)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="run_test_first">True</T>
+  <L n="tests">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="tags">
+            <U n="tags">
+              <L n="tag_set">
+                <E>Func_AnimalObject_Wild_Rabbit</E>
+              </L>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Burglar_ScheduleSituation_Debug" s="432699">
+  <L n="loot_actions">
+    <V t="schedule_drama_node">
+      <U n="schedule_drama_node">
+        <T n="drama_node">431905<!--situationDramaNode_Burglar_LotTrait--></T>
+      </U>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">431739<!--commodity_Burglar_FailCounter--></T>
+          <L n="subject">
+            <E>Lot</E>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="drama_node">
+                <U n="drama_node">
+                  <L n="drama_nodes">
+                    <T>424170<!--situationDramaNode_Burglar--></T>
+                    <T>431905<!--situationDramaNode_Burglar_LotTrait--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

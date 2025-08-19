@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_SingingSkill_Guitar_Jazz" s="138745">
+  <L n="music_tracks">
+    <T>138713<!--musicTrack_SingingSkill_Guitar_Jazz_Song1--></T>
+    <T>138714<!--musicTrack_SingingSkill_Guitar_Jazz_Song2--></T>
+    <T>138715<!--musicTrack_SingingSkill_Guitar_Jazz_Song3--></T>
+  </L>
+  <T n="pie_menu_category">138743<!--instrument_SingSong_Jazz--></T>
+</I>

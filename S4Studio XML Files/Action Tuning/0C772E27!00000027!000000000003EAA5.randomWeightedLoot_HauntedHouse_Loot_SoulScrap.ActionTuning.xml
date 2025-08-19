@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_HauntedHouse_Loot_SoulScrap" s="256677">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">260905<!--sculptTableMedium_SP18GENsoulScrap_set1 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263816<!--sculptTableMedium_SP18GENsoulScrap_set2 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263817<!--sculptTableMedium_SP18GENsoulScrap_set3 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">263818<!--sculptTableMedium_SP18GENsoulScrap_set4 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265964<!--sculptTableMedium_SP18GENsoulScrap_set5 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265965<!--sculptTableMedium_SP18GENsoulScrap_set6 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265966<!--sculptTableMedium_SP18GENsoulScrap_set7 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265967<!--sculptTableMedium_SP18GENsoulScrap_set8 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265968<!--sculptTableMedium_SP18GENsoulScrap_set9 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265969<!--sculptTableMedium_SP18GENsoulScrap_set10 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265970<!--sculptTableMedium_SP18GENsoulScrap_set11 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">265971<!--sculptTableMedium_SP18GENsoulScrap_set12 (Soul Scrap)--></T>
+            </U>
+          </V>
+          <L n="initial_states">
+            <U>
+              <T n="state">256731<!--hauntedHouse_Values_RewardObjects_Spawn--></T>
+            </U>
+          </L>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <V n="spawn_vfx" t="enabled">
+            <U n="enabled">
+              <T n="effect_name">sp18_specter_loot_appear_large</T>
+              <V n="joint_name" t="Current_Position" />
+            </U>
+          </V>
+        </U>
+      </V>
+    </U>
+  </L>
+</I>

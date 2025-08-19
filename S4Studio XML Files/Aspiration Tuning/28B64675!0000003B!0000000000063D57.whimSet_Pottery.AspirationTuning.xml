@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AspirationWhimSet" i="aspiration" m="whims.whim_set" n="whimSet_Pottery" s="408919">
+  <T n="activated_priority">4</T>
+  <T n="chained_priority">10</T>
+  <V n="objective_completion_type" t="complete_subset" />
+  <L n="objectives">
+    <T>408920<!--objective_PotterySkillUp--></T>
+    <T>411669<!--objective_Pottery_RanSkillInteraction--></T>
+  </L>
+  <T n="priority_decay_rate">0.00833</T>
+  <T n="whim_reason">0x5B7644<!--(From Pottery Skill)--></T>
+  <L n="whims">
+    <U>
+      <T n="whim">421904<!--want_readSkillBook--></T>
+    </U>
+    <U>
+      <T n="whim">399759<!--want_AttendHobbyClass--></T>
+    </U>
+    <U>
+      <T n="whim">408924<!--want_Pottery_DiscussPottery--></T>
+    </U>
+    <U>
+      <T n="whim">408922<!--want_Pottery_MakeCeramic--></T>
+    </U>
+    <U>
+      <T n="whim">408923<!--want_Pottery_Mentor--></T>
+    </U>
+    <U>
+      <T n="whim">408925<!--want_Pottery_Sell--></T>
+    </U>
+  </L>
+</I>

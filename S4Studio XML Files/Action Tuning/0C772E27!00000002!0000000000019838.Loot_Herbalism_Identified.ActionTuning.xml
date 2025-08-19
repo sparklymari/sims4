@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="Loot_Herbalism_Identified" s="104504">
+  <L n="loot_actions">
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104486<!--trait_Identified_Chamomile--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67356<!--gardenFlower_GP01GENchamomile_toxic ({S.Toxic Chamomile}{P.Toxic Chamomiles})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104487<!--trait_Identified_Chamomile_Toxic--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104480<!--trait_Identified_Elderberry--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67363<!--gardenFruit_GP01GENelderberry_toxic ({S.Noxious Elderberry}{P.Noxious Elderberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104481<!--trait_Identified_Elderberry_Toxic--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104484<!--trait_Identified_Fireleaf--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67365<!--gardenFlower_GP01GENfireleaf_toxic ({S.Poison Fireleaf}{P.Poison Fireleaves})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104485<!--trait_Identified_Fireleaf_Toxic--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104482<!--trait_Identified_Huckleberry--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67557<!--gardenFruit_GP01GENhuckleberry_toxic ({S.Muckleberry}{P.Muckleberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104483<!--trait_Identified_Huckleberry_Toxic--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104488<!--trait_Identified_Morel--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67364<!--gardenFruit_GP01GENmushroomMorel_toxic ({S.False Morel Mushroom}{P.False Morel Mushrooms})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">104489<!--trait_Identified_Morel_Toxic--></T>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">104398<!--GardeningIdentify_Identified--></T>
+        <V n="subject" t="participant">
+          <E n="participant">InventoryObjectStack</E>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

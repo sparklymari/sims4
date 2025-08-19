@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Mentorship_Gift_FlowerArranging" s="389697">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">196510<!--bookThin_EP05GENskillFlowerArrangingBeginner (Flower Arranging Vol. 1: What is a Flower)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="upper_bound">3</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">196511<!--bookThin_EP05GENskillFlowerArrangingIntermediate (Flower Arranging Vol. 2: Arranging for Artistry)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="lower_bound">4</T>
+                        <T n="upper_bound">6</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">196509<!--bookThin_EP05GENskillFlowerArrangingAdvanced (Flower Arranging Vol. 3: Blooming Beauty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="skill_test">
+                <U n="skill_test">
+                  <T n="skill">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+                  <V n="skill_range" t="interval">
+                    <U n="interval">
+                      <U n="skill_interval">
+                        <T n="lower_bound">7</T>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">389760<!--notification_Mentorship_Gift--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_recipe">
+                      <U n="specify_recipe">
+                        <T n="recipe">26357<!--recipe_Drink_InspiredPotion--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>15113<!--Consumable_Untouched--></T>
+                    <T>15304<!--Quality_Normal--></T>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="one_of_each" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188681<!--gardenFlower_EP05GENdahlia ({S.Dahlia}{P.Dahlias})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <V n="quantity" t="one_of_each" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188675<!--gardenFlower_EP05GENbegonia ({S.Begonia}{P.Begonias})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188677<!--gardenFlower_EP05GENchristmasRose ({S.Christmas Rose}{P.Christmas Roses})--></T>
+                      </U>
+                    </V>
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">188679<!--gardenFlower_EP05GENcrocus ({S.Crocus}{P.Crocuses})--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="skill_test">
+        <U n="skill_test">
+          <T n="skill">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+          <V n="skill_range" t="interval">
+            <U n="interval">
+              <U n="skill_interval">
+                <T n="lower_bound">5</T>
+              </U>
+            </U>
+          </V>
+          <E n="subject">StoredSim</E>
+        </U>
+      </V>
+      <V t="relative_statistic">
+        <U n="relative_statistic">
+          <E n="comparison">LESS</E>
+          <T n="stat">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+          <E n="target">StoredSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

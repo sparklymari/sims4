@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="luck.luck_tuning.LuckTuning" schema="luck.luck_tuning.LuckTuning" type="Object">
+      <L name="LUCK_LEVELS">
+        <U type="Object" schema="TunableLuckLevel">
+          <T name="background">00B2D882-00000000-B2DB3B525B208C84</T>
+          <T name="description_text">0x513995B3</T>
+          <T name="icon">00B2D882-00000000-CB5A9AD52F18D002</T>
+          <T name="tooltip">0xF0A473B0</T>
+        </U>
+        <U type="Object" schema="TunableLuckLevel">
+          <T name="background">00B2D882-00000000-60104C3C3A705D04</T>
+          <T name="description_text">0x05A0B5BA</T>
+          <T name="icon">00B2D882-00000000-9AB43D666F894B46</T>
+          <T name="tooltip">0xC775C4DF</T>
+        </U>
+        <U type="Object" schema="TunableLuckLevel">
+          <T name="background">00B2D882-00000000-2501D6F0E6FC59C4</T>
+          <T name="description_text">0xD3C7200D</T>
+          <T name="icon">00B2D882-00000000-BDA69C3F15CAC4F6</T>
+          <T name="tooltip">0x4E40547E</T>
+        </U>
+      </L>
+      <T name="SIM_INFO_TRAY_HOVER_ICON">00B2D882-00000000-5DB8D88B624B9529</T>
+      <T name="SIM_INFO_TRAY_ICON">00B2D882-00000000-E4792D287BB5BAF4</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="luck.luck_tuning.LuckTuning" schema_hash="0x6D61CDBD">
+      <Columns>
+        <Column name="LUCK_LEVELS" type="Vector" flags="0x00000000" />
+        <Column name="SIM_INFO_TRAY_HOVER_ICON" type="ResourceKey" flags="0x00000000" />
+        <Column name="SIM_INFO_TRAY_ICON" type="ResourceKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableLuckLevel" schema_hash="0xB6D13BA3">
+      <Columns>
+        <Column name="background" type="ResourceKey" flags="0x00000000" />
+        <Column name="description_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="tooltip" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

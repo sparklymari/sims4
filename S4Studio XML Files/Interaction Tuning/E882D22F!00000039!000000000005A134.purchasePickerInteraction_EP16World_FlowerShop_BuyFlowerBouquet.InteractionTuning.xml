@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchasePickerInteraction_EP16World_FlowerShop_BuyFlowerBouquet" s="368948">
+  <V n="_saveable" t="disabled" />
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0x2EFE90F2<!--Buy a Bouquet of Flowers--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <V n="max_selectable" t="unlimited" />
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="specific_items">
+      <U n="specific_items">
+        <L n="item_list">
+          <T>404158<!--flowerBouquet_EP16GENlove_set1 (Rose Radiance Flower Bouquet)--></T>
+          <T>408216<!--flowerBouquet_EP16GENlove_set2 (Rose Radiance Flower Bouquet)--></T>
+          <T>408217<!--flowerBouquet_EP16GENlove_set3 (Rose Radiance Flower Bouquet)--></T>
+          <T>404156<!--flowerBouquet_EP16GENmodern_set1 (Exotic Elegance Flower Bouquet)--></T>
+          <T>408549<!--flowerBouquet_EP16GENmodern_set2 (Exotic Elegance Flower Bouquet)--></T>
+          <T>408550<!--flowerBouquet_EP16GENmodern_set3 (Exotic Elegance Flower Bouquet)--></T>
+          <T>402452<!--flowerBouquet_EP16GENvariety_set1 (Floral Symphony Flower Bouquet)--></T>
+          <T>408075<!--flowerBouquet_EP16GENvariety_set2 (Floral Symphony Flower Bouquet)--></T>
+          <T>408076<!--flowerBouquet_EP16GENvariety_set3 (Floral Symphony Flower Bouquet)--></T>
+          <T>294360<!--weddingBouquet_GP11GEN01_set1 (Red Rose Bouquet)--></T>
+          <T>296442<!--weddingBouquet_GP11GEN01_set2 (Pale Blue Rose Bouquet)--></T>
+          <T>296443<!--weddingBouquet_GP11GEN01_set3 (Blush Rose Bouquet)--></T>
+          <T>296642<!--weddingBouquet_GP11GEN01_set4 (Pastel Garden Flower Bouquet)--></T>
+          <T>298214<!--weddingBouquet_GP11GEN01_set5 (White Rose Bouquet)--></T>
+          <T>298215<!--weddingBouquet_GP11GEN01_set6 (Colorful Daisy Bouquet)--></T>
+          <T>298468<!--weddingBouquet_GP11GEN01_set7 (Rainbow Rose Bouquet)--></T>
+          <T>294713<!--weddingBouquet_GP11GEN02_set1 (Red Rose Delicate Bouquet)--></T>
+          <T>298666<!--weddingBouquet_GP11GEN02_set2 (Pink and Orange Rose Delicate Bouquet)--></T>
+          <T>298667<!--weddingBouquet_GP11GEN02_set3 (Colorful Daisy Delicate Bouquet)--></T>
+          <T>298668<!--weddingBouquet_GP11GEN02_set4 (Blush Rose Delicate Bouquet)--></T>
+          <T>298757<!--weddingBouquet_GP11GEN02_set5 (White Rose Delicate Bouquet)--></T>
+          <T>298758<!--weddingBouquet_GP11GEN02_set6 (Pink Rose Delicate Bouquet)--></T>
+          <T>299580<!--weddingBouquet_GP11GEN02_set7 (Black Rose Delicate Bouquet)--></T>
+          <T>299591<!--weddingBouquet_GP11GEN02_set8 (Blue Rose Delicate Bouquet)--></T>
+          <T>294371<!--weddingBouquet_GP11GENcraft_set1_daisy (Daisy Bouquet)--></T>
+          <T>296803<!--weddingBouquet_GP11GENcraft_set2_crocus (Purple Crocus Bouquet)--></T>
+          <T>296804<!--weddingBouquet_GP11GENcraft_set3_dahlia_begonia (Dahlia and Begonia Bouquet)--></T>
+          <T>296805<!--weddingBouquet_GP11GENcraft_set4_lily_begonia (Lily and Begonia Bouquet)--></T>
+          <T>296806<!--weddingBouquet_GP11GENcraft_set5_birdOfParadise_daisy_dahlia (Bird of Paradise, Daisy, and Dahlia Bouquet)--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0xD20E9154<!--Thanks for shopping! {0.SimFirstName}'s purchases can be found in {0.SimPronounPossessiveDependent} Inventory.--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x1DAA7A32<!--Isabela's Flower Shop is only open from 6am to 11pm.--></T>
+        </V>
+        <T n="value">203040<!--genericOpenClosed_Open--></T>
+      </U>
+    </V>
+  </L>
+</I>

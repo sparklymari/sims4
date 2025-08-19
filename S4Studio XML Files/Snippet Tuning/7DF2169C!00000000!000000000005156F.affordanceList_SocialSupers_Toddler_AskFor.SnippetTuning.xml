@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_SocialSupers_Toddler_AskFor" s="333167">
+  <L n="value">
+    <T>156921<!--Toddler_AskForBook--></T>
+    <T>156923<!--Toddler_AskForComfort--></T>
+    <T>214900<!--Toddler_AskForDancingHelp--></T>
+    <T>156911<!--Toddler_AskForDiaper--></T>
+    <T>156912<!--Toddler_AskForFlashcards--></T>
+    <T>156922<!--Toddler_AskToBePickedUp--></T>
+    <T>156908<!--Toddler_AskToPlay--></T>
+    <T>156915<!--Toddler_AskWhy--></T>
+    <T>190822<!--Toddler_AskForKiddiePool--></T>
+    <T>156907<!--Toddler_AskForBath--></T>
+    <T>157527<!--toddler_AskForBath_UserDirected--></T>
+    <T>156919<!--Toddler_AskForFood--></T>
+    <T>157530<!--toddler_AskForFood_UserDirected--></T>
+  </L>
+</I>

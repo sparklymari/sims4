@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_CrystalHelmet_ApplyTrait" s="193533">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">182695<!--buff_ClothingCatagory_Temperature_ColdClothing--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193915<!--crystalHelmet_Crystal_Alabaster--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193977<!--trait_CrystalHelmet_Alabaster--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193927<!--crystalHelmet_Crystal_Alexandrite_EP--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193979<!--trait_CrystalHelmet_Alexandrite_EP--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193928<!--crystalHelmet_Crystal_Amazonite_EP--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193980<!--trait_CrystalHelmet_Amazonite_EP--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">192884<!--crystalHelmet_Crystal_Amethyst--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193528<!--trait_CrystalHelmet_Amethyst--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193916<!--crystalHelmet_Crystal_Citrine--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193983<!--trait_CrystalHelmet_Citrine--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193925<!--crystalHelmet_Crystal_Crandestine_EP--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193984<!--trait_CrystalHelmet_Crandestine_EP--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193904<!--crystalHelmet_Crystal_Diamond--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193985<!--trait_CrystalHelmet_Diamond--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193905<!--crystalHelmet_Crystal_Emerald--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193986<!--trait_CrystalHelmet_Emerald--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193917<!--crystalHelmet_Crystal_FireOpal--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193987<!--trait_CrystalHelmet_FireOpal--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193906<!--crystalHelmet_Crystal_Hematite--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193988<!--trait_CrystalHelmet_Hematite--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193918<!--crystalHelmet_Crystal_Jet--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193989<!--trait_CrystalHelmet_Jet--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193907<!--crystalHelmet_Crystal_Jonquilyst--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193990<!--trait_CrystalHelmet_Jonquilyst--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193926<!--crystalHelmet_Crystal_Nitelite_EP--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193991<!--trait_CrystalHelmet_Nitelite_EP--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193908<!--crystalHelmet_Crystal_OrangeTopaz--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193992<!--trait_CrystalHelmet_OrangeTopaz--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193909<!--crystalHelmet_Crystal_Peach--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193993<!--trait_CrystalHelmet_Peach--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193919<!--crystalHelmet_Crystal_Plumbite--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193994<!--trait_CrystalHelmet_Plumbite--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193920<!--crystalHelmet_Crystal_Quartz--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193995<!--trait_CrystalHelmet_Quartz--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193910<!--crystalHelmet_Crystal_Rainborz--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193996<!--trait_CrystalHelmet_Rainborz--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193921<!--crystalHelmet_Crystal_Rose--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193997<!--trait_CrystalHelmet_Rose--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193922<!--crystalHelmet_Crystal_Ruby--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193998<!--trait_CrystalHelmet_Ruby--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193912<!--crystalHelmet_Crystal_Sapphire--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">193999<!--trait_CrystalHelmet_Sapphire--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193923<!--crystalHelmet_Crystal_Shinalite--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">194000<!--trait_CrystalHelmet_Shinalite--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193914<!--crystalHelmet_Crystal_Simanite--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">194001<!--trait_CrystalHelmet_Simanite--></T>
+      </U>
+    </V>
+    <V t="trait_add">
+      <U n="trait_add">
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">193924<!--crystalHelmet_Crystal_Turquoise--></T>
+                <E n="who">Actor</E>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192776<!--buff_Object_CrystalHelmet_Wearing--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+        <T n="trait">194002<!--trait_CrystalHelmet_Turquoise--></T>
+      </U>
+    </V>
+  </L>
+</I>

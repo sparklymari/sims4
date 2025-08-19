@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Wedding_WeddingTradition_GroupDance" s="280626">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xC1778609<!--It was super awkward and yet felt right!--></T>
+  <T n="buff_name">0x5D4DDB6C<!--There was a Big Dance!--></T>
+  <T n="icon" p="InGP11\UI\Icons\Buffs\buffs_AllSyncedUp.png">2f7d0004:00000000:a480986914a248c4</T>
+  <T n="mood_type">14642<!--Mood_Playful--></T>
+  <T n="mood_weight">1</T>
+</I>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R4Event_02_New" s="432977">
+  <T n="category">0x6F0FEC2<!--Shoes--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CASEmitBoots_large.png">2f7d0004:00000000:860f0d3285bf69f1</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458075<!--ymShoes_EF62EmitBoots_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458078<!--ymShoes_EF62EmitBoots_Navy--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458076<!--ymShoes_EF62EmitBoots_Orange--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458077<!--ymShoes_EF62EmitBoots_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458120<!--ymShoes_EF62EmitBoots_WhiteNavy--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x9AEDC115<!--Find this item in Create a Sim under Shoes, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0xD2D6D864<!--Walking the strands of time isn't easy.\n\nHaving a good pair of walking boots at hand really helps to keep you grounded as time is ripped apart beneath your feet.--></T>
+  <T n="reward_name">0xB115CCAB<!--Relevart Time Walkers--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CASEmitBoots_large.png">2f7d0004:00000000:860f0d3285bf69f1</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CASemitBoots.png">2f7d0004:00000000:21dbeb7bb847cad1</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CASemitBoots.png">2f7d0004:00000000:21dbeb7bb847cad1</T>
+</I>

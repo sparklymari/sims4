@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_MakeRanchNectar" s="384310">
+  <L n="affordances">
+    <T>346871<!--ranchNectarMaker_BottleNectarVisual--></T>
+    <T>322059<!--ranchNectarMaker_StompNectar--></T>
+    <T>315773<!--craftingResume_RanchNectarMaker--></T>
+    <T>315774<!--ranchNectarMaker_StartCrafting--></T>
+    <T>347398<!--ranchNectarMaker_Watch--></T>
+    <T>384579<!--ranchNectarMaker_StartCrafting_Autonomously--></T>
+  </L>
+  <E n="category">FOOD_AND_DRINK</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_MakeNectar.png">2f7d0004:00000000:95e0c9269d128392</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xC993B557<!--Make Ranch Nectar--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x67FF43<!--Sims will stomp nectar in Nectar Makers.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0xAF727DD8<!--Make Ranch Nectar--></T>
+  <T n="tooltip_template_negative">0xACB4F1EE<!--Don't Make Ranch Nectar--></T>
+</I>

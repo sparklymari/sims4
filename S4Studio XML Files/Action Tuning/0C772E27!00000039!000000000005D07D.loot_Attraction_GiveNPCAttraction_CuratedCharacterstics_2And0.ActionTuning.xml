@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Attraction_GiveNPCAttraction_CuratedCharacterstics_2And0" s="381053">
+  <L n="loot_actions">
+    <V t="trait_list_add">
+      <U n="trait_list_add">
+        <T n="amount">2</T>
+        <E n="subject">TargetSim</E>
+        <L n="trait_list">
+          <T>363397<!--trait_Attraction_Characteristics_Ambitionless_TurnOn--></T>
+          <T>363923<!--trait_Attraction_Characteristics_Ambitious_TurnOn--></T>
+          <T>363925<!--trait_Attraction_Characteristics_Argumentative_TurnOn--></T>
+          <T>363927<!--trait_Attraction_Characteristics_Cerebral_TurnOn--></T>
+          <T>363929<!--trait_Attraction_Characteristics_Clean_TurnOn--></T>
+          <T>363931<!--trait_Attraction_Characteristics_Egotistical_TurnOn--></T>
+          <T>363933<!--trait_Attraction_Characteristics_EmotionalDecisionMakers_TurnOn--></T>
+          <T>363935<!--trait_Attraction_Characteristics_FamilyMotivated_TurnOn--></T>
+          <T>363937<!--trait_Attraction_Characteristics_Funny_TurnOn--></T>
+          <T>363939<!--trait_Attraction_Characteristics_Hardworking_TurnOn--></T>
+          <T>363941<!--trait_Attraction_Characteristics_HighEnergy_TurnOn--></T>
+          <T>363943<!--trait_Attraction_Characteristics_Homebody_TurnOn--></T>
+          <T>363945<!--trait_Attraction_Characteristics_Idealist_TurnOn--></T>
+          <T>363947<!--trait_Attraction_Characteristics_Messy_TurnOn--></T>
+          <T>363949<!--trait_Attraction_Characteristics_NatureEnthusiast_TurnOn--></T>
+          <T>363951<!--trait_Attraction_Characteristics_Optimistic_TurnOn--></T>
+          <T>363953<!--trait_Attraction_Characteristics_Pessimistic_TurnOn--></T>
+          <T>363955<!--trait_Attraction_Characteristics_PetEnthusiast_TurnOn--></T>
+          <T>363957<!--trait_Attraction_Characteristics_Spirited_TurnOn--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

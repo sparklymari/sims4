@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_FindingIslandRewards_Treasure_Rare_diving" s="212797">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="reference">
+            <T n="reference">207625<!--notification_ObjectReward_FindingIslandRewards_Treasure--></T>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled">
+              <U n="enabled">
+                <L n="loot_actions">
+                  <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                </L>
+              </U>
+            </V>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219215<!--collectTreasureBuriedSml_EP07GENcoin_set4 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219216<!--collectTreasureBuriedSml_EP07GENcoin_set5 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219217<!--collectTreasureBuriedSml_EP07GENcoin_set6 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219220<!--collectTreasureBuriedSml_EP07GENcomb_set4 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219221<!--collectTreasureBuriedSml_EP07GENcomb_set5 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219222<!--collectTreasureBuriedSml_EP07GENcomb_set6 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219225<!--collectTreasureBuriedSml_EP07GENjewelry_set2 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219227<!--collectTreasureBuriedSml_EP07GENjewelry_set4 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219229<!--collectTreasureBuriedSml_EP07GENjewelry_set6 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">65</T>
+                </U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">214039<!--collectTreasureBuriedSml_EP07GENcoin_set1 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216989<!--collectTreasureBuriedSml_EP07GENcomb_set1 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219224<!--collectTreasureBuriedSml_EP07GENjewelry_set1 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219213<!--collectTreasureBuriedSml_EP07GENcoin_set2 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219218<!--collectTreasureBuriedSml_EP07GENcomb_set2 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219226<!--collectTreasureBuriedSml_EP07GENjewelry_set3 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">85</T>
+                </U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219214<!--collectTreasureBuriedSml_EP07GENcoin_set3 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219219<!--collectTreasureBuriedSml_EP07GENcomb_set3 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219228<!--collectTreasureBuriedSml_EP07GENjewelry_set5 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">216818<!--foodGRipGENkelp_01 (Mermadic Kelp)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219214<!--collectTreasureBuriedSml_EP07GENcoin_set3 (The Eyes of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219219<!--collectTreasureBuriedSml_EP07GENcomb_set3 (The Fingers of Sulani)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">219228<!--collectTreasureBuriedSml_EP07GENjewelry_set5 (The Heart of Sulani)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">246337<!--loot_Lifestyles_Progress_Unlock_FrequentTraveler--></T>
+    </V>
+  </L>
+</I>

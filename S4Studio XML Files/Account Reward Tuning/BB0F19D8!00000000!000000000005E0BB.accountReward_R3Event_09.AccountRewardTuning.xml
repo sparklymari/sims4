@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R3Event_09" s="385211">
+  <T n="category">0xBABED714<!--Decorations--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Rewards\GrimEvent_HauntedPainting_large.png">2f7d0004:00000000:70e816e04f027282</T>
+  <L n="items">
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">433702<!--paintWall2X1x3_EF61EVR_set1 (Portrait of Lady Mimsy Alcorn Shallot in the Garden)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">433703<!--paintWall2X1x3_EF61EVR_set2 (Portrait of Lady Mimsy Alcorn Shallot in the Garden)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">433704<!--paintWall2X1x3_EF61EVR_set3 (Portrait of Lady Mimsy Alcorn Shallot in the Garden)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">433705<!--paintWall2X1x3_EF61EVR_set4 (Portrait of Lady Mimsy Alcorn Shallot in the Garden)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">433706<!--paintWall2X1x3_EF61EVR_set5 (Portrait of Lady Mimsy Alcorn Shallot in the Garden)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">433707<!--paintWall2X1x3_EF61EVR_set6 (Portrait of Lady Mimsy Alcorn Shallot in the Garden)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0xB799371F<!--Find this item in Build Mode under Paintings & Posters, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0xE307CCEE<!--A portrait of Lady Mimsy Alcorn Shallot enjoying an afternoon in the gardens of the Von Haunt estate. Some people say they've seen the painting move, but that's probably just an urban legend, right?--></T>
+  <T n="reward_name">0x12BCB291<!--Portrait of Lady Mimsy Alcorn Shallot in the Garden--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\ThumbnailsFSI\GrimEvent_HauntedPainting_s.png">2f7d0004:00000000:9ca428a9251f47d8</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Thumbnails\GrimEvent_HauntedPainting.png">2f7d0004:00000000:c6e79f90cb8218b2</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Thumbnails\GrimEvent_HauntedPainting.png">2f7d0004:00000000:c6e79f90cb8218b2</T>
+</I>

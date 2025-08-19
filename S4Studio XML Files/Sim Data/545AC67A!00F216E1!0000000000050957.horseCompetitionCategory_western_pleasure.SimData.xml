@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000037">
+  <Instances>
+    <I name="horseCompetitionCategory_western_pleasure" schema="HorseCompetitionCategory" type="Object">
+      <U name="value" schema="TunableHorseCompetitionCategory">
+        <L name="competitions">
+          <T type="TableSetReference">330068</T>
+          <T type="TableSetReference">332320</T>
+          <T type="TableSetReference">332318</T>
+          <T type="TableSetReference">332319</T>
+        </L>
+        <T name="name">0xB1B68BB4</T>
+      </U>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="HorseCompetitionCategory" schema_hash="0x3238571E">
+      <Columns>
+        <Column name="value" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableHorseCompetitionCategory" schema_hash="0x3E65003D">
+      <Columns>
+        <Column name="competitions" type="Vector" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

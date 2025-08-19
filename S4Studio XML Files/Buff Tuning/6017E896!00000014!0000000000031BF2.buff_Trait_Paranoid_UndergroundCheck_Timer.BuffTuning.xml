@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Trait_Paranoid_UndergroundCheck_Timer" s="203762">
+  <L n="_loot_on_removal">
+    <T>203761<!--loot_Buff_Trait_Paranoid_UndergroundCheck--></T>
+  </L>
+  <V n="_temporary_commodity_info" t="enabled">
+    <U n="enabled">
+      <T n="max_duration">8</T>
+    </U>
+  </V>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGP07\UI\Icons\Buffs\buffs_ParanoidTrait.png">2f7d0004:00000000:970bd46d66402728</T>
+  <T n="refresh_on_add">True</T>
+  <T n="success_modifier">0</T>
+  <T n="ui_sort_order">1</T>
+  <T n="visible">False</T>
+  <V n="walkstyle" t="disabled" />
+</I>

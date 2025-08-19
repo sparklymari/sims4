@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Batuu_Missions_Lock_All_Aspirations_FO" s="246291">
+  <L n="loot_actions">
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">239672<!--aspirationGig_Batuu_Missions_FirstOrder_Intro_Mission--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">231103<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_01--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241582<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_02--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241583<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_03--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241584<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_05--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">239876<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_08--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">239925<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_09--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241585<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_13--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241586<!--aspirationGig_Batuu_Missions_FirstOrder_Repeatable_14--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">239669<!--aspirationGig_Batuu_Missions_FirstOrder_Story_1--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">239861<!--aspirationGig_Batuu_Missions_FirstOrder_Story_2--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241101<!--aspirationGig_Batuu_Missions_FirstOrder_Story_3--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241247<!--aspirationGig_Batuu_Missions_FirstOrder_Story_4--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241369<!--aspirationGig_Batuu_Missions_FirstOrder_Story_5--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241542<!--aspirationGig_Batuu_Missions_FirstOrder_Story_6--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">241680<!--aspirationGig_Batuu_Missions_FirstOrder_Story_7--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+    <V t="reset_aspiration">
+      <U n="reset_aspiration">
+        <T n="aspiration">242083<!--aspirationGig_Batuu_Missions_FirstOrder_Story_8--></T>
+        <E n="target_participant_type">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="super_FoodSharing_GetFood_EatSolo_Normal" s="363364">
+  <L n="_constraints">
+    <U>
+      <L n="constraints">
+        <U />
+        <U>
+          <V n="value" t="facing" />
+        </U>
+      </L>
+    </U>
+  </L>
+  <V n="_saveable" t="enabled" />
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">106766<!--Generic_PickUp_StandOnly--></T>
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="send_to_inventory">
+      <U n="send_to_inventory">
+        <V n="timing" t="on_xevt">
+          <U n="on_xevt">
+            <T n="xevt_id">102</T>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0xF3EF7A86<!--Eat Chocolate Truffles--></T>
+  <V n="display_name_overrides" t="testable">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x6BED6276<!--Eat Chocolate Strawberries--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398846<!--foodBoxEatMulti_EP16GENchocStrawberry (The Sweetheart's Box: Chocolate Strawberries)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0xBE4BCF8B<!--Eat Doughnut Drops--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398845<!--foodBoxEatMulti_EP16GENdonutHoles (The Sweetheart's Box: Doughnut Drops)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x129275BB<!--Eat Candied Figs--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398844<!--foodBoxEatMulti_EP16GENfigs (The Sweetheart's Box: Candied Figs)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x1DF3CD6A<!--Eat Mochi--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398843<!--foodBoxEatMulti_EP16GENMochi (The Sweetheart's Box: Mochi)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x49EFB59A<!--Eat Pan Dulce--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398842<!--foodBoxEatMulti_EP16GENpanDulce (The Sweetheart's Box: Pan Dulce)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0xAD42302F<!--Eat Popcorn Clusters--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398841<!--foodBoxEatMulti_EP16GENpopcornBall (The Sweetheart's Box: Popcorn Clusters)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x56AD8EB8<!--Eat Profiteroles--></T>
+          </V>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398840<!--foodBoxEatMulti_EP16GENprofiteroles (The Sweetheart's Box: Profiteroles)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="continuation">
+              <U>
+                <T n="affordance">363308<!--super_FoodSharing_EatSolo_Normal_Chocolate--></T>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381729<!--super_FoodSharing_EatSolo_Normal_ChocStrawberry--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398846<!--foodBoxEatMulti_EP16GENchocStrawberry (The Sweetheart's Box: Chocolate Strawberries)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381730<!--super_FoodSharing_EatSolo_Normal_DonutHoles--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398845<!--foodBoxEatMulti_EP16GENdonutHoles (The Sweetheart's Box: Doughnut Drops)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381731<!--super_FoodSharing_EatSolo_Normal_Figs--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398844<!--foodBoxEatMulti_EP16GENfigs (The Sweetheart's Box: Candied Figs)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381732<!--super_FoodSharing_EatSolo_Normal_Mochi--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398843<!--foodBoxEatMulti_EP16GENMochi (The Sweetheart's Box: Mochi)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381733<!--super_FoodSharing_EatSolo_Normal_PanDulce--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398842<!--foodBoxEatMulti_EP16GENpanDulce (The Sweetheart's Box: Pan Dulce)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381734<!--super_FoodSharing_EatSolo_Normal_Popcorn--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398841<!--foodBoxEatMulti_EP16GENpopcornBall (The Sweetheart's Box: Popcorn Clusters)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">381735<!--super_FoodSharing_EatSolo_Normal_Profiteroles--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">398840<!--foodBoxEatMulti_EP16GENprofiteroles (The Sweetheart's Box: Profiteroles)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

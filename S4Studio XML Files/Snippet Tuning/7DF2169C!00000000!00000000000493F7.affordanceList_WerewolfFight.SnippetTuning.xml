@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_WerewolfFight" s="300023">
+  <L n="value">
+    <T>287770<!--social_Werewolf_Fight_Target--></T>
+    <T>287764<!--mixer_social_Fight_targeted_mean_SimToWerewolf--></T>
+    <T>287763<!--mixer_social_Fight_targeted_mean_WerewolfToSim--></T>
+    <T>287769<!--social_Werewolf_Fight_Actor_WerewolfToWerewolf--></T>
+    <T>287843<!--social_Werewolf_Fight_Actor_WerewolfToVampire_NoGarlic--></T>
+    <T>287842<!--social_Werewolf_Fight_Actor_WerewolfToVampire_WithGarlic--></T>
+    <T>287845<!--social_Werewolf_Fight_Actor_VampireToWerewolf_NoGarlic--></T>
+    <T>287846<!--social_Werewolf_Fight_Actor_VampireToWerewolf_WithGarlic--></T>
+  </L>
+</I>

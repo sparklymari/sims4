@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PremadeSimTemplate" i="sim_template" m="world.premade_sim_template" n="preMadeSimTemplate_Freya_Loden_EP18" s="373084">
+  <U n="_sim_creation_info">
+    <T n="first_name">0x9AE1B678<!--Freya--></T>
+    <V n="last_name" t="specify_last_name">
+      <T n="specify_last_name">0x619D466E<!--Loden--></T>
+    </V>
+    <T n="resource_key" p="InEP18\Sims\SimInfos\PremadeSims\tfFreyaLoden.siminfo">025ed6f4:00000000:fc32972a8417129a</T>
+  </U>
+  <U n="_skills">
+    <L n="explicit">
+      <U>
+        <U n="range">
+          <T n="ideal_value">5</T>
+          <T n="max_value">5</T>
+          <T n="min_value">5</T>
+        </U>
+        <T n="skill">16659<!--skill_Fitness--></T>
+      </U>
+      <U>
+        <U n="range">
+          <T n="ideal_value">3</T>
+          <T n="max_value">3</T>
+          <T n="min_value">3</T>
+        </U>
+        <T n="skill">16705<!--statistic_Skill_AdultMajor_HomestyleCooking--></T>
+      </U>
+      <U>
+        <U n="range">
+          <T n="ideal_value">5</T>
+          <T n="max_value">5</T>
+          <T n="min_value">5</T>
+        </U>
+        <T n="skill">128145<!--statistic_Skill_AdultMinor_Dancing--></T>
+      </U>
+      <U>
+        <U n="range">
+          <T n="ideal_value">2</T>
+          <T n="max_value">2</T>
+          <T n="min_value">2</T>
+        </U>
+        <T n="skill">117858<!--statistic_Skill_AdultMajor_Wellness--></T>
+      </U>
+    </L>
+  </U>
+  <U n="_traits">
+    <L n="explicit">
+      <T>375305<!--EP18_Trait_Hidden_NPC--></T>
+      <T>27419<!--trait_active--></T>
+      <T>16824<!--trait_SelfAssured--></T>
+      <T>390760<!--eP18_Trait_Hidden_NPC_FreyaLoden--></T>
+      <T>373507<!--EP18_Trait_Hidden_NPC_Loden--></T>
+      <T>113588<!--trait_Handedness_Right--></T>
+      <T>258260<!--trait_SimPreference_Dislikes_Music_Kids--></T>
+      <T>276492<!--trait_GenderOptions_AttractedTo_Female--></T>
+      <T>276493<!--trait_GenderOptions_AttractedTo_Male--></T>
+      <T>136880<!--trait_GenderOptions_Clothing_WomensWear--></T>
+      <T>136878<!--trait_GenderOptions_Frame_Feminine--></T>
+      <T>274985<!--trait_GenderOptions_Lactate_Can--></T>
+      <T>276496<!--trait_GenderOptions_Sexuality_Exploring--></T>
+      <T>137718<!--trait_GenderOptions_Toilet_Sitting--></T>
+      <T>291675<!--trait_SexualOrientation_WooHooInterests_Female--></T>
+      <T>291674<!--trait_SexualOrientation_WooHooInterests_Male--></T>
+      <T>259055<!--Trait_SimPreference_Dislikes_Music_Americana--></T>
+      <T>102448<!--trait_GenderFemale--></T>
+      <T>306495<!--trait_SimPreference_Dislikes_Communication_Pranks--></T>
+      <T>149330<!--trait_Phone_BluePolka--></T>
+      <T>306497<!--trait_SimPreference_Dislikes_Communication_SmallTalk--></T>
+      <T>326010<!--trait_SimPreference_Dislikes_Decor_Shabby--></T>
+      <T>264173<!--Trait_SimPreference_Dislikes_Activities_PipeOrgan--></T>
+      <T>264163<!--Trait_SimPreference_Dislikes_Activities_RockClimbing--></T>
+      <T>306418<!--trait_SimPreference_Dislikes_Characteristic_Mischievous--></T>
+      <T>258269<!--trait_SimPreference_Likes_Music_Alternative--></T>
+      <T>258276<!--trait_SimPreference_Likes_Music_Pop--></T>
+      <T>343176<!--trait_SimPreference_Likes_Music_RnB--></T>
+      <T>259028<!--Trait_SimPreference_Likes_Music_World--></T>
+      <T>258278<!--trait_SimPreference_Likes_Music_Romance--></T>
+      <T>258273<!--trait_SimPreference_Likes_Music_HipHop--></T>
+      <T>258280<!--trait_SimPreference_Likes_Music_SPop--></T>
+      <T>259038<!--Trait_SimPreference_Likes_Music_SummerStrut--></T>
+      <T>305966<!--trait_SimPreference_Likes_Characteristic_Spirited--></T>
+      <T>305969<!--trait_SimPreference_Likes_Characteristic_Funny--></T>
+      <T>305964<!--trait_SimPreference_Likes_Characteristic_HighEnergy--></T>
+      <T>306465<!--trait_SimPreference_Likes_Communication_DeepThoughts--></T>
+      <T>264179<!--Trait_SimPreference_Likes_Activities_Dancing--></T>
+      <T>269262<!--Trait_SimPreference_Likes_Activities_Wellness--></T>
+      <T>258765<!--trait_SimPreference_Likes_Activities_Fitness--></T>
+      <T>264183<!--Trait_SimPreference_Likes_Activities_MediaProduction--></T>
+    </L>
+    <V n="num_random" t="disabled" />
+  </U>
+  <V n="career_level" t="enabled">
+    <T n="enabled">9550<!--career_HighSchool_LevelC--></T>
+  </V>
+  <V n="primary_aspiration" t="enabled">
+    <T n="enabled">25114<!--Track_Athletic_A--></T>
+  </V>
+</I>

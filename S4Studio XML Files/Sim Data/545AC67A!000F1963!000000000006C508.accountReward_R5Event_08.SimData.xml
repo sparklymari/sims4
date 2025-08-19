@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="accountReward_R5Event_08" schema="AccountReward" type="Object">
+      <T name="category">0x13C649B7</T>
+      <T name="image">00B2D882-00000000-BE2D6C8341A6C2C9</T>
+      <L name="items">
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479518</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479519</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479520</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479521</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479522</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479523</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479524</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479525</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479526</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479527</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479528</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">479529</T>
+        </V>
+        <V type="Variant" variant="0x090428D3" schema="Tunable_RecipeAccountRewardItem">
+          <T name="item_resource">447512</T>
+        </V>
+      </L>
+      <T name="location_tip">0xA3CF96F0</T>
+      <T name="reward_description">0x1DAE2DC1</T>
+      <T name="reward_name">0xA5CE37F4</T>
+      <T name="reward_thumbnail_image">00B2D882-00000000-E3701A266DF80ECA</T>
+      <V name="reward_timeline_image" variant="0xCA1F42EC">
+        <T type="ResourceKey">00B2D882-00000000-D5BE21205FDC9FF1</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="AccountReward" schema_hash="0x808D1581">
+      <Columns>
+        <Column name="category" type="LocalizationKey" flags="0x00000000" />
+        <Column name="image" type="ResourceKey" flags="0x00000000" />
+        <Column name="items" type="Vector" flags="0x00000000" />
+        <Column name="location_tip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_thumbnail_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="reward_timeline_image" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_BuildBuyAccountRewardItem" schema_hash="0x2BAA7F96">
+      <Columns>
+        <Column name="item_resource" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_RecipeAccountRewardItem" schema_hash="0xE65EABB0">
+      <Columns>
+        <Column name="item_resource" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

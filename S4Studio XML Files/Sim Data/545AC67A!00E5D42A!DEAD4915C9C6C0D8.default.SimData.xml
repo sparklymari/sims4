@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Telemetry.Tuning" type="Object">
+      <L name="UIEvents">
+        <U type="Object" schema="Telemetry.UIEventMapping">
+          <T name="Event">140653712</T>
+          <T name="HookGroup">1346979149</T>
+          <T name="HookName">1112888404</T>
+          <T name="Mode">0</T>
+        </U>
+        <U type="Object" schema="Telemetry.UIEventMapping">
+          <T name="Event">1375946100</T>
+          <T name="HookGroup">1346979149</T>
+          <T name="HookName">1397247831</T>
+          <T name="Mode">0</T>
+        </U>
+        <U type="Object" schema="Telemetry.UIEventMapping">
+          <T name="Event">3637919421</T>
+          <T name="HookGroup">1128354640</T>
+          <T name="HookName">1380928588</T>
+          <T name="Mode">0</T>
+        </U>
+        <U type="Object" schema="Telemetry.UIEventMapping">
+          <T name="Event">3740308200</T>
+          <T name="HookGroup">1128354640</T>
+          <T name="HookName">1112888404</T>
+          <T name="Mode">0</T>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Telemetry.Tuning" schema_hash="0x07942124">
+      <Columns>
+        <Column name="UIEvents" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Telemetry.UIEventMapping" schema_hash="0x38F3B861">
+      <Columns>
+        <Column name="Event" type="UInt32" flags="0x00000000" />
+        <Column name="HookGroup" type="UInt32" flags="0x00000000" />
+        <Column name="HookName" type="UInt32" flags="0x00000000" />
+        <Column name="Mode" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

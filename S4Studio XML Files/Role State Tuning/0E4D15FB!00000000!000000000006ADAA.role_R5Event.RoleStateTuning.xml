@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RoleState" i="role_state" m="role.role_state" n="role_R5Event" s="437674">
+  <T n="_allow_npc_routing_on_active_lot">False</T>
+  <L n="_buffs">
+    <U>
+      <T n="buff_type">437676<!--buff_R5Event_QuestActive--></T>
+    </U>
+  </L>
+  <U n="_off_lot_autonomy_buff">
+    <T n="buff_type">38292<!--buff_offLotAutonomyMod_OnLotOnly--></T>
+  </U>
+  <L n="loot_on_load">
+    <T>450768<!--loot_LiveEvents_R5Event_ReaddOutdoorBuff--></T>
+  </L>
+</I>

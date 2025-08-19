@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_BikerJacket" s="124099">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0xCBEC7ACF<!--Leather Jacket--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_CASBikerJacket.png">2f7d0004:00000000:8daf1c13a021a967</T>
+  </U>
+  <T n="perk_description">0xE6CEC2E8<!--Represent your Club with this stylish Leather Jacket. Once purchased don't forget to apply it to your Club's uniform from the Club Panel.--></T>
+  <L n="rewards">
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107616<!--yfTop_EP02CliqueLeatherJacket_Atom--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107617<!--yfTop_EP02CliqueLeatherJacket_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107618<!--yfTop_EP02CliqueLeatherJacket_Book--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107619<!--yfTop_EP02CliqueLeatherJacket_Butterfly--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107620<!--yfTop_EP02CliqueLeatherJacket_Chess--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107621<!--yfTop_EP02CliqueLeatherJacket_Coffee--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107622<!--yfTop_EP02CliqueLeatherJacket_Diamond--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107623<!--yfTop_EP02CliqueLeatherJacket_DJ--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107624<!--yfTop_EP02CliqueLeatherJacket_Drama--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107625<!--yfTop_EP02CliqueLeatherJacket_Drink--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107626<!--yfTop_EP02CliqueLeatherJacket_Dumbell--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107627<!--yfTop_EP02CliqueLeatherJacket_Fire--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107628<!--yfTop_EP02CliqueLeatherJacket_Fish--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107629<!--yfTop_EP02CliqueLeatherJacket_Flirt--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107630<!--yfTop_EP02CliqueLeatherJacket_Food--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107631<!--yfTop_EP02CliqueLeatherJacket_Gaming--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107632<!--yfTop_EP02CliqueLeatherJacket_Gardens--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107633<!--yfTop_EP02CliqueLeatherJacket_Jester--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107634<!--yfTop_EP02CliqueLeatherJacket_Music--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107635<!--yfTop_EP02CliqueLeatherJacket_Paint--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107636<!--yfTop_EP02CliqueLeatherJacket_Rainbow--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107637<!--yfTop_EP02CliqueLeatherJacket_Rocket--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107638<!--yfTop_EP02CliqueLeatherJacket_Skull--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107639<!--yfTop_EP02CliqueLeatherJacket_SunGlasses--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107640<!--yfTop_EP02CliqueLeatherJacket_Wrench--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107284<!--ymTop_EP02CliqueLeatherJacket_Atom--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107285<!--ymTop_EP02CliqueLeatherJacket_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107286<!--ymTop_EP02CliqueLeatherJacket_Book--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107287<!--ymTop_EP02CliqueLeatherJacket_Butterfly--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107288<!--ymTop_EP02CliqueLeatherJacket_Chess--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107289<!--ymTop_EP02CliqueLeatherJacket_Coffee--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107290<!--ymTop_EP02CliqueLeatherJacket_Diamond--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107291<!--ymTop_EP02CliqueLeatherJacket_DJ--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107292<!--ymTop_EP02CliqueLeatherJacket_Drama--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107293<!--ymTop_EP02CliqueLeatherJacket_Drink--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107294<!--ymTop_EP02CliqueLeatherJacket_Dumbell--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107295<!--ymTop_EP02CliqueLeatherJacket_Fire--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107296<!--ymTop_EP02CliqueLeatherJacket_Fish--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107297<!--ymTop_EP02CliqueLeatherJacket_Flirt--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107298<!--ymTop_EP02CliqueLeatherJacket_Food--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107299<!--ymTop_EP02CliqueLeatherJacket_Gaming--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107300<!--ymTop_EP02CliqueLeatherJacket_Gardens--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107301<!--ymTop_EP02CliqueLeatherJacket_Jester--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107302<!--ymTop_EP02CliqueLeatherJacket_Music--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107303<!--ymTop_EP02CliqueLeatherJacket_Paint--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107304<!--ymTop_EP02CliqueLeatherJacket_Rainbow--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107305<!--ymTop_EP02CliqueLeatherJacket_Rocket--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107306<!--ymTop_EP02CliqueLeatherJacket_Skull--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107307<!--ymTop_EP02CliqueLeatherJacket_SunGlasses--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">107308<!--ymTop_EP02CliqueLeatherJacket_Wrench--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">200</T>
+</I>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Reaping_Review" s="422856">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_notepad.png">2f7d0004:00000000:175c369d841d8703</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x27E2FDBF<!--Request Reaping Review--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x17D54E31<!--Select the Urn and choose Request Reaping Review.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>402445<!--career_Reaper_Urnstone_RequestReapingReview--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

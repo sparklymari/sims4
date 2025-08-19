@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_JuiceFizzing_Ingredients_Values_High" s="241239">
+  <L n="test">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">125468<!--gardenFruit_GENGrowfruit_01 (Growfruit)--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">36257<!--gardenPlantFlowerGEN_birdofparadise (Bird of Paradise Plant)--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

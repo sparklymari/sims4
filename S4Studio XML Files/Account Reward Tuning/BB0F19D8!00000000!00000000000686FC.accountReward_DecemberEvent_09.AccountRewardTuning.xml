@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_DecemberEvent_09" s="427772">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Rewards\December_scarf_large.png">2f7d0004:00000000:8a907d9edce8a746</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462545<!--cuAcc_NecklaceEFDec24EVRscarf_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462546<!--cuAcc_NecklaceEFDec24EVRscarf_DotGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462547<!--cuAcc_NecklaceEFDec24EVRscarf_DotPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462548<!--cuAcc_NecklaceEFDec24EVRscarf_DotRad--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462549<!--cuAcc_NecklaceEFDec24EVRscarf_DotYellow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462550<!--cuAcc_NecklaceEFDec24EVRscarf_PlaidBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462552<!--cuAcc_NecklaceEFDec24EVRscarf_PlaidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462551<!--cuAcc_NecklaceEFDec24EVRscarf_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462553<!--yfAcc_NecklaceEFDec24EVRscarf_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462554<!--yfAcc_NecklaceEFDec24EVRscarf_DotGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462555<!--yfAcc_NecklaceEFDec24EVRscarf_DotPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462556<!--yfAcc_NecklaceEFDec24EVRscarf_DotRad--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462557<!--yfAcc_NecklaceEFDec24EVRscarf_DotYellow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462558<!--yfAcc_NecklaceEFDec24EVRscarf_PlaidBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462560<!--yfAcc_NecklaceEFDec24EVRscarf_PlaidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462559<!--yfAcc_NecklaceEFDec24EVRscarf_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462561<!--ymAcc_NecklaceEFDec24EVRscarf_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462562<!--ymAcc_NecklaceEFDec24EVRscarf_DotGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462563<!--ymAcc_NecklaceEFDec24EVRscarf_DotPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462564<!--ymAcc_NecklaceEFDec24EVRscarf_DotRad--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462565<!--ymAcc_NecklaceEFDec24EVRscarf_DotYellow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462566<!--ymAcc_NecklaceEFDec24EVRscarf_PlaidBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462568<!--ymAcc_NecklaceEFDec24EVRscarf_PlaidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462567<!--ymAcc_NecklaceEFDec24EVRscarf_White--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x652649F7<!--Find this item under Necklaces in Create a Sim, or use the new Event Rewards filter.--></T>
+  <T n="reward_description">0x5D4CBD2A<!--Prepare for the elements while looking stylish with the Cozy Neck Scarf. Available in Create a Sim under Accessories, the neck warmer comes in multiple colors and designs to fit any mood.--></T>
+  <T n="reward_name">0x2A05C5B5<!--Cozy Neck Scarf--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\ThumbnailsFSI\December_scarf_s.png">2f7d0004:00000000:c88795bb90856484</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_scarf.png">2f7d0004:00000000:26f9cecd05da7546</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_scarf.png">2f7d0004:00000000:26f9cecd05da7546</T>
+</I>

@@ -1,0 +1,2529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="marketStalls_Open" s="133181">
+  <L n="_constraints" />
+  <V n="_saveable" t="enabled" />
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">135169<!--staticCommodity_MarketStalls_OpenStall--></T>
+    </U>
+  </L>
+  <T n="allow_autonomous">True</T>
+  <T n="allow_user_directed">False</T>
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">132869<!--marketStall_Open--></T>
+        <U n="overrides">
+          <T n="animation_context">True</T>
+        </U>
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="state_change">
+      <U n="state_change">
+        <V n="new_value" t="single_value">
+          <U n="single_value">
+            <T n="new_value">132691<!--marketStalls_Open--></T>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V n="basic_reserve_object" t="disabled" />
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0xAAB8FC3<!--Tend Stall--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="continuation">
+              <U>
+                <T n="affordance">132798<!--marketStalls_Tend_Craft--></T>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">132798<!--marketStalls_Tend_Craft--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">120322<!--marketStandCraft_EP03GENvegetableSpice (Vegetables and Ingredients Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">140995<!--marketStalls_Tend_Craft_GroceryCurryChili--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">132359<!--marketStandCraft_EP03GENvegetableSpice_SpiceMarket (Vegetables and Ingredients Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">140994<!--marketStalls_Tend_Craft_GrocerySaffron--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">132360<!--marketStandCraft_EP03GENvegetableSpice_FashionDistrict (Vegetables and Ingredients Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">140996<!--marketStalls_Tend_Craft_GroceryWasabi--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">132361<!--marketStandCraft_EP03GENvegetableSpice_ArtsQuarter (Vegetables and Ingredients Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139281<!--marketStalls_Tend_Food_Japanese--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">120323<!--marketStandFood_EP03JPSblossomFestivalSushi (Japanese Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">132722<!--marketStalls_Tend_Food--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">130776<!--marketStandFood_EP03GENgrill (American Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139454<!--marketStalls_Tend_Food_Chinese--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131803<!--marketStandFood_EP03GENchinese (Chinese Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139286<!--marketStalls_Tend_Food_Filipino--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131739<!--marketStandFood_EP03GENfilipino (Filipino Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139282<!--marketStalls_Tend_Food_Tea--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131012<!--marketStandFood_EP03GENhotDrinks (Tea and Hot Drinks Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139283<!--marketStalls_Tend_Food_Indian--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131804<!--marketStandFood_EP03GENindian (Indian Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139285<!--marketStalls_Tend_Food_Mexican--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131738<!--marketStandFood_EP03GENmexican (Mexican Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139284<!--marketStalls_Tend_Food_Morrocan--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131805<!--marketStandFood_EP03GENmoroccan (Moroccan Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139455<!--marketStalls_Tend_Food_Vietnamese--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131806<!--marketStandFood_EP03GENvietnamese (Vietnamese Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139537<!--marketStalls_Tend_Food_BlossomTea--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">132457<!--marketStandFood_EP03GENhotDrinks_BlossomFestival (Tea and Hot Drinks Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139538<!--marketStalls_Tend_Food_LampTea--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">132458<!--marketStandFood_EP03GENhotDrinks_LampFestival (Tea and Hot Drinks Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139575<!--marketStalls_Tend_Craft_BlossomFestival--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">131797<!--marketStandCraft_EP03GENschwag_set1_blossom (Festival Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139578<!--marketStalls_Tend_Craft_FoodFestival--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">136020<!--marketStandCraft_EP03GENschwag_set2_food (Festival Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139574<!--marketStalls_Tend_Craft_LampFestival--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">136021<!--marketStandCraft_EP03GENschwag_set3_lamp (Festival Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139576<!--marketStalls_Tend_Craft_LogicFair--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">136022<!--marketStandCraft_EP03GENschwag_set4_logic (Festival Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">132722<!--marketStalls_Tend_Food--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">143999<!--marketStandFood_EP03GENuptownAmerican (Uptown Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">148143<!--marketStalls_Tend_Food_UptownCupcake--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">144207<!--marketStandFood_EP03GENuptownCupcake (Uptown Cupcake Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">148144<!--marketStalls_Tend_Food_UptownGourmet--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">144215<!--marketStandFood_EP03GENuptownGourmet (Uptown Gourmet Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">139281<!--marketStalls_Tend_Food_Japanese--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">144204<!--marketStandFood_EP03GENuptownJapanese (Uptown Japanese Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">169833<!--marketStalls_Tend_Craft_DailyCatch--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">166052<!--marketStandFood_EP04GENpetSeafood_set2 (Catch Of The Day)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">169918<!--marketStalls_Tend_Food_Dockyard--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">166051<!--marketStandFood_EP04GENpetSeafood_set1 (Foodies Seafood Sampler)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">169834<!--marketStalls_Tend_Food_SquareSnacks--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStalls_SquareSnacks</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">177017<!--marketStalls_Tend_Food_Jungle--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">178153<!--marketStandFood_GP06GEN (Selvadoradian Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">180869<!--marketStalls_Tend_Seasonal_Summer--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStalls_Seasonal_Summer</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">180866<!--marketStalls_Tend_Seasonal_Spring--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStalls_Seasonal_Spring</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">180867<!--marketStalls_Tend_Seasonal_Fall--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStalls_Seasonal_Fall</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">180868<!--marketStalls_Tend_Seasonal_Winter--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStalls_Seasonal_Winter</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">202377<!--marketStalls_Tend_Craft_CurioShop--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">210271<!--marketStandCraft_GP07GENcurioShop_set1 (The Knick Knack, Bric-A-Brac Shack)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">210956<!--marketStalls_Tend_Food_IslandBBQ--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">214937<!--marketStandFood_EP07GENbarbecue (Jess' Big Island BBQ Shack)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">210957<!--marketStalls_Tend_Food_FreshCatch--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">214939<!--marketStandFood_EP07GENfish (Zee's E-Z Poke Stand)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">209263<!--marketStalls_Tend_University--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">218070<!--marketStandFood_EP08GENchipChalet_set1 (Fish 'N' Things!)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">216944<!--marketStalls_Tend_Craft_Magic_Broom--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">228360<!--marketStandCraft_GP08GENbroom (Brooms, Baubles, and Beyond)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">229055<!--marketStandCraft_GP08GENbroomEnv (Brooms, Baubles, and Beyond)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">216945<!--marketStalls_Tend_Craft_Magic_Reagent--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">228363<!--marketStandCraft_GP08GENpotion (Questionable Quacks Emporium)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">229057<!--marketStandCraft_GP08GENpotionEnv (Questionable Quacks Emporium)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">216943<!--marketStalls_Tend_Craft_Magic_Wand--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">228364<!--marketStandCraft_GP08GENwand (Juan's Wonderful One Stop Wand Warehouse)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">229059<!--marketStandCraft_GP08GENwandEnv (Juan's Wonderful One Stop Wand Warehouse)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">23927<!--Generic_PutDown--></T>
+                  </U>
+                </V>
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">217884<!--marketStalls_Tend_CafeteriaStation--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_CafeteriaStation</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">224345<!--marketStalls_Tend_CoffeeCart--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_CoffeeCart</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">224609<!--marketStalls_Tend_University_Kebab--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">233760<!--marketStandFood_EP08GENplumbkebab_set1 (Bab's Kebabs And Wraps)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">224610<!--marketStalls_Tend_University_Pizza--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">233759<!--marketStandFood_EP08GENsliceShack_set1 (Tam Tam's More Than One Slice - Pizza Pop Up)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">239595<!--marketStalls_Tend_Food_EcoDrinks--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">247310<!--marketStandFood_EP09GEN_set1 (Footloose Beverage Bodega – by Roving Joe)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">247311<!--marketStandFood_EP09GEN_set2 (Footloose Beverage Bodega – by Roving Joe)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">247312<!--marketStandFood_EP09GEN_set3 (Footloose Beverage Bodega – by Roving Joe)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">247313<!--marketStandFood_EP09GEN_set4 (Footloose Beverage Bodega – by Roving Joe)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">238064<!--marketStalls_Tend_Batuu_MilkStand--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">248299<!--marketStandFood_GP09GENmilkstand (Milk Stand)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">250745<!--marketStalls_Tend_TraditionalMountain--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">258085<!--marketStandFood_EP10GENfestivalStall_traditional (Mt. Komorebi Mouthfuls)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">250768<!--marketStalls_Tend_HotMountainFood--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">258088<!--marketStandFood_EP10GENfestivalStall_hotFood (Yamachan's Ramen and Rations)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">250788<!--marketStalls_Tend_FestivalLight--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">256349<!--marketStandFood_EP10GENfestivalStall_light (Luminous Libations Festival Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">250787<!--marketStalls_Tend_FestivalSnow--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">258086<!--marketStandFood_EP10GENfestivalStall_snow (Savory n’ Snowy Festival Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">250789<!--marketStalls_Tend_FestivalYouth--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">258087<!--marketStandFood_EP10GENfestivalStall_youth (Youthful Yummies Festival Food Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">269918<!--marketStalls_Tend_MusicFestival_Shop--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStall_MusicShop</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">269919<!--marketStalls_Tend_MusicFestival_FoodDrink--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_MarketStall_MusicFood</E>
+                      </L>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">260642<!--marketStalls_Tend_VillageShops_Garden--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">272582<!--marketStandCraft_EP11GENgarden_set1 (Crumplebottom's Garden Shop)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">260643<!--marketStalls_Tend_VillageShops_Grocery--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">272604<!--marketStandCraft_EP11GENgrocery_set1 (Goldbloom's Grocery Shop)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">276197<!--marketStalls_Tend_Wedding_Chinese--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">294420<!--marketStandFoodTakeout_GP11GENchinese_set1 (The Porto Luminoso Chinese Market Stand)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">276194<!--marketStalls_Tend_Wedding_Indian--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">294419<!--marketStandFoodTakeout_GP11GENindian_set1 (The Porto Luminoso Indian Market Stand)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">276196<!--marketStalls_Tend_Wedding_Flowers--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">297623<!--marketStandCraft_GP11GENflowers_set1 (Petals to the Metal – The Mobile Flower Traylah)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">297624<!--marketStandCraft_GP11GENflowers_set2 (Petals to the Metal – The Mobile Flower Traylah)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">297625<!--marketStandCraft_GP11GENflowers_set3 (Petals to the Metal – The Mobile Flower Traylah)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">276195<!--marketStalls_Tend_Wedding_Patisserie--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">294421<!--marketStandFoodTakeout_GP11GENpatisserie_set1 (Porto Luminoso Patisserie Market Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">278608<!--marketStalls_Tend_CafeteriaStation_HighSchool--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_HighSchool_Active_CafeteriaStation</E>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">280337<!--marketStalls_Tend_BubbleTeaCounter--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_BubbleTeaCounter</E>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">281716<!--marketStalls_Tend_HighSchoolFestival_Sports--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">305536<!--marketStandFoodTakeout_EP12GENsports_set1 (Sports Day Festival Market Stand )--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">281715<!--marketStalls_Tend_HighSchoolFestival_Science--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">305535<!--marketStandFoodTakeout_EP12GENscience_set1 (Science Day Festival Market Stand )--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">290512<!--marketStalls_Tend_PierAttractions_IceCream--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">305953<!--marketStandFoodTakeout_EP12GENiceCream--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">320691<!--marketStalls_Tend_Food_AroundTheWorld--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">342928<!--marketStandFood_EP13GENinternational_set1 (Around the World in 80 Bites Food Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">337031<!--marketStalls_Tend_EP15World_Food--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">364663<!--marketStandFood_EP15GENnonVegan_set1 (Rice to Meet You Night Market)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">337029<!--marketStalls_Tend_EP15World_Vegetarian--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">364658<!--marketStandFood_EP15GENvegan_set1 (Vegan Vittles Night Market)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">337032<!--marketStalls_Tend_EP15World_Desserts--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">364660<!--marketStandFood_EP15GENdessert_set1 (Late Night Snack Dessert Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">337030<!--marketStalls_Tend_EP15World_Store--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">364656<!--marketStandCraft_EP15GEN_set1 (Mali's Moonlight Market Craft Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">366316<!--marketStalls_Tend_Food_EP16World_1--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">395681<!--marketStandFoodTakeout_EP16GENfoldable_set1 (Moveable Take Out Market Stand)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">413242<!--marketStandFoodTakeout_EP16GENfoldable_set2 (Moveable Take Out Market Stand)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">366738<!--marketStalls_Tend_Food_EP16World_2--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">395683<!--marketStandFoodTakeout_EP16GENgrillBox_set1 (Moveable Take Out Grill Stand)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">402526<!--marketStalls_Tend_CoffeeCounter--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">448842<!--barProBoba_EP18GEN_set1 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461779<!--barProBoba_EP18GEN_set2 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461780<!--barProBoba_EP18GEN_set3 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461781<!--barProBoba_EP18GEN_set4 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461782<!--barProBoba_EP18GEN_set5 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461783<!--barProBoba_EP18GEN_set6 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461784<!--barProBoba_EP18GEN_set7 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461785<!--barProBoba_EP18GEN_set8 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461786<!--barProBoba_EP18GEN_set9 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">461787<!--barProBoba_EP18GEN_set10 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">462293<!--barProBoba_EP18GEN_set11 (In-Grain-Ed Specialty Coffee Bar)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">403906<!--marketStalls_Tend_BakeryStall--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">448838<!--marketStandFood_EP18GENbakery_set1 (Gramma Hattie's Bakery)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">466616<!--marketStandFood_EP18GENbakery_set2 (Gramma Hattie's Bakery)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">404197<!--marketStalls_Tend_SweetStall--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">452724<!--marketStandFood_EP18GENcandy_set1 (Hoffman's Candy Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">466637<!--marketStandFood_EP18GENcandy_set2 (Hoffman's Candy Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">404333<!--marketStalls_Tend_PotteryStall--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">448837<!--marketStandCraft_EP18GENpottery_set1 (Terra-Potta Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">465738<!--marketStandCraft_EP18GENpottery_set2 (Terra-Potta Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">414120<!--marketStalls_Tend_FoodStall--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">452726<!--marketStandFood_EP18GENdrinks_set1 (Nordhaven Hot-To-Go Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">464937<!--marketStandFood_EP18GENdrinks_set2 (Nordhaven Hot-To-Go Stall)--></T>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">444662<!--marketStalls_Tend_EP19World_Gnome--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">466493<!--marketStandFoodTakeout_EP19GENgnomeGnums_set1 (Gnum Gnum's Market Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">444661<!--marketStalls_Tend_EP19World_Apothecary--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_criteria">
+                <U n="object_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">466495<!--marketStandCraft_EP19GENapothecaryStall_set1 (All Natural Apothecary Stall)--></T>
+                    </U>
+                  </V>
+                  <T n="owned">False</T>
+                  <V n="subject_specific_tests" t="single_object" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <V n="route_start_balloon" t="enabled">
+    <U n="enabled">
+      <U n="balloon">
+        <L n="balloon_choices">
+          <U>
+            <V n="item" t="balloon_icon">
+              <U n="balloon_icon">
+                <V n="icon" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Object</E>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </L>
+        <L n="balloon_target">
+          <E>Actor</E>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_autonomous">
+    <L>
+      <V t="test_set_reference">
+        <T n="test_set_reference">279939<!--testSet_MarketStalls_CanOpenInWeddingRegion--></T>
+      </V>
+    </L>
+    <L>
+      <V t="region">
+        <U n="region">
+          <V n="blacklist" t="enabled">
+            <L n="enabled">
+              <T>272129<!--region_Residential_WeddingWorld--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="state">
+      <U n="state">
+        <T n="value">132692<!--marketStalls_Closed--></T>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

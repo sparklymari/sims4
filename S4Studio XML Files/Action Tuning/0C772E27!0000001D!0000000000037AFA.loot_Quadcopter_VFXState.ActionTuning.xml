@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Quadcopter_VFXState" s="228090">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">224420<!--quadcopter_Values_VFX_1--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">232454<!--quadcopter_EP08GEN_set1 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">224424<!--quadcopter_Values_VFX_2--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235687<!--quadcopter_EP08GEN_set2 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">224425<!--quadcopter_Values_VFX_3--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235688<!--quadcopter_EP08GEN_set3 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">224423<!--quadcopter_Values_VFX_4--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235689<!--quadcopter_EP08GEN_set4 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">224422<!--quadcopter_Values_VFX_5--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235690<!--quadcopter_EP08GEN_set5 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">228078<!--quadcopter_Values_VFX_6--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235691<!--quadcopter_EP08GEN_set6 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">228079<!--quadcopter_Values_VFX_7--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235692<!--quadcopter_EP08GEN_set7 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">228080<!--quadcopter_Values_VFX_8--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">235693<!--quadcopter_EP08GEN_set8 (RC Quadcopter)--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

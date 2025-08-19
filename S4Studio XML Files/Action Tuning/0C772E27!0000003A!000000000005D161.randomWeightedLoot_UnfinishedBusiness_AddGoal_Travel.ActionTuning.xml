@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_UnfinishedBusiness_AddGoal_Travel" s="381281">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382240<!--Objectives_UnfinishedBusiness_Travel_Windenburg--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382240<!--Objectives_UnfinishedBusiness_Travel_Windenburg--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382752<!--Objectives_UnfinishedBusiness_Travel_Selvadorada--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382752<!--Objectives_UnfinishedBusiness_Travel_Selvadorada--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382241<!--Objectives_UnfinishedBusiness_Travel_SanMyshuno--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382241<!--Objectives_UnfinishedBusiness_Travel_SanMyshuno--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382242<!--Objectives_UnfinishedBusiness_Travel_BrindletonBay--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382242<!--Objectives_UnfinishedBusiness_Travel_BrindletonBay--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382263<!--Objectives_UnfinishedBusiness_Travel_DelSolValley--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382263<!--Objectives_UnfinishedBusiness_Travel_DelSolValley--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382264<!--Objectives_UnfinishedBusiness_Travel_Sulani--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382264<!--Objectives_UnfinishedBusiness_Travel_Sulani--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382265<!--Objectives_UnfinishedBusiness_Travel_Britechester--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382265<!--Objectives_UnfinishedBusiness_Travel_Britechester--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382266<!--Objectives_UnfinishedBusiness_Travel_Komorebi--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382266<!--Objectives_UnfinishedBusiness_Travel_Komorebi--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382267<!--Objectives_UnfinishedBusiness_Travel_Henford--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382267<!--Objectives_UnfinishedBusiness_Travel_Henford--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382268<!--Objectives_UnfinishedBusiness_Travel_Copperdale--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382268<!--Objectives_UnfinishedBusiness_Travel_Copperdale--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382269<!--Objectives_UnfinishedBusiness_Travel_SanSequoia--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382269<!--Objectives_UnfinishedBusiness_Travel_SanSequoia--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382270<!--Objectives_UnfinishedBusiness_Travel_Chestnut--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382270<!--Objectives_UnfinishedBusiness_Travel_Chestnut--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382314<!--Objectives_UnfinishedBusiness_Travel_Tomarang--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382314<!--Objectives_UnfinishedBusiness_Travel_Tomarang--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382272<!--Objectives_UnfinishedBusiness_Travel_EP16--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382272<!--Objectives_UnfinishedBusiness_Travel_EP16--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382271<!--objectives_UnfinishedBusiness_Travel_EP17--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382271<!--objectives_UnfinishedBusiness_Travel_EP17--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382239<!--objectives_UnfinishedBusiness_Travel_OasisSprings--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382239<!--objectives_UnfinishedBusiness_Travel_OasisSprings--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="unfinished_business_loot">
+        <U n="unfinished_business_loot">
+          <V n="operation" t="add_objective">
+            <U n="add_objective">
+              <T n="objective">382238<!--objectives_UnfinishedBusiness_Travel_WillowCreek--></T>
+            </U>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="objective_available_test">
+                <U n="objective_available_test">
+                  <T n="objective">382238<!--objectives_UnfinishedBusiness_Travel_WillowCreek--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">1</T>
+      </U>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="objective_available_by_type_test">
+        <U n="objective_available_by_type_test">
+          <E n="category_type">Travel</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

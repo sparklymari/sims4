@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Arguments" s="167602">
+  <L n="value">
+    <T>160018<!--mixer_Argument_Start_Arguments--></T>
+    <T>160006<!--mixer_Argument_Start_Careers--></T>
+    <T>160026<!--mixer_Argument_Start_Children--></T>
+    <T>160014<!--mixer_Argument_Start_Cleanliness--></T>
+    <T>160024<!--mixer_Argument_Start_Exercising--></T>
+    <T>160027<!--mixer_Argument_Start_Food--></T>
+    <T>160022<!--mixer_Argument_Start_HouseRules--></T>
+    <T>160011<!--mixer_Argument_Start_Humor--></T>
+    <T>160020<!--mixer_Argument_Start_Job--></T>
+    <T>160010<!--mixer_Argument_Start_Kindness--></T>
+    <T>160025<!--mixer_Argument_Start_LifeGoals--></T>
+    <T>160008<!--mixer_Argument_Start_LifeOutlook--></T>
+    <T>160009<!--mixer_Argument_Start_Morals--></T>
+    <T>160016<!--mixer_Argument_Start_Music--></T>
+    <T>160013<!--mixer_Argument_Start_NatureWonders--></T>
+    <T>160021<!--mixer_Argument_Start_Parenting--></T>
+    <T>159361<!--mixer_Argument_Start_Politics--></T>
+    <T>160015<!--mixer_Argument_Start_Romance--></T>
+    <T>160019<!--mixer_Argument_Start_School--></T>
+    <T>160017<!--mixer_Argument_Start_Sharing--></T>
+    <T>160012<!--mixer_Argument_Start_SocialAnxiety--></T>
+    <T>160023<!--mixer_Argument_Start_WhosBetter--></T>
+  </L>
+</I>

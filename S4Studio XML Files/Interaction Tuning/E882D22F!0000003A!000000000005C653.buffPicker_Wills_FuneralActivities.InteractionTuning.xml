@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BuffPickerSuperInteraction" i="interaction" m="objects.components.buff_component" n="buffPicker_Wills_FuneralActivities" s="378451">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_from_sim_inventory">True</T>
+  <T n="automation">False</T>
+  <L n="buffs">
+    <U>
+      <T n="buff">379144<!--buff_Wills_Hidden_FuneralActivity_BringFood--></T>
+      <T n="buff_description">0x8984FE9C<!--Food brings Sims together and makes mourning easier.--></T>
+      <T n="buff_icon" p="InGame\UI\Icons\Events\EventGoal_Eat.png">2f7d0004:00000000:18cb28f625c6611d</T>
+      <T n="buff_name">0xD21CC0B2<!--Serve Food--></T>
+    </U>
+    <U>
+      <T n="buff">379149<!--buff_Wills_Hidden_FuneralActivity_Candles--></T>
+      <T n="buff_description">0x60788B86<!--A bright candle lighting reflects the light that a Sim brings into another's life.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\EventGoal_LightCandles.png">2f7d0004:00000000:f58a81ea6fd7ec33</T>
+      <T n="buff_name">0xBEB9C39A<!--Light Candles--></T>
+    </U>
+    <U>
+      <T n="buff">379151<!--buff_Wills_Hidden_FuneralActivity_Dance--></T>
+      <T n="buff_description">0x59964819<!--Dancing can uplift and inspire, celebrating life!--></T>
+      <T n="buff_icon" p="InGame\UI\Icons\Events\EventGoal_Dancing.png">2f7d0004:00000000:70230f93d239c3c3</T>
+      <T n="buff_name">0x14F7E71<!--Dancing--></T>
+    </U>
+    <U>
+      <T n="buff">379156<!--buff_Wills_Hidden_FuneralActivity_EulogyHappy--></T>
+      <T n="buff_description">0xF3428CFD<!--An event to give lighthearted speeches and recount humorous tales.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\EventGoal_GiveHappyEulogy.png">2f7d0004:00000000:cb255e6bdbe868f9</T>
+      <T n="buff_name">0x8AA40B04<!--Give Lighthearted Eulogy--></T>
+    </U>
+    <U>
+      <T n="buff">379155<!--buff_Wills_Hidden_FuneralActivity_EulogySad--></T>
+      <T n="buff_description">0xE0605070<!--Somber speeches reflecting the tone of a lost loved one.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\EventGoal_GiveSadEulogy.png">2f7d0004:00000000:57d9b75729435e47</T>
+      <T n="buff_name">0x2F800A6D<!--Give Mournful Eulogy--></T>
+    </U>
+    <U>
+      <T n="buff">379153<!--buff_Wills_Hidden_FuneralActivity_GhostBad--></T>
+      <T n="buff_description">0x49D448B0<!--Ghosts can haunt and cause mischief during funerals.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\EventGoal_BadGhostPowers.png">2f7d0004:00000000:53a770e5ab9121bd</T>
+      <T n="buff_name">0xE7A916A1<!--Use Ghost Mastery for Evil--></T>
+    </U>
+    <U>
+      <T n="buff">379152<!--buff_Wills_Hidden_FuneralActivity_GhostGood--></T>
+      <T n="buff_description">0xC9B69162<!--Ghosts can use ethereal forces to console those around them.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\EventGoal_GoodGhostPowers.png">2f7d0004:00000000:3bf3ae120ff4a9c9</T>
+      <T n="buff_name">0x740C9437<!--Use Ghost Mastery for Good--></T>
+    </U>
+    <U>
+      <T n="buff">379145<!--buff_Wills_Hidden_FuneralActivity_GiveSpeeches--></T>
+      <T n="buff_description">0xFCEEFDE7<!--Guests Can Recount Tales of the Departed, Whether Happy or Sad.--></T>
+      <T n="buff_icon" p="InGame\UI\Icons\Events\EventGoal_Socialize.png">2f7d0004:00000000:21835a4b8238b2fa</T>
+      <T n="buff_name">0x241DEC6B<!--Give Eulogy--></T>
+    </U>
+    <U>
+      <T n="buff">379146<!--buff_Wills_Hidden_FuneralActivity_HaveMusic--></T>
+      <T n="buff_description">0x63D3B2C2<!--Music sets the tone that Sims will feel during a funeral.--></T>
+      <T n="buff_icon" p="InGame\UI\Icons\Events\EventGoal_Music.png">2f7d0004:00000000:207a4fb990e10b2a</T>
+      <T n="buff_name">0x3F935DF<!--Listen to Music--></T>
+    </U>
+    <U>
+      <T n="buff">379154<!--buff_Wills_Hidden_FuneralActivity_Instruments--></T>
+      <T n="buff_description">0x8A9B6268<!--Musical performances have a special reverence during funerals.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\eventgoal_playMusic.png">2f7d0004:00000000:f96699190a031bb0</T>
+      <T n="buff_name">0xBB6DDA97<!--Play Instrument--></T>
+    </U>
+    <U>
+      <T n="buff">379147<!--buff_Wills_Hidden_FuneralActivity_Plant--></T>
+      <T n="buff_description">0xB4A54605<!--New life grows in the memory of the departed Sim.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\eventgoal_plantsomething.png">2f7d0004:00000000:73fdafaf72e63bc4</T>
+      <T n="buff_name">0xC0336D39<!--Plant Something--></T>
+    </U>
+    <U>
+      <T n="buff">379148<!--buff_Wills_Hidden_FuneralActivity_Silence--></T>
+      <T n="buff_description">0xDECD8108<!--A respectful moment of silence for Sims to remember the departed.--></T>
+      <T n="buff_icon" p="InEP17\UI\Icons\Events\eventgoal_momentofSilence.png">2f7d0004:00000000:c3d22f7ff96a00ab</T>
+      <T n="buff_name">0x9FA8722D<!--Moment of Silence--></T>
+    </U>
+    <U>
+      <T n="buff">379150<!--buff_Wills_Hidden_FuneralActivity_Toast--></T>
+      <T n="buff_description">0x77B91EFD<!--Gather everyone around for a toast to the departed.--></T>
+      <T n="buff_icon" p="InGame\UI\Icons\Events\EventGoal_Toasts.png">2f7d0004:00000000:51c40d213ed18469</T>
+      <T n="buff_name">0xFEDD34D<!--Give Toasts--></T>
+    </U>
+    <U>
+      <T n="buff">379143<!--buff_Wills_Hidden_FuneralActivity_ViewBody--></T>
+      <T n="buff_description">0x4F2295E1<!--An opportunity to view the final resting place of the departed.--></T>
+      <T n="buff_icon" p="InGame\UI\Icons\Headlines\Final\headline_Urn.png">2f7d0004:00000000:ca53d1442d508ac1</T>
+      <T n="buff_name">0xCC508F71<!--Mourn Deceased--></T>
+    </U>
+  </L>
+  <T n="category">378279<!--pieMenuCategories_Wills_Remains--></T>
+  <V n="content_score" t="disabled" />
+  <L n="continuations">
+    <L>
+      <U>
+        <T n="affordance">395280<!--wills_Update_FuneralActivities--></T>
+      </U>
+    </L>
+  </L>
+  <T n="debug">False</T>
+  <T n="display_name">0x7A466DAE<!--Funeral Activities--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="object_picker">
+    <U n="object_picker">
+      <T n="add_all_category">False</T>
+      <V n="max_selectable" t="static_count">
+        <U n="static_count">
+          <T n="number_selectable">14</T>
+        </U>
+      </V>
+      <E n="picker_type">OBJECT</E>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="subject">
+    <E>Actor</E>
+  </L>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>TODDLER</E>
+            <E>BABY</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="unspecified" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="will">
+      <U n="will">
+        <T n="negate">True</T>
+        <V n="test_type" t="will_finalized" />
+      </U>
+    </V>
+  </L>
+</I>

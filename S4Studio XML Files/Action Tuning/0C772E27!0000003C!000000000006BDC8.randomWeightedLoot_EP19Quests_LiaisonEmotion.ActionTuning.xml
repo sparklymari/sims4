@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_EP19Quests_LiaisonEmotion" s="441800">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">472077<!--drinkSerum_EP19GENbottledEmotion_confident_set12 ({S.Confident Emotion Potion}{P.Confident Emotion Potions})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">472074<!--drinkSerum_EP19GENbottledEmotion_energized_set5 ({S.Energized Emotion Potion}{P.Energized Emotion Potions})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">462892<!--drinkSerum_EP19GENbottledEmotion_happy_set1 ({S.Happy Emotion Potion}{P.Happy Emotion Potions})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">472072<!--drinkSerum_EP19GENbottledEmotion_inspired_set4 ({S.Inspired Emotion Potion}{P.Inspired Emotion Potions})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">472073<!--drinkSerum_EP19GENbottledEmotion_focused_set7 ({S.Focused Emotion Potion}{P.Focused Emotion Potions})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="show_impacts">False</T>
+      </U>
+    </U>
+  </L>
+</I>

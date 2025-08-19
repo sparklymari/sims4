@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_mural_rollup" s="147497">
+  <U n="_components">
+    <V n="canvas" t="enabled">
+      <V n="enabled" t="canvas_component" />
+    </V>
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="species_specific">
+          <U n="species_specific">
+            <L n="scores">
+              <U>
+                <E n="key">CAT</E>
+                <U n="value">
+                  <E n="base">LOW</E>
+                </U>
+              </U>
+              <U>
+                <E n="key">DOG</E>
+                <U n="value">
+                  <E n="base">LOW</E>
+                </U>
+              </U>
+              <U>
+                <E n="key">HUMAN</E>
+                <U n="value">
+                  <E n="base">MEDIUM</E>
+                  <L n="multipliers">
+                    <U>
+                      <T n="key">27918<!--trait_ArtLover--></T>
+                      <T n="value">1.25</T>
+                    </U>
+                  </L>
+                </U>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="line_of_sight" t="enabled" />
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">115927<!--retailComponent_Wall--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>148292<!--mural_RandomOn_Cultural--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">149090<!--mural_RollUp_CulPeacock_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149068<!--mural_RollUp_CulOctopus_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149046<!--mural_RollUp_CulFlower_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149024<!--mural_RollUp_CulButterfly_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>148662<!--mural_RandomOn_Figure--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">150933<!--mural_RollUp_Fig_Girl_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">150938<!--mural_RollUp_Fig_HatLady_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">150953<!--mural_RollUp_Fig_Heart_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">150969<!--mural_RollUp_Fig_Penguin_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>148954<!--mural_RandomOn_Graffiti--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">149114<!--mural_RollUp_GrafGold_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149136<!--mural_RollUp_GrafGreen_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>148282<!--mural_RandomOn_City--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">149158<!--mural_RollUp_CityClouds_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149180<!--mural_RollUp_CityLayers_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149202<!--mural_RollUp_CityLines_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149224<!--mural_RollUp_CityNight_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>148288<!--mural_RandomOn_Political--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">150836<!--mural_RollUp_Act_Trees_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">150854<!--mural_RollUp_Act_Globe_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>148290<!--mural_RandomOn_Illusion--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">151684<!--mural_RollUp_OptBirds_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">151651<!--mural_RollUp_OptRainbow_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">151629<!--mural_RollUp_OptFountain_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">151607<!--mural_RollUp_OptFish_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>146721<!--mural_RandomOn_Nature--></T>
+            </L>
+            <V n="set_random_state" t="Trigger_random_state">
+              <L n="Trigger_random_state">
+                <U>
+                  <T n="state_value">147780<!--mural_RollUp_Fish_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">147789<!--mural_RollUp_Flowers_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">148977<!--mural_RollUp_Butterfly_AToBase_0--></T>
+                </U>
+                <U>
+                  <T n="state_value">149001<!--mural_RollUp_Tree_AToBase_0--></T>
+                </U>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>146721<!--mural_RandomOn_Nature--></T>
+              <T>148282<!--mural_RandomOn_City--></T>
+              <T>148292<!--mural_RandomOn_Cultural--></T>
+              <T>148662<!--mural_RandomOn_Figure--></T>
+              <T>148290<!--mural_RandomOn_Illusion--></T>
+              <T>148288<!--mural_RandomOn_Political--></T>
+              <T>148954<!--mural_RandomOn_Graffiti--></T>
+              <T>148290<!--mural_RandomOn_Illusion--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>146720<!--mural_RandomOff_Nature--></T>
+                <T>148283<!--mural_RandomOff_City--></T>
+                <T>148293<!--mural_RandomOff_Cultural--></T>
+                <T>148663<!--mural_RandomOff_Figure--></T>
+                <T>148955<!--mural_RandomOff_Graffiti--></T>
+                <T>148291<!--mural_RandomOff_Illusion--></T>
+                <T>148289<!--mural_RandomOff_Political--></T>
+                <T>148291<!--mural_RandomOff_Illusion--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>147789<!--mural_RollUp_Flowers_AToBase_0--></T>
+              <T>149001<!--mural_RollUp_Tree_AToBase_0--></T>
+              <T>147780<!--mural_RollUp_Fish_AToBase_0--></T>
+              <T>149136<!--mural_RollUp_GrafGreen_AToBase_0--></T>
+              <T>149114<!--mural_RollUp_GrafGold_AToBase_0--></T>
+              <T>151651<!--mural_RollUp_OptRainbow_AToBase_0--></T>
+              <T>149090<!--mural_RollUp_CulPeacock_AToBase_0--></T>
+              <T>149068<!--mural_RollUp_CulOctopus_AToBase_0--></T>
+              <T>149046<!--mural_RollUp_CulFlower_AToBase_0--></T>
+              <T>149024<!--mural_RollUp_CulButterfly_AToBase_0--></T>
+              <T>149224<!--mural_RollUp_CityNight_AToBase_0--></T>
+              <T>149202<!--mural_RollUp_CityLines_AToBase_0--></T>
+              <T>149180<!--mural_RollUp_CityLayers_AToBase_0--></T>
+              <T>149158<!--mural_RollUp_CityClouds_AToBase_0--></T>
+              <T>148977<!--mural_RollUp_Butterfly_AToBase_0--></T>
+              <T>150854<!--mural_RollUp_Act_Globe_AToBase_0--></T>
+              <T>150836<!--mural_RollUp_Act_Trees_AToBase_0--></T>
+              <T>151629<!--mural_RollUp_OptFountain_AToBase_0--></T>
+              <T>151607<!--mural_RollUp_OptFish_AToBase_0--></T>
+              <T>151684<!--mural_RollUp_OptBirds_AToBase_0--></T>
+              <T>150969<!--mural_RollUp_Fig_Penguin_AToBase_0--></T>
+              <T>150953<!--mural_RollUp_Fig_Heart_AToBase_0--></T>
+              <T>150938<!--mural_RollUp_Fig_HatLady_AToBase_0--></T>
+              <T>150933<!--mural_RollUp_Fig_Girl_AToBase_0--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>147509<!--mural_RollUp_StateValues_InProgress--></T>
+                <T>147606<!--mural_RollUp_Decay_0--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>147553<!--mural_RollUp_Fish_Complete--></T>
+              <T>147588<!--mural_RollUp_Flowers_Complete--></T>
+              <T>150869<!--mural_RollUp_Act_Globe_Complete--></T>
+              <T>148997<!--mural_RollUp_Tree_Complete--></T>
+              <T>149132<!--mural_RollUp_GrafGreen_Complete--></T>
+              <T>149110<!--mural_RollUp_GrafGold_Complete--></T>
+              <T>149086<!--mural_RollUp_CulPeacock_Complete--></T>
+              <T>149064<!--mural_RollUp_CulOctopus_Complete--></T>
+              <T>149042<!--mural_RollUp_CulFlower_Complete--></T>
+              <T>149020<!--mural_RollUp_CulButterfly_Complete--></T>
+              <T>149220<!--mural_RollUp_CityNight_Complete--></T>
+              <T>149198<!--mural_RollUp_CityLines_Complete--></T>
+              <T>149176<!--mural_RollUp_CityLayers_Complete--></T>
+              <T>149154<!--mural_RollUp_CityClouds_Complete--></T>
+              <T>148973<!--mural_RollUp_Butterfly_Complete--></T>
+              <T>150851<!--mural_RollUp_Act_Trees_Complete--></T>
+              <T>150909<!--mural_RollUp_Fig_Penguin_Complete--></T>
+              <T>150912<!--mural_RollUp_Fig_Heart_Complete--></T>
+              <T>150915<!--mural_RollUp_Fig_HatLady_Complete--></T>
+              <T>150920<!--mural_RollUp_Fig_Girl_Complete--></T>
+              <T>151647<!--mural_RollUp_OptRainbow_Complete--></T>
+              <T>151625<!--mural_RollUp_OptFountain_Complete--></T>
+              <T>151603<!--mural_RollUp_OptFish_Complete--></T>
+              <T>151680<!--mural_RollUp_OptBirds_Complete--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>147506<!--mural_Rollup_StateValues_Complete--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>147607<!--mural_RollUp_Decay_1--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>147590<!--mural_RollUp_Flowers_NotStarted--></T>
+                <T>147555<!--mural_RollUp_Fish_NotStarted--></T>
+                <T>147510<!--mural_RollUp_StateValues_NotStarted--></T>
+                <T>148999<!--mural_RollUp_Tree_NotStarted--></T>
+                <T>149134<!--mural_RollUp_GrafGreen_NotStarted--></T>
+                <T>149112<!--mural_RollUp_GrafGold_NotStarted--></T>
+                <T>149088<!--mural_RollUp_CulPeacock_NotStarted--></T>
+                <T>149066<!--mural_RollUp_CulOctopus_NotStarted--></T>
+                <T>149022<!--mural_RollUp_CulButterfly_NotStarted--></T>
+                <T>149044<!--mural_RollUp_CulFlower_NotStarted--></T>
+                <T>149222<!--mural_RollUp_CityNight_NotStarted--></T>
+                <T>149200<!--mural_RollUp_CityLines_NotStarted--></T>
+                <T>149178<!--mural_RollUp_CityLayers_NotStarted--></T>
+                <T>149156<!--mural_RollUp_CityClouds_NotStarted--></T>
+                <T>148975<!--mural_RollUp_Butterfly_NotStarted--></T>
+                <T>150870<!--mural_RollUp_Act_Globe_NotStarted--></T>
+                <T>150853<!--mural_RollUp_Act_Trees_NotStarted--></T>
+                <T>150910<!--mural_RollUp_Fig_Penguin_NotStarted--></T>
+                <T>150914<!--mural_RollUp_Fig_Heart_NotStarted--></T>
+                <T>150917<!--mural_RollUp_Fig_HatLady_NotStarted--></T>
+                <T>150922<!--mural_RollUp_Fig_Girl_NotStarted--></T>
+                <T>151649<!--mural_RollUp_OptRainbow_NotStarted--></T>
+                <T>151627<!--mural_RollUp_OptFountain_NotStarted--></T>
+                <T>151605<!--mural_RollUp_OptFish_NotStarted--></T>
+                <T>151682<!--mural_RollUp_OptBirds_NotStarted--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">108830<!--ObjectStateValue_Detective_NotStolen--></T>
+              </U>
+              <U>
+                <T n="key">108831<!--ObjectStateValue_Detective_Stolen--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">108830<!--ObjectStateValue_Detective_NotStolen--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">154296<!--mural_KickOff_Values_HasHad_KickOff--></T>
+              </U>
+              <U>
+                <T n="key">154297<!--mural_KickOff_Values_HasNot_KickOff--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">154297<!--mural_KickOff_Values_HasNot_KickOff--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">32305<!--Marketable_HigherValue--></T>
+              </U>
+              <U>
+                <T n="key">32313<!--Marketable_NormalValue--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">32313<!--Marketable_NormalValue--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">147506<!--mural_Rollup_StateValues_Complete--></T>
+              </U>
+              <U>
+                <T n="key">147509<!--mural_RollUp_StateValues_InProgress--></T>
+              </U>
+              <U>
+                <T n="key">147510<!--mural_RollUp_StateValues_NotStarted--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">147510<!--mural_RollUp_StateValues_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">147267<!--mural_DefacedOff--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148283<!--mural_RandomOff_City--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148663<!--mural_RandomOff_Figure--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148289<!--mural_RandomOff_Political--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148291<!--mural_RandomOff_Illusion--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148293<!--mural_RandomOff_Cultural--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148955<!--mural_RandomOff_Graffiti--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">146720<!--mural_RandomOff_Nature--></T>
+              </U>
+              <U>
+                <T n="key">146721<!--mural_RandomOn_Nature--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">146720<!--mural_RandomOff_Nature--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">147590<!--mural_RollUp_Flowers_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states" />
+            <V n="default_value" t="reference">
+              <T n="reference">147555<!--mural_RollUp_Fish_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">154516<!--mural_RemoveOff--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148975<!--mural_RollUp_Butterfly_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">148999<!--mural_RollUp_Tree_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149022<!--mural_RollUp_CulButterfly_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149088<!--mural_RollUp_CulPeacock_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149044<!--mural_RollUp_CulFlower_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149066<!--mural_RollUp_CulOctopus_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149222<!--mural_RollUp_CityNight_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149156<!--mural_RollUp_CityClouds_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149178<!--mural_RollUp_CityLayers_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149200<!--mural_RollUp_CityLines_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149112<!--mural_RollUp_GrafGold_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">149134<!--mural_RollUp_GrafGreen_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">150853<!--mural_RollUp_Act_Trees_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">150870<!--mural_RollUp_Act_Globe_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">150922<!--mural_RollUp_Fig_Girl_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">150914<!--mural_RollUp_Fig_Heart_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">150917<!--mural_RollUp_Fig_HatLady_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">150910<!--mural_RollUp_Fig_Penguin_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">151649<!--mural_RollUp_OptRainbow_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">151605<!--mural_RollUp_OptFish_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">151682<!--mural_RollUp_OptBirds_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">151627<!--mural_RollUp_OptFountain_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39478<!--FireState_Burn_Incinerate_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39479<!--FireState_Burn_Incinerate--></T>
+              </U>
+              <U>
+                <T n="key">39612<!--FireState_Burn_Incinerate_Not_Burning--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39612<!--FireState_Burn_Incinerate_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">100570<!--EmotionEnvironment_Enabled--></T>
+              </U>
+              <U>
+                <T n="key">100571<!--EmotionEnvironment_Disabled--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">100571<!--EmotionEnvironment_Disabled--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">131794<!--Kelpto_Stolen_Object--></T>
+              </U>
+              <U>
+                <T n="key">131795<!--Klepto_Not_Stolen_Object--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">131795<!--Klepto_Not_Stolen_Object--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">147606<!--mural_RollUp_Decay_0--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled">
+      <U n="enabled">
+        <L n="custom_tooltips">
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">147510<!--mural_RollUp_StateValues_NotStarted--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <E n="tooltip_style">HOVER_TIP_DISABLED</E>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">147509<!--mural_RollUp_StateValues_InProgress--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x39901FD<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x2E81C382<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <E n="tooltip_style">HOVER_TIP_DISABLED</E>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149020<!--mural_RollUp_CulButterfly_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xED45477<!--Art Style: Nature--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x7F5472A7<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149042<!--mural_RollUp_CulFlower_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x89197D18<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x4EB1FA4C<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149086<!--mural_RollUp_CulPeacock_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD6F45745<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x4EF5AA4B<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149064<!--mural_RollUp_CulOctopus_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xA7CA1B74<!--Art Style: Ironic--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x9065D915<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">151647<!--mural_RollUp_OptRainbow_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x76C2DAA2<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xCDDF9069<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">151625<!--mural_RollUp_OptFountain_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x58562258<!--Art Style: Optical Illusion--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xB8233A61<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">151603<!--mural_RollUp_OptFish_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x1252705D<!--Art Style: Optical Illusion--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xBF511AD1<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">151680<!--mural_RollUp_OptBirds_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x2B72B075<!--Art Style: Nature--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x822DCB1D<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149110<!--mural_RollUp_GrafGold_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xB4331604<!--Art Style: Graffiti--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xB4D5317D<!--Graffiti--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149132<!--mural_RollUp_GrafGreen_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x2B70021C<!--Art Style: Graffiti--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xDF90D047<!--Graffiti--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">150869<!--mural_RollUp_Act_Globe_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x815CA202<!--Art Style: Activist Painting--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x45F79612<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">150851<!--mural_RollUp_Act_Trees_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x9E28193<!--Art Style: Activist Painting--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD81B0B37<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149154<!--mural_RollUp_CityClouds_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x9A2E0B4C<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x475B8375<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149176<!--mural_RollUp_CityLayers_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x6B62B351<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x7CBA724A<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149198<!--mural_RollUp_CityLines_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x8CE93FE7<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xA87FCEF2<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">149220<!--mural_RollUp_CityNight_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xED532D13<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x2AA92DBB<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">150920<!--mural_RollUp_Fig_Girl_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xA7237CA7<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x5366F7BE<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">150915<!--mural_RollUp_Fig_HatLady_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x1288162D<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xEC285E89<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">150912<!--mural_RollUp_Fig_Heart_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x6B4078B2<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x849366E5<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">150909<!--mural_RollUp_Fig_Penguin_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x84AC8764<!--Art Style: Fashion--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xCE7F4E76<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">148973<!--mural_RollUp_Butterfly_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x4887C9F6<!--Art Style: Nature--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x78522BA6<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">147553<!--mural_RollUp_Fish_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xA1A574CA<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x4FA85EF8<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">147588<!--mural_RollUp_Flowers_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xFDAE3BF4<!--Art Style: Nature--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0E12A06<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">148997<!--mural_RollUp_Tree_Complete--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">quality_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xD0CDB79B<!--Normal--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x39901FD<!--Art Style: Abstract--></T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x2E81C382<!--Garage Mural--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_part_data">
+    <U>
+      <V n="adjacent_parts" t="enabled">
+        <L n="enabled">
+          <T>1</T>
+        </L>
+      </V>
+      <T n="part_definition">147573<!--obectPart_rollUpMural_Left--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">0</T>
+      </V>
+    </U>
+    <U>
+      <V n="adjacent_parts" t="enabled">
+        <L n="enabled">
+          <T>0</T>
+        </L>
+      </V>
+      <T n="part_definition">147574<!--objectPart_rollUpMural_Right--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">1</T>
+      </V>
+    </U>
+  </L>
+  <L n="_preroll_super_affordances">
+    <T>33623<!--art_View--></T>
+  </L>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>35970<!--art_SellForCost--></T>
+    <T>14254<!--si_Decorative_ViewAngry--></T>
+    <T>14255<!--si_Decorative_ViewEnergized--></T>
+    <T>14256<!--si_Decorative_ViewFlirty--></T>
+    <T>14257<!--si_Decorative_ViewFocused--></T>
+    <T>14258<!--si_Decorative_ViewHappy--></T>
+    <T>14259<!--si_Decorative_ViewImaginative--></T>
+    <T>14260<!--si_Decorative_ViewSad--></T>
+    <T>40811<!--si_Decorative_ViewConfident--></T>
+    <T>100354<!--si_Decorative_ViewPlayful--></T>
+    <T>151939<!--art_GatherInspiration_NoReserve--></T>
+    <T>151938<!--art_CriticallyAssess_NoReserve--></T>
+    <T>151951<!--art_View_CriticCareer_StudyArt_NoReserve--></T>
+    <T>157510<!--generic_Object_Toddler_Check_Out_CircleConstraint--></T>
+    <T>139902<!--art_Critic_PraiseArt--></T>
+    <T>137527<!--art_Critic_SnubArt--></T>
+    <T>156936<!--generic_Object_Toddler_Check_Out_HighChair--></T>
+    <T>198847<!--art_StyleInfluencer_AssessImpression--></T>
+    <T>328069<!--infant_WhatsThat_Circle--></T>
+    <T>328068<!--infant_WhatsThat_Immobile_InObject--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>148027<!--mural_Wall_View--></T>
+    <T>147261<!--mural_Wall_Deface--></T>
+    <T>146495<!--mural_Wall_StartPaint--></T>
+    <T>147297<!--mural_Wall_Restore--></T>
+    <T>147375<!--mural_Wall_Remove--></T>
+    <T>146620<!--mural_Wall_ResumePaint--></T>
+    <T>116720<!--simRay_Transform_Object_WallObject--></T>
+    <T>148019<!--mural_Wall_StartGraffiti--></T>
+    <T>148025<!--mural_Wall_ResumeGraffiti--></T>
+    <T>148278<!--mural_Wall_StartPaint_Political--></T>
+    <T>148281<!--mural_Wall_StartPaint_Illusion--></T>
+    <T>148279<!--mural_Wall_StartPaint_Figures--></T>
+    <T>148280<!--mural_Wall_StartPaint_Cultural--></T>
+    <T>108780<!--crimeScene_DustForPrints--></T>
+    <T>148277<!--mural_Wall_StartPaint_City--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>154342<!--mural_Wall_Deface_Autonomous--></T>
+  </L>
+  <T n="_world_file_object_persists">True</T>
+  <L n="environment_score_trait_modifiers">
+    <U>
+      <T n="trait">27085<!--trait_Muser--></T>
+      <U n="modifiers">
+        <L n="mood_modifiers">
+          <U>
+            <T n="mood">14641<!--Mood_Inspired--></T>
+            <U n="modifiers">
+              <T n="multiply_modifier">2</T>
+            </U>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.25</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.75</T>
+      </U>
+    </L>
+  </U>
+  <T n="set_ico_as_carry_target">False</T>
+</I>

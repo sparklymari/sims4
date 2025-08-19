@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_HospitalTreadmill" s="111475">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>15076<!--Brokenness_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15080<!--BrokenState_Broken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15081<!--BrokenState_Unbroken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15080<!--BrokenState_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>115433<!--hospitalTreadmill_video_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">115433<!--hospitalTreadmill_video_Off--></T>
+              </U>
+              <U>
+                <T n="key">115434<!--hospitalTreadmill_video_Biometrics--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">115433<!--hospitalTreadmill_video_Off--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15076<!--Brokenness_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15077<!--Brokenness_Neutral--></T>
+              </U>
+              <U>
+                <T n="key">15078<!--Brokenness_Unbroken--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15078<!--Brokenness_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15080<!--BrokenState_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15081<!--BrokenState_Unbroken--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15081<!--BrokenState_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">112960<!--hospitalTreadmill_Doctor_Occupancy_untended--></T>
+              </U>
+              <U>
+                <T n="key">112961<!--hospitalTreadmill_Doctor_Occupancy_inProgress--></T>
+              </U>
+              <U>
+                <T n="key">112962<!--hospitalTreadmill_Doctor_Occupancy_complete--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">112960<!--hospitalTreadmill_Doctor_Occupancy_untended--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">112963<!--hospitalTreadmill_Patient_Occupancy_empty--></T>
+              </U>
+              <U>
+                <T n="key">112964<!--hospitalTreadmill_Patient_Occupancy_inProgress--></T>
+              </U>
+              <U>
+                <T n="key">112965<!--hospitalTreadmill_Patient_Occupancy_complete_success--></T>
+              </U>
+              <U>
+                <T n="key">112966<!--hospitalTreadmill_Patient_Occupancy_complete_fail--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">112963<!--hospitalTreadmill_Patient_Occupancy_empty--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_part_data">
+    <U>
+      <T n="part_definition">111496<!--hospitalTreadmill_Part_0_Doctor--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">0</T>
+      </V>
+    </U>
+    <U>
+      <T n="part_definition">111495<!--hospitalTreadmill_Part_1_Patient--></T>
+      <V n="subroot_index" t="disabled" />
+    </U>
+  </L>
+  <L n="_super_affordances">
+    <T>13983<!--sim-stand--></T>
+    <T>111960<!--generic_HospitalTreadmill_Patient_Wait--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>111472<!--generic_HospitalTreadmill_Doctor--></T>
+    <T>10213<!--generic_TreadmillWorkout--></T>
+    <T>13752<!--object_RepairElectrical--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>115255<!--hospitalTreadmill_Doctor_Test_display--></T>
+    <T>13319<!--debug_BreakObject--></T>
+    <T>13327<!--debug_RepairObject--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

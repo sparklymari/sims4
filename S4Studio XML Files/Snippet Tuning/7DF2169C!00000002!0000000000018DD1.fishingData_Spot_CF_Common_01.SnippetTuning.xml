@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_Spot_CF_Common_01" s="101841">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">45028<!--collectFishSmallGENMinnow_01 (Minnow)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">65305<!--collectFishMed_GP01GENyellowPerch (Yellow Perch)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">65485<!--collectFishMed_GP01GENwalleye (Walleye)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">85</T>
+        </U>
+        <T n="treasure">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">65728<!--cooler_GP01GENcheap_set1 (Chillville Portable Cooler)--></T>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+        <U n="weight">
+          <T n="base_value">6</T>
+        </U>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">7</T>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">1</T>
+      </U>
+    </U>
+  </U>
+</I>

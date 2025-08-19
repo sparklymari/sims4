@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="immediate_UrnstonePlus_SetState_Urn" s="386434">
+  <V n="_saveable" t="disabled" />
+  <L n="basic_extras">
+    <V t="state_change">
+      <U n="state_change">
+        <V n="new_value" t="single_value">
+          <U n="single_value">
+            <T n="new_value">386532<!--urnstonePlus_Autoswitch_Off--></T>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V n="content_score" t="disabled" />
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386253<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Alien_1--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">67531<!--urn_EP01GENalien01_set1 (Alien Capsule)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386260<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Horse--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">341465<!--urn_EP14GENhorse_set1 (Noble Steed's Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386263<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Vampire--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">145305<!--urn_GP04GENvampire (Vampire Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386264<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Werewolf--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">310766<!--urn_GP12GENwerewolf_set1 (Werewolf Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386261<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Robot--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">231219<!--urn_EP08GENrobot (Servo Remains)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386262<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Witch--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">222674<!--urn_GP08GENwitch_set1 (Spellcaster's Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386142<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Urn_1--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">18592<!--urnGEN_01 (Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>386278<!--loot_UrnstonePlus_SetSecondaryTypeUrn_Urn_1--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">441573<!--urn_EP17GEN01_set1 (Urn of Yearning)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>425884<!--Loot_UrnstonePlus_SetSecondaryTypeUrn_Merfolk--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">453033<!--urn_EP07GENmerfolk_set1 (Merfolk Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="loot_list">
+                  <T>437194<!--loot_UrnstonePlus_SetSecondaryTypeUrn_FairyOccult--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">465920<!--urn_EP19GENfairy_set1 (Fairy Urn)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">PickedObject</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

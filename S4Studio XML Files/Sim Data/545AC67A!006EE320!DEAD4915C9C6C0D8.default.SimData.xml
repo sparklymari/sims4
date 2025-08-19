@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Renderer.GlobalSsaoSettings" type="Object">
+      <T name="Min_Distance_0">0</T>
+      <T name="Min_Distance_1">10</T>
+      <T name="Min_Distance_2">50</T>
+      <T name="Min_Radius_0">2.8</T>
+      <T name="Min_Radius_1">1.285</T>
+      <T name="Min_Radius_2">0.412</T>
+      <T name="Min_Falloff_0">0.18</T>
+      <T name="Min_Falloff_1">0.4</T>
+      <T name="Min_Falloff_2">17</T>
+      <T name="Min_Intensity_0">0.308</T>
+      <T name="Min_Intensity_1">0.342</T>
+      <T name="Min_Intensity_2">0.4</T>
+      <T name="Min_FilterSize_0">10</T>
+      <T name="Min_FilterSize_1">1</T>
+      <T name="Min_FilterSize_2">0.1</T>
+      <T name="Min_SubScale">0.8</T>
+      <T name="Min_SubIntensity">0.7</T>
+      <T name="Min_MinIntensity">0.3</T>
+      <T name="Min_MaxIntensity">1.3</T>
+      <T name="Min_MinIntensityInteriorWall">0.3</T>
+      <T name="Min_MaxIntensityInteriorWall">1.3</T>
+      <T name="Min_MinIntensityExteriorWall">0.3</T>
+      <T name="Min_MaxIntensityExteriorWall">1.3</T>
+      <T name="Min_MinIntensityInteriorFloor">0.3</T>
+      <T name="Min_MaxIntensityInteriorFloor">1.3</T>
+      <T name="Min_MinIntensityExteriorFloor">0.3</T>
+      <T name="Min_MaxIntensityExteriorFloor">1.3</T>
+      <T name="Min_DistToTarget">0</T>
+      <T name="Max_Distance_0">0</T>
+      <T name="Max_Distance_1">10</T>
+      <T name="Max_Distance_2">50</T>
+      <T name="Max_Radius_0">3</T>
+      <T name="Max_Radius_1">1.286</T>
+      <T name="Max_Radius_2">0.412</T>
+      <T name="Max_Falloff_0">0.06</T>
+      <T name="Max_Falloff_1">0.22</T>
+      <T name="Max_Falloff_2">17</T>
+      <T name="Max_Intensity_0">0.378</T>
+      <T name="Max_Intensity_1">0.388</T>
+      <T name="Max_Intensity_2">0.4</T>
+      <T name="Max_FilterSize_0">10</T>
+      <T name="Max_FilterSize_1">1</T>
+      <T name="Max_FilterSize_2">0.1</T>
+      <T name="Max_SubScale">0.8</T>
+      <T name="Max_SubIntensity">0.8</T>
+      <T name="Max_MinIntensity">0.3</T>
+      <T name="Max_MaxIntensity">1.3</T>
+      <T name="Max_MinIntensityInteriorWall">0.3</T>
+      <T name="Max_MaxIntensityInteriorWall">1.3</T>
+      <T name="Max_MinIntensityExteriorWall">0.3</T>
+      <T name="Max_MaxIntensityExteriorWall">1.3</T>
+      <T name="Max_MinIntensityInteriorFloor">0.3</T>
+      <T name="Max_MaxIntensityInteriorFloor">1.3</T>
+      <T name="Max_MinIntensityExteriorFloor">0.3</T>
+      <T name="Max_MaxIntensityExteriorFloor">1.3</T>
+      <T name="Max_DistToTarget">10000000</T>
+      <T name="DropShadowAttLevelInSsao">0.9</T>
+      <T name="ExpansionFactor">0.875</T>
+      <T name="ApplyQuadraticLevel">1</T>
+      <T name="NewExpansionFactor1">0.75</T>
+      <T name="NewExpansionFactor2">0.01</T>
+      <T name="UseDistanceBasedSsaoFiltering">0</T>
+      <T name="UseSmallSizeForSsao">0</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Renderer.GlobalSsaoSettings" schema_hash="0x5070334F">
+      <Columns>
+        <Column name="Min_Distance_0" type="Single" flags="0x00000000" />
+        <Column name="Min_Distance_1" type="Single" flags="0x00000000" />
+        <Column name="Min_Distance_2" type="Single" flags="0x00000000" />
+        <Column name="Min_Radius_0" type="Single" flags="0x00000000" />
+        <Column name="Min_Radius_1" type="Single" flags="0x00000000" />
+        <Column name="Min_Radius_2" type="Single" flags="0x00000000" />
+        <Column name="Min_Falloff_0" type="Single" flags="0x00000000" />
+        <Column name="Min_Falloff_1" type="Single" flags="0x00000000" />
+        <Column name="Min_Falloff_2" type="Single" flags="0x00000000" />
+        <Column name="Min_Intensity_0" type="Single" flags="0x00000000" />
+        <Column name="Min_Intensity_1" type="Single" flags="0x00000000" />
+        <Column name="Min_Intensity_2" type="Single" flags="0x00000000" />
+        <Column name="Min_FilterSize_0" type="Single" flags="0x00000000" />
+        <Column name="Min_FilterSize_1" type="Single" flags="0x00000000" />
+        <Column name="Min_FilterSize_2" type="Single" flags="0x00000000" />
+        <Column name="Min_SubScale" type="Single" flags="0x00000000" />
+        <Column name="Min_SubIntensity" type="Single" flags="0x00000000" />
+        <Column name="Min_MinIntensity" type="Single" flags="0x00000000" />
+        <Column name="Min_MaxIntensity" type="Single" flags="0x00000000" />
+        <Column name="Min_MinIntensityInteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Min_MaxIntensityInteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Min_MinIntensityExteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Min_MaxIntensityExteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Min_MinIntensityInteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Min_MaxIntensityInteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Min_MinIntensityExteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Min_MaxIntensityExteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Min_DistToTarget" type="Single" flags="0x00000000" />
+        <Column name="Max_Distance_0" type="Single" flags="0x00000000" />
+        <Column name="Max_Distance_1" type="Single" flags="0x00000000" />
+        <Column name="Max_Distance_2" type="Single" flags="0x00000000" />
+        <Column name="Max_Radius_0" type="Single" flags="0x00000000" />
+        <Column name="Max_Radius_1" type="Single" flags="0x00000000" />
+        <Column name="Max_Radius_2" type="Single" flags="0x00000000" />
+        <Column name="Max_Falloff_0" type="Single" flags="0x00000000" />
+        <Column name="Max_Falloff_1" type="Single" flags="0x00000000" />
+        <Column name="Max_Falloff_2" type="Single" flags="0x00000000" />
+        <Column name="Max_Intensity_0" type="Single" flags="0x00000000" />
+        <Column name="Max_Intensity_1" type="Single" flags="0x00000000" />
+        <Column name="Max_Intensity_2" type="Single" flags="0x00000000" />
+        <Column name="Max_FilterSize_0" type="Single" flags="0x00000000" />
+        <Column name="Max_FilterSize_1" type="Single" flags="0x00000000" />
+        <Column name="Max_FilterSize_2" type="Single" flags="0x00000000" />
+        <Column name="Max_SubScale" type="Single" flags="0x00000000" />
+        <Column name="Max_SubIntensity" type="Single" flags="0x00000000" />
+        <Column name="Max_MinIntensity" type="Single" flags="0x00000000" />
+        <Column name="Max_MaxIntensity" type="Single" flags="0x00000000" />
+        <Column name="Max_MinIntensityInteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Max_MaxIntensityInteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Max_MinIntensityExteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Max_MaxIntensityExteriorWall" type="Single" flags="0x00000000" />
+        <Column name="Max_MinIntensityInteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Max_MaxIntensityInteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Max_MinIntensityExteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Max_MaxIntensityExteriorFloor" type="Single" flags="0x00000000" />
+        <Column name="Max_DistToTarget" type="Single" flags="0x00000000" />
+        <Column name="DropShadowAttLevelInSsao" type="Single" flags="0x00000000" />
+        <Column name="ExpansionFactor" type="Single" flags="0x00000000" />
+        <Column name="ApplyQuadraticLevel" type="Single" flags="0x00000000" />
+        <Column name="NewExpansionFactor1" type="Single" flags="0x00000000" />
+        <Column name="NewExpansionFactor2" type="Single" flags="0x00000000" />
+        <Column name="UseDistanceBasedSsaoFiltering" type="Boolean" flags="0x00000000" />
+        <Column name="UseSmallSizeForSsao" type="Boolean" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

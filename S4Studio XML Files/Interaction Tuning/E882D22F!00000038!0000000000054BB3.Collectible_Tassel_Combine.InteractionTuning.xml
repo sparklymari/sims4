@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="Collectible_Tassel_Combine" s="347059">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_from_sim_inventory">True</T>
+  <T n="allow_from_world">False</T>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0xD33A400F<!--Combine Tassels--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="basic_extras">
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368114<!--collectTasselWall_EP15GEN_Blue_set7 (Blue Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368112<!--collectTasselWall_EP15GEN_Green_set5 (Green Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368113<!--collectTasselWall_EP15GEN_LtBlue_set6 (Turquoise Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368111<!--collectTasselWall_EP15GEN_LtGreen_set4 (Light Green Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368117<!--collectTasselWall_EP15GEN_Magenta_set10 (Magenta Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368109<!--collectTasselWall_EP15GEN_Orange_set2 (Orange Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368116<!--collectTasselWall_EP15GEN_Pink_set9 (Pink Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368115<!--collectTasselWall_EP15GEN_Purple_set8 (Purple Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">363803<!--collectTasselWall_EP15GEN_Red_set1 (Red Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="destroy_specified_objects_from_target_inventory">
+                    <U n="destroy_specified_objects_from_target_inventory">
+                      <V n="count" t="number">
+                        <T n="number">1</T>
+                      </V>
+                      <E n="inventory_owner">Actor</E>
+                      <L n="object_tests">
+                        <L>
+                          <V t="object_criteria">
+                            <U n="object_criteria">
+                              <V n="identity_test" t="definition_id">
+                                <U n="definition_id">
+                                  <T n="actual_object">368110<!--collectTasselWall_EP15GEN_Yellow_set3 (Yellow Tassel)--></T>
+                                </U>
+                              </V>
+                              <T n="owned">False</T>
+                              <V n="subject_specific_tests" t="single_object" />
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="loot">
+                    <U n="loot">
+                      <L n="loot_list">
+                        <T>347092<!--loot_World_Collectible_Unlock--></T>
+                      </L>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </U>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>TODDLER</E>
+            <E>BABY</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="in_inventory">
+      <U n="in_inventory">
+        <L n="inventory_types">
+          <E>SIM</E>
+        </L>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">347060<!--testSetInstance_Collectibles--></T>
+    </V>
+    <V t="reward_part_test">
+      <U n="reward_part_test">
+        <T n="invert">True</T>
+        <L n="reward_parts">
+          <T>367949<!--yfTop_EP15TasselShirt_Black--></T>
+          <T>367950<!--yfTop_EP15TasselShirt_Blue--></T>
+          <T>367951<!--yfTop_EP15TasselShirt_Coral--></T>
+          <T>367952<!--yfTop_EP15TasselShirt_Fuchsia--></T>
+          <T>367953<!--yfTop_EP15TasselShirt_Green--></T>
+          <T>367954<!--yfTop_EP15TasselShirt_Navy--></T>
+          <T>367955<!--yfTop_EP15TasselShirt_PinkLt--></T>
+          <T>367956<!--yfTop_EP15TasselShirt_Purple--></T>
+          <T>367957<!--yfTop_EP15TasselShirt_Teal--></T>
+          <T>367958<!--yfTop_EP15TasselShirt_White--></T>
+          <T>374553<!--ymTop_EP15TasselShirt_Black--></T>
+          <T>374554<!--ymTop_EP15TasselShirt_Blue--></T>
+          <T>374555<!--ymTop_EP15TasselShirt_Coral--></T>
+          <T>374556<!--ymTop_EP15TasselShirt_Fuchsia--></T>
+          <T>374557<!--ymTop_EP15TasselShirt_Green--></T>
+          <T>374558<!--ymTop_EP15TasselShirt_Navy--></T>
+          <T>374559<!--ymTop_EP15TasselShirt_PinkLt--></T>
+          <T>374560<!--ymTop_EP15TasselShirt_Purple--></T>
+          <T>374561<!--ymTop_EP15TasselShirt_Teal--></T>
+          <T>374562<!--ymTop_EP15TasselShirt_White--></T>
+        </L>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0xE9F780AE<!--You've already unlocked this reward!--></T>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

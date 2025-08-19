@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="marketStalls_JustWearCAS_HighSchoolFestival_ScienceFair_Chess" s="286257">
+  <L n="_constraints">
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="cone">
+            <U n="cone">
+              <T n="angle">90</T>
+              <T n="max_radius">2</T>
+              <T n="min_radius">1</T>
+            </U>
+          </V>
+        </U>
+      </L>
+    </U>
+    <U>
+      <L n="constraints">
+        <U>
+          <V n="value" t="facing" />
+        </U>
+      </L>
+    </U>
+  </L>
+  <V n="_forwarding" t="Forward" />
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Object</E>
+      </L>
+    </U>
+  </V>
+  <V n="_saveable" t="enabled" />
+  <T n="allow_autonomous">False</T>
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot" />
+  <L n="basic_extras">
+    <V t="change_outfit">
+      <U n="change_outfit">
+        <V n="outfit_change" t="for_tags">
+          <U n="for_tags">
+            <V n="on_entry" t="disabled" />
+            <V n="on_exit" t="enabled">
+              <L n="enabled">
+                <U>
+                  <V n="generator" t="reference">
+                    <T n="reference">286246<!--outfit_HighSchoolFestivals_MarketStall_Chess--></T>
+                  </V>
+                  <V n="outfit_to_modify" t="current" />
+                </U>
+              </L>
+            </V>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <V n="basic_reserve_object" t="enabled">
+    <U n="enabled">
+      <L n="subject_list">
+        <U>
+          <V n="reserve_type" t="multi" />
+        </U>
+      </L>
+    </U>
+  </V>
+  <T n="category">286142<!--pieMenuCategories_MarketStalls_HighSchoolFestivals--></T>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0x607DE0A8<!--Wear Chess Team Shirt--></T>
+  <V n="display_name_overrides" t="none" />
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+    <E>Interaction_CurioShop_BrowseBuy</E>
+  </L>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="reward_part_test">
+      <U n="reward_part_test">
+        <L n="reward_parts">
+          <T>301603<!--yfTop_EP12ShirtChessFestival_SchoolLogoBrown--></T>
+          <T>301604<!--yfTop_EP12ShirtChessFestival_SchoolLogoGray--></T>
+          <T>301605<!--yfTop_EP12ShirtChessFestival_SolidBlack--></T>
+          <T>301606<!--yfTop_EP12ShirtChessFestival_SolidCoralLt--></T>
+          <T>301607<!--yfTop_EP12ShirtChessFestival_SolidGreen--></T>
+          <T>301608<!--yfTop_EP12ShirtChessFestival_SolidIvoryBlue--></T>
+          <T>301609<!--yfTop_EP12ShirtChessFestival_SolidNavy--></T>
+          <T>301610<!--yfTop_EP12ShirtChessFestival_SolidOrange--></T>
+          <T>301611<!--yfTop_EP12ShirtChessFestival_SolidPurpleDk--></T>
+          <T>301612<!--yfTop_EP12ShirtChessFestival_SolidRed--></T>
+          <T>301613<!--yfTop_EP12ShirtChessFestival_SolidWhite--></T>
+          <T>301592<!--ymTop_EP12ShirtChessFestival_SchoolLogoBrown--></T>
+          <T>301593<!--ymTop_EP12ShirtChessFestival_SchoolLogoGray--></T>
+          <T>301594<!--ymTop_EP12ShirtChessFestival_SolidBlack--></T>
+          <T>301595<!--ymTop_EP12ShirtChessFestival_SolidCoralLt--></T>
+          <T>301596<!--ymTop_EP12ShirtChessFestival_SolidGreen--></T>
+          <T>301597<!--ymTop_EP12ShirtChessFestival_SolidIvoryBlue--></T>
+          <T>301598<!--ymTop_EP12ShirtChessFestival_SolidNavy--></T>
+          <T>301599<!--ymTop_EP12ShirtChessFestival_SolidOrange--></T>
+          <T>301600<!--ymTop_EP12ShirtChessFestival_SolidPurpleDk--></T>
+          <T>301601<!--ymTop_EP12ShirtChessFestival_SolidRed--></T>
+          <T>301602<!--ymTop_EP12ShirtChessFestival_SolidWhite--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

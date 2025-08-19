@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_GiveGift_Hidden" s="190705">
+  <V n="_temporary_commodity_info" t="disabled" />
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\buffs_greatgift.png">2f7d0004:00000000:34882340441242c9</T>
+  <T n="mood_weight">1</T>
+  <V n="provided_template_affordances" t="enabled">
+    <U n="enabled">
+      <L n="template_affordances">
+        <V t="discipline">
+          <U n="discipline">
+            <T n="display_name_override">0xDBC114C1<!--Encourage to Give Gifts--></T>
+            <L n="outcome_basic_extras">
+              <V t="loot">
+                <U n="loot">
+                  <L n="loot_list">
+                    <T>167153<!--loot_Statistic_LifeSkill_Manners_Target_Discipline_EncourageGain--></T>
+                    <T>130279<!--rel_Gain_Small_TargetSim--></T>
+                    <T>163075<!--loot_ParentingSkill_Discipline_Encourage--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <T n="template_affordance">163026<!--disciplineTemplate_Encourage--></T>
+          </U>
+        </V>
+      </L>
+    </U>
+  </V>
+  <V n="proximity_buff_added_reason" t="no_proximity_add_reason" />
+  <T n="visible">False</T>
+</I>

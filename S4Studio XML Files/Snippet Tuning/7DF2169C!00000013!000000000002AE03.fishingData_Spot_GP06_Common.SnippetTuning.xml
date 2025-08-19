@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_Spot_GP06_Common" s="175619">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">178743<!--collectFishLarge_GP06GENTambaqui (Tambaqui)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44910<!--collectFishMedGENCatfish_01_set1 (Catfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <T n="treasure">179454<!--bottleSmall_GP06GEN_sanitary (Waterfall in a Bottle)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179462<!--pepperSpray_GP06GEN_spider (Dr. Parker's Spider Repellent)--></T>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179456<!--drinkCan_GP06GEN_zapAway (Faraday Fizz)--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="treasure">179359<!--machete_GP06GEN (Jungle Machete)--></T>
+      </U>
+      <U>
+        <T n="treasure">179463<!--flowerSingleLrg_GP06GEN (Guzmania Pollenis Flower)--></T>
+        <U n="weight">
+          <T n="base_value">6</T>
+        </U>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">7</T>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+    </U>
+  </U>
+</I>

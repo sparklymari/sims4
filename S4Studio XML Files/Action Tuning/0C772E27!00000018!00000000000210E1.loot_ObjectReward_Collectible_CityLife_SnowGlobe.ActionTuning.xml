@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectReward_Collectible_CityLife_SnowGlobe" s="135393">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="force_family_inventory">False</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="reference">
+            <T n="reference">137588<!--notification_ObjectReward_CityLife_SnowGlobe--></T>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled">
+              <U n="enabled">
+                <L n="loot_actions">
+                  <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                </L>
+              </U>
+            </V>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">127408<!--collectSnowGlobe_EP03GEN_set1 (Newcrest Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130804<!--collectSnowGlobe_EP03GEN_set2 (The City Bridge Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130785<!--collectSnowGlobe_EP03GEN_set3 (City Skyline Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130805<!--collectSnowGlobe_EP03GEN_set4 (Tudor House Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130806<!--collectSnowGlobe_EP03GEN_set5 (Haunted Mansion Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130807<!--collectSnowGlobe_EP03GEN_set6 (Yuma Heights Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130808<!--collectSnowGlobe_EP03GEN_set7 (The Willow Creek Lighthouse Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130786<!--collectSnowGlobe_EP03GEN_set8 (Freezer Bunny Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130787<!--collectSnowGlobe_EP03GEN_set9 (Emily Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130809<!--collectSnowGlobe_EP03GEN_set10 (The City Skyscraper Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130810<!--collectSnowGlobe_EP03GEN_set11 (Stanley the Jackalope Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130811<!--collectSnowGlobe_EP03GEN_set12 (Magnolia Steamboat Snow Globe )--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130788<!--collectSnowGlobe_EP03GEN_set13 (Plumbob Snow Globe (Limited Edition))--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130812<!--collectSnowGlobe_EP03GEN_set14 (The Reaper Snow Globe (Limited Edition))--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130789<!--collectSnowGlobe_EP03GEN_set15 (Age of the Dinosaur Snow Globe (Limited Edition))--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19532<!--bookGENBartendingAdvanced_01 (Mixology Vol. 3:  The Mixologist's Bible)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">142505<!--sculptFloor_EP03GENPaintCan (Paint Cans)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">121900<!--paintWall1X1x2_EP03GENpeacockColor (Beauty in the Madness)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29081<!--sculptTableGENWoodworkBear_01 (“Wood You Believe” Grizzly )--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20616<!--craftWoodWorkFailSmlGEN_01 (Woodworking Disaster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19467<!--bookGENBartendingIntermediate_01 (Mixology Vol. 2:  A Twist of Lime)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">18569<!--bookThinGENBartendingBeginner_01 (Mixology Vol. 1:  Beverage Basics)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34389<!--bookGENCharismaIntermediate_01 (Charisma Vol 2: The Science of Diplomacy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34388<!--bookThinGENCharismaBeginner_01 (Charisma Vol 1: Diplomacy for Dummies)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34190<!--bookGENComedyIntermediate_01 (Comedy Vol 2: Grab the Mic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34189<!--bookThinGENComedyBeginner_01 (Comedy Vol 1: Get the Jokes)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34207<!--bookGENCookingIntermediate_01 (Cooking Vol 2: Let's Keeping Cooking!)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34206<!--bookThinGENCookingBeginner_01 (Cooking Vol 1: Let's Cook!)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34326<!--bookGENPianoAdvanced_01 (Piano Vol 3: Concertos, Minutes, and Sonatas)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34327<!--bookGENPianoBeginner_01 (Piano Vol 1: It's Pretty Black and White)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34328<!--bookGENPianoIntermediate_01 (Piano Vol 2: Sharps, Flats, and Naturals)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61964<!--futureCubeGEN_01_white (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19561<!--coffeeMachineLOW_01_set2 (Joe Jockey)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">143075<!--musicPianoPortable_EP03GEN_set7 (DigiRAD Keyboard)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32228<!--musicViolinLOWWoodwork_01_set1 (Crafted Violin)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46097<!--paintWallGENPosterDino1x1x1_01_set1 (Read-asaurus Rex Kids’ Poster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">51034<!--paintWallGENTeenShoe1x1x1_01_set3 (Chic Shoe Fashion Poster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">60346<!--paintWallQA1x1x1_01_set3 (Ode to Jazz 1: “Golden”)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33265<!--potionStinkGEN_01 (Stink Potion)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">48399<!--rugC2x2_01_set12 (The Elysium)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20727<!--voodooDollGEN_01 (Madame Zoe's Voodoo Doll)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29336<!--collectMySimsMorcubus_01 (Morcubus)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30527<!--collectTreasureMapGEN_01 (Treasure Map)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141329<!--bottleBubble_EP03GEN_fleaMarket (Flea Market Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">11490<!--toyHandGENEmotionDollRobot_01_set1 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30094<!--toyHandGENToyBoxHero_01_set1 (The Purple Pursuer Action Figure)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">58644<!--toyHandGENToyBoxMonster_01_set3 (Chompy the Monsta)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">131847<!--firework_EP03GENcandle_blossom (Romance Festival Roman Candle)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">131864<!--firework_EP03GENspinner_food (Spice Festival Spinner)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141363<!--bottleBubble_EP03GEN_blossom (Romance Festival Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141364<!--bottleBubble_EP03GEN_food (Spice Festival Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141365<!--bottleBubble_EP03GEN_lamp (Humor and Hijinks Festival Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+            <U n="tested_bonus_quantity">
+              <L n="modifiers">
+                <U>
+                  <T n="modifier">1</T>
+                  <L n="tests">
+                    <L>
+                      <V t="bucks_perks_test">
+                        <U n="bucks_perks_test">
+                          <T n="bucks_perk">216498<!--witchPerks_Open_1A_IncredibleForager--></T>
+                        </U>
+                      </V>
+                      <V t="region">
+                        <U n="region">
+                          <V n="whitelist" t="enabled">
+                            <L n="enabled">
+                              <T>219134<!--region_Hidden_Magic_Venue--></T>
+                            </L>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="blacklist_traits">
+                  <T>35719<!--trait_Collector--></T>
+                </L>
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="npc" t="enabled" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="force_family_inventory">False</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="reference">
+            <T n="reference">137588<!--notification_ObjectReward_CityLife_SnowGlobe--></T>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled" />
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">127408<!--collectSnowGlobe_EP03GEN_set1 (Newcrest Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130804<!--collectSnowGlobe_EP03GEN_set2 (The City Bridge Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130785<!--collectSnowGlobe_EP03GEN_set3 (City Skyline Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130805<!--collectSnowGlobe_EP03GEN_set4 (Tudor House Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130806<!--collectSnowGlobe_EP03GEN_set5 (Haunted Mansion Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130807<!--collectSnowGlobe_EP03GEN_set6 (Yuma Heights Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130808<!--collectSnowGlobe_EP03GEN_set7 (The Willow Creek Lighthouse Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130786<!--collectSnowGlobe_EP03GEN_set8 (Freezer Bunny Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130787<!--collectSnowGlobe_EP03GEN_set9 (Emily Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130809<!--collectSnowGlobe_EP03GEN_set10 (The City Skyscraper Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130810<!--collectSnowGlobe_EP03GEN_set11 (Stanley the Jackalope Snow Globe)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130811<!--collectSnowGlobe_EP03GEN_set12 (Magnolia Steamboat Snow Globe )--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">35</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130788<!--collectSnowGlobe_EP03GEN_set13 (Plumbob Snow Globe (Limited Edition))--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">75</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130812<!--collectSnowGlobe_EP03GEN_set14 (The Reaper Snow Globe (Limited Edition))--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">75</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">130789<!--collectSnowGlobe_EP03GEN_set15 (Age of the Dinosaur Snow Globe (Limited Edition))--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">75</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19532<!--bookGENBartendingAdvanced_01 (Mixology Vol. 3:  The Mixologist's Bible)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">142505<!--sculptFloor_EP03GENPaintCan (Paint Cans)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">121900<!--paintWall1X1x2_EP03GENpeacockColor (Beauty in the Madness)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29081<!--sculptTableGENWoodworkBear_01 (“Wood You Believe” Grizzly )--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20616<!--craftWoodWorkFailSmlGEN_01 (Woodworking Disaster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19467<!--bookGENBartendingIntermediate_01 (Mixology Vol. 2:  A Twist of Lime)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">18569<!--bookThinGENBartendingBeginner_01 (Mixology Vol. 1:  Beverage Basics)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34389<!--bookGENCharismaIntermediate_01 (Charisma Vol 2: The Science of Diplomacy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34388<!--bookThinGENCharismaBeginner_01 (Charisma Vol 1: Diplomacy for Dummies)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34190<!--bookGENComedyIntermediate_01 (Comedy Vol 2: Grab the Mic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34189<!--bookThinGENComedyBeginner_01 (Comedy Vol 1: Get the Jokes)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34207<!--bookGENCookingIntermediate_01 (Cooking Vol 2: Let's Keeping Cooking!)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34206<!--bookThinGENCookingBeginner_01 (Cooking Vol 1: Let's Cook!)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34326<!--bookGENPianoAdvanced_01 (Piano Vol 3: Concertos, Minutes, and Sonatas)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34327<!--bookGENPianoBeginner_01 (Piano Vol 1: It's Pretty Black and White)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">34328<!--bookGENPianoIntermediate_01 (Piano Vol 2: Sharps, Flats, and Naturals)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61964<!--futureCubeGEN_01_white (Future Cube by Paltry Predictions, Inc.)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">19561<!--coffeeMachineLOW_01_set2 (Joe Jockey)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">143075<!--musicPianoPortable_EP03GEN_set7 (DigiRAD Keyboard)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">32228<!--musicViolinLOWWoodwork_01_set1 (Crafted Violin)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46097<!--paintWallGENPosterDino1x1x1_01_set1 (Read-asaurus Rex Kids’ Poster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">51034<!--paintWallGENTeenShoe1x1x1_01_set3 (Chic Shoe Fashion Poster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">60346<!--paintWallQA1x1x1_01_set3 (Ode to Jazz 1: “Golden”)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33265<!--potionStinkGEN_01 (Stink Potion)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">48399<!--rugC2x2_01_set12 (The Elysium)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">20727<!--voodooDollGEN_01 (Madame Zoe's Voodoo Doll)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29336<!--collectMySimsMorcubus_01 (Morcubus)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30527<!--collectTreasureMapGEN_01 (Treasure Map)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141329<!--bottleBubble_EP03GEN_fleaMarket (Flea Market Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">11490<!--toyHandGENEmotionDollRobot_01_set1 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30094<!--toyHandGENToyBoxHero_01_set1 (The Purple Pursuer Action Figure)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">58644<!--toyHandGENToyBoxMonster_01_set3 (Chompy the Monsta)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">131847<!--firework_EP03GENcandle_blossom (Romance Festival Roman Candle)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">131864<!--firework_EP03GENspinner_food (Spice Festival Spinner)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141363<!--bottleBubble_EP03GEN_blossom (Romance Festival Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141364<!--bottleBubble_EP03GEN_food (Spice Festival Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">141365<!--bottleBubble_EP03GEN_lamp (Humor and Hijinks Festival Bubble Bottle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+            <U n="tested_bonus_quantity">
+              <L n="modifiers">
+                <U>
+                  <T n="modifier">1</T>
+                  <L n="tests">
+                    <L>
+                      <V t="bucks_perks_test">
+                        <U n="bucks_perks_test">
+                          <T n="bucks_perk">216498<!--witchPerks_Open_1A_IncredibleForager--></T>
+                        </U>
+                      </V>
+                      <V t="region">
+                        <U n="region">
+                          <V n="whitelist" t="enabled">
+                            <L n="enabled">
+                              <T>219134<!--region_Hidden_Magic_Venue--></T>
+                            </L>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <L n="whitelist_traits">
+                  <T>35719<!--trait_Collector--></T>
+                </L>
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="npc" t="enabled" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

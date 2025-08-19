@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_Batuu_Missions_RS3_ControlPanel_Cooldown" s="246223">
+  <L n="test">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">239752<!--panelInteractive_GP09GEN01_set1 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246216<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_1--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">241042<!--panelInteractive_GP09GEN01_set2 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246217<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_2--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">241043<!--panelInteractive_GP09GEN01_set3 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246218<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_3--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">241044<!--panelInteractive_GP09GEN01_set4 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246219<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_4--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">246446<!--panelInteractive_GP09GEN01_set5 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246220<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_5--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">246447<!--panelInteractive_GP09GEN01_set6 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246221<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_6--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">246448<!--panelInteractive_GP09GEN01_set7 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246222<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_7--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">246449<!--panelInteractive_GP09GEN01_set8 (Control Panel)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>246215<!--buff_Batuu_Missions_SR3_ControlPanel_Cooldown_8--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x76A3116D<!--{0.SimName} has gathered all the information from this panel.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

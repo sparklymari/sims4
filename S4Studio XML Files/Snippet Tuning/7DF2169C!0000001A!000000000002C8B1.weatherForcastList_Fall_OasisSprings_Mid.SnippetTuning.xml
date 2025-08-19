@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherForcastList" i="snippet" m="snippets" n="weatherForcastList_Fall_OasisSprings_Mid" s="182449">
+  <L n="value">
+    <U>
+      <T n="forecast">183969<!--forecast_ChanceOfRain_Rain_Cold--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183967<!--forecast_ChanceOfRain_Rain_Cool--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">182390<!--forecast_ChanceOfRain_Rain_Warm_all--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183981<!--forecast_ChanceOfSnow_Snow_Freezing--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183979<!--forecast_Cloudy_coldCool--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183978<!--forecast_Cloudy_Hot--></T>
+      <T n="weight">1</T>
+    </U>
+    <U>
+      <T n="forecast">183977<!--forecast_PartlyCloudy_Cold--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183976<!--forecast_PartlyCloudy_Hot--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">182397<!--forecast_PartlyCloudy_coolWarm--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183973<!--forecast_Rain_Cool--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">182400<!--forecast_Sunny_coolWarm--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">183970<!--forecast_Sunny_Hot--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">183972<!--forecast_Sunny_Cold--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">186016<!--forecast_Windy_Cool--></T>
+    </U>
+    <U>
+      <T n="forecast">183985<!--forecast_Random--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">182400<!--forecast_Sunny_coolWarm--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">182390<!--forecast_ChanceOfRain_Rain_Warm_all--></T>
+      <T n="weight">0</T>
+    </U>
+    <U>
+      <T n="forecast">182398<!--forecast_Rain_Warm--></T>
+      <T n="weight">0</T>
+    </U>
+  </L>
+</I>

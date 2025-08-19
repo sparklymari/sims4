@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="world.mailbox_owner_helper" s="15254325742064345739">
+  <C n="MailboxOwnerHelper">
+    <L n="MAILBOX_TAGS">
+      <E>Func_Mailbox</E>
+    </L>
+    <L n="OWNER_STATES">
+      <U>
+        <T n="active_state_value">147347<!--MailboxWall_Nameplate_1_Yes--></T>
+        <T n="default_state_value">147346<!--MailboxWall_Nameplate_0_No--></T>
+        <L n="definitions">
+          <T>120225<!--mailboxWall_EP03GEN1unit_set1 (Apartment Mailbox)--></T>
+          <T>125313<!--mailboxWall_EP03GEN1unit_set2 (Apartment Mailbox)--></T>
+          <T>125314<!--mailboxWall_EP03GEN1unit_set3 (Apartment Mailbox)--></T>
+          <T>125315<!--mailboxWall_EP03GEN1unit_set4 (Apartment Mailbox)--></T>
+          <T>125316<!--mailboxWall_EP03GEN1unit_set5 (Apartment Mailbox)--></T>
+          <T>125317<!--mailboxWall_EP03GEN1unit_set6 (Apartment Mailbox)--></T>
+          <T>125318<!--mailboxWall_EP03GEN1unit_set7 (Apartment Mailbox)--></T>
+          <T>125319<!--mailboxWall_EP03GEN1unit_set8 (Apartment Mailbox)--></T>
+          <T>125320<!--mailboxWall_EP03GEN1unit_set9 (Apartment Mailbox)--></T>
+        </L>
+      </U>
+    </L>
+  </C>
+</M>

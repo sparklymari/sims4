@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_MusicFestival_Buff_Visible_Inspired_PostPerformance" s="270497">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xEC184B2B<!--(From Attending Sims Sessions)--></T>
+          </V>
+          <T n="buff_type">270448<!--buff_MusicFestival_Visible_Inspired_PostPerformance--></T>
+        </U>
+      </U>
+    </V>
+    <V t="cas_unlock">
+      <U n="cas_unlock">
+        <V n="cas_part_source" t="reference">
+          <U n="reference">
+            <L n="cas_parts">
+              <T>287144<!--yftop_ENG34TShirtLogo_SessionsBlack--></T>
+              <T>287139<!--yftop_ENG34TShirtLogo_SessionsPurple--></T>
+              <T>287140<!--yftop_ENG34TShirtLogo_SessionsWhite--></T>
+              <T>287141<!--yftop_ENG34TShirtLogo_SoMBlack--></T>
+              <T>287142<!--yftop_ENG34TShirtLogo_SoMTeal--></T>
+              <T>287143<!--yftop_ENG34TShirtLogo_SoMWhite--></T>
+              <T>287158<!--ymTop_ENG34TShirtLogo_SoMWhite--></T>
+              <T>287157<!--ymTop_ENG34TShirtLogo_SoMTeal--></T>
+              <T>287156<!--ymTop_ENG34TShirtLogo_SoMBlack--></T>
+              <T>287155<!--ymTop_ENG34TShirtLogo_SessionsWhite--></T>
+              <T>287154<!--ymTop_ENG34TShirtLogo_SessionsPurple--></T>
+              <T>287159<!--ymTop_ENG34TShirtLogo_SessionsBlack--></T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+</I>

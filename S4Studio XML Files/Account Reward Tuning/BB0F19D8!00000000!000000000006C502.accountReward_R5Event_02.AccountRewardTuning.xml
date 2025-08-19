@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R5Event_02" s="443650">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Preview\NatureEvent_Preview_CAS_Glasses.png">2f7d0004:00000000:2d84fac56ecf664e</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482556<!--cuAcc_GlassesEF63EVRWings_RainbowBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475020<!--yuAcc_GlassesEF63EVRWings_RainbowBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475021<!--yuAcc_GlassesEF63EVRWings_RainbowGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475030<!--yuAcc_GlassesEF63EVRWings_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475022<!--yuAcc_GlassesEF63EVRWings_SolidBrown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475023<!--yuAcc_GlassesEF63EVRWings_SolidWhite--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475024<!--yuAcc_GlassesEF63EVRWings_SplitBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475025<!--yuAcc_GlassesEF63EVRWings_SplitBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475026<!--yuAcc_GlassesEF63EVRWings_SplitGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475027<!--yuAcc_GlassesEF63EVRWings_SplitLIme--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475028<!--yuAcc_GlassesEF63EVRWings_SplitPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">475029<!--yuAcc_GlassesEF63EVRWings_SplitRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482557<!--cuAcc_GlassesEF63EVRWings_RainbowGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482566<!--cuAcc_GlassesEF63EVRWings_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482558<!--cuAcc_GlassesEF63EVRWings_SolidBrown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482559<!--cuAcc_GlassesEF63EVRWings_SolidWhite--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482560<!--cuAcc_GlassesEF63EVRWings_SplitBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482561<!--cuAcc_GlassesEF63EVRWings_SplitBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482562<!--cuAcc_GlassesEF63EVRWings_SplitGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482563<!--cuAcc_GlassesEF63EVRWings_SplitLIme--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482564<!--cuAcc_GlassesEF63EVRWings_SplitPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">482565<!--cuAcc_GlassesEF63EVRWings_SplitRed--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x94036171<!--Find this item in Create a Sim under Accessories, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0xBB72EC0F<!--These specs give a whole new meaning to the phrase "bug eyes". --></T>
+  <T n="reward_name">0x4CB715D6<!--Odonata Glasses--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\END\NatureEvent_END_CAS_Glasses.png">2f7d0004:00000000:218b9be21e43e779</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_CAS_Glasses.png">2f7d0004:00000000:1cd7906d107a5846</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\NatureEvent\Thumbnails\NatureEvent_TN_CAS_Glasses.png">2f7d0004:00000000:1cd7906d107a5846</T>
+</I>

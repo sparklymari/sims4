@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_EP17World_EdithBasu_NotAllowedOnEdith" s="388438">
+  <L n="value">
+    <T>130218<!--simPickerInteraction_Ensemble_AddToGroup--></T>
+    <T>130221<!--simPickerInteraction_Ensemble_RemoveFromGroup--></T>
+    <T>124984<!--ensembleInteractions_AddToEnsemble--></T>
+    <T>124986<!--ensembleInteractions_DestroyEnsemble--></T>
+    <T>130080<!--ensembleInteractions_LeaveEnsemble--></T>
+    <T>130219<!--ensembleInteractions_PickedSim_PushToAdd--></T>
+    <T>124985<!--ensembleInteractions_RemoveFromEnsemble--></T>
+    <T>125546<!--simPicker_GoingOutSocials_BreakUpSims--></T>
+    <T>125504<!--simPicker_GoingOutSocials_TalkUpSim--></T>
+    <T>125581<!--simPicker_GoingOutSocials_TrashAnotherSim--></T>
+    <T>124875<!--simPicker_GoingOutSocials_AskAboutAnotherSim--></T>
+    <T>156875<!--simPicker_GoingOutSocials_AskAboutAnotherSim_Toddler--></T>
+    <T>125240<!--simPicker_GoingOutSocials_Matchmake--></T>
+    <T>127040<!--simPicker_GoingOutSocials_T_Matchmake--></T>
+    <T>103109<!--tellGroupStory_Picker_Adventure--></T>
+    <T>105496<!--tellGroupStory_Picker_Adventure_Campfire--></T>
+    <T>190896<!--tellGroupStory_Picker_Adventure_Holiday--></T>
+    <T>190897<!--tellGroupStory_Picker_Adventure_HolidayCampfire--></T>
+    <T>103108<!--tellGroupStory_Picker_Fairy--></T>
+    <T>105498<!--tellGroupStory_Picker_Fairy_Campfire--></T>
+    <T>190898<!--tellGroupStory_Picker_Fairy_Holiday--></T>
+    <T>190899<!--tellGroupStory_Picker_Fairy_HolidayCampfire--></T>
+    <T>103110<!--tellGroupStory_Picker_Ghost--></T>
+    <T>105500<!--tellGroupStory_Picker_Ghost_Campfire--></T>
+    <T>190900<!--tellGroupStory_Picker_Ghost_Holiday--></T>
+    <T>190901<!--tellGroupStory_Picker_Ghost_HolidayCampfire--></T>
+    <T>180462<!--sim_GiveGift_Birthday_Picker--></T>
+    <T>180460<!--sim_GiveGift_Bro_Picker--></T>
+    <T>187667<!--sim_GiveGift_FlowerArrangement_Picker--></T>
+    <T>180459<!--sim_GiveGift_Friendly_Picker--></T>
+    <T>183342<!--sim_GiveGift_Holiday_Picker--></T>
+    <T>180461<!--sim_GiveGift_Romantic_Picker--></T>
+    <T>164939<!--simPicker_OtherSims_FixBadRelationship--></T>
+    <T>13995<!--sim_CallOver--></T>
+    <T>130342<!--sim_CallOverTogether_Group--></T>
+  </L>
+</I>

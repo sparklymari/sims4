@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Reaping_Deliver" s="422857">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_Urn.png">2f7d0004:00000000:ca53d1442d508ac1</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x12C5C7F8<!--Deliver Urn to Family--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x213223D0<!--Select the Urn and choose Deliver to Family.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>421536<!--career_Reaper_Urnstone_Destroy--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

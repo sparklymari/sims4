@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Festival_FleaMarket_Trade_Crystal" s="145670">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">8</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.1</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144904<!--collectible_Rarity_Common--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">12</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">35</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.15</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144901<!--collectible_Rarity_Uncommon--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28741<!--collectCrystalMedGEN_01_jet (Jet)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28743<!--collectCrystalMedGEN_01_plumbite (Plumbite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28731<!--collectCrystalSmGEN_01_jonquilyst (Jonquilyst)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28734<!--collectCrystalSmGEN_01_rainborz (Rainborz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28727<!--collectCrystalSmGEN_01_amethyst (Amethyst)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28736<!--collectCrystalSmGEN_01_simanite (Simanite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28744<!--collectCrystalMedGEN_01_quartz (Quartz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28733<!--collectCrystalSmGEN_01_peach (Peach)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376788<!--collectCrystalMed_SP49GEN_01_jade (Jade)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">2</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376787<!--collectCrystalMed_SP49GEN_01_moonstone (Moonstone)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">376786<!--collectCrystalSm_SP49GEN_01_amber (Amber)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">12</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.05</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144905<!--collectible_Rarity_Rare--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

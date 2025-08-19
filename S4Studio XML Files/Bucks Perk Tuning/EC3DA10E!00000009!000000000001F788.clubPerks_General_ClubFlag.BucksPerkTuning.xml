@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_ClubFlag" s="128904">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0xBBF4E346<!--Club Flag--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_ClubFlag.png">2f7d0004:00000000:85e5c7269643c235</T>
+  </U>
+  <T n="perk_description">0xEFA91539<!--Show your Club spirit by hanging this flag proudly in your Club hangout or house.--></T>
+  <L n="rewards">
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110353<!--sculptWall_EP02RWflagClub_set1 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110943<!--sculptWall_EP02RWflagClub_set2 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110944<!--sculptWall_EP02RWflagClub_set3 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110945<!--sculptWall_EP02RWflagClub_set4 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110946<!--sculptWall_EP02RWflagClub_set5 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110947<!--sculptWall_EP02RWflagClub_set6 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110948<!--sculptWall_EP02RWflagClub_set7 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110949<!--sculptWall_EP02RWflagClub_set8 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110950<!--sculptWall_EP02RWflagClub_set9 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110951<!--sculptWall_EP02RWflagClub_set10 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110952<!--sculptWall_EP02RWflagClub_set11 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110953<!--sculptWall_EP02RWflagClub_set12 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110954<!--sculptWall_EP02RWflagClub_set13 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110955<!--sculptWall_EP02RWflagClub_set14 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110956<!--sculptWall_EP02RWflagClub_set15 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110957<!--sculptWall_EP02RWflagClub_set16 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110958<!--sculptWall_EP02RWflagClub_set17 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110959<!--sculptWall_EP02RWflagClub_set18 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110960<!--sculptWall_EP02RWflagClub_set19 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110961<!--sculptWall_EP02RWflagClub_set20 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110962<!--sculptWall_EP02RWflagClub_set21 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110963<!--sculptWall_EP02RWflagClub_set22 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110964<!--sculptWall_EP02RWflagClub_set23 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110965<!--sculptWall_EP02RWflagClub_set24 (Club Flag)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110966<!--sculptWall_EP02RWflagClub_set25 (Club Flag)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">300</T>
+</I>

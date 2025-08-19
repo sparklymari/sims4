@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Career_SimsfluencerSideHustle_ChanceCard_03A_Fail" s="276795">
+  <L n="loot_actions">
+    <V t="actions">
+      <T n="actions">289753<!--loot_JobPerformance_Loss_Small_SimsfluencerSideHustle--></T>
+    </V>
+  </L>
+</I>

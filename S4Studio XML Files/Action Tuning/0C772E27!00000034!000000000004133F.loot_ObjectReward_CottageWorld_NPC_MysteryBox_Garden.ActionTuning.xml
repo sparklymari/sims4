@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectReward_CottageWorld_NPC_MysteryBox_Garden" s="267071">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272265<!--gardenFertilizer_EP11GENcrop_set5 (Super Vitality Fertilizer)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">2</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259140<!--recipe_Food_AnimalObject_LivestockFeed_SpicyBeef--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">2</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259130<!--recipe_Food_AnimalObject_LivestockFeed_Chocolatey--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">2</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">125468<!--gardenFruit_GENGrowfruit_01 (Growfruit)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">272265<!--gardenFertilizer_EP11GENcrop_set5 (Super Vitality Fertilizer)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">2</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259140<!--recipe_Food_AnimalObject_LivestockFeed_SpicyBeef--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">2</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259130<!--recipe_Food_AnimalObject_LivestockFeed_Chocolatey--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">2</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">125468<!--gardenFruit_GENGrowfruit_01 (Growfruit)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259136<!--recipe_Food_AnimalObject_LivestockFeed_Obsidian--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">259138<!--recipe_Food_AnimalObject_LivestockFeed_Rainbow--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">193549<!--seedPacket_Garden_uncommon (Uncommon Plants)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">193547<!--seedPacket_Garden_rare (Rare Plants)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">261560<!--testSet_CottageWorld_NPC_UnlockLevel_High_AgathaCrumplebottom--></T>
+            </V>
+          </L>
+          <L>
+            <V t="test_set_reference">
+              <T n="test_set_reference">261561<!--testSet_CottageWorld_NPC_UnlockLevel_High_AgnesCrumplebottom--></T>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

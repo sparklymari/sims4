@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_JuiceFizzing_Ingredients_FizzyJuice" s="235969">
+  <L n="test">
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_tag">
+            <U n="has_object_with_tag">
+              <L n="tag_set">
+                <E>Func_Ingredient_FizzyJuice_EP09</E>
+              </L>
+            </U>
+          </V>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x7D843C43<!--No usable ingredients in inventory. Try acquiring some fruit!--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">196135<!--drinkJar_EP05GENhoney_set1 (Honey)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">144964<!--gardenFruit_GP04GENplasma ({S.Plasma Fruit}{P.Plasma Fruit})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178801<!--gardenFruit_GP06GENEmotionalBerry_confident ({S.Gutsberry}{P.Gutsberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178802<!--gardenFruit_GP06GENEmotionalBerry_energized ({S.Vimberry}{P.Vimberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178803<!--gardenFruit_GP06GENEmotionalBerry_flirty ({S.Flutterberry}{P.Flutterberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178804<!--gardenFruit_GP06GENEmotionalBerry_focused ({S.Cerebrerry}{P.Cerebrerries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178800<!--gardenFruit_GP06GENEmotionalBerry_happy ({S.Merry Berry}{P.Merry Berries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178805<!--gardenFruit_GP06GENEmotionalBerry_inspired ({S.Museberry}{P.Museberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">178806<!--gardenFruit_GP06GENEmotionalBerry_playful ({S.Razzleberry}{P.Razzleberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">209128<!--gardenFruit_GP07GENinfected (Bizarre Fruit)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

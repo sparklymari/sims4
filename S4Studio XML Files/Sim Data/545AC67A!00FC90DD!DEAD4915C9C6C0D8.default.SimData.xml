@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Renderer.HsvTweakerSettings" type="Object">
+      <T name="mbEnabled">0</T>
+      <L name="mTimeBasedSettingsVector" />
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Renderer.HsvTweakerSettings" schema_hash="0x7F9DE722">
+      <Columns>
+        <Column name="mbEnabled" type="Boolean" flags="0x00000000" />
+        <Column name="mTimeBasedSettingsVector" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

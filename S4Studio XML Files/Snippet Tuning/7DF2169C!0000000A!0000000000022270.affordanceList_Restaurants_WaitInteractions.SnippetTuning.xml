@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Restaurants_WaitInteractions" s="139888">
+  <L n="value">
+    <T>134538<!--si_waitStaff_Customer_WaitForFood--></T>
+    <T>136021<!--si_waitStaff_Customer_WaitToPlaceOrder_Continuation--></T>
+    <T>134544<!--si_waitStaff_Customer_WaitToPlaceOrder--></T>
+    <T>139103<!--restaurants_Customer_WaitForTable--></T>
+  </L>
+</I>

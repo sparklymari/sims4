@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Objective" i="objective" m="event_testing.objective_tuning" n="objectives_Asp_Love_D3_3" s="367967">
+  <L n="completion_loot">
+    <T>273578<!--loot_Want_AspirationCompleted--></T>
+    <T>357714<!--loot_PivotalMoment_AspirationGoalComplete--></T>
+  </L>
+  <T n="display_text">0x927C537C<!--Share Food {1.Number} Times --></T>
+  <V n="objective_completion_type" t="iterations">
+    <U n="iterations">
+      <T n="iterations_required_to_pass">2</T>
+    </U>
+  </V>
+  <V n="objective_test" t="ran_interaction_test">
+    <U n="ran_interaction_test">
+      <L n="affordances">
+        <T>364450<!--super_Social_FoodSharing_EatTogether_Seated_ChocStrawberry--></T>
+        <T>364451<!--super_Social_FoodSharing_EatTogether_Seated_DonutHoles--></T>
+        <T>364452<!--super_Social_FoodSharing_EatTogether_Seated_Figs--></T>
+        <T>364453<!--super_Social_FoodSharing_EatTogether_Seated_Mochi--></T>
+        <T>364454<!--super_Social_FoodSharing_EatTogether_Seated_PanDulce--></T>
+        <T>364455<!--super_Social_FoodSharing_EatTogether_Seated_Popcorn--></T>
+        <T>364466<!--super_Social_FoodSharing_EatTogether_Seated_Profiteroles--></T>
+        <T>363722<!--super_Social_FoodSharing_EatTogether_Standing_Chocolate--></T>
+        <T>364467<!--super_Social_FoodSharing_EatTogether_Standing_ChocStrawberry--></T>
+        <T>364468<!--super_Social_FoodSharing_EatTogether_Standing_DonutHoles--></T>
+        <T>364469<!--super_Social_FoodSharing_EatTogether_Standing_Figs--></T>
+        <T>364470<!--super_Social_FoodSharing_EatTogether_Standing_Mochi--></T>
+        <T>364471<!--super_Social_FoodSharing_EatTogether_Standing_PanDulce--></T>
+        <T>364472<!--super_Social_FoodSharing_EatTogether_Standing_Popcorn--></T>
+        <T>364473<!--super_Social_FoodSharing_EatTogether_Standing_Profiteroles--></T>
+      </L>
+      <V n="interaction_outcome" t="enabled">
+        <E n="enabled">SUCCESS</E>
+      </V>
+    </U>
+  </V>
+  <T n="satisfaction_points">100</T>
+  <T n="tooltip">0x13BED779<!--On the phone purchase a Sweetheart's Box from the Romantic Items menu or Order on a Computer.--></T>
+</I>

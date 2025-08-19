@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchase_Batuu_Shell_DokOndar" s="237605">
+  <V n="_saveable" t="disabled" />
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0x6A70BF91<!--Dok-Ondar's Den of Antiquities--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <V n="background_audio" t="enabled">
+        <T n="enabled">ui_gp09_vendorstall_dokondar_lp</T>
+      </V>
+      <E n="dialog_bg_style">BG_VENDORS</E>
+      <V n="max_selectable" t="unlimited" />
+      <V n="secondary_icon" t="enabled">
+        <V n="enabled" t="resource_key">
+          <U n="resource_key">
+            <T n="key" p="InGP09\UI\Icons\Dialog\VendorStall_DokOndar_Antiquities.png">2f7d0004:00000000:969ce5c24e422e47</T>
+          </U>
+        </V>
+      </V>
+      <V n="secondary_picker_icon_data" t="enabled">
+        <U n="enabled">
+          <T n="description_text">0x30DF7436<!--Dok-Ondar is a 245 year old Ithorian and collector of things odd and antiquated. He's the owner and operator of Dok-Ondar’s Den of Antiquities in Black Spire Outpost. Travelers come to 'Dok' for rare and valuable items.--></T>
+          <T n="title">0xA8D778CC<!--Dok-Ondar--></T>
+        </U>
+      </V>
+      <V n="title" t="enabled">
+        <T n="enabled">0x6A70BF91<!--Dok-Ondar's Den of Antiquities--></T>
+      </V>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="specific_items">
+      <U n="specific_items">
+        <L n="item_list">
+          <T>241821<!--holocron_GP09GENjedi_set1 (Jedi Holocron)--></T>
+          <T>242786<!--holocron_GP09GENsith_set1 (Sith Holocron)--></T>
+          <T>241773<!--sculptTableMedium_GP09GENsithChalice_set1 (Ancient Sith Chalice)--></T>
+          <T>246165<!--sculptWall1x1_GP09GENskullMythosaur_set1 (Mythosaur Skull)--></T>
+          <T>241760<!--sculptTableMedium_GP09GENkalikori_set1 (Kalikori)--></T>
+          <T>242795<!--toyHand_GP09GENporg_set1 (Plush Porg)--></T>
+          <T>241825<!--toyHand_GP09GENewok_set1 (Plush Ewok)--></T>
+          <T>246169<!--sculptTableSmall_GP09GENspira_set1 (Batuuan Spira)--></T>
+          <T>239842<!--collectCrystalKyber_GP09GEN_green (Green Kyber Crystal)--></T>
+          <T>239332<!--lightsaber_GP09GENelemental_01 (Ornate Elemental Nature Lightsaber Hilt)--></T>
+          <T>239840<!--collectCrystalKyber_GP09GEN_blue (Blue Kyber Crystal)--></T>
+          <T>240064<!--dataSpike_GP09GEN (Dataspike)--></T>
+          <T>252934<!--toyHand_GP09GENporg_set2 (Plush Porg)--></T>
+          <T>252738<!--toyHand_GP09GENewok_set2 (Plush Ewok)--></T>
+          <T>252740<!--toyHand_GP09GENewok_set3 (Plush Ewok)--></T>
+        </L>
+      </U>
+    </V>
+    <V t="tested_items">
+      <U n="tested_items">
+        <L n="item_list">
+          <U>
+            <T n="item">250291<!--gadgetMed_GP09GENdatapad_FO_AccessCode (First Order Access Codes)--></T>
+            <L n="tests">
+              <L>
+                <V t="career_gig_test">
+                  <U n="career_gig_test">
+                    <T n="career">231099<!--career_Batuu--></T>
+                    <V n="test_type" t="specific_gigs">
+                      <U n="specific_gigs">
+                        <L n="gigs">
+                          <T>239467<!--missionGig_Missions_Resistance_Repeatable_15--></T>
+                        </L>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">254014<!--XWingParts_GP09GEN_set1 (T-70 X-wing Parts)--></T>
+            <L n="tests">
+              <L>
+                <V t="career_gig_test">
+                  <U n="career_gig_test">
+                    <T n="career">231099<!--career_Batuu--></T>
+                    <V n="test_type" t="specific_gigs">
+                      <U n="specific_gigs">
+                        <V n="active_objective" t="enabled">
+                          <T n="enabled">241623<!--objective_Batuu_Missions_Interact_Object_RS3_Part2_Obj2--></T>
+                        </V>
+                        <L n="gigs">
+                          <T>241528<!--missionGig_Missions_Resistance_Story_03_Part_2--></T>
+                        </L>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <V t="inventory">
+                  <U n="inventory">
+                    <V n="contents_check" t="has_object_with_def">
+                      <U n="has_object_with_def">
+                        <T n="definition">254014<!--XWingParts_GP09GEN_set1 (T-70 X-wing Parts)--></T>
+                      </U>
+                    </V>
+                    <U n="required_count">
+                      <E n="comparison">LESS_OR_EQUAL</E>
+                      <T n="value">4</T>
+                    </U>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">253973<!--gameCardSingle_GP09GEN_FirstOrder_Id (First Order ID)--></T>
+            <L n="tests">
+              <L>
+                <V t="career_gig_test">
+                  <U n="career_gig_test">
+                    <T n="career">231099<!--career_Batuu--></T>
+                    <V n="test_type" t="specific_gigs">
+                      <U n="specific_gigs">
+                        <L n="gigs">
+                          <T>241536<!--missionGig_Missions_Resistance_Story_07_Part_2--></T>
+                        </L>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+                <V t="inventory">
+                  <U n="inventory">
+                    <V n="contents_check" t="has_object_with_def">
+                      <U n="has_object_with_def">
+                        <T n="definition">253973<!--gameCardSingle_GP09GEN_FirstOrder_Id (First Order ID)--></T>
+                      </U>
+                    </V>
+                    <U n="required_count">
+                      <E n="comparison">LESS_OR_EQUAL</E>
+                      <T n="value">0</T>
+                    </U>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="variation">
+          <U n="variation">
+            <L n="variations">
+              <T>0x61008F3E<!--<i>Translated from Ithorian</i> "Thank you for shopping at the Den of Antiquities. Your items can be found in your inventory." <i>End Translation</i>--></T>
+              <T>0xF43F2A64<!--<i>Translated from Ithorian</i> "Thank you for shopping my Antiquities. Your items can be found in your inventory." <i>End Translation</i>--></T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </V>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

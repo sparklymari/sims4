@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_PortableKeyboard_Play" s="151091">
+  <L n="value">
+    <T>144737<!--portableKeyboard_Practice--></T>
+    <T>144738<!--portableKeyboard_Practice_Child--></T>
+    <T>144743<!--portableKeyboard_Practice_PlunkForInspiration--></T>
+    <T>144739<!--portableKeyboard_Practice_Scales--></T>
+    <T>144740<!--portableKeyboard_Practice_Scales_Child--></T>
+    <T>144741<!--portableKeyboard_Practice_TickleTheIvories--></T>
+    <T>144742<!--portableKeyboard_Practice_TickleTheIvories_Scales--></T>
+    <T>144733<!--portableKeyboard_WriteJingle--></T>
+    <T>144730<!--portableKeyboard_JazzUpCrowd--></T>
+    <T>144732<!--portableKeyboard_Concerto--></T>
+    <T>144750<!--portableKeyboard_SongOfSophistication--></T>
+    <T>144749<!--portableKeyboard_MelodyOfMealtime--></T>
+    <T>144748<!--portableKeyboard_EtudeOfEgress--></T>
+    <T>144747<!--portableKeyboard_DittyOfDrowsiness--></T>
+    <T>144746<!--portableKeyboard_CarolOfCleaning--></T>
+    <T>150336<!--singingSkill_StartWriting_PortableKeyboard--></T>
+    <T>150334<!--portableKeyboard_WriteLyrics_Staging--></T>
+    <T>150335<!--portableKeyboard_WriteSong_Staging--></T>
+    <T>144744<!--portableKeyboard_Picker_Serenade--></T>
+    <T>150394<!--portableKeyboard_Picker_SingingSerenade--></T>
+    <T>144729<!--portableKeyboard_Social_Serenade--></T>
+    <T>150393<!--self_Social_SingingSerenade_PortableKeyboard--></T>
+    <T>144752<!--portableKeyboard_Practice_Chooser--></T>
+    <T>144753<!--portableKeyboard_Practice_Chooser_Child--></T>
+    <T>144754<!--portableKeyboard_Practice_Chooser_TickleTheIvories--></T>
+    <T>144449<!--portableKeyboard_Play_Song--></T>
+    <T>150267<!--portableKeyboard_Sing_Song--></T>
+  </L>
+</I>

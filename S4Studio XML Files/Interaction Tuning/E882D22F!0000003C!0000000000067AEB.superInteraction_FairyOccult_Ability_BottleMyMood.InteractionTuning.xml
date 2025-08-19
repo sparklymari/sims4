@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="superInteraction_FairyOccult_Ability_BottleMyMood" s="424683">
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Actor</E>
+      </L>
+    </U>
+  </V>
+  <V n="_saveable" t="enabled" />
+  <T n="allow_autonomous">False</T>
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory" o="true" />
+      </U>
+    </U>
+  </V>
+  <L n="basic_extras">
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>444656<!--loot_EP19World_MagicCoastalBroadcaster_Start--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="category">424680<!--pieMenuCategory_FairyOccult--></T>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0x2B41F80F<!--Bottle Emotion--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472071<!--drinkSerum_EP19GENbottledEmotion_angry_set10 ({S.Angry Emotion Potion}{P.Angry Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435485<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Angry--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14632<!--Mood_Angry--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472078<!--drinkSerum_EP19GENbottledEmotion_bored_set11 ({S.Bored Emotion Potion}{P.Bored Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435561<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Bored--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14633<!--Mood_Bored--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472077<!--drinkSerum_EP19GENbottledEmotion_confident_set12 ({S.Confident Emotion Potion}{P.Confident Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435562<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Confident--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14634<!--Mood_Confident--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472069<!--drinkSerum_EP19GENbottledEmotion_embarrassed_set13 ({S.Embarrassed Emotion Potion}{P.Embarrassed Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435558<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Embarrassed--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14635<!--Mood_Embarrassed--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472074<!--drinkSerum_EP19GENbottledEmotion_energized_set5 ({S.Energized Emotion Potion}{P.Energized Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435563<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Energized--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14636<!--Mood_Energized--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472076<!--drinkSerum_EP19GENbottledEmotion_flirty_set6 ({S.Flirty Emotion Potion}{P.Flirty Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435494<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Flirty--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14638<!--Mood_Flirty--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472073<!--drinkSerum_EP19GENbottledEmotion_focused_set7 ({S.Focused Emotion Potion}{P.Focused Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435556<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Focused--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14639<!--Mood_Focused--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">462892<!--drinkSerum_EP19GENbottledEmotion_happy_set1 ({S.Happy Emotion Potion}{P.Happy Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435492<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Happy--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14640<!--Mood_Happy--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472072<!--drinkSerum_EP19GENbottledEmotion_inspired_set4 ({S.Inspired Emotion Potion}{P.Inspired Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435493<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Inspired--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14641<!--Mood_Inspired--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472075<!--drinkSerum_EP19GENbottledEmotion_playful_set8 ({S.Playful Emotion Potion}{P.Playful Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435555<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Playful--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14642<!--Mood_Playful--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472067<!--drinkSerum_EP19GENbottledEmotion_sad_set2 ({S.Sad Emotion Potion}{P.Sad Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435557<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Sad--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14643<!--Mood_Sad--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472070<!--drinkSerum_EP19GENbottledEmotion_scared_set9 ({S.Scared Emotion Potion}{P.Scared Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435560<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Scared--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">251719<!--Mood_Scared--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                    <T n="factory">435803<!--animations_FairyOccult_Ability_BottleMood--></T>
+                    <U n="overrides">
+                      <L n="props">
+                        <U>
+                          <T n="key">bottle</T>
+                          <U n="value">
+                            <T n="definition">472068<!--drinkSerum_EP19GENbottledEmotion_tense_set3 ({S.Tense Emotion Potion}{P.Tense Emotion Potions})--></T>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </U>
+                </V>
+                <L n="loot_list">
+                  <T>435559<!--lootActions_FairyOccult_Ability_BottleMood_Actor_Tense--></T>
+                  <T>424739<!--lootActions_FairyOccult_Ability_Cost_Medium--></T>
+                  <T>438164<!--lootActions_FairyOccult_Ability_BottleMood_RemoveMood--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14645<!--Mood_Stressed--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\SpecialInteractions\specialinteraction_consumeemotionalenergy_piemenu.png">2f7d0004:00000000:063ecf9a6c7efd31</T>
+      </U>
+    </V>
+  </V>
+  <T n="pie_menu_priority">11</T>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <V n="super_affordance_compatibility" t="literal">
+    <U n="literal">
+      <V n="default_inclusion" t="include_all">
+        <U n="include_all">
+          <L n="exclude_affordances">
+            <T>271032<!--socialSuperInteraction_CarryPickUp_Infant--></T>
+            <T>134423<!--socialSuperInteraction_CarryPickUp--></T>
+            <T>132162<!--socialSuperInteraction_CarryPickUp_Pet--></T>
+            <T>132170<!--carry_HoldSim--></T>
+            <T>271209<!--carry_HoldSim_Back--></T>
+            <T>271090<!--socialSuperInteraction_CarryPickUp_Infant_Back--></T>
+            <T>288662<!--socialSuperInteraction_CarryPickUp_Infant_Handoff--></T>
+          </L>
+        </U>
+      </V>
+    </U>
+  </V>
+  <E n="target_type">ACTOR</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified" />
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="region">
+      <U n="region">
+        <V n="blacklist" t="enabled">
+          <L n="enabled">
+            <T>231104<!--region_Destination_Batuu--></T>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="bucks_perks_test">
+      <U n="bucks_perks_test">
+        <T n="bucks_perk">437341<!--fairyPerks_BottleMood_1--></T>
+      </U>
+    </V>
+    <V t="identity">
+      <U n="identity">
+        <T n="subjects_match">True</T>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">435673<!--testSetInstance_FairyOccult_BottleMyMood--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">472928<!--testSetInstance_DeepWaterPostures_Disallow_Actor--></T>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">436907<!--testSetInstance_FairyOccult_Ability_EmotionalAppetite_Cost_Medium--></T>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

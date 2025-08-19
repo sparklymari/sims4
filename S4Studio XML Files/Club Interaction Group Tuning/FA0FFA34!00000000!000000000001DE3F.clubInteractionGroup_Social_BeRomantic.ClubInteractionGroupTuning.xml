@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_Social_BeRomantic" s="122431">
+  <L n="affordance_lists">
+    <T>130597<!--social_Mixers_Romance_Touching_NoWoohoo_BeRomanticClub--></T>
+    <T>397147<!--socialMixers_SitIntimate_Romance_ForReference--></T>
+    <T>163713<!--social_Mixers_Romance_NonTouching_ForReference--></T>
+  </L>
+  <L n="affordances">
+    <T>26182<!--mixer_social_EnchantingIntroduction_greetings_skills--></T>
+    <T>26180<!--mixer_social_FlirtyIntroduction_greetings_skills--></T>
+    <T>129376<!--mixer_TransitionToIntimate_BeAffectionate--></T>
+    <T>129377<!--mixer_TransitionToIntimate_Sofa_BeIntimate--></T>
+    <T>26555<!--mixer_social_SitIntimate_Kiss_targeted_looping--></T>
+    <T>125275<!--closet_Picker_MakeOut--></T>
+    <T>125292<!--socialSI_Closet_MakeOut--></T>
+    <T>132649<!--parkFountain_Splash_Social--></T>
+    <T>39848<!--sim_Kiss_QuickSocial--></T>
+    <T>135073<!--livingStatueBusker_SocialSuperInteractions_FlirtyWith--></T>
+    <T>38453<!--mixer_social_OfferFriendlyMassage_targeted_Friendly_MiddleScore--></T>
+    <T>150449<!--piano_Picker_SingingSerenade--></T>
+    <T>150456<!--microphone_Picker_SingingSerenade--></T>
+    <T>150432<!--guitar_Picker_SingingSerenade--></T>
+    <T>150433<!--self_Social_SingingSerenade_Guitar--></T>
+    <T>150509<!--self_Social_SingingSerenade_Microphone--></T>
+    <T>150455<!--self_Social_SingingSerenade_Piano--></T>
+    <T>150393<!--self_Social_SingingSerenade_PortableKeyboard--></T>
+    <T>153459<!--guitar_Picker_SingingSerenade_World--></T>
+    <T>150394<!--portableKeyboard_Picker_SingingSerenade--></T>
+    <T>144744<!--portableKeyboard_Picker_Serenade--></T>
+    <T>23996<!--guitar_Picker_Serenade_World--></T>
+    <T>139900<!--self_Social_Serenade--></T>
+    <T>358482<!--super_Social_CuddleOnBed_Cuddle_Awake--></T>
+    <T>360649<!--super_Social_CuddleOnBed_Cuddle_Awake_Target--></T>
+    <T>360644<!--super_Social_CuddleOnBed_Cuddle_Sleep--></T>
+    <T>360650<!--super_Social_CuddleOnBed_Cuddle_Sleep_Target--></T>
+    <T>363651<!--super_Social_FoodSharing_EatTogether_Seated_Chocolate--></T>
+    <T>364450<!--super_Social_FoodSharing_EatTogether_Seated_ChocStrawberry--></T>
+    <T>364451<!--super_Social_FoodSharing_EatTogether_Seated_DonutHoles--></T>
+    <T>364452<!--super_Social_FoodSharing_EatTogether_Seated_Figs--></T>
+    <T>364453<!--super_Social_FoodSharing_EatTogether_Seated_Mochi--></T>
+    <T>364454<!--super_Social_FoodSharing_EatTogether_Seated_PanDulce--></T>
+    <T>364455<!--super_Social_FoodSharing_EatTogether_Seated_Popcorn--></T>
+    <T>364466<!--super_Social_FoodSharing_EatTogether_Seated_Profiteroles--></T>
+    <T>363722<!--super_Social_FoodSharing_EatTogether_Standing_Chocolate--></T>
+    <T>364467<!--super_Social_FoodSharing_EatTogether_Standing_ChocStrawberry--></T>
+    <T>364468<!--super_Social_FoodSharing_EatTogether_Standing_DonutHoles--></T>
+    <T>364469<!--super_Social_FoodSharing_EatTogether_Standing_Figs--></T>
+    <T>364470<!--super_Social_FoodSharing_EatTogether_Standing_Mochi--></T>
+    <T>364471<!--super_Social_FoodSharing_EatTogether_Standing_PanDulce--></T>
+    <T>364472<!--super_Social_FoodSharing_EatTogether_Standing_Popcorn--></T>
+    <T>364473<!--super_Social_FoodSharing_EatTogether_Standing_Profiteroles--></T>
+    <T>370247<!--mixer_social_BuildUpPartner_targeted_Romance_alwaysOn--></T>
+    <T>368787<!--mixer_social_WhisperAboutDesires_targeted_romance_middleScores--></T>
+    <T>370248<!--mixer_social_EmotionallyConnect_targeted_Romance_alwaysOn--></T>
+    <T>370207<!--mixer_social_SteamyMakeout_targeted_romance_middleScore--></T>
+    <T>369054<!--mixer_social_DipKiss_targeted_romance_middleScore--></T>
+    <T>369051<!--mixer_social_KissNeck_targeted_romance_middleScore--></T>
+  </L>
+  <E n="category">SOCIAL</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_BeRomantic.png">2f7d0004:00000000:72b9d18d9e310d71</T>
+  <T n="child_safe">False</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">True</T>
+  <T n="name">0x139AC277<!--Be Romantic--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x44B0CB5<!--Sims will do romance interactions with other Sims.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x44B0CB5<!--Sims will do romance interactions with other Sims.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x46669F38<!--Be Romantic With {0.String}--></T>
+  <T n="tooltip_template_negative">0xEFD01F0E<!--Don't Be Romantic with {0.String}--></T>
+</I>

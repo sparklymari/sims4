@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_WitchOccult_IsWitch" s="213063">
+  <L n="_loot_on_addition">
+    <T>218350<!--loot_WitchOccult_AddWitchXP--></T>
+  </L>
+  <L n="_loot_on_instance">
+    <T>218350<!--loot_WitchOccult_AddWitchXP--></T>
+  </L>
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>217308<!--socials_Targeted_MagicDuel_Start_Artifacts--></T>
+        <T>217306<!--socials_Targeted_MagicDuel_Start_Friendly--></T>
+        <T>217282<!--socials_Targeted_MagicDuel_Start_Heated--></T>
+        <T>217310<!--socials_Targeted_MagicDuel_Start_Items--></T>
+        <T>217312<!--socials_Targeted_MagicDuel_Start_Knowledge--></T>
+        <T>217309<!--socials_Targeted_MagicDuel_Start_Artifacts_Challenge--></T>
+        <T>217307<!--socials_Targeted_MagicDuel_Start_Friendly_Challenge--></T>
+        <T>217294<!--socials_Targeted_MagicDuel_Start_Heated_Challenge--></T>
+        <T>217311<!--socials_Targeted_MagicDuel_Start_Items_Challenge--></T>
+        <T>217313<!--socials_Targeted_MagicDuel_Start_Knowledge_Challenge--></T>
+        <T>223011<!--mixer_Social_WitchOccult_MagicTraining_Request--></T>
+        <T>223010<!--mixer_Social_WitchOccult_MagicTraining_Offer--></T>
+        <T>223426<!--mixer_Social_WitchOccult_RiteOfAscension_Offer--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="provided_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>223424<!--mixer_Social_WitchOccult_RiteOfAscension_Request--></T>
+      </L>
+    </U>
+  </L>
+  <L n="super_affordances">
+    <T>214975<!--spells_PracticeSpellcasting_Mischief--></T>
+    <T>214977<!--spells_PracticeSpellcasting_Practical--></T>
+    <T>214976<!--spells_PracticeSpellcasting_Untamed--></T>
+    <T>221683<!--witchOccult_Toggle_UseWand_FromSelf--></T>
+    <T>216969<!--death_WitchOverload--></T>
+    <T>215418<!--witchOccult_BuildCharge--></T>
+    <T>218073<!--immediate_openSpellbook--></T>
+    <T>215128<!--debug_WitchOccult_UnlockAllSpells--></T>
+    <T>216257<!--debug_WitchOccult_UnlockAllPotions--></T>
+    <T>216574<!--picker_Trait_Debug_GiveCurse--></T>
+    <T>216658<!--immediate_Spells_Debug_OutcomeChance_Fail--></T>
+    <T>216659<!--immediate_Spells_Debug_OutcomeChance_Succeed--></T>
+    <T>216801<!--spells_Debug_OutcomeChance_LuckPotion_RandomBenefit_AlwaysMoney--></T>
+    <T>216802<!--spells_Debug_OutcomeChance_LuckPotion_RandomBenefit_AlwaysObjects--></T>
+    <T>217091<!--debugImmediate_GiveCauldronPotionIngredientsActor--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">215112<!--spawnClone_Debug--></T>
+      <V n="object_filter" t="filter_by_terrain">
+        <U n="filter_by_terrain">
+          <L n="disallowed_surfaces">
+            <E />
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">215471<!--spells_Sim_Pusher_BindFamiliar--></T>
+    </U>
+    <U>
+      <T n="affordance">218752<!--bookshelf_Spells_MagicTome_Read_Picker--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_Bookcase</E>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

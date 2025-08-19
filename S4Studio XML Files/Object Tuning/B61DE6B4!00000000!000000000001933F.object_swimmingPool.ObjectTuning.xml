@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SwimmingPool" i="object" m="objects.pools.pool" n="object_swimmingPool" s="103231">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+  </U>
+  <L n="_preroll_super_affordances">
+    <T>389838<!--pool-swim_Autonomous_Start--></T>
+    <T>171868<!--pool-swim_Dog_Autonomous--></T>
+    <T>211923<!--pool-swim_Mermaid_Sleep_Autonomous--></T>
+  </L>
+  <V n="_provided_mobile_posture" t="enabled">
+    <U n="enabled">
+      <L n="affordances">
+        <T>102325<!--sim-swim--></T>
+        <T>170682<!--dog_swim--></T>
+        <T>207598<!--sim-floating--></T>
+      </L>
+      <L n="placement_footprint_name_set">
+        <T>_ftp_placementShape</T>
+      </L>
+    </U>
+  </V>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>389838<!--pool-swim_Autonomous_Start--></T>
+    <T>171868<!--pool-swim_Dog_Autonomous--></T>
+    <T>103790<!--terrain-Swimhere--></T>
+    <T>105474<!--terrain-Swimhere_Fire--></T>
+    <T>214573<!--swim-laps_slow_mermaid--></T>
+    <T>211546<!--pool-FloatOnBack--></T>
+    <T>171865<!--pool-swim_Dog--></T>
+    <T>207379<!--pool-swim_Mermaid_Sleep--></T>
+    <T>207378<!--pool-swim_Mermaid_Sunbathe--></T>
+    <T>104856<!--pool-swim--></T>
+    <T>128625<!--terrain-Swim_Skinnydip--></T>
+    <T>229660<!--swim-laps_slow--></T>
+    <T>252412<!--terrain-Swim_Skinnydip_Proper--></T>
+    <T>344456<!--pool-swim_muEvent_Algae_Clean--></T>
+    <T>208307<!--waterScooter_Picker_RideHere_Terrain--></T>
+    <T>209197<!--waterScooter_Picker_RideHere_Terrain_Auto--></T>
+    <T>200016<!--waypoint_WaterScooter_RideAround--></T>
+    <T>201294<!--terrain-WaterScooter--></T>
+    <T>129587<!--terrain-Swim_andChatHere--></T>
+    <T>171517<!--swimWith_Picker--></T>
+    <T>129163<!--simpicker_SkinnyDip--></T>
+    <T>344289<!--muEvent_Algae_PourChemical--></T>
+    <T>211021<!--debug_Create_WaterVehicle--></T>
+    <T>211923<!--pool-swim_Mermaid_Sleep_Autonomous--></T>
+    <T>359600<!--pool-swim_muEvent_Algae_Clean_Autonomous--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

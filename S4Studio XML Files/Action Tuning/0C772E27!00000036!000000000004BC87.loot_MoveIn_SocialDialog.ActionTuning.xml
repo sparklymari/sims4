@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_MoveIn_SocialDialog" s="310407">
+  <L n="loot_actions">
+    <V t="sim_interaction_dialog">
+      <U n="sim_interaction_dialog">
+        <U n="dialog">
+          <V n="text" t="single">
+            <T n="single">0xD4232F95<!--I've been thinking about this a lot, and wanted to ask if you'd like to live together?--></T>
+          </V>
+        </U>
+        <L n="possible_responses">
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>322512<!--loot_MoveIn_RejectionTNS_RejectedByPlayerTarget--></T>
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>310478<!--loot_MoveIn_RejectionReaction--></T>
+              </L>
+              <T n="text">0xFE6F22A9<!--I don't think it's the right time.--></T>
+            </U>
+          </U>
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>322503<!--loot_MoveIn_TriggerMoveIn_PlayerIsTarget--></T>
+              </L>
+              <T n="text">0x79464445<!--Yes, I'd love that!--></T>
+            </U>
+          </U>
+        </L>
+        <E n="subject">TargetSim</E>
+        <E n="target_participant_type">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>15816<!--romantic-Engaged--></T>
+                    <T>15822<!--romantic-Married--></T>
+                    <T>15825<!--romantic-Significant_Other--></T>
+                    <T>15839<!--RomanticCombo_Soulmates--></T>
+                  </L>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="sim_interaction_dialog">
+      <U n="sim_interaction_dialog">
+        <U n="dialog">
+          <L n="dialog_options">
+            <E>DISABLE_CLOSE_BUTTON</E>
+          </L>
+          <V n="text" t="single">
+            <T n="single">0xF2097284<!--Since we're family, it'd be really nice if I could move in with you. What do you think?--></T>
+          </V>
+        </U>
+        <L n="possible_responses">
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>322512<!--loot_MoveIn_RejectionTNS_RejectedByPlayerTarget--></T>
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>310478<!--loot_MoveIn_RejectionReaction--></T>
+              </L>
+              <T n="text">0x45E894D0<!--Hmmm, not sure this is the right time.--></T>
+            </U>
+          </U>
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>322503<!--loot_MoveIn_TriggerMoveIn_PlayerIsTarget--></T>
+              </L>
+              <T n="text">0x3081561C<!--Yes! The more the merrier.--></T>
+            </U>
+          </U>
+        </L>
+        <E n="subject">TargetSim</E>
+        <E n="target_participant_type">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="prohibited_relationship_bits">
+                  <L n="match_any">
+                    <T>15816<!--romantic-Engaged--></T>
+                    <T>15822<!--romantic-Married--></T>
+                    <T>15825<!--romantic-Significant_Other--></T>
+                    <T>15839<!--RomanticCombo_Soulmates--></T>
+                  </L>
+                </U>
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>8829<!--family_Target_IsAuntUncleOf_Actor--></T>
+                    <T>8802<!--family_Target_IsBrotherSisterOf_Actor--></T>
+                    <T>8826<!--family_Target_IsCousinOf_Actor--></T>
+                    <T>8807<!--family_Target_IsGrandchildOf_Actor--></T>
+                    <T>8808<!--family_Target_IsGrandparentOf_Actor--></T>
+                    <T>9989<!--family_Target_IsNieceNephewOf_Actor--></T>
+                    <T>8809<!--family_Target_IsParentOf_Actor--></T>
+                    <T>8805<!--family_Target_IsSonOrDaughterOf_Actor--></T>
+                    <T>8824<!--family_Target_IsStepsiblingOf_Actor--></T>
+                    <T>15806<!--rbc_Family--></T>
+                  </L>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="sim_interaction_dialog">
+      <U n="sim_interaction_dialog">
+        <U n="dialog">
+          <V n="text" t="single">
+            <T n="single">0xFABB1CD7<!--Our strong friendship got me thinking about how we should live together. Can I move in with you?--></T>
+          </V>
+        </U>
+        <L n="possible_responses">
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>322512<!--loot_MoveIn_RejectionTNS_RejectedByPlayerTarget--></T>
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>310478<!--loot_MoveIn_RejectionReaction--></T>
+              </L>
+              <T n="text">0xE357007B<!--I don't think that's a good idea.--></T>
+            </U>
+          </U>
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>322503<!--loot_MoveIn_TriggerMoveIn_PlayerIsTarget--></T>
+              </L>
+              <T n="text">0xE62976F3<!--Yes, it can only strengthen our friendship!--></T>
+            </U>
+          </U>
+        </L>
+        <E n="subject">TargetSim</E>
+        <E n="target_participant_type">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="prohibited_relationship_bits">
+                  <L n="match_any">
+                    <T>15816<!--romantic-Engaged--></T>
+                    <T>15822<!--romantic-Married--></T>
+                    <T>15825<!--romantic-Significant_Other--></T>
+                    <T>15839<!--RomanticCombo_Soulmates--></T>
+                    <T>8829<!--family_Target_IsAuntUncleOf_Actor--></T>
+                    <T>8802<!--family_Target_IsBrotherSisterOf_Actor--></T>
+                    <T>8826<!--family_Target_IsCousinOf_Actor--></T>
+                    <T>8807<!--family_Target_IsGrandchildOf_Actor--></T>
+                    <T>8808<!--family_Target_IsGrandparentOf_Actor--></T>
+                    <T>9989<!--family_Target_IsNieceNephewOf_Actor--></T>
+                    <T>8809<!--family_Target_IsParentOf_Actor--></T>
+                    <T>8805<!--family_Target_IsSonOrDaughterOf_Actor--></T>
+                    <T>8824<!--family_Target_IsStepsiblingOf_Actor--></T>
+                    <T>15806<!--rbc_Family--></T>
+                  </L>
+                </U>
+                <U n="required_relationship_bits">
+                  <L n="match_any">
+                    <T>15794<!--friendship-bff--></T>
+                    <T>31211<!--friendship-bff_BromanticPartner--></T>
+                    <T>15795<!--friendship-bff_Evil--></T>
+                    <T>15797<!--friendship-friend--></T>
+                    <T>15798<!--friendship-friend_Evil--></T>
+                    <T>15799<!--friendship-good_friends--></T>
+                    <T>15800<!--friendship-good_friends_Evil--></T>
+                  </L>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="sim_interaction_dialog">
+      <U n="sim_interaction_dialog">
+        <U n="dialog">
+          <V n="text" t="single">
+            <T n="single">0x9F005D63<!--How do you feel about me moving in with you?--></T>
+          </V>
+        </U>
+        <L n="possible_responses">
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>322512<!--loot_MoveIn_RejectionTNS_RejectedByPlayerTarget--></T>
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>310478<!--loot_MoveIn_RejectionReaction--></T>
+              </L>
+              <T n="text">0xD7686B8F<!--That doesn't seem like a good idea.--></T>
+            </U>
+          </U>
+          <U>
+            <U n="item">
+              <L n="loot">
+                <T>310479<!--loot_MoveIn_RemoveSocialPrompt--></T>
+                <T>322503<!--loot_MoveIn_TriggerMoveIn_PlayerIsTarget--></T>
+              </L>
+              <T n="text">0x82672797<!--Awesome! Pack your bags new roomie.--></T>
+            </U>
+          </U>
+        </L>
+        <E n="subject">TargetSim</E>
+        <E n="target_participant_type">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="relationship">
+              <U n="relationship">
+                <U n="prohibited_relationship_bits">
+                  <L n="match_any">
+                    <T>15816<!--romantic-Engaged--></T>
+                    <T>15822<!--romantic-Married--></T>
+                    <T>15825<!--romantic-Significant_Other--></T>
+                    <T>15839<!--RomanticCombo_Soulmates--></T>
+                    <T>8829<!--family_Target_IsAuntUncleOf_Actor--></T>
+                    <T>8802<!--family_Target_IsBrotherSisterOf_Actor--></T>
+                    <T>8826<!--family_Target_IsCousinOf_Actor--></T>
+                    <T>8807<!--family_Target_IsGrandchildOf_Actor--></T>
+                    <T>8808<!--family_Target_IsGrandparentOf_Actor--></T>
+                    <T>9989<!--family_Target_IsNieceNephewOf_Actor--></T>
+                    <T>8809<!--family_Target_IsParentOf_Actor--></T>
+                    <T>8805<!--family_Target_IsSonOrDaughterOf_Actor--></T>
+                    <T>8824<!--family_Target_IsStepsiblingOf_Actor--></T>
+                    <T>15806<!--rbc_Family--></T>
+                    <T>15794<!--friendship-bff--></T>
+                    <T>31211<!--friendship-bff_BromanticPartner--></T>
+                    <T>15795<!--friendship-bff_Evil--></T>
+                    <T>15797<!--friendship-friend--></T>
+                    <T>15798<!--friendship-friend_Evil--></T>
+                    <T>15799<!--friendship-good_friends--></T>
+                    <T>15800<!--friendship-good_friends_Evil--></T>
+                  </L>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="npc" t="enabled" />
+          <E n="who">TargetSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

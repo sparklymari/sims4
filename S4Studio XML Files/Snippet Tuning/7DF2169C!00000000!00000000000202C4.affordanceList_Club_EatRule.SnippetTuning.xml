@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Club_EatRule" s="131780">
+  <L n="value">
+    <T>129845<!--popcorn_Grab_Popcorn--></T>
+    <T>135144<!--marketStalls_PushOrderFood_Autonomous--></T>
+    <T>139386<!--marketStalls_PushOrderFood_Autonomous_Chinese--></T>
+    <T>139368<!--marketStalls_PushOrderFood_Autonomous_Filipino--></T>
+    <T>139369<!--marketStalls_PushOrderFood_Autonomous_Indian--></T>
+    <T>139370<!--marketStalls_PushOrderFood_Autonomous_Japanese--></T>
+    <T>139367<!--marketStalls_PushOrderFood_Autonomous_Mexican--></T>
+    <T>139371<!--marketStalls_PushOrderFood_Autonomous_Morrocan--></T>
+    <T>148167<!--marketStalls_PushOrderFood_Autonomous_UptownCupcake--></T>
+    <T>148166<!--marketStalls_PushOrderFood_Autonomous_UptownGourmet--></T>
+    <T>139385<!--marketStalls_PushOrderFood_Autonomous_Vietnamese--></T>
+    <T>154875<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_American--></T>
+    <T>154874<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_Chinese--></T>
+    <T>154873<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_Generic--></T>
+    <T>154876<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_Indian--></T>
+    <T>154877<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_Japanese--></T>
+    <T>154878<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_Mexican--></T>
+    <T>154880<!--marketStalls_PushOrderFood_Autonomous_Vegetarian_Vietnamese--></T>
+  </L>
+</I>

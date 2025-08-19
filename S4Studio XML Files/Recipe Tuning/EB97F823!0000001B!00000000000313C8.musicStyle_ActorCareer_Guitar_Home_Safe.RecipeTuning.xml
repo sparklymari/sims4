@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_ActorCareer_Guitar_Home_Safe" s="201672">
+  <L n="music_tracks">
+    <T>201671<!--musicTrack_ActorCareer_TVLow_Kids_PlayGuitar_Home--></T>
+    <T>201669<!--musicTrack_ActorCareer_TVHigh_Western_PlayGuitar_Home--></T>
+    <T>201667<!--musicTrack_ActorCareer_TVHigh_Apocalypse_PlayGuitar_Home--></T>
+    <T>201665<!--musicTrack_ActorCareer_Movie_Western_PlayGuitar_Home--></T>
+    <T>201663<!--musicTrack_ActorCareer_Commercial_Western_PlayGuitar_Home--></T>
+  </L>
+  <T n="pie_menu_category">201676<!--pieMenuCategory_ActorCareer_PlayGuitar_Safe--></T>
+</I>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SmallBusinessSeed" i="small_business_seed" m="small_business.small_business_seed" n="smallBusinessSeed_NewLounge" s="438242">
+  <T n="business_description_key">0x7B501CD1<!--The Lounge is a great place to watch some live entertainment while drinking or, for those brave enough, to try your hand at comedy or music in front of others.--></T>
+  <T n="business_icon" p="InEP18\UI\Icons\Headlines\headline_Logo_Microphone.png">2f7d0004:00000000:34a7d65e6a0298a8</T>
+  <T n="business_name_key">0x2D3DE3F0<!--Lounge--></T>
+  <L n="customer_rules">
+    <T>122434<!--clubInteractionGroup_SkillBuilding_DoComedy--></T>
+    <T>122446<!--clubInteractionGroup_SkillBuilding_PlayAnInstrument--></T>
+    <T>129105<!--clubInteractionGroup_ObjectBased_WatchLiveEntertainment--></T>
+    <T>122484<!--clubInteractionGroup_ObjectBased_DrinkBarDrinks--></T>
+  </L>
+</I>

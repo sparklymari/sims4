@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="DebugSetupLotInteraction" i="interaction" m="objects.terrain" n="setupLot_StrangervilleObjects" s="204251">
+  <V n="_saveable" t="disabled" />
+  <T n="automation">True</T>
+  <T n="category">146389<!--pieMenuCategory_SetupLot--></T>
+  <V n="content_score" t="disabled" />
+  <T n="debug">True</T>
+  <T n="display_name">0xBC407420<!--StrangerVille Objects--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <T n="pie_menu_priority">8</T>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <T n="setup_lot_destroy_old_objects">True</T>
+  <L n="setup_lot_objects">
+    <U>
+      <T n="definition">209128<!--gardenFruit_GP07GENinfected (Bizarre Fruit)--></T>
+      <U n="position">
+        <T n="x">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">209090<!--gardenPlantBushBloom_GP07GENinfected_set1 (Bizarre Plant)--></T>
+      <U n="position">
+        <T n="x">2</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">209006<!--collectSpore_GP07GEN_set1 (Spore Cluster)--></T>
+      <U n="position">
+        <T n="x">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">211963<!--collectSpore_GP07GEN_set2 (Spore Cluster)--></T>
+      <U n="position">
+        <T n="x">1</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">211964<!--collectSpore_GP07GEN_set3 (Spore Cluster)--></T>
+      <U n="position">
+        <T n="x">1</T>
+        <T n="y">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">209887<!--chemicalAnalyzer_GP07GEN_set1 (Ch3M1C4l 4n4l1z3r 9000)--></T>
+      <U n="position">
+        <T n="x">-2</T>
+        <T n="y">-1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">210089<!--junkPileLarge_GP07GENhardware_set1 (Top Secret Blueprints and Plans)--></T>
+      <U n="position">
+        <T n="x">2</T>
+        <T n="y">-1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">209336<!--junkPileSmall_GP07GENpaper_set1 (Inconspicuous Junk Pile?)--></T>
+      <U n="position">
+        <T n="x">2</T>
+        <T n="y">-2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">209009<!--infectionScanner_GP07GEN_set1 (Infection Scanner)--></T>
+      <U n="position">
+        <T n="x">3</T>
+        <T n="y">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">209180<!--drinkJar_GP07GENinfectionCure_set1 (Experimental Vaccine)--></T>
+      <U n="position">
+        <T n="x">3</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">212377<!--drinkJar_GP07GENinfectionCure_set2 (Infection Vaccine)--></T>
+      <U n="position">
+        <T n="x">3</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+  </L>
+  <T n="simless">False</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>TODDLER</E>
+            <E>BABY</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="unspecified" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

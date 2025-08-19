@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="mysticalRelic_Curses_RemoveApplyBuffs" s="177542">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>176391<!--blessings_ApplyBlessings_ImASkeleton_Common--></T>
+          <T>176393<!--blessings_ApplyBlessings_ImASkeleton_Rare--></T>
+          <T>176392<!--blessings_ApplyBlessings_ImASkeleton_Uncommon--></T>
+          <T>175323<!--blessings_ApplyBlessings_Money_Common--></T>
+          <T>175324<!--blessings_ApplyBlessings_Money_Rare--></T>
+          <T>175325<!--blessings_ApplyBlessings_Money_Uncommon--></T>
+          <T>175347<!--blessings_ApplyBlessings_Relationships_Common--></T>
+          <T>175348<!--blessings_ApplyBlessings_Relationships_Rare--></T>
+          <T>175349<!--blessings_ApplyBlessings_Relationships_Uncommon--></T>
+          <T>175035<!--curses_ApplyCurse_AncientSickness_Common--></T>
+          <T>175036<!--curses_ApplyCurse_AncientSickness_Rare--></T>
+          <T>175034<!--curses_ApplyCurse_AncientSickness_Uncommon--></T>
+          <T>175181<!--curses_ApplyCurse_GreedyNeeds_Common--></T>
+          <T>175182<!--curses_ApplyCurse_GreedyNeeds_Rare--></T>
+          <T>175183<!--curses_ApplyCurse_GreedyNeeds_Uncommon--></T>
+          <T>175219<!--curses_ApplyCurse_MarkedForDeath_Rare--></T>
+          <T>175220<!--curses_ApplyCurse_MarkedForDeath_Uncommon--></T>
+          <T>174901<!--curses_ApplyCurse_PersonalRainCloud_Common--></T>
+          <T>174904<!--curses_ApplyCurse_PersonalRainCloud_Rare--></T>
+          <T>174903<!--curses_ApplyCurse_PersonalRainCloud_Uncommon--></T>
+          <T>175263<!--curses_ApplyCurse_SeeingThings_Common--></T>
+          <T>175265<!--curses_ApplyCurse_SeeingThings_Rare--></T>
+          <T>175264<!--curses_ApplyCurse_SeeingThings_Uncommon--></T>
+          <T>178958<!--blessings_ApplyBlessings_AncientJoy--></T>
+          <T>180621<!--buff_Curses_Apply_MarkedForDeath_Common--></T>
+          <T>177656<!--blessings_ApplyBlessings_ServiceSkeleton_Common--></T>
+          <T>177658<!--blessings_ApplyBlessings_ServiceSkeleton_Rare--></T>
+          <T>177657<!--blessings_ApplyBlessings_ServiceSkeleton_Uncommon--></T>
+          <T>183534<!--buff_Blessings_ApplyBlessings_AncientJoy--></T>
+          <T>183533<!--buff_Blessings_ApplyBlessings_GloriousTastes--></T>
+          <T>183532<!--buff_Blessings_ApplyBlessings_ItsAllGood--></T>
+          <T>183531<!--buff_Blessings_ApplyBlessings_PersonalSun--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

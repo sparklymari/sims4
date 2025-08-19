@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000036">
+  <Instances>
+    <I name="lifeMilestone_Married" schema="DevelopmentalMilestone" type="Object">
+      <L name="ages">
+        <T type="Int64">16</T>
+        <T type="Int64">32</T>
+        <T type="Int64">64</T>
+      </L>
+      <T name="category">6</T>
+      <T name="icon">00B2D882-00000000-A8040C17812C7C52</T>
+      <V name="is_primary_milestone" variant="0xB602B441" schema="DevelopmentalMilestoneIsPrimaryMilestone">
+        <T name="hint_text">0x16060FCB</T>
+        <V name="revealable_name" variant="0xF8CBBF4C">
+          <T type="LocalizationKey">0x1DE9DE21</T>
+        </V>
+      </V>
+      <T name="name">0xAB728987</T>
+      <T name="ui_sort_order">3</T>
+      <T name="unlocked_text">0xC88A7F21</T>
+      <T name="unlocked_text_no_context">0xD24FDA0D</T>
+      <T name="unlocked_text_target_sim_header">0x881E311A</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="DevelopmentalMilestone" schema_hash="0x87ED1F96">
+      <Columns>
+        <Column name="ages" type="Vector" flags="0x00000000" />
+        <Column name="category" type="UInt32" flags="0x00000000" />
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="is_primary_milestone" type="Variant" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="ui_sort_order" type="Int32" flags="0x00000000" />
+        <Column name="unlocked_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="unlocked_text_no_context" type="LocalizationKey" flags="0x00000000" />
+        <Column name="unlocked_text_target_sim_header" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="DevelopmentalMilestoneIsPrimaryMilestone" schema_hash="0xF2628A45">
+      <Columns>
+        <Column name="hint_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="revealable_name" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

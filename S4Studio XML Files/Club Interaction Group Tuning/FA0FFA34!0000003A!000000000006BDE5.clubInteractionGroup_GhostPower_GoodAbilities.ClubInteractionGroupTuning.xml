@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_GhostPower_GoodAbilities" s="441829">
+  <L n="affordances">
+    <T>393133<!--ghostPowers_Abilities_Comfort_PositivePresence_Assuring--></T>
+    <T>401918<!--ghostPowers_Abilities_Comfort_PositivePresence_Assuring_NPC_Autonomous--></T>
+    <T>393122<!--ghostPowers_Abilities_Comfort_PositivePresence_Fun--></T>
+    <T>402004<!--ghostPowers_Abilities_Comfort_PositivePresence_Fun_NPC_Autonomous--></T>
+    <T>393121<!--ghostPowers_Abilities_Comfort_PositivePresence_Happy--></T>
+    <T>402005<!--ghostPowers_Abilities_Comfort_PositivePresence_Happy_NPC_Autonomous--></T>
+    <T>393238<!--ghostPowers_Abilities_Comfort_GiveGoodDream--></T>
+    <T>402006<!--ghostPowers_Abilities_Comfort_GiveGoodDream_NPC_Autonomous--></T>
+    <T>393624<!--ghostPowers_Abilities_Comfort_ImproveQuality--></T>
+    <T>393630<!--ghostPowers_Abilities_Comfort_NurturePlantLife--></T>
+    <T>393625<!--ghostPowers_Abilities_Comfort_Unspoil--></T>
+    <T>393662<!--ghostPowers_Abilities_Helpful_Instantly_NoPossess_Repair--></T>
+    <T>393658<!--ghostPowers_Abilities_Helpful_NoPossess_Instantly_Clean--></T>
+    <T>393663<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Repair--></T>
+    <T>393664<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Upgrade--></T>
+    <T>385719<!--ghostPowers_Abilities_Helpful_RemoveMaterial--></T>
+    <T>395070<!--ghostPowers_Abilities_Helpful_RemoveMaterial_EmptyTrash--></T>
+    <T>401917<!--ghostPowers_Abilities_Helpful_RemoveMaterial_EmptyTrash_NPC_Autonomous--></T>
+    <T>415212<!--ghostPowers_Abilities_Helpful_RemoveMaterial_Mold--></T>
+    <T>401916<!--ghostPowers_Abilities_Helpful_RemoveMaterial_NPC_Autonomous--></T>
+  </L>
+  <E n="category">MISCHIEF_AND_MAYHEM</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_UseGoodGhostMastery.png">2f7d0004:00000000:3dae421c56005e4f</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x7FF7701E<!--Use Good Ghost Mastery--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xA48091DD<!--Ghost Sims will use their good abilities.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x5B58AAF5<!--Use Good Ghost Mastery--></T>
+  <T n="tooltip_template_negative">0x343FF385<!--Don't Perform Good Ghost Mastery Abilities--></T>
+</I>

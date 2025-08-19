@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_MagicDuel_Reward_Items" s="217364">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xED04D0B9<!--{0.SimName} won the Magic Duel and got: \n{2.String}--></T>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">34623<!--plantLotGENFlowerRosePink_01_set1 (Baby’s Bottom Rose Bush)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28760<!--collectMetalMedGEN_01_furium (Furium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28778<!--collectMetalSmGEN_01_baconite (Baconite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33337<!--collectTerrariumGENFrog_02_redSpots (Spotted Heart Frog)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">227209<!--gardenFruit_GP08GENvalerian ({S.Valerian Root}{P.Valerian Roots})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33320<!--collectTerrariumGENFrog_01_yellowSolid (Sunflower Frog)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29336<!--collectMySimsMorcubus_01 (Morcubus)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">33338<!--collectTerrariumGENFrog_02_yellowSpots (Leopard Frog)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28779<!--collectMetalSmGEN_01_deathMetal (Death Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">29342<!--collectMySimsCarl_01 (Zombie Carl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">44912<!--collectFishSmallGENGold_01 (Goldfish)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28747<!--collectCrystalMedGEN_01_rose (Rose)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165689<!--gardenFruitEF05GENforbiddenFruit (Forbidden Fruit of the PlantSim)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28735<!--collectCrystalSmGEN_01_sapphire (Sapphire)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28730<!--collectCrystalSmGEN_01_hematite (Hematite)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">213990<!--foodHandGENkelp--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">165689<!--gardenFruitEF05GENforbiddenFruit (Forbidden Fruit of the PlantSim)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">28761<!--collectMetalMedGEN_01_heavyMetal (Heavy Metal)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <V n="quantity" t="specific_amount" />
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">45132<!--collectFishMedGENKoi_01 (Koi)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+              <U n="tested_bonus_quantity">
+                <L n="modifiers">
+                  <U>
+                    <T n="modifier">2</T>
+                    <L n="tests">
+                      <L>
+                        <V t="trait">
+                          <U n="trait">
+                            <L n="whitelist_traits">
+                              <T>212851<!--trait_MagicSage_Untamed--></T>
+                              <T>212849<!--trait_MagicSage_Mischief--></T>
+                              <T>212850<!--trait_MagicSage_Practical--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="npc" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>214644<!--trait_Curses_HexOfDuelist--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">221924<!--randomWeightedLoot_MagicDuel_Reward_RandomMoney--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>214644<!--trait_Curses_HexOfDuelist--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="money_loot">
+        <U n="money_loot">
+          <V n="amount" t="literal">
+            <U n="literal">
+              <T n="value">1</T>
+            </U>
+          </V>
+          <V n="notification" t="enabled">
+            <V n="enabled" t="literal">
+              <U n="literal">
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xF6065D6D<!--Even in victory, the Curse of the Duelist prevents a Spellcaster from gaining significant rewards.--></T>
+                </V>
+              </U>
+            </V>
+          </V>
+          <L n="tests">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="npc" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>214644<!--trait_Curses_HexOfDuelist--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

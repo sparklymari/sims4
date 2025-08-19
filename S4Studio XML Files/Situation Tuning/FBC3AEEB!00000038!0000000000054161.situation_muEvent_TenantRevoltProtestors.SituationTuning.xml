@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ProtestSituation" i="situation" m="situations.complex.protest_situation" n="situation_muEvent_TenantRevoltProtestors" s="344417">
+  <T n="_use_spawner_tags_on_travel">True</T>
+  <T n="allow_instanced_sims_as_protesters">True</T>
+  <T n="duration">720</T>
+  <E n="exclusivity">NORMAL</E>
+  <U n="number_of_protesters">
+    <T n="lower_bound">5</T>
+    <T n="upper_bound">6</T>
+  </U>
+  <L n="protester_exclusion_tests">
+    <L>
+      <V t="multi_unit_role_test">
+        <U n="multi_unit_role_test">
+          <V n="lot_source" t="enabled" />
+          <V n="role_to_check" t="is_property_owner" />
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="protester_job">344422<!--job_muEvent_TenantRevolt--></T>
+  <E n="protester_request_priority">EVENT_AUTO_FILL</E>
+  <T n="protester_role">344423<!--role_muEvent_TenantRevolt--></T>
+  <T n="protester_search_filter">344424<!--simFilter_muEvent_TenantRevolt--></T>
+  <U n="protesting_situation_state">
+    <E n="attractor_point_identifier">AtPo_Tourist</E>
+    <T n="create_sign_interaction">344419<!--createCarry_muEvent_CreateProtestSign--></T>
+    <L n="fallback_signs">
+      <T>364756<!--signHeld_EP15GEN_set1 (Tenant Revolt Sign)--></T>
+      <T>369050<!--signHeld_EP15GEN_set2 (Tenant Revolt Sign)--></T>
+      <T>369051<!--signHeld_EP15GEN_set3 (Tenant Revolt Sign)--></T>
+    </L>
+    <U n="interaction_of_interest">
+      <L n="affordances">
+        <T>344852<!--muEvent_TenantRevolt_PromisedBetterConditions--></T>
+        <T>351764<!--muEvent_TenantRevolt_RequestedBetterConditions--></T>
+      </L>
+    </U>
+  </U>
+  <V n="situation_end_time_string" t="show_end_time">
+    <T n="show_end_time">0xA3E17143<!--Work day ends at {0.TimeShort}--></T>
+  </V>
+  <L n="weighted_causes">
+    <U>
+      <T n="cause">344508<!--trait_Hidden_muEvent_TenantRevolt_GenericCause--></T>
+    </U>
+  </L>
+</I>

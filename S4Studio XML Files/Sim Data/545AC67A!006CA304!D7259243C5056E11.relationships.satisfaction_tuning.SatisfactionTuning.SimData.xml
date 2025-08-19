@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="relationships.satisfaction_tuning.SatisfactionTuning" schema="relationships.satisfaction_tuning.SatisfactionTuning" type="Object">
+      <T name="RELATIONSHIP_SATISFACTION_TRACK">362100</T>
+      <T name="UNKNOWN_DESCRIPTION">0x07A4684E</T>
+      <T name="UNKNOWN_ICON">00B2D882-00000000-0D55D95DB66043F8</T>
+      <T name="UNKNOWN_TITLE">0xA54EFAD2</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="relationships.satisfaction_tuning.SatisfactionTuning" schema_hash="0x40380636">
+      <Columns>
+        <Column name="RELATIONSHIP_SATISFACTION_TRACK" type="TableSetReference" flags="0x00000000" />
+        <Column name="UNKNOWN_DESCRIPTION" type="LocalizationKey" flags="0x00000000" />
+        <Column name="UNKNOWN_ICON" type="ResourceKey" flags="0x00000000" />
+        <Column name="UNKNOWN_TITLE" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_MidlifeCrisis_SimDeath" s="331893">
+  <L n="loot_actions">
+    <V t="timed_aspiration">
+      <U n="timed_aspiration">
+        <T n="aspiration">313958<!--midlifeCrisis_Active_DesireforAdventure--></T>
+        <V n="operation" t="timed_aspiration_deactivate" />
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="timed_aspiration">
+      <U n="timed_aspiration">
+        <T n="aspiration">313959<!--midlifeCrisis_Active_DesiretoCreate--></T>
+        <V n="operation" t="timed_aspiration_deactivate" />
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="timed_aspiration">
+      <U n="timed_aspiration">
+        <T n="aspiration">313961<!--midlifeCrisis_Active_DesireforRelationship--></T>
+        <V n="operation" t="timed_aspiration_deactivate" />
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="timed_aspiration">
+      <U n="timed_aspiration">
+        <T n="aspiration">313960<!--midlifeCrisis_Active_DesireforSuccess--></T>
+        <V n="operation" t="timed_aspiration_deactivate" />
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">314170<!--commodity_MidlifeCrisis_Resolution_Adventure--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">314171<!--commodity_MidlifeCrisis_Resolution_Create--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">314281<!--commodity_MidlifeCrisis_Resolution_Relationship--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">314280<!--commodity_MidlifeCrisis_Resolution_Success--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">317417<!--commodity_MidlifeCrisis_Hidden_ObjRefresh--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">322628<!--commodity_MidlifeCrisis_Autonomy_StressAboutLostTime--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">313898<!--commodity_MidlifeCrisis_Active_DesireforAdventure--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">313899<!--commodity_MidlifeCrisis_Active_DesiretoCreate--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">313900<!--commodity_MidlifeCrisis_Active_DesireforRelationship--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">313901<!--commodity_MidlifeCrisis_Active_DesireforSuccess--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="statistics">
+      <V n="statistics" t="statistic_remove">
+        <U n="statistic_remove">
+          <T n="stat">313265<!--commodity_MidlifeCrisis_Leadup--></T>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+        </U>
+      </V>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>313567<!--buff_MidlifeCrisis_DesireforExcitement--></T>
+              <T>313568<!--buff_MidlifeCrisis_MarchofTime--></T>
+              <T>314166<!--buff_MidlifeCrisis_Resolution_Adventure--></T>
+              <T>314167<!--buff_MidlifeCrisis_Resolution_Create--></T>
+              <T>314169<!--buff_MidlifeCrisis_Resolution_Relationship--></T>
+              <T>314168<!--buff_MidlifeCrisis_Resolution_Success--></T>
+              <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+              <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+              <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+              <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

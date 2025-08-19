@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchase_MarketStalls_EP19World_Gnomes" s="444939">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">False</T>
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0x82A4ECE7<!--Gnum Gnum's--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Func_Marketstalls_PurchaseNonFood</E>
+  </L>
+  <L n="loots_on_purchase">
+    <T>152038<!--loot_Buff_MarketStalls_RemoveHaggle--></T>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <V n="max_selectable" t="unlimited" />
+      <V n="text" t="enabled">
+        <V n="enabled" t="single">
+          <T n="single">0x82A4ECE7<!--Gnum Gnum's--></T>
+        </V>
+      </V>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.75</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>132805<!--buff_Object_MarketStalls_Haggle--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.2</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>148137<!--buff_Object_MarketStalls_InTheKnow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">1.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>237110<!--buff_Trait_Freegan_DiscountDenied_Final--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>234624<!--buff_Trait_Freegan_ToughNegotiator--></T>
+                    <T>234623<!--buff_Trait_Freegan_SweetSavings--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>249840<!--buff_Trait_WorldlyKnowledge_NoteworthyNegotiation--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="specific_items">
+      <U n="specific_items">
+        <L n="item_list">
+          <T>70908<!--sculptTable_BONUS01GENgnomeGhost01_set1 (The Ghastly Ghostly Gnome)--></T>
+          <T>35725<!--sculptTableGENGnome_01_set1 (There’s No Place like Gnome)--></T>
+          <T>36414<!--sculptTableGENGnome_02_set1 (Happy Gnome Garden Pal)--></T>
+          <T>36990<!--sculptTableGENGnome_03_set1 (Gnome Matter What, I’m Still Your Baby)--></T>
+          <T>72247<!--sculptTableMedium_EF01GENgnomePool_set1 (Poolside Gnome)--></T>
+          <T>72714<!--sculptTableMedium_EF02GENgnomeCareer_set1 (Strictly Business Gnome)--></T>
+          <T>76822<!--sculptTableMedium_EF03GENgnomeAnniversary_set1 (Happy Gnomiversary!)--></T>
+          <T>85456<!--sculptTableMedium_EF0GENgnomeAlien_set1 (Guardian of the Gnomelaxy)--></T>
+          <T>89383<!--sculptTableMedium_EF0GENgnomeBunny_set1 (Mr. Floppy the Gnome)--></T>
+          <T>88170<!--sculptTableMedium_EF0gnomeNude_set1 (Bare Essentials Gnome)--></T>
+          <T>98978<!--sculptTableMedium_EFDeathgnome_set1 (Don’t Fear the Reagnomper)--></T>
+          <T>73754<!--sculptTableMedium_GP01GENgnomeCamping_set1 (Bearly Gnome)--></T>
+          <T>276648<!--sculptTableMedium_EP11GENgnome_set1 (Herb the Posy Protector  )--></T>
+          <T>336031<!--sculptTableMedium_EP13GENcaptainGnome_set1 (Captain Gnome)--></T>
+          <T>386145<!--sculptTableMedium_EP15GENgnomeMushroom_set1 (Gnomebody Loves Mushrooms Like a Gnome)--></T>
+          <T>312286<!--sculptTableMedium_GP12GENgnomeWolf_set1 (The Gnome Wolf)--></T>
+          <T>313221<!--sculptTableMedium_SP33GENgnome_set1 (The Sweetest Little Gnome)--></T>
+          <T>469115<!--sculptTableMedium_EP19GENgnomeFairy_set1 (Very Fairy Gnome)--></T>
+          <T>469111<!--sculptTableMedium_EP19GENgnomeEvil_set1 (Gnomedalf)--></T>
+          <T>469113<!--sculptTableMedium_EP19GENgnomePlant_set1 (PlantGnome)--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0xB32A17F7<!--Thanks for purchasing! The items {0.SimFirstName} bought can be found in {M0.his}{F0.her} inventory.--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <T n="show_discount">True</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

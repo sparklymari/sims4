@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ActorCareer_GiveHair" s="195147">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>197855<!--buff_ActorCareer_HairFail--></T>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197526<!--buff_ActorCareer_Hair_Commercial_Hospital--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192847<!--careerSituation_ActorCareer_Commercial_Hospital--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197516<!--buff_ActorCareer_Hair_Commercial_HouseNice--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193601<!--careerSituation_ActorCareer_Commercial_HouseNice--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197519<!--buff_ActorCareer_Hair_Commercial_Kids--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193603<!--careerSituation_ActorCareer_Commercial_Kids--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197514<!--buff_ActorCareer_Hair_Commercial_Pirate--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>192688<!--careerSituation_ActorCareer_Commercial_Pirate--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197530<!--buff_ActorCareer_Hair_Commercial_Western--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193599<!--careerSituation_ActorCareer_Commercial_Western--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197523<!--buff_ActorCareer_Hair_Movie_City--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>189158<!--careerSituation_ActorCareer_Movie_City--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197529<!--buff_ActorCareer_Hair_Movie_Medieval--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193677<!--careerSituation_ActorCareer_Movie_Medieval--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197525<!--buff_ActorCareer_Hair_Movie_Pirate--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193678<!--careerSituation_ActorCareer_Movie_Pirate--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197522<!--buff_ActorCareer_Hair_Movie_Superhero--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193680<!--careerSituation_ActorCareer_Movie_Superhero--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197518<!--buff_ActorCareer_Hair_Movie_Victorian--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193679<!--careerSituation_ActorCareer_Movie_Victorian--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197533<!--buff_ActorCareer_Hair_Movie_Western--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193676<!--careerSituation_ActorCareer_Movie_Western--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197524<!--buff_ActorCareer_Hair_TVHigh_Apocalypse--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193646<!--careerSituation_ActorCareer_TVHigh_Apocalypse--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197528<!--buff_ActorCareer_Hair_TVHigh_Hospital--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193647<!--careerSituation_ActorCareer_TVHigh_Hospital--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197521<!--buff_ActorCareer_Hair_TVHigh_Police--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193650<!--careerSituation_ActorCareer_TVHigh_Police--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197517<!--buff_ActorCareer_Hair_TVHigh_Victorian--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193649<!--careerSituation_ActorCareer_TVHigh_Victorian--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197532<!--buff_ActorCareer_Hair_TVHigh_Western--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193648<!--careerSituation_ActorCareer_TVHigh_Western--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197534<!--buff_ActorCareer_Hair_TVLow_HouseLow--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193619<!--careerSituation_ActorCareer_TVLow_HouseLow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197527<!--buff_ActorCareer_Hair_TVLow_HouseNice--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193617<!--careerSituation_ActorCareer_TVLow_HouseNice--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197520<!--buff_ActorCareer_Hair_TVLow_Kids--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193620<!--careerSituation_ActorCareer_TVLow_Kids--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197515<!--buff_ActorCareer_Hair_TVLow_Pirate--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193616<!--careerSituation_ActorCareer_TVLow_Pirate--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">197531<!--buff_ActorCareer_Hair_TVLow_Western--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193618<!--careerSituation_ActorCareer_TVLow_Western--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

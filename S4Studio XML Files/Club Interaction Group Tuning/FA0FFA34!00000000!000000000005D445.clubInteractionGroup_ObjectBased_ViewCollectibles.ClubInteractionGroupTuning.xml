@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_ViewCollectibles" s="382021">
+  <L n="affordances">
+    <T>118775<!--aquarium_view--></T>
+    <T>96860<!--Collectible_Frog_View_generic--></T>
+    <T>102963<!--Collectible_Insect_View_generic--></T>
+    <T>137598<!--collection_Posters_View--></T>
+    <T>377886<!--collection_Axolotl_View--></T>
+    <T>37324<!--GardenPlant_View_generic--></T>
+    <T>205822<!--gardenPlant_View_InfectedPlant--></T>
+    <T>40105<!--collection_Study--></T>
+    <T>382023<!--autonomous_ObjectPicker_Collectible_View--></T>
+  </L>
+  <E n="category">ART_AND_MUSIC</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\club_rules_ViewCollectables.png">2f7d0004:00000000:403f92f312d82f46</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x8C87EE70<!--View Collectibles--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xBEE0C3B8<!--Sims will view:--></T>
+        <T>0x868D4399<!--• Items in Household Collections--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x5F1003BF<!--View Collectables--></T>
+  <T n="tooltip_template_negative">0xCBBB3AE3<!--Don't View Collectibles--></T>
+</I>

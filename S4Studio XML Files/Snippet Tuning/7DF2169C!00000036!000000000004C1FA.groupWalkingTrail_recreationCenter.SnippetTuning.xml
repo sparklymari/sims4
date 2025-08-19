@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WaypointGraph" i="snippet" m="snippets" n="groupWalkingTrail_recreationCenter" s="311802">
+  <U n="value">
+    <L n="connections">
+      <U>
+        <T n="waypoint">333066<!--groupWalkingTrail_00_start01--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333067<!--groupWalkingTrail_01--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333067<!--groupWalkingTrail_01--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333068<!--groupWalkingTrail_02--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333068<!--groupWalkingTrail_02--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333069<!--groupWalkingTrail_03--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333069<!--groupWalkingTrail_03--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333070<!--groupWalkingTrail_04--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333070<!--groupWalkingTrail_04--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333071<!--groupWalkingTrail_05--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333071<!--groupWalkingTrail_05--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333072<!--groupWalkingTrail_06--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333072<!--groupWalkingTrail_06--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333073<!--groupWalkingTrail_07--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333073<!--groupWalkingTrail_07--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333074<!--groupWalkingTrail_08_start02--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333074<!--groupWalkingTrail_08_start02--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333075<!--groupWalkingTrail_09--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333075<!--groupWalkingTrail_09--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333085<!--groupWalkingTrail_19--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333085<!--groupWalkingTrail_19--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333086<!--groupWalkingTrail_20--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333086<!--groupWalkingTrail_20--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333087<!--groupWalkingTrail_21--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333087<!--groupWalkingTrail_21--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333291<!--groupWalkingTrail_32--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333291<!--groupWalkingTrail_32--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333066<!--groupWalkingTrail_00_start01--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+  </U>
+</I>

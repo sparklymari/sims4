@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Capture01_Harvest" s="392794">
+  <T n="_cancel_on_travel">False</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_rosedead.png">2f7d0004:00000000:96f766233d761453</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x38F805D6<!--Harvest Grimbrosia Source--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x79634726<!--Locate the Grimbrosia Plant and Select to Harvest.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>392447<!--career_Reaper_Harvest--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_score">5</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <V n="goal_completion_modal_dialog" t="enabled">
+    <U n="enabled">
+      <V n="text" t="single">
+        <T n="single">0x2C75237E<!--You've successfully harvested Grimbrosia Source! You'll be able to cook Grimbrosia in the office kitchen upon your return.--></T>
+      </V>
+    </U>
+  </V>
+</I>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="sims.sim_info.SimInfo" schema="sims.sim_info.SimInfo" type="Object">
+      <L name="GENDER_STRINGS">
+        <U type="Object" schema="GenderStringsMapTuple">
+          <T name="species">3</T>
+          <U name="species_strings" schema="SpeciesStringsTuple">
+            <V name="age_variants" variant="0xC1A03855" />
+            <T name="female_string">0xB5366662</T>
+            <T name="male_string">0x1DE4F30F</T>
+          </U>
+        </U>
+        <U type="Object" schema="GenderStringsMapTuple">
+          <T name="species">2</T>
+          <U name="species_strings" schema="SpeciesStringsTuple">
+            <V name="age_variants" variant="0xC1A03855" />
+            <T name="female_string">0xBF4341A0</T>
+            <T name="male_string">0x1BF63911</T>
+          </U>
+        </U>
+        <U type="Object" schema="GenderStringsMapTuple">
+          <T name="species">5</T>
+          <U name="species_strings" schema="SpeciesStringsTuple">
+            <V name="age_variants" variant="0xC1A03855" />
+            <T name="female_string">0x2426419D</T>
+            <T name="male_string">0x8ACD8E66</T>
+          </U>
+        </U>
+        <U type="Object" schema="GenderStringsMapTuple">
+          <T name="species">6</T>
+          <U name="species_strings" schema="SpeciesStringsTuple">
+            <V name="age_variants" variant="0xF8CBBF4C">
+              <L type="Vector">
+                <U type="Object" schema="AgeVariantsMapTuple">
+                  <T name="age">4</T>
+                  <U name="age_variant_strings" schema="AgeVariantTuple">
+                    <T name="female_string">0x62C0227F</T>
+                    <T name="male_string">0xF6DFA60C</T>
+                  </U>
+                </U>
+              </L>
+            </V>
+            <T name="female_string">0xB6A602B5</T>
+            <T name="male_string">0x27F6881C</T>
+          </U>
+        </U>
+        <U type="Object" schema="GenderStringsMapTuple">
+          <T name="species">1</T>
+          <U name="species_strings" schema="SpeciesStringsTuple">
+            <V name="age_variants" variant="0xC1A03855" />
+            <T name="female_string">0xC7B253B6</T>
+            <T name="male_string">0x67061349</T>
+          </U>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="sims.sim_info.SimInfo" schema_hash="0xC0E7A860">
+      <Columns>
+        <Column name="GENDER_STRINGS" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="GenderStringsMapTuple" schema_hash="0x738E82CD">
+      <Columns>
+        <Column name="species" type="Int64" flags="0x00000000" />
+        <Column name="species_strings" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="SpeciesStringsTuple" schema_hash="0x15242680">
+      <Columns>
+        <Column name="age_variants" type="Variant" flags="0x00000000" />
+        <Column name="female_string" type="LocalizationKey" flags="0x00000000" />
+        <Column name="male_string" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="AgeVariantsMapTuple" schema_hash="0x182D71A7">
+      <Columns>
+        <Column name="age" type="Int64" flags="0x00000000" />
+        <Column name="age_variant_strings" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="AgeVariantTuple" schema_hash="0xFD01F948">
+      <Columns>
+        <Column name="female_string" type="LocalizationKey" flags="0x00000000" />
+        <Column name="male_string" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Client_MatchmakingThumbnailProps" i="thumbnailProp" m="thumbnailProp.Client_MatchmakingThumbnailProps" n="DrinkStemmedObjects" s="17853531901840103872">
+  <L n="ObjectID">
+    <T>43857<!--drink_love (Cupid Juice)--></T>
+    <T>36393<!--drink_bartenderSpecial (Mixologist)--></T>
+    <T>38354<!--drink_seaOfFire (Sea of Fire)--></T>
+  </L>
+</I>

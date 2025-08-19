@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Stage_Sound_Social_Kiss" s="200021">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">198940<!--buff_Stage_Sound_TurnOff--></T>
+        </U>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200018<!--state_Stage_Sound_TVLow_HouseNice_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193617<!--careerSituation_ActorCareer_TVLow_HouseNice--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">190409<!--state_StageMark_Visibility_Off--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">98746<!--GenericFX_Off--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200025<!--state_Stage_Sound_TVLow_Western_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193618<!--careerSituation_ActorCareer_TVLow_Western--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200030<!--state_Stage_Sound_TVLow_HouseLow_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193619<!--careerSituation_ActorCareer_TVLow_HouseLow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200196<!--state_Stage_Sound_TVHigh_Hospital_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193647<!--careerSituation_ActorCareer_TVHigh_Hospital--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200248<!--state_Stage_Sound_TVHigh_Police_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193650<!--careerSituation_ActorCareer_TVHigh_Police--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200277<!--state_Stage_Sound_Movie_Pirate_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193678<!--careerSituation_ActorCareer_Movie_Pirate--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200293<!--state_Stage_Sound_Movie_Medieval_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193677<!--careerSituation_ActorCareer_Movie_Medieval--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200320<!--state_Stage_Sound_Movie_Victorian_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193679<!--careerSituation_ActorCareer_Movie_Victorian--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200330<!--state_Stage_Sound_Movie_SuperHero_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193680<!--careerSituation_ActorCareer_Movie_Superhero--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200340<!--state_Stage_Sound_Movie_City_Kiss--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>189158<!--careerSituation_ActorCareer_Movie_City--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

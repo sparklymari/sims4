@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Renderer.GlobalVolLightScatteringSettings" type="Object">
+      <T name="mbEnabled">1</T>
+      <T name="mbUseRawSunDir">1</T>
+      <T name="mbCleanBorderPixelBeforeBlur">1</T>
+      <T name="mbPaddingBool">0</T>
+      <T name="mHorizonZLimit">500</T>
+      <T name="mContribution_Red">0.6</T>
+      <T name="mContribution_Green">0.5</T>
+      <T name="mContribution_Blue">0.4</T>
+      <T name="mIntensity">0.4</T>
+      <T name="mMinDistToSun">0</T>
+      <T name="mMaxDistToSun">0.9</T>
+      <T name="mPower">1.2</T>
+      <T name="mNumRadialBlurPasses">6</T>
+      <T name="mBlurSize">50</T>
+      <T name="mRayColor_Red">1.25</T>
+      <T name="mRayColor_Green">1.25</T>
+      <T name="mRayColor_Blue">1.25</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Renderer.GlobalVolLightScatteringSettings" schema_hash="0x6337FDA7">
+      <Columns>
+        <Column name="mbEnabled" type="Boolean" flags="0x00000000" />
+        <Column name="mbUseRawSunDir" type="Boolean" flags="0x00000000" />
+        <Column name="mbCleanBorderPixelBeforeBlur" type="Boolean" flags="0x00000000" />
+        <Column name="mbPaddingBool" type="Boolean" flags="0x00000000" />
+        <Column name="mHorizonZLimit" type="Single" flags="0x00000000" />
+        <Column name="mContribution_Red" type="Single" flags="0x00000000" />
+        <Column name="mContribution_Green" type="Single" flags="0x00000000" />
+        <Column name="mContribution_Blue" type="Single" flags="0x00000000" />
+        <Column name="mIntensity" type="Single" flags="0x00000000" />
+        <Column name="mMinDistToSun" type="Single" flags="0x00000000" />
+        <Column name="mMaxDistToSun" type="Single" flags="0x00000000" />
+        <Column name="mPower" type="Single" flags="0x00000000" />
+        <Column name="mNumRadialBlurPasses" type="Int32" flags="0x00000000" />
+        <Column name="mBlurSize" type="Single" flags="0x00000000" />
+        <Column name="mRayColor_Red" type="Single" flags="0x00000000" />
+        <Column name="mRayColor_Green" type="Single" flags="0x00000000" />
+        <Column name="mRayColor_Blue" type="Single" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

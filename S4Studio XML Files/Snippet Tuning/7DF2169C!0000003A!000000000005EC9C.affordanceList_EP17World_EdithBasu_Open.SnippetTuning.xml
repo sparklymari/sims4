@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_EP17World_EdithBasu_Open" s="388252">
+  <L n="value">
+    <T>27173<!--Idle_Chatting_STC--></T>
+    <T>13998<!--sim_Chat--></T>
+    <T>13991<!--sim_BeAffectionate--></T>
+    <T>202635<!--si_Touching_TwoSim_Generic--></T>
+    <T>388433<!--social_EP17World_EdithBasu_AskForMark--></T>
+    <T>388673<!--social_EP17World_EdithBasu_AskAboutAlice--></T>
+    <T>388833<!--social_EP17World_EdithBasu_AskAboutWellOfSouls--></T>
+    <T>388838<!--social_EP17World_EdithBasu_TryToCheerUp--></T>
+    <T>388841<!--social_EP17World_EdithBasu_MockEdith--></T>
+    <T>389203<!--EP17World_EdithBasu_Nope--></T>
+    <T>389241<!--socials_Targeted_Friendly_AlwaysOn_STC_EP17World_EdithBasu_TryToChat--></T>
+  </L>
+</I>

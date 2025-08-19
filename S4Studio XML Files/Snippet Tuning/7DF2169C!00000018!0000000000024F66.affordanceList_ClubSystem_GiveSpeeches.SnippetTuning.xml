@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_ClubSystem_GiveSpeeches" s="151398">
+  <L n="value">
+    <T>137147<!--podium_SocialGiveSpeech--></T>
+    <T>137206<!--podium_SocialGiveSpeech_Angry--></T>
+    <T>137211<!--podium_SocialGiveSpeech_Confident--></T>
+    <T>137212<!--podium_SocialGiveSpeech_Energized--></T>
+    <T>137213<!--podium_SocialGiveSpeech_Inspired--></T>
+    <T>136817<!--Podium_GiveSpeech--></T>
+    <T>136921<!--podium_GiveSpeech_Angry--></T>
+    <T>136922<!--podium_GiveSpeech_Confident--></T>
+    <T>136923<!--podium_GiveSpeech_Energized--></T>
+    <T>136924<!--podium_GiveSpeech_Inspired--></T>
+  </L>
+</I>

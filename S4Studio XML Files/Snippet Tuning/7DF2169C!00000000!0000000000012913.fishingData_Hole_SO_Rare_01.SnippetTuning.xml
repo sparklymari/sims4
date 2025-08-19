@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_Hole_SO_Rare_01" s="76051">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">45028<!--collectFishSmallGENMinnow_01 (Minnow)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">9</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">8</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">8</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">7</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45236<!--collectFishSmallGENBetta_01 (Betta)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">7</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44914<!--collectFishMedGENTilapia_01 (Tilapia)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">7</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45222<!--collectFishLargeGENWolfEel_01 (Wolf Eel)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">9</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45186<!--collectFishSmallGENRedTailedShark_01 (Red-Tailed Black Shark)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">9</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44788<!--collectFishSmallGENPirahna_01 (Piranha)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">9</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45313<!--collectFIshLargeGENSturgeon_01 (Sturgeon)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45030<!--collectFishMedGENAngler_01 (Anglerfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">94656<!--collectFishMed_GP02GENgoldfishExotic (Exotic Goldfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0.5</T>
+              <L n="tests">
+                <L>
+                  <V t="global_policy_state">
+                    <U n="global_policy_state">
+                      <E n="progress_state">COMPLETE</E>
+                      <V n="test_type" t="specific_policy">
+                        <U n="specific_policy">
+                          <L n="policies">
+                            <T>206803<!--globalPolicy_Conservationist_Fishing_ControlInvasiveSpecies--></T>
+                          </L>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">108443<!--collectFishSmall_EF02SPOOKYbones ("Captain Fishbones" Bonefish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">108441<!--collectFishSmall_EF02SPOOKYgummy (Gummie Guppie)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">120986<!--collectFishLarge_EP03GENTuna (Tuna)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">7</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">120988<!--collectFishSmall_EP03GENPufferfish (Pufferfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">8</T>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+        <U n="weight">
+          <T n="base_value">7</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">27232<!--musicGuitarGEN_01_set2 (Pied Piper Acoustic Guitar)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">385194<!--craftGem_SP49GENseed (Seed-Shaped Gemstone)--></T>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">7</T>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">1</T>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+  </U>
+</I>

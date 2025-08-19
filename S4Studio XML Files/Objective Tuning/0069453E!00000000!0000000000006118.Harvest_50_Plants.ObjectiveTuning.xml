@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Objective" i="objective" m="event_testing.objective_tuning" n="Harvest_50_Plants" s="24856">
+  <V n="objective_completion_type" t="iterations">
+    <U n="iterations">
+      <T n="iterations_required_to_pass">50</T>
+    </U>
+  </V>
+  <V n="objective_test" t="ran_interaction_test">
+    <U n="ran_interaction_test">
+      <L n="affordances">
+        <T>13413<!--Gardening_Harvest--></T>
+        <T>432879<!--super_PottedPlants_Gardening_Harvest_All--></T>
+        <T>100776<!--Gardening_Harvest_All--></T>
+        <T>235285<!--gardening_VerticalGarden_Harvest_All--></T>
+        <T>100782<!--Gardening_Harvest_Continuation--></T>
+        <T>432880<!--super_PottedPlants_Gardening_Harvest_Cont--></T>
+        <T>235289<!--gardening_VerticalGarden_Harvest_Continuation--></T>
+        <T>77770<!--Gardening_Harvest_Unit_autonomous_low--></T>
+        <T>39826<!--Gardening_Harvest_Unit_autonomous--></T>
+        <T>432876<!--super_PottedPlants_Gardening_Harvest_Auto--></T>
+        <T>235245<!--gardening_VerticalGarden_Harvest_Unit_autonomous--></T>
+      </L>
+    </U>
+  </V>
+</I>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Lifestyles_LifestyleLost_Sedentary" s="252363">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>248755<!--buff_Lifestyles_Sedentary_AtEnergeticCareer--></T>
+          <T>248754<!--buff_Lifestyles_Sedentary_AtSedentaryCareer--></T>
+          <T>249916<!--buff_Lifestyles_Sedentary_EnergeticInteractions_FunLoss--></T>
+          <T>248558<!--buff_Lifestyles_Sedentary_Seated--></T>
+          <T>248301<!--buff_Lifestyles_Disliked_Sedentary_ConflictOverride--></T>
+          <T>249148<!--buff_Lifestyles_Neglect_Sedentary_ConflictOverride--></T>
+          <T>250599<!--buff_Lifestyles_Sedentary_NeglectLifestyle_00--></T>
+          <T>250591<!--buff_Lifestyles_Neglect_Sedentary_Level2--></T>
+          <T>249147<!--buff_Lifestyles_Sedentary_Seated_ConflictOverride--></T>
+          <T>249915<!--buff_Lifestyles_Sedentary_SedentaryInteractions_FunGain--></T>
+          <T>250617<!--buff_Lifestyles_Sedentary_SedentaryPosture_FunGain--></T>
+          <T>248295<!--buff_Lifestyles_Disliked_Sedentary--></T>
+          <T>248568<!--buff_Lifestyles_Neglect_Sedentary_Level1--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

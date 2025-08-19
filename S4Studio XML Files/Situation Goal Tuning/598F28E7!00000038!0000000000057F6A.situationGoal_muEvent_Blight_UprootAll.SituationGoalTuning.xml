@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalActor" i="situation_goal" m="situations.situation_goal_actor" n="situationGoal_muEvent_Blight_UprootAll" s="360298">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP15\UI\Icons\Events\EventGoal_UprootBlightedPlants.png">2f7d0004:00000000:3f1cc42079e260c1</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x350FB758<!--Uproot All Blighted Plants--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x13E25FB0<!--Destroy some plants for the greater good. Select the Blighted Plants to Uproot. --></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>352302<!--situationGoalLoot_muEvent_CompletedSecondary--></T>
+    <T>351842<!--situationGoalLoot_muEvent_Maintenance--></T>
+  </L>
+  <V n="_goal_test" t="buff_added">
+    <U n="buff_added">
+      <L n="acceptable_buffs">
+        <T>360299<!--buff_muEvent_Hidden_Blight_Uproot_Complete--></T>
+      </L>
+    </U>
+  </V>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

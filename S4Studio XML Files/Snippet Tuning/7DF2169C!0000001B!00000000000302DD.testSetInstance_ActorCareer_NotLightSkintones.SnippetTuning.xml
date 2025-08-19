@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_ActorCareer_NotLightSkintones" s="197341">
+  <L n="test">
+    <L>
+      <V t="skin_tone">
+        <U n="skin_tone">
+          <T n="invert">True</T>
+          <L n="skin_tones">
+            <T>21829<!--[Warm] Human Natural Red 1 Asian, Caucasian--></T>
+            <T>30679<!--[Warm] Human Natural Yellow 1 Asian--></T>
+            <T>12122<!--[Warm] Human Natural Red 1 Asian, Caucasian--></T>
+            <T>44997<!--[Warm] Human Natural Red 1 Asian, Caucasian--></T>
+            <T>44999<!--[Warm] Human Natural Red 1 Caucasian, Latin, MiddleEastern, NorthAmerican, SouthAsian--></T>
+            <T>14400<!--[Warm] Human Natural Olive 1 Latin, MiddleEastern, NorthAmerican, SouthAsian--></T>
+            <T>45000<!--[Warm] Human Natural Yellow 2 Latin, MiddleEastern, NorthAmerican, SouthAsian--></T>
+            <T>45003<!--[Warm] Human Natural Yellow 2 Asian, Caucasian, Latin, MiddleEastern, NorthAmerican, SouthAsian--></T>
+            <T>191487<!--[Warm] Human Natural Yellow 2 Asian, Latin, MiddleEastern, NorthAmerican, SouthAsian--></T>
+            <T>45001<!--[Miscellaneous] Human Fantasy Blue, BlueSkin 2 NativeAmerican--></T>
+            <T>45002<!--[Miscellaneous] Human Fantasy, Sickness_Green GreenSkin 2 NativeAmerican--></T>
+            <T>146066<!--[Miscellaneous] Human Fantasy Red, RedSkin 3--></T>
+            <T>148822<!--[Miscellaneous] Human Fantasy Blue, BlueSkin 1--></T>
+            <T>148818<!--[Miscellaneous] Human Natural Red 1 Asian, Caucasian--></T>
+            <T>12137<!--[Warm] Human Natural Yellow 1 Asian, Caucasian--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

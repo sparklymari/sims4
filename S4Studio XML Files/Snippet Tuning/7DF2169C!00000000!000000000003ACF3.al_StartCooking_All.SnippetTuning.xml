@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="al_StartCooking_All" s="240883">
+  <L n="value">
+    <T>215933<!--cauldron_Start_Food--></T>
+    <T>336241<!--pizzaOven_StartCooking_Pizza--></T>
+    <T>336915<!--pizzaOven_StartCooking_Focaccia--></T>
+    <T>337920<!--waffleMaker_StartCooking--></T>
+    <T>121101<!--IceCreamMachine_StartCrafting--></T>
+    <T>129876<!--popcornPopper_StartCrafting_Caramel--></T>
+    <T>129878<!--popcornPopper_StartCrafting_Cheddar--></T>
+    <T>129877<!--popcornPopper_StartCrafting_Kettle--></T>
+    <T>129875<!--popcornPopper_StartCrafting_Popcorn--></T>
+    <T>246267<!--super_HotPot_StartCooking--></T>
+    <T>338573<!--standMixer_StartCooking_Batter--></T>
+    <T>338574<!--standMixer_StartCooking_CookieDough--></T>
+    <T>338572<!--standMixer_StartCooking_Dough--></T>
+    <T>338569<!--standMixer_StartCooking_Meat--></T>
+    <T>338570<!--standMixer_StartCooking_Seafood--></T>
+    <T>338571<!--standMixer_StartCooking_Vegetables--></T>
+    <T>35079<!--grill_CreateFood--></T>
+    <T>37208<!--create_fridge_tray--></T>
+    <T>13395<!--fridge_CreateTray--></T>
+    <T>217063<!--fridge_GrabSnack_Microwave_PieMenu--></T>
+    <T>13396<!--fridge_GrabSnack--></T>
+    <T>13289<!--cupcakeFactory_MakeRecipe_Staging_Basic--></T>
+  </L>
+</I>

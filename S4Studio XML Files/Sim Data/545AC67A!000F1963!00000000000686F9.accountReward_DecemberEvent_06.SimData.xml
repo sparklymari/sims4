@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="accountReward_DecemberEvent_06" schema="AccountReward" type="Object">
+      <T name="category">0xA05E4138</T>
+      <T name="image">00B2D882-00000000-8F9B3383D2B9F18C</T>
+      <L name="items">
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">460720</T>
+        </V>
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">460717</T>
+        </V>
+      </L>
+      <T name="location_tip">0xE453B994</T>
+      <T name="reward_description">0x3184F275</T>
+      <T name="reward_name">0xF3E24B10</T>
+      <T name="reward_thumbnail_image">00B2D882-00000000-FA965030AF3606C6</T>
+      <V name="reward_timeline_image" variant="0xCA1F42EC">
+        <T type="ResourceKey">00B2D882-00000000-7875D116968AC3B8</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="AccountReward" schema_hash="0x808D1581">
+      <Columns>
+        <Column name="category" type="LocalizationKey" flags="0x00000000" />
+        <Column name="image" type="ResourceKey" flags="0x00000000" />
+        <Column name="items" type="Vector" flags="0x00000000" />
+        <Column name="location_tip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_thumbnail_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="reward_timeline_image" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_BuildBuyAccountRewardItem" schema_hash="0x2BAA7F96">
+      <Columns>
+        <Column name="item_resource" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

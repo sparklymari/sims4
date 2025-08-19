@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Festival_FleaMarket_Trade_Poster" s="145671">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">125954<!--collectPaintWall_EP03GENposterCity_set1 ('Self Portrait?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131249<!--collectPaintWall_EP03GENposterCity_set2 (Red Hearts, White Diamonds)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131250<!--collectPaintWall_EP03GENposterCity_set3 ('Uptown Anarchy' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131251<!--collectPaintWall_EP03GENposterCity_set4 (Fashion District Travel)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131252<!--collectPaintWall_EP03GENposterCity_set5 (Freezer Bunny Falls)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131253<!--collectPaintWall_EP03GENposterCity_set6 ('Stargarden Maiden' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131254<!--collectPaintWall_EP03GENposterCity_set7 (Parfum L'esprit d'escalier)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131255<!--collectPaintWall_EP03GENposterCity_set8 (Night of the Culling)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131256<!--collectPaintWall_EP03GENposterCity_set9 (Willam goes Acoustic)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131257<!--collectPaintWall_EP03GENposterCity_set10 ('Uptown Down' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131258<!--collectPaintWall_EP03GENposterCity_set11 (The Night Light Legacy)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131259<!--collectPaintWall_EP03GENposterCity_set12 ('Electric Llama Land' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131260<!--collectPaintWall_EP03GENposterCity_set13 ('Every Pancake Tells A Lie' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131261<!--collectPaintWall_EP03GENposterCity_set14 ('Aspiration' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131262<!--collectPaintWall_EP03GENposterCity_set15 ('What's Necks?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.1</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144904<!--collectible_Rarity_Common--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131255<!--collectPaintWall_EP03GENposterCity_set8 (Night of the Culling)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131256<!--collectPaintWall_EP03GENposterCity_set9 (Willam goes Acoustic)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131257<!--collectPaintWall_EP03GENposterCity_set10 ('Uptown Down' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131258<!--collectPaintWall_EP03GENposterCity_set11 (The Night Light Legacy)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131259<!--collectPaintWall_EP03GENposterCity_set12 ('Electric Llama Land' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">125954<!--collectPaintWall_EP03GENposterCity_set1 ('Self Portrait?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131249<!--collectPaintWall_EP03GENposterCity_set2 (Red Hearts, White Diamonds)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131250<!--collectPaintWall_EP03GENposterCity_set3 ('Uptown Anarchy' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131251<!--collectPaintWall_EP03GENposterCity_set4 (Fashion District Travel)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131252<!--collectPaintWall_EP03GENposterCity_set5 (Freezer Bunny Falls)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131253<!--collectPaintWall_EP03GENposterCity_set6 ('Stargarden Maiden' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131254<!--collectPaintWall_EP03GENposterCity_set7 (Parfum L'esprit d'escalier)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131260<!--collectPaintWall_EP03GENposterCity_set13 ('Every Pancake Tells A Lie' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131261<!--collectPaintWall_EP03GENposterCity_set14 ('Aspiration' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131262<!--collectPaintWall_EP03GENposterCity_set15 ('What's Necks?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">35</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.15</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144901<!--collectible_Rarity_Uncommon--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131262<!--collectPaintWall_EP03GENposterCity_set15 ('What's Necks?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131261<!--collectPaintWall_EP03GENposterCity_set14 ('Aspiration' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131260<!--collectPaintWall_EP03GENposterCity_set13 ('Every Pancake Tells A Lie' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131259<!--collectPaintWall_EP03GENposterCity_set12 ('Electric Llama Land' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131258<!--collectPaintWall_EP03GENposterCity_set11 (The Night Light Legacy)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131257<!--collectPaintWall_EP03GENposterCity_set10 ('Uptown Down' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131256<!--collectPaintWall_EP03GENposterCity_set9 (Willam goes Acoustic)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131255<!--collectPaintWall_EP03GENposterCity_set8 (Night of the Culling)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131254<!--collectPaintWall_EP03GENposterCity_set7 (Parfum L'esprit d'escalier)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131253<!--collectPaintWall_EP03GENposterCity_set6 ('Stargarden Maiden' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">1</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131252<!--collectPaintWall_EP03GENposterCity_set5 (Freezer Bunny Falls)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131251<!--collectPaintWall_EP03GENposterCity_set4 (Fashion District Travel)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">5</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131250<!--collectPaintWall_EP03GENposterCity_set3 ('Uptown Anarchy' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">131249<!--collectPaintWall_EP03GENposterCity_set2 (Red Hearts, White Diamonds)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">4</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">125954<!--collectPaintWall_EP03GENposterCity_set1 ('Self Portrait?' by Angsty)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.05</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144905<!--collectible_Rarity_Rare--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

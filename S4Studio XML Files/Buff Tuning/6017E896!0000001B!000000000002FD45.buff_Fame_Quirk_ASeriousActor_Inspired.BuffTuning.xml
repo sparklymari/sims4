@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Fame_Quirk_ASeriousActor_Inspired" s="195909">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xE57145D7<!--Finally, {0.SimFirstName} isn't surrounded by any goof-offs with their terrible jokes and irritating mischief... {M0.He}{F0.She} can fully concentrate on {M0.his}{F0.her} tasks at hand, and that's a wonderful feeling indeed!
+--></T>
+  <T n="buff_name">0x171245AE<!--Seriously Peaceful--></T>
+  <T n="icon" p="InEP06\UI\Icons\Buffs\buffs_ASeriousActor.png">2f7d0004:00000000:eaacdf6de4e85688</T>
+  <T n="mood_type">14641<!--Mood_Inspired--></T>
+  <T n="mood_weight">2</T>
+  <T n="show_timeout">False</T>
+  <T n="visible">True</T>
+</I>

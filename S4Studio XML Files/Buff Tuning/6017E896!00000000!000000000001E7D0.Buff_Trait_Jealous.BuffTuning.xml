@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="Buff_Trait_Jealous" s="124880">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="commodities_to_add">
+            <T>124989<!--commodity_Trait_Autonomy_Jealous--></T>
+            <T>124881<!--commodity_Trait_Jealous_Near_SO--></T>
+            <T>124957<!--commodity_Trait_Jealous_SOTime--></T>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>13998<!--sim_Chat--></T>
+            <T>246156<!--sim_Chat_SNPC--></T>
+            <T>223344<!--roommateNPC_Socials_AskAboutRent--></T>
+            <T>223346<!--roommateNPC_Socials_AskToStay--></T>
+            <T>220367<!--roommateNPC_Socials_BreakUpParty--></T>
+            <T>223352<!--roommateNPC_Socials_DemandRent--></T>
+            <T>220602<!--roommateNPC_Socials_KickoutRoommate--></T>
+            <T>223323<!--roommateNPC_Socials_LockedOutHelp--></T>
+            <T>220361<!--roommateNPC_Socials_Stop--></T>
+            <T>220598<!--roommateNPC_Socials_AcceptAsRoommate--></T>
+            <T>220642<!--roommateNPC_Socials_AskToBeRoommate--></T>
+            <T>220365<!--roommateNPC_Socials_ComplainAbout--></T>
+            <T>223327<!--roommateNPC_Socials_ComplainAbout_Mess--></T>
+            <T>223328<!--roommateNPC_Socials_ComplainAbout_Notes--></T>
+            <T>223329<!--roommateNPC_Socials_ComplainAbout_PDA--></T>
+            <T>221733<!--roommateNPC_Socials_Events_Argument--></T>
+            <T>221735<!--roommateNPC_Socials_Events_GetHype--></T>
+            <T>221734<!--roommateNPC_Socials_Events_Whispers--></T>
+            <T>221736<!--roommateNPC_Socials_Events_Wooing--></T>
+            <T>223407<!--roommateNPC_Socials_Events_Wooing_Serenade--></T>
+            <T>220366<!--roommateNPC_Socials_ThankFor--></T>
+            <T>223330<!--roommateNPC_Socials_ThankFor_Cleaning--></T>
+            <T>223331<!--roommateNPC_Socials_ThankFor_Compliments--></T>
+            <T>223332<!--roommateNPC_Socials_ThankFor_Fixing--></T>
+            <T>223333<!--roommateNPC_Socials_ThankFor_Food--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>390686<!--loot_Sim_Chat_SetCommodities_JealousTrait--></T>
+                </L>
+                <V n="timing" t="at_beginning" />
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>390686<!--loot_Sim_Chat_SetCommodities_JealousTrait--></T>
+                </L>
+                <V n="timing" t="at_end" />
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="refresh_on_add">True</T>
+  <T n="success_modifier">0</T>
+  <T n="ui_sort_order">1</T>
+  <T n="visible">False</T>
+  <V n="walkstyle" t="disabled" />
+</I>

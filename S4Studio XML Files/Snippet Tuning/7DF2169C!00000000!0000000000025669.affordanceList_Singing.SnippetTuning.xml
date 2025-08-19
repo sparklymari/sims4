@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Singing" s="153193">
+  <L n="value">
+    <T>139249<!--singingSkill_TieredMenu_Microphone_Practice--></T>
+    <T>138919<!--singingSkill_TieredMenu_Microphone_Folk_Song1--></T>
+    <T>139061<!--singingSkill_TieredMenu_Microphone_Folk_Song2--></T>
+    <T>139129<!--singingSkill_TieredMenu_Microphone_Folk_Song3--></T>
+    <T>139137<!--singingSkill_TieredMenu_Microphone_Jazz_Song1--></T>
+    <T>139138<!--singingSkill_TieredMenu_Microphone_Jazz_Song2--></T>
+    <T>139140<!--singingSkill_TieredMenu_Microphone_Jazz_Song3--></T>
+    <T>139554<!--singingSkill_TieredMenu_Microphone_Jazz_Written_Song1--></T>
+    <T>139763<!--singingSkill_TieredMenu_Microphone_Jazz_Written_Song2--></T>
+    <T>139141<!--singingSkill_TieredMenu_Microphone_Pop_Song1--></T>
+    <T>139142<!--singingSkill_TieredMenu_Microphone_Pop_Song2--></T>
+    <T>139143<!--singingSkill_TieredMenu_Microphone_Pop_Song3--></T>
+    <T>139144<!--singingSkill_TieredMenu_Microphone_TheaterDrama_Song1--></T>
+    <T>139145<!--singingSkill_TieredMenu_Microphone_TheaterDrama_Song2--></T>
+    <T>139146<!--singingSkill_TieredMenu_Microphone_TheaterDrama_Song3--></T>
+    <T>139764<!--singingSkill_TieredMenu_Microphone_TheaterDrama_Written_Song1--></T>
+    <T>139765<!--singingSkill_TieredMenu_Microphone_TheaterDrama_Written_Song2--></T>
+    <T>141825<!--singingSkill_TieredMenu_Self_Practice--></T>
+    <T>139153<!--singingSkill_TieredMenu_Self_Folk_Song1--></T>
+    <T>139174<!--singingSkill_TieredMenu_Self_Folk_Song3--></T>
+    <T>139173<!--singingSkill_TieredMenu_Self_Folk_Song2--></T>
+    <T>139175<!--singingSkill_TieredMenu_Self_Jazz_Song1--></T>
+    <T>139176<!--singingSkill_TieredMenu_Self_Jazz_Song2--></T>
+    <T>139177<!--singingSkill_TieredMenu_Self_Jazz_Song3--></T>
+    <T>139766<!--singingSkill_TieredMenu_Self_Jazz_Written_Song1--></T>
+    <T>139767<!--singingSkill_TieredMenu_Self_Jazz_Written_Song2--></T>
+    <T>139178<!--singingSkill_TieredMenu_Self_Pop_Song1--></T>
+    <T>139179<!--singingSkill_TieredMenu_Self_Pop_Song2--></T>
+    <T>139180<!--singingSkill_TieredMenu_Self_Pop_Song3--></T>
+    <T>139181<!--singingSkill_TieredMenu_Self_TheaterDrama_Song1--></T>
+    <T>139182<!--singingSkill_TieredMenu_Self_TheaterDrama_Song2--></T>
+    <T>139183<!--singingSkill_TieredMenu_Self_TheaterDrama_Song3--></T>
+    <T>139768<!--singingSkill_TieredMenu_Self_TheaterDrama_Written_Song1--></T>
+    <T>139769<!--singingSkill_TieredMenu_Self_TheaterDrama_Written_Song2--></T>
+  </L>
+</I>

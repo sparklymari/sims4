@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_PlayPipeOrgan" s="152375">
+  <L n="value">
+    <T>151308<!--PipeOrgan_CreateSheetMusic--></T>
+    <T>151309<!--PipeOrgan_WriteSong_Staging--></T>
+    <T>151306<!--PipeOrgan_StartWriting--></T>
+    <T>151452<!--pipeOrgan_PlayHauntingMusic--></T>
+    <T>151318<!--PipeOrgan_WriteJingle--></T>
+    <T>151552<!--pipeOrgan_Haunt--></T>
+    <T>151316<!--pipeOrgan_PlunkForInspiration--></T>
+    <T>149929<!--PipeOrgan_Practice--></T>
+    <T>149947<!--pipeOrgan_Practice_Child--></T>
+    <T>149948<!--pipeOrgan_Practice_Child_Scales--></T>
+    <T>149946<!--pipeOrgan_Practice_Scales--></T>
+    <T>151301<!--pipeOrgan_Play_Song--></T>
+    <T>149937<!--PipeOrgan_Practice_Chooser--></T>
+    <T>149999<!--PipeOrgan_Practice_Chooser_Child--></T>
+    <T>152882<!--pipeOrgan_PlayHauntingMusic_Vampire--></T>
+  </L>
+</I>

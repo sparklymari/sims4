@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherSeasonalForecasts" i="snippet" m="snippets" n="weatherSeasonalForecasts_Winter_Jungle" s="184933">
+  <L n="value">
+    <U>
+      <E n="key">EARLY</E>
+      <T n="value">184947<!--weatherForcastList_Winter_Jungle_Early--></T>
+    </U>
+    <U>
+      <E n="key">LATE</E>
+      <T n="value">184948<!--weatherForcastList_Winter_Jungle_Late--></T>
+    </U>
+    <U>
+      <E n="key">MID</E>
+      <T n="value">184949<!--weatherForcastList_Winter_Jungle_Mid--></T>
+    </U>
+  </L>
+</I>

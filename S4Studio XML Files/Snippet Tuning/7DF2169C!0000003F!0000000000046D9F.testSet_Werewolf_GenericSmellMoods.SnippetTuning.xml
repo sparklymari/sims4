@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_Werewolf_GenericSmellMoods" s="290207">
+  <L n="test">
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14633<!--Mood_Bored--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">27149<!--Mood_Asleep--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14634<!--Mood_Confident--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14644<!--Mood_Dazed--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14635<!--Mood_Embarrassed--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14636<!--Mood_Energized--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14637<!--Mood_Fine--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14639<!--Mood_Focused--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14640<!--Mood_Happy--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14641<!--Mood_Inspired--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14642<!--Mood_Playful--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14643<!--Mood_Sad--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14645<!--Mood_Stressed--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">14646<!--Mood_Uncomfortable--></T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="mood">
+        <U n="mood">
+          <T n="mood">201531<!--Mood_Possessed--></T>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

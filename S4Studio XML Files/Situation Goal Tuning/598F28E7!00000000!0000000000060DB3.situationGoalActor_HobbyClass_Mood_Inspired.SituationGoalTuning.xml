@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalActor" i="situation_goal" m="situations.situation_goal_actor" n="situationGoalActor_HobbyClass_Mood_Inspired" s="396723">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Events\EventGoal_Inspired.png">2f7d0004:00000000:b2edb9db21e6c47f</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0xE5632600<!--Become Inspired--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x378844C8<!--Taking a Thoughtful Shower, Browsing Art on a Computer, or burning Pinetree Oil or Incense are good ways to become Inspired.--></T>
+      </V>
+    </U>
+  </V>
+  <V n="_goal_test" t="mood">
+    <U n="mood">
+      <T n="mood">14641<!--Mood_Inspired--></T>
+    </U>
+  </V>
+  <L n="_post_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+    <V t="situation_job">
+      <U n="situation_job">
+        <L n="situation_jobs">
+          <T>397234<!--job_HobbyClass_ClassMember_CTYAE--></T>
+          <T>400498<!--job_HobbyClass_ClassMember_TYAE--></T>
+          <T>397235<!--job_HobbyClass_Instructor--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="_score">30</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

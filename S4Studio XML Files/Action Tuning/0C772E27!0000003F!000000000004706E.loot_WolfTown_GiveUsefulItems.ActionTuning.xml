@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_WolfTown_GiveUsefulItems" s="290926">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145294<!--gardenFlower_GP04wolfsbane ({S.Wolfsbane}{P.Wolfsbanes})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">278923<!--foodIngredient_GENMeat01_redMeat (Wrapped Red Meat)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <T n="quantity">5</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">311327<!--collectFishLarge_GP12GENluna_set1 (Luna Fish)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310912<!--sculptTableSmall_GP12GENmoonFlowerCase_set1 (Moonpetal)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <T n="quantity">5</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285956<!--recipe_Drink_Bar_MoonpetalPunch--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <T n="quantity">5</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">285955<!--recipe_Drink_Bar_WerewolfCure--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310083<!--book_GP12GENsecret_set1 (A History of Moonwood Mill)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312499<!--book_GP12GENsecret_set2 (An Insider’s Guide to Being a Werewolf)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">312500<!--book_GP12GENsecret_set3 (The Diary of Greggorius Lunvik)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">310081<!--bookThin_GP12GENwereMagazine_set1 (WE’RE Living Magazine)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

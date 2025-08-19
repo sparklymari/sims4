@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Whim" i="whim" m="whims.whim" n="want_Macabre_BecomeClosewithDead" s="382399">
+  <V n="chaining_whimset_chance_multiplier" t="enabled">
+    <T n="enabled">1.5</T>
+  </V>
+  <T n="fluff_description">0x4AE75913<!--Make a friend for life—and the afterlife.--></T>
+  <T n="goal">373134<!--whimGoal_Relationship_Macabre_CloseFriendGhost--></T>
+  <E n="type">LONG_TERM</E>
+</I>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="R3Event_Week4_Quest08" schema="LiveEventQuest" type="Object">
+      <V name="_display_data" variant="0x3BB04258" schema="OptionalDisplayMixinTunable">
+        <V name="instance_display_description" variant="0x60BA1D0C">
+          <T type="LocalizationKey">0x6752CD8D</T>
+        </V>
+        <V name="instance_display_name" variant="0x87E76EC3">
+          <T type="LocalizationKey">0xCE4CE1CF</T>
+        </V>
+      </V>
+      <L name="activation_triggers">
+        <U type="Object" schema="ActivationTriggersTuple">
+          <T name="key">1</T>
+          <L name="value">
+            <U type="Object" schema="PivotalConditionsTuple">
+              <L name="conditions">
+                <V type="Variant" variant="0x6DF22E85" />
+                <V type="Variant" variant="0xDB3968F7" schema="TunablePivotalMomentCondition">
+                  <L name="pivotal_moments">
+                    <T type="TableSetReference">376843</T>
+                  </L>
+                  <T name="save_id">2</T>
+                </V>
+                <V type="Variant" variant="0xDB3968F7" schema="TunablePivotalMomentCondition">
+                  <L name="pivotal_moments">
+                    <T type="TableSetReference">376844</T>
+                  </L>
+                  <T name="save_id">3</T>
+                </V>
+              </L>
+            </U>
+          </L>
+        </U>
+      </L>
+      <L name="reward_icons" />
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="LiveEventQuest" schema_hash="0xFABF4DF3">
+      <Columns>
+        <Column name="_display_data" type="Variant" flags="0x00000000" />
+        <Column name="activation_triggers" type="Vector" flags="0x00000000" />
+        <Column name="reward_icons" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="OptionalDisplayMixinTunable" schema_hash="0x6593F7B6">
+      <Columns>
+        <Column name="instance_display_description" type="Variant" flags="0x00000000" />
+        <Column name="instance_display_name" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="ActivationTriggersTuple" schema_hash="0x09081DA0">
+      <Columns>
+        <Column name="key" type="Int32" flags="0x00000000" />
+        <Column name="value" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="PivotalConditionsTuple" schema_hash="0xC6A15AC8">
+      <Columns>
+        <Column name="conditions" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunablePivotalMomentCondition" schema_hash="0xEF536D36">
+      <Columns>
+        <Column name="pivotal_moments" type="Vector" flags="0x00000000" />
+        <Column name="save_id" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

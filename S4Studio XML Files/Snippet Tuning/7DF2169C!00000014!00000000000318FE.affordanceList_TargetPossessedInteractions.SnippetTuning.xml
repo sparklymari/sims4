@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_TargetPossessedInteractions" s="203006">
+  <L n="value">
+    <T>202969<!--social_NonTouching_NormaltoPossessed_TrytoTalk--></T>
+    <T>202935<!--social_NonTouching_PossessedtoPossessed--></T>
+    <T>202955<!--social_NonTouching_PossessedtoPossessed_Greet--></T>
+    <T>202998<!--si_Touching_Social_Possessed_TrytoWakeUp--></T>
+    <T>204212<!--social_touching_InfectionCure_AdministerCure--></T>
+    <T>204211<!--social_touching_InfectionCure_TestCure--></T>
+    <T>201905<!--listeningDevice_Socials_PlantBug--></T>
+    <T>203182<!--social_nothingToSeeHere--></T>
+    <T>119907<!--social_GoAway_Neighbor--></T>
+    <T>119787<!--social_Greet_Neighbor--></T>
+    <T>147299<!--social_Greet_Neighbor_Butler--></T>
+    <T>147323<!--social_GoAway_Neighbor_Butler--></T>
+  </L>
+</I>

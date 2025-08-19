@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_sabotage" s="129460">
+  <L n="value">
+    <T>185926<!--object_Bane_Sabotage_Sprinkler--></T>
+    <T>185926<!--object_Bane_Sabotage_Sprinkler--></T>
+    <T>153712<!--object_Bane_Sabotage_talkingToilet--></T>
+    <T>104169<!--Tent_Sabotage--></T>
+    <T>187190<!--TV_SabotageCountdown--></T>
+    <T>187115<!--holidayDecorations_BoxOfDecorations_Sabotage--></T>
+    <T>181887<!--holidayTree_Sabotage--></T>
+    <T>177391<!--laundry_Dryer_Sabotage--></T>
+    <T>177271<!--laundry_WashingMachine_Sabotage--></T>
+    <T>187142<!--food_Multi_Sabotage_SpicyPeppers--></T>
+    <T>187180<!--food_Multi_Sabotage_StomachMeds--></T>
+    <T>187179<!--food_Multi_Sabotage_YuckFruit--></T>
+    <T>195535<!--CelebrityTile_Deface--></T>
+    <T>200282<!--sleepingPod_Interactions_Mischief_Sabotage--></T>
+    <T>198618<!--object_Bane_Sabotage_Videostation--></T>
+    <T>199636<!--object_Bane_Sabotage_StreamingDrone--></T>
+    <T>240656<!--object_bane_Sabotage_PowerGenerator--></T>
+    <T>248646<!--object_Bane_Sabotage_Kotatsu--></T>
+    <T>40052<!--object_Bane_SabotageObservatory--></T>
+    <T>40053<!--object_Bane_Sabotage_Computer--></T>
+    <T>40054<!--object_Bane_Sabotage_MotionGame--></T>
+    <T>40055<!--object_Bane_Sabotage_StereoTV--></T>
+    <T>40057<!--object_Bane_Sabotage_CoffeeMaker--></T>
+    <T>40058<!--object_Bane_Sabotage_Fridge--></T>
+    <T>40059<!--object_Bane_Sabotage_Microwave--></T>
+    <T>40060<!--object_Bane_Sabotage_Stove--></T>
+    <T>40062<!--object_Bane_Sabotage_Bathtub--></T>
+    <T>40063<!--object_Bane_Sabotage_Shower--></T>
+    <T>40064<!--object_Bane_Sabotage_Sink--></T>
+    <T>40065<!--object_Bane_Sabotage_Toilet--></T>
+    <T>97003<!--rocketShip_Mischief_StuffFruit--></T>
+    <T>29466<!--rocketShip_Sabotage_LandingStabilizers--></T>
+    <T>29467<!--rocketShip_Sabotage_LandingStabilizers_Continue--></T>
+    <T>119642<!--object_Bane_Sabotage_SteamRoom--></T>
+    <T>119920<!--steamRoom_Sabotage_FireleafExtract--></T>
+    <T>104169<!--Tent_Sabotage--></T>
+    <T>119473<!--SteamRoom_Sabotage_Sulfur--></T>
+  </L>
+</I>

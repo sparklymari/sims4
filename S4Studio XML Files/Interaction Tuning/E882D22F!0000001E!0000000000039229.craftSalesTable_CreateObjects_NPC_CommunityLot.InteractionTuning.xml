@@ -1,0 +1,2558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="craftSalesTable_CreateObjects_NPC_CommunityLot" s="234025">
+  <L n="_constraints" />
+  <V n="_saveable" t="enabled" />
+  <L n="_static_commodities">
+    <U>
+      <T n="static_commodity">147984<!--staticCommodity_CraftSalesTable_MakeItems--></T>
+    </U>
+  </L>
+  <T n="allow_user_directed">False</T>
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot" />
+  <L n="basic_extras">
+    <V t="loot">
+      <U n="loot">
+        <L n="loot_list">
+          <T>147980<!--loot_CraftSalesTable_IncreaseStatistic--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="basic_reserve_object" t="disabled" />
+  <V n="content_score" t="disabled" />
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29332<!--collectMySimsBuddy_01 (Buddy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29333<!--collectMySimsCandy_01 (DJ Candy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29342<!--collectMySimsCarl_01 (Zombie Carl)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29343<!--collectMySimsChaz_01 (Chaz McFreely)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29344<!--collectMySimsDrF_01 (Dr. F)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29345<!--collectMySimsElmira_01 (Elmira Clamp)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29346<!--collectMySimsGabby_01 (Ol' Gabby)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29347<!--collectMySimsGino_01 (Chef Gino)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29348<!--collectMySimsGonk_01 (Gonk)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29349<!--collectMySimsGothBoy_01 (Goth Boy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29350<!--collectMySimsHopper_01 (Hopper)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29351<!--collectMySimsJenny_01 (Jenny)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29334<!--collectMySimsLeaf_01 (Leaf)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29335<!--collectMySimsLyndsay_01 (Lyndsay)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29336<!--collectMySimsMorcubus_01 (Morcubus)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29337<!--collectMySimsPoppy_01 (Poppy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29338<!--collectMySimsTobor_01 (TOBOR)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29339<!--collectMySimsTrevor_01 (Trevor Verily)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29340<!--collectMySimsViolet_01 (Violet)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29341<!--collectMySimsYuki_01 (Yuki)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236756<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Confident--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236757<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Energized--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236758<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Flirty--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236759<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Focused--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">233721<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Happy--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236760<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Honey--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236761<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Inspired--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236763<!--recipe_Drink_JuiceFizzing_FizzyJuice_Single_Playful--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236815<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Confident--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236816<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Energized--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236817<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Flirty--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236819<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Focused--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236814<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Happy--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236818<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Inspired--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236820<!--recipe_Drink_JuiceFizzing_Seltzer_Single_Playful--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236798<!--recipe_Drink_JuiceFizzing_Kombucha_Single_Floral--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">236799<!--recipe_Drink_JuiceFizzing_Kombucha_Single_Herbal--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U n="weight">
+            <T n="base_value">3</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">11</T>
+                <L n="tests">
+                  <L>
+                    <V t="location">
+                      <U n="location">
+                        <U n="location_tests">
+                          <V n="is_venue_type" t="enabled">
+                            <U n="enabled">
+                              <T n="venue_type">223945<!--subVenue_Market--></T>
+                            </U>
+                          </V>
+                        </U>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29878<!--recipe_Woodwork_Sculpture_Dragon--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29879<!--recipe_Woodwork_Sculpture_Elephant--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29880<!--recipe_Woodwork_Sculpture_Horse--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29881<!--recipe_Woodwork_Sculpture_Knifeblock--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29882<!--recipe_Woodwork_Sculpture_Large_Bear--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29879<!--recipe_Woodwork_Sculpture_Elephant--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29880<!--recipe_Woodwork_Sculpture_Horse--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">29878<!--recipe_Woodwork_Sculpture_Dragon--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">74064<!--recipe_Woodwork_Sculpture_Angry--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">74349<!--recipe_Woodwork_Sculpture_Flirty--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">74360<!--recipe_Woodwork_Sculpture_Playful--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="recipe">
+                    <U n="recipe">
+                      <T n="recipe">74399<!--recipe_Woodwork_Sculpture_Sad--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_recipe_by_tags">
+                    <U n="random_recipe_by_tags">
+                      <L n="weighted_recipe_tags">
+                        <U>
+                          <U n="recipe_tag">
+                            <E n="recipe_tag">Recipe_CandleMakingStation_Candle</E>
+                          </U>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U n="weight">
+            <T n="base_value">3</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">11</T>
+                <L n="tests">
+                  <L>
+                    <V t="location">
+                      <U n="location">
+                        <U n="location_tests">
+                          <V n="is_venue_type" t="enabled">
+                            <U n="enabled">
+                              <T n="venue_type">223945<!--subVenue_Market--></T>
+                            </U>
+                          </V>
+                        </U>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">37721<!--toyDollGENKnight_01 (Lady Knight Doll)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">29027<!--toyDollGENModern_01 (** DEBUG **)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">36702<!--toyDollGENPrincess_01 (Princess Doll)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">27716<!--toyDollGENVictorian_01 (Victorian Lady Doll With Hat)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">58627<!--toyHandGENEmotionDollLLama_01_set2 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">58628<!--toyHandGENEmotionDollLLama_01_set3 (WaffleKone the Llamacorn Talking Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">11490<!--toyHandGENEmotionDollRobot_01_set1 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">58632<!--toyHandGENEmotionDollRobot_01_set2 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">58633<!--toyHandGENEmotionDollRobot_01_set3 (Bleep the Robot)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">30574<!--toyHandGENToyBoxDino_01_set1 (Teresa the Triceratops)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">30328<!--toyHandGENToyBoxMonster_01_set1 (Chompy the Monsta)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22321<!--toyHandSmallGENCar_01 (Speedy Sportscar Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22288<!--toyHandSmallGENCarriage_01 (Fantasy Carriage Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22323<!--toyHandSmallGENDragon_01 (Fearsome Dragon Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22325<!--toyHandSmallGENHelicopter_01 (Fully Functional Helicopter Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22286<!--toyHandSmallGENHorse_01 (Pretty Prancing Palomino Pony Toy)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Common</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Common</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Common</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Common</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Common</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Common</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Uncommon</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seed_Uncommon</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seeds</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seeds</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seeds</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_Gardening_Seeds</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U n="weight">
+            <T n="base_value">3</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">11</T>
+                <L n="tests">
+                  <L>
+                    <V t="location">
+                      <U n="location">
+                        <U n="location_tests">
+                          <V n="is_venue_type" t="enabled">
+                            <U n="enabled">
+                              <T n="venue_type">223946<!--subVenue_Garden--></T>
+                            </U>
+                          </V>
+                        </U>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245925<!--dye_EP09GENBlack (Noir Black Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245920<!--dye_EP09GENBlue (Sky Blue Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245922<!--dye_EP09GENGreen (Sage Green Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245928<!--dye_EP09GENGrim (Grim Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245927<!--dye_EP09GENHoundstooth (Houndstooth Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245926<!--dye_EP09GENOrange (Amber Orange Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">235809<!--dye_EP09GENRed (Brick Red Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245923<!--dye_EP09GENWhite (Shale White Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">245924<!--dye_EP09GENYellow (Canary Yellow Dye)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_FabricationDye</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_FabricationDye</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="random_by_tags">
+                    <U n="random_by_tags">
+                      <L n="filter_tags">
+                        <E>Func_FabricationDye</E>
+                      </L>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">244765<!--waxCube_EP09GEN_set1 (Soy Wax)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">244765<!--waxCube_EP09GEN_set1 (Soy Wax)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">246890<!--waxCube_EP09GEN_set2 (Bees Wax)--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U n="weight">
+            <T n="base_value">3</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">11</T>
+                <L n="tests">
+                  <L>
+                    <V t="location">
+                      <U n="location">
+                        <U n="location_tests">
+                          <V n="is_venue_type" t="enabled">
+                            <U n="enabled">
+                              <T n="venue_type">231465<!--subVenue_MakerSpace--></T>
+                            </U>
+                          </V>
+                        </U>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+        <U>
+          <U n="outcome">
+            <L n="basic_extras">
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">242040<!--gardenFruit_EP09GENsoybean ({S.Soy Beans}{P.Soy Beans})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+              <V t="create_object">
+                <U n="create_object">
+                  <V n="creation_data" t="definition">
+                    <U n="definition">
+                      <T n="definition">241946<!--salvageEco_EP09GEN_01 ({S.Eco-Upgrade Part}{P.Eco-Upgrade Parts})--></T>
+                    </U>
+                  </V>
+                  <V n="location" t="inventory" />
+                  <E n="owner_sim">Actor</E>
+                  <T n="require_claim">True</T>
+                  <V n="temporary_tags" t="enabled">
+                    <L n="enabled">
+                      <E>Func_Temp_CraftSalesTable_CreatedObjects_BG</E>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U n="weight">
+            <T n="base_value">3</T>
+            <L n="multipliers">
+              <U>
+                <T n="multiplier">11</T>
+                <L n="tests">
+                  <L>
+                    <V t="location">
+                      <U n="location">
+                        <U n="location_tests">
+                          <V n="is_venue_type" t="enabled">
+                            <U n="enabled">
+                              <T n="venue_type">231465<!--subVenue_MakerSpace--></T>
+                            </U>
+                          </V>
+                        </U>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </L>
+          </U>
+        </U>
+      </L>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">ACTOR</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="statistic">
+      <U n="statistic">
+        <T n="stat">147957<!--statistic_CraftSalesTable_CreateObject--></T>
+        <V n="threshold" t="value_threshold">
+          <U n="value_threshold">
+            <E n="comparison">LESS</E>
+            <T n="value">1</T>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="identity">
+      <U n="identity">
+        <T n="subjects_match">True</T>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+  <T n="visible">False</T>
+</I>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_JuiceFizzer_Debug_Ingredients_Suspicious" s="237250">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">10</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67363<!--gardenFruit_GP01GENelderberry_toxic ({S.Noxious Elderberry}{P.Noxious Elderberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67557<!--gardenFruit_GP01GENhuckleberry_toxic ({S.Muckleberry}{P.Muckleberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67356<!--gardenFlower_GP01GENchamomile_toxic ({S.Toxic Chamomile}{P.Toxic Chamomiles})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67365<!--gardenFlower_GP01GENfireleaf_toxic ({S.Poison Fireleaf}{P.Poison Fireleaves})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67364<!--gardenFruit_GP01GENmushroomMorel_toxic ({S.False Morel Mushroom}{P.False Morel Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246130<!--gardenFruit_EP09GENmeatCube (Faux Meat Cube)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246131<!--gardenFruit_EP09GENmeatJerky (Faux Jerky Cube)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">244876<!--seedPacket_Garden_EP09_BombardierBeetleNugget (Bombardier Beetle Nugget)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">244875<!--seedPacket_Garden_EP09_BeetleNugget (Beetle Nugget)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">244874<!--seedPacket_Garden_EP09_CricketFlour (Cricket Flour)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">244457<!--seedPacket_Garden_EP09_grubMeal (Grub Meal)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

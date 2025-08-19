@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_FoosballTable" s="121522">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="game" t="enabled">
+      <U n="enabled">
+        <L n="games">
+          <T>122707<!--gameRules_Foosball--></T>
+        </L>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">115301<!--retailComponent_Default_LowAppeal--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_part_data">
+    <U>
+      <V n="adjacent_parts" t="enabled">
+        <L n="enabled">
+          <T>2</T>
+        </L>
+      </V>
+      <V n="is_mirrored" t="enabled" />
+      <T n="part_definition">121526<!--objectPart_FoosballTable_PlaySideA_0--></T>
+    </U>
+    <U>
+      <V n="adjacent_parts" t="enabled">
+        <L n="enabled">
+          <T>3</T>
+        </L>
+      </V>
+      <V n="is_mirrored" t="enabled" />
+      <T n="part_definition">122855<!--objectPart_FoosballTable_PlaySideB_1--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">1</T>
+      </V>
+    </U>
+    <U>
+      <V n="adjacent_parts" t="enabled">
+        <L n="enabled">
+          <T>0</T>
+        </L>
+      </V>
+      <V n="is_mirrored" t="enabled">
+        <T n="enabled">True</T>
+      </V>
+      <T n="part_definition">123254<!--objectPart_FoosballTable_PlaySideA_2--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">2</T>
+      </V>
+    </U>
+    <U>
+      <V n="adjacent_parts" t="enabled">
+        <L n="enabled">
+          <T>1</T>
+        </L>
+      </V>
+      <V n="is_mirrored" t="enabled">
+        <T n="enabled">True</T>
+      </V>
+      <T n="part_definition">123255<!--objectPart_FoosballTable_PlaySideB_3--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">3</T>
+      </V>
+    </U>
+    <U>
+      <T n="part_definition">130266<!--objectPart_FoosballTable_NonPlay--></T>
+      <V n="subroot_index" t="disabled" />
+    </U>
+  </L>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>122704<!--generic_FoosballTableSideA--></T>
+    <T>123135<!--generic_FoosballTableSideB--></T>
+    <T>121528<!--foosballTable_Play--></T>
+    <T>122731<!--foosballTable_PlayWith--></T>
+    <T>122797<!--foosballTable_WatchGame--></T>
+    <T>123961<!--clubPickerSuperInteraction_FoosballTable_Challenge--></T>
+    <T>124819<!--foosballTable_ChallengeSim--></T>
+    <T>127051<!--foosballTable_PlayWithWhilePlaying--></T>
+    <T>391554<!--game_ChallengeGrim_Foosball--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000038">
+  <Instances>
+    <I name="guidanceTipGroup_MultiUnit_Landlord_All" schema="GuidanceTipGroup" type="Object">
+      <T name="group_condition">0</T>
+      <L name="items">
+        <T type="TableSetReference">349708</T>
+        <T type="TableSetReference">352567</T>
+        <T type="TableSetReference">352790</T>
+        <T type="TableSetReference">353868</T>
+        <T type="TableSetReference">354962</T>
+        <T type="TableSetReference">352485</T>
+        <T type="TableSetReference">353070</T>
+        <T type="TableSetReference">352569</T>
+        <T type="TableSetReference">355034</T>
+        <T type="TableSetReference">358445</T>
+        <T type="TableSetReference">355149</T>
+        <T type="TableSetReference">359186</T>
+        <T type="TableSetReference">358931</T>
+        <T type="TableSetReference">352791</T>
+        <T type="TableSetReference">353072</T>
+        <T type="TableSetReference">354754</T>
+        <T type="TableSetReference">358930</T>
+        <T type="TableSetReference">358929</T>
+        <T type="TableSetReference">353111</T>
+        <T type="TableSetReference">352562</T>
+        <T type="TableSetReference">352564</T>
+        <T type="TableSetReference">352407</T>
+        <T type="TableSetReference">359446</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="GuidanceTipGroup" schema_hash="0x999006E8">
+      <Columns>
+        <Column name="group_condition" type="Int64" flags="0x00000000" />
+        <Column name="items" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

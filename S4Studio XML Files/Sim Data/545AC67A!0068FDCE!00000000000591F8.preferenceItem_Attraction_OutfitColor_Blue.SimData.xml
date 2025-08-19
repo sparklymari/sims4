@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000039">
+  <Instances>
+    <I name="preferenceItem_Attraction_OutfitColor_Blue" schema="AttractionPreferenceItem" type="Object">
+      <T name="cas_preference_category">363387</T>
+      <T name="dislike">365029</T>
+      <T name="like">365028</T>
+      <V name="tooltip" variant="0xC1A03855" />
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="AttractionPreferenceItem" schema_hash="0x0656776F">
+      <Columns>
+        <Column name="cas_preference_category" type="TableSetReference" flags="0x00000000" />
+        <Column name="dislike" type="TableSetReference" flags="0x00000000" />
+        <Column name="like" type="TableSetReference" flags="0x00000000" />
+        <Column name="tooltip" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

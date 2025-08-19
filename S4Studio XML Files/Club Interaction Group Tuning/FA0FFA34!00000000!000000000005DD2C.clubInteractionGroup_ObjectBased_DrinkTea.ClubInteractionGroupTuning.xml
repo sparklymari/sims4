@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_DrinkTea" s="384300">
+  <L n="affordances">
+    <T>280335<!--bubbleTeaCounter_PushOrderDrink_Autonomous--></T>
+    <T>77576<!--teaMaker_StartGroupCrafting_Autonomously--></T>
+    <T>298180<!--bubbleTea_MakeDrink_Autonomous--></T>
+    <T>76985<!--teaMaker_Grab--></T>
+    <T>280397<!--simPicker_TeaSet_Offer_Basic--></T>
+    <T>280552<!--simPicker_TeaSet_Offer_Bow--></T>
+    <T>280553<!--simPicker_TeaSet_Offer_Kneel--></T>
+    <T>280396<!--objectInSlotPicker_TeaSet_Offer_Basic--></T>
+    <T>281061<!--objectInSlotPicker_TeaSet_Offer_Bow--></T>
+    <T>281062<!--objectInSlotPicker_TeaSet_Offer_Kneel--></T>
+    <T>303226<!--bubbleTeaCounter_PushOrderDrink_NonVenue--></T>
+    <T>280347<!--bubbleTeaCounter_PushOrderDrink--></T>
+    <T>77667<!--teaMaker_StartCrafting_Pot--></T>
+    <T>279299<!--bubbleTeaCounter_StartCrafting--></T>
+    <T>346767<!--electricKettle_StartCrafting_Tea--></T>
+    <T>280395<!--social_TeaSet_Offer_Target--></T>
+    <T>280391<!--social_TeaSet_Offer_Basic--></T>
+    <T>280555<!--social_TeaSet_Offer_Bow--></T>
+    <T>280554<!--social_TeaSet_Offer_Kneel--></T>
+    <T>281058<!--consume_Drink_NonBar_BubbleTea--></T>
+    <T>281151<!--consume_Drink_Nonbar_BubbleTea_Straw--></T>
+    <T>8392<!--drink_Tea_Generic_Consume--></T>
+    <T>275511<!--teaSet_PourTea--></T>
+    <T>281117<!--teaSet_PourTea_DoubleHappiness_Gen2--></T>
+    <T>281118<!--teaSet_PourTea_DoubleHappiness_Gen3--></T>
+    <T>281119<!--teaSet_PourTea_EnglishTeaSet_Gen1--></T>
+    <T>281120<!--teaSet_PourTea_EnglishTeaSet_Gen2--></T>
+    <T>281121<!--teaSet_PourTea_EnglishTeaSet_Gen3--></T>
+    <T>414791<!--teaSet_PourTea_Pottery--></T>
+    <T>276432<!--teaSet_SteepTea_BlackDragon--></T>
+    <T>278209<!--teaSet_SteepTea_CalmingChamomile--></T>
+    <T>278213<!--teaSet_SteepTea_EarlGrey--></T>
+    <T>278212<!--teaSet_SteepTea_HealthyGreen--></T>
+    <T>276400<!--teaSet_SteepTea_OrangeBlossom--></T>
+    <T>278210<!--teaSet_SteepTea_PitchBlack--></T>
+    <T>278211<!--teaSet_SteepTea_RunOolong--></T>
+    <T>278216<!--teaSet_SteepTea_SparklingAppleJuice--></T>
+    <T>346764<!--electricKettle_TurnOn--></T>
+  </L>
+  <E n="category">FOOD_AND_DRINK</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_DrinkTea.png">2f7d0004:00000000:ab367e338ec9d9eb</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x18C31F42<!--Drink Tea--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xC11FB25E<!--Sims will brew and drink tea on:--></T>
+        <T>0xC7501D7F<!--• Tea Brewers--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">EP12</E>
+      <L n="value">
+        <T>0xD8628830<!--• Bubble Tea Counters--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">EP15</E>
+      <L n="value">
+        <T>0x73DA2459<!--• Kettles--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">GP11</E>
+      <L n="value">
+        <T>0xF1B0F326<!--• Tea Sets--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0x2054BAF1<!--Drink Tea--></T>
+  <T n="tooltip_template_negative">0x658E2F61<!--Don't Drink Tea--></T>
+</I>

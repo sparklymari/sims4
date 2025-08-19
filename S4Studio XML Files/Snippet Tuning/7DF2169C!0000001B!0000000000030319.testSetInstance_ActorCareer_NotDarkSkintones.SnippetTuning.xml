@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_ActorCareer_NotDarkSkintones" s="197401">
+  <L n="test">
+    <L>
+      <V t="skin_tone">
+        <U n="skin_tone">
+          <T n="invert">True</T>
+          <L n="skin_tones">
+            <T>12138<!--[Neutral] Human Natural Yellow 4 African, Island, NativeAmerican--></T>
+            <T>31444<!--[Neutral] Human Natural Red 5 African, Island, NativeAmerican--></T>
+            <T>191480<!--[Cool] Human Natural Red 5 African--></T>
+            <T>191901<!--[Cool] Human Natural Red 5 African--></T>
+            <T>191902<!--[Cool] Human Natural Red 5 African, Island--></T>
+            <T>191909<!--[Cool] Human Natural Blue 5 African--></T>
+            <T>191995<!--[Cool] Human Natural Blue 5 African--></T>
+            <T>45004<!--[Cool] Human Natural Red 4 African, Island, NativeAmerican--></T>
+            <T>191898<!--[Cool] Human Natural Red 5 African--></T>
+            <T>191488<!--[Neutral] Human Natural Yellow 4 African, Island, NativeAmerican--></T>
+            <T>148819<!--[Miscellaneous] Human Natural Red 2 Asian, Caucasian--></T>
+            <T>148820<!--[Miscellaneous] Human Natural Red 4 Caucasian, Latin, MiddleEastern, NorthAmerican, SouthAsian--></T>
+            <T>30714<!--[Warm] Human Natural Olive 3 African, Island, Latin, MiddleEastern, NativeAmerican, NorthAmerican, SouthAsian--></T>
+            <T>191485<!--[Warm] Human Natural Yellow 4 African, Island, NativeAmerican--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

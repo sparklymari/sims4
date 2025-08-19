@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003A">
+  <Instances>
+    <I name="Tutorial_EP17_Category_Life&amp;Death" schema="TutorialCategory" type="Object">
+      <L name="content" />
+      <T name="intro">0</T>
+      <T name="name">0x39BD382A</T>
+      <T name="tag">2847</T>
+      <T name="ui_sort_order">217</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="TutorialCategory" schema_hash="0xB0CC070F">
+      <Columns>
+        <Column name="content" type="Vector" flags="0x00000000" />
+        <Column name="intro" type="TableSetReference" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="tag" type="Int64" flags="0x00000000" />
+        <Column name="ui_sort_order" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalRanInteractionOnTargetedSim" i="situation_goal" m="situations.situation_goal_targeted_sim" n="Goal_NeighborhoodPotluck_Gossip" s="343236">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP15\UI\Icons\Events\Events_gossip.png">2f7d0004:00000000:02eed5ba874813fe</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x64847E19<!--Gossip with Sims--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x4E2024B<!--Select a guest to Gossip--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>302932<!--mixer_social_BayArea_NPC_baygossip_Targeted_Friendly_AlwaysOn--></T>
+      <T>273767<!--mixer_socials_GossipAboutOtherParents_Targeted_Friendly_AlwaysOn_STC--></T>
+      <T>31678<!--mixer_social_GossipAboutVideoGamePros_targeted_friendly_alwaysOn_skills--></T>
+      <T>75851<!--mixer_social_Gossip_targeted_friendly_alwaysOn_teen--></T>
+      <T>108232<!--mixer_social_GossipAboutBear--></T>
+      <T>107597<!--mixer_social_GossipAboutCoworkers_Targeted_Friendly_AlwaysOn_coworkers--></T>
+      <T>264831<!--mixer_social_CottageWorld_NPC_GossipAboutVillage_Targeted_Friendly_AlwaysOn--></T>
+      <T>280721<!--mixer_social_WeddingWorld_NPC_GrapevineGossip_Targeted_Friendly_AlwaysOn--></T>
+      <T>107235<!--mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_Career--></T>
+      <T>113359<!--mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_ActiveCareer--></T>
+      <T>25584<!--mixer_social_GossipAbout_targeted_friendly_alwaysOn--></T>
+      <T>340807<!--mixer_social_ShareStableGossip--></T>
+      <T>286656<!--mixer_social_GossipAbout_targeted_friendly_alwaysOn_Werewolf--></T>
+      <T>98634<!--mixer_social_GossipAboutNeighbors_targeted_friendly_alwaysOn_neighbor--></T>
+      <T>149424<!--mixer_social_GossipAboutVampires_Targeted_Friendly_AlwaysOn--></T>
+      <T>152919<!--mixer_social_GossipSakuraTea_Festival_Blossom_targeted_friendly--></T>
+      <T>329692<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Gossip--></T>
+      <T>329693<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Gossip--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_iterations">1</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AnimationElement" i="animation" m="animation.animation_element" n="coffeeCounter_Make" s="402322">
+  <T n="asm_key" p="InEP18\Sage\CoffeeCounter_Actions.interactionasm">02d5df13:00000000:46d9c83361cb5ae7</T>
+  <L n="begin_states">
+    <T>Coffee Make</T>
+  </L>
+  <T n="carry_target_name" o="true" />
+  <T n="target_name">barProBoba</T>
+</I>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_EP19Quests_Trade_FetchStart" s="441750">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">462796<!--ingredientApothecary_EP19GENacorn_set1 ({S.Acorn}{P.Acorns})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <L n="tests">
+          <L>
+            <V t="career_gig_test">
+              <U n="career_gig_test">
+                <T n="career">424758<!--career_EP19Quests--></T>
+                <V n="test_type" t="specific_gigs">
+                  <U n="specific_gigs">
+                    <V n="active_objective" t="enabled">
+                      <T n="enabled">441753<!--objective_EP19Quests_Trade_Fetch_DeliverA--></T>
+                    </V>
+                    <L n="gigs">
+                      <T>441723<!--questGig_EP19Quests_Trade_Fetch--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">466373<!--gardenFruit_EP19GENmoodBush_set1 ({S.Moody Shrub Seed}{P.Moody Shrub Seeds})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <L n="tests">
+          <L>
+            <V t="career_gig_test">
+              <U n="career_gig_test">
+                <T n="career">424758<!--career_EP19Quests--></T>
+                <V n="test_type" t="specific_gigs">
+                  <U n="specific_gigs">
+                    <V n="active_objective" t="enabled">
+                      <T n="enabled">441754<!--objective_EP19Quests_Trade_Fetch_DeliverB--></T>
+                    </V>
+                    <L n="gigs">
+                      <T>441723<!--questGig_EP19Quests_Trade_Fetch--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">8728<!--foodplateEatSingleGENGrilledCheese_01 ({S.Grilled Cheese Sandwich}{P.Grilled Cheese Sandwiches})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <L n="tests">
+          <L>
+            <V t="career_gig_test">
+              <U n="career_gig_test">
+                <T n="career">424758<!--career_EP19Quests--></T>
+                <V n="test_type" t="specific_gigs">
+                  <U n="specific_gigs">
+                    <V n="active_objective" t="enabled">
+                      <T n="enabled">441755<!--objective_EP19Quests_Trade_Fetch_DeliverC--></T>
+                    </V>
+                    <L n="gigs">
+                      <T>441723<!--questGig_EP19Quests_Trade_Fetch--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="recipe">
+          <U n="recipe">
+            <T n="recipe">443849<!--recipe_Apothecary_CuresAndElixirs_AuraShield--></T>
+            <T n="show_crafted_by_text">False</T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <L n="tests">
+          <L>
+            <V t="career_gig_test">
+              <U n="career_gig_test">
+                <T n="career">424758<!--career_EP19Quests--></T>
+                <V n="test_type" t="specific_gigs">
+                  <U n="specific_gigs">
+                    <V n="active_objective" t="enabled">
+                      <T n="enabled">441756<!--objective_EP19Quests_Trade_Fetch_DeliverD--></T>
+                    </V>
+                    <L n="gigs">
+                      <T>441723<!--questGig_EP19Quests_Trade_Fetch--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">465683<!--fairyDustPile_EP19GEN_set1 ({S.Pile of Fairy Dust}{P.Piles of Fairy Dust})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <L n="tests">
+          <L>
+            <V t="career_gig_test">
+              <U n="career_gig_test">
+                <T n="career">424758<!--career_EP19Quests--></T>
+                <V n="test_type" t="specific_gigs">
+                  <U n="specific_gigs">
+                    <V n="active_objective" t="enabled">
+                      <T n="enabled">441757<!--objective_EP19Quests_Trade_Fetch_DeliverE--></T>
+                    </V>
+                    <L n="gigs">
+                      <T>441723<!--questGig_EP19Quests_Trade_Fetch--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

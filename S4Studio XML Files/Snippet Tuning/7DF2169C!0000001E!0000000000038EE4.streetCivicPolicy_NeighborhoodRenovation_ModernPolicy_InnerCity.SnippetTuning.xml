@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="StreetCivicPolicy" i="snippet" m="civic_policies.street_civic_policy" n="streetCivicPolicy_NeighborhoodRenovation_ModernPolicy_InnerCity" s="233188">
+  <V n="_display_data" t="optional_display_mixin">
+    <U n="optional_display_mixin">
+      <V n="instance_display_description" t="enabled_display_description">
+        <T n="enabled_display_description">0x3D78408<!--Having seen other cities in the greater Evergreen Harbor area, it's easy to compare and acknowledge there's work that could be done at Conifer Station to keep up with the times. By putting funding towards changes in this district, you will start to see new projects roll out with the apartments, railways, and the towers.\n\nOf course, funding for this development will have to come from somewhere. With this initiative, weekly Utility Bills will be increased, but we'll also put in place an increase in residents' career pay to offset that added cost.--></T>
+      </V>
+      <V n="instance_display_icon" t="enabled_display_icon">
+        <T n="enabled_display_icon" p="InEP09\UI\Icons\CivicPolicies\NghdRenovation_FundDev.png">2f7d0004:00000000:3a235aa6368113d4</T>
+      </V>
+      <V n="instance_display_name" t="enabled_display_name">
+        <T n="enabled_display_name">0x5F257B8F<!--Modern Development in Conifer Station--></T>
+      </V>
+      <V n="instance_display_tooltip" t="disabled" />
+    </U>
+  </V>
+  <L n="civic_policy_effects">
+    <T>242282<!--streetConditionalLayerEffect_RemoveTrashLayer_InnerCity_Modern--></T>
+    <T>240161<!--streetConditionalLayerEffect_RemoveBaseLayer_InnerCity_ApartmentBlock--></T>
+    <T>240160<!--streetConditionalLayerEffect_RemoveBaseLayer_InnerCity_ApartmentBlock_ClientOnly--></T>
+    <T>240163<!--streetConditionalLayerEffect_RemoveBaseLayer_InnerCity_StreetTransform_ClientOnly--></T>
+    <T>240168<!--streetConditionalLayerEffect_RemoveBaseLayer_InnerCity_RailwayStation_ClientOnly--></T>
+    <T>240162<!--streetConditionalLayerEffect_RemoveBaseLayer_InnerCity_NeighborhoodBlocks_ClientOnly--></T>
+    <T>240159<!--streetConditionalLayerEffect_RemoveBaseLayer_InnerCity_GasTowers_ClientOnly--></T>
+    <T>234479<!--streetConditionalLayerEffect_Modern_InnerCity_ApartmentBlock--></T>
+    <T>240153<!--streetConditionalLayerEffect_Modern_InnerCity_ApartmentBlock_ClientOnly--></T>
+    <T>234488<!--streetConditionalLayerEffect_Modern_InnerCity_StreetTransform--></T>
+    <T>234482<!--streetConditionalLayerEffect_Modern_InnerCity_RailwayStation--></T>
+    <T>240154<!--streetConditionalLayerEffect_Modern_InnerCity_RailwayStation_ClientOnly--></T>
+    <T>234481<!--streetConditionalLayerEffect_Modern_InnerCity_NeighborhoodBlocks--></T>
+    <T>234480<!--streetConditionalLayerEffect_Modern_InnerCity_GasTowers--></T>
+    <T>234551<!--streetMapOverlayEffect_ApartmentBlock_Modern--></T>
+    <T>234541<!--streetMapOverlayEffect_GasTowers_Painted--></T>
+    <T>234544<!--streetMapOverlayEffect_NeighborhoodBlocks_Modern--></T>
+    <T>234542<!--streetMapOverlayEffect_RailwayStation_Modern--></T>
+    <T>234549<!--streetMapOverlayEffect_StreetTransform_Modern--></T>
+    <T>234401<!--streetPlexExteriorChangeEffect_InnerCity--></T>
+    <T>234942<!--streetResidentSimLootEffect_ModernPolicy--></T>
+  </L>
+  <U n="daily_vote_random_range">
+    <T n="upper_bound">4</T>
+  </U>
+  <U n="initial_vote_random_range">
+    <T n="upper_bound">2</T>
+  </U>
+  <T n="vote_count_statistic">233197<!--statistic_Street_CivicPolicy_Vote_DevelopmentPolicy_InnerCity--></T>
+</I>

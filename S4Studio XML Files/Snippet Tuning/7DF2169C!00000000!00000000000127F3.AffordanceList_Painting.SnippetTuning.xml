@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="AffordanceList_Painting" s="75763">
+  <L n="value">
+    <T>38889<!--canvas_PaintPainting_Staging_Small--></T>
+    <T>40764<!--canvas_PaintPainting_Staging_Practice--></T>
+    <T>13129<!--canvas_PaintPainting_Staging_Medium--></T>
+    <T>38890<!--canvas_PaintPainting_Staging_Large--></T>
+    <T>33827<!--canvas_Mathematics_Staging--></T>
+    <T>40778<!--easel_PracticePainting--></T>
+    <T>13287<!--crafting_resume--></T>
+    <T>99758<!--canvas_PaintPainting_Staging_Medium_Angry--></T>
+    <T>99760<!--canvas_PaintPainting_Staging_Medium_Confident--></T>
+    <T>99761<!--canvas_PaintPainting_Staging_Medium_Flirty--></T>
+    <T>99762<!--canvas_PaintPainting_Staging_Medium_Playful--></T>
+    <T>99764<!--canvas_PaintPainting_Staging_Medium_Sad--></T>
+    <T>27764<!--easel_Craft_Autonomously--></T>
+    <T>40777<!--easel_Craft_PracticePicker--></T>
+    <T>96823<!--crafting_resume_Easel--></T>
+    <T>97079<!--crafting_resume_Easel_Practice--></T>
+    <T>13359<!--easel_StartCrafting--></T>
+    <T>33838<!--easel_StartCrafting_Mathematics--></T>
+    <T>132318<!--easel_StartCrafting_GrilledCheese--></T>
+    <T>146266<!--mural_wallBrush_Paint_Center--></T>
+    <T>148021<!--mural_wallBrush_Graffiti_Staging--></T>
+    <T>147629<!--mural_RollUp_Paint_Staging--></T>
+    <T>148171<!--mural_RollUp_Graffiti_Staging--></T>
+    <T>148232<!--mural_Garage_Paint_Staging--></T>
+    <T>148233<!--mural_Garage_Graffiti_Staging--></T>
+    <T>147899<!--mural_Floor_Paint_Staging--></T>
+    <T>149561<!--mural_Floor_Graffiti_Staging--></T>
+    <T>146620<!--mural_Wall_ResumePaint--></T>
+    <T>148025<!--mural_Wall_ResumeGraffiti--></T>
+    <T>147900<!--mural_Floor_ResumePaint--></T>
+    <T>148278<!--mural_Wall_StartPaint_Political--></T>
+    <T>146495<!--mural_Wall_StartPaint--></T>
+    <T>148277<!--mural_Wall_StartPaint_City--></T>
+    <T>148280<!--mural_Wall_StartPaint_Cultural--></T>
+    <T>148279<!--mural_Wall_StartPaint_Figures--></T>
+    <T>148281<!--mural_Wall_StartPaint_Illusion--></T>
+    <T>148019<!--mural_Wall_StartGraffiti--></T>
+    <T>147901<!--mural_Floor_StartPaint--></T>
+    <T>148690<!--mural_Floor_StartIllusion--></T>
+    <T>151351<!--mural_Floor_StartNature--></T>
+    <T>151352<!--mural_Floor_StartFigure--></T>
+    <T>151319<!--mural_Floor_StartCultural--></T>
+    <T>151353<!--mural_Floor_StartActivist--></T>
+    <T>227598<!--easel_Craft_Autonomously_FigurePainting--></T>
+    <T>231046<!--mural_Floor_StartGraffiti--></T>
+  </L>
+</I>

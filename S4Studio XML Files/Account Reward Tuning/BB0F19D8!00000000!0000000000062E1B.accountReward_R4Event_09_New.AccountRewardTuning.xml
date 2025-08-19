@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R4Event_09_New" s="405019">
+  <T n="category">0xB8042198<!--Full Body--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CASEmitSuit_large.png">2f7d0004:00000000:a109b828f97417f1</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">453447<!--ymBody_EF62EmitRelevart_BlackPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">453228<!--ymBody_EF62EmitRelevart_NavyGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">453448<!--ymBody_EF62EmitRelevart_NavyOrange--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">453449<!--ymBody_EF62EmitRelevart_WhiteBlueLt--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">453450<!--ymBody_EF62EmitRelevart_WhiteNavy--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458952<!--yfBody_EF62EmitRelevart_BlackPink--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458956<!--yfBody_EF62EmitRelevart_NavyGreen--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458953<!--yfBody_EF62EmitRelevart_NavyOrange--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458954<!--yfBody_EF62EmitRelevart_WhiteBlueLt--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458955<!--yfBody_EF62EmitRelevart_WhiteNavy--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x53E6C847<!--Find this item in Create a Sim under Full Body, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0xB12F3756<!--Does it protect the time traveler? Is it temporally insulated? Does it provide a quick dry in a rainstorm? No. But...\n\nA thousand years from now, this is the hottest thing in the megalopolis of Greater Sixam!--></T>
+  <T n="reward_name">0xDA88009<!--Be "The Emit"--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CASEmitSuit_large.png">2f7d0004:00000000:a109b828f97417f1</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CASemitSuit.png">2f7d0004:00000000:d8326b431a91e8d1</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CASemitSuit.png">2f7d0004:00000000:d8326b431a91e8d1</T>
+</I>

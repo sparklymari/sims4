@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_ChemicalAnalyzer" s="104713">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>15076<!--Brokenness_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15080<!--BrokenState_Broken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15081<!--BrokenState_Unbroken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15132<!--Dirty_Clean--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15130<!--DirtyState_Clean--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15133<!--Dirty_Dirty--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15131<!--DirtyState_Dirty--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">73870<!--TheKnack_Awesome--></T>
+              </U>
+              <U>
+                <T n="key">73871<!--TheKnack_NotAwesome--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">73871<!--TheKnack_NotAwesome--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">185122<!--object_Rain_Outside--></T>
+              </U>
+              <U>
+                <T n="key">185125<!--object_Rain_Inside--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">185125<!--object_Rain_Inside--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">235497<!--ecoFootprint_Object_AcidRain_Outside--></T>
+              </U>
+              <U>
+                <T n="key">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">255047<!--dustLevel_Object_Values_None--></T>
+              </U>
+              <U>
+                <T n="key">255048<!--dustLevel_Object_Values_Clean--></T>
+              </U>
+              <U>
+                <T n="key">255049<!--dustLevel_Object_Values_Dusty--></T>
+              </U>
+              <U>
+                <T n="key">255050<!--dustLevel_Object_Values_Dirty--></T>
+              </U>
+              <U>
+                <T n="key">255051<!--dustLevel_Object_Values_Filthy--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">255047<!--dustLevel_Object_Values_None--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">403716<!--objectStateValue_GhostPowers_BeenUpgraded--></T>
+              </U>
+              <U>
+                <T n="key">403718<!--objectStateValue_GhostPowers_NOTBeenUpgraded--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">403718<!--objectStateValue_GhostPowers_NOTBeenUpgraded--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15076<!--Brokenness_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15077<!--Brokenness_Neutral--></T>
+              </U>
+              <U>
+                <T n="key">15078<!--Brokenness_Unbroken--></T>
+              </U>
+              <U>
+                <T n="key">97754<!--Brokenness_Broken_Sabotage--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15078<!--Brokenness_Unbroken--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">False</T>
+            <T n="reset_to_default">False</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15080<!--BrokenState_Broken--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="single_effect">
+                        <U n="single_effect">
+                          <T n="effect_name">ep1_chemistry_lab_broken</T>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15081<!--BrokenState_Unbroken--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15081<!--BrokenState_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15132<!--Dirty_Clean--></T>
+              </U>
+              <U>
+                <T n="key">15133<!--Dirty_Dirty--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15132<!--Dirty_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15130<!--DirtyState_Clean--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">15131<!--DirtyState_Dirty--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">Dirty</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15130<!--DirtyState_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">108300<!--upgrade_ChemicalAnalyzer_NeverBreaks_Completed--></T>
+              </U>
+              <U>
+                <T n="key">108301<!--upgrade_ChemicalAnalyzer_NeverBreaks_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">108302<!--upgrade_ChemicalAnalyzer_NeverBreaks_Partial--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">108301<!--upgrade_ChemicalAnalyzer_NeverBreaks_NotStarted--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="weather_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="outside_loot">
+          <U>
+            <E n="key">AnyRain</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>235468<!--loot_EcoFootprint_Object_AcidRain_Dirtiness--></T>
+                <T>185163<!--loot_Wetness_Object_Rain_End--></T>
+              </L>
+              <L n="start_loot">
+                <T>235499<!--loot_EcoFootprint_Object_AcidRain--></T>
+                <T>184964<!--Loot_Wetness_Object_Start--></T>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_preroll_super_affordances">
+    <T>104725<!--chemicalAnalyzer_PracticeAnalysis--></T>
+    <T>115784<!--chemicalAnalyzer_PracticeAnalysis_doctor--></T>
+    <T>107798<!--chemicalAnalyzer_Clean--></T>
+    <T>112569<!--chemicalAnalyzer_Analyze_DetectiveTestAnalyzer--></T>
+  </L>
+  <L n="_super_affordances">
+    <T>13983<!--sim-stand--></T>
+    <T>107798<!--chemicalAnalyzer_Clean--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>104725<!--chemicalAnalyzer_PracticeAnalysis--></T>
+    <T>115784<!--chemicalAnalyzer_PracticeAnalysis_doctor--></T>
+    <T>106203<!--chemicalAnalyzer_Analyze_Flora_Picker--></T>
+    <T>104724<!--chemicalAnalyzer_Analyze_Flora--></T>
+    <T>107739<!--si_CareerScientist_Tinker_StereoTV--></T>
+    <T>107905<!--chemicalAnalyzer_Analyze_Collectible_Picker--></T>
+    <T>108306<!--chemicalAnalyzer_NeverBreaks--></T>
+    <T>116410<!--object_Knack_MakeAwesome_ChemicalAnalyzer--></T>
+    <T>108307<!--chemicalAnalyzer_NeverBreaks_Resume--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+    <T>13319<!--debug_BreakObject--></T>
+    <T>13327<!--debug_RepairObject--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>108310<!--object_Repair_Electronic_ChemicalAnalyzer--></T>
+    <T>111682<!--chemicalAnalyzer_Analyze_Sample_Picker--></T>
+    <T>108327<!--chemicalAnalyzer_Analyze_Clue_Picker--></T>
+    <T>113597<!--chemicalAnalyzer_OrderedToAnalyze_Metals--></T>
+    <T>113699<!--chemicalAnalyzer_OrderedToAnalyze_Flora--></T>
+    <T>113683<!--chemicalAnalyzer_OrderedToAnalyze_Crystals--></T>
+    <T>99087<!--object_ReplaceBrokenObject--></T>
+    <T>129510<!--object_Hire_Repair_Service--></T>
+    <T>156577<!--chemicalAnalyzer_Upgrade_NeverBreaks_CompletedDisplay--></T>
+    <T>112569<!--chemicalAnalyzer_Analyze_DetectiveTestAnalyzer--></T>
+    <T>111261<!--chemicalAnalyzer_Analyze_PatientSample_Picker--></T>
+    <T>111260<!--chemicalAnalyzer_Analyze_PatientSample--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

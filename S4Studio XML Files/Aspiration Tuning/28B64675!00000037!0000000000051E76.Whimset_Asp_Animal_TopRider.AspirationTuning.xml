@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectivelessWhimSet" i="aspiration" m="whims.whim_set" n="Whimset_Asp_Animal_TopRider" s="335478">
+  <T n="priority">10</T>
+  <T n="whim_reason">0x2FAF84AA<!--(From Championship Rider Aspiration)--></T>
+  <L n="whims">
+    <U>
+      <T n="whim">335483<!--want_EnterHorseCompetition--></T>
+    </U>
+    <U>
+      <T n="whim">335484<!--want_WinHorseCompetition--></T>
+    </U>
+    <U>
+      <T n="whim">335479<!--want_RideHorse--></T>
+    </U>
+    <U>
+      <T n="whim">320897<!--want_SkillUp_Equestrian--></T>
+    </U>
+    <U>
+      <T n="whim">335485<!--want_TrainHorse--></T>
+    </U>
+    <U>
+      <T n="whim">320897<!--want_SkillUp_Equestrian--></T>
+    </U>
+    <U>
+      <T n="weight">2</T>
+      <T n="whim">335486<!--want_EnterMasterHorseCompetition--></T>
+    </U>
+    <U>
+      <T n="weight">2</T>
+      <T n="whim">335487<!--want_WinMasterHorseCompetition--></T>
+    </U>
+    <U>
+      <T n="whim">335015<!--want_PetHorse--></T>
+    </U>
+  </L>
+</I>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_ClubDoor" s="128891">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0xA06F0E20<!--Club Door--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_ClubDoor.png">2f7d0004:00000000:737877268b83a42b</T>
+  </U>
+  <T n="perk_description">0x84FB01CF<!--Use this door to create a Club hangout and keep out those rival Clubs.--></T>
+  <L n="rewards">
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110360<!--doorsingle1x1_EP02RWclub3Tile_set1 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110817<!--doorsingle1x1_EP02RWclub3Tile_set2 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110818<!--doorsingle1x1_EP02RWclub3Tile_set3 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110819<!--doorsingle1x1_EP02RWclub3Tile_set4 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110820<!--doorsingle1x1_EP02RWclub3Tile_set5 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110821<!--doorsingle1x1_EP02RWclub3Tile_set6 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110822<!--doorsingle1x1_EP02RWclub3Tile_set7 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110823<!--doorsingle1x1_EP02RWclub3Tile_set8 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110824<!--doorsingle1x1_EP02RWclub3Tile_set9 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110825<!--doorsingle1x1_EP02RWclub3Tile_set10 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110826<!--doorsingle1x1_EP02RWclub3Tile_set11 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110827<!--doorsingle1x1_EP02RWclub3Tile_set12 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110828<!--doorsingle1x1_EP02RWclub3Tile_set13 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110829<!--doorsingle1x1_EP02RWclub3Tile_set14 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110830<!--doorsingle1x1_EP02RWclub3Tile_set15 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110831<!--doorsingle1x1_EP02RWclub3Tile_set16 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110832<!--doorsingle1x1_EP02RWclub3Tile_set17 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110833<!--doorsingle1x1_EP02RWclub3Tile_set18 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110834<!--doorsingle1x1_EP02RWclub3Tile_set19 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110835<!--doorsingle1x1_EP02RWclub3Tile_set20 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110836<!--doorsingle1x1_EP02RWclub3Tile_set21 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110837<!--doorsingle1x1_EP02RWclub3Tile_set22 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110933<!--doorsingle1x1_EP02RWclub3Tile_set23 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110838<!--doorsingle1x1_EP02RWclub3Tile_set24 (Club Door)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110839<!--doorsingle1x1_EP02RWclub3Tile_set25 (Club Door)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">400</T>
+</I>

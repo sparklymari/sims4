@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Fame_Progression_RemoveProgressionBuffs" s="189477">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>189452<!--buff_Fame_Progression_RankDown_0--></T>
+          <T>189448<!--buff_Fame_Progression_RankDown_1--></T>
+          <T>189449<!--buff_Fame_Progression_RankDown_2--></T>
+          <T>189450<!--buff_Fame_Progression_RankDown_3--></T>
+          <T>189451<!--buff_Fame_Progression_RankDown_4--></T>
+          <T>189458<!--buff_Fame_Progression_RankDown_Ambitious_0--></T>
+          <T>189459<!--buff_Fame_Progression_RankDown_Ambitious_1--></T>
+          <T>189460<!--buff_Fame_Progression_RankDown_Ambitious_2--></T>
+          <T>189461<!--buff_Fame_Progression_RankDown_Ambitious_3--></T>
+          <T>189462<!--buff_Fame_Progression_RankDown_Ambitious_4--></T>
+          <T>189443<!--buff_Fame_Progression_RankUp_1--></T>
+          <T>189444<!--buff_Fame_Progression_RankUp_2--></T>
+          <T>189445<!--buff_Fame_Progression_RankUp_3--></T>
+          <T>189446<!--buff_Fame_Progression_RankUp_4--></T>
+          <T>189442<!--buff_Fame_Progression_RankUp_5--></T>
+          <T>189465<!--buff_Fame_Progression_RankUp_Ambitious_1--></T>
+          <T>189466<!--buff_Fame_Progression_RankUp_Ambitious_2--></T>
+          <T>189467<!--buff_Fame_Progression_RankUp_Ambitious_3--></T>
+          <T>189468<!--buff_Fame_Progression_RankUp_Ambitious_4--></T>
+          <T>189464<!--buff_Fame_Progression_RankUp_Ambitious_5--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

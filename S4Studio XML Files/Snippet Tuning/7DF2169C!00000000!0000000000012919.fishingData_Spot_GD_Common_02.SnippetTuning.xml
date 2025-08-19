@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_Spot_GD_Common_02" s="76057">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">45444<!--collectFishSmallGENGuppy_01 (Guppy)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44912<!--collectFishSmallGENGold_01 (Goldfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45132<!--collectFishMedGENKoi_01 (Koi)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45236<!--collectFishSmallGENBetta_01 (Betta)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44914<!--collectFishMedGENTilapia_01 (Tilapia)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45222<!--collectFishLargeGENWolfEel_01 (Wolf Eel)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">94654<!--collectFishMed_GP02GENcichlid (Cichlid)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">120986<!--collectFishLarge_EP03GENTuna (Tuna)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+        <U n="weight">
+          <T n="base_value">6</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">385194<!--craftGem_SP49GENseed (Seed-Shaped Gemstone)--></T>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">7</T>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">1</T>
+      </U>
+    </U>
+  </U>
+</I>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_PizzaOven" s="335925">
+  <U n="_components">
+    <V n="affordance_tuning" t="enabled">
+      <U n="enabled">
+        <L n="affordance_map">
+          <U>
+            <T n="key">74457<!--fire_ReplaceBurntObject--></T>
+            <U n="value">
+              <L n="basic_extras">
+                <V t="state_change">
+                  <U n="state_change">
+                    <V n="new_value" t="single_value">
+                      <U n="single_value">
+                        <T n="new_value">335911<!--pizzaOven_Progress_NotStarted--></T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="inventory_item" t="enabled">
+      <U n="enabled">
+        <V n="add_to_sim_inventory_affordances" t="DEFAULT" />
+        <T n="can_place_in_world">False</T>
+        <V n="no_carry_add_to_sim_inventory_affordances" t="OVERRIDE">
+          <L n="OVERRIDE">
+            <T>338140<!--si_SwipeIntoSimInventory_PizzaOven--></T>
+          </L>
+        </V>
+        <T n="skip_carry_pose">True</T>
+        <L n="valid_inventory_types">
+          <E>SIM</E>
+        </L>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">115301<!--retailComponent_Default_LowAppeal--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>335911<!--pizzaOven_Progress_NotStarted--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>335919<!--pizzaOven_Content_Empty--></T>
+                <T>335916<!--pizzaOven_Servings_Empty--></T>
+                <T>341014<!--smallAppliance_FireRisk_None--></T>
+                <T>345952<!--appliances_BrokennessStatChange_Unlocked--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>335914<!--pizzaOven_Progress_Finished--></T>
+              <T>345952<!--appliances_BrokennessStatChange_Unlocked--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>335917<!--pizzaOven_Servings_Full--></T>
+                <T>15191<!--Freshness_Untouched--></T>
+                <T>345951<!--appliances_BrokennessStatChange_Locked--></T>
+              </L>
+            </V>
+            <L n="statistic_operations">
+              <V t="statistic_change">
+                <U n="statistic_change">
+                  <T n="amount">-5</T>
+                  <E n="periodic_change_behavior">APPLY_AT_START_ONLY</E>
+                  <T n="stat">16633<!--commodity_Object_Brokenness--></T>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15081<!--BrokenState_Unbroken--></T>
+              </L>
+            </V>
+            <L n="statistic_operations">
+              <V t="statistic_set_min">
+                <U n="statistic_set_min">
+                  <T n="stat">208412<!--commodity_IslanderCulture_TimeSinceBroken--></T>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15076<!--Brokenness_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15080<!--BrokenState_Broken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15132<!--Dirty_Clean--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15130<!--DirtyState_Clean--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15133<!--Dirty_Dirty--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15131<!--DirtyState_Dirty--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>39736<!--FireState_Burn_Material_Change_Burning--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>335911<!--pizzaOven_Progress_NotStarted--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">131795<!--Klepto_Not_Stolen_Object--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">73871<!--TheKnack_NotAwesome--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">341014<!--smallAppliance_FireRisk_None--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">345952<!--appliances_BrokennessStatChange_Unlocked--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">403718<!--objectStateValue_GhostPowers_NOTBeenUpgraded--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">335911<!--pizzaOven_Progress_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">335916<!--pizzaOven_Servings_Empty--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">15304<!--Quality_Normal--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15189<!--Freshness_Fresh--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">15190<!--Freshness_Spoiled--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="single_effect">
+                        <U n="single_effect">
+                          <T n="effect_name">sp46_pizzaoven_StinkLow</T>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15191<!--Freshness_Untouched--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15189<!--Freshness_Fresh--></T>
+            </V>
+            <T n="reset_to_default">False</T>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">26211<!--FreshChef_UnlockFreshness--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">335919<!--pizzaOven_Content_Empty--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15130<!--DirtyState_Clean--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">15131<!--DirtyState_Dirty--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">Dirty</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15130<!--DirtyState_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">15132<!--Dirty_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15080<!--BrokenState_Broken--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="single_effect">
+                        <U n="single_effect">
+                          <T n="effect_name">sp46_pizzaoven_broken</T>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15081<!--BrokenState_Unbroken--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15081<!--BrokenState_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">15078<!--Brokenness_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">336520<!--upgrade_Generic_FasterCooking_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">15385<!--Upgrade_Generic_LockBrokenness_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">15389<!--Upgrade_Generic_LockDirtiness_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+        <V n="timed_state_triggers" t="enabled">
+          <L n="enabled">
+            <U>
+              <T n="key">335914<!--pizzaOven_Progress_Finished--></T>
+              <U n="value">
+                <L n="ops">
+                  <U>
+                    <L n="states_to_trigger">
+                      <T>341014<!--smallAppliance_FireRisk_None--></T>
+                    </L>
+                    <T n="trigger_time">10</T>
+                  </U>
+                </L>
+              </U>
+            </U>
+            <U>
+              <T n="key">339369<!--pizzaOven_Progress_Preheating--></T>
+              <U n="value">
+                <L n="ops">
+                  <U>
+                    <L n="states_to_trigger">
+                      <T>335911<!--pizzaOven_Progress_NotStarted--></T>
+                    </L>
+                    <U n="trigger_tests">
+                      <L n="tests">
+                        <L>
+                          <V t="state">
+                            <U n="state">
+                              <T n="value">339369<!--pizzaOven_Progress_Preheating--></T>
+                            </U>
+                          </V>
+                        </L>
+                      </L>
+                    </U>
+                    <T n="trigger_time">20</T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled">
+      <U n="enabled">
+        <L n="custom_tooltips">
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="in_inventory" />
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x144FD666<!--{0.ObjectName}--></T>
+                  </V>
+                  <V n="text_tokens" t="enabled">
+                    <U n="enabled">
+                      <L n="tokens">
+                        <V t="participant_type">
+                          <U n="participant_type">
+                            <V n="objects" t="from_participant">
+                              <U n="from_participant">
+                                <E n="participant">Object</E>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="weather_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="outside_loot">
+          <U>
+            <E n="key">AnyRain</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>235500<!--loot_EcoFootprint_Object_AcidRain_End--></T>
+              </L>
+              <L n="start_loot">
+                <T>235499<!--loot_EcoFootprint_Object_AcidRain--></T>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>99087<!--object_ReplaceBrokenObject--></T>
+    <T>129510<!--object_Hire_Repair_Service--></T>
+    <T>144099<!--generic_Object_Toddler_Check_Out--></T>
+    <T>276518<!--infant_WhatsThat--></T>
+    <T>13319<!--debug_BreakObject--></T>
+    <T>13327<!--debug_RepairObject--></T>
+    <T>13142<!--Cheat_MakeDirty--></T>
+    <T>33960<!--Cheat_MakeClean--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>287360<!--werewolf_Smash--></T>
+    <T>336228<!--pizzaOven_Grab_PlaceInWorld_Pizza--></T>
+    <T>336230<!--pizzaOven_Grab_ToInventory_Pizza--></T>
+    <T>336229<!--pizzaOven_Grab_PlaceInWorld_Focaccia--></T>
+    <T>336231<!--pizzaOven_Grab_ToInventory_Focaccia--></T>
+    <T>336238<!--pizzaOven_StartCrafting--></T>
+    <T>337616<!--pizzaOven_StartCrafting_RequiredIngredients--></T>
+    <T>354289<!--pizzaOven_StartCraftingAutonomously--></T>
+    <T>354294<!--pizzaOven_StartCraftingAutonomously_RequiredIngredients--></T>
+    <T>336241<!--pizzaOven_StartCooking_Pizza--></T>
+    <T>336915<!--pizzaOven_StartCooking_Focaccia--></T>
+    <T>336536<!--pizzaOven_Upgrade_FasterCooking--></T>
+    <T>336537<!--pizzaOven_UpgradeContinue_FasterCooking--></T>
+    <T>336564<!--pizzaOven_Upgrades_CompletedDisplay_FasterCooking--></T>
+    <T>337521<!--pizzaOven_Upgrade_SelfCleaning--></T>
+    <T>337522<!--pizzaOven_UpgradeContinue_SelfCleaning--></T>
+    <T>337525<!--pizzaOven_Upgrades_CompletedDisplay_SelfCleaning--></T>
+    <T>337523<!--pizzaOven_Upgrade_Unbreakable--></T>
+    <T>337524<!--pizzaOven_UpgradeContinue_Unbreakable--></T>
+    <T>337536<!--pizzaOven_Upgrades_CompletedDisplay_Unbreakable--></T>
+    <T>337618<!--object_Knack_MakeAwesome_PizzaOven--></T>
+    <T>337422<!--object_Repair_PizzaOven--></T>
+    <T>337423<!--object_Knack_FixIt_PizzaOven--></T>
+    <T>337516<!--PizzaOven_Clean--></T>
+    <T>337518<!--PizzaOven_Empty--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>393663<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Repair--></T>
+    <T>393658<!--ghostPowers_Abilities_Helpful_NoPossess_Instantly_Clean--></T>
+    <T>393664<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Upgrade--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.25</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.75</T>
+      </U>
+    </L>
+  </U>
+</I>

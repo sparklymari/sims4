@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PremadeSimTemplate" i="sim_template" m="world.premade_sim_template" n="premadeSimTemplate_EP15_TenantApplicants_MultiBabies_Dad" s="357225">
+  <U n="_sim_creation_info">
+    <T n="first_name">0xD681260F<!--Owen--></T>
+    <V n="last_name" t="specify_last_name">
+      <T n="specify_last_name">0x6727850<!--Sage--></T>
+    </V>
+    <T n="resource_key" p="InEP15\Sims\SimInfos\TenantSims\ymOwenSage.siminfo">025ed6f4:00000000:fdb5260a4cc218b4</T>
+  </U>
+  <U n="_traits">
+    <L n="explicit">
+      <T>350825<!--trait_Hidden_NPC_TenantApplicant--></T>
+      <T>9337<!--trait_Goofball--></T>
+      <T>341152<!--trait_Generous--></T>
+      <T>16838<!--trait_FamilyOriented--></T>
+    </L>
+    <V n="num_random" t="disabled" />
+  </U>
+  <V n="primary_aspiration" t="enabled">
+    <T n="enabled">25786<!--Track_Family_B--></T>
+  </V>
+</I>

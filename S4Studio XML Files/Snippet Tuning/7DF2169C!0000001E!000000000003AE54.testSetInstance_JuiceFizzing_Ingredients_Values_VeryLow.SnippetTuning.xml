@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_JuiceFizzing_Ingredients_Values_VeryLow" s="241236">
+  <L n="test">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">242040<!--gardenFruit_EP09GENsoybean ({S.Soy Beans}{P.Soy Beans})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+            </U>
+          </V>
+          <E n="participant">ObjectIngredients</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

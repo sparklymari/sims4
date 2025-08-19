@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_Social_CareForLittleOnes" s="401377">
+  <L n="affordances">
+    <T>411283<!--sim_Toddler_CheckToddler_SmallBusinessEmployee--></T>
+    <T>411284<!--TYAE_CheckOn_Infant_SmallBusinessEmployee--></T>
+    <T>13338<!--DollHouse_Repair--></T>
+    <T>148145<!--nestingBlocks_Mentor--></T>
+    <T>163254<!--superInteraction_MakeAMess_Cleanup--></T>
+    <T>436619<!--sim_Greet_Infant_SmallBusinessOwner--></T>
+  </L>
+  <E n="category">SOCIAL</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_CareForLittleOnes.png">2f7d0004:00000000:e221c0d45530d642</T>
+  <T n="child_safe">False</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="club_rule">False</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x9D2E8008<!--Care for Little Ones--></T>
+  <T n="small_business_customer_rule">False</T>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xF0FDDAFE<!--Sims will check on and care for toddler and infant Sims.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x481E26D1<!--**DEBUG**--></T>
+  <T n="tooltip_template_negative">0x481E26D1<!--**DEBUG**--></T>
+</I>

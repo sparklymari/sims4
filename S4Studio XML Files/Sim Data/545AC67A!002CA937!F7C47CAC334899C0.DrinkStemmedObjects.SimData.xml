@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000039">
+  <Instances>
+    <I name="DrinkStemmedObjects" schema="Client_MatchmakingThumbnailProps" type="Object">
+      <L name="ObjectID">
+        <T type="UInt32">43857</T>
+        <T type="UInt32">36393</T>
+        <T type="UInt32">38354</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Client_MatchmakingThumbnailProps" schema_hash="0xAD9E4ECF">
+      <Columns>
+        <Column name="ObjectID" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

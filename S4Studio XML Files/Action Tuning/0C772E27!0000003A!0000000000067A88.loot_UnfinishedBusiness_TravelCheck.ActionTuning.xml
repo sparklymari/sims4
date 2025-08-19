@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_UnfinishedBusiness_TravelCheck" s="424584">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424583<!--buff_UnfinishedBusiness_Travel_Duration_BrindletonBay--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>166547<!--region_Residential_PetWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424586<!--buff_UnfinishedBusiness_Travel_Duration_Britechester--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>208814<!--region_Residential_UniversityWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424617<!--buff_UnfinishedBusiness_Travel_Duration_Camping--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>104096<!--region_Destination_CampingForest--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424618<!--buff_UnfinishedBusiness_Travel_Duration_Chestnut--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>311185<!--region_Residential_EP14World--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424619<!--buff_UnfinishedBusiness_Travel_Duration_Copperdale--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>272365<!--region_Residential_HighSchoolWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424620<!--buff_UnfinishedBusiness_Travel_Duration_DelSolValley--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>195493<!--region_Residential_FameWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424621<!--buff_UnfinishedBusiness_Travel_Duration_EP16--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>362425<!--region_Residential_EP16World--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424622<!--buff_UnfinishedBusiness_Travel_Duration_EP17--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>372551<!--region_Residential_EP17World--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424623<!--buff_UnfinishedBusiness_Travel_Duration_Henford--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>257397<!--region_Residential_CottageWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424624<!--buff_UnfinishedBusiness_Travel_Duration_Komorebi--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>238454<!--region_Residential_MountainWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424625<!--buff_UnfinishedBusiness_Travel_Duration_OasisSprings--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>104065<!--region_Residential_OasisSprings--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424626<!--buff_UnfinishedBusiness_Travel_Duration_SanMyshuno--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>134252<!--region_Residential_CityLife--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424627<!--buff_UnfinishedBusiness_Travel_Duration_SanSequoia--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>302872<!--region_Residential_BayArea--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424628<!--buff_UnfinishedBusiness_Travel_Duration_Selvadorada--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>173593<!--region_Destination_Jungle--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424629<!--buff_UnfinishedBusiness_Travel_Duration_Sulani--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>208308<!--region_Residential_IslandWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424630<!--buff_UnfinishedBusiness_Travel_Duration_Tomarang--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>337554<!--region_Residential_MultiUnitWorld--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424631<!--buff_UnfinishedBusiness_Travel_Duration_WillowCreek--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>104064<!--region_Residential_WillowCreek--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>424632<!--buff_UnfinishedBusiness_Travel_Duration_Windenburg--></T>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="region">
+              <U n="region">
+                <V n="blacklist" t="enabled">
+                  <L n="enabled">
+                    <T>123129<!--region_Residential_NorthEurope--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

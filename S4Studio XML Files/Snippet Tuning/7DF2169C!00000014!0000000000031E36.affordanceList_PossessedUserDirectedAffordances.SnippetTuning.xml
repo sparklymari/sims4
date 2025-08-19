@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_PossessedUserDirectedAffordances" s="204342">
+  <L n="value">
+    <T>202969<!--social_NonTouching_NormaltoPossessed_TrytoTalk--></T>
+    <T>202936<!--social_NonTouching_PossessedtoNormal--></T>
+    <T>202935<!--social_NonTouching_PossessedtoPossessed--></T>
+    <T>203000<!--social_NonTouching_Possessed_Listen--></T>
+    <T>203001<!--social_NonTouching_Possessed_Normal_Listen--></T>
+    <T>202956<!--social_NonTouching_PossessedtoNormal_Greet--></T>
+    <T>202955<!--social_NonTouching_PossessedtoPossessed_Greet--></T>
+    <T>202939<!--mixer_Social_Possessed_ChatP2P_MakeHumanSound--></T>
+    <T>202951<!--mixer_Social_Possessed_ChatP2P_EnthuseMotherPlant--></T>
+    <T>202953<!--mixer_Social_Possessed_ChatP2P_EmulateHumanLaugh--></T>
+    <T>202952<!--mixer_Social_Possessed_ChatP2P_ConfessFearOfHumans--></T>
+    <T>202954<!--mixer_Social_Possessed_ChatP2P_Chat--></T>
+    <T>202949<!--mixer_Social_Possessed_ChatP2N_ComplainHumanProblems--></T>
+    <T>202950<!--mixer_Social_Possessed_ChatP2N_DiscussHumanThings--></T>
+    <T>202948<!--mixer_Social_Possessed_ChatP2N_EnthuseHumanHobbies--></T>
+    <T>202947<!--mixer_Social_Possessed_ChatP2N_PraisetheMother--></T>
+    <T>202946<!--mixer_Social_Possessed_ChatP2N_TalkAboutPlants--></T>
+    <T>202905<!--si_Possessed_CryOver--></T>
+    <T>202922<!--si_Possessed_Liberate--></T>
+    <T>202899<!--si_Possessed_PlantSpore--></T>
+    <T>202900<!--terrain_Possessed_PlantSpore_Start--></T>
+    <T>14410<!--terrain-gohere--></T>
+    <T>202332<!--Gardening_Harvest_InfectedPlant--></T>
+    <T>203377<!--motherPlant_Chat--></T>
+    <T>204355<!--motherPlant_Chat_RequestEnergy--></T>
+    <T>204357<!--motherPlant_Chat_RequestLifeExtension--></T>
+    <T>204354<!--motherPlant_Chat_RequestRiches--></T>
+    <T>204356<!--motherPlant_Chat_RequestSuccess--></T>
+    <T>202795<!--InfectedPlant_Socials--></T>
+    <T>202342<!--InfectedPlant_Nurture--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>164351<!--generic_consume_drink_water--></T>
+    <T>98908<!--phone_Picker_InviteTo_NEW--></T>
+    <T>13788<!--phone_MoveOut--></T>
+    <T>97297<!--GardeningFruit_Plant_Planter_continuation--></T>
+    <T>97268<!--GardeningFruit_Plant_Pot_continuation--></T>
+    <T>76309<!--GardeningFruit_Plant_Continuation--></T>
+    <T>104004<!--Phone_NotebookView--></T>
+    <T>202924<!--gardening_Revive_Generic_Possessed--></T>
+    <T>31564<!--seating_Sit--></T>
+    <T>204250<!--si_InfectionCure_Drink--></T>
+    <T>74779<!--seating_Sit_single--></T>
+    <T>157667<!--seating_sit_CTYAE--></T>
+    <T>29344<!--terrain-travel_here_with_Picker--></T>
+    <T>241642<!--Apartment-travel_here_with_Picker_base--></T>
+    <T>108536<!--MoveInFromGallery--></T>
+    <T>204791<!--motherPlant_revive_plant--></T>
+    <T>270942<!--gardeningFruit_Plant_GardeningPatch_Cont--></T>
+    <T>356639<!--RRUnit-travel_here_with_Picker_base--></T>
+  </L>
+</I>

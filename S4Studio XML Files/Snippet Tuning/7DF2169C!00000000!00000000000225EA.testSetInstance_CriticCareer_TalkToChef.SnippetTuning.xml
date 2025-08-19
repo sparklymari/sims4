@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_CriticCareer_TalkToChef" s="140778">
+  <L n="test">
+    <L>
+      <V t="zone">
+        <U n="zone">
+          <U n="zone_tests">
+            <V n="world_tests" t="enabled">
+              <U n="enabled">
+                <V n="whitelist" t="specify">
+                  <U n="specify">
+                    <L n="whitelist">
+                      <T>117423<!--Spice Market--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+      <V t="user_running_interaction">
+        <U n="user_running_interaction">
+          <L n="affordances">
+            <T>139455<!--marketStalls_Tend_Food_Vietnamese--></T>
+            <T>132722<!--marketStalls_Tend_Food--></T>
+            <T>139537<!--marketStalls_Tend_Food_BlossomTea--></T>
+            <T>139454<!--marketStalls_Tend_Food_Chinese--></T>
+            <T>139286<!--marketStalls_Tend_Food_Filipino--></T>
+            <T>139283<!--marketStalls_Tend_Food_Indian--></T>
+            <T>139281<!--marketStalls_Tend_Food_Japanese--></T>
+            <T>139538<!--marketStalls_Tend_Food_LampTea--></T>
+            <T>139285<!--marketStalls_Tend_Food_Mexican--></T>
+            <T>139284<!--marketStalls_Tend_Food_Morrocan--></T>
+            <T>139282<!--marketStalls_Tend_Food_Tea--></T>
+            <T>148143<!--marketStalls_Tend_Food_UptownCupcake--></T>
+            <T>148144<!--marketStalls_Tend_Food_UptownGourmet--></T>
+            <T>169834<!--marketStalls_Tend_Food_SquareSnacks--></T>
+            <T>169833<!--marketStalls_Tend_Craft_DailyCatch--></T>
+            <T>180867<!--marketStalls_Tend_Seasonal_Fall--></T>
+            <T>180866<!--marketStalls_Tend_Seasonal_Spring--></T>
+            <T>180869<!--marketStalls_Tend_Seasonal_Summer--></T>
+            <T>180868<!--marketStalls_Tend_Seasonal_Winter--></T>
+            <T>210957<!--marketStalls_Tend_Food_FreshCatch--></T>
+            <T>210956<!--marketStalls_Tend_Food_IslandBBQ--></T>
+            <T>239595<!--marketStalls_Tend_Food_EcoDrinks--></T>
+            <T>320691<!--marketStalls_Tend_Food_AroundTheWorld--></T>
+          </L>
+          <E n="participant">TargetSim</E>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

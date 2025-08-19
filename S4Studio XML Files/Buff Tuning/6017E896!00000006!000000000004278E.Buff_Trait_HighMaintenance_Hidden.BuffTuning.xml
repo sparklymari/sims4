@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="Buff_Trait_HighMaintenance_Hidden" s="272270">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>151428<!--generic_Bed_Sleep--></T>
+            <T>231006<!--generic_Bed_Nap--></T>
+            <T>28880<!--generic_SofaNap--></T>
+            <T>239033<!--generic_Dumpster_Nap--></T>
+            <T>150543<!--generic_CoffinSleep--></T>
+            <T>200062<!--generic_SleepingPod_Sleep_Posture--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0x4903333A<!--(From High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272341<!--buff_Trait_HighMaintenance_Visible_WeirdDream--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">30</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>31564<!--seating_Sit--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0x75F0F3F2<!--(From sitting with High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272342<!--buff_Trait_HighMaintenance_Visible_ButtHurt--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">10</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordance_lists">
+            <T>75757<!--AffordanceList_Gardening--></T>
+          </L>
+          <L n="affordances">
+            <T>97433<!--Collect_Trash_Gardening--></T>
+            <T>13434<!--generic_cook--></T>
+            <T>14588<!--WoodworkingTable_Hammer--></T>
+            <T>14591<!--WoodworkingTable_Sand--></T>
+            <T>14592<!--WoodworkingTable_Saw--></T>
+            <T>14593<!--WoodworkingTable_Slice--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0x7EFE7C25<!--(From High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272345<!--buff_Trait_HighMaintenance_Visible_HangNail--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">30</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordance_lists">
+            <T>191705<!--affordanceList_Swim--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0xE3EDA21C<!--(From High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272346<!--buff_Trait_HighMaintenance_Visible_DrankPool--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">30</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="swim_location" />
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordance_lists">
+            <T>191705<!--affordanceList_Swim--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0x48A5F582<!--(From High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272347<!--buff_Trait_HighMaintenance_Visible_DrankSea--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">30</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="swim_location">
+                <U n="swim_location">
+                  <V n="test" t="swim_in_ocean" />
+                </U>
+              </V>
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>40413<!--Toilet_Use_Action--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0xDB63162E<!--(From High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272348<!--buff_Trait_HighMaintenance_Visible_SplashBack--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">30</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordance_lists">
+            <T>261814<!--affordanceList_TakeShower--></T>
+          </L>
+          <L n="affordances">
+            <T>185951<!--sim_Rain_Shower--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0x9ACE7011<!--(From High Maintenance Trait)--></T>
+                  </V>
+                  <T n="buff_type">272349<!--buff_Trait_HighMaintenance_Visible_ShampooEyes--></T>
+                </U>
+                <U n="success_chance">
+                  <T n="base_chance">30</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <L n="blacklist">
+                    <T>272350<!--buff_Trait_HighMaintenance_Visible_WorstDay--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>118770<!--mixer_ClassMember_YogaClass_EndRoutine_BrainBoosting--></T>
+            <T>271126<!--mixer_ClassMember_YogaClass_EndRoutine_ChildFriendly--></T>
+            <T>118772<!--mixer_ClassMember_YogaClass_EndRoutine_EnergyCentering--></T>
+            <T>118773<!--mixer_ClassMember_YogaClass_EndRoutine_MindConcentrating--></T>
+            <T>119851<!--si_Yoga_Pose_Boat--></T>
+            <T>117400<!--si_Yoga_Pose_Bridge--></T>
+            <T>117412<!--si_Yoga_Pose_Corpse--></T>
+            <T>117401<!--si_Yoga_Pose_Dance--></T>
+            <T>117402<!--si_Yoga_Pose_DownwardDog--></T>
+            <T>117387<!--si_Yoga_Pose_Greeting--></T>
+            <T>117397<!--si_Yoga_Pose_HalfMoon--></T>
+            <T>119854<!--si_Yoga_Pose_Handstand--></T>
+            <T>119853<!--si_Yoga_Pose_SidePlank--></T>
+            <T>117398<!--si_Yoga_Pose_Tree--></T>
+            <T>117399<!--si_Yoga_Pose_Triangle--></T>
+            <T>119852<!--si_Yoga_Pose_Warrior--></T>
+            <T>117408<!--si_Yoga_Routine_BrainBoosting--></T>
+            <T>271106<!--si_Yoga_Routine_ChildFriendly--></T>
+            <T>117407<!--si_Yoga_Routine_EnergyCentering--></T>
+            <T>117409<!--si_Yoga_Routine_MindConcentrating--></T>
+            <T>117430<!--si_yoga_Practice--></T>
+            <T>119039<!--meditationStool_Meditate--></T>
+            <T>272146<!--guidedMeditation_Meditate_ClassMember--></T>
+            <T>270973<!--si_MassageChair_GetManicure_LeftFile--></T>
+            <T>271512<!--si_MassageChair_GetManicure_LeftPaint--></T>
+            <T>270974<!--si_MassageChair_GetManicure_RightFile--></T>
+            <T>271513<!--si_MassageChair_GetManicure_RightPaint--></T>
+            <T>270976<!--si_MassageChair_GetPedicure_LeftFile--></T>
+            <T>271514<!--si_MassageChair_GetPedicure_LeftPaint--></T>
+            <T>270977<!--si_MassageChair_GetPedicure_RightFile--></T>
+            <T>271515<!--si_MassageChair_GetPedicure_RightPaint--></T>
+            <T>119592<!--si_MassageChair_GetFootMassage--></T>
+            <T>119692<!--si_MassageChair_GetFootMassageRight--></T>
+            <T>119593<!--si_MassageChair_GetFootMassage_Reflexologist--></T>
+            <T>120086<!--si_MassageChair_GetFootMassage_Reflexologist_Right--></T>
+            <T>119574<!--si_MassageChair_GetHandMassageLeft--></T>
+            <T>119340<!--si_MassageChair_GetHandMassageRight--></T>
+            <T>119373<!--si_MassageChair_GetHandMassage_Reflexologist--></T>
+            <T>120331<!--si_MassageChair_GetHandMassage_Reflexologist_Right--></T>
+            <T>118308<!--reactions_MassageTable_Aroma_Lotus--></T>
+            <T>118310<!--reactions_MassageTable_Aroma_Mint--></T>
+            <T>118306<!--reactions_MassageTable_Aroma_Ylang--></T>
+            <T>118302<!--reactions_MassageTable_DeepTissue_Success--></T>
+            <T>118312<!--reactions_MassageTable_Fertility--></T>
+            <T>118304<!--reactions_MassageTable_SportsMassage_Success--></T>
+            <T>118309<!--reactions_MassageTable_Stone_Success--></T>
+            <T>118301<!--reactions_MassageTable_Swedish--></T>
+            <T>118307<!--reactions_MassageTable_Aroma_Lavender--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>272520<!--loot_Trait_HighMaintenance_DailyStruggle_Solved--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="refresh_on_add">True</T>
+  <T n="success_modifier">0</T>
+  <T n="ui_sort_order">1</T>
+  <T n="visible">False</T>
+  <V n="walkstyle" t="disabled" />
+</I>

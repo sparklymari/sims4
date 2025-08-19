@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_PlayTableGames" s="380467">
+  <L n="affordances">
+    <T>13131<!--cardGame_Playing--></T>
+    <T>13132<!--cardGame_StartGame--></T>
+    <T>13130<!--cardGame_JoinGame--></T>
+    <T>33025<!--si_Immediate_TableGame_Cards_PlayWith--></T>
+    <T>187986<!--autonomousSimPicker_TableGame_Cards_PlayWith--></T>
+    <T>127238<!--gameTable_ChangeGame_Cards--></T>
+    <T>127342<!--DontWakeLlamaGame_Play--></T>
+    <T>127697<!--si_DontWakeLlamaGame_Reset--></T>
+    <T>298021<!--si_DontWakeLlamaGame_Reset_Yeti--></T>
+    <T>128827<!--si_DontWakeLlamaGame_Reset_Kids--></T>
+    <T>127355<!--DontWakeLlama_PlayWith--></T>
+    <T>127887<!--si_Game_ChallengeSim_DontWakeLlamaGame--></T>
+    <T>127885<!--game_Social_Challenge_DontWakeLlama--></T>
+    <T>127798<!--si_dontWakeLlamaGame_WatchGame--></T>
+    <T>295115<!--GameTable_ChangeGame_DontWakeLlama_Yeti--></T>
+    <T>295117<!--GameTable_Replace_DontWakeLlama_Yeti--></T>
+    <T>127239<!--gameTable_ChangeGame_DontWakeLlama_Kid--></T>
+    <T>128221<!--gameTable_ChangeGame_DontWakeLlama_Pub--></T>
+    <T>128216<!--gameTable_Replace_DontWakeLlama_Kid--></T>
+    <T>128218<!--gameTable_Replace_DontWakeLlama_Pub--></T>
+    <T>24588<!--Watch_Chess--></T>
+    <T>13155<!--Chess_Social--></T>
+    <T>97322<!--chess_PlayWithPicker--></T>
+    <T>97616<!--Chess_PonderMoves--></T>
+    <T>9156<!--mentor_Chess--></T>
+    <T>307999<!--recreationTable_puzzles_craftingPhase_progress--></T>
+    <T>305428<!--recreationTable_puzzles_craftingProgress_joinNoCraft--></T>
+    <T>380466<!--startCraftingAutonomously_recreationTable_puzzles_start--></T>
+    <T>307421<!--recreationTable_puzzles_start_size01_animal--></T>
+    <T>317100<!--recreationTable_puzzles_start_size01_fntsy--></T>
+    <T>317098<!--recreationTable_puzzles_start_size01_landsc--></T>
+    <T>317099<!--recreationTable_puzzles_start_size01_scifi--></T>
+    <T>317262<!--recreationTable_puzzles_start_size02_animal--></T>
+    <T>317260<!--recreationTable_puzzles_start_size02_fntsy--></T>
+    <T>317261<!--recreationTable_puzzles_start_size02_landsc--></T>
+    <T>307594<!--recreationTable_puzzles_start_size02_scifi--></T>
+    <T>317264<!--recreationTable_puzzles_start_size03_animal--></T>
+    <T>317265<!--recreationTable_puzzles_start_size03_fntsy--></T>
+    <T>317266<!--recreationTable_puzzles_start_size03_landsc--></T>
+    <T>317267<!--recreationTable_puzzles_start_size03_scifi--></T>
+    <T>317342<!--recreationTable_puzzles_start_size04_animal--></T>
+    <T>317343<!--recreationTable_puzzles_start_size04_fntsy--></T>
+    <T>317344<!--recreationTable_puzzles_start_size04_landsc--></T>
+    <T>307606<!--recreationTable_puzzles_start_size04_puzzleByReference--></T>
+    <T>317345<!--recreationTable_puzzles_start_size04_scifi--></T>
+    <T>307771<!--gameTable_changeGame_recreationTable_puzzles--></T>
+    <T>309422<!--simPickerInteraction_recreationTable_simblesDominoes_playWith--></T>
+    <T>309209<!--recreationTable_simblesDominoes_playing--></T>
+    <T>310374<!--recreationTable_simblesDominoes_practice--></T>
+    <T>380465<!--autonomousSimPicker_RecreationTable_SimblesDominoes_PlayWith--></T>
+    <T>309196<!--gameTable_changeGame_recreationTable_simblesDominoes--></T>
+    <T>359329<!--triviaBox_thumbsUp_playWith_Picker--></T>
+    <T>360124<!--triviaBox_wooWho_playWith_Picker--></T>
+    <T>359332<!--triviaBox_thumbsUp_playing--></T>
+    <T>360125<!--triviaBox_wooWho_playing--></T>
+    <T>366021<!--autonomousSimPicker_TriviaBox_ThumbsUp_PlayWith--></T>
+    <T>366022<!--autonomousSimPicker_TriviaBox_WooWho_PlayWith--></T>
+  </L>
+  <E n="category">FUN_AND_GAMES</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_PlayTableGames.png">2f7d0004:00000000:5846f2758cb7f068</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xCFB60255<!--Play Table Games--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xCC6DA643<!--Sims will play with:--></T>
+        <T>0x199ADD40<!--• Chess Tables--></T>
+        <T>0x127EE35E<!--• Game Tables--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">EP16</E>
+      <L n="value">
+        <T>0xA65B1C9C<!--• Party Games--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0xBD0E55E<!--Play Table Games--></T>
+  <T n="tooltip_template_negative">0x87C45508<!--Don't Play Table Games--></T>
+</I>

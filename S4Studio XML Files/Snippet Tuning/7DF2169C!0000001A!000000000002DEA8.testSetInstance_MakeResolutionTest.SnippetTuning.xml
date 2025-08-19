@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_MakeResolutionTest" s="188072">
+  <L n="test">
+    <L>
+      <V t="holiday_tradition">
+        <U n="holiday_tradition">
+          <U n="tradition_filter">
+            <V n="whitelist" t="specify">
+              <U n="specify">
+                <L n="whitelist">
+                  <T>182131<!--holidayTradition_MakeResolutions--></T>
+                </L>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+      <V t="buff">
+        <U n="buff">
+          <L n="blacklist">
+            <T>186707<!--buff_Resolutions_Hidden_Cooldown--></T>
+          </L>
+          <V n="tooltip" t="disabled" />
+        </U>
+      </V>
+      <V t="has_timed_aspirations">
+        <U n="has_timed_aspirations">
+          <V n="test_behavior" t="has_specific_timed_aspiration">
+            <U n="has_specific_timed_aspiration">
+              <T n="invert">True</T>
+              <L n="timed_aspirations">
+                <T>187841<!--timedAspiration_Resolutions_BetterStudent--></T>
+                <T>187823<!--timedAspiration_Resolutions_CompleteAspirationMilestone--></T>
+                <T>187847<!--timedAspiration_Resolutions_GetBoyfriendGirlfriend--></T>
+                <T>187845<!--timedAspiration_Resolutions_GetMoreFollowers--></T>
+                <T>187849<!--timedAspiration_Resolutions_GetPromoted--></T>
+                <T>187848<!--timedAspiration_Resolutions_GetPromoted_Scouts--></T>
+                <T>187843<!--timedAspiration_Resolutions_RaiseSkill--></T>
+                <T>187842<!--timedAspiration_Resolutions_WriteBook--></T>
+                <T>188396<!--timedAspiration_Resolutions_GetFit_GetTo20Fitness--></T>
+                <T>188384<!--timedAspiration_Resolutions_GetFit_GetTo40Fitness--></T>
+                <T>188387<!--timedAspiration_Resolutions_GetFit_GetTo60Fitness--></T>
+                <T>188386<!--timedAspiration_Resolutions_GetFit_GetTo80Fitness--></T>
+                <T>188385<!--timedAspiration_Resolutions_GetFit_GetToMaxFitness--></T>
+                <T>188400<!--timedAspiration_Resolutions_LoseWeight_GetToMinWeight--></T>
+                <T>188399<!--timedAspiration_Resolutions_LoseWeight_GetUnder20--></T>
+                <T>188398<!--timedAspiration_Resolutions_LoseWeight_GetUnder40--></T>
+                <T>188402<!--timedAspiration_Resolutions_LoseWeight_GetUnder60--></T>
+                <T>188401<!--timedAspiration_Resolutions_LoseWeight_GetUnder80--></T>
+              </L>
+            </U>
+          </V>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xF73C133D<!--{0.SimFirstName} already has a Resolution. Look at the Simology (Y) panel to check on its progress.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

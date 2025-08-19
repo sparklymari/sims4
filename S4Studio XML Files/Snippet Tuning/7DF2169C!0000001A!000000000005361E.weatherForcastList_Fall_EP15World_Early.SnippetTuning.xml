@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherForcastList" i="snippet" m="snippets" n="weatherForcastList_Fall_EP15World_Early" s="341534">
+  <L n="value">
+    <U>
+      <T n="forecast">183967<!--forecast_ChanceOfRain_Rain_Cool--></T>
+    </U>
+    <U>
+      <T n="forecast">182390<!--forecast_ChanceOfRain_Rain_Warm_all--></T>
+    </U>
+    <U>
+      <T n="forecast">182397<!--forecast_PartlyCloudy_coolWarm--></T>
+    </U>
+    <U>
+      <T n="forecast">183973<!--forecast_Rain_Cool--></T>
+    </U>
+    <U>
+      <T n="forecast">182400<!--forecast_Sunny_coolWarm--></T>
+    </U>
+    <U>
+      <T n="forecast">183971<!--forecast_Sunny_coldCool--></T>
+    </U>
+    <U>
+      <T n="forecast">186016<!--forecast_Windy_Cool--></T>
+    </U>
+    <U>
+      <T n="forecast">183168<!--forecast_Rain_Storm_Warm_all--></T>
+    </U>
+    <U>
+      <T n="forecast">211081<!--forecast_Rain_Storm_Warm_tropicalMonsoon--></T>
+    </U>
+    <U>
+      <T n="forecast">198553<!--forecast_ChanceOfRain_Storm_Cool--></T>
+    </U>
+    <U>
+      <T n="forecast">183159<!--forecast_ChanceOfRain_Storm_Warm--></T>
+    </U>
+  </L>
+</I>

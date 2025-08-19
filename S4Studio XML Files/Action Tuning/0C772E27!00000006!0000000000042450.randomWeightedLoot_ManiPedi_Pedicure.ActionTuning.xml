@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_ManiPedi_Pedicure" s="271440">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x5B069859<!--(From getting a Pedicure)--></T>
+            </V>
+            <T n="buff_type">271429<!--buff_Object_MassageChair_Pedicure_Visible_Happy--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>27454<!--Trait_Romantic--></T>
+                      <T>16824<!--trait_SelfAssured--></T>
+                      <T>9620<!--trait_Snob--></T>
+                      <T>199561<!--trait_SelfAbsorbed--></T>
+                      <T>16830<!--trait_Childish--></T>
+                      <T>16848<!--trait_Insane--></T>
+                      <T>16826<!--trait_Bro--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x5B069859<!--(From getting a Pedicure)--></T>
+            </V>
+            <T n="buff_type">271428<!--buff_Object_MassageChair_Pedicure_Visible_Flirty--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>27454<!--Trait_Romantic--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x5B069859<!--(From getting a Pedicure)--></T>
+            </V>
+            <T n="buff_type">271427<!--buff_Object_MassageChair_Pedicure_Visible_Confident--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>9620<!--trait_Snob--></T>
+                      <T>16824<!--trait_SelfAssured--></T>
+                      <T>199561<!--trait_SelfAbsorbed--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x5B069859<!--(From getting a Pedicure)--></T>
+            </V>
+            <T n="buff_type">271430<!--buff_Object_MassageChair_Pedicure_Visible_Playful--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>16830<!--trait_Childish--></T>
+                      <T>16848<!--trait_Insane--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x5B069859<!--(From getting a Pedicure)--></T>
+            </V>
+            <T n="buff_type">271426<!--buff_Object_MassageChair_Pedicure_Visible_Bro--></T>
+          </U>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="blacklist_traits">
+                      <T>16826<!--trait_Bro--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

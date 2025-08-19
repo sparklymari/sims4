@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AnimationElement" i="animation" m="animation.animation_element" n="socials_Propose_Gemology_Fail" s="355367">
+  <U n="_overrides">
+    <L n="prop_state_values">
+      <U>
+        <T n="key">ring</T>
+        <L n="value">
+          <T>356081<!--metalType_Blutonium--></T>
+          <T>352853<!--crystalType_Sapphire--></T>
+        </L>
+      </U>
+    </L>
+    <L n="props">
+      <U>
+        <T n="key">ring</T>
+        <U n="value">
+          <V n="alternative_prop_definitions" t="enabled">
+            <U n="enabled">
+              <V n="replacement_object_based_on_participant" t="enabled">
+                <U n="enabled">
+                  <E n="participant">PickedObject</E>
+                  <L n="prop_replacement_map">
+                    <U>
+                      <T n="participant_object">376792<!--craftRing_SP49delicate (Delicate Ring)--></T>
+                      <T n="replacement_object">395013<!--ringWED_SP49craftedDelicate (Delicate Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388993<!--craftRing_SP49naturalist (Lunar Goddess Ring)--></T>
+                      <T n="replacement_object">395017<!--ringWED_SP49craftedNaturalist (Lunar Goddess Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388994<!--craftRing_SP49botanical (Botanical Ring)--></T>
+                      <T n="replacement_object">395011<!--ringWED_SP49craftedBotanical (Botanical Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388995<!--craftRing_SP49bling (Bling Ring)--></T>
+                      <T n="replacement_object">395008<!--ringWED_SP49craftedBling (Bling Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388996<!--craftRing_SP49basic (Basic Ring)--></T>
+                      <T n="replacement_object">395010<!--ringWED_SP49craftedBasic (Basic Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388997<!--craftRing_SP49plumbob (Plumbob Ring)--></T>
+                      <T n="replacement_object">395018<!--ringWED_SP49craftedPlumbob (Plumbob Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388998<!--craftRing_SP49botched (Botched Ring)--></T>
+                      <T n="replacement_object">395020<!--ringWED_SP49craftedBotched (Botched Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">388999<!--craftRing_SP49mystic (Mystical Ring)--></T>
+                      <T n="replacement_object">395016<!--ringWED_SP49craftedMystic (** DEBUG **)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">389000<!--craftRing_SP49eye (Eye Ring)--></T>
+                      <T n="replacement_object">395014<!--ringWED_SP49craftedEye (Eye Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">389001<!--craftRing_SP49raw (Raw Ring)--></T>
+                      <T n="replacement_object">395019<!--ringWED_SP49craftedRaw (Raw Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">389002<!--craftRing_SP49chunky (Chunky Ring)--></T>
+                      <T n="replacement_object">395012<!--ringWED_SP49craftedChunky (Chunky Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">389003<!--craftRing_SP49goth (Edwardian Gothic Ring)--></T>
+                      <T n="replacement_object">395015<!--ringWED_SP49craftedGoth (Edwardian Gothic Ring)--></T>
+                    </U>
+                    <U>
+                      <T n="participant_object">398964<!--craftRing_SP49star (Starry Sailor Ring)--></T>
+                      <T n="replacement_object">399035<!--ringWED_SP49craftedStar (** DEBUG **)--></T>
+                    </U>
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+          <T n="definition">28790<!--ringWED_01 (ringWED_01)--></T>
+          <V n="from_participant" t="enabled">
+            <E n="enabled">PickedObject</E>
+          </V>
+          <L n="states_to_override">
+            <T>352553<!--crystalType_State--></T>
+            <T>352888<!--metalType_State--></T>
+          </L>
+        </U>
+      </U>
+    </L>
+  </U>
+  <T n="asm_key" p="InSP49\Sage\soc_romantic_T_propose_Gemology.interactionasm">02d5df13:00000000:f255c16b1a6ecbf2</T>
+  <L n="begin_states">
+    <T>Fail</T>
+  </L>
+  <T n="target_name">y</T>
+</I>

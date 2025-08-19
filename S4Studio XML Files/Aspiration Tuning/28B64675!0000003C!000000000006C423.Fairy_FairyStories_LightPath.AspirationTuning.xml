@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Aspiration" i="aspiration" m="aspirations.aspiration_tuning" n="Fairy_FairyStories_LightPath" s="443427">
+  <E n="aspiration_valid_age_type">TEEN_OR_OLDER</E>
+  <T n="display_name">0xCF26D940<!--Harmonious Fairy Path--></T>
+  <T n="do_not_register_events_on_load">True</T>
+  <L n="objectives">
+    <T>443419<!--objectives_Asp_Fairy_FairyStories_LightPath_Task1--></T>
+    <T>443420<!--objectives_Asp_Fairy_FairyStories_LightPath_Task2--></T>
+    <T>443421<!--objectives_Asp_Fairy_FairyStories_LightPath_Task3--></T>
+  </L>
+</I>

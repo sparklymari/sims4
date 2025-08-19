@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_MidlifeCrisis_LikeDislikeShift_BG" s="317998">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318007<!--lootActions_MidlifeCrisis_LikeDislikeShift_Fishing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">3</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>76816<!--Buff_Skill_Fishing_CaughtFish--></T>
+                        <T>77314<!--Buff_Skill_Fishing_CaughtFishWithBait--></T>
+                        <T>76428<!--Buff_Skill_Fishing_AmazingCatch--></T>
+                        <T>208732<!--buff_Skill_Fishing_AngleForBigCatch--></T>
+                        <T>216899<!--buff_Skill_Fishing_CaughtExcellentFish--></T>
+                        <T>100093<!--Buff_Skill_Fishing_Caught_LargeFish--></T>
+                        <T>76427<!--Buff_Skill_Fishing_GreatCatch--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318008<!--lootActions_MidlifeCrisis_LikeDislikeShift_Fitness--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318010<!--LootActions_MidlifeCrisis_LikeDislikeShift_Photography--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318011<!--LootActions_MidlifeCrisis_LikeDislikeShift_RockClimbing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318012<!--LootActions_MidlifeCrisis_LikeDislikeShift_Skiing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318013<!--LootActions_MidlifeCrisis_LikeDislikeShift_Snowboarding--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318014<!--lootActions_MidlifeCrisis_LikeDislikeShift_Gardening--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318015<!--lootActions_MidlifeCrisis_LikeDislikeShift_Guitar--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318027<!--LootActions_MidlifeCrisis_LikeDislikeShift_Knitting--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318028<!--lootActions_MidlifeCrisis_LikeDislikeShift_Painting--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318029<!--lootActions_MidlifeCrisis_LikeDislikeShift_Piano--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318030<!--LootActions_MidlifeCrisis_LikeDislikeShift_PipeOrgan--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318031<!--lootActions_MidlifeCrisis_LikeDislikeShift_Violin--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318032<!--lootActions_MidlifeCrisis_LikeDislikeShift_Writing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318016<!--LootActions_MidlifeCrisis_LikeDislikeShift_CrossStitch--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318034<!--LootActions_MidlifeCrisis_LikeDislikeShift_Singing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318035<!--LootActions_MidlifeCrisis_LikeDislikeShift_Acting--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318036<!--lootActions_MidlifeCrisis_LikeDislikeShift_Comedy--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318038<!--LootActions_MidlifeCrisis_LikeDislikeShift_Dancing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318040<!--LootActions_MidlifeCrisis_LikeDislikeShift_DJMixing--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318041<!--LootActions_MidlifeCrisis_LikeDislikeShift_MediaPro--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318044<!--lootActions_MidlifeCrisis_LikeDislikeShift_Mixology--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318042<!--lootActions_MidlifeCrisis_LikeDislikeShift_Programming--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318045<!--LootActions_MidlifeCrisis_LikeDislikeShift_Robotics--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318047<!--LootActions_MidlifeCrisis_LikeDislikeShift_Debate--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">318048<!--lootActions_MidlifeCrisis_LikeDislikeShift_RocketScience--></T>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <L n="blacklist">
+                      <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+              <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+              <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+              <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

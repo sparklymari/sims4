@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="TV_All" s="16388">
+  <L n="value">
+    <T>14493<!--tv_turnoff--></T>
+    <T>14487<!--tv-watch-comedy--></T>
+    <T>14488<!--tv-watch-romance--></T>
+    <T>14489<!--tv-watch-sports--></T>
+    <T>14494<!--TV_turnoff_Immediate--></T>
+    <T>9107<!--tv_WatchAction--></T>
+    <T>14491<!--tv_PickChannelAutonomously--></T>
+    <T>9108<!--tv_WatchCooking--></T>
+    <T>9109<!--tv_WatchFireplace--></T>
+    <T>9110<!--tv_WatchKids--></T>
+    <T>9111<!--tv_WatchNews--></T>
+    <T>10525<!--tv_WatchMusic--></T>
+    <T>27522<!--tv_WatchCooking_Foodie--></T>
+    <T>30430<!--tv_ChannelSurf--></T>
+    <T>34347<!--tv_WatchCurrentChannelAutonomously--></T>
+    <T>28658<!--tv_WatchCooking_CulinaryTraining--></T>
+    <T>107196<!--tv_Study_Opponents--></T>
+    <T>107149<!--tv_WatchAlien--></T>
+    <T>126983<!--TV_WatchRandomChannel--></T>
+    <T>129209<!--tv_MovieWatchCurrentChannelAutonomously--></T>
+    <T>128725<!--movie_Watch_Comedy2--></T>
+    <T>128720<!--movie_Watch_DiamondsAreForSims--></T>
+    <T>128728<!--movie_Watch_LostDogsJourneyHome--></T>
+    <T>128723<!--movie_Watch_MoonlightMassacre--></T>
+    <T>128726<!--movie_Watch_RoaringHeights--></T>
+    <T>128722<!--movie_Watch_SimsOfTheDead--></T>
+    <T>128729<!--movie_Watch_SuperHeroes--></T>
+    <T>128721<!--movie_Watch_TheAdventuresOfSpaceshipSimulation--></T>
+    <T>128724<!--movie_Watch_TheKhlumzeeSisters--></T>
+    <T>128727<!--movie_Watch_TheSpiral--></T>
+    <T>130595<!--TV_Movie_WaitToWatchMovie--></T>
+    <T>133557<!--tv_watch_CulturalWorld--></T>
+    <T>133558<!--tv_watch_PublicAccess--></T>
+    <T>153443<!--tv_watch_Politics--></T>
+    <T>134518<!--tv_WatchVoidCritters--></T>
+    <T>146490<!--tv_WatchBlackAndWhite--></T>
+    <T>165037<!--autonomousSimPicker_watchTvWith--></T>
+    <T>132401<!--tv_PickMovieAutonomously--></T>
+    <T>179829<!--tv_Watch_Weather--></T>
+    <T>183398<!--tv_Watch_Holiday_TVPremiere--></T>
+    <T>168401<!--tv_WatchKids_withPickedSims--></T>
+    <T>156240<!--tv_WatchKids_withToddlers--></T>
+    <T>220430<!--roommateNPC_SS3_WatchTV--></T>
+    <T>257831<!--tV_Watch_HomeDecorating--></T>
+    <T>259418<!--TV_Watch_HomeDecorating_InteriorDecorator_Followup--></T>
+    <T>317722<!--tv_WatchChildLearning--></T>
+    <T>317723<!--tv_WatchScary--></T>
+    <T>317721<!--tv_WatchSitcom--></T>
+    <T>338469<!--tv_WatchSilentWestern--></T>
+    <T>338470<!--tv_WatchTeenEquestrians--></T>
+    <T>378225<!--tv_WatchTelenovela--></T>
+    <T>378228<!--tv_WatchRealityDating--></T>
+  </L>
+</I>

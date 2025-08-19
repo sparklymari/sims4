@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_Guitar_Campfire" s="102916">
+  <L n="music_tracks">
+    <T>102886<!--musicTrack_Guitar_Campfire_01_High--></T>
+    <T>102887<!--musicTrack_Guitar_Campfire_02_High--></T>
+    <T>102888<!--musicTrack_Guitar_Campfire_03_High--></T>
+    <T>102877<!--musicTrack_Guitar_Campfire_01_Low--></T>
+    <T>102878<!--musicTrack_Guitar_Campfire_02_Low--></T>
+    <T>102880<!--musicTrack_Guitar_Campfire_03_Low--></T>
+    <T>102882<!--musicTrack_Guitar_Campfire_01_Med--></T>
+    <T>102883<!--musicTrack_Guitar_Campfire_02_Med--></T>
+    <T>102884<!--musicTrack_Guitar_Campfire_03_Med--></T>
+  </L>
+  <T n="pie_menu_category">102915<!--instrument_PlaySong_Campfire--></T>
+</I>

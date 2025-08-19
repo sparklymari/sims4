@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectReward_Collectible_HolidayCracker" s="154809">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="disabled" />
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled">
+              <U n="enabled">
+                <L n="loot_actions">
+                  <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                </L>
+              </U>
+            </V>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152350<!--collectMeduso_FP01GEN_set1 (Meduso)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152611<!--collectMeduso_FP01GEN_set2 (Jack-O'-Meduso)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152612<!--collectMeduso_FP01GEN_set3 (Meduso Gobbler
+)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152613<!--collectMeduso_FP01GEN_set4 (Sexaduso Sweater)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152614<!--collectMeduso_FP01GEN_set5 (Meduso Lovin'
+)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152615<!--collectMeduso_FP01GEN_set6 (Luck o' the Meduso)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152616<!--collectMeduso_FP01GEN_set7 (Bun Bunduso)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">152617<!--collectMeduso_FP01GEN_set8 (Medusin)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+            </L>
+            <U n="tested_bonus_quantity">
+              <L n="modifiers">
+                <U>
+                  <T n="modifier">1</T>
+                  <L n="tests">
+                    <L>
+                      <V t="bucks_perks_test">
+                        <U n="bucks_perks_test">
+                          <T n="bucks_perk">216498<!--witchPerks_Open_1A_IncredibleForager--></T>
+                        </U>
+                      </V>
+                      <V t="region">
+                        <U n="region">
+                          <V n="whitelist" t="enabled">
+                            <L n="enabled">
+                              <T>219134<!--region_Hidden_Magic_Venue--></T>
+                            </L>
+                          </V>
+                        </U>
+                      </V>
+                    </L>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

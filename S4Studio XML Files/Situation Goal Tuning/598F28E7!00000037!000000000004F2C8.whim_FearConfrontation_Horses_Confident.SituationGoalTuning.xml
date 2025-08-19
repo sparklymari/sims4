@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalRanInteractionOnTargetedSim" i="situation_goal" m="situations.situation_goal_targeted_sim" n="whim_FearConfrontation_Horses_Confident" s="324296">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP14\UI\Icons\Whims\Whim_HorseFear.png">2f7d0004:00000000:0efb577b18732276</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x2C4B3C5A<!--Have a Friendly interaction with a Horse--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x9C250F82<!--Successfully interact with a Horse--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>272907<!--goalLoot_WantFear_Fulfillment_Gain--></T>
+    <T>323771<!--goalLoot_Fear_Horses_ConfrontationGoal--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>319837<!--HorseSocialMixers_SimToHorse_Friendly_TalkTo--></T>
+      <T>323557<!--HorseSocialMixers_SimToHorse_Friendly_Trait_Horse_IntellectualChat--></T>
+      <T>319839<!--HorseSocialMixers_SimToHorse_Friendly_WhatsWrong--></T>
+      <T>322226<!--horseSocials_SimToHorse_Touching_Friendly_Hug--></T>
+      <T>319845<!--HorseSocials_SimToHorse_Touching_Friendly_ScratchNeck--></T>
+      <T>328007<!--horseSocials_SimToHorse_Touching_Friendly_CheerUp--></T>
+      <T>329672<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAboutFavorite--></T>
+      <T>329666<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAboutTraining--></T>
+      <T>329658<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_Compliment--></T>
+      <T>329684<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_AskAdvice--></T>
+      <T>329681<!--horseSocialMixers_SimToHorse_HorseTraining_Agility_TalkAbout--></T>
+      <T>329673<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAboutFavorite--></T>
+      <T>329667<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAboutTraining--></T>
+      <T>329685<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_AskAdvice--></T>
+      <T>329682<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_TalkAbout--></T>
+      <T>329659<!--horseSocialMixers_SimToHorse_HorseTraining_Endurance_Compliment--></T>
+      <T>329703<!--horseSocialMixers_SimToHorse_HorseTraining_Equestrian_AskFeedback--></T>
+      <T>329700<!--horseSocialMixers_SimToHorse_HorseTraining_Equestrian_Encourage--></T>
+      <T>329674<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAboutFavorite--></T>
+      <T>329668<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAboutTraining--></T>
+      <T>329686<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_AskAdvice--></T>
+      <T>329660<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_Compliment--></T>
+      <T>329683<!--horseSocialMixers_SimToHorse_HorseTraining_Jumping_TalkAbout--></T>
+      <T>329699<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_AskAbout--></T>
+      <T>329691<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Comfort--></T>
+      <T>329695<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_AskAdvice--></T>
+      <T>329661<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Compliment--></T>
+      <T>329696<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_ControlTemper--></T>
+      <T>329692<!--horseSocialMixers_SimToHorse_HorseTraining_Temperament_Gossip--></T>
+      <T>329675<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAboutFavorite--></T>
+      <T>329669<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAboutTraining--></T>
+      <T>329687<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_AskAdvice--></T>
+      <T>329678<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_TalkAbout--></T>
+      <T>329662<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Agility_Compliment--></T>
+      <T>329676<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAboutFavorite--></T>
+      <T>329688<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAdvice--></T>
+      <T>329670<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_AskAboutTraining--></T>
+      <T>329663<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_Compliment--></T>
+      <T>329679<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Endurance_TalkAbout--></T>
+      <T>329702<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Equestrian_AskFeedback--></T>
+      <T>329701<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Equestrian_Encourage--></T>
+      <T>329677<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAboutFavorite--></T>
+      <T>329671<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAboutTraining--></T>
+      <T>329689<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_AskAdvice--></T>
+      <T>329664<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_Compliment--></T>
+      <T>329680<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Jumping_TalkAbout--></T>
+      <T>329698<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_AskAbout--></T>
+      <T>329694<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_AskAdvice--></T>
+      <T>329690<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Comfort--></T>
+      <T>329697<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_ControlTemper--></T>
+      <T>329665<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Compliment--></T>
+      <T>329693<!--horseSocialCarryMixers_SimToRiddenHorse_HorseTraining_Temperament_Gossip--></T>
+      <T>323943<!--HorseSocialMixers_SimToHorse_Friendly_TellJoke--></T>
+      <T>340913<!--HorseSocialMixers_SimToHorse_Friendly_AskForCooperation--></T>
+    </L>
+    <V n="interaction_outcome" t="enabled">
+      <E n="enabled">SUCCESS</E>
+    </V>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_iterations">1</T>
+  <L n="_pre_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="_score">100</T>
+  <T n="_select_all_instantiated_sims">True</T>
+  <E n="_target_option">PlayerChoice</E>
+  <L n="_target_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E>HORSE</E>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

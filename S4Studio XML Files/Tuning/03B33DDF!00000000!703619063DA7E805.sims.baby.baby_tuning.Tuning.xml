@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="sims.baby.baby_tuning" s="8085677695585216517">
+  <C n="BabyTuning">
+    <L n="BABY_BASSINET_DEFINITION_MAP">
+      <U>
+        <T n="Baby">151815<!--bassinet_GP04GENvampire_set1 (Ancient Bassinet)--></T>
+        <T n="EmptyBassinet">151819<!--bassinet_GP04GENvampire_Empty_set1 (Ancient Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">151816<!--bassinet_GP04GENvampire_set2 (Ancient Bassinet)--></T>
+        <T n="EmptyBassinet">151820<!--bassinet_GP04GENvampire_Empty_set2 (Ancient Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">151817<!--bassinet_GP04GENvampire_set3 (Ancient Bassinet)--></T>
+        <T n="EmptyBassinet">151821<!--bassinet_GP04GENvampire_Empty_set3 (Ancient Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">152389<!--bassinet_GP04GENvampire_set4 (Ancient Bassinet)--></T>
+        <T n="EmptyBassinet">152386<!--bassinet_GP04GENvampire_Empty_set4 (Ancient Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">152390<!--bassinet_GP04GENvampire_set5 (Ancient Bassinet)--></T>
+        <T n="EmptyBassinet">152387<!--bassinet_GP04GENvampire_Empty_set5 (Ancient Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">152391<!--bassinet_GP04GENvampire_set6 (Ancient Bassinet)--></T>
+        <T n="EmptyBassinet">152388<!--bassinet_GP04GENvampire_Empty_set6 (Ancient Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">20988<!--bassinetGEN_01_set1 (Rock-a-bye Bassinet)--></T>
+        <T n="EmptyBassinet">23208<!--bassinetGEN_Empty_01_set1 (Rock-a-bye Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">222672<!--bassinet_GP08GENwitch_set1 (Spellcaster Bassinet)--></T>
+        <T n="EmptyBassinet">222671<!--bassinet_GP08GENwitch_Empty_set1 (Antique Spellcaster Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">226212<!--bassinet_GP08GENwitch_set2 (Spellcaster Bassinet)--></T>
+        <T n="EmptyBassinet">226207<!--bassinet_GP08GENwitch_Empty_set2 (Antique Spellcaster Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">226213<!--bassinet_GP08GENwitch_set3 (Spellcaster Bassinet)--></T>
+        <T n="EmptyBassinet">226208<!--bassinet_GP08GENwitch_Empty_set3 (Antique Spellcaster Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">226214<!--bassinet_GP08GENwitch_set4 (Spellcaster Bassinet)--></T>
+        <T n="EmptyBassinet">226209<!--bassinet_GP08GENwitch_Empty_set4 (Antique Spellcaster Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">226215<!--bassinet_GP08GENwitch_set5 (Spellcaster Bassinet)--></T>
+        <T n="EmptyBassinet">226210<!--bassinet_GP08GENwitch_Empty_set5 (Antique Spellcaster Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">226216<!--bassinet_GP08GENwitch_set6 (Spellcaster Bassinet)--></T>
+        <T n="EmptyBassinet">226211<!--bassinet_GP08GENwitch_Empty_set6 (Antique Spellcaster Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">314320<!--bassinet_GP12GENwerewolf_set1 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314302<!--bassinet_GP12GENwerewolf_Empty_set1 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314321<!--bassinet_GP12GENwerewolf_set3 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314309<!--bassinet_GP12GENwerewolf_Empty_set3 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314323<!--bassinet_GP12GENwerewolf_set2 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314310<!--bassinet_GP12GENwerewolf_Empty_set2 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314324<!--bassinet_GP12GENwerewolf_set4 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314311<!--bassinet_GP12GENwerewolf_Empty_set4 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314325<!--bassinet_GP12GENwerewolf_set5 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314312<!--bassinet_GP12GENwerewolf_Empty_set5 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314326<!--bassinet_GP12GENwerewolf_set6 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314313<!--bassinet_GP12GENwerewolf_Empty_set6 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314327<!--bassinet_GP12GENwerewolf_set7 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314314<!--bassinet_GP12GENwerewolf_Empty_set7 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314328<!--bassinet_GP12GENwerewolf_set8 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314315<!--bassinet_GP12GENwerewolf_Empty_set8 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314329<!--bassinet_GP12GENwerewolf_set9 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314316<!--bassinet_GP12GENwerewolf_Empty_set9 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314330<!--bassinet_GP12GENwerewolf_set10 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314317<!--bassinet_GP12GENwerewolf_Empty_set10 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314331<!--bassinet_GP12GENwerewolf_set11 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314318<!--bassinet_GP12GENwerewolf_Empty_set11 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">314332<!--bassinet_GP12GENwerewolf_set12 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">314319<!--bassinet_GP12GENwerewolf_Empty_set12 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">318319<!--bassinet_EF48GEN_set1 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318320<!--bassinet_EF48GENEmpty_set1 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318340<!--bassinet_EF48GEN_set2 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318322<!--bassinet_EF48GENEmpty_set2 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318341<!--bassinet_EF48GEN_set3 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318323<!--bassinet_EF48GENEmpty_set3 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318342<!--bassinet_EF48GEN_set4 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318324<!--bassinet_EF48GENEmpty_set4 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318343<!--bassinet_EF48GEN_set5 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318325<!--bassinet_EF48GENEmpty_set5 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318344<!--bassinet_EF48GEN_set6 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318326<!--bassinet_EF48GENEmpty_set6 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318345<!--bassinet_EF48GEN_set7 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318334<!--bassinet_EF48GENEmpty_set7 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318346<!--bassinet_EF48GEN_set8 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318335<!--bassinet_EF48GENEmpty_set8 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318347<!--bassinet_EF48GEN_set9 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318336<!--bassinet_EF48GENEmpty_set9 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318348<!--bassinet_EF48GEN_set10 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318337<!--bassinet_EF48GENEmpty_set10 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318349<!--bassinet_EF48GEN_set11 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318338<!--bassinet_EF48GENEmpty_set11 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">318350<!--bassinet_EF48GEN_set12 (Wicker-Work Bassinet)--></T>
+        <T n="EmptyBassinet">318339<!--bassinet_EF48GENEmpty_set12 (Wicker-Work Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">32140<!--bassinetGEN_01_set2 (Rock-a-bye Bassinet)--></T>
+        <T n="EmptyBassinet">32138<!--bassinetGEN_Empty_01_set2 (Rock-a-bye Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">32141<!--bassinetGEN_01_set3 (Rock-a-bye Bassinet)--></T>
+        <T n="EmptyBassinet">32139<!--bassinetGEN_Empty_01_set3 (Rock-a-bye Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">322384<!--bassinet_GP12GENwerewolf_set13 (Precocious Pup's Plush Palace)--></T>
+        <T n="EmptyBassinet">322383<!--bassinet_GP12GENwerewolf_Empty_set13 (Precocious Pup's Plush Palace)--></T>
+      </U>
+      <U>
+        <T n="Baby">327720<!--bassinet_EP13RWgold_set1 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">327721<!--bassinet_EP13RWgoldEmpty_set1 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336933<!--bassinet_EP13RWgold_set2 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336922<!--bassinet_EP13RWgoldEmpty_set2 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336934<!--bassinet_EP13RWgold_set3 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336923<!--bassinet_EP13RWgoldEmpty_set3 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336935<!--bassinet_EP13RWgold_set4 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336924<!--bassinet_EP13RWgoldEmpty_set4 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336936<!--bassinet_EP13RWgold_set5 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336925<!--bassinet_EP13RWgoldEmpty_set5 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336937<!--bassinet_EP13RWgold_set6 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336926<!--bassinet_EP13RWgoldEmpty_set6 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336938<!--bassinet_EP13RWgold_set7 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336927<!--bassinet_EP13RWgoldEmpty_set7 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336939<!--bassinet_EP13RWgold_set8 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336928<!--bassinet_EP13RWgoldEmpty_set8 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336940<!--bassinet_EP13RWgold_set9 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336929<!--bassinet_EP13RWgoldEmpty_set9 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336941<!--bassinet_EP13RWgold_set10 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336930<!--bassinet_EP13RWgoldEmpty_set10 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336942<!--bassinet_EP13RWgold_set11 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336931<!--bassinet_EP13RWgoldEmpty_set11 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">336943<!--bassinet_EP13RWgold_set12 (Baby Bliss Bassinet)--></T>
+        <T n="EmptyBassinet">336932<!--bassinet_EP13RWgoldEmpty_set12 (Baby Bliss Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448451<!--bassinet_EP17GENdark_set1 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448318<!--bassinet_EP17GENdarkEmpty_set1 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448452<!--bassinet_EP17GENdark_set2 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448319<!--bassinet_EP17GENdarkEmpty_set2 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448453<!--bassinet_EP17GENdark_set3 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448320<!--bassinet_EP17GENdarkEmpty_set3 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448454<!--bassinet_EP17GENdark_set4 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448321<!--bassinet_EP17GENdarkEmpty_set4 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448455<!--bassinet_EP17GENdark_set5 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448322<!--bassinet_EP17GENdarkEmpty_set5 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448456<!--bassinet_EP17GENdark_set6 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448323<!--bassinet_EP17GENdarkEmpty_set6 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448457<!--bassinet_EP17GENdark_set7 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448324<!--bassinet_EP17GENdarkEmpty_set7 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448458<!--bassinet_EP17GENdark_set8 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448325<!--bassinet_EP17GENdarkEmpty_set8 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448459<!--bassinet_EP17GENdark_set9 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448326<!--bassinet_EP17GENdarkEmpty_set9 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448460<!--bassinet_EP17GENdark_set10 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448327<!--bassinet_EP17GENdarkEmpty_set10 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448461<!--bassinet_EP17GENdark_set11 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448328<!--bassinet_EP17GENdarkEmpty_set11 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448462<!--bassinet_EP17GENdark_set12 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448329<!--bassinet_EP17GENdarkEmpty_set12 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448463<!--bassinet_EP17GENdark_set13 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448330<!--bassinet_EP17GENdarkEmpty_set13 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">448464<!--bassinet_EP17GENdark_set14 (Veil of Peace Bassinet)--></T>
+        <T n="EmptyBassinet">448331<!--bassinet_EP17GENdarkEmpty_set14 (Veil of Peace Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449702<!--bassinet_SP55BBYstroller_set1 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433969<!--bassinet_SP55BBYstrollerEmpty_set1 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449703<!--bassinet_SP55BBYstroller_set2 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433970<!--bassinet_SP55BBYstrollerEmpty_set2 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449704<!--bassinet_SP55BBYstroller_set3 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433971<!--bassinet_SP55BBYstrollerEmpty_set3 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449705<!--bassinet_SP55BBYstroller_set4 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433972<!--bassinet_SP55BBYstrollerEmpty_set4 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449706<!--bassinet_SP55BBYstroller_set5 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433973<!--bassinet_SP55BBYstrollerEmpty_set5 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449707<!--bassinet_SP55BBYstroller_set6 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433974<!--bassinet_SP55BBYstrollerEmpty_set6 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449708<!--bassinet_SP55BBYstroller_set7 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433975<!--bassinet_SP55BBYstrollerEmpty_set7 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449709<!--bassinet_SP55BBYstroller_set8 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433976<!--bassinet_SP55BBYstrollerEmpty_set8 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449710<!--bassinet_SP55BBYstroller_set9 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433977<!--bassinet_SP55BBYstrollerEmpty_set9 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449711<!--bassinet_SP55BBYstroller_set10 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433978<!--bassinet_SP55BBYstrollerEmpty_set10 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449712<!--bassinet_SP55BBYstroller_set11 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433979<!--bassinet_SP55BBYstrollerEmpty_set11 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">449713<!--bassinet_SP55BBYstroller_set12 (Beautiful Bows Bassinet)--></T>
+        <T n="EmptyBassinet">433980<!--bassinet_SP55BBYstrollerEmpty_set12 (Beautiful Bows Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">478354<!--bassinet_EP19GENfairy_set1 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">478352<!--bassinet_EP19GENfairyEmpty_set1 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486220<!--bassinet_EP19GENfairy_set13 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486208<!--bassinet_EP19GENfairyEmpty_set13 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486221<!--bassinet_EP19GENfairy_set8 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486209<!--bassinet_EP19GENfairyEmpty_set8 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486222<!--bassinet_EP19GENfairy_set7 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486210<!--bassinet_EP19GENfairyEmpty_set7 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486223<!--bassinet_EP19GENfairy_set6 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486211<!--bassinet_EP19GENfairyEmpty_set6 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486224<!--bassinet_EP19GENfairy_set5 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486212<!--bassinet_EP19GENfairyEmpty_set5 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486225<!--bassinet_EP19GENfairy_set4 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486213<!--bassinet_EP19GENfairyEmpty_set4 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486226<!--bassinet_EP19GENfairy_set3 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486214<!--bassinet_EP19GENfairyEmpty_set3 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486227<!--bassinet_EP19GENfairy_set2 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486215<!--bassinet_EP19GENfairyEmpty_set2 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486228<!--bassinet_EP19GENfairy_set12 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486216<!--bassinet_EP19GENfairyEmpty_set12 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486229<!--bassinet_EP19GENfairy_set11 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486217<!--bassinet_EP19GENfairyEmpty_set11 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486230<!--bassinet_EP19GENfairy_set10 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486218<!--bassinet_EP19GENfairyEmpty_set10 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">486231<!--bassinet_EP19GENfairy_set9 (Fairy Guardian Bassinet)--></T>
+        <T n="EmptyBassinet">486219<!--bassinet_EP19GENfairyEmpty_set9 (Fairy Tale Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">57770<!--bassinetGEN_01_set4 (Rock-a-bye Bassinet)--></T>
+        <T n="EmptyBassinet">57771<!--bassinetGEN_Empty_01_set4 (Rock-a-bye Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">67527<!--bassinet_EP01GENalien01_set1 (Nanoo Nanoo Bassinet)--></T>
+        <T n="EmptyBassinet">69174<!--bassinet_EP01GENalienEmpty01_set1 (Nanoo Nanoo Bassinet)--></T>
+      </U>
+      <U>
+        <T n="Baby">74323<!--bassinet_EP01GENhospital_set1 (Recipient Of Joy)--></T>
+        <T n="EmptyBassinet">74325<!--bassinet_EP01GENhospitalEmpty (Empty Nest)--></T>
+      </U>
+    </L>
+    <T n="BABY_CLOTH_STATE">243982<!--Baby_Cloth--></T>
+    <L n="BABY_CLOTH_STATE_MAP">
+      <U>
+        <T n="key">244060<!--babyCloth_Values_Onesie_17--></T>
+        <T n="value">babyGEN_SP17GEN_05_set5</T>
+      </U>
+      <U>
+        <T n="key">244061<!--babyCloth_Values_Onesie_1--></T>
+        <T n="value">babyGEN_SP17GEN_01_set1</T>
+      </U>
+      <U>
+        <T n="key">244062<!--babyCloth_Values_Onesie_2--></T>
+        <T n="value">babyGEN_SP17GEN_01_set2</T>
+      </U>
+      <U>
+        <T n="key">244063<!--babyCloth_Values_Onesie_3--></T>
+        <T n="value">babyGEN_SP17GEN_01_set3</T>
+      </U>
+      <U>
+        <T n="key">244064<!--babyCloth_Values_Onesie_4--></T>
+        <T n="value">babyGEN_SP17GEN_02_set1</T>
+      </U>
+      <U>
+        <T n="key">244065<!--babyCloth_Values_Onesie_5--></T>
+        <T n="value">babyGEN_SP17GEN_02_set2</T>
+      </U>
+      <U>
+        <T n="key">244066<!--babyCloth_Values_Onesie_6--></T>
+        <T n="value">babyGEN_SP17GEN_02_set3</T>
+      </U>
+      <U>
+        <T n="key">244067<!--babyCloth_Values_Onesie_7--></T>
+        <T n="value">babyGEN_SP17GEN_03_set1</T>
+      </U>
+      <U>
+        <T n="key">244068<!--babyCloth_Values_Onesie_8--></T>
+        <T n="value">babyGEN_SP17GEN_03_set2</T>
+      </U>
+      <U>
+        <T n="key">244069<!--babyCloth_Values_Onesie_9--></T>
+        <T n="value">babyGEN_SP17GEN_03_set3</T>
+      </U>
+      <U>
+        <T n="key">244070<!--babyCloth_Values_Onesie_10--></T>
+        <T n="value">babyGEN_SP17GEN_04_set1</T>
+      </U>
+      <U>
+        <T n="key">244071<!--babyCloth_Values_Onesie_11--></T>
+        <T n="value">babyGEN_SP17GEN_04_set2</T>
+      </U>
+      <U>
+        <T n="key">244072<!--babyCloth_Values_Onesie_12--></T>
+        <T n="value">babyGEN_SP17GEN_04_set3</T>
+      </U>
+      <U>
+        <T n="key">244073<!--babyCloth_Values_Onesie_13--></T>
+        <T n="value">babyGEN_SP17GEN_05_set1</T>
+      </U>
+      <U>
+        <T n="key">244074<!--babyCloth_Values_Onesie_14--></T>
+        <T n="value">babyGEN_SP17GEN_05_set2</T>
+      </U>
+      <U>
+        <T n="key">244075<!--babyCloth_Values_Onesie_15--></T>
+        <T n="value">babyGEN_SP17GEN_05_set3</T>
+      </U>
+      <U>
+        <T n="key">244076<!--babyCloth_Values_Onesie_16--></T>
+        <T n="value">babyGEN_SP17GEN_05_set4</T>
+      </U>
+      <U>
+        <T n="key">313491<!--babyCloth_Values_Outfit_1--></T>
+        <T n="value">babyGEN_EP13GEN_set1</T>
+      </U>
+      <U>
+        <T n="key">313492<!--babyCloth_Values_Outfit_2--></T>
+        <T n="value">babyGEN_EP13GEN_set2</T>
+      </U>
+      <U>
+        <T n="key">313493<!--babyCloth_Values_Outfit_3--></T>
+        <T n="value">babyGEN_EP13GEN_set3</T>
+      </U>
+      <U>
+        <T n="key">313494<!--babyCloth_Values_Outfit_4--></T>
+        <T n="value">babyGEN_EP13GEN_set4</T>
+      </U>
+      <U>
+        <T n="key">313495<!--babyCloth_Values_Outfit_5--></T>
+        <T n="value">babyGEN_EP13GEN_set5</T>
+      </U>
+      <U>
+        <T n="key">313496<!--babyCloth_Values_Outfit_6--></T>
+        <T n="value">babyGEN_EP13GEN_set6</T>
+      </U>
+      <U>
+        <T n="key">313497<!--babyCloth_Values_Outfit_7--></T>
+        <T n="value">babyGEN_EP13GEN_set7</T>
+      </U>
+      <U>
+        <T n="key">313498<!--babyCloth_Values_Outfit_8--></T>
+        <T n="value">babyGEN_EP13GEN_set8</T>
+      </U>
+      <U>
+        <T n="key">313499<!--babyCloth_Values_Outfit_9--></T>
+        <T n="value">babyGEN_EP13GEN_set9</T>
+      </U>
+      <U>
+        <T n="key">313500<!--babyCloth_Values_Outfit_10--></T>
+        <T n="value">babyGEN_EP13GEN_set10</T>
+      </U>
+      <U>
+        <T n="key">313501<!--babyCloth_Values_Outfit_11--></T>
+        <T n="value">babyGEN_EP13GEN_set11</T>
+      </U>
+      <U>
+        <T n="key">313502<!--babyCloth_Values_Outfit_12--></T>
+        <T n="value">babyGEN_EP13GEN_set12</T>
+      </U>
+      <U>
+        <T n="key">313503<!--babyCloth_Values_Outfit_13--></T>
+        <T n="value">babyGEN_EP13GEN_set13</T>
+      </U>
+      <U>
+        <T n="key">313504<!--babyCloth_Values_Outfit_14--></T>
+        <T n="value">babyGEN_EP13GEN_set14</T>
+      </U>
+      <U>
+        <T n="key">313505<!--babyCloth_Values_Outfit_15--></T>
+        <T n="value">babyGEN_EP13GEN_set15</T>
+      </U>
+      <U>
+        <T n="key">313506<!--babyCloth_Values_Outfit_16--></T>
+        <T n="value">babyGEN_EP13GEN_set16</T>
+      </U>
+      <U>
+        <T n="key">313507<!--babyCloth_Values_Outfit_17--></T>
+        <T n="value">babyGEN_EP13GEN_set17</T>
+      </U>
+      <U>
+        <T n="key">313508<!--babyCloth_Values_Outfit_18--></T>
+        <T n="value">babyGEN_EP13GEN_set18</T>
+      </U>
+      <U>
+        <T n="key">313509<!--babyCloth_Values_Outfit_19--></T>
+        <T n="value">babyGEN_EP13GENracerback_set1</T>
+      </U>
+      <U>
+        <T n="key">313510<!--babyCloth_Values_Outfit_20--></T>
+        <T n="value">babyGEN_EP13GENracerback_set2</T>
+      </U>
+      <U>
+        <T n="key">313511<!--babyCloth_Values_Outfit_21--></T>
+        <T n="value">babyGEN_EP13GENracerback_set3</T>
+      </U>
+      <U>
+        <T n="key">313512<!--babyCloth_Values_Outfit_22--></T>
+        <T n="value">babyGEN_EP13GENracerback_set4</T>
+      </U>
+      <U>
+        <T n="key">313513<!--babyCloth_Values_Outfit_23--></T>
+        <T n="value">babyGEN_EP13GENracerback_set5</T>
+      </U>
+      <U>
+        <T n="key">313514<!--babyCloth_Values_Outfit_24--></T>
+        <T n="value">babyGEN_EP13GENracerback_set6</T>
+      </U>
+      <U>
+        <T n="key">313515<!--babyCloth_Values_Outfit_25--></T>
+        <T n="value">babyGEN_EP13GENracerback_set7</T>
+      </U>
+    </L>
+    <L n="BABY_DEFAULT_BASSINETS">
+      <U>
+        <L n="bassinets">
+          <T>67527<!--bassinet_EP01GENalien01_set1 (Nanoo Nanoo Bassinet)--></T>
+        </L>
+        <L n="traits">
+          <T>102922<!--trait_isBornFromAlienAbduction--></T>
+        </L>
+      </U>
+      <U>
+        <L n="bassinets">
+          <T>151815<!--bassinet_GP04GENvampire_set1 (Ancient Bassinet)--></T>
+          <T>151816<!--bassinet_GP04GENvampire_set2 (Ancient Bassinet)--></T>
+          <T>151817<!--bassinet_GP04GENvampire_set3 (Ancient Bassinet)--></T>
+          <T>152389<!--bassinet_GP04GENvampire_set4 (Ancient Bassinet)--></T>
+          <T>152390<!--bassinet_GP04GENvampire_set5 (Ancient Bassinet)--></T>
+          <T>152391<!--bassinet_GP04GENvampire_set6 (Ancient Bassinet)--></T>
+        </L>
+        <L n="traits">
+          <T>149527<!--trait_OccultVampire--></T>
+        </L>
+      </U>
+      <U>
+        <L n="bassinets">
+          <T>222672<!--bassinet_GP08GENwitch_set1 (Spellcaster Bassinet)--></T>
+          <T>226212<!--bassinet_GP08GENwitch_set2 (Spellcaster Bassinet)--></T>
+          <T>226213<!--bassinet_GP08GENwitch_set3 (Spellcaster Bassinet)--></T>
+          <T>226214<!--bassinet_GP08GENwitch_set4 (Spellcaster Bassinet)--></T>
+          <T>226215<!--bassinet_GP08GENwitch_set5 (Spellcaster Bassinet)--></T>
+          <T>226216<!--bassinet_GP08GENwitch_set6 (Spellcaster Bassinet)--></T>
+        </L>
+        <L n="traits">
+          <T>213050<!--trait_Occult_WitchOccult--></T>
+        </L>
+      </U>
+      <U>
+        <L n="bassinets">
+          <T>314320<!--bassinet_GP12GENwerewolf_set1 (Precocious Pup's Plush Palace)--></T>
+          <T>314330<!--bassinet_GP12GENwerewolf_set10 (Precocious Pup's Plush Palace)--></T>
+          <T>314331<!--bassinet_GP12GENwerewolf_set11 (Precocious Pup's Plush Palace)--></T>
+          <T>314332<!--bassinet_GP12GENwerewolf_set12 (Precocious Pup's Plush Palace)--></T>
+          <T>314323<!--bassinet_GP12GENwerewolf_set2 (Precocious Pup's Plush Palace)--></T>
+          <T>314321<!--bassinet_GP12GENwerewolf_set3 (Precocious Pup's Plush Palace)--></T>
+          <T>314324<!--bassinet_GP12GENwerewolf_set4 (Precocious Pup's Plush Palace)--></T>
+          <T>314325<!--bassinet_GP12GENwerewolf_set5 (Precocious Pup's Plush Palace)--></T>
+          <T>314326<!--bassinet_GP12GENwerewolf_set6 (Precocious Pup's Plush Palace)--></T>
+          <T>314327<!--bassinet_GP12GENwerewolf_set7 (Precocious Pup's Plush Palace)--></T>
+          <T>314328<!--bassinet_GP12GENwerewolf_set8 (Precocious Pup's Plush Palace)--></T>
+          <T>314329<!--bassinet_GP12GENwerewolf_set9 (Precocious Pup's Plush Palace)--></T>
+          <T>322384<!--bassinet_GP12GENwerewolf_set13 (Precocious Pup's Plush Palace)--></T>
+        </L>
+        <L n="traits">
+          <T>289780<!--trait_OccultWerewolf--></T>
+          <T>289080<!--trait_OccultWerewolf_GreaterWolfBlood--></T>
+        </L>
+      </U>
+      <U>
+        <L n="bassinets">
+          <T>478354<!--bassinet_EP19GENfairy_set1 (Fairy Guardian Bassinet)--></T>
+          <T>486227<!--bassinet_EP19GENfairy_set2 (Fairy Guardian Bassinet)--></T>
+          <T>486226<!--bassinet_EP19GENfairy_set3 (Fairy Guardian Bassinet)--></T>
+          <T>486225<!--bassinet_EP19GENfairy_set4 (Fairy Guardian Bassinet)--></T>
+          <T>486224<!--bassinet_EP19GENfairy_set5 (Fairy Guardian Bassinet)--></T>
+          <T>486223<!--bassinet_EP19GENfairy_set6 (Fairy Guardian Bassinet)--></T>
+          <T>486222<!--bassinet_EP19GENfairy_set7 (Fairy Guardian Bassinet)--></T>
+          <T>486221<!--bassinet_EP19GENfairy_set8 (Fairy Guardian Bassinet)--></T>
+          <T>486231<!--bassinet_EP19GENfairy_set9 (Fairy Guardian Bassinet)--></T>
+          <T>486230<!--bassinet_EP19GENfairy_set10 (Fairy Guardian Bassinet)--></T>
+          <T>486229<!--bassinet_EP19GENfairy_set11 (Fairy Guardian Bassinet)--></T>
+          <T>486228<!--bassinet_EP19GENfairy_set12 (Fairy Guardian Bassinet)--></T>
+          <T>486220<!--bassinet_EP19GENfairy_set13 (Fairy Guardian Bassinet)--></T>
+        </L>
+        <L n="traits">
+          <T>433287<!--trait_OccultFairy_AllAges--></T>
+        </L>
+      </U>
+      <U>
+        <L n="bassinets">
+          <T>20988<!--bassinetGEN_01_set1 (Rock-a-bye Bassinet)--></T>
+          <T>32140<!--bassinetGEN_01_set2 (Rock-a-bye Bassinet)--></T>
+          <T>32141<!--bassinetGEN_01_set3 (Rock-a-bye Bassinet)--></T>
+          <T>57770<!--bassinetGEN_01_set4 (Rock-a-bye Bassinet)--></T>
+          <T>318319<!--bassinet_EF48GEN_set1 (Wicker-Work Bassinet)--></T>
+          <T>318349<!--bassinet_EF48GEN_set11 (Wicker-Work Bassinet)--></T>
+          <T>318350<!--bassinet_EF48GEN_set12 (Wicker-Work Bassinet)--></T>
+          <T>318340<!--bassinet_EF48GEN_set2 (Wicker-Work Bassinet)--></T>
+        </L>
+      </U>
+    </L>
+    <U n="BABY_DEFAULT_CLOTH">
+      <T n="alien">babyGENalien_set1</T>
+      <T n="boy">babyGEN_boy</T>
+      <T n="girl">babyGEN_girl</T>
+    </U>
+    <T n="BABY_THUMBNAIL_DEFINITION">62095<!--babyThumbnail (** DEBUG **)--></T>
+  </C>
+</M>

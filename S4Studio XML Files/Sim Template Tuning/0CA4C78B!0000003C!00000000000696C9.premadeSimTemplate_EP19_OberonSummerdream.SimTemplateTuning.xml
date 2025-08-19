@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PremadeSimTemplate" i="sim_template" m="world.premade_sim_template" n="premadeSimTemplate_EP19_OberonSummerdream" s="431817">
+  <L n="_fixups">
+    <T>446078<!--simInfoFixup_EP19_Oberon_Fairy--></T>
+  </L>
+  <U n="_perks">
+    <L n="explicit">
+      <T>437338<!--fairyPerks_EmotionalEnergyFromPositiveSocials--></T>
+      <T>437335<!--fairyPerks_NurtureNature_1--></T>
+      <T>437337<!--fairyPerks_PlayWithTheirMood--></T>
+      <T>437336<!--fairyPerks_NurtureNature_2--></T>
+      <T>437343<!--fairyPerks_CreateSeed--></T>
+      <T>437344<!--fairyPerks_ImprovedForagingAndDuplicateHarvestable--></T>
+      <T>437351<!--fairyPerks_DetectHarvestables--></T>
+      <T>437350<!--fairyPerks_PlantGrowth--></T>
+    </L>
+  </U>
+  <U n="_sim_creation_info">
+    <T n="first_name">0xFBB8E1DF<!--Oberon--></T>
+    <V n="last_name" t="specify_last_name">
+      <T n="specify_last_name">0x1783F772<!--Summerdream--></T>
+    </V>
+    <T n="resource_key" p="InEP19\Sims\SimInfos\PremadeSims\ymOberonSummerdream.siminfo">025ed6f4:00000000:38f5eaab0bbe1f96</T>
+  </U>
+  <U n="_skills">
+    <L n="explicit">
+      <U>
+        <U n="range">
+          <T n="ideal_value">8</T>
+          <T n="max_value">8</T>
+          <T n="min_value">8</T>
+        </U>
+        <T n="skill">16700<!--statistic_Skill_AdultMajor_Gardening--></T>
+      </U>
+      <U>
+        <U n="range">
+          <T n="ideal_value">7</T>
+          <T n="max_value">7</T>
+          <T n="min_value">7</T>
+        </U>
+        <T n="skill">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+      </U>
+      <U>
+        <U n="range">
+          <T n="max_value">5</T>
+          <T n="min_value">5</T>
+        </U>
+        <T n="skill">434909<!--statistic_Skill_NLS--></T>
+      </U>
+    </L>
+  </U>
+  <U n="_traits">
+    <L n="explicit">
+      <T>453551<!--trait_PlantLover--></T>
+      <T>27419<!--trait_active--></T>
+      <T>433541<!--trait_Mystical--></T>
+      <T>431927<!--trait_Hidden_EP19_NPC_OberonSummerdream--></T>
+      <T>433290<!--trait_OccultFairy_HighFaeLineage--></T>
+    </L>
+    <V n="num_random" t="disabled" />
+  </U>
+  <V n="occult" t="enabled">
+    <U n="enabled">
+      <T n="occult_sim_info" p="InEP19\Sims\SimInfos\PremadeSims\ymOberonSummerdream_occult.siminfo">025ed6f4:00000000:cceaf3aee716424b</T>
+      <E n="occult_type">FAIRY</E>
+    </U>
+  </V>
+  <V n="primary_aspiration" t="enabled">
+    <T n="enabled">25785<!--Track_Family_A--></T>
+  </V>
+</I>

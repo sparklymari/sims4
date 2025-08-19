@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Festival_FleaMarket_Trade_Axolotl" s="377650">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">417062<!--collectTerrarium_EP16GENaxolotl_01_pink (Pink Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422217<!--collectTerrarium_EP16GENaxolotl_01_copper (Copper Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422223<!--collectTerrarium_EP16GENaxolotl_01_gold (Gold Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422224<!--collectTerrarium_EP16GENaxolotl_01_green (Green Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422226<!--collectTerrarium_EP16GENaxolotl_01_copperWild (Wild Copper Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422227<!--collectTerrarium_EP16GENaxolotl_01_lavendar (Lavender Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">9</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.1</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144904<!--collectible_Rarity_Common--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422225<!--collectTerrarium_EP16GENaxolotl_02_blue (Blue Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422221<!--collectTerrarium_EP16GENaxolotl_02_albino (Albino Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422228<!--collectTerrarium_EP16GENaxolotl_02_pinkChimera (Pink Chimera Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422229<!--collectTerrarium_EP16GENaxolotl_02_pinkFirefly (Pink Firefly Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422230<!--collectTerrarium_EP16GENaxolotl_02_goldFirefly (Gold Firefly Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">10</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">35</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.15</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144901<!--collectible_Rarity_Uncommon--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422222<!--collectTerrarium_EP16GENaxolotl_03_greenChimera (Green Chimera Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">38</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422231<!--collectTerrarium_EP16GENaxolotl_03_black (Black Melanoid Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">25</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422232<!--collectTerrarium_EP16GENaxolotl_03_blueFluor (Blue Fluorescent Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">15</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">422233<!--collectTerrarium_EP16GENaxolotl_03_goldFluor (Gold Fluorescent Axolotl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">11</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">50</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0.05</T>
+            <L n="tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <E n="operator">NOTEQUAL</E>
+                    <T n="value">144905<!--collectible_Rarity_Rare--></T>
+                    <E n="who">PickedObject</E>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

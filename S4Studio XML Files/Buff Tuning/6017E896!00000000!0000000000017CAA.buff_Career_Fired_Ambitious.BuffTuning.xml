@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Career_Fired_Ambitious" s="97450">
+  <L n="_loot_on_addition">
+    <T>307091<!--loot_Child_Confidence_Loss_Medium--></T>
+    <T>245770<!--Loot_Lifestyles_Progress_Lock_Workaholic--></T>
+    <T>246060<!--loot_Lifestyles_Workaholic_WorkOffHours_RemoveStatistic--></T>
+    <T>277844<!--loot_Fear_DeadEndJob_RemoveFear_JobGone--></T>
+    <T>277103<!--loot_Fear_Failure_Trigger--></T>
+    <T>307765<!--loot_JobLoss_AddPreviousCareerCooldown--></T>
+    <T>382587<!--loot_Grief_Trigger_NoTarget--></T>
+    <T>311335<!--loot_SelfDiscovery_Progress_Mood_Max_Small--></T>
+  </L>
+  <V n="_temporary_commodity_info" t="enabled">
+    <U n="enabled">
+      <L n="categories">
+        <E>Sad_Buffs</E>
+      </L>
+      <T n="max_duration">1440</T>
+    </U>
+  </V>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0x174A3E8B<!--Ambitious Sims feel absolutely devastated about such a huge career setback.--></T>
+  <T n="buff_name">0xAB56DE0A<!--Fired?!--></T>
+  <T n="icon" p="InGame\UI\Icons\Buffs\Buffs_Ambitious_neg.png">2f7d0004:00000000:9fb04536a36779c4</T>
+  <T n="mood_type">14643<!--Mood_Sad--></T>
+  <T n="mood_weight">5</T>
+</I>

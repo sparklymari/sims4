@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WaypointGraph" i="snippet" m="snippets" n="groupWalkingTrail_boatHouse" s="311803">
+  <U n="value">
+    <L n="connections">
+      <U>
+        <T n="waypoint">333074<!--groupWalkingTrail_08_start02--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333075<!--groupWalkingTrail_09--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333075<!--groupWalkingTrail_09--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333076<!--groupWalkingTrail_10--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333076<!--groupWalkingTrail_10--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333077<!--groupWalkingTrail_11--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333077<!--groupWalkingTrail_11--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333078<!--groupWalkingTrail_12--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333078<!--groupWalkingTrail_12--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333079<!--groupWalkingTrail_13--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333079<!--groupWalkingTrail_13--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333080<!--groupWalkingTrail_14--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333080<!--groupWalkingTrail_14--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333081<!--groupWalkingTrail_15--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333081<!--groupWalkingTrail_15--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333082<!--groupWalkingTrail_16--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333082<!--groupWalkingTrail_16--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333083<!--groupWalkingTrail_17--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333083<!--groupWalkingTrail_17--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333084<!--groupWalkingTrail_18--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">333084<!--groupWalkingTrail_18--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">333074<!--groupWalkingTrail_08_start02--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+  </U>
+</I>

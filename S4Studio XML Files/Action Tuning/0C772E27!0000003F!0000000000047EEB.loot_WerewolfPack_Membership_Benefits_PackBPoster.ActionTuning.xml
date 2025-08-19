@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_WerewolfPack_Membership_Benefits_PackBPoster" s="294635">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">309831<!--decalWall_GP12RWposter_set1 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313745<!--decalWall_GP12RWposter_set2 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313746<!--decalWall_GP12RWposter_set3 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313747<!--decalWall_GP12RWposter_set4 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313748<!--decalWall_GP12RWposter_set5 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313749<!--decalWall_GP12RWposter_set6 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313750<!--decalWall_GP12RWposter_set7 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">313751<!--decalWall_GP12RWposter_set8 (Fury-Fueled Nonconformity Poster)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="reward">
+      <U n="reward">
+        <T n="reward">294704<!--packBenefits_PackBPoster--></T>
+      </U>
+    </V>
+  </L>
+</I>

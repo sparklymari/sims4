@@ -1,0 +1,2707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ExcavationPile01_Dig" s="177761">
+  <L n="loot_actions">
+    <V t="statistics">
+      <V n="statistics" t="statistic_change">
+        <U n="statistic_change">
+          <T n="amount">-20</T>
+          <U n="chance">
+            <T n="base_chance">85</T>
+          </U>
+          <T n="stat">177105<!--statistic_ExcavationPile_Progress--></T>
+          <L n="subject">
+            <E>Object</E>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="state_white_black">
+                <U n="state_white_black">
+                  <U n="states">
+                    <V n="blacklist" t="specify">
+                      <U n="specify">
+                        <L n="blacklist">
+                          <T>177048<!--excavationPile_DigSite--></T>
+                          <T>177107<!--excavationPile_Empty--></T>
+                        </L>
+                      </U>
+                    </V>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">177107<!--excavationPile_Empty--></T>
+        <V n="subject" t="participant">
+          <E n="participant">Object</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">177048<!--excavationPile_DigSite--></T>
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="species" t="specified">
+                  <U n="specified">
+                    <L n="species">
+                      <E />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InGP06\UI\icons\Headlines\headline_ExcavationPile.png">2f7d0004:00000000:d0484b089629d14a</T>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x4400C99D<!--While excavating in archaeological site, {0.SimFirstName} found:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">14</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">16</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">7</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178389<!--craftRelicBottom_GP06GEN_chaos (Chaos Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178388<!--craftRelicBottom_GP06GEN_death (Death Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178386<!--craftRelicBottom_GP06GEN_watcher (Watcher Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178411<!--craftRelicTop_GP06GENbird (Zazatototl Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178414<!--craftRelicTop_GP06GENcat (Balampalsoh Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178413<!--craftRelicTop_GP06GENllama (Totecallama Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">182336<!--collectFossilRock_GP06 (Fossil Rock)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">15</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">179618<!--pileXSmall_GP06GENboneDust (Ancient Bone Dust)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="skill_test">
+              <U n="skill_test">
+                <T n="skill">174237<!--statistic_Skill_AdultMajor_Archaeology--></T>
+                <V n="skill_range" t="interval">
+                  <U n="interval">
+                    <U n="skill_interval">
+                      <T n="upper_bound">3</T>
+                    </U>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified">
+                  <L n="specified">
+                    <E>TEEN</E>
+                    <E>YOUNGADULT</E>
+                    <E>ADULT</E>
+                    <E>ELDER</E>
+                  </L>
+                </V>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <L n="blacklist">
+                  <T>351443<!--buff_Gemology_Amazonite_QualityArtifacts--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InGP06\UI\icons\Headlines\headline_ExcavationPile.png">2f7d0004:00000000:d0484b089629d14a</T>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x4400C99D<!--While excavating in archaeological site, {0.SimFirstName} found:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">14</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">11</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178389<!--craftRelicBottom_GP06GEN_chaos (Chaos Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178388<!--craftRelicBottom_GP06GEN_death (Death Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178386<!--craftRelicBottom_GP06GEN_watcher (Watcher Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178411<!--craftRelicTop_GP06GENbird (Zazatototl Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178414<!--craftRelicTop_GP06GENcat (Balampalsoh Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178413<!--craftRelicTop_GP06GENllama (Totecallama Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">182336<!--collectFossilRock_GP06 (Fossil Rock)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">15</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">179618<!--pileXSmall_GP06GENboneDust (Ancient Bone Dust)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="skill_test">
+              <U n="skill_test">
+                <T n="skill">174237<!--statistic_Skill_AdultMajor_Archaeology--></T>
+                <V n="skill_range" t="interval">
+                  <U n="interval">
+                    <U n="skill_interval">
+                      <T n="lower_bound">4</T>
+                      <T n="upper_bound">6</T>
+                    </U>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <L n="blacklist">
+                  <T>351443<!--buff_Gemology_Amazonite_QualityArtifacts--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InGP06\UI\icons\Headlines\headline_ExcavationPile.png">2f7d0004:00000000:d0484b089629d14a</T>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x4400C99D<!--While excavating in archaeological site, {0.SimFirstName} found:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">14</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">16</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">7</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178389<!--craftRelicBottom_GP06GEN_chaos (Chaos Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178388<!--craftRelicBottom_GP06GEN_death (Death Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178386<!--craftRelicBottom_GP06GEN_watcher (Watcher Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178411<!--craftRelicTop_GP06GENbird (Zazatototl Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178414<!--craftRelicTop_GP06GENcat (Balampalsoh Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178413<!--craftRelicTop_GP06GENllama (Totecallama Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">182336<!--collectFossilRock_GP06 (Fossil Rock)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">15</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">179618<!--pileXSmall_GP06GENboneDust (Ancient Bone Dust)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="skill_test">
+              <U n="skill_test">
+                <T n="skill">174237<!--statistic_Skill_AdultMajor_Archaeology--></T>
+                <V n="skill_range" t="interval">
+                  <U n="interval">
+                    <U n="skill_interval">
+                      <T n="lower_bound">7</T>
+                      <T n="upper_bound">9</T>
+                    </U>
+                  </U>
+                </V>
+              </U>
+            </V>
+            <V t="buff">
+              <U n="buff">
+                <L n="blacklist">
+                  <T>351443<!--buff_Gemology_Amazonite_QualityArtifacts--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InGP06\UI\icons\Headlines\headline_ExcavationPile.png">2f7d0004:00000000:d0484b089629d14a</T>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x4400C99D<!--While excavating in archaeological site, {0.SimFirstName} found:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">14</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">0</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">21</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">0</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">11</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">0</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178389<!--craftRelicBottom_GP06GEN_chaos (Chaos Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178388<!--craftRelicBottom_GP06GEN_death (Death Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178386<!--craftRelicBottom_GP06GEN_watcher (Watcher Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178411<!--craftRelicTop_GP06GENbird (Zazatototl Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178414<!--craftRelicTop_GP06GENcat (Balampalsoh Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178413<!--craftRelicTop_GP06GENllama (Totecallama Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">182336<!--collectFossilRock_GP06 (Fossil Rock)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">15</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">179618<!--pileXSmall_GP06GENboneDust (Ancient Bone Dust)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="skill_test">
+              <U n="skill_test">
+                <T n="skill">174237<!--statistic_Skill_AdultMajor_Archaeology--></T>
+                <V n="skill_range" t="threshold">
+                  <U n="threshold">
+                    <U n="skill_threshold">
+                      <E n="comparison">EQUAL</E>
+                      <T n="value">10</T>
+                    </U>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>351443<!--buff_Gemology_Amazonite_QualityArtifacts--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">177273<!--archaeologySkill_Excavation_Success--></T>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InGP06\UI\icons\Headlines\headline_ExcavationPile.png">2f7d0004:00000000:d0484b089629d14a</T>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant" />
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x4400C99D<!--While excavating in archaeological site, {0.SimFirstName} found:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">14</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181506<!--ancientArtifact_Genuine--></T>
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188809<!--collectArtifactMed_DirtClumpMask (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190221<!--collectArtifactMed_DirtClumpSkull (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190222<!--collectArtifactMed_DirtClumpStatue (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190223<!--collectArtifactMed_DirtClumpVase (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">190249<!--collectArtifactSm_DirtClumpKnife (Artifact-Shaped Dirt Clump)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">4</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">21</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">0</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">11</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144901<!--collectible_Rarity_Uncommon--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">0</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175134<!--ancientArtifact_QualityLevel_Low--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">3</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144905<!--collectible_Rarity_Rare--></T>
+                  <T>175135<!--ancientArtifact_QualityLevel_High--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">0</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188810<!--collectArtifactMed_UnauthenticatedMask (Unauthenticated Mask)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188811<!--collectArtifactMed_UnauthenticatedSkull (Unauthenticated Skull)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188812<!--collectArtifactMed_UnauthenticatedStatue (Unauthenticated Statue)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188813<!--collectArtifactMed_UnauthenticatedVase (Unauthenticated Vase)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188814<!--collectArtifactSm_UnauthenticatedKnife (Unauthenticated Knife)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>181505<!--ancientArtifact_Fake--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178389<!--craftRelicBottom_GP06GEN_chaos (Chaos Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178388<!--craftRelicBottom_GP06GEN_death (Death Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178386<!--craftRelicBottom_GP06GEN_watcher (Watcher Relic Base)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178411<!--craftRelicTop_GP06GENbird (Zazatototl Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178414<!--craftRelicTop_GP06GENcat (Balampalsoh Relic)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178413<!--craftRelicTop_GP06GENllama (Totecallama Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">182336<!--collectFossilRock_GP06 (Fossil Rock)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>144904<!--collectible_Rarity_Common--></T>
+                </L>
+                <U n="weight">
+                  <T n="base_value">15</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">179618<!--pileXSmall_GP06GENboneDust (Ancient Bone Dust)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tests">
+          <L>
+            <V t="sim_info">
+              <U n="sim_info">
+                <V n="ages" t="specified">
+                  <L n="specified">
+                    <E>CHILD</E>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

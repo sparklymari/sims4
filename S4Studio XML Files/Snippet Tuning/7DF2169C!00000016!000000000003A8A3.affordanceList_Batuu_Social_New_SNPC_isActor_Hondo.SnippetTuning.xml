@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Batuu_Social_New_SNPC_isActor_Hondo" s="239779">
+  <L n="value">
+    <T>241740<!--social_Sabacc_AccuseofCheating--></T>
+    <T>246156<!--sim_Chat_SNPC--></T>
+    <T>250759<!--social_Sabacc_AskToLeave--></T>
+    <T>251544<!--social_Batuu_Missions_Listen_Ask_About--></T>
+    <T>251674<!--social_Batuu_Missions_Listen_Paired--></T>
+    <T>242356<!--socialMixer_Sabacc_Raise_Credits--></T>
+    <T>239200<!--social_Sabacc_DealCards--></T>
+    <T>237791<!--social_Sabacc_JoinGame--></T>
+    <T>230949<!--social_Sabacc_PlayGame--></T>
+    <T>245672<!--mixer_Social_Batuu_SNPC_GiveBuff_Hondo--></T>
+    <T>235128<!--socialMixer_Sabacc_CallSabacc--></T>
+    <T>233810<!--socialMixer_Sabacc_DealHand--></T>
+    <T>234332<!--socialMixer_Sabacc_EveryoneFolded--></T>
+    <T>234316<!--socialMixer_Sabacc_Fold--></T>
+    <T>233812<!--socialMixer_Sabacc_Folded_Skip--></T>
+    <T>233814<!--socialMixer_Sabacc_GG_Winner--></T>
+    <T>234315<!--socialMixer_Sabacc_Raise--></T>
+    <T>237314<!--mixer_Sabacc_CallSabacc_RNG--></T>
+    <T>237265<!--mixer_Sabacc_Cheat--></T>
+    <T>245517<!--mixer_Sabacc_Idle--></T>
+    <T>235128<!--socialMixer_Sabacc_CallSabacc--></T>
+    <T>247793<!--socialMixer_Sabacc_GG_Loser--></T>
+    <T>239056<!--mixer_Sabacc_WaitForTurn_Logical--></T>
+    <T>239055<!--mixer_Sabacc_WaitForTurn_Confident--></T>
+    <T>235099<!--mixer_Sabacc_WaitForTurn--></T>
+    <T>243181<!--sabacc_Immediate_DeleteCreditPile--></T>
+    <T>237235<!--sabacc_Immediate_PlayConfidently--></T>
+    <T>237234<!--sabacc_Immediate_PlayLogically--></T>
+    <T>237243<!--sabacc_Immediate_PlayNormally--></T>
+    <T>245566<!--sabacc_Immediate_Score--></T>
+    <T>244265<!--social_Sabacc_DealCards_Autonomous--></T>
+    <T>239866<!--mixer_Social_Batuu_Hondo_Steal_Hidden--></T>
+    <T>238717<!--mixer_Social_Batuu_Hondo_DiscussShippingCompany--></T>
+    <T>238179<!--mixer_social_Batuu_Reputation_HatchElaboratePlan--></T>
+    <T>238178<!--mixer_social_Batuu_Reputation_TellTalesOfGalacticAdventure--></T>
+    <T>238177<!--mixer_social_Batuu_Reputation_TellTalesofSmuggling--></T>
+  </L>
+</I>

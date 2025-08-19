@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_CrossPackLists_DisableNudeBroadcasterAffordance" s="129464">
+  <L n="value">
+    <T>13439<!--generic_Shower--></T>
+    <T>35123<!--generic_ShowerClean--></T>
+    <T>143810<!--bathtub_ToddlerBath_Give--></T>
+    <T>99173<!--sim_streak_around--></T>
+    <T>120455<!--steamRoom_Relax_Nude--></T>
+    <T>13429<!--generic_BedWoohoo--></T>
+    <T>117772<!--generic_HotTub_Woohoo--></T>
+    <T>13437<!--generic_RocketShipWoohoo--></T>
+    <T>13442<!--generic_TelescopeWoohoo--></T>
+    <T>125224<!--generic_BushWoohoo--></T>
+    <T>123398<!--generic_Closet_Woohoo--></T>
+    <T>103252<!--generic_TentWoohoo--></T>
+    <T>119530<!--generic_SteamRoomWooHoo--></T>
+    <T>13084<!--bathtub_TakeBath--></T>
+    <T>13087<!--bathtub_TakeBubbleBath--></T>
+    <T>13950<!--shower_TakeShower--></T>
+    <T>39965<!--shower_TakeShower_Brisk--></T>
+    <T>24332<!--shower_TakeShower_ColdShower--></T>
+    <T>23839<!--shower_TakeShower_Energized--></T>
+    <T>39860<!--shower_TakeShower_Steamy--></T>
+    <T>39845<!--shower_TakeShower_Thoughtful--></T>
+    <T>152620<!--bathtub_ToddlerBath_Give_Bubbles--></T>
+    <T>151089<!--bathtub_ToddlerBath_Give_Debug--></T>
+    <T>143866<!--bathtub_ToddlerInfantBath_Take--></T>
+    <T>300723<!--bathtub_ToddlerInfantBath_Take_Bubbles--></T>
+    <T>172250<!--generic_LighthouseWoohoo--></T>
+    <T>189787<!--generic_HairMakeUpChair_Hair--></T>
+    <T>189788<!--generic_HairMakeUpChair_MakeUp--></T>
+    <T>191329<!--generic_WardrobePedestal--></T>
+    <T>120083<!--generic_MassageChair_FootMassage_Left--></T>
+    <T>120084<!--generic_MassageChair_FootMassage_Right--></T>
+    <T>119334<!--generic_MassageChair_Reclined--></T>
+    <T>117579<!--generic_MassageTableCustomer--></T>
+    <T>120215<!--generic_MassageTableTherapist--></T>
+    <T>117359<!--generic_Yoga--></T>
+    <T>119103<!--generic_MeditationStool_Meditation--></T>
+    <T>119105<!--generic_MeditationStool_Levitation--></T>
+    <T>355169<!--bathtub_TakeBath_WaterHeater_Cold--></T>
+  </L>
+</I>

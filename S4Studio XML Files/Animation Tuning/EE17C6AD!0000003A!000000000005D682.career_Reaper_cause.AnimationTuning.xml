@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AnimationElement" i="animation" m="animation.animation_element" n="career_Reaper_cause" s="382594">
+  <U n="_overrides">
+    <L n="props">
+      <U>
+        <T n="key">tablet</T>
+        <U n="value">
+          <T n="definition">60865<!--tabletGrimReaper (** DEBUG **)--></T>
+        </U>
+      </U>
+    </L>
+  </U>
+  <T n="asm_key" p="InEP17\Sage\GrimCareer_ReapActions.interactionasm">02d5df13:00000000:0ba83fe1e5d1b9ae</T>
+  <L n="begin_states">
+    <T>DetermineCauseOfDeath</T>
+  </L>
+</I>

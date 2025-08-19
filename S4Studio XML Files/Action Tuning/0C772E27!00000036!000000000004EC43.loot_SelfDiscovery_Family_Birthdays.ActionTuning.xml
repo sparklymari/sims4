@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_SelfDiscovery_Family_Birthdays" s="322627">
+  <L n="loot_actions">
+    <V t="actions">
+      <T n="actions">311319<!--loot_SelfDiscovery_Progress_Family_Min_Large--></T>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="situation_job_test">
+        <U n="situation_job_test">
+          <L n="situation_jobs">
+            <T>31633<!--job_guest_birthday_party--></T>
+          </L>
+        </U>
+      </V>
+      <V t="relationship">
+        <U n="relationship">
+          <U n="required_relationship_bits">
+            <L n="match_any">
+              <T>15816<!--romantic-Engaged--></T>
+              <T>99429<!--romantic-Promised--></T>
+              <T>8829<!--family_Target_IsAuntUncleOf_Actor--></T>
+              <T>8802<!--family_Target_IsBrotherSisterOf_Actor--></T>
+              <T>8826<!--family_Target_IsCousinOf_Actor--></T>
+              <T>8807<!--family_Target_IsGrandchildOf_Actor--></T>
+              <T>8808<!--family_Target_IsGrandparentOf_Actor--></T>
+              <T>24490<!--family_Target_IsHusbandWifeOf_Actor--></T>
+              <T>9989<!--family_Target_IsNieceNephewOf_Actor--></T>
+              <T>8809<!--family_Target_IsParentOf_Actor--></T>
+              <T>8805<!--family_Target_IsSonOrDaughterOf_Actor--></T>
+              <T>8824<!--family_Target_IsStepsiblingOf_Actor--></T>
+              <T>15822<!--romantic-Married--></T>
+            </L>
+          </U>
+          <L n="subject">
+            <E>Actor</E>
+          </L>
+          <L n="target_sim">
+            <E>TargetSim</E>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

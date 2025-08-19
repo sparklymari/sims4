@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Werewolf_AddAllPerks" s="288745">
+  <L n="loot_actions">
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284786<!--werewolfPerks_ApexPredator--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284776<!--werewolfPerks_CurseBearer--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284770<!--werewolfPerks_EatEverything--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284764<!--werewolfPerks_EnhancedSenses--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284768<!--werewolfPerks_Ferocity--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284772<!--werewolfPerks_Hunter--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284781<!--werewolfPerks_HuntingParty--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284785<!--werewolfPerks_ImmortalWolf--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284789<!--werewolfPerks_LegacyOfTheLycan--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284775<!--werewolfPerks_LunarBlessing--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284788<!--werewolfPerks_LunarHowl--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284783<!--werewolfPerks_LunarResistance--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284777<!--werewolfPerks_NaturalHealing--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284779<!--werewolfPerks_Nightvision--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284778<!--werewolfPerks_PackHowl--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284769<!--werewolfPerks_PersonalGrooming--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284784<!--werewolfPerks_PrimalInstincts--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284773<!--werewolfPerks_Scavenger--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284774<!--werewolfPerks_SomberHowl--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284787<!--werewolfPerks_SuperSpeed--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284767<!--werewolfPerks_TerritoryMarking--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284771<!--werewolfPerks_TheWillToResist--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284780<!--werewolfPerks_Tunneler--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284782<!--werewolfPerks_ViciousHowl--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284765<!--werewolfPerks_WolfNap--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284795<!--werewolfPerks_Dormant_LunarEpiphany--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284796<!--werewolfPerks_Dormant_TransformationMastery--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284793<!--werewolfPerks_Dormant_WerewolfDiplomacy--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284792<!--werewolfPerks_Dormant_WerewolfEmpathy--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284791<!--werewolfPerks_Dormant_WerewolfMenace--></T>
+      </U>
+    </V>
+    <V t="award_perk">
+      <U n="award_perk">
+        <T n="perk">284794<!--werewolfPerks_Dormant_WerewolfMentorship--></T>
+      </U>
+    </V>
+  </L>
+</I>

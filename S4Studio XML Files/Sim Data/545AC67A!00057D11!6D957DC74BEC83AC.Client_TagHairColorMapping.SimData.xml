@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="Client_TagHairColorMapping" schema="Client_TagHairColorMapping" type="Object">
+      <L name="TagPair">
+        <U type="Object" schema="Client_TagHairColorMapping.AdultToChild">
+          <T name="Adult">897</T>
+          <T name="Child">131</T>
+        </U>
+        <U type="Object" schema="Client_TagHairColorMapping.AdultToChild">
+          <T name="Adult">898</T>
+          <T name="Child">132</T>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Client_TagHairColorMapping" schema_hash="0x92EF22E8">
+      <Columns>
+        <Column name="TagPair" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Client_TagHairColorMapping.AdultToChild" schema_hash="0x969C930B">
+      <Columns>
+        <Column name="Adult" type="Int64" flags="0x00000000" />
+        <Column name="Child" type="Int64" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

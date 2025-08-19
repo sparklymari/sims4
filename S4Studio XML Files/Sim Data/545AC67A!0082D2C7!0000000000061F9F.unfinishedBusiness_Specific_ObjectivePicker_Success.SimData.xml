@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003A">
+  <Instances>
+    <I name="unfinishedBusiness_Specific_ObjectivePicker_Success" schema="UnfinishedBusinessObjectivePickerSuperInteraction" type="Object">
+      <L name="objectives">
+        <T type="TableSetReference">398399</T>
+        <T type="TableSetReference">398424</T>
+        <T type="TableSetReference">398394</T>
+        <T type="TableSetReference">382477</T>
+        <T type="TableSetReference">398413</T>
+        <T type="TableSetReference">382468</T>
+        <T type="TableSetReference">382467</T>
+        <T type="TableSetReference">382469</T>
+        <T type="TableSetReference">382482</T>
+        <T type="TableSetReference">382470</T>
+        <T type="TableSetReference">382478</T>
+        <T type="TableSetReference">382483</T>
+        <T type="TableSetReference">382479</T>
+        <T type="TableSetReference">382475</T>
+        <T type="TableSetReference">382464</T>
+        <T type="TableSetReference">382471</T>
+        <T type="TableSetReference">382472</T>
+        <T type="TableSetReference">382480</T>
+        <T type="TableSetReference">382465</T>
+        <T type="TableSetReference">382466</T>
+        <T type="TableSetReference">382473</T>
+        <T type="TableSetReference">382474</T>
+        <T type="TableSetReference">415640</T>
+        <T type="TableSetReference">382476</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="UnfinishedBusinessObjectivePickerSuperInteraction" schema_hash="0xB693BE76">
+      <Columns>
+        <Column name="objectives" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_ObjectBased_DoLaundry" s="388371">
+  <L n="affordances">
+    <T>389858<!--laundry_WashingMachine_PutIn_CustomerNPC--></T>
+    <T>389860<!--laundry_WashingMachine_Unload_CustomerNPC--></T>
+    <T>391716<!--laundry_Dryer_PutIn_CustomerNPC--></T>
+    <T>391717<!--laundry_Dryer_Unload_CustomerNPC--></T>
+  </L>
+  <E n="category">HOME_ACTIVITIES</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_DoLaundry.png">2f7d0004:00000000:9dd40c6681baaacb</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="club_rule">False</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x45CFD69B<!--Do Laundry--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x2C72DDC7<!--Sims will do laundry using:\n• Washing Machines\n• Dryers--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0xDC5799F4<!--Do Laundry--></T>
+  <T n="tooltip_template_negative">0xE91AF02A<!--Don't Do Laundry--></T>
+</I>

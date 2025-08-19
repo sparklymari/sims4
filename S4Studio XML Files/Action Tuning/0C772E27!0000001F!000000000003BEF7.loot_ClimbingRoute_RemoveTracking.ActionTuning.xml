@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ClimbingRoute_RemoveTracking" s="245495">
+  <L n="loot_actions">
+    <V t="reaction">
+      <U n="reaction">
+        <V n="si_reaction" t="enabled">
+          <U n="enabled">
+            <T n="affordance">250497<!--climbingRoute_Reactions_Success--></T>
+            <E n="affordance_priority">High</E>
+            <V n="affordance_target" t="disabled" />
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>250492<!--buff_ClimbingRoute_OutcomeTracking_Success--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="reaction">
+      <U n="reaction">
+        <V n="si_reaction" t="enabled">
+          <U n="enabled">
+            <T n="affordance">250498<!--climbingRoute_Reactions_LargeSuccess--></T>
+            <E n="affordance_priority">High</E>
+            <V n="affordance_target" t="disabled" />
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>250493<!--buff_ClimbingRoute_OutcomeTracking_LargeSuccess--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>245479<!--buff_ClimbingRoute_ClimbTracking_AverageBreakingPoint--></T>
+          <T>245480<!--buff_ClimbingRoute_ClimbTracking_AverageMeticulousSession--></T>
+          <T>245477<!--buff_ClimbingRoute_ClimbTracking_AveragePractice--></T>
+          <T>245481<!--buff_ClimbingRoute_ClimbTracking_MasterBreakingPoint--></T>
+          <T>245483<!--buff_ClimbingRoute_ClimbTracking_MasterMeticulousSession--></T>
+          <T>245484<!--buff_ClimbingRoute_ClimbTracking_MasterPractice--></T>
+          <T>245485<!--buff_ClimbingRoute_ClimbTracking_NoviceBreakingPoint--></T>
+          <T>245486<!--buff_ClimbingRoute_ClimbTracking_NoviceMeticulousSession--></T>
+          <T>245487<!--buff_ClimbingRoute_ClimbTracking_NovicePractice--></T>
+          <T>247166<!--buff_ClimbingRoute_ClimbTracking_AverageAttempt--></T>
+          <T>247167<!--buff_ClimbingRoute_ClimbTracking_AverageCautiously--></T>
+          <T>247168<!--buff_ClimbingRoute_ClimbTracking_AverageCourageously--></T>
+          <T>247169<!--buff_ClimbingRoute_ClimbTracking_AverageNormally--></T>
+          <T>247170<!--buff_ClimbingRoute_ClimbTracking_MasterAttempt--></T>
+          <T>247177<!--buff_ClimbingRoute_ClimbTracking_MasterCautiously--></T>
+          <T>247179<!--buff_ClimbingRoute_ClimbTracking_MasterCourageously--></T>
+          <T>247178<!--buff_ClimbingRoute_ClimbTracking_MasterNormally--></T>
+          <T>247163<!--buff_ClimbingRoute_ClimbTracking_NoviceCautiously--></T>
+          <T>247165<!--buff_ClimbingRoute_ClimbTracking_NoviceCourageously--></T>
+          <T>247164<!--buff_ClimbingRoute_ClimbTracking_NoviceNormally--></T>
+          <T>247205<!--buff_ClimbingRoute_CancelClimb--></T>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">250499<!--loot_ClimbingRoute_RemoveOutcomeTracking--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">250578<!--loot_ClimbingRoute_RemoveBuffTracking--></T>
+    </V>
+  </L>
+</I>

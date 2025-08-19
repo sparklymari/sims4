@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003B">
+  <Instances>
+    <I name="smallBusinessPreset_PotteryStudio" schema="BusinessPreset" type="Object">
+      <T name="name">0xA4156E3B</T>
+      <L name="rule_set">
+        <T type="TableSetReference">410875</T>
+        <T type="TableSetReference">427500</T>
+        <T type="TableSetReference">421954</T>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="BusinessPreset" schema_hash="0x594024E2">
+      <Columns>
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="rule_set" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="zoneModifierInfo_muEventOnResidential" schema="ZoneModifierDisplayInfo" type="Object">
+      <T name="modifier_type">1</T>
+      <T name="zone_modifier_description">0x978D6071</T>
+      <T name="zone_modifier_icon">00B2D882-00000000-AC26FA0BD52F7A5B</T>
+      <T name="zone_modifier_name">0x2715B644</T>
+      <T name="zone_modifier_reference">356465</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="ZoneModifierDisplayInfo" schema_hash="0xA3BAF871">
+      <Columns>
+        <Column name="modifier_type" type="Int64" flags="0x00000000" />
+        <Column name="zone_modifier_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="zone_modifier_icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="zone_modifier_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="zone_modifier_reference" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

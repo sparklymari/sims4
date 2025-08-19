@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SmallBusinessSeed" i="small_business_seed" m="small_business.small_business_seed" n="smallBusinessSeed_CafeBookshop" s="436507">
+  <T n="business_description_key">0x6A2AA185<!--Koffieboon Café--></T>
+  <T n="business_icon" p="InEP18\UI\Icons\Headlines\headline_Logo_Books.png">2f7d0004:00000000:55a01677efa85086</T>
+  <T n="business_name_key">0x9DA90F85<!--Koffieboon--></T>
+  <L n="business_perks">
+    <T>373030<!--smallbusinessPerks_Dreamer_InspirewithBusinessStory--></T>
+    <T>405245<!--smallBusinessPerks_Dreamer_EmployeeTip--></T>
+    <T>373033<!--smallBusinessPerks_Neutral_MuscleMemory_1--></T>
+    <T>373038<!--smallBusinessPerks_Neutral_MuscleMemory_2--></T>
+    <T>373039<!--smallBusinessPerks_Neutral_MuscleMemory_3--></T>
+    <T>373032<!--smallBusinessPerks_Neutral_TipJar_1--></T>
+  </L>
+  <L n="customer_rules">
+    <T>127694<!--clubInteractionGroup_ObjectBased_DrinkEspresso--></T>
+    <T>384300<!--clubInteractionGroup_ObjectBased_DrinkTea--></T>
+    <T>122482<!--clubInteractionGroup_ObjectBased_Read--></T>
+    <T>421954<!--clubInteractionGroup_SmallBusiness_AttendClassesAndLectures--></T>
+  </L>
+  <L n="employee_data">
+    <U>
+      <T n="key">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+      <U n="value">
+        <L n="employee_rules">
+          <T>434955<!--clubInteractionGroup_FoodAndDrink_ObjectBased_TendEspressoBar--></T>
+        </L>
+      </U>
+    </U>
+    <U>
+      <T n="key">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+      <U n="value">
+        <L n="employee_rules">
+          <T>401373<!--clubInteractionGroup_SmallBusiness_RunClasses--></T>
+        </L>
+      </U>
+    </U>
+  </L>
+</I>

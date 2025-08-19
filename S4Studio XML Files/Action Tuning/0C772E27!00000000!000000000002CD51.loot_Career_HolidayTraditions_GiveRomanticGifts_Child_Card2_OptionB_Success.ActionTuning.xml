@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Career_HolidayTraditions_GiveRomanticGifts_Child_Card2_OptionB_Success" s="183633">
+  <L n="loot_actions">
+    <V t="notification_and_dialog">
+      <U n="notification_and_dialog">
+        <V n="dialog" t="notification">
+          <U n="notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_flirty_v1.png">2f7d0004:00000000:17f8dc97cd7ea09a</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant" />
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x79CD54BC<!--{0.SimFirstName} decided to keep the flowers for {M0.himself}{F0.herself}! While at recess, another kid spotted them and offered to trade for some real flowers. Considering it an upgrade, {0.SimFirstName} accepted. {M0.He’d}{F0.She’d} started the day with nothing, and now {M0.he}{F0.she} had a bouquet of real flowers. What an enterprising young sim!--></T>
+            </V>
+            <V n="text_tokens" t="enabled">
+              <U n="enabled">
+                <L n="tokens">
+                  <V t="participant_type" />
+                  <V t="active_holiday" />
+                </L>
+              </U>
+            </V>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x5D4F3F64<!--(From School Holiday Celebration)--></T>
+          </V>
+          <T n="buff_type">190339<!--buff_HolidayTraditions_Visible_GiftGifts_ChanceCard_Success_Child--></T>
+        </U>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196584<!--craftFlowerArrangement_EP05GEN_birdsOfParadise (Birds of Paradise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196585<!--craftFlowerArrangement_EP05GEN_birdsOfParadise_crocus_purpleRose_bluebell (Midnight Paradise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196586<!--craftFlowerArrangement_EP05GEN_birdsOfParadise_greenChrysanthemum_redSnapdragon (Summer Paradise)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196587<!--craftFlowerArrangement_EP05GEN_birdsOfParadise_whiteLilly_pinkBegonia (Paradise in Pink)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196930<!--craftFlowerArrangement_EP05GEN_bluebells (Bluebells)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196581<!--craftFlowerArrangement_EP05GEN_bluebells_whiteSnapdragon (Azure Cream)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196646<!--craftFlowerArrangement_EP05GEN_blueTulip (Blue Tulip)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196650<!--craftFlowerArrangement_EP05GEN_blueTulip_crocus_bluebell (Mermaid Scales)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196588<!--craftFlowerArrangement_EP05GEN_christmasRose (Christmas Rose)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196590<!--craftFlowerArrangement_EP05GEN_christmasRose_crocus (Violet Frost)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196589<!--craftFlowerArrangement_EP05GEN_christmasRose_snowdrop_holly (Winter Tribute)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196593<!--craftFlowerArrangement_EP05GEN_crocus (Crocus)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196608<!--craftFlowerArrangement_EP05GEN_daisy (Daisies)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196609<!--craftFlowerArrangement_EP05GEN_daisy_bluebells (Daisies and Bluebells)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196624<!--craftFlowerArrangement_EP05GEN_dozenOrangeRose (Dozen Orange Roses)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196623<!--craftFlowerArrangement_EP05GEN_dozenPinkRose (Dozen Pink Roses)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196621<!--craftFlowerArrangement_EP05GEN_dozenRedRose (Dozen Red Roses)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196622<!--craftFlowerArrangement_EP05GEN_dozenWhiteRose (Dozen White Roses)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196610<!--craftFlowerArrangement_EP05GEN_holly (Holly )--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196607<!--craftFlowerArrangement_EP05GEN_orangeDahlia_redBegonia (Autumnal Equinox)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196633<!--craftFlowerArrangement_EP05GEN_orangeRose_orangeDahlia (Marmalade Mix)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196579<!--craftFlowerArrangement_EP05GEN_pinkBegonia (Pink Begonias)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196612<!--craftFlowerArrangement_EP05GEN_pinkLilly (Pink Lilies)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196613<!--craftFlowerArrangement_EP05GEN_pinkLilly_pinkTulip_pinkRose (Pink Champagne)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196620<!--craftFlowerArrangement_EP05GEN_pinkOrchid (Pink Orchids)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196630<!--craftFlowerArrangement_EP05GEN_pinkRose_blueTulip_whiteSnapdragon_purpleDahlia (Mirthful Matrimony)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196628<!--craftFlowerArrangement_EP05GEN_pinkRose_daisy (Speckled Pink)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196629<!--craftFlowerArrangement_EP05GEN_pinkRose_redSnapdragon (Rosey Disposition)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196644<!--craftFlowerArrangement_EP05GEN_pinkTulip (Pink Tulip)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196652<!--craftFlowerArrangement_EP05GEN_pinkTulip_blueTulip_yellowTulip_whiteTulip (Tetradic Spring)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196647<!--craftFlowerArrangement_EP05GEN_pinkTulip_crocus (Dark Blush)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196653<!--craftFlowerArrangement_EP05GEN_pinkTulip_redSnapdragon (Monochromatic Pink)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196595<!--craftFlowerArrangement_EP05GEN_purpleDahlia (Deep Purple Dahlias)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196596<!--craftFlowerArrangement_EP05GEN_purpleDahlia_pinkBegonia (Violet Blush)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196632<!--craftFlowerArrangement_EP05GEN_purpleRose_blueTulip (Cool Complementary)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196631<!--craftFlowerArrangement_EP05GEN_purpleRose_crocus (Purple Parallel)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196638<!--craftFlowerArrangement_EP05GEN_purpleRose_redRose_pinkLilly_whiteLilly (Scenic Sunset)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196580<!--craftFlowerArrangement_EP05GEN_redBegonia (Red Begonias)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196637<!--craftFlowerArrangement_EP05GEN_redRose_orangeRose_orangeDahlia_purpleDahlia (Autumn Night)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196634<!--craftFlowerArrangement_EP05GEN_redRose_redBegonia_redSnapdragon (Romantic Rouge)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196640<!--craftFlowerArrangement_EP05GEN_snowdrop (Snowdrops)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196641<!--craftFlowerArrangement_EP05GEN_snowdrop_crocus (Purple Permafrost)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196642<!--craftFlowerArrangement_EP05GEN_snowdrop_holly (Frosted Holly)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196591<!--craftFlowerArrangement_EP05GEN_whiteChrysanthemum (White Chrysanthemums)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196582<!--craftFlowerArrangement_EP05GEN_whiteChrysanthemum_greenChrysanthemum_yellowChrysanthemum (Summer's Morning)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196592<!--craftFlowerArrangement_EP05GEN_whiteChrysanthemum_whiteRose (Bridal Ruffles)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196594<!--craftFlowerArrangement_EP05GEN_whiteDahlia (White Dahlias)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196606<!--craftFlowerArrangement_EP05GEN_whiteDahlia_orangeDahlia_purpleDahlia (Regal Celebration)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196611<!--craftFlowerArrangement_EP05GEN_whiteLilly (White Lilies)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196617<!--craftFlowerArrangement_EP05GEN_whiteLilly_bluebell (Morning Frost)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196615<!--craftFlowerArrangement_EP05GEN_whiteLilly_daisy_whiteTulip_snowdrop (Funerary Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196614<!--craftFlowerArrangement_EP05GEN_whiteLilly_redRoses_pinkLilly (White Blush)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196616<!--craftFlowerArrangement_EP05GEN_whiteLilly_whiteChrysanthemum (Winter's Breath)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196618<!--craftFlowerArrangement_EP05GEN_whiteOrchid (White Orchids)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196625<!--craftFlowerArrangement_EP05GEN_whiteRose_holly (Winter Berry)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196626<!--craftFlowerArrangement_EP05GEN_whiteRose_pinkTulip (Pink Lace)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196627<!--craftFlowerArrangement_EP05GEN_whiteRose_whiteDahlia_whiteSnapdragon (Matrimonial Alabaster)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196639<!--craftFlowerArrangement_EP05GEN_whiteSnapdragon_redSnapdragon (Dualistic Dragons)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196643<!--craftFlowerArrangement_EP05GEN_whiteTulip (White Tulips)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196654<!--craftFlowerArrangement_EP05GEN_whiteTulip_whiteSnapdragon (Powdered Blossom)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196619<!--craftFlowerArrangement_EP05GEN_yellowOrchid (Yellow Orchids)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196645<!--craftFlowerArrangement_EP05GEN_yellowTulip (Yellow Tulips)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196648<!--craftFlowerArrangement_EP05GEN_yellowTulip_bluebells (Starry Sky)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196651<!--craftFlowerArrangement_EP05GEN_yellowTulip_orangeRose_daisy (Citrus Cream)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">196649<!--craftFlowerArrangement_EP05GEN_yellowTulip_yellowChrysanthemums_whitesSnapdragon (Spring Meringue)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+        <E n="subject">PickedSim</E>
+      </U>
+    </V>
+  </L>
+</I>

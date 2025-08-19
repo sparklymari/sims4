@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Career_InteriorDecorator_Followup_CommercialVenue_AtLot" s="255196">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xAEC7515E<!--(From Renovating Current Location)--></T>
+          </V>
+          <T n="buff_type">255195<!--buff_Career_InteriorDecorator_Followup_CommercialVenue_Positive--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="career_gig_history_test">
+              <U n="career_gig_history_test">
+                <E n="min_gig_result">SUCCESS</E>
+                <V n="test_type" t="gig_history_lot" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xAEC7515E<!--(From Renovating Current Location)--></T>
+          </V>
+          <T n="buff_type">258311<!--buff_Career_InteriorDecorator_Followup_CommercialVenue_Negative--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="career_gig_history_test">
+              <U n="career_gig_history_test">
+                <E n="max_gig_result">FAILURE</E>
+                <V n="test_type" t="gig_history_lot" />
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="zone">
+        <U n="zone">
+          <U n="zone_tests">
+            <V n="venue_type" t="enabled">
+              <U n="enabled">
+                <V n="whitelist" t="specify">
+                  <U n="specify">
+                    <L n="whitelist">
+                      <T>16869<!--venue_bar--></T>
+                      <T>205126<!--venue_beach--></T>
+                      <T>16870<!--venue_club--></T>
+                      <T>16873<!--venue_gym--></T>
+                      <T>16874<!--venue_library--></T>
+                      <T>16875<!--venue_lounge--></T>
+                      <T>16876<!--venue_museum--></T>
+                      <T>25847<!--venue_park--></T>
+                      <T>123794<!--venue_pool--></T>
+                      <T>105157<!--venue_retail--></T>
+                      <T>122247<!--venue_cafe--></T>
+                      <T>130713<!--venue_Restaurant--></T>
+                      <T>144206<!--venue_artscenter--></T>
+                      <T>137844<!--venue_karaoke--></T>
+                      <T>158847<!--venue_Vet--></T>
+                      <T>247473<!--venue_Onsen--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+      <V t="career_gig_history_test">
+        <U n="career_gig_history_test">
+          <V n="test_type" t="gig_history_lot" />
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

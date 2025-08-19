@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003B">
+  <Instances>
+    <I name="business_Small_Business" schema="Business" type="Object">
+      <L name="advertising_name_map" />
+      <L name="advertising_type_sort_order" />
+      <T name="alert_enabled">0</T>
+      <V name="associated_guidance" variant="0xC1A03855" />
+      <L name="available_rules" />
+      <T name="bucks">126977</T>
+      <V name="business_summary_tooltip" variant="0xF8CBBF4C">
+        <T type="LocalizationKey">0x497C832B</T>
+      </V>
+      <V name="buy_business_dropdown_data" variant="0xC1A03855" />
+      <T name="filter_button_tooltip">0x01A77A11</T>
+      <L name="markup_multiplier_data">
+        <U type="Object" schema="MarkupMultiplierData">
+          <T name="markup_multiplier">0.5</T>
+          <T name="name">0xBD4EE632</T>
+        </U>
+        <U type="Object" schema="MarkupMultiplierData">
+          <T name="markup_multiplier">0.75</T>
+          <T name="name">0x0E5690EE</T>
+        </U>
+        <U type="Object" schema="MarkupMultiplierData">
+          <T name="markup_multiplier">1</T>
+          <T name="name">0xB93441B5</T>
+        </U>
+        <U type="Object" schema="MarkupMultiplierData">
+          <T name="markup_multiplier">1.5</T>
+          <T name="name">0x9BA17906</T>
+        </U>
+        <U type="Object" schema="MarkupMultiplierData">
+          <T name="markup_multiplier">2</T>
+          <T name="name">0x4128FAD7</T>
+        </U>
+      </L>
+      <T name="no_business_text">0x442B5C68</T>
+      <T name="opening_fee">75</T>
+      <T name="purchase_business_button_text">0xB5D5EEF9</T>
+      <L name="quality_settings" />
+      <T name="registration_fee">750</T>
+      <T name="show_employee_button">0</T>
+      <T name="show_sell_button">0</T>
+      <V name="show_settings_button" variant="0xF8CBBF4C">
+        <T type="LocalizationKey">0x48FA1C5C</T>
+      </V>
+      <T name="tab_button_icon">00B2D882-00000000-747190935AF07C15</T>
+      <T name="tutorial_button_element">0</T>
+      <T name="tutorial_panel_element">0</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Business" schema_hash="0x38003C57">
+      <Columns>
+        <Column name="advertising_name_map" type="Vector" flags="0x00000000" />
+        <Column name="advertising_type_sort_order" type="Vector" flags="0x00000000" />
+        <Column name="alert_enabled" type="Boolean" flags="0x00000000" />
+        <Column name="associated_guidance" type="Variant" flags="0x00000000" />
+        <Column name="available_rules" type="Vector" flags="0x00000000" />
+        <Column name="bucks" type="Int64" flags="0x00000000" />
+        <Column name="business_summary_tooltip" type="Variant" flags="0x00000000" />
+        <Column name="buy_business_dropdown_data" type="Variant" flags="0x00000000" />
+        <Column name="filter_button_tooltip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="markup_multiplier_data" type="Vector" flags="0x00000000" />
+        <Column name="no_business_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="opening_fee" type="Int32" flags="0x00000000" />
+        <Column name="purchase_business_button_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="quality_settings" type="Vector" flags="0x00000000" />
+        <Column name="registration_fee" type="Int32" flags="0x00000000" />
+        <Column name="show_employee_button" type="Boolean" flags="0x00000000" />
+        <Column name="show_sell_button" type="Boolean" flags="0x00000000" />
+        <Column name="show_settings_button" type="Variant" flags="0x00000000" />
+        <Column name="tab_button_icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="tutorial_button_element" type="Int64" flags="0x00000000" />
+        <Column name="tutorial_panel_element" type="Int64" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="MarkupMultiplierData" schema_hash="0x66414D17">
+      <Columns>
+        <Column name="markup_multiplier" type="Single" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

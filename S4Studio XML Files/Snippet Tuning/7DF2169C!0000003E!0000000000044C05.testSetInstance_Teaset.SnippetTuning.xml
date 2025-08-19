@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_Teaset" s="281605">
+  <L n="test">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">295249<!--drinkCupTea_GP11GEN_set1 (drinkCupTea_GP11GEN Placeholder Name)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">298260<!--drinkCupTea_GP11GEN_set2 (drinkCupTea_GP11GEN Placeholder Name)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">298261<!--drinkCupTea_GP11GEN_set3 (drinkCupTea_GP11GEN Placeholder Name)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">295247<!--drinkCupTeaHandle_GP11GEN_set1 (drinkCupTeaHandle_GP11GEN Placeholder Name)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">301693<!--drinkCupTeaHandle_GP11GEN_set2 (drinkCupTeaHandle_GP11GEN Placeholder Name)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">301694<!--drinkCupTeaHandle_GP11GEN_set3 (drinkCupTeaHandle_GP11GEN Placeholder Name)--></T>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

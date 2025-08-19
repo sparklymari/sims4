@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ImmediateSuperInteraction" i="interaction" m="interactions.base.immediate_interaction" n="pottery_Glazing_PreChooseGlaze_ObjectStart" s="394589">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_from_sim_inventory">True</T>
+  <L n="basic_extras">
+    <V t="save_participant">
+      <U n="save_participant">
+        <E n="participant">Object</E>
+        <E n="saved_participant">SavedActor1</E>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+  </L>
+  <V n="content_score" t="disabled" />
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387726<!--objectDefinitionPicker_Pottery_Glazing_AbstractSculpture--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421192<!--sculptTable_EP18ceramicAbstract_set1 (Abstract Sculpture)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387728<!--objectDefinitionPicker_Pottery_Glazing_AbstractWallSculpture--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421203<!--sculptWall_EP18GENceramicAbstract_set1 (Abstract Wall Sculpture)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387687<!--objectDefinitionPicker_Pottery_Glazing_CakeStand--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421092<!--pedestal_EP18GENcakeStandCeramic_set1 (Cake Stand)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387685<!--objectDefinitionPicker_Pottery_Glazing_CandleLantern--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421046<!--lightTableCandle_EP18ceramic_set1 (Candle Lantern)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387722<!--objectDefinitionPicker_Pottery_Glazing_GnomeSculpture--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421141<!--sculptTable_EP18gnomeCeramic_set1 (Gnome Sculpture)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387723<!--objectDefinitionPicker_Pottery_Glazing_IncenseBurner--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421167<!--sculptTable_EP18GENoilBurnerCeramic_set1 (Incense Burner)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387725<!--objectDefinitionPicker_Pottery_Glazing_IntricateVase--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421035<!--flowerVase_EP18GENintricate_set1 (Intricate Vase)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387689<!--objectDefinitionPicker_Pottery_Glazing_OilBurner--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421261<!--lightTableCandle_EP18oilBurnerCeramic_set1 (Oil Burner)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387686<!--objectDefinitionPicker_Pottery_Glazing_PlanterPot--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421178<!--gardenPot_EP18GENceramic_set1 (Planter Pot)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387724<!--objectDefinitionPicker_Pottery_Glazing_RaccoonVase--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421117<!--flowerVase_EP18GENracoon_set1 (Raccoon Vase)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387727<!--objectDefinitionPicker_Pottery_Glazing_RomanticSculpture--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421130<!--sculptTable_EP18GENceramic_set1 (Romantic Sculpture)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387684<!--objectDefinitionPicker_Pottery_Glazing_RoundVase--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421032<!--flowerVase_EP18GENround_set1 (Round Vase)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">387688<!--objectDefinitionPicker_Pottery_Glazing_WallCandleHolder--></T>
+                    <E n="target">Object</E>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421069<!--lightWall_EP18ceramic_set1 (Candle Holder)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">414849<!--objectDefinitionPicker_Pottery_Glazing_TeaSet--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="definition_id">
+                    <U n="definition_id">
+                      <T n="actual_object">421215<!--teaSet_EP18GENceramic_set1 (Tea Set)--></T>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">453394<!--picker_PottedPlants_Pottery_Glazing_Pot1--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_PottedPlants_Pottery_CanGlaze_1</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <L n="continuation">
+                  <U>
+                    <T n="affordance">455308<!--picker_PottedPlants_Pottery_Glazing_Pot2--></T>
+                  </U>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Func_PottedPlants_Pottery_CanGlaze_2</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals" />
+</I>

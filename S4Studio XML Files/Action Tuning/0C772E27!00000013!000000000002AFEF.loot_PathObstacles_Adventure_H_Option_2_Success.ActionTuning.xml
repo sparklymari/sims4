@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_PathObstacles_Adventure_H_Option_2_Success" s="176111">
+  <L n="loot_actions">
+    <V t="vfx">
+      <U n="vfx">
+        <E n="subject">TargetTeleportPortalObjectDestinations</E>
+        <U n="vfx">
+          <T n="effect_name">gp06_path_obstacles_sounds</T>
+        </U>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178714<!--collectTreasure_GP06GEN_set1 (Striped Quartz Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178726<!--collectTreasure_GP06GEN_set10 (Jeweled Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178717<!--collectTreasure_GP06GEN_set2 (Bullseye Amazonite Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178719<!--collectTreasure_GP06GEN_set4 (Surfer Hematite Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178720<!--collectTreasure_GP06GEN_set5 (Sunburst Jonquilyst Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178722<!--collectTreasure_GP06GEN_set7 (Skull Diamond Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178723<!--collectTreasure_GP06GEN_set8 (Disc Ruby Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178724<!--collectTreasure_GP06GEN_set9 (Sprout Sapphire Gold Perereca)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">186982<!--collectTreasureMedium_GP06GENplate_set1 (Omiscan Gold Calendar Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">187467<!--collectTreasureMedium_GP06GENplate_set2 (Omiscan Gold & Turquoise Calendar Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">187468<!--collectTreasureMedium_GP06GENplate_set3 (Cetlcitli Gold Calendar Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">187469<!--collectTreasureMedium_GP06GENplate_set4 (Cetlcitli Gold & Emerald Calendar Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">187470<!--collectTreasureMedium_GP06GENplate_set5 (Cetlcitli Jeweled Calendar Plate)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

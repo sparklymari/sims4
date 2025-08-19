@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_DecemberEvent_07" s="427770">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Rewards\December_uglySweater_large.png">2f7d0004:00000000:21a6ec25cb9d816f</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462575<!--cuTop_EFDec24EVRuglyHolidaySweater_Bunny--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462579<!--cuTop_EFDec24EVRuglyHolidaySweater_Llama--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462576<!--cuTop_EFDec24EVRuglyHolidaySweater_SnowPlaid--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462577<!--cuTop_EFDec24EVRuglyHolidaySweater_SnowStripe--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462578<!--cuTop_EFDec24EVRuglyHolidaySweater_Tree--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462588<!--yfTop_EFDec24EVRuglyHolidaySweater_Bunny--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462592<!--yfTop_EFDec24EVRuglyHolidaySweater_Llama--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462589<!--yfTop_EFDec24EVRuglyHolidaySweater_SnowPlaid--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462590<!--yfTop_EFDec24EVRuglyHolidaySweater_SnowStripe--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462591<!--yfTop_EFDec24EVRuglyHolidaySweater_Tree--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462601<!--ymTop_EFDec24EVRuglyHolidaySweater_Bunny--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462605<!--ymTop_EFDec24EVRuglyHolidaySweater_Llama--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462602<!--ymTop_EFDec24EVRuglyHolidaySweater_SnowPlaid--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462603<!--ymTop_EFDec24EVRuglyHolidaySweater_SnowStripe--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462604<!--ymTop_EFDec24EVRuglyHolidaySweater_Tree--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0xBD933C25<!--Find this item under Tops in Create a Sim, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x369F7D78<!--Only during the festive period do Sims feel comfortable throwing their sense of fashion and donning these Ugly Jolly Jumpers. Available in a variety of designs in Create a Sim.--></T>
+  <T n="reward_name">0xBAC6AF77<!--Ugly Jolly Jumper--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\ThumbnailsFSI\December_uglySweater_s.png">2f7d0004:00000000:000be27508913a21</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_uglySweater.png">2f7d0004:00000000:89cd0a4b09da0d63</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_uglySweater.png">2f7d0004:00000000:89cd0a4b09da0d63</T>
+</I>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_SurgeryTable" s="108726">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>15076<!--Brokenness_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15080<!--BrokenState_Broken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15080<!--BrokenState_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>112144<!--surgeryTable_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15081<!--BrokenState_Unbroken--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15076<!--Brokenness_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15078<!--Brokenness_Unbroken--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15078<!--Brokenness_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15080<!--BrokenState_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15081<!--BrokenState_Unbroken--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15081<!--BrokenState_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">108728<!--surgeryTable_PatientOccupancy_full--></T>
+              </U>
+              <U>
+                <T n="key">108729<!--surgeryTable_PatientOccupancy_empty--></T>
+              </U>
+              <U>
+                <T n="key">110030<!--surgeryTable_Patient_Occupany_completed_Success--></T>
+              </U>
+              <U>
+                <T n="key">110031<!--surgeryTable_Patient_Occupany_completed_Fail--></T>
+              </U>
+              <U>
+                <T n="key">111843<!--surgeryTable_Patient_Occupany_completed_default--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">108729<!--surgeryTable_PatientOccupancy_empty--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">110028<!--surgeryTable_Doctor_Occupany_untended--></T>
+              </U>
+              <U>
+                <T n="key">110029<!--surgeryTable_Doctor_Occupancy_tended--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">110028<!--surgeryTable_Doctor_Occupany_untended--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">112144<!--surgeryTable_Off--></T>
+              </U>
+              <U>
+                <T n="key">112145<!--surgeryTable_Operation--></T>
+              </U>
+              <U>
+                <T n="key">112146<!--surgeryTable_DeliveryBaby--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">112144<!--surgeryTable_Off--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_part_data">
+    <U>
+      <T n="part_definition">108733<!--surgeryTable_Part_0_Doctor--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">1</T>
+      </V>
+    </U>
+    <U>
+      <T n="part_definition">108734<!--surgeryTable_Part_1_Patient--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">0</T>
+      </V>
+    </U>
+    <U>
+      <T n="part_definition">112362<!--surgeryTable_Part_2_BassinetSlot--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">2</T>
+      </V>
+    </U>
+  </L>
+  <L n="_super_affordances">
+    <T>13983<!--sim-stand--></T>
+    <T>110018<!--generic_SurgeryTable_Doctor_Stand--></T>
+    <T>110019<!--generic_SurgeryTable_Patiet_Recline--></T>
+    <T>110023<!--SurgeryTable_PerformSurgery_simPicker--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>110024<!--surgeryTable_Doctor_PerformSurgery--></T>
+    <T>111767<!--surgeryTable_Doctor_DeliverBaby--></T>
+    <T>110025<!--surgeryTable_Patient_HaveSurgery_Idle--></T>
+    <T>111768<!--surgeryTable_Patient_HaveBaby_idle--></T>
+    <T>110026<!--surgeryTable_Patient_HaveSurgery_outcome--></T>
+    <T>111769<!--surgeryTable_Patient_HaveBaby_outcome--></T>
+    <T>115249<!--surgeryTable_Doctor_Treat_display--></T>
+    <T>115743<!--surgeryTable_Doctor_NPC_DeliverBaby--></T>
+    <T>115754<!--surgeryTable_Player_HaveBaby_outcome--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

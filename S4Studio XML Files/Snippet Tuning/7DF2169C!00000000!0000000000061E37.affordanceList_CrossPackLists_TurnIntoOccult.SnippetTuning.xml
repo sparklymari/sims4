@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_CrossPackLists_TurnIntoOccult" s="400951">
+  <L n="value">
+    <T>149464<!--mixer_social_VampireCreation_AskToTurn--></T>
+    <T>149610<!--mixer_social_VampireCreation_OfferToTurn--></T>
+    <T>149534<!--vampireCreation_OfferToTurn--></T>
+    <T>149461<!--vampireCreation_TurnIntoVampire_Cont--></T>
+    <T>149606<!--vampireCreation_Target_OfferToTurn--></T>
+    <T>149607<!--vampireCreation_Target_TurnIntoVampire--></T>
+    <T>149608<!--vampireCreation_Target_TurnIntoVampire_Cont--></T>
+    <T>149502<!--vampireCreation_TurnIntoVampire--></T>
+    <T>151829<!--vampireCreation_TurnIntoVampire_Forced--></T>
+    <T>156296<!--vampireCreation_TurnIntoVampire_idle--></T>
+    <T>156260<!--vampire_ChangeIntoDarkForm_TurnIntoVampire--></T>
+    <T>292173<!--werewolfCreation_Actor_AskToTurn--></T>
+    <T>292176<!--werewolfCreation_Actor_AskToTurn_Cont_NotBeastForm--></T>
+    <T>287452<!--werewolfCreation_Actor_TurnIntoWerewolf_Cont--></T>
+    <T>292174<!--werewolfCreation_Target_AskToTurn--></T>
+    <T>287450<!--werewolfCreation_Target_TurnintoWerewolf--></T>
+    <T>290193<!--social_WolfTown_Greg_AskForGift--></T>
+    <T>223426<!--mixer_Social_WitchOccult_RiteOfAscension_Offer--></T>
+    <T>223424<!--mixer_Social_WitchOccult_RiteOfAscension_Request--></T>
+    <T>215205<!--social_WitchOccult_RiteOfAscension--></T>
+    <T>215206<!--social_WitchOccult_RiteOfAscension_Target--></T>
+    <T>206220<!--food_Consume_MermaidKelp--></T>
+    <T>288339<!--werewolfCreation_Turn_BeastForm--></T>
+    <T>291507<!--werewolfCreation_Turn_BeastForm_NotTransformed--></T>
+  </L>
+</I>

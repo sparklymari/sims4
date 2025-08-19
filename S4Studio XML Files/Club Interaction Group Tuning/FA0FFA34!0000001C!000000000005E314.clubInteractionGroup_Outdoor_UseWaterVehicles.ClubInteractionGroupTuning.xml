@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_Outdoor_UseWaterVehicles" s="385812">
+  <L n="affordances">
+    <T>200016<!--waypoint_WaterScooter_RideAround--></T>
+    <T>205038<!--waypoint_WaterScooter_RideAroundFromObject--></T>
+    <T>206353<!--waypoint_IslandCanoe_RideAround--></T>
+    <T>212058<!--islandCanoe_RideAroundFromObject--></T>
+    <T>206358<!--islandCanoe_Lounge--></T>
+    <T>211858<!--islandCanoe_GetIn--></T>
+    <T>208301<!--generic_IslandCanoe_Sit--></T>
+  </L>
+  <E n="category">OUTDOOR</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_UseWaterVehicles.png">2f7d0004:00000000:49baf811af553b06</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xC156E5F7<!--Use Water Vehicles--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xE44D0701<!--Sims will use:\n• Aqua-Zips\n• Canoes--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0xC0F16AB8<!--Use Water Vehicles--></T>
+  <T n="tooltip_template_negative">0x162F498E<!--Don't Use Water Vehicles--></T>
+</I>

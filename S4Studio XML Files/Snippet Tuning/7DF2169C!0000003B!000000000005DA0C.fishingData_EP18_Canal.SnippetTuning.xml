@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="FishingData" i="snippet" m="snippets" n="fishingData_EP18_Canal" s="383500">
+  <U n="value">
+    <L n="possible_fish">
+      <U>
+        <T n="fish">45444<!--collectFishSmallGENGuppy_01 (Guppy)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45028<!--collectFishSmallGENMinnow_01 (Minnow)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0.5</T>
+              <L n="tests">
+                <L>
+                  <V t="global_policy_state">
+                    <U n="global_policy_state">
+                      <E n="progress_state">COMPLETE</E>
+                      <V n="test_type" t="specific_policy">
+                        <U n="specific_policy">
+                          <L n="policies">
+                            <T>206803<!--globalPolicy_Conservationist_Fishing_ControlInvasiveSpecies--></T>
+                          </L>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.2</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>75556<!--buff_Bait_SmallFish--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45532<!--collectFishSmallGENTetra_01 (Tetra)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">10</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">1.2</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>75556<!--buff_Bait_SmallFish--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">94654<!--collectFishMed_GP02GENcichlid (Cichlid)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">94655<!--collectFishMed_GP02GENdiscus (Discus)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">3</T>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">15</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">4</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0.8</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76071<!--buff_Bait_MediumFish--></T>
+                          <T>75556<!--buff_Bait_SmallFish--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.2</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76073<!--buff_Bait_FreshFlower--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">6</T>
+              <L n="tests">
+                <L>
+                  <V t="state">
+                    <U n="state">
+                      <T n="value">210140<!--mermaid_AquaticLure_Values_On--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44914<!--collectFishMedGENTilapia_01 (Tilapia)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">75</T>
+        </U>
+        <U n="weight">
+          <T n="base_value">2</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">0.8</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76071<!--buff_Bait_MediumFish--></T>
+                          <T>75556<!--buff_Bait_SmallFish--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.2</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76072<!--buff_Bait_FreshFruit--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">1.4</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76073<!--buff_Bait_FreshFlower--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">6</T>
+              <L n="tests">
+                <L>
+                  <V t="state">
+                    <U n="state">
+                      <T n="value">210140<!--mermaid_AquaticLure_Values_On--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">108441<!--collectFishSmall_EF02SPOOKYgummy (Gummie Guppie)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">1.4</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76072<!--buff_Bait_FreshFruit--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">4</T>
+              <L n="tests">
+                <L>
+                  <V t="state">
+                    <U n="state">
+                      <T n="value">210140<!--mermaid_AquaticLure_Values_On--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">108443<!--collectFishSmall_EF02SPOOKYbones ("Captain Fishbones" Bonefish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">1.4</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>98248<!--buff_Bait_Element--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">4</T>
+              <L n="tests">
+                <L>
+                  <V t="state">
+                    <U n="state">
+                      <T n="value">210140<!--mermaid_AquaticLure_Values_On--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="fish">44785<!--collectFishMedGENRainbow_01 (Rainbowfish)--></T>
+        <U n="luck_option_config">
+          <T n="player_perception">90</T>
+        </U>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">1.2</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>98249<!--buff_Bait_Crystal--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">0.8</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>76076<!--buff_BaitGroup_Trash--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+            <U>
+              <T n="multiplier">4</T>
+              <L n="tests">
+                <L>
+                  <V t="state">
+                    <U n="state">
+                      <T n="value">210140<!--mermaid_AquaticLure_Values_On--></T>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+    <L n="possible_treasures">
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+        <U n="weight">
+          <T n="base_value">4</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">28732<!--collectCrystalSmGEN_01_orangeTopaz (Orange Topaz)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">-50</T>
+        </U>
+        <T n="treasure">21549<!--clayBlobGEN_01_set1 (Lump of Clay)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">65</T>
+        </U>
+        <T n="treasure">21501<!--futureCubeGEN_01_grey (Future Cube by Paltry Predictions, Inc.)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">22651<!--toyHandGENEmotionDollLLama_01_set1 (WaffleKone the Llamacorn Talking Toy)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">76464<!--photoCamera_EP01GENCheap_set1 (Barely Better Digital Camera)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">65</T>
+        </U>
+        <T n="treasure">20727<!--voodooDollGEN_01 (Madame Zoe's Voodoo Doll)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">85</T>
+        </U>
+        <T n="treasure">30527<!--collectTreasureMapGEN_01 (Treasure Map)--></T>
+        <U n="weight">
+          <T n="base_value">2</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">206205<!--gadgetLrg_EF12GENsketchpad_set1 (Digitalistic Sketchpad)--></T>
+        <U n="weight">
+          <T n="base_value">0.75</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">385194<!--craftGem_SP49GENseed (Seed-Shaped Gemstone)--></T>
+        <U n="weight">
+          <T n="base_value">1</T>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">458222<!--sculptWall_EP18BIKEparts_01_set5 ("Lars" Cykel Frame)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">458225<!--sculptWall_EP18BIKEparts_01_set8 ("Mattias" Cykel Frame)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">458226<!--sculptWall_EP18BIKEparts_01_set9 ("Ingrid" Cykel Frame)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">85</T>
+        </U>
+        <T n="treasure">457575<!--sculptWall_EP18BIKEparts_02_set1 ("Camilla" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">6</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">85</T>
+        </U>
+        <T n="treasure">457576<!--sculptWall_EP18BIKEparts_02_set2 ("Maria" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">6</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">457577<!--sculptWall_EP18BIKEparts_02_set3 ("Johan" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">100</T>
+        </U>
+        <T n="treasure">457578<!--sculptWall_EP18BIKEparts_02_set4 ("Jenny" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">3</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">85</T>
+        </U>
+        <T n="treasure">457579<!--sculptWall_EP18BIKEparts_02_set5 ("Sara" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">6</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">457580<!--sculptWall_EP18BIKEparts_02_set6 ("Karl" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">9</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">457581<!--sculptWall_EP18BIKEparts_02_set7 ("Mikael" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">9</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">457582<!--sculptWall_EP18BIKEparts_02_set8 ("Jonas" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">9</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">457756<!--sculptWall_EP18BIKEparts_02_set9 ("Jan" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">9</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">457757<!--sculptWall_EP18BIKEparts_02_set10 ("Susanne" Cykel Wheel)--></T>
+        <U n="weight">
+          <T n="base_value">9</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">450556<!--bicycleAdult_EP18GEN_set1 (Cykel Dream Drifter)--></T>
+        <U n="weight">
+          <T n="base_value">0.01</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">450557<!--bicycleAdult_EP18GEN_set2 (Cykel Dream Drifter)--></T>
+        <U n="weight">
+          <T n="base_value">0.01</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">29332<!--collectMySimsBuddy_01 (Buddy)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">50</T>
+        </U>
+        <T n="treasure">148336<!--collectSkull_EF09GEN_set1 (Graham)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">-100</T>
+        </U>
+        <T n="treasure">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+        <U n="weight">
+          <T n="base_value">0.1</T>
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">10</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">-100</T>
+        </U>
+        <T n="treasure">294297<!--trashGEN_01_diapers (Diaper Trash)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <U n="luck_option_config">
+          <T n="player_perception">-100</T>
+        </U>
+        <T n="treasure">132297<!--trashGEN_01_food (Pile of Discarded Food)--></T>
+        <U n="weight">
+          <L n="multipliers">
+            <U>
+              <T n="multiplier">15</T>
+              <L n="tests">
+                <L>
+                  <V t="buff">
+                    <U n="buff">
+                      <V n="whitelist" t="enabled">
+                        <L n="enabled">
+                          <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                        </L>
+                      </V>
+                    </U>
+                  </V>
+                </L>
+              </L>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+    <U n="weight_fish">
+      <U n="luck_option_config">
+        <T n="player_perception">20</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">5</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">10</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>208732<!--buff_Skill_Fishing_AngleForBigCatch--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.2</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">3</T>
+                          <T n="upper_bound">5</T>
+                        </U>
+                      </U>
+                    </V>
+                    <T n="use_effective_skill_level">True</T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.4</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+                    <V n="skill_range" t="interval">
+                      <U n="interval">
+                        <U n="skill_interval">
+                          <T n="lower_bound">6</T>
+                          <T n="upper_bound">8</T>
+                        </U>
+                      </U>
+                    </V>
+                    <T n="use_effective_skill_level">True</T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.8</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <T n="value">9</T>
+                        </U>
+                      </U>
+                    </V>
+                    <T n="use_effective_skill_level">True</T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.2</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>27914<!--trait_LovesOutdoors--></T>
+                      <T>9617<!--trait_Perfectionist--></T>
+                      <T>9602<!--trait_Loner--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.4</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>26390<!--trait_AnglersTranquility--></T>
+                      <T>76817<!--trait_OneWithNature--></T>
+                      <T>108876<!--trait_Survivalist--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.2</T>
+            <L n="tests">
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14639<!--Mood_Focused--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0.8</T>
+            <L n="tests">
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14644<!--Mood_Dazed--></T>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14645<!--Mood_Stressed--></T>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14632<!--Mood_Angry--></T>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14633<!--Mood_Bored--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.2</T>
+            <L n="tests">
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="tag_whitelist" t="enabled">
+                      <L n="enabled">
+                        <E>Situation_R3Event</E>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U n="weight_junk">
+      <U n="luck_option_config">
+        <T n="player_perception">-75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">1.33</T>
+            <L n="tests">
+              <L>
+                <V t="skill_test">
+                  <U n="skill_test">
+                    <T n="skill">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+                    <V n="skill_range" t="threshold">
+                      <U n="threshold">
+                        <U n="skill_threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <T n="value">2</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.33</T>
+            <L n="tests">
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14644<!--Mood_Dazed--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.25</T>
+            <L n="tests">
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14645<!--Mood_Stressed--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1.2</T>
+            <L n="tests">
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14646<!--Mood_Uncomfortable--></T>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="mood">
+                  <U n="mood">
+                    <T n="mood">14632<!--Mood_Angry--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">1</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U n="weight_treasure">
+      <U n="luck_option_config">
+        <T n="player_perception">95</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">1.25</T>
+            <L n="tests">
+              <L>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>27913<!--trait_Materialistic--></T>
+                      <T>35719<!--trait_Collector--></T>
+                      <T>194391<!--trait_JungleExplorer_TreasureHunter_BG--></T>
+                      <T>178994<!--trait_JungleExplorer_TreasureHunter--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="multiplier">4</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>400859<!--buff_EP18World_CleanCanal_Hidden--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </U>
+</I>

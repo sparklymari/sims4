@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_PortableKeyboard_Practice_Skill_08_Scales" s="144714">
+  <L n="music_tracks">
+    <T>144607<!--musicTrack_PortableKeyboard_Practice_Skill_08_11_Scales--></T>
+    <T>144608<!--musicTrack_PortableKeyboard_Practice_Skill_08_12_Scales--></T>
+    <T>144609<!--musicTrack_PortableKeyboard_Practice_Skill_08_13_Scales--></T>
+    <T>144610<!--musicTrack_PortableKeyboard_Practice_Skill_08_14_Scales--></T>
+    <T>144611<!--musicTrack_PortableKeyboard_Practice_Skill_08_15_Scales--></T>
+    <T>144596<!--musicTrack_PortableKeyboard_Practice_Skill_08_16_Scales--></T>
+    <T>150247<!--musicTrack_PortableKeyboard_Practice_Skill_08_17_Scales--></T>
+    <T>150248<!--musicTrack_PortableKeyboard_Practice_Skill_08_18_Scales--></T>
+    <T>150250<!--musicTrack_PortableKeyboard_Practice_Skill_08_19_Scales--></T>
+    <T>150249<!--musicTrack_PortableKeyboard_Practice_Skill_08_20_Scales--></T>
+  </L>
+</I>

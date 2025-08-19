@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="CommodityBasedObjectState" i="object_state" m="objects.components.state" n="fairyHome_Commodity_States_Sleeping" s="455806">
+  <L n="_values">
+    <T>455809<!--fairyHome_Values_Sleeping_No--></T>
+    <T>455810<!--fairyHome_Values_Sleeping_Yes--></T>
+  </L>
+  <T n="linked_stat">445036<!--statistic_FairyHome_SleepingCount--></T>
+</I>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_EP17World_WellOfSouls_Skill_Success_Small" s="385165">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16659<!--skill_Fitness--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16695<!--statistic_Skill_AdultMajor_Bartending--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16699<!--statistic_Skill_AdultMajor_Charisma--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16698<!--statistic_Skill_AdultMajor_Comedy--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16700<!--statistic_Skill_AdultMajor_Gardening--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16701<!--statistic_Skill_AdultMajor_GourmetCooking--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16702<!--statistic_Skill_AdultMajor_Guitar--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16704<!--statistic_Skill_AdultMajor_Handiness--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16705<!--statistic_Skill_AdultMajor_HomestyleCooking--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">239521<!--statistic_Skill_AdultMajor_Knitting--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16706<!--statistic_Skill_AdultMajor_Logic--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16707<!--statistic_Skill_AdultMajor_Mischief--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16708<!--statistic_Skill_AdultMajor_Painting--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16709<!--statistic_Skill_AdultMajor_Piano--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16703<!--statistic_Skill_AdultMajor_Programming--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16710<!--statistic_Skill_AdultMajor_RocketScience--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16712<!--statistic_Skill_AdultMajor_VideoGaming--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16713<!--statistic_Skill_AdultMajor_Violin--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">4000</T>
+            <T n="stat">16714<!--statistic_Skill_AdultMajor_Writing--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">1500</T>
+            <T n="stat">105774<!--statistic_Skill_AdultMajor_Photography--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="statistics">
+        <V n="statistics" t="statistic_change">
+          <U n="statistic_change">
+            <T n="amount">1500</T>
+            <T n="stat">380495<!--statistic_Skill_AdultMinor_Thanatology--></T>
+          </U>
+        </V>
+      </V>
+    </U>
+  </L>
+</I>

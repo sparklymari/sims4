@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_LoginEvent_01_Day_08" s="372410">
+  <T n="category">0xAB39F50E<!--Appliances, Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Rewards\R2_LoginEvents_Main_8.png">2f7d0004:00000000:118354917b41daf1</T>
+  <L n="items">
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">411536<!--vendingMachineMerch_EF60GEN_set1 (Guerdon Goods Vending Machine)--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410080<!--ymBody_EF60Athleisure_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410081<!--ymBody_EF60Athleisure_BlackWhite--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410131<!--ymBody_EF60Athleisure_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410082<!--ymBody_EF60Athleisure_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410083<!--ymBody_EF60Athleisure_GreenDark--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410084<!--ymBody_EF60Athleisure_Plum--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410085<!--ymBody_EF60Athleisure_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410086<!--ymBody_EF60Athleisure_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410087<!--ymBody_EF60Athleisure_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410540<!--yfBody_EF60Athleisure_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410541<!--yfBody_EF60Athleisure_BlackWhite--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410548<!--yfBody_EF60Athleisure_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410542<!--yfBody_EF60Athleisure_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410543<!--yfBody_EF60Athleisure_GreenDark--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410544<!--yfBody_EF60Athleisure_Plum--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410545<!--yfBody_EF60Athleisure_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410546<!--yfBody_EF60Athleisure_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">410547<!--yfBody_EF60Athleisure_White--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411557<!--cuBody_EF60Athleisure_Black--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411558<!--cuBody_EF60Athleisure_BlackWhite--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411565<!--cuBody_EF60Athleisure_Blue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411559<!--cuBody_EF60Athleisure_Green--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411560<!--cuBody_EF60Athleisure_GreenDark--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411561<!--cuBody_EF60Athleisure_Plum--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411562<!--cuBody_EF60Athleisure_Purple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411563<!--cuBody_EF60Athleisure_Red--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">411564<!--cuBody_EF60Athleisure_White--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x8EBBD1D9<!--The Vending Machine can be found in Build Mode under Appliances, and the Athleisure Wear can be found under Full Body in Create a Sim. Both items can be found with the new Event Rewards filter.--></T>
+  <T n="reward_description">0x49775368<!--Sure, you could go for a jog, or you could grab a few snacks and relax on the sofa instead.--></T>
+  <T n="reward_name">0x10436C87<!--Guerdon Goods Vending Machine and Athleisure Wear--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Thumbnails\R2_LoginEvents_Thumbnail_8.png">2f7d0004:00000000:baf396212b6dcdf4</T>
+  <V n="reward_timeline_image" t="small_image">
+    <T n="small_image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Thumbnails\R2_LoginEvents_Thumbnail_8.png">2f7d0004:00000000:baf396212b6dcdf4</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Thumbnails\R2_LoginEvents_Thumbnail_8.png">2f7d0004:00000000:baf396212b6dcdf4</T>
+</I>

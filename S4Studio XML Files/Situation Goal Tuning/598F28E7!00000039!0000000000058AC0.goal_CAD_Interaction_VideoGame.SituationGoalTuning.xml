@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="goal_CAD_Interaction_VideoGame" s="363200">
+  <T n="_cooldown">45</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_PlayVideoGames.png">2f7d0004:00000000:1d0b59ff0d654943</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x2E812101<!--Play Video Games--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x5FA42963<!--Play video games using phone, computer, console, or arcade machine.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>128530<!--arcadeMachine_PlayArcadeGame--></T>
+      <T>145471<!--videoGameConsole_PlayGameTournament_Platformer--></T>
+      <T>145472<!--videoGameConsole_PlayGameTournament_Party--></T>
+      <T>145470<!--videoGameConsole_PlayGameTournament_RPG--></T>
+      <T>145469<!--videoGameConsole_PlayGameTournament_Racing--></T>
+      <T>145476<!--videoGameConsole_PlayGameTournament_Pro_Party--></T>
+      <T>145475<!--videoGameConsole_PlayGameTournament_Pro_Platformer--></T>
+      <T>145473<!--videoGameConsole_PlayGameTournament_Pro_Racing--></T>
+      <T>145474<!--videoGameConsole_PlayGameTournament_Pro_RPG--></T>
+      <T>31665<!--Computer_Use_PlayGame_Intense--></T>
+      <T>31664<!--Computer_Use_PlayGame_Mild--></T>
+      <T>77228<!--mixer_Tablet_Gaming_Adventure--></T>
+      <T>77229<!--mixer_Tablet_Gaming_Family--></T>
+      <T>77230<!--mixer_Tablet_Gaming_Sports--></T>
+      <T>14359<!--tablet_Play_Adventure--></T>
+      <T>14360<!--tablet_Play_Family--></T>
+      <T>14361<!--tablet_Play_Sports--></T>
+      <T>156032<!--tablet_PlayGames_Toddler_BlickBlockBaby--></T>
+      <T>156033<!--tablet_PlayGames_Toddler_Llama_Draw--></T>
+      <T>156031<!--tablet_PlayGames_Toddler_SimShape--></T>
+      <T>13793<!--phone_PlayGames--></T>
+      <T>99408<!--phone_PlayGames_AutonomousOnly--></T>
+      <T>97904<!--phone_PlayGames_Child--></T>
+      <T>39006<!--phone_PlayGames_GamedOut--></T>
+      <T>150742<!--videoGameConsole_PlayGame_Multiplayer_Racing--></T>
+      <T>150743<!--videoGameConsole_PlayGame_Multiplayer_Party--></T>
+      <T>145432<!--videoGameConsole_PlayGame_GamedOut_Party--></T>
+      <T>145431<!--videoGameConsole_PlayGame_GamedOut_Platformer--></T>
+      <T>145434<!--videoGameConsole_PlayGame_GamedOut_Racing--></T>
+      <T>145433<!--videoGameConsole_PlayGame_GamedOut_RPG--></T>
+      <T>145305<!--videoGameConsole_PlayGame_Platformer--></T>
+      <T>145304<!--videoGameConsole_PlayGame_Racing--></T>
+      <T>145260<!--videoGameConsole_PlayGame_RPG--></T>
+      <T>145303<!--videoGameConsole_PlayGame_Party--></T>
+      <T>145468<!--videoGameConsole_StreamLetsPlay_Party--></T>
+      <T>145467<!--videoGameConsole_StreamLetsPlay_Platformer--></T>
+      <T>145466<!--videoGameConsole_StreamLetsPlay_Racing--></T>
+      <T>145465<!--videoGameConsole_StreamLetsPlay_RPG--></T>
+      <T>31787<!--computer_PlayGameTournament_Blicblock--></T>
+      <T>31782<!--computer_PlayGameTournament_Hillock--></T>
+      <T>31783<!--computer_PlayGameTournament_IncredibleSports--></T>
+      <T>31784<!--computer_PlayGameTournament_MariaSisters--></T>
+      <T>31785<!--computer_PlayGameTournament_REFUGE--></T>
+      <T>31786<!--computer_PlayGameTournament_RoadRival--></T>
+      <T>31780<!--computer_PlayGameTournament_SimsForever--></T>
+      <T>226204<!--computer_PlayGameTournament_SimScuffle_E-Sports--></T>
+      <T>32041<!--computer_PlayGameTournament_Blicblock_Pro--></T>
+      <T>32036<!--computer_PlayGameTournament_Hillock_Pro--></T>
+      <T>32037<!--computer_PlayGameTournament_IncredibleSports_Pro--></T>
+      <T>32038<!--computer_PlayGameTournament_MariaSisters_Pro--></T>
+      <T>32039<!--computer_PlayGameTournament_REFUGE_Pro--></T>
+      <T>32040<!--computer_PlayGameTournament_RoadRival_Pro--></T>
+      <T>32034<!--computer_PlayGameTournament_SimsForever_Pro--></T>
+      <T>226203<!--computer_PlayGameTournament_Pro_SimScuffle_E-Sports--></T>
+      <T>136803<!--computer_StreamLetsPlay_Blicblock--></T>
+      <T>136804<!--computer_StreamLetsPlay_Hillock--></T>
+      <T>136805<!--computer_StreamLetsPlay_IncredibleSports--></T>
+      <T>136806<!--computer_StreamLetsPlay_MariaSisters--></T>
+      <T>136808<!--computer_StreamLetsPlay_REFUGE--></T>
+      <T>136809<!--computer_StreamLetsPlay_RoadRival--></T>
+      <T>136807<!--computer_StreamLetsPlay_SimsForever--></T>
+      <T>37083<!--motionBasedGaming_play_puzzle--></T>
+      <T>13741<!--motionBasedGaming_play_sports--></T>
+      <T>13739<!--motionBasedGaming_play_adventure--></T>
+      <T>13740<!--motionBasedGaming_play_family--></T>
+      <T>145407<!--motionBasedGaming_play_family_butler--></T>
+      <T>32175<!--motionBasedGaming_play_adventure_GamedOut--></T>
+      <T>32174<!--motionBasedGaming_play_family_GamedOut--></T>
+      <T>37082<!--motionBasedGaming_play_puzzle_GamedOut--></T>
+      <T>32173<!--motionBasedGaming_play_sports_GamedOut--></T>
+      <T>32317<!--motionBasedGaming_PlayTournament_Blicblock--></T>
+      <T>32318<!--motionBasedGaming_PlayTournament_IncredibleSports--></T>
+      <T>39920<!--motionBasedGaming_PlayTournament_ManiacMatchums--></T>
+      <T>32319<!--motionBasedGaming_PlayTournament_REFUGE--></T>
+      <T>32345<!--motionBasedGaming_PlayTournament_Blicblock_Pro--></T>
+      <T>32333<!--motionBasedGaming_PlayTournament_IncredibleSports_Pro--></T>
+      <T>39921<!--motionBasedGaming_PlayTournament_ManiacMatchums_Pro--></T>
+      <T>32334<!--motionBasedGaming_PlayTournament_REFUGE_Pro--></T>
+      <T>13230<!--computer_PlayGame_Blicblock--></T>
+      <T>31746<!--computer_PlayGame_Hillock--></T>
+      <T>31741<!--computer_PlayGame_IncredibleSports--></T>
+      <T>31742<!--computer_PlayGame_MariaSisters--></T>
+      <T>31743<!--computer_PlayGame_REFUGE--></T>
+      <T>31745<!--computer_PlayGame_RoadRival--></T>
+      <T>31740<!--computer_PlayGame_SimsForeverRenamed--></T>
+      <T>31421<!--computer_PlayGame_Arithmetic--></T>
+      <T>31426<!--computer_PlayGame_Typing--></T>
+      <T>31767<!--computer_PlayGame_Blicblock_GamedOut--></T>
+      <T>31772<!--computer_PlayGame_Hillock_GamedOut--></T>
+      <T>31771<!--computer_PlayGame_IncredibleSports_GamedOut--></T>
+      <T>31770<!--computer_PlayGame_MariaSisters_GamedOut--></T>
+      <T>31769<!--computer_PlayGame_REFUGE_GamedOut--></T>
+      <T>31768<!--computer_PlayGame_RoadRival_GamedOut--></T>
+      <T>31774<!--computer_PlayGame_SimsForeverRenamed_GamedOut--></T>
+      <T>226201<!--computer_PlayGame_GamedOut_SimScuffle_E-Sports--></T>
+      <T>226202<!--computer_PlayGame_SimScuffle_E-Sports--></T>
+      <T>226923<!--computer_PlayGame_SimScuffle_E-Sports_WithTeam--></T>
+    </L>
+    <V n="running_time" t="enabled">
+      <T n="enabled">1</T>
+    </V>
+    <E n="test_event">InteractionUpdate</E>
+  </U>
+  <L n="_post_tests">
+    <V t="situation_job">
+      <U n="situation_job">
+        <L n="situation_jobs">
+          <T>365353<!--job_CAD_Actor_Date_Adult--></T>
+          <T>365354<!--job_CAD_Actor_Date_Teen--></T>
+          <T>365360<!--job_CAD_Target_Hangout--></T>
+          <T>365361<!--job_CAD_Target_Hangout_AdditionalGuest--></T>
+          <T>365356<!--job_CAD_Target_Date_Adult--></T>
+          <T>365357<!--job_CAD_Target_Date_Adult_AdditionalDate--></T>
+          <T>365358<!--job_CAD_Target_Date_Teen--></T>
+          <T>365359<!--job_CAD_Target_Date_Teen_AdditionalDate--></T>
+          <T>376785<!--job_CAD_Actor_Date_Adult_BlindDate--></T>
+          <T>376786<!--job_CAD_Actor_Date_Adult_BlindDate_Catfish--></T>
+          <T>374485<!--job_CAD_Target_Date_Adult_BlindDate--></T>
+          <T>375208<!--job_CAD_Target_Date_Adult_BlindDate_Catfish--></T>
+          <T>379086<!--job_CAD_Actor_Date_Recovery--></T>
+          <T>379088<!--job_CAD_Actor_Date_Teen_Recovery--></T>
+          <T>375557<!--job_CAD_Target_Date_Teen_RecoveryDate--></T>
+          <T>375556<!--job_CAD_Target_Date_Adult_RecoveryDate--></T>
+          <T>365355<!--job_CAD_Actor_Hangout--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="_score">30</T>
+  <L n="_tested_score_overrides">
+    <U>
+      <T n="score">45</T>
+      <L n="tests">
+        <V t="buff">
+          <U n="buff">
+            <V n="whitelist" t="enabled">
+              <L n="enabled">
+                <T>351456<!--buff_Gemology_FireOpal_DateSuccess--></T>
+              </L>
+            </V>
+          </U>
+        </V>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

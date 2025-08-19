@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Clubs_CrossStitch" s="263765">
+  <L n="value">
+    <T>263068<!--crossStitch_StartCrafting_HoopLarge_FromReference--></T>
+    <T>263069<!--crossStitch_StartCrafting_HoopMedium_FromReference--></T>
+    <T>263070<!--crossStitch_StartCrafting_HoopSmall_FromReference--></T>
+    <T>260451<!--crossStitch_StartCrafting_Hoop_Large_Animals--></T>
+    <T>260452<!--crossStitch_StartCrafting_Hoop_Large_Foods--></T>
+    <T>260453<!--crossStitch_StartCrafting_Hoop_Large_Nature--></T>
+    <T>260454<!--crossStitch_StartCrafting_Hoop_Large_Simple--></T>
+    <T>260455<!--crossStitch_StartCrafting_Hoop_Large_Words--></T>
+    <T>260446<!--crossStitch_StartCrafting_Hoop_Medium_Animals--></T>
+    <T>260447<!--crossStitch_StartCrafting_Hoop_Medium_Foods--></T>
+    <T>260448<!--crossStitch_StartCrafting_Hoop_Medium_Nature--></T>
+    <T>260450<!--crossStitch_StartCrafting_Hoop_Medium_Words--></T>
+    <T>260449<!--crossStitch_StartCrafting_Hoop_Medium_Simple--></T>
+    <T>260441<!--crossStitch_StartCrafting_Hoop_Small_Animals--></T>
+    <T>260442<!--crossStitch_StartCrafting_Hoop_Small_Foods--></T>
+    <T>260443<!--crossStitch_StartCrafting_Hoop_Small_Nature--></T>
+    <T>260444<!--crossStitch_StartCrafting_Hoop_Small_Simple--></T>
+    <T>260445<!--crossStitch_StartCrafting_Hoop_Small_Words--></T>
+    <T>263071<!--crossStitch_StartCrafting_KitLarge_FromReference--></T>
+    <T>263072<!--crossStitch_StartCrafting_KitMedium_FromReference--></T>
+    <T>263073<!--crossStitch_StartCrafting_KitSmall_FromReference--></T>
+    <T>260427<!--crossStitch_StartCrafting_Kit_LargeHoop_Animals--></T>
+    <T>260428<!--crossStitch_StartCrafting_Kit_LargeHoop_Foods--></T>
+    <T>260429<!--crossStitch_StartCrafting_Kit_LargeHoop_Nature--></T>
+    <T>260430<!--crossStitch_StartCrafting_Kit_LargeHoop_Simple--></T>
+    <T>260431<!--crossStitch_StartCrafting_Kit_LargeHoop_Words--></T>
+    <T>260422<!--crossStitch_StartCrafting_Kit_MediumHoop_Animals--></T>
+    <T>260423<!--crossStitch_StartCrafting_Kit_MediumHoop_Foods--></T>
+    <T>260424<!--crossStitch_StartCrafting_Kit_MediumHoop_Nature--></T>
+    <T>260425<!--crossStitch_StartCrafting_Kit_MediumHoop_Simple--></T>
+    <T>260426<!--crossStitch_StartCrafting_Kit_MediumHoop_Words--></T>
+    <T>260415<!--crossStitch_StartCrafting_Kit_SmallHoop_Animals--></T>
+    <T>260416<!--crossStitch_StartCrafting_Kit_SmallHoop_Foods--></T>
+    <T>260417<!--crossStitch_StartCrafting_Kit_SmallHoop_Nature--></T>
+    <T>260218<!--crossStitch_StartCrafting_Kit_SmallHoop_Simple--></T>
+    <T>260418<!--crossStitch_StartCrafting_Kit_SmallHoop_Words--></T>
+    <T>260264<!--crossStitch_CraftingStep_Stitch--></T>
+    <T>260432<!--crossStitch_CraftingStep_View--></T>
+    <T>261123<!--craftingResume_CrossStitch--></T>
+    <T>269641<!--crossStitch_StartScrapStitch_FromWorld--></T>
+    <T>263563<!--crossStitch_ScrapStitch--></T>
+    <T>263564<!--crossStitch_StartScrapStitch--></T>
+    <T>348378<!--crossStitch_StartCrafting_Autonomously--></T>
+    <T>348578<!--crossStitch_NPC_CreateHoopOffKit_ClubGathering--></T>
+    <T>348579<!--crossStitch_NPCStartCrafting_Autonomously_ClubFromHoop--></T>
+  </L>
+</I>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="accountReward_R5Event_07" schema="AccountReward" type="Object">
+      <T name="category">0x85D90E90</T>
+      <T name="image">00B2D882-00000000-A7C4AC26BFDA6847</T>
+      <L name="items">
+        <V type="Variant" variant="0xD3194D5C" schema="Tunable_BuildBuyAccountRewardItem">
+          <T name="item_resource">474656</T>
+        </V>
+        <V type="Variant" variant="0x0CCF9DF7" schema="Tunable_RadioStationAccountRewardItem">
+          <T name="genre_id">4783916011503984436</T>
+          <T name="item_resource">443867</T>
+        </V>
+        <V type="Variant" variant="0x0CCF9DF7" schema="Tunable_RadioStationAccountRewardItem">
+          <T name="genre_id">14695981039346656037</T>
+          <T name="item_resource">443868</T>
+        </V>
+        <V type="Variant" variant="0x0CCF9DF7" schema="Tunable_RadioStationAccountRewardItem">
+          <T name="genre_id">14695981039346656037</T>
+          <T name="item_resource">443869</T>
+        </V>
+        <V type="Variant" variant="0x0CCF9DF7" schema="Tunable_RadioStationAccountRewardItem">
+          <T name="genre_id">14695981039346656037</T>
+          <T name="item_resource">443870</T>
+        </V>
+      </L>
+      <T name="location_tip">0x906E5E2F</T>
+      <T name="reward_description">0x643C577E</T>
+      <T name="reward_name">0x47BB3501</T>
+      <T name="reward_thumbnail_image">00B2D882-00000000-B63E1211CE906A06</T>
+      <V name="reward_timeline_image" variant="0xCA1F42EC">
+        <T type="ResourceKey">00B2D882-00000000-1526355BAA89765F</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="AccountReward" schema_hash="0x808D1581">
+      <Columns>
+        <Column name="category" type="LocalizationKey" flags="0x00000000" />
+        <Column name="image" type="ResourceKey" flags="0x00000000" />
+        <Column name="items" type="Vector" flags="0x00000000" />
+        <Column name="location_tip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_thumbnail_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="reward_timeline_image" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_BuildBuyAccountRewardItem" schema_hash="0x2BAA7F96">
+      <Columns>
+        <Column name="item_resource" type="UInt32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Tunable_RadioStationAccountRewardItem" schema_hash="0x1C6D52E6">
+      <Columns>
+        <Column name="genre_id" type="UInt64" flags="0x00000000" />
+        <Column name="item_resource" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

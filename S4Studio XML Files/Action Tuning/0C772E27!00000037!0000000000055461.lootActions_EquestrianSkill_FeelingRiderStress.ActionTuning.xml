@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_EquestrianSkill_FeelingRiderStress" s="349281">
+  <L n="loot_actions">
+    <V t="reaction">
+      <U n="reaction">
+        <V n="si_reaction" t="enabled">
+          <U n="enabled">
+            <T n="affordance">349342<!--immediate_Horse_ThoughtBalloon_FeelingRiderStress--></T>
+            <V n="affordance_target" t="disabled" />
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">324385<!--buff_Horse_Moodlets_Tense_EquestrianSkil_FeelingRiderStress--></T>
+        </U>
+      </U>
+    </V>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <E n="subject">RoutingSlaves</E>
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>12831<!--MoodBuff_Hidden_Angry--></T>
+              <T>12856<!--MoodBuff_Hidden_Stressed--></T>
+              <T>251722<!--moodBuffs_Hidden_ScaredTrack_Scared--></T>
+              <T>12840<!--MoodBuff_Hidden_Enraged--></T>
+              <T>12827<!--MoodBuff_Hidden_Furious--></T>
+              <T>251723<!--moodBuffs_Hidden_ScaredTrack_Terrified--></T>
+              <T>12857<!--MoodBuff_Hidden_Tense--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

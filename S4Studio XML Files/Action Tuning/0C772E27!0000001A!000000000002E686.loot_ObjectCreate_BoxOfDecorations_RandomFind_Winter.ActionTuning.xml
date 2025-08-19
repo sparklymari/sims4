@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectCreate_BoxOfDecorations_RandomFind_Winter" s="190086">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition_tested">
+          <U n="definition_tested">
+            <L n="definitions">
+              <U>
+                <T n="definition">189554<!--lightTableMedium_EP05GENgarlandTileable_set1 (Candlelit Holly Branch)--></T>
+              </U>
+              <U>
+                <T n="definition">189555<!--lightTableMedium_EP05GENgarlandTileable_set2 (Candlelit Holly Branch)--></T>
+              </U>
+              <U>
+                <T n="definition">189556<!--lightTableMedium_EP05GENgarlandTileable_set3 (Candlelit Holly Branch)--></T>
+              </U>
+              <U>
+                <T n="definition">189557<!--lightTableMedium_EP05GENgarlandTileable_set4 (Candlelit Holly Branch)--></T>
+              </U>
+              <U>
+                <T n="definition">189789<!--sculptTableMedium_EP05GENgarlandTileable_set1 (Jolly Garlands)--></T>
+              </U>
+              <U>
+                <T n="definition">189790<!--sculptTableMedium_EP05GENgarlandTileable_set2 (Jolly Garlands)--></T>
+              </U>
+              <U>
+                <T n="definition">189791<!--sculptTableMedium_EP05GENgarlandTileable_set3 (Jolly Garlands)--></T>
+              </U>
+              <U>
+                <T n="definition">189792<!--sculptTableMedium_EP05GENgarlandTileable_set4 (Jolly Garlands)--></T>
+              </U>
+              <U>
+                <T n="definition">196052<!--sculptTableMedium_EP05HOLIDAYnutcracker_set1 (Krack the Crotchety Nutcracker)--></T>
+              </U>
+              <U>
+                <T n="definition">196053<!--sculptTableMedium_EP05HOLIDAYnutcracker_set2 (Krack the Crotchety Nutcracker)--></T>
+              </U>
+              <U>
+                <T n="definition">196054<!--sculptTableMedium_EP05HOLIDAYnutcracker_set3 (Krack the Crotchety Nutcracker)--></T>
+              </U>
+              <U>
+                <T n="definition">189763<!--sculptFloor_EP05GENdeer2x2x2_set1 (Totally Real Reindeer)--></T>
+              </U>
+              <U>
+                <T n="definition">189764<!--sculptFloor_EP05GENdeer2x2x2_set2 (Totally Real Reindeer)--></T>
+              </U>
+              <U>
+                <T n="definition">189767<!--sculptFloor_EP05GENdeer2x2x2_set5 (Totally Real Reindeer)--></T>
+              </U>
+              <U>
+                <T n="definition">189768<!--sculptFloor_EP05GENdeer2x2x2_set6 (Totally Real Reindeer)--></T>
+              </U>
+              <U>
+                <T n="definition">189770<!--sculptFloor_EP05GENnutcracker1x1x2_set1 (Boris The Nutcracker Prince)--></T>
+              </U>
+              <U>
+                <T n="definition">189771<!--sculptFloor_EP05GENnutcracker1x1x2_set2 (Boris The Nutcracker Prince)--></T>
+              </U>
+              <U>
+                <T n="definition">189772<!--sculptFloor_EP05GENnutcracker1x1x2_set3 (Boris The Nutcracker Prince)--></T>
+              </U>
+              <U>
+                <T n="definition">189773<!--sculptFloor_EP05GENnutcracker1x1x2_set4 (Boris The Nutcracker Prince)--></T>
+              </U>
+              <U>
+                <T n="definition">189997<!--sculptTableLarge_EP05GENcones_set11 (Spires Of Whimsy)--></T>
+              </U>
+              <U>
+                <T n="definition">189989<!--sculptTableLarge_EP05GENcones_set3 (Spires Of Whimsy)--></T>
+              </U>
+              <U>
+                <T n="definition">190002<!--sculptTableLarge_EP05GENhat_set1 (The Rabbit's Hat)--></T>
+              </U>
+              <U>
+                <T n="definition">190009<!--sculptTableLarge_EP05GENhat_set8 (The Rabbit's Hat)--></T>
+              </U>
+              <U>
+                <T n="definition">190023<!--sculptTableMedium_EP05GENcards_set9 (Assorted Holiday Card Displays)--></T>
+              </U>
+              <U>
+                <T n="definition">190019<!--sculptTableMedium_EP05GENcards_set5 (Assorted Holiday Card Displays)--></T>
+              </U>
+              <U>
+                <T n="definition">190022<!--sculptTableMedium_EP05GENcards_set8 (Assorted Holiday Card Displays)--></T>
+              </U>
+              <U>
+                <T n="definition">196048<!--lightTableMedium_EP05HOLIDAY_set1 (Pine Fresh Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">196049<!--lightTableMedium_EP05HOLIDAY_set2 (Pine Fresh Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">196050<!--lightTableMedium_EP05HOLIDAY_set3 (Pine Fresh Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">189482<!--lightFloor_EP05GENsnowman2x2x2_set1 (Crosby The Glowman)--></T>
+              </U>
+              <U>
+                <T n="definition">189483<!--lightFloor_EP05GENsnowman2x2x2_set2 (Crosby The Glowman)--></T>
+              </U>
+              <U>
+                <T n="definition">189484<!--lightFloor_EP05GENsnowman2x2x2_set3 (Crosby The Glowman)--></T>
+              </U>
+              <U>
+                <T n="definition">189487<!--lightFloor_EP05GENsnowman2x2x2_set6 (Crosby The Glowman)--></T>
+              </U>
+            </L>
+          </U>
+        </V>
+        <V n="location" t="position">
+          <U n="position">
+            <T n="ignore_bb_footprints">False</T>
+            <V n="initial_location" t="from_participant">
+              <U n="from_participant">
+                <E n="participant">Object</E>
+              </U>
+            </V>
+          </U>
+        </V>
+        <E n="owner_sim">Actor</E>
+        <T n="quantity">3</T>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="season">
+              <U n="season">
+                <L n="seasons">
+                  <E>WINTER</E>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

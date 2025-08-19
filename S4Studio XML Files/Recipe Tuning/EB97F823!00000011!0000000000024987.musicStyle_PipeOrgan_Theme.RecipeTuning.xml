@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_PipeOrgan_Theme" s="149895">
+  <L n="music_tracks">
+    <T>149781<!--musicTrack_PipeOrgan_Theme_High_01--></T>
+    <T>149782<!--musicTrack_PipeOrgan_Theme_High_02--></T>
+    <T>149780<!--musicTrack_PipeOrgan_Theme_High_03--></T>
+    <T>149778<!--musicTrack_PipeOrgan_Theme_Low_01--></T>
+    <T>149779<!--musicTrack_PipeOrgan_Theme_Low_02--></T>
+    <T>149777<!--musicTrack_PipeOrgan_Theme_Low_03--></T>
+  </L>
+  <T n="pie_menu_category">149907<!--Instrument_PlaySong_Theme--></T>
+</I>

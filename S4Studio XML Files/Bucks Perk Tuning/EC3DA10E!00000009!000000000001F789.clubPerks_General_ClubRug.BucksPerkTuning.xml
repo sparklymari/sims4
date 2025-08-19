@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_ClubRug" s="128905">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0x87734EAC<!--Club Rug--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_ClubRug.png">2f7d0004:00000000:e82d7cd06badd4ef</T>
+  </U>
+  <T n="perk_description">0x4F8EACE3<!--Cover your Club hangout with this soft one-of-a-kind custom rug and display your Club's Crest proudly! Once purchased, don't forget to place one in your Club's hangout or house.--></T>
+  <L n="rewards">
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110357<!--rug2x2_EP02RWclub_set1 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110909<!--rug2x2_EP02RWclub_set2 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110910<!--rug2x2_EP02RWclub_set3 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110911<!--rug2x2_EP02RWclub_set4 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110912<!--rug2x2_EP02RWclub_set5 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110913<!--rug2x2_EP02RWclub_set6 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110914<!--rug2x2_EP02RWclub_set7 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110915<!--rug2x2_EP02RWclub_set8 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110916<!--rug2x2_EP02RWclub_set9 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110917<!--rug2x2_EP02RWclub_set10 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110918<!--rug2x2_EP02RWclub_set11 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110919<!--rug2x2_EP02RWclub_set12 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110920<!--rug2x2_EP02RWclub_set13 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110921<!--rug2x2_EP02RWclub_set14 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110922<!--rug2x2_EP02RWclub_set15 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110923<!--rug2x2_EP02RWclub_set16 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110924<!--rug2x2_EP02RWclub_set17 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110925<!--rug2x2_EP02RWclub_set18 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110926<!--rug2x2_EP02RWclub_set19 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110927<!--rug2x2_EP02RWclub_set20 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110928<!--rug2x2_EP02RWclub_set21 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110929<!--rug2x2_EP02RWclub_set22 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110930<!--rug2x2_EP02RWclub_set23 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110931<!--rug2x2_EP02RWclub_set24 (Club Rug)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">110932<!--rug2x2_EP02RWclub_set25 (Club Rug)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">300</T>
+</I>

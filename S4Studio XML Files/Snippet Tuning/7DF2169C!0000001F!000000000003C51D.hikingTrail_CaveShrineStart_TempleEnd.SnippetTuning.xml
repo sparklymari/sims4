@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WaypointGraph" i="snippet" m="snippets" n="hikingTrail_CaveShrineStart_TempleEnd" s="247069">
+  <U n="value">
+    <L n="connections">
+      <U>
+        <T n="waypoint">251169<!--hikingTrail_06--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251170<!--hikingTrail_07--></T>
+            </U>
+            <U>
+              <T n="connected_waypoint">257235<!--hikingTrail_Cemetery--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251170<!--hikingTrail_07--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251683<!--hikingTrail_13_MountainTemple--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251171<!--hikingTrail_08--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251170<!--hikingTrail_07--></T>
+            </U>
+            <U>
+              <T n="connected_waypoint">251172<!--hikingTrail_09--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251172<!--hikingTrail_09--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251173<!--hikingTrail_10--></T>
+            </U>
+            <U>
+              <T n="connected_waypoint">251683<!--hikingTrail_13_MountainTemple--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251173<!--hikingTrail_10--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">257230<!--hikingTrail_Shrine--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251681<!--hikingTrail_11_NaturalArea--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251169<!--hikingTrail_06--></T>
+              <U n="weight">
+                <T n="base_value">2</T>
+              </U>
+            </U>
+            <U>
+              <T n="connected_waypoint">251171<!--hikingTrail_08--></T>
+              <U n="weight">
+                <T n="base_value">2</T>
+              </U>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251682<!--hikingTrail_12_CaveStatue--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251681<!--hikingTrail_11_NaturalArea--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">251683<!--hikingTrail_13_MountainTemple--></T>
+        <U n="connections">
+          <L n="connections" />
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">257230<!--hikingTrail_Shrine--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251683<!--hikingTrail_13_MountainTemple--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+      <U>
+        <T n="waypoint">257235<!--hikingTrail_Cemetery--></T>
+        <U n="connections">
+          <L n="connections">
+            <U>
+              <T n="connected_waypoint">251683<!--hikingTrail_13_MountainTemple--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+    </L>
+  </U>
+</I>

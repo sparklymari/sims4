@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Reaping_AskAdvice" s="422396">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP17\UI\Icons\Headlines\headline_grim.png">2f7d0004:00000000:a5e03ad8bd05d471</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x5F213FE0<!--Ask Grim for Expert Opinion--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x51A7A0A8<!--Select Grim and choose Get Expert Opinion.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>400696<!--mixer_social_ReaperCareer_Investigate_GetExpertOpinion--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

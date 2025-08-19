@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LiveDragLootActions" i="action" m="server.live_drag_tuning" n="loot_LiveDrag_Identify" s="110723">
+  <L n="loot_actions">
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">104398<!--GardeningIdentify_Identified--></T>
+        <V n="subject" t="participant">
+          <E n="participant">LiveDragActor</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104486<!--trait_Identified_Chamomile--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104487<!--trait_Identified_Chamomile_Toxic--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67356<!--gardenFlower_GP01GENchamomile_toxic ({S.Toxic Chamomile}{P.Toxic Chamomiles})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104480<!--trait_Identified_Elderberry--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104481<!--trait_Identified_Elderberry_Toxic--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67363<!--gardenFruit_GP01GENelderberry_toxic ({S.Noxious Elderberry}{P.Noxious Elderberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104484<!--trait_Identified_Fireleaf--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104485<!--trait_Identified_Fireleaf_Toxic--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67365<!--gardenFlower_GP01GENfireleaf_toxic ({S.Poison Fireleaf}{P.Poison Fireleaves})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104482<!--trait_Identified_Huckleberry--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104483<!--trait_Identified_Huckleberry_Toxic--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67557<!--gardenFruit_GP01GENhuckleberry_toxic ({S.Muckleberry}{P.Muckleberries})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104488<!--trait_Identified_Morel--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+          <L>
+            <V t="trait">
+              <U n="trait">
+                <T n="num_whitelist_required">1</T>
+                <E n="subject">LiveDragTarget</E>
+                <L n="whitelist_traits">
+                  <T>104489<!--trait_Identified_Morel_Toxic--></T>
+                </L>
+              </U>
+            </V>
+            <V t="object_criteria">
+              <U n="object_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">67364<!--gardenFruit_GP01GENmushroomMorel_toxic ({S.False Morel Mushroom}{P.False Morel Mushrooms})--></T>
+                  </U>
+                </V>
+                <T n="owned">False</T>
+                <V n="subject_specific_tests" t="single_object">
+                  <U n="single_object">
+                    <E n="target">LiveDragActor</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="inventory_loot">
+      <U n="inventory_loot">
+        <E n="subject">LiveDragTarget</E>
+      </U>
+    </V>
+  </L>
+</I>

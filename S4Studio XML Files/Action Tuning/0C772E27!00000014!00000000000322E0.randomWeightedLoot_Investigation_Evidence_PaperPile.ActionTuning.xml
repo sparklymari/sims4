@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Investigation_Evidence_PaperPile" s="205536">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">205520<!--loot_InvestigationSystem_Evidence_LabPiles_HastyNote--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">205527<!--loot_InvestigationSystem_Evidence_LabPiles_StrangeBlueprints--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">205528<!--loot_InvestigationSystem_Evidence_LabPiles_SuspiciousBlurryPhoto--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">205533<!--loot_InvestigationSystem_Evidence_LabPiles_PacketOfMysteriousSeeds--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">205532<!--loot_InvestigationSystem_Evidence_LabPiles_PartiallyRedactedReport--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">205534<!--loot_InvestigationSystem_Evidence_LabPiles_AerialPhoto--></T>
+      </V>
+    </U>
+  </L>
+</I>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Festival_Blossom_SakuraTeaBuff_GuruOnly" s="150918">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xA710CEB<!--The lovely scent of cherry blossoms can really get someone in the mood.--></T>
+  <T n="buff_name">0x831350EA<!--Botanic Fragrance--></T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="locked_stats">
+            <T>16655<!--motive_Fun--></T>
+            <T>16657<!--motive_Hygiene--></T>
+            <T>16658<!--motive_Social--></T>
+            <T>16654<!--motive_Energy--></T>
+            <T>16652<!--motive_Bladder--></T>
+            <T>16656<!--motive_Hunger--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InEP03\UI\Icons\Buffs\Buffs_Festival.png">2f7d0004:00000000:d3228ec51b5ee9b4</T>
+  <T n="mood_type">14638<!--Mood_Flirty--></T>
+  <T n="mood_weight">2</T>
+  <L n="static_commodity_to_add">
+    <T>150891<!--staticCommodity_Festivals_Blossom_Guru--></T>
+  </L>
+  <T n="visible">True</T>
+</I>

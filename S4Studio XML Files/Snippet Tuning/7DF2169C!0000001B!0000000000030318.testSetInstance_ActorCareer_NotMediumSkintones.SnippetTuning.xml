@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_ActorCareer_NotMediumSkintones" s="197400">
+  <L n="test">
+    <L>
+      <V t="skin_tone">
+        <U n="skin_tone">
+          <T n="invert">True</T>
+          <L n="skin_tones">
+            <T>12139<!--[Warm] Human Natural Yellow 2 Asian, Latin, MiddleEastern, NativeAmerican, NorthAmerican, SouthAsian--></T>
+            <T>30678<!--[Warm] Human Natural Red 2 Island, Latin, MiddleEastern, NativeAmerican, NorthAmerican, SouthAsian--></T>
+            <T>12136<!--[Warm] Human Natural Red 2 African, Island, NativeAmerican--></T>
+            <T>191455<!--[Warm] Human Natural Olive 3 African, Island, Latin, MiddleEastern, NativeAmerican, NorthAmerican, SouthAsian--></T>
+            <T>148819<!--[Miscellaneous] Human Natural Red 2 Asian, Caucasian--></T>
+            <T>148821<!--[Miscellaneous] Human Natural Red 1 Asian, Caucasian--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

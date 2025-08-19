@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_FlowerPress_IngredientsCheat" s="447840">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">465683<!--fairyDustPile_EP19GEN_set1 ({S.Pile of Fairy Dust}{P.Piles of Fairy Dust})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">10</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">65104<!--collectTerrarium_GP01GENinsectBee_set1 ({S.Bee}{P.Bees})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">65101<!--collectTerrarium_GP01GENinsectStinkbug_set1 ({S.Stink Bug}{P.Stink Bugs})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">65105<!--collectTerrarium_GP01GENinsectLadybug_set1 ({S.Ladybug}{P.Ladybugs})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <T n="quantity">5</T>
+      </U>
+    </V>
+  </L>
+</I>

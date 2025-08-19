@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_KaraokeMachine_SoloSongs" s="142538">
+  <L n="value">
+    <T>142287<!--si_KaraokeMachine_Solo_Country_1--></T>
+    <T>142286<!--si_KaraokeMachine_Solo_Country_2--></T>
+    <T>142285<!--si_KaraokeMachine_Solo_Disco_1--></T>
+    <T>142284<!--si_KaraokeMachine_Solo_Disco_2--></T>
+    <T>142283<!--si_KaraokeMachine_Solo_House_1--></T>
+    <T>142282<!--si_KaraokeMachine_Solo_House_2--></T>
+    <T>142281<!--si_KaraokeMachine_Solo_Jazz_1--></T>
+    <T>142280<!--si_KaraokeMachine_Solo_Jazz_2--></T>
+    <T>137460<!--si_KaraokeMachine_Solo_Pop_1--></T>
+    <T>137580<!--si_KaraokeMachine_Solo_Pop_2--></T>
+    <T>142289<!--si_KaraokeMachine_Solo_Rock_1--></T>
+    <T>142288<!--si_KaraokeMachine_Solo_Rock_2--></T>
+    <T>153635<!--si_KaraokeMachine_TieredMenu_Contest_Country--></T>
+    <T>153636<!--si_KaraokeMachine_TieredMenu_Contest_Disco--></T>
+    <T>153637<!--si_KaraokeMachine_TieredMenu_Contest_House--></T>
+    <T>153638<!--si_KaraokeMachine_TieredMenu_Contest_Jazz--></T>
+    <T>153639<!--si_KaraokeMachine_TieredMenu_Contest_Pop--></T>
+    <T>153640<!--si_KaraokeMachine_TieredMenu_Contest_Rock--></T>
+    <T>155206<!--karaoke_NonTieredMenu_AutonomousSongs_Country--></T>
+    <T>155211<!--karaoke_NonTieredMenu_AutonomousSongs_Disco--></T>
+    <T>155207<!--karaoke_NonTieredMenu_AutonomousSongs_House--></T>
+    <T>155208<!--karaoke_NonTieredMenu_AutonomousSongs_Jazz--></T>
+    <T>155210<!--karaoke_NonTieredMenu_AutonomousSongs_Pop--></T>
+    <T>155209<!--karaoke_NonTieredMenu_AutonomousSongs_Rock--></T>
+    <T>155234<!--karaoke_NonTieredMenu_AutonomousContestSongs_Country--></T>
+    <T>155235<!--karaoke_NonTieredMenu_AutonomousContestSongs_Disco--></T>
+    <T>155236<!--karaoke_NonTieredMenu_AutonomousContestSongs_House--></T>
+    <T>155237<!--karaoke_NonTieredMenu_AutonomousContestSongs_Jazz--></T>
+    <T>155238<!--karaoke_NonTieredMenu_AutonomousContestSongs_Pop--></T>
+    <T>155239<!--karaoke_NonTieredMenu_AutonomousContestSongs_Rock--></T>
+  </L>
+</I>

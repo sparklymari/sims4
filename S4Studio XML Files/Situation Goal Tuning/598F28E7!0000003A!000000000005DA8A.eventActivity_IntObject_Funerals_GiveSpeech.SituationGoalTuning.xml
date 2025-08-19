@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="eventActivity_IntObject_Funerals_GiveSpeech" s="383626">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Events\EventGoal_Socialize.png">2f7d0004:00000000:21835a4b8238b2fa</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x241DEC6B<!--Give Eulogy--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x9CB5CA78<!--Complete by selecting a Podium or the Funeral menu on Urn or Gravestone, and choose Eulogize Mournfully or Eulogize Lightheartedly.--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>413972<!--loot_Funerals_WillActivity_Buffs_GiveSpeeches--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>390175<!--funerals_Eulogize_Lightheartedly_Self--></T>
+      <T>390178<!--funerals_Eulogize_Mournfully_Self--></T>
+      <T>383295<!--funerals_Eulogize_Lightheartedly_Gravesite--></T>
+      <T>383291<!--funerals_Eulogize_Lightheartedly_Podium--></T>
+      <T>383293<!--funerals_Eulogize_Mournfully_Gravesite--></T>
+      <T>383290<!--funerals_Eulogize_Mournfully_Podium--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <L n="_post_tests">
+    <V t="buff">
+      <U n="buff">
+        <V n="whitelist" t="enabled">
+          <L n="enabled">
+            <T>392383<!--buff_Funerals_RoleBuffs_Celebration--></T>
+            <T>392384<!--buff_Funerals_RoleBuffs_Mingle--></T>
+            <T>392381<!--buff_Funerals_RoleBuffs_Mourn--></T>
+            <T>403982<!--buff_Funerals_RoleBuffs_Sleep--></T>
+            <T>392382<!--buff_Funerals_RoleBuffs_Speeches--></T>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="npc" t="enabled" />
+      </U>
+    </V>
+  </L>
+  <T n="_score">25</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+  <L n="role_tags">
+    <E>role_funeral</E>
+  </L>
+</I>

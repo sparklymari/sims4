@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_LoginEvent_01_Day_03" s="372406">
+  <T n="category">0x392A4191<!--Appliances--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Rewards\R2_LoginEvents_Main_3.png">2f7d0004:00000000:118354917b41dafa</T>
+  <L n="items">
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">411538<!--fridgeMini1x1_EF60MED_set1 (Guerdon Goods Mini Fridge)--></T>
+      </U>
+    </V>
+    <V t="build_buy_item">
+      <U n="build_buy_item">
+        <T n="item_resource">411540<!--trashInHiTech_EF60GEN_set1 (Guerdon Goods NanoCan 2.0)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x10AC761E<!--Both items can be found in Build Mode under Appliances, or use the new Event Rewards filter.--></T>
+  <T n="reward_description">0x212AA383<!--Guerdon Goods brings you this wonderful matching mini fridge and garbage can combo. Just don't forget to recycle those soda cans.  --></T>
+  <T n="reward_name">0x8E7F05D2<!--Guerdon Goods Mini Fridge and NanoCan 2.0--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Thumbnails\R2_LoginEvents_Thumbnail_3.png">2f7d0004:00000000:baf396212b6dcdff</T>
+  <V n="reward_timeline_image" t="small_image">
+    <T n="small_image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Thumbnails\R2_LoginEvents_Thumbnail_3.png">2f7d0004:00000000:baf396212b6dcdff</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\R2LogIn\Thumbnails\R2_LoginEvents_Thumbnail_3.png">2f7d0004:00000000:baf396212b6dcdff</T>
+</I>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Burglar_Other" s="422068">
+  <L n="value">
+    <T>422341<!--social_Burglar_Confront--></T>
+    <T>423152<!--si_Touching_Burglar--></T>
+    <T>422070<!--burglar_FakeChat--></T>
+    <T>274891<!--infant_Watch--></T>
+    <T>324302<!--infant_Watch_Carried--></T>
+    <T>326839<!--infant_Watch_Immobile_InObject--></T>
+    <T>422830<!--toddler_Watch_Burglar--></T>
+    <T>322230<!--horseSocials_HorseToSim_Touching_Mean_BiteAt--></T>
+    <T>422562<!--burglar_Reaction_GoToFight--></T>
+    <T>216161<!--touching_Social_Spells_MindControl_SlapOut--></T>
+    <T>435036<!--immediate_Burglar_Confront_Starter--></T>
+    <T>153139<!--vampires_MindPowers_Pusher_Hallucinate--></T>
+    <T>153141<!--vampires_MindPowers_Pusher_IrresistibleSlumber--></T>
+    <T>153140<!--vampires_MindPowers_Pusher_Mesmerize--></T>
+    <T>153155<!--vampires_MindPowers_Pusher_NeedsNaughtiness_Bladder--></T>
+    <T>153157<!--vampires_MindPowers_Pusher_NeedsNaughtiness_Energy--></T>
+    <T>153149<!--vampires_MindPowers_Pusher_NeedsNaughtiness_Hunger--></T>
+    <T>153154<!--vampires_MindPowers_Pusher_NeedsNaughtiness_Hygiene--></T>
+    <T>153134<!--vampires_MindPowers_Pusher_Command_Leave--></T>
+    <T>150385<!--vampire_DrainLifeSpirit_Pusher--></T>
+    <T>150386<!--vampire_DrinkDeeply_Pusher--></T>
+    <T>150384<!--vampire_Drink_Pusher--></T>
+    <T>216512<!--spells_Sim_Pusher_Change_Appearance--></T>
+    <T>213312<!--spells_Sim_Pusher_Confuse--></T>
+    <T>213989<!--spells_Sim_Pusher_Fire--></T>
+    <T>215475<!--spells_Sim_Pusher_Freeze--></T>
+    <T>215016<!--spells_Sim_Pusher_Lightning--></T>
+    <T>217438<!--spells_Sim_Pusher_MindControl--></T>
+    <T>213406<!--spells_Sim_Pusher_Sadness--></T>
+    <T>213538<!--spells_Sim_Pusher_Transformation--></T>
+    <T>299804<!--social_Werewolf_RampageFight--></T>
+  </L>
+</I>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="Whim_TrainHorse" s="335491">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP14\UI\Icons\Whims\Whim_TrainHorse.png">2f7d0004:00000000:273549b34e0aa2a0</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x8DB80C4F<!--Train a Horse--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x33F81041<!--Have your Sim and a Horse use Horse Jumps or Horse Barrels for training.--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>272907<!--goalLoot_WantFear_Fulfillment_Gain--></T>
+    <T>291795<!--goalLoot_Want_Fulfilled_BuffGain_Happy--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>326455<!--horsePickerInteraction_HorseObstacles_Barrels_Basic--></T>
+      <T>326456<!--horsePickerInteraction_HorseObstacles_Barrels_Advanced--></T>
+      <T>326457<!--horsePickerInteraction_HorseObstacles_Jumping_Advanced--></T>
+      <T>326458<!--horsePickerInteraction_HorseObstacles_Jumping_Basic--></T>
+      <T>326462<!--horseObstacles_Barrels_CallTo_Advanced--></T>
+      <T>326460<!--horseObstacles_Barrels_CallTo_Basic--></T>
+      <T>326469<!--horseObstacles_Barrels_NoRider_Advanced--></T>
+      <T>331613<!--horseObstacles_Barrels_NoRider_Advanced_Autonomous--></T>
+      <T>326467<!--horseObstacles_Barrels_NoRider_Basic--></T>
+      <T>331612<!--horseObstacles_Barrels_NoRider_Basic_Autonomous--></T>
+      <T>326449<!--horseObstacles_Barrels_Advanced--></T>
+      <T>326450<!--horseObstacles_Barrels_Basic--></T>
+      <T>331622<!--horseObstacles_Barrels_Focus_Basic--></T>
+      <T>326451<!--horseObstacles_Barrels_Focus--></T>
+      <T>326446<!--horseObstacles_Barrels_Start_Advanced--></T>
+      <T>326447<!--horseObstacles_Barrels_Start_Basic--></T>
+      <T>326448<!--horseObstacles_Barrels_Start_Focus--></T>
+      <T>326463<!--horseObstacles_Jumping_CallTo_Advanced--></T>
+      <T>326464<!--horseObstacles_Jumping_CallTo_Basic--></T>
+      <T>326472<!--horseObstacles_Jumping_NoRider_Advanced--></T>
+      <T>334234<!--horseObstacles_Jumping_NoRider_Advanced_Autonomous--></T>
+      <T>326471<!--horseObstacles_Jumping_NoRider_Basic--></T>
+      <T>334231<!--horseObstacles_Jumping_NoRider_Basic_Autonomous--></T>
+      <T>333547<!--horseObstacles_Jumping_NoRider_Transition_Advanced--></T>
+      <T>333548<!--horseObstacles_Jumping_NoRider_Transition_Basic--></T>
+      <T>326439<!--horseObstacles_Jumping_Advanced--></T>
+      <T>326438<!--horseObstacles_Jumping_Basic--></T>
+      <T>326440<!--horseObstacles_Jumping_Focus--></T>
+      <T>333647<!--horseObstacles_Jumping_Focus_Advanced--></T>
+      <T>326441<!--horseObstacles_Jumping_Start_Advanced--></T>
+      <T>326442<!--horseObstacles_Jumping_Start_Basic--></T>
+      <T>326443<!--horseObstacles_Jumping_Start_Focus--></T>
+      <T>333187<!--horseObstacles_Jumping_WithRider_Transition_Advanced--></T>
+      <T>332855<!--horseObstacles_Jumping_WithRider_Transition_Basic--></T>
+      <T>333188<!--horseObstacles_Jumping_WithRider_Transition_Focus--></T>
+      <T>333648<!--horseObstacles_Jumping_WithRider_Transition_Focus_Advanced--></T>
+    </L>
+    <V n="interaction_outcome" t="enabled">
+      <E n="enabled">SUCCESS</E>
+    </V>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <L n="_pre_tests">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="_score">25</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

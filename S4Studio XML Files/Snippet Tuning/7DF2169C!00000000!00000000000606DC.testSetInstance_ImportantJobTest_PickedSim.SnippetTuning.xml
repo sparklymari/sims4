@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_ImportantJobTest_PickedSim" s="394972">
+  <L n="test">
+    <L>
+      <V t="situation_job_test">
+        <U n="situation_job_test">
+          <T n="negate">True</T>
+          <E n="participant">PickedSim</E>
+          <L n="role_tags">
+            <E>Situation_MarketStall_Vendor</E>
+            <E>Role_Bartender</E>
+            <E>Role_Entertainer</E>
+          </L>
+          <L n="situation_jobs">
+            <T>232057<!--situationJob_ecoinspector_inspector--></T>
+            <T>205643<!--islandEvents_Jobs_IslandCelebration_TableVendor--></T>
+            <T>205614<!--islandEvents_Jobs_FamilyFunDay_Vendor--></T>
+            <T>233262<!--situationJob_civicinspector_inspector--></T>
+            <T>247868<!--jobs_OnsenEmployee--></T>
+            <T>291985<!--job_Bartender_WolfTown--></T>
+            <T>289070<!--job_WolfTown_Greg--></T>
+            <T>289068<!--walkby_Job_Werewolf_Greg--></T>
+            <T>309655<!--job_bartender_BabyShower--></T>
+            <T>208733<!--jobs_FireBrigadeVolunteer--></T>
+            <T>237682<!--jobs_Firefighter--></T>
+            <T>288274<!--job_HighSchool_Active_Base_FireFighter--></T>
+            <T>250822<!--jobs_TownMascot_LotVisit--></T>
+            <T>249208<!--situationJob_BasicTrait_TownMascot--></T>
+            <T>212837<!--situationJob_MagicSage_Mischief--></T>
+            <T>212838<!--situationJob_MagicSage_Practical--></T>
+            <T>212839<!--situationJob_MagicSage_Untamed--></T>
+            <T>403075<!--job_TattooArtist_Service--></T>
+            <T>421825<!--job_Burglar--></T>
+            <T>421826<!--job_Police--></T>
+            <T>130418<!--jobs_Venue_Waiter--></T>
+            <T>131306<!--jobs_Venue_Host--></T>
+            <T>130833<!--jobs_Venue_Chef--></T>
+            <T>156407<!--jobs_RelaxationVenue_Bartender--></T>
+            <T>117815<!--jobs_RelaxationVenue_MassageTherapist--></T>
+            <T>119519<!--jobs_RelaxationVenue_Reflexologist--></T>
+            <T>16180<!--job_GrimReaper--></T>
+            <T>16175<!--job_mailman--></T>
+            <T>140533<!--job_Festival_Blossom_Bartender--></T>
+            <T>114208<!--job_bartender_AlienWorld--></T>
+            <T>130591<!--job_Bartender_GoDancing--></T>
+            <T>185004<!--job_Bartender_Jungle--></T>
+            <T>147048<!--job_bartender_bar_MyshunoMeadows--></T>
+            <T>153474<!--job_bartender_OpenStreet--></T>
+            <T>191861<!--situationJob_VIPRope_Bouncer--></T>
+            <T>123712<!--job_bartender_HiredNPC--></T>
+            <T>123704<!--job_caterer_HiredNPC--></T>
+            <T>150485<!--job_Caterer_Vegetarian_HiredNPC--></T>
+            <T>140534<!--job_Festival_Food_Bartender--></T>
+            <T>123734<!--jobs_Cafe_Barista_HiredNPC--></T>
+            <T>32407<!--job_entertainer_birthday_party--></T>
+            <T>35087<!--job_entertainer_BlackAndWhiteParty--></T>
+            <T>99098<!--job_entertainer_wedding--></T>
+            <T>123625<!--job_Entertainer_Guitar_AtHome--></T>
+            <T>123691<!--job_Entertainer_MicComedy_AtHome--></T>
+            <T>123592<!--job_Entertainer_Piano_AtHome--></T>
+            <T>123681<!--job_Entertainer_Violin_AtHome--></T>
+            <T>155974<!--job_Entertainer_Organ_AtHome--></T>
+            <T>40134<!--job_entertainer_lounge--></T>
+            <T>140536<!--job_Festival_Blossom_Entertainer--></T>
+            <T>142723<!--job_Festival_FleaMarket_Entertainer--></T>
+            <T>140546<!--job_Festival_Food_Entertainer--></T>
+            <T>140547<!--job_Festival_Lamp_Entertainer--></T>
+            <T>140124<!--jobs_Venue_HomeChef--></T>
+            <T>146779<!--job_Festival_Blossom_LoveGuru--></T>
+            <T>141842<!--jobs_nanny--></T>
+            <T>140535<!--job_Festival_Lamp_Bartender--></T>
+            <T>16159<!--job_bartender--></T>
+            <T>31638<!--job_bartender_birthday_party--></T>
+            <T>35089<!--job_bartender_BlackAndWhiteParty--></T>
+            <T>35083<!--job_bartender_CostumeParty--></T>
+            <T>16154<!--job_bartender_dinner_party--></T>
+            <T>16177<!--job_bartender_singles_party--></T>
+            <T>16169<!--job_bartender_wedding--></T>
+            <T>16161<!--job_bartender_bar--></T>
+            <T>130543<!--job_Gardener_Service--></T>
+            <T>16174<!--job_maid--></T>
+            <T>129478<!--job_Repair--></T>
+            <T>118593<!--jobs_MassageTherapist_Service--></T>
+            <T>145805<!--job_Butler--></T>
+            <T>153605<!--situationJob_CraftSalesTable_Vendor--></T>
+            <T>154396<!--situationJob_CraftSalesTable_Vendor_Painter--></T>
+            <T>153678<!--job_Festival_Blossom_CraftSalesTable_Vendor_Painting--></T>
+            <T>146841<!--job_Festival_FleaMarket_CraftSalesTable_Vendor--></T>
+            <T>153687<!--job_Festival_FleaMarket_CraftSalesTable_Vendor_Painting--></T>
+            <T>139947<!--job_Festival_FleaMarket_Vendor--></T>
+            <T>9830<!--job_pizzaDelivery--></T>
+          </L>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x3A83ECDE<!--{2.SimFirstName} is busy right now.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

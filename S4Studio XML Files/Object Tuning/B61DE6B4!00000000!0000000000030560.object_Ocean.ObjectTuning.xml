@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Ocean" i="object" m="objects.pools.ocean" n="object_Ocean" s="197984">
+  <V n="_anim_overrides" t="enabled">
+    <U n="enabled">
+      <L n="params">
+        <U>
+          <T n="name">isOcean</T>
+          <V n="value" t="boolean">
+            <T n="boolean">True</T>
+          </V>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="portal" t="enabled" />
+  </U>
+  <E n="_persistence">NONE</E>
+  <V n="_provided_mobile_posture" t="enabled">
+    <U n="enabled">
+      <L n="affordances">
+        <T>170682<!--dog_swim--></T>
+        <T>102325<!--sim-swim--></T>
+        <T>207598<!--sim-floating--></T>
+      </L>
+      <L n="placement_footprint_name_set">
+        <T>_ftp_placementShape</T>
+      </L>
+    </U>
+  </V>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>102325<!--sim-swim--></T>
+    <T>211546<!--pool-FloatOnBack--></T>
+    <T>103790<!--terrain-Swimhere--></T>
+    <T>129587<!--terrain-Swim_andChatHere--></T>
+    <T>128625<!--terrain-Swim_Skinnydip--></T>
+    <T>201294<!--terrain-WaterScooter--></T>
+    <T>206353<!--waypoint_IslandCanoe_RideAround--></T>
+    <T>200016<!--waypoint_WaterScooter_RideAround--></T>
+    <T>206336<!--terrain-IslandCanoe--></T>
+    <T>171517<!--swimWith_Picker--></T>
+    <T>229820<!--AggregateSI_Vehicle_WaterScooter_RideHere--></T>
+    <T>209197<!--waterScooter_Picker_RideHere_Terrain_Auto--></T>
+    <T>129163<!--simpicker_SkinnyDip--></T>
+    <T>210656<!--Toddler_PlayInOcean--></T>
+    <T>229821<!--AggregateSI_Vehicle_IslandCanoe_RideHere--></T>
+    <T>209196<!--IslandCanoe_Picker_RideHere_Terrain_Auto--></T>
+    <T>210063<!--dolphin_NameOverride_Ocean--></T>
+    <T>211021<!--debug_Create_WaterVehicle--></T>
+    <T>252412<!--terrain-Swim_Skinnydip_Proper--></T>
+    <T>207379<!--pool-swim_Mermaid_Sleep--></T>
+    <T>211923<!--pool-swim_Mermaid_Sleep_Autonomous--></T>
+    <T>207378<!--pool-swim_Mermaid_Sunbathe--></T>
+    <T>212902<!--waterScooter_Dummy--></T>
+    <T>213855<!--dolphin_NameOverride_Merfolk_Ocean--></T>
+    <T>379047<!--terrain-Swim_EP17World_RiverStyx_Submerge--></T>
+    <T>387301<!--terrain-Swim_MovingOn_Reincarnate--></T>
+    <T>390850<!--terrain-Swim_GhostUpdates_AgeUpCToT--></T>
+    <T>394276<!--collection_Tarot_Intuition_River--></T>
+    <T>470443<!--terrain-gohere_NLS_BatheInWater_Ocean--></T>
+    <T>209476<!--deployWaterScooterInOcean--></T>
+    <T>210761<!--terrain-gohere_Toddler_PlayInOcean--></T>
+    <T>105474<!--terrain-Swimhere_Fire--></T>
+    <T>215381<!--terrain-SwimAround_Ocean--></T>
+    <T>235809<!--terrain-gohere_GatherWater_Ocean--></T>
+    <T>414555<!--interactionPicker_EP17World_RiverStyx_TemporaryGhostPicker_debug--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

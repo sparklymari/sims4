@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Kotatsu_Dazed_Stronger" s="252298">
+  <T n="_operating_commodity">252347<!--commodity_Kotatsu_OverRelaxed_Stronger--></T>
+  <V n="_temporary_commodity_info" t="disabled" />
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xC082FE78<!--Waking up to an extreme change in body temperature may have made {0.SimFirstName} a little loopy.--></T>
+  <T n="buff_name">0x62676277<!--Over-relaxed--></T>
+  <T n="icon" p="InEP10\UI\Icons\Buffs\Buffs_kotatsu_neg.png">2f7d0004:00000000:5cab504538a52faa</T>
+  <T n="mood_type">14644<!--Mood_Dazed--></T>
+  <T n="mood_weight">3</T>
+  <T n="refresh_on_add">False</T>
+</I>

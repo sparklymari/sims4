@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherForcastList" i="snippet" m="snippets" n="weatherForcastList_Spring_EcoWorld_Early" s="234724">
+  <L n="value">
+    <U>
+      <T n="forecast">183979<!--forecast_Cloudy_coldCool--></T>
+    </U>
+    <U>
+      <T n="forecast">183980<!--forecast_Cloudy_Cold--></T>
+    </U>
+    <U>
+      <T n="forecast">183977<!--forecast_PartlyCloudy_Cold--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">183975<!--forecast_PartlyCloudy_coldCool--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">183971<!--forecast_Sunny_coldCool--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">183972<!--forecast_Sunny_Cold--></T>
+      <T n="weight">3</T>
+    </U>
+    <U>
+      <T n="forecast">186045<!--forecast_Windy_Cold--></T>
+      <T n="weight">3</T>
+    </U>
+    <U>
+      <T n="forecast">186016<!--forecast_Windy_Cool--></T>
+      <T n="weight">2</T>
+    </U>
+    <U>
+      <T n="forecast">223316<!--forecast_Rain_Intermittent_Cold--></T>
+    </U>
+    <U>
+      <T n="forecast">223317<!--forecast_Rain_Intermittent_Cool--></T>
+    </U>
+    <U>
+      <T n="forecast">198553<!--forecast_ChanceOfRain_Storm_Cool--></T>
+    </U>
+  </L>
+</I>

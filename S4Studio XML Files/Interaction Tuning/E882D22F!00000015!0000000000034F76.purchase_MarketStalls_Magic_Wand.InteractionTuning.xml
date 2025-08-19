@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchase_MarketStalls_Magic_Wand" s="216950">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">False</T>
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0x7B727F0A<!--Wands, Tomes, & Familiars--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Func_Marketstalls_PurchaseNonFood</E>
+  </L>
+  <L n="loots_on_purchase">
+    <T>152038<!--loot_Buff_MarketStalls_RemoveHaggle--></T>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <V n="max_selectable" t="unlimited" />
+      <V n="text" t="enabled">
+        <V n="enabled" t="single">
+          <T n="single">0x7B727F0A<!--Wands, Tomes, & Familiars--></T>
+        </V>
+      </V>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.75</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>132805<!--buff_Object_MarketStalls_Haggle--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.2</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>148137<!--buff_Object_MarketStalls_InTheKnow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">1.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>237110<!--buff_Trait_Freegan_DiscountDenied_Final--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>234624<!--buff_Trait_Freegan_ToughNegotiator--></T>
+                    <T>234623<!--buff_Trait_Freegan_SweetSavings--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>249840<!--buff_Trait_WorldlyKnowledge_NoteworthyNegotiation--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">216505<!--witchPerks_Open_4B_MagicalDiscounts--></T>
+              </U>
+            </V>
+            <V t="location">
+              <U n="location">
+                <U n="location_tests">
+                  <V n="is_venue_type" t="enabled">
+                    <U n="enabled">
+                      <T n="venue_type">212896<!--venue_MagicHQ--></T>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">222614<!--magicWand_GP08GEN02_set1 (Wand of The Sylvan Forest)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">222616<!--magicWand_GP08GEN03_set1 (Wood Wand)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">222618<!--magicWand_GP08GEN04_set1 (Wand of Astral Creation)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">222622<!--magicWand_GP08GEN06_set1 (Natural Wand)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">222625<!--magicWand_GP08GEN07_set1 (Marble Wand)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">222627<!--magicWand_GP08GEN08_set1 (Ancient Wood Wand)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">222629<!--magicWand_GP08GEN09_set1 (Bone Wand)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">222631<!--magicWand_GP08GEN10_set1 (Magician's Wand)--></T>
+            <T n="weight">2</T>
+          </U>
+        </L>
+        <T n="items_avaiable">3</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">231297<!--bookLarge_GP08GENmischiefHigh_burgliate (Tome of Burgliate)--></T>
+          </U>
+          <U>
+            <T n="item">231298<!--bookLarge_GP08GENmischiefHigh_morphiate (Tome of Morphiate)--></T>
+          </U>
+          <U>
+            <T n="item">231301<!--bookLarge_GP08GENmischiefLow_deliriate (Tome of Deliriate)--></T>
+          </U>
+          <U>
+            <T n="item">231300<!--bookLarge_GP08GENmischiefLow_despairio (Tome of Despairio)--></T>
+          </U>
+          <U>
+            <T n="item">231302<!--bookLarge_GP08GENmischiefLow_furio (Tome of Furio)--></T>
+          </U>
+          <U>
+            <T n="item">231303<!--bookLarge_GP08GENmischiefLow_infatuate (Tome of Infatuate)--></T>
+          </U>
+          <U>
+            <T n="item">231309<!--bookLarge_GP08GENpracticalHigh_copypasto (Tome of Copypasto)--></T>
+          </U>
+          <U>
+            <T n="item">231310<!--bookLarge_GP08GENpracticalHigh_herbio (Tome of Herbio)--></T>
+          </U>
+          <U>
+            <T n="item">231308<!--bookLarge_GP08GENpracticalHigh_transportalate (Tome of Transportalate)--></T>
+          </U>
+          <U>
+            <T n="item">231311<!--bookLarge_GP08GENpracticalHigh_transportalateMagicRealm (Tome of Homewardial)--></T>
+          </U>
+          <U>
+            <T n="item">231306<!--bookLarge_GP08GENpracticalLow_delicioso (Tome of Delicioso)--></T>
+          </U>
+          <U>
+            <T n="item">231307<!--bookLarge_GP08GENpracticalLow_floralorial (Tome of Floralorial)--></T>
+          </U>
+          <U>
+            <T n="item">231305<!--bookLarge_GP08GENpracticalLow_repairio (Tome of Repairio)--></T>
+          </U>
+          <U>
+            <T n="item">231304<!--bookLarge_GP08GENpracticalLow_scruberoo (Tome of Scruberoo)--></T>
+          </U>
+          <U>
+            <T n="item">231314<!--bookLarge_GP08GENuntamedHigh_chillio (Tome of Chillio)--></T>
+          </U>
+          <U>
+            <T n="item">231316<!--bookLarge_GP08GENuntamedHigh_decursify (Tome of Decursify)--></T>
+          </U>
+          <U>
+            <T n="item">231317<!--bookLarge_GP08GENuntamedHigh_dedeathify (Tome of Dedeathify)--></T>
+          </U>
+          <U>
+            <T n="item">231315<!--bookLarge_GP08GENuntamedHigh_minionize (Tome of Minionize)--></T>
+          </U>
+          <U>
+            <T n="item">231245<!--bookLarge_GP08GENalchemyHigh_deathProof (Tome of Prompt Resurrection)--></T>
+          </U>
+          <U>
+            <T n="item">231242<!--bookLarge_GP08GENalchemyHigh_hate (Tome of Masterful Insults)--></T>
+          </U>
+          <U>
+            <T n="item">231244<!--bookLarge_GP08GENalchemyHigh_immortality (Tome of Immortality)--></T>
+          </U>
+          <U>
+            <T n="item">231243<!--bookLarge_GP08GENalchemyHigh_LifeExtention (Tome of Rejuvenation)--></T>
+          </U>
+          <U>
+            <T n="item">231241<!--bookLarge_GP08GENalchemyHigh_love (Tome of the Transcendent Charmer)--></T>
+          </U>
+          <U>
+            <T n="item">231246<!--bookLarge_GP08GENalchemyHigh_removeCurses (Tome of Curse Cleansing)--></T>
+          </U>
+          <U>
+            <T n="item">231247<!--bookLarge_GP08GENalchemyLow_bff (Tome of Forced Friendship)--></T>
+          </U>
+          <U>
+            <T n="item">231255<!--bookLarge_GP08GENalchemyLow_emptyMind (Tome of the Perk Purging)--></T>
+          </U>
+          <U>
+            <T n="item">231254<!--bookLarge_GP08GENalchemyLow_feelGood (Tome of Plentiful Needs)--></T>
+          </U>
+          <U>
+            <T n="item">231249<!--bookLarge_GP08GENalchemyLow_luck (Tome of Good Fortune)--></T>
+          </U>
+          <U>
+            <T n="item">231253<!--bookLarge_GP08GENalchemyLow_makeGlowy (Tome of Magical Aura)--></T>
+          </U>
+          <U>
+            <T n="item">231252<!--bookLarge_GP08GENalchemyLow_nullify (Tome of Emotional Stability)--></T>
+          </U>
+          <U>
+            <T n="item">231248<!--bookLarge_GP08GENalchemyLow_pheromone (Tome of Alluring Aura)--></T>
+          </U>
+          <U>
+            <T n="item">231250<!--bookLarge_GP08GENalchemyLow_poison (Tome of Nausea)--></T>
+          </U>
+          <U>
+            <T n="item">231251<!--bookLarge_GP08GENalchemyLow_skillIncrease (Tome of the Nimble Mind)--></T>
+          </U>
+          <U>
+            <T n="item">231319<!--bookLarge_GP08GENuntamedLow_inferniate (Tome of Inferniate)--></T>
+          </U>
+          <U>
+            <T n="item">231321<!--bookLarge_GP08GENuntamedLow_necrocall (Tome of Necrocall)--></T>
+          </U>
+          <U>
+            <T n="item">231320<!--bookLarge_GP08GENuntamedLow_zipzap (Tome of Zipzap)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">3</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">228916<!--familiarOrb_GP08GEN_bat (Familiar Orb of the Snub-Nosed Leaf Bat)--></T>
+            <T n="weight">8</T>
+          </U>
+          <U>
+            <T n="item">227727<!--familiarOrb_GP08GEN_bunnerFly (Familiar Orb of the Bunnerfly)--></T>
+            <T n="weight">14</T>
+          </U>
+          <U>
+            <T n="item">224816<!--familiarOrb_GP08GEN_dragon (Familiar Orb of the Dragon)--></T>
+            <T n="weight">8</T>
+          </U>
+          <U>
+            <T n="item">227728<!--familiarOrb_GP08GEN_fairy (Familiar Orb of the Fairy)--></T>
+            <T n="weight">14</T>
+          </U>
+          <U>
+            <T n="item">227729<!--familiarOrb_GP08GEN_frog (Familiar Orb of the Glowfrog)--></T>
+            <T n="weight">8</T>
+          </U>
+          <U>
+            <T n="item">227730<!--familiarOrb_GP08GEN_owl (Familiar Orb of the Sixam Owl)--></T>
+            <T n="weight">14</T>
+          </U>
+          <U>
+            <T n="item">227731<!--familiarOrb_GP08GEN_phoenix (Familiar Orb of the Phoenix)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">227732<!--familiarOrb_GP08GEN_raven (Familiar Orb of the Raven)--></T>
+            <T n="weight">14</T>
+          </U>
+          <U>
+            <T n="item">227733<!--familiarOrb_GP08GEN_skull (Familiar Orb of the Skull)--></T>
+            <T n="weight">5</T>
+          </U>
+          <U>
+            <T n="item">227734<!--familiarOrb_GP08GEN_voidCritter (Familiar Orb of the Veild)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">227735<!--familiarOrb_GP08GEN_voodooDoll (Familiar Orb of the Hex Doll)--></T>
+            <T n="weight">8</T>
+          </U>
+        </L>
+        <T n="items_avaiable">3</T>
+      </U>
+    </V>
+    <V t="tested_items">
+      <U n="tested_items">
+        <L n="item_list">
+          <U>
+            <T n="item">427591<!--collectTarotCardSingle_EP17GENcollector_set22_wands (Wands)--></T>
+            <L n="tests">
+              <L>
+                <V t="inventory">
+                  <U n="inventory">
+                    <V n="contents_check" t="has_object_with_def">
+                      <U n="has_object_with_def">
+                        <T n="definition">427591<!--collectTarotCardSingle_EP17GENcollector_set22_wands (Wands)--></T>
+                      </U>
+                    </V>
+                    <U n="required_count">
+                      <E n="comparison">EQUAL</E>
+                      <T n="value">0</T>
+                    </U>
+                  </U>
+                </V>
+                <V t="trait">
+                  <U n="trait">
+                    <L n="whitelist_traits">
+                      <T>387187<!--trait_Hidden_Tarot_Quest--></T>
+                    </L>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0x40C8D666<!--Thanks for shopping at Juan's Wonderful One Stop Wand Warehouse! Check back tomorrow as our daily offerings are always changing. The items {0.SimFirstName} bought can be found in {M0.his}{F0.her} inventory.--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <T n="show_discount">True</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

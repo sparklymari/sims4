@@ -1,0 +1,2863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_SelfDiscovery_CanMakeProgress" s="315849">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>273821<!--watch-passive-withphone--></T>
+            <T>14543<!--watch-passive--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311304<!--loot_SelfDiscovery_Progress_Active_Min_Small--></T>
+                </L>
+                <U n="success_chance">
+                  <T n="base_chance">25</T>
+                </U>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>197838<!--rabbitHoleStartInteraction_CityInvites_GoToACircus--></T>
+            <T>197839<!--rabbitHoleStartInteraction_CityInvites_GoToAConcert--></T>
+            <T>197841<!--rabbitHoleStartInteraction_CityInvites_GoToTheOpera--></T>
+            <T>197842<!--rabbitHoleStartInteraction_CityInvites_GoToTheTheater--></T>
+            <T>128712<!--si_JumpStand_Showboat_Backflip--></T>
+            <T>128711<!--si_JumpStand_Showboat_Cannonball--></T>
+            <T>128709<!--si_JumpStand_Showboat_EasyJump--></T>
+            <T>128710<!--si_JumpStand_Showboat_SwanDive--></T>
+            <T>128703<!--si_JumpStand_Jump_Med_SwanDive--></T>
+            <T>128704<!--si_JumpStand_Jump_Med_Cannonball--></T>
+            <T>128705<!--si_JumpStand_Jump_Hard_Backflip--></T>
+            <T>128702<!--si_JumpStand_Jump_Easy--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311301<!--loot_SelfDiscovery_Progress_Active_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>136789<!--socials_Targeted_Friendly_AlwaysOn_STC_SocialMedia_PersuadeToWorkOut--></T>
+            <T>28869<!--mixer_social_DiscussFitnessTechniques_targeted_Friendly_alwaysOn_skills--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311301<!--loot_SelfDiscovery_Progress_Active_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>248640<!--treadmill_CorporateWorker_Workout--></T>
+            <T>293925<!--treadmill_Workout_Werebies--></T>
+            <T>14484<!--treadmill_Workout--></T>
+            <T>10048<!--treadmill_Workout_Angry--></T>
+            <T>26325<!--treadmill_Workout_Endurance--></T>
+            <T>26327<!--treadmill_Workout_HillChallenge--></T>
+            <T>26326<!--treadmill_Workout_NoSweat--></T>
+            <T>98222<!--treadmill_Workout_Angry_PushTheLimits--></T>
+            <T>98223<!--treadmill_Workout_Endurance_PushTheLimits--></T>
+            <T>98225<!--treadmill_Workout_HillChallenge_PushTheLimits--></T>
+            <T>98226<!--treadmill_Workout_NoSweat_PushTheLimits--></T>
+            <T>98221<!--treadmill_Workout_PushTheLimits--></T>
+            <T>14625<!--WorkoutMachine_Workout--></T>
+            <T>26314<!--WorkoutMachine_Workout_EpicWorkout--></T>
+            <T>26315<!--WorkoutMachine_Workout_HeavyLifting--></T>
+            <T>14626<!--WorkoutMachine_Workout_HighSkill--></T>
+            <T>14627<!--WorkoutMachine_Workout_MediumSkill--></T>
+            <T>98280<!--WorkoutMachine_Workout_EpicWorkout_PushTheLimits--></T>
+            <T>98281<!--WorkoutMachine_Workout_HeavyLifting_PushTheLimits--></T>
+            <T>98282<!--WorkoutMachine_Workout_HighSkill_PushTheLimits--></T>
+            <T>98283<!--WorkoutMachine_Workout_MediumSkill_PushTheLimits--></T>
+            <T>98279<!--WorkoutMachine_Workout_PushTheLimits--></T>
+            <T>14625<!--WorkoutMachine_Workout--></T>
+            <T>165189<!--treadmill_Rock_ClimbingWall_SetUp--></T>
+            <T>166294<!--treadmill_Rock_ClimbingWall_SetUp_2--></T>
+            <T>166405<!--treadmill_Rock_ClimbingWall_SetUp_3--></T>
+            <T>166423<!--treadmill_Rock_ClimbingWall_SetUp_4--></T>
+            <T>165302<!--treadmill_Rock_ClimbingWall_SetUp_Challenge--></T>
+            <T>165953<!--treadmill_Rock_ClimbingWall_SetUp_Challenge_2--></T>
+            <T>166967<!--treadmill_Rock_ClimbingWall_SetUp_Challenge_3--></T>
+            <T>166969<!--treadmill_Rock_ClimbingWall_SetUp_Challenge_5--></T>
+            <T>166968<!--treadmill_Rock_ClimbingWall_SetUp_Challenge_4--></T>
+            <T>166004<!--treadmill_Rock_ClimbingWall_SetUp_Challenge_HighScore--></T>
+            <T>166976<!--treadmill_Rock_ClimbingWall_Climb_Challenge_5--></T>
+            <T>166975<!--treadmill_Rock_ClimbingWall_Climb_Challenge_4--></T>
+            <T>166973<!--treadmill_Rock_ClimbingWall_Climb_Challenge_3--></T>
+            <T>165954<!--treadmill_Rock_ClimbingWall_Climb_Challenge_2--></T>
+            <T>165301<!--treadmill_Rock_ClimbingWall_Climb_Challenge_1--></T>
+            <T>166424<!--treadmill_Rock_ClimbingWall_Climb_4--></T>
+            <T>166406<!--treadmill_Rock_ClimbingWall_Climb_3--></T>
+            <T>166297<!--treadmill_Rock_ClimbingWall_Climb_2--></T>
+            <T>164317<!--treadmill_Rock_ClimbingWall_Climb--></T>
+            <T>115255<!--hospitalTreadmill_Doctor_Test_display--></T>
+            <T>152365<!--basketball_Dunks_Layup--></T>
+            <T>147452<!--si_Basketball_Challenge_Hoops_JoinGame--></T>
+            <T>147455<!--si_Basketball_Challenge_Dunk_JoinGame--></T>
+            <T>152366<!--basketball_Dunks_DoubleClutch--></T>
+            <T>152367<!--basketball_Dunks_Flying--></T>
+            <T>147392<!--si_Basketball_DreamBig--></T>
+            <T>144911<!--si_Basketball_PracticeDribbling--></T>
+            <T>164310<!--terrain-jog-plantsims--></T>
+            <T>40145<!--terrain-jog--></T>
+            <T>161482<!--terrain_JogOffFeelings--></T>
+            <T>164310<!--terrain-jog-plantsims--></T>
+            <T>13840<!--punchingBag_Box--></T>
+            <T>28100<!--punchingBag_Box_energized--></T>
+            <T>10053<!--punchingBag_Box_unskilled--></T>
+            <T>26587<!--punchingBag_CommandoTraining--></T>
+            <T>13850<!--punchingBag_Train--></T>
+            <T>98276<!--punchingBag_Box_energized_PushTheLimits--></T>
+            <T>98275<!--punchingBag_Box_PushTheLimits--></T>
+            <T>98274<!--punchingBag_Box_unskilled_PushTheLimits--></T>
+            <T>98278<!--punchingBag_Train_PushTheLimits--></T>
+            <T>98277<!--punchingBag_CommandoTraining_PushTheLimits--></T>
+            <T>185201<!--skatingRink_Tricks_Stationary_Practice--></T>
+            <T>185203<!--skatingRink_Tricks_Stationary_Routine--></T>
+            <T>185201<!--skatingRink_Tricks_Stationary_Practice--></T>
+            <T>301285<!--si_CheerMat_Solo_Start--></T>
+            <T>302999<!--si_CheerMat_Group_StartSequence_01_Display--></T>
+            <T>220725<!--touching_SoccerBall_Play--></T>
+            <T>220776<!--touching_SoccerBall_Play_Listen--></T>
+            <T>224333<!--sI_SoccerBall_Pickup_Juggle--></T>
+            <T>282975<!--touching_ThrowFootball_HardPlay--></T>
+            <T>229557<!--sI_SoccerBall_PlayWithRally--></T>
+            <T>282677<!--touching_ThrowFootball_RegularPlay--></T>
+            <T>282678<!--touching_ThrowFootball_Play_Listen--></T>
+            <T>140330<!--object_SlippySlide_TrickSlide--></T>
+            <T>140329<!--object_SlippySlide_Slide--></T>
+            <T>158165<!--bowlingLane_PlayGame--></T>
+            <T>188151<!--bowlingLane_PlayGame_3_Frames--></T>
+            <T>188159<!--bowlingLane_PlayGame_5_Frames--></T>
+            <T>188644<!--bowlingLane_PlayGame_Join--></T>
+            <T>188651<!--bowlingLane_PlayGame_3_Frames_Join--></T>
+            <T>188650<!--bowlingLane_PlayGame_5_Frames_Join--></T>
+            <T>103790<!--terrain-Swimhere--></T>
+            <T>215381<!--terrain-SwimAround_Ocean--></T>
+            <T>104744<!--terrain-Swim--></T>
+            <T>128625<!--terrain-Swim_Skinnydip--></T>
+            <T>252412<!--terrain-Swim_Skinnydip_Proper--></T>
+            <T>103784<!--terrain-swimHere_Together--></T>
+            <T>229660<!--swim-laps_slow--></T>
+            <T>104856<!--pool-swim--></T>
+            <T>211546<!--pool-FloatOnBack--></T>
+            <T>26469<!--rocketShip_ZeroGWorkout--></T>
+            <T>175415<!--stereo_Dance_LocalCultureSkill--></T>
+            <T>181327<!--stereo_EarBuds_Dance_LocalCultureSkill--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311301<!--loot_SelfDiscovery_Progress_Active_Max_Large--></T>
+                </L>
+                <V n="timing" t="at_beginning" />
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>13635<!--mirror_PracticeSpeech--></T>
+            <T>145208<!--mirror_PracticeSpeech_vanity--></T>
+            <T>248593<!--mirror_CorporateWorker_RehearseCompanyValues--></T>
+            <T>285525<!--mirror_ResearchDebateSkill_Practice_Start--></T>
+            <T>136753<!--Podium_PracticeSpeech--></T>
+            <T>39891<!--mirror_PsychSelfUp--></T>
+            <T>145215<!--mirror_PsychSelfUp_Vanity--></T>
+            <T>13603<!--mirror_AdmireSelf--></T>
+            <T>128580<!--mirror_AdmireSelf_SpookyParty--></T>
+            <T>145209<!--mirror_AdmireSelf_Vanity--></T>
+            <T>196004<!--mirror_AdmireSelf_VainStreet_Autonomous--></T>
+            <T>196001<!--mirror_AdmireSelf_VainStreet--></T>
+            <T>202132<!--mirror_AdmireSelf_VainStreet_Vanity--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311306<!--loot_SelfDiscovery_Progress_Ambition_Max_Small--></T>
+                </L>
+                <V n="timing" t="at_beginning" />
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>192710<!--microphone_LoungeEvent_AcceptAward--></T>
+            <T>225917<!--computer_ResearchPaper_Acting--></T>
+            <T>225918<!--computer_ResearchPaper_Charisma--></T>
+            <T>225927<!--computer_ResearchPaper_Comedy--></T>
+            <T>225928<!--computer_ResearchPaper_Cooking--></T>
+            <T>225929<!--computer_ResearchPaper_Fitness--></T>
+            <T>225930<!--computer_ResearchPaper_Gardening--></T>
+            <T>225931<!--computer_ResearchPaper_Handiness--></T>
+            <T>225932<!--computer_ResearchPaper_Logic--></T>
+            <T>225919<!--computer_ResearchPaper_Painting--></T>
+            <T>225920<!--computer_ResearchPaper_Photography--></T>
+            <T>225921<!--computer_ResearchPaper_Programming--></T>
+            <T>225922<!--computer_ResearchPaper_ResearchDebate--></T>
+            <T>225923<!--computer_ResearchPaper_Robotics--></T>
+            <T>225924<!--computer_ResearchPaper_RocketScience--></T>
+            <T>225925<!--computer_ResearchPaper_VideoGaming--></T>
+            <T>225926<!--computer_ResearchPaper_Writing--></T>
+            <T>34081<!--writing_SelfPublish--></T>
+            <T>35290<!--writing_SellCopy--></T>
+            <T>35135<!--writing_SellToPublisher--></T>
+            <T>466469<!--computer_ResearchPaper_Apothecary--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311305<!--loot_SelfDiscovery_Progress_Ambition_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>262203<!--sI_AnimalObjects_Socials_Friendly_BirdHome_SingTo--></T>
+            <T>269151<!--sI_AnimalObjects_Socials_Friendly_BirdHome_SingTo_HighSuccess_AnimatedBird--></T>
+            <T>261854<!--sI_AnimalObjects_Socials_Friendly_Rabbit_Ask--></T>
+            <T>261852<!--sI_AnimalObjects_Socials_Friendly_Rabbit_TalkTo--></T>
+            <T>268799<!--sI_AnimalObjects_Socials_Friendly_BirdHome_ShowAffection--></T>
+            <T>262200<!--sI_AnimalObjects_Socials_Friendly_BirdHome_TalkTo--></T>
+            <T>262199<!--sI_AnimalObjects_Socials_Friendly_BirdHome_Ask--></T>
+            <T>262561<!--sI_AnimalObjects_Hug_Rabbit_Outcome_Success_TYAE--></T>
+            <T>261836<!--sI_AnimalObjects_Pet_Rabbit--></T>
+            <T>261855<!--sI_AnimalObjects_Socials_Funny_Rabbit_TellJoke--></T>
+            <T>266112<!--sI_AnimalObjects_DiscoverGift_ToBird--></T>
+            <T>264663<!--sI_AnimalObjects_DiscoverGift_ToRabbit--></T>
+            <T>266327<!--sI_AnimalObjects_Watch_BirdHome--></T>
+            <T>270980<!--foxSocial_SimToFox_Sing--></T>
+            <T>260635<!--critterGifting_GiveGift_ToRabbit_Picker_Wool--></T>
+            <T>260539<!--critterGifting_GiveGift_ToRabbit_Picker_Book--></T>
+            <T>260637<!--critterGifting_GiveGift_ToRabbit_Picker_CannedGoods--></T>
+            <T>260634<!--critterGifting_GiveGift_ToRabbit_Picker_CrossStitch--></T>
+            <T>260605<!--critterGifting_GiveGift_ToRabbit_Picker_Drink--></T>
+            <T>260632<!--critterGifting_GiveGift_ToRabbit_Picker_Egg--></T>
+            <T>260506<!--CritterGifting_GiveGift_ToRabbit_Picker_Fish--></T>
+            <T>260622<!--critterGifting_GiveGift_ToRabbit_Picker_Flower--></T>
+            <T>260606<!--critterGifting_GiveGift_ToRabbit_Picker_MealMeat--></T>
+            <T>260607<!--critterGifting_GiveGift_ToRabbit_Picker_MealVeggie--></T>
+            <T>260636<!--critterGifting_GiveGift_ToRabbit_Picker_Milk--></T>
+            <T>260620<!--critterGifting_GiveGift_ToRabbit_Picker_Painting--></T>
+            <T>260624<!--critterGifting_GiveGift_ToRabbit_Picker_Produce--></T>
+            <T>260621<!--critterGifting_GiveGift_ToRabbit_Picker_Sculpture--></T>
+            <T>260851<!--critterGifting_GiveGift_ToFox_Picker_Wool--></T>
+            <T>260850<!--critterGifting_GiveGift_ToFox_Picker_Sculpture--></T>
+            <T>260849<!--critterGifting_GiveGift_ToFox_Picker_Produce--></T>
+            <T>260848<!--critterGifting_GiveGift_ToFox_Picker_Painting--></T>
+            <T>260847<!--critterGifting_GiveGift_ToFox_Picker_Milk--></T>
+            <T>260846<!--critterGifting_GiveGift_ToFox_Picker_MealVeggie--></T>
+            <T>260845<!--critterGifting_GiveGift_ToFox_Picker_MealMeat--></T>
+            <T>260843<!--critterGifting_GiveGift_ToFox_Picker_Flower--></T>
+            <T>260842<!--critterGifting_GiveGift_ToFox_Picker_Fish--></T>
+            <T>260841<!--critterGifting_GiveGift_ToFox_Picker_Egg--></T>
+            <T>260832<!--critterGifting_GiveGift_ToFox_Picker_Drink--></T>
+            <T>260831<!--critterGifting_GiveGift_ToFox_Picker_CrossStitch--></T>
+            <T>260830<!--critterGifting_GiveGift_ToFox_Picker_CannedGoods--></T>
+            <T>260829<!--critterGifting_GiveGift_ToFox_Picker_Book--></T>
+            <T>260751<!--critterGifting_GiveGift_ToBird_Picker_Wool--></T>
+            <T>260750<!--critterGifting_GiveGift_ToBird_Picker_Sculpture--></T>
+            <T>260749<!--critterGifting_GiveGift_ToBird_Picker_Produce--></T>
+            <T>260748<!--critterGifting_GiveGift_ToBird_Picker_Painting--></T>
+            <T>260747<!--critterGifting_GiveGift_ToBird_Picker_Milk--></T>
+            <T>260746<!--critterGifting_GiveGift_ToBird_Picker_MealVeggie--></T>
+            <T>260745<!--critterGifting_GiveGift_ToBird_Picker_MealMeat--></T>
+            <T>260743<!--critterGifting_GiveGift_ToBird_Picker_Flower--></T>
+            <T>260742<!--critterGifting_GiveGift_ToBird_Picker_Fish--></T>
+            <T>260740<!--critterGifting_GiveGift_ToBird_Picker_Drink--></T>
+            <T>260741<!--critterGifting_GiveGift_ToBird_Picker_Egg--></T>
+            <T>260739<!--critterGifting_GiveGift_ToBird_Picker_CrossStitch--></T>
+            <T>260737<!--critterGifting_GiveGift_ToBird_Picker_CannedGoods--></T>
+            <T>260736<!--critterGifting_GiveGift_ToBird_Picker_Book--></T>
+            <T>267160<!--critterGifting_GiveGift_ToRabbit_Picker_InsectFarm--></T>
+            <T>267159<!--critterGifting_GiveGift_ToFox_Picker_InsectFarm--></T>
+            <T>267158<!--critterGifting_GiveGift_ToBird_Picker_InsectFarm--></T>
+            <T>267170<!--critterGifting_GiveGift_ToRabbit_Picker_InsectWild--></T>
+            <T>267169<!--critterGifting_GiveGift_ToFox_Picker_InsectWild--></T>
+            <T>267168<!--critterGifting_GiveGift_ToBird_Picker_InsectWild--></T>
+            <T>263574<!--sI_AnimalObjects_Rabbits_Home_LureOutRabbits--></T>
+            <T>211612<!--mixer_Dolphin_SimSplash_Playful--></T>
+            <T>206497<!--mixer_Dolphin_Talk--></T>
+            <T>202219<!--mixer_Dolphin_Feed--></T>
+            <T>211147<!--mixer_Dolphin_Pat_userDirected--></T>
+            <T>206425<!--mixer_Dolphin_TrickRequest_Dance--></T>
+            <T>206444<!--mixer_Dolphin_TrickRequest_Fetch--></T>
+            <T>211607<!--mixer_Dolphin_TrickRequest_Jump--></T>
+            <T>206446<!--mixer_Dolphin_TrickRequest_Kiss--></T>
+            <T>206410<!--mixer_Dolphin_TrickRequest_RubBelly--></T>
+            <T>206542<!--mixer_Dolphin_AskForSquirt--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311308<!--loot_SelfDiscovery_Progress_Animal_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>269596<!--sI_AnimalObjects_Hug_Chicken_Chick_Outcome_Success_TYAE--></T>
+            <T>262515<!--sI_AnimalObjects_Hug_Chicken_Outcome_Success_TYAE--></T>
+            <T>269341<!--sI_AnimalObjects_Hug_LivestockPen_Outcome_Success_Cow--></T>
+            <T>269342<!--sI_AnimalObjects_Hug_LivestockPen_Outcome_Success_Llama--></T>
+            <T>269605<!--sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_TYAE--></T>
+            <T>262535<!--sI_AnimalObjects_Pet_Chicken_Outcome_Success_TYAE--></T>
+            <T>262992<!--sI_AnimalObjects_Pet_LivestockPen_Cow--></T>
+            <T>262993<!--sI_AnimalObjects_Pet_LivestockPen_Llama--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>318909<!--loot_SelfDiscovery_Progress_Animal_Max_Small_Owner--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>158875<!--mixerSocial_NT_Pets_Friendly_LearnAboutGetToKnow--></T>
+            <T>175241<!--mixerSocial_NT_Pets_Friendly_TalkTo_Praise--></T>
+            <T>172955<!--petSocial_SimToPet_GiveBigTreat--></T>
+            <T>164385<!--petSocial_SimToPet_GiveTreat--></T>
+            <T>172861<!--petSocial_SimToPet_Brush_HairyPet--></T>
+            <T>164439<!--petSocial_SimToPet_Hug_LargePet--></T>
+            <T>166556<!--petSocial_SimToPet_Hug_SmallPet--></T>
+            <T>164440<!--petSocial_SimToPet_Kiss_LargePet--></T>
+            <T>166474<!--petSocial_SimToPet_Kiss_SmallPet--></T>
+            <T>164568<!--petSocial_SimToPet_MakeNice--></T>
+            <T>164445<!--petSocial_SimToPet_PetCalmDown_Sick--></T>
+            <T>164441<!--petSocial_SimToPet_PetPet--></T>
+            <T>175632<!--petSocial_SimToPet_PlayWrestle_Ask--></T>
+            <T>162746<!--walk_Dog_Leash--></T>
+            <T>167713<!--walk_Dog_Leash_LeftHand--></T>
+            <T>158871<!--mixerSocial_NT_Pets_Friendly_TalkTo--></T>
+            <T>176351<!--petSocials_SimToPet_PetIntimate_Pamper_LargeDog--></T>
+            <T>171276<!--petSocials_SimToPet_PetIntimate_Pamper_SmallPet--></T>
+            <T>173159<!--mixerSocial_NT_Pets_Friendly_RequestSong_VocalTrait_Dog--></T>
+            <T>158103<!--petSocial_SimToPet_Cat_LaserPointer_Tease_SI--></T>
+            <T>173664<!--mixerSocial_NT_Pets_Friendly_WhatsThat_CuriousTrait_Dog--></T>
+            <T>158873<!--mixerSocial_NT_Pets_Friendly_TellStory--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">335500<!--buff_SelfDiscovery_Animal_Dog--></T>
+                </U>
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311308<!--loot_SelfDiscovery_Progress_Animal_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="npc" t="enabled">
+                    <T n="enabled">True</T>
+                  </V>
+                  <V n="species" t="specified">
+                    <U n="specified">
+                      <L n="species">
+                        <E>DOG</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>173134<!--mixerSocial_NT_Pets_Friendly_RequestSong_VocalTrait_Cat--></T>
+            <T>158875<!--mixerSocial_NT_Pets_Friendly_LearnAboutGetToKnow--></T>
+            <T>175241<!--mixerSocial_NT_Pets_Friendly_TalkTo_Praise--></T>
+            <T>172955<!--petSocial_SimToPet_GiveBigTreat--></T>
+            <T>164385<!--petSocial_SimToPet_GiveTreat--></T>
+            <T>172861<!--petSocial_SimToPet_Brush_HairyPet--></T>
+            <T>164439<!--petSocial_SimToPet_Hug_LargePet--></T>
+            <T>166556<!--petSocial_SimToPet_Hug_SmallPet--></T>
+            <T>164440<!--petSocial_SimToPet_Kiss_LargePet--></T>
+            <T>166474<!--petSocial_SimToPet_Kiss_SmallPet--></T>
+            <T>164568<!--petSocial_SimToPet_MakeNice--></T>
+            <T>164445<!--petSocial_SimToPet_PetCalmDown_Sick--></T>
+            <T>164441<!--petSocial_SimToPet_PetPet--></T>
+            <T>158871<!--mixerSocial_NT_Pets_Friendly_TalkTo--></T>
+            <T>171276<!--petSocials_SimToPet_PetIntimate_Pamper_SmallPet--></T>
+            <T>158103<!--petSocial_SimToPet_Cat_LaserPointer_Tease_SI--></T>
+            <T>173663<!--mixerSocial_NT_Pets_Friendly_WhatsThat_CuriousTrait_Cat--></T>
+            <T>158873<!--mixerSocial_NT_Pets_Friendly_TellStory--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">335501<!--buff_SelfDiscovery_Animal_Cat--></T>
+                </U>
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311308<!--loot_SelfDiscovery_Progress_Animal_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="npc" t="enabled">
+                    <T n="enabled">True</T>
+                  </V>
+                  <V n="species" t="specified">
+                    <U n="specified">
+                      <L n="species">
+                        <E>CAT</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>175758<!--petSocials_SimToPet_PetIntimate_Kiss_Companion--></T>
+            <T>158875<!--mixerSocial_NT_Pets_Friendly_LearnAboutGetToKnow--></T>
+            <T>175241<!--mixerSocial_NT_Pets_Friendly_TalkTo_Praise--></T>
+            <T>172955<!--petSocial_SimToPet_GiveBigTreat--></T>
+            <T>164385<!--petSocial_SimToPet_GiveTreat--></T>
+            <T>172861<!--petSocial_SimToPet_Brush_HairyPet--></T>
+            <T>164439<!--petSocial_SimToPet_Hug_LargePet--></T>
+            <T>166556<!--petSocial_SimToPet_Hug_SmallPet--></T>
+            <T>164440<!--petSocial_SimToPet_Kiss_LargePet--></T>
+            <T>166474<!--petSocial_SimToPet_Kiss_SmallPet--></T>
+            <T>164568<!--petSocial_SimToPet_MakeNice--></T>
+            <T>164445<!--petSocial_SimToPet_PetCalmDown_Sick--></T>
+            <T>164441<!--petSocial_SimToPet_PetPet--></T>
+            <T>175814<!--petSocials_SimToPet_PetIntimate_PetPet_Companions--></T>
+            <T>175764<!--petSocial_SimToPet_Kiss_LargePet_Companion--></T>
+            <T>175766<!--petSocial_SimToPet_Kiss_SmallPet_Companion--></T>
+            <T>175828<!--petSocial_SimToPet_PetPet_Companions--></T>
+            <T>175632<!--petSocial_SimToPet_PlayWrestle_Ask--></T>
+            <T>158871<!--mixerSocial_NT_Pets_Friendly_TalkTo--></T>
+            <T>176351<!--petSocials_SimToPet_PetIntimate_Pamper_LargeDog--></T>
+            <T>171276<!--petSocials_SimToPet_PetIntimate_Pamper_SmallPet--></T>
+            <T>158876<!--mixerSocial_NT_Pets_Friendly_TalkTo_Emotional_Dog--></T>
+            <T>173159<!--mixerSocial_NT_Pets_Friendly_RequestSong_VocalTrait_Dog--></T>
+            <T>158103<!--petSocial_SimToPet_Cat_LaserPointer_Tease_SI--></T>
+            <T>173664<!--mixerSocial_NT_Pets_Friendly_WhatsThat_CuriousTrait_Dog--></T>
+            <T>158873<!--mixerSocial_NT_Pets_Friendly_TellStory--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">335500<!--buff_SelfDiscovery_Animal_Dog--></T>
+                </U>
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>318909<!--loot_SelfDiscovery_Progress_Animal_Max_Small_Owner--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="npc" t="enabled">
+                    <T n="enabled">False</T>
+                  </V>
+                  <V n="species" t="specified">
+                    <U n="specified">
+                      <L n="species">
+                        <E>DOG</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>175758<!--petSocials_SimToPet_PetIntimate_Kiss_Companion--></T>
+            <T>158875<!--mixerSocial_NT_Pets_Friendly_LearnAboutGetToKnow--></T>
+            <T>175241<!--mixerSocial_NT_Pets_Friendly_TalkTo_Praise--></T>
+            <T>172955<!--petSocial_SimToPet_GiveBigTreat--></T>
+            <T>164385<!--petSocial_SimToPet_GiveTreat--></T>
+            <T>172861<!--petSocial_SimToPet_Brush_HairyPet--></T>
+            <T>164439<!--petSocial_SimToPet_Hug_LargePet--></T>
+            <T>166556<!--petSocial_SimToPet_Hug_SmallPet--></T>
+            <T>164440<!--petSocial_SimToPet_Kiss_LargePet--></T>
+            <T>166474<!--petSocial_SimToPet_Kiss_SmallPet--></T>
+            <T>164568<!--petSocial_SimToPet_MakeNice--></T>
+            <T>164445<!--petSocial_SimToPet_PetCalmDown_Sick--></T>
+            <T>164441<!--petSocial_SimToPet_PetPet--></T>
+            <T>175814<!--petSocials_SimToPet_PetIntimate_PetPet_Companions--></T>
+            <T>175764<!--petSocial_SimToPet_Kiss_LargePet_Companion--></T>
+            <T>175766<!--petSocial_SimToPet_Kiss_SmallPet_Companion--></T>
+            <T>175828<!--petSocial_SimToPet_PetPet_Companions--></T>
+            <T>158871<!--mixerSocial_NT_Pets_Friendly_TalkTo--></T>
+            <T>171276<!--petSocials_SimToPet_PetIntimate_Pamper_SmallPet--></T>
+            <T>166334<!--mixerSocial_NT_Pets_Friendly_TalkTo_Emotional_Cat--></T>
+            <T>173134<!--mixerSocial_NT_Pets_Friendly_RequestSong_VocalTrait_Cat--></T>
+            <T>158103<!--petSocial_SimToPet_Cat_LaserPointer_Tease_SI--></T>
+            <T>173663<!--mixerSocial_NT_Pets_Friendly_WhatsThat_CuriousTrait_Cat--></T>
+            <T>158873<!--mixerSocial_NT_Pets_Friendly_TellStory--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">335501<!--buff_SelfDiscovery_Animal_Cat--></T>
+                </U>
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>318909<!--loot_SelfDiscovery_Progress_Animal_Max_Small_Owner--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="npc" t="enabled">
+                    <T n="enabled">False</T>
+                  </V>
+                  <V n="species" t="specified">
+                    <U n="specified">
+                      <L n="species">
+                        <E>CAT</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>169950<!--petSocials_SimToPet_Hug_Adopt_SmallPet_Stray--></T>
+            <T>169182<!--petSocials_SimToPet_Hug_Adopt_SmallPet--></T>
+            <T>200941<!--petSocials_SimToPet_Hug_Adopt_SmallPet_Service_Free--></T>
+            <T>169949<!--petSocial_SimToPet_Hug_Adopt_LargePet_Stray--></T>
+            <T>169149<!--petSocial_SimToPet_Hug_Adopt_LargePet--></T>
+            <T>200943<!--petSocial_SimToPet_Hug_Adopt_LargePet_Service_Free--></T>
+            <T>171481<!--petSocial_SimToPet_Introduction_SniffHand_Friendly--></T>
+            <T>170789<!--petSocial_SimToPet_Kiss_FeelTheLove_LargePet--></T>
+            <T>170790<!--petSocial_SimToPet_Kiss_FeelTheLove_SmallPet--></T>
+            <T>165209<!--walk_Dog_Leash_WithSituation_GoForJog--></T>
+            <T>165074<!--walk_Dog_Leash_WithSituation_GoForWalk--></T>
+            <T>167371<!--walk_Dog_Leash_WithSituation_GoForWalk_Long--></T>
+            <T>167370<!--walk_Dog_Leash_WithSituation_GoForWalk_Short--></T>
+            <T>167701<!--walk_Dog_Leash_WithSituation_GoForJog_LeftHand--></T>
+            <T>167702<!--walk_Dog_Leash_WithSituation_GoForWalk_LeftHand--></T>
+            <T>167703<!--walk_Dog_Leash_WithSituation_GoForWalk_Long_LeftHand--></T>
+            <T>167704<!--walk_Dog_Leash_WithSituation_GoForWalk_Short_LeftHand--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">335500<!--buff_SelfDiscovery_Animal_Dog--></T>
+                </U>
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311307<!--loot_SelfDiscovery_Progress_Animal_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="species" t="specified">
+                    <U n="specified">
+                      <L n="species">
+                        <E>DOG</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>169950<!--petSocials_SimToPet_Hug_Adopt_SmallPet_Stray--></T>
+            <T>169182<!--petSocials_SimToPet_Hug_Adopt_SmallPet--></T>
+            <T>200941<!--petSocials_SimToPet_Hug_Adopt_SmallPet_Service_Free--></T>
+            <T>171481<!--petSocial_SimToPet_Introduction_SniffHand_Friendly--></T>
+            <T>170790<!--petSocial_SimToPet_Kiss_FeelTheLove_SmallPet--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">335501<!--buff_SelfDiscovery_Animal_Cat--></T>
+                </U>
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311307<!--loot_SelfDiscovery_Progress_Animal_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="species" t="specified">
+                    <U n="specified">
+                      <L n="species">
+                        <E>CAT</E>
+                      </L>
+                    </U>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>29513<!--mixer_social_Pickpocket_targeted_mischief_career--></T>
+            <T>113729<!--mixer_social_Pickpocket_targeted_mischief_career_household--></T>
+            <T>36553<!--Computer_Programming_Hacking_SchoolGrades--></T>
+            <T>36706<!--Computer_Programming_Hacking_SuperComputer--></T>
+            <T>31985<!--Computer_Programming_Hacking_Target1--></T>
+            <T>32375<!--Computer_Programming_Hacking_Target2--></T>
+            <T>32376<!--Computer_Programming_Hacking_Target3--></T>
+            <T>32378<!--Computer_Programming_Hacking_Target5--></T>
+            <T>32379<!--Computer_Programming_Hacking_Target6--></T>
+            <T>38553<!--Computer_Programming_Hacking_WorkPerformance--></T>
+            <T>208146<!--computer_Programming_Hacking_Freelancer_Hack_Listserv--></T>
+            <T>208148<!--computer_Programming_Hacking_Freelancer_Hack_Server_Systems--></T>
+            <T>32377<!--Computer_Programming_Hacking_Target4--></T>
+            <T>211097<!--computer_Programming_Hacking_Target4_Freelancer--></T>
+            <T>33260<!--computer_Programming_MakeVirus--></T>
+            <T>211092<!--computer_Programming_MakeVirus_Freelancer--></T>
+            <T>36004<!--mixer_social_FakeAlienContact_targeted_friendly_alwaysOn_prank--></T>
+            <T>36005<!--mixer_social_FillBosssOfficeWithBalloons_targeted_friendly_alwaysOn_prank--></T>
+            <T>36006<!--mixer_social_FreeTheFrogs_targeted_friendly_alwaysOn_prank--></T>
+            <T>36010<!--mixer_social_HackIntoCoworkersEmail_targeted_friendly_alwaysOn_prank--></T>
+            <T>36003<!--mixer_social_LureLlamaInoTheWorkplace_targeted_friendly_alwaysOn_prank--></T>
+            <T>36009<!--mixer_social_MakeAllInvisibleInkVisible_targeted_friendly_alwaysOn_prank--></T>
+            <T>36008<!--mixer_social_MustachesForArt_targeted_friendly_alwaysOn_prank--></T>
+            <T>36011<!--mixer_social_RearrangeKeysOnTheKeyboard_targeted_friendly_alwaysOn_prank--></T>
+            <T>36007<!--mixer_social_SillyPuddyInTheMic_targeted_friendly_alwaysOn_prank--></T>
+            <T>35626<!--mixer_social_WrapBaconAroundEverything_targeted_friendly_alwaysOn_prank--></T>
+            <T>25575<!--mixer_social_AttemptToScare_targeted_mischief_skills--></T>
+            <T>35137<!--mixer_social_Sabotage_targeted_mischief_alwaysOn_trait--></T>
+            <T>40562<!--mixer_social_MonkeyAround_targeted_mischief_alwaysOn_child--></T>
+            <T>31562<!--mixer_social_TranquilizingHandshake_targeted_mischief_alwaysOn_career--></T>
+            <T>25583<!--mixer_social_AirHorn_targeted_mischief_skills--></T>
+            <T>25577<!--mixer_social_AskDueDate_targeted_mischief_skills--></T>
+            <T>25672<!--mixer_social_PlayAPrank_targeted_mischief_skills--></T>
+            <T>25578<!--mixer_social_NoxiousCloud_targeted_mischief_skills--></T>
+            <T>26878<!--mixer_social_DareToStreak_targeted_mischief_skills--></T>
+            <T>26574<!--mixer_social_PretendToBeSlapped_targeted_mischief_skills--></T>
+            <T>25582<!--mixer_social_SlapEmSilly_targeted_mischief_skills--></T>
+            <T>121339<!--mixer_social_ChillingTouch_targeted_mischief_skills--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>430163<!--loot_SelfDiscovery_Progress_Lawfulness_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>405204<!--social_a2a_SmallBusinessPerks_SwayToBuy_LightRetail--></T>
+            <T>380263<!--social_a2a_SmallBusinessPerks_SwayToBuy_Ticket--></T>
+            <T>405206<!--social_c2a_SmallBusinessPerks_SwayToBuy_LightRetail--></T>
+            <T>379871<!--social_c2a_SmallBusinessPerks_SwayToBuy_Ticket--></T>
+            <T>373376<!--bills_PayBills_FakeBillPayment--></T>
+            <T>373377<!--computer_PayBills_FakeBillPayment--></T>
+            <T>373378<!--mailboxWall_PayBills_FakeBillPayment--></T>
+            <T>373379<!--mailbox_PayBills_FakeBillPayment--></T>
+            <T>373710<!--phone_PayBills_FakeBillPayment--></T>
+            <T>373711<!--tablet_PayBills_FakeBillPayment--></T>
+            <T>400069<!--smallBusinessPerks_Arsonist_AccidentalFire--></T>
+            <T>408854<!--swipe_SmallBusinessPerk_WhiteCollar--></T>
+            <T>408857<!--swipe_Household_Inventory_SmallBusinessPerk_WhiteCollar--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>430162<!--loot_SelfDiscovery_Progress_Lawfulness_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>31067<!--computer_DonateOnline_10_Charity1--></T>
+            <T>31068<!--computer_DonateOnline_10_Charity2--></T>
+            <T>31069<!--computer_DonateOnline_10_Charity3--></T>
+            <T>135758<!--computer_DonateOnline_10_Economy--></T>
+            <T>135756<!--computer_DonateOnline_10_Environment--></T>
+            <T>135760<!--computer_DonateOnline_10_Justice--></T>
+            <T>135759<!--computer_DonateOnline_10_Peace--></T>
+            <T>135757<!--computer_DonateOnline_10_Tax--></T>
+            <T>31070<!--Computer_DonateOnline_100_Charity1--></T>
+            <T>31071<!--Computer_DonateOnline_100_Charity2--></T>
+            <T>31072<!--Computer_DonateOnline_100_Charity3--></T>
+            <T>135786<!--computer_DonateOnline_100_Economy--></T>
+            <T>135790<!--computer_DonateOnline_100_Justice--></T>
+            <T>135761<!--computer_DonateOnline_100_Environment--></T>
+            <T>135789<!--computer_DonateOnline_100_Peace--></T>
+            <T>135785<!--computer_DonateOnline_100_Tax--></T>
+            <T>31073<!--Computer_DonateOnline_1000_Charity1--></T>
+            <T>31074<!--Computer_DonateOnline_1000_Charity2--></T>
+            <T>31075<!--Computer_DonateOnline_1000_Charity3--></T>
+            <T>135794<!--computer_DonateOnline_1000_Economy--></T>
+            <T>135791<!--computer_DonateOnline_1000_Environment--></T>
+            <T>135796<!--computer_DonateOnline_1000_Justice--></T>
+            <T>135795<!--computer_DonateOnline_1000_Peace--></T>
+            <T>135792<!--computer_DonateOnline_1000_Tax--></T>
+            <T>25911<!--mixer_social_BrightenDay_targeted_friendly_emotionSpecific--></T>
+            <T>14266<!--Social_Trait_Ambitious_GiveCareerAdvice--></T>
+            <T>321453<!--social_MasterTrainer_GiveCompetitionAdvice--></T>
+            <T>164960<!--OtherSims_PushedInteractions_FixBadRelationship--></T>
+            <T>245824<!--mixer_Social_Skiing_GiveAdviceOnAvoidingWipeouts_Friendly_NT--></T>
+            <T>164944<!--mixer_social_OtherSims_FixBadRelationship--></T>
+            <T>25914<!--mixer_social_GiveRelationshipAdvice_targeted_friendly_emotionSpecific--></T>
+            <T>106812<!--mixer_social_GiveMedicalAdvice_targeted_Friendly_alwaysOn_ActiveCareer_Doctor--></T>
+            <T>110463<!--mixer_social_GiveHerbalismAdvice_Targeted_Friendly_AlwaysOn_skills--></T>
+            <T>162527<!--mixer_social_GiveFamilyAdvice_targeted_friendly_alwayson--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>430165<!--loot_SelfDiscovery_Progress_Lawfulness_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>414759<!--computer_SmallBusinessPerks_CustomerAppreciationDay_Start--></T>
+            <T>414760<!--phone_SmallBusinessPerks_CustomerAppreciationDay_Start--></T>
+            <T>414149<!--si_smallBusinessPerks_CustomerAppreciationDay_Start--></T>
+            <T>414761<!--ticketMachine_SmallBusinessPerks_CustomerAppreciationDay_Start--></T>
+            <T>374969<!--social_SmallBusinessPerks_InspireWithBusinessStory--></T>
+            <T>412478<!--social_SmallBusinessPerks_EmployeeTip_Large--></T>
+            <T>412477<!--social_SmallBusinessPerks_EmployeeTip_Medium--></T>
+            <T>412475<!--social_SmallBusinessPerks_EmployeeTip_Small--></T>
+            <T>412479<!--social_SmallBusinessPerks_EmployeeTip_VeryLarge--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>430164<!--loot_SelfDiscovery_Progress_Lawfulness_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>197839<!--rabbitHoleStartInteraction_CityInvites_GoToAConcert--></T>
+            <T>197841<!--rabbitHoleStartInteraction_CityInvites_GoToTheOpera--></T>
+            <T>197842<!--rabbitHoleStartInteraction_CityInvites_GoToTheTheater--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311309<!--loot_SelfDiscovery_Progress_Creative_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>33623<!--art_View--></T>
+            <T>33627<!--art_GatherInspiration--></T>
+            <T>99767<!--art_GatherInspiration_Sculpture--></T>
+            <T>151939<!--art_GatherInspiration_NoReserve--></T>
+            <T>99792<!--art_Trait_Snob_SnobbiltyAssess_Sculpture--></T>
+            <T>35953<!--art_Trait_Snob_SnobbilyAssess--></T>
+            <T>151940<!--art_Trait_Snob_SnobbilyAssess_NoReserve--></T>
+            <T>99593<!--art_View_Sculpture--></T>
+            <T>221079<!--art_View_Sculpture_Autonomous--></T>
+            <T>139852<!--art_View_TragicClown--></T>
+            <T>140956<!--art_View_TragicClown_Autonomous--></T>
+            <T>137712<!--art_View_CriticCareer_StudyArt--></T>
+            <T>151951<!--art_View_CriticCareer_StudyArt_NoReserve--></T>
+            <T>239912<!--purchase_CandleMakingStation_PurchaseDyeAndWax--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311310<!--loot_SelfDiscovery_Progress_Creative_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_SellArt</E>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>9108<!--tv_WatchCooking--></T>
+            <T>28658<!--tv_WatchCooking_CulinaryTraining--></T>
+            <T>146143<!--FoodFestival_SpicyCurry_StartContest--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311311<!--loot_SelfDiscovery_Progress_Critic_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>34216<!--Cleanup_Chess_Table--></T>
+            <T>144850<!--ToddlerPottyChair_Clean--></T>
+            <T>13071<!--bathtub_Clean--></T>
+            <T>13291<!--CupcakeMachine_Clean--></T>
+            <T>13163<!--coffeeMaker_Clean--></T>
+            <T>142506<!--HighChair_Clean--></T>
+            <T>13599<!--microwave_Clean--></T>
+            <T>13949<!--shower_Clean--></T>
+            <T>14239<!--sink_Clean--></T>
+            <T>29854<!--sink_Clean_Slotted--></T>
+            <T>29854<!--sink_Clean_Slotted--></T>
+            <T>14331<!--stove_Clean--></T>
+            <T>260543<!--stove_Clean_CounterOven--></T>
+            <T>267350<!--stove_Clean_CounterStove--></T>
+            <T>29829<!--counter_Clean--></T>
+            <T>29829<!--counter_Clean--></T>
+            <T>14431<!--toilet_Clean--></T>
+            <T>10456<!--toilet_Clean_Energized--></T>
+            <T>100035<!--Desk_Clean--></T>
+            <T>311158<!--ChangeTable_Clean--></T>
+            <T>14354<!--tableDining_Clean--></T>
+            <T>248525<!--tableDining_Low_Clean--></T>
+            <T>235963<!--Fridge_AddIce--></T>
+            <T>35024<!--grill_Clean--></T>
+            <T>149773<!--socials_Targeted_Friendly_AlwaysOn_STC_Toddler_AskToBathe--></T>
+            <T>165661<!--mixerSocial_NT_Pets_Friendly_AskToBathe_LargeDog--></T>
+            <T>165658<!--mixerSocial_NT_Pets_Friendly_AskToBathe_ToCarry--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311315<!--loot_SelfDiscovery_Progress_Economy_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="zone">
+                <U n="zone">
+                  <U n="zone_tests">
+                    <V n="zone_modifiers" t="enabled">
+                      <U n="enabled">
+                        <V n="whitelist" t="specify">
+                          <U n="specify">
+                            <L n="whitelist">
+                              <T>206665<!--zoneModifier_lotTrait_OffTheGrid--></T>
+                            </L>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>267673<!--stove_Canning_OffTheGrid--></T>
+            <T>261888<!--stove_StartCrafting_OffTheGrid_RequiredIngredients--></T>
+            <T>241823<!--herbalism_BrewPotion_Stove_Offthegrid--></T>
+            <T>239038<!--bathtub_TakeBath_OfftheGrid--></T>
+            <T>212246<!--shower_TakeShower_OffTheGrid--></T>
+            <T>220557<!--sink_Clean_OffTheGrid--></T>
+            <T>220559<!--sink_Clean_Slotted_OffTheGrid--></T>
+            <T>212217<!--sink_BrushTeeth_OffTheGrid--></T>
+            <T>212088<!--sink_washHands_OffTheGrid--></T>
+            <T>212219<!--sink_washDishes_OffTheGrid--></T>
+            <T>212221<!--sink_washSingleDish_OffTheGrid--></T>
+            <T>212233<!--toilet-flush_OffTheGrid--></T>
+            <T>235809<!--terrain-gohere_GatherWater_Ocean--></T>
+            <T>260820<!--super_Ponds_GatherWater--></T>
+            <T>235798<!--gatherWater_FishingSpot--></T>
+            <T>233084<!--dumpster_DiveForMeals--></T>
+            <T>237820<!--dumpster_Nap--></T>
+            <T>237054<!--gatherWater_Snow_SnowDrift--></T>
+            <T>235801<!--gatherWater_Waterfall--></T>
+            <T>212301<!--stove_StartCrafting_OffTheGrid--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311315<!--loot_SelfDiscovery_Progress_Economy_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>432879<!--super_PottedPlants_Gardening_Harvest_All--></T>
+            <T>235285<!--gardening_VerticalGarden_Harvest_All--></T>
+            <T>236474<!--gardening_VerticalGarden_MeatWall_Harvest_All--></T>
+            <T>233082<!--dumpster_DiveForDeals--></T>
+            <T>137060<!--si_BuyObject_FleaMarket--></T>
+            <T>100776<!--Gardening_Harvest_All--></T>
+            <T>13413<!--Gardening_Harvest--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311316<!--loot_SelfDiscovery_Progress_Economy_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>25915<!--mixer_social_AskAboutLoveLife_targeted_friendly_emotionSpecific--></T>
+            <T>29316<!--mixer_social_CalmDown_friendly_emotionSpecific--></T>
+            <T>25910<!--mixer_social_HeartfeltCompliment_targeted_friendly_emotionSpecific--></T>
+            <T>25945<!--mixer_social_GivePepTalk_targeted_friendly_emotionSpecific--></T>
+            <T>25914<!--mixer_social_GiveRelationshipAdvice_targeted_friendly_emotionSpecific--></T>
+            <T>162655<!--mixer_social_LovingHug--></T>
+            <T>98961<!--mixer_social_LectureAboutGrades_targeted_Friendly_alwaysOn_child_teen--></T>
+            <T>40780<!--mixer_social_LectureAboutMisbehavior_mean_targeted_alwaysOn_child--></T>
+            <T>99200<!--mixer_social_LectureAboutResponsibilities_targeted_Friendly_alwaysOn_teen--></T>
+            <T>35122<!--mixer_social_LendEmotionalSupportNEW_targeted_Friendly_alwaysOn_trait--></T>
+            <T>107464<!--mixer_social_OfferCareerAdvice_Targeted_Friendly_AlwaysOn_career--></T>
+            <T>107173<!--mixer_social_OffertoPumpup_targeted_Friendly_Athlete_AlwaysOn_STC--></T>
+            <T>98977<!--mixer_social_PraiseForGoodGrades_targeted_Friendly_alwaysOn_child_teen--></T>
+            <T>34954<!--mixer_social_Congratulate_targeted_Friendly_alwaysOn_event--></T>
+            <T>113375<!--mixer_social_CongratulateOnPromotion_Targeted_Friendly_AlwaysOn_ActiveCareer--></T>
+            <T>113360<!--mixer_social_PraiseWorkEthic_Targeted_Friendly_AlwaysOn_ActiveCareer--></T>
+            <T>162525<!--mixer_social_AskAboutFuturePlans_targeted_friendly_alwayson--></T>
+            <T>162394<!--mixer_social_AskAboutNegativeMood_Targeted_Friendly_AlwaysOn--></T>
+            <T>162531<!--mixer_social_DeepPersonalConversation_targeted_friendly_alwaysOn--></T>
+            <T>162527<!--mixer_social_GiveFamilyAdvice_targeted_friendly_alwayson--></T>
+            <T>162529<!--mixer_social_SecretHandshake_targeted_friendly_alwaysOn--></T>
+            <T>162424<!--mixer_social_TalkAboutMoodiness_TeenMoodSwing--></T>
+            <T>163582<!--mixer_social_TeachAboutResponsibility_Targeted_Friendly_AlwaysOn_Responsible--></T>
+            <T>314192<!--socials_Friendly_CrossAge_Interactions_ReminisceOnGoodTimes--></T>
+            <T>312727<!--mixer_social_familytrope_CheerUp_targeted_friendly_emotionSpecific--></T>
+            <T>305687<!--mixer_Social_BabyShower_CongratulateHost--></T>
+            <T>308756<!--mixer_Social_JobLoss_CongratulateOnNewJob--></T>
+            <T>307437<!--socialSuperInteraction_Child_Confidence_PraiseEffort--></T>
+            <T>181016<!--presentPile_OpenPresentsTogether--></T>
+            <T>181020<!--presentPile_OpenBirthdayPresents--></T>
+            <T>160588<!--parentingSkill_YoullBeOkay--></T>
+            <T>36965<!--mixer_social_AskToBeBestFriends_targeted_Friendly_HighScore--></T>
+            <T>332287<!--mixer_social_Hug_Friendly_Middlescore_BestHugEver--></T>
+            <T>182705<!--mixer_social_WeatherTemperatureSocials_HugOutCold--></T>
+            <T>320565<!--si_Touching_KeepsakeBox_EntrustKeepsake--></T>
+            <T>165558<!--mixer_social_MakeFunnyFaces--></T>
+            <T>320161<!--socials_Friendly_CrossAge_Interactions_familyKiss_targeted_alwaysOn_PCTYAE_to_P--></T>
+            <T>320160<!--socials_Friendly_CrossAge_Interactions_familyKiss_targeted_alwaysOn_CTYAE_to_CTYAE--></T>
+            <T>24556<!--mixer_Social_GetToKnow_Friendly_STC--></T>
+            <T>157661<!--mixer_Social_GetToKnow_Friendly_STC_TargetToddler--></T>
+            <T>25911<!--mixer_social_BrightenDay_targeted_friendly_emotionSpecific--></T>
+            <T>157751<!--mixer_social_BrightenDay_targeted_friendly_emotionSpecific_toddlerOnly--></T>
+            <T>26909<!--mixer_social_AskAboutDay_targeted_Friendly_alwaysOn--></T>
+            <T>157659<!--mixer_social_AskAboutDay_targeted_Friendly_alwaysOn_Toddler--></T>
+            <T>310402<!--mixer_social_WelcomeToHousehold_Friendly--></T>
+            <T>26914<!--mixer_social_Hug_targeted_Friendly_MiddleScore--></T>
+            <T>274968<!--mixer_social_CongratulateEngagement--></T>
+            <T>306739<!--social_TemporaryStay_Hug--></T>
+            <T>208964<!--social_IslanderCulture_ComfortingHug--></T>
+            <T>320810<!--socials_Targeted_Friendly_AlwaysOn_STC_Toddler_Compliment_PraiseMess--></T>
+            <T>274969<!--mixer_social_CongratulateMarriage--></T>
+            <T>286325<!--mixer_HSGraduation_Congratulate--></T>
+            <T>333226<!--mixer_social_HeartfeltCompliment_targeted_friendly_RanchNectar_werewolfTrash--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311320<!--loot_SelfDiscovery_Progress_Family_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="required_relationship_bits">
+                    <L n="match_any">
+                      <T>15816<!--romantic-Engaged--></T>
+                      <T>99429<!--romantic-Promised--></T>
+                      <T>8829<!--family_Target_IsAuntUncleOf_Actor--></T>
+                      <T>8802<!--family_Target_IsBrotherSisterOf_Actor--></T>
+                      <T>8826<!--family_Target_IsCousinOf_Actor--></T>
+                      <T>8807<!--family_Target_IsGrandchildOf_Actor--></T>
+                      <T>8808<!--family_Target_IsGrandparentOf_Actor--></T>
+                      <T>24490<!--family_Target_IsHusbandWifeOf_Actor--></T>
+                      <T>9989<!--family_Target_IsNieceNephewOf_Actor--></T>
+                      <T>8809<!--family_Target_IsParentOf_Actor--></T>
+                      <T>8805<!--family_Target_IsSonOrDaughterOf_Actor--></T>
+                      <T>8824<!--family_Target_IsStepsiblingOf_Actor--></T>
+                      <T>15822<!--romantic-Married--></T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>181410<!--art_View_FamilyPortrait--></T>
+            <T>114114<!--art_View_BirthCertificate--></T>
+            <T>273766<!--mixer_socials_BragAboutBaby_Targeted_Friendly_AlwaysOn_STC--></T>
+            <T>273768<!--mixer_social_ShareBabyPictures_Targeted_Friendly_AlwaysOn_STC--></T>
+            <T>286208<!--socials_WorryAboutBabyDevelopment_Targeted_Friendly_AlwaysOn_STC--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311319<!--loot_SelfDiscovery_Progress_Family_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>159475<!--mixer_social_Families_Shove--></T>
+            <T>166742<!--socials_Targeted_Mean_AlwaysOn_STC_SwearAt--></T>
+            <T>25674<!--mixer_social_Insult_Mean_STC--></T>
+            <T>286663<!--mixer_social_Insult_Mean_STC_Werewolf--></T>
+            <T>26544<!--mixer_social_ImplyMotherIsLlama_targeted_mean_highScore--></T>
+            <T>98192<!--mixer_social_Jeer_targeted_mean_middleScore--></T>
+            <T>26543<!--mixer_social_MockOutfit_targeted_Mean_middleScore--></T>
+            <T>155808<!--mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_Scold--></T>
+            <T>155842<!--mixer_social_Targeted_Mean_AlwaysOn_STC_Toddler_YellAt--></T>
+            <T>26151<!--mixer_social_YellAT_targeted_mean--></T>
+            <T>180456<!--si_Touching_GiveGift_Mean--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311318<!--loot_SelfDiscovery_Progress_Family_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="ages" t="specified">
+                    <L n="specified">
+                      <E>TODDLER</E>
+                      <E>CHILD</E>
+                    </L>
+                  </V>
+                  <E n="who">TargetSim</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>13340<!--DollHouse_Smash--></T>
+            <T>165411<!--object_SchoolProjectBox_Smash--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311317<!--loot_SelfDiscovery_Progress_Family_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>444892<!--super_FairyHome_Object_ReadBook--></T>
+            <T>432305<!--flowerPress_StartCrafting_UnEnchantedItems--></T>
+            <T>444890<!--super_FairyHome_Object_DanceParty_Fairy--></T>
+            <T>445038<!--super_FairyHome_Object_DanceParty_Fairy_Join--></T>
+            <T>444891<!--super_FairyHome_Object_DanceParty_NonFairy--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>433765<!--loot_SelfDiscovery_Progress_Fantasy_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>434658<!--super_EP19Gardening_EnchantPlant--></T>
+            <T>437836<!--super_EP19Gardening_EnchantPlant_VerticalGarden--></T>
+            <T>432303<!--flowerPress_StartCrafting_EnchantedItems--></T>
+            <T>414679<!--superInteraction_GnomeFunc_BringToLife_Gardening--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>433764<!--loot_SelfDiscovery_Progress_Fantasy_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>411689<!--social_EP17World_TarotDeck_Reading_BB--></T>
+            <T>424297<!--social_EP17World_TarotDeck_Reading_BB_ForSimoleons--></T>
+            <T>393033<!--tv_WatchStatic_Edith--></T>
+            <T>401409<!--tv_WatchStatic_Edith_Ghost--></T>
+            <T>399285<!--si_Thanatology_Read_HistoricalDeath--></T>
+            <T>393035<!--TV_WatchStaticChannel--></T>
+            <T>391381<!--social_Crypts_TellGhostStory--></T>
+            <T>391382<!--social_Crypts_TellGhostStory_Listen--></T>
+            <T>381605<!--sI_AnimalObjects_Socials_Friendly_PetCrow_NefariousPlans--></T>
+            <T>381606<!--sI_AnimalObjects_Socials_Friendly_PetCrow_ReconMission--></T>
+            <T>381604<!--sI_AnimalObjects_Socials_Friendly_PetCrow_TeachMimicry--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>450028<!--loot_SelfDiscovery_Progress_Fantasy_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>411688<!--social_EP17World_TarotDeck_Reading_Collector--></T>
+            <T>424298<!--social_EP17World_TarotDeck_Reading_Collector_ForSimoleons--></T>
+            <T>381599<!--sI_AnimalObjects_Socials_Friendly_PetCrow_Coo--></T>
+            <T>381603<!--sI_AnimalObjects_Socials_Friendly_PetCrow_ShowAffection--></T>
+            <T>423625<!--Crypts_WooHoo_Human--></T>
+            <T>423626<!--Crypts_tryForBaby_Human--></T>
+            <T>389101<!--Crypts_tryForBaby--></T>
+            <T>389102<!--Crypts_WooHoo--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>450029<!--loot_SelfDiscovery_Progress_Fantasy_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>231805<!--collect_TrashUpdate_Compostables--></T>
+            <T>239016<!--collect_TrashUpdate_Compostables_Toilet--></T>
+            <T>239569<!--trashUpdate_Trashcan_Indoor_SortCompostables--></T>
+            <T>239570<!--trashUpdate_Trashcan_Indoor_SortRecyclables--></T>
+            <T>231195<!--trashUpdate_Trashcan_Outdoor_SortCompostables--></T>
+            <T>232183<!--trashUpdate_Trashcan_Outdoor_SortRecyclables--></T>
+            <T>234500<!--trashUpdate_Dumpster_SortCompostables--></T>
+            <T>241755<!--trashUpdate_Dumpster_SortCompostables_Left--></T>
+            <T>234501<!--trashUpdate_Dumpster_SortRecyclables--></T>
+            <T>241756<!--trashUpdate_Dumpster_SortRecyclables_Left--></T>
+            <T>232191<!--trashUpdate_ClearRoaches--></T>
+            <T>239654<!--trashUpdate_Dumpster_ClearRoaches--></T>
+            <T>232075<!--trashUpdate_ClearFlies--></T>
+            <T>239647<!--trashUpdate_Dumpster_ClearFlies--></T>
+            <T>13419<!--Gardening_Talk_To_Plants--></T>
+            <T>440050<!--mixer_NLS_TalkToNature_Comfortable--></T>
+            <T>235680<!--mixer_Social_CivicPolicy_BragAbout_Recycler--></T>
+            <T>443331<!--super_EP19Gardening_EnchantGarden_Plant--></T>
+            <T>232087<!--ecoFootprint_BaskInTheLight_Self--></T>
+            <T>232087<!--ecoFootprint_BaskInTheLight_Self--></T>
+            <T>235690<!--ecoUpgrades_EcoParts_AtomizedMist--></T>
+            <T>235485<!--ecoUpgrades_EcoParts_CompostingContainer--></T>
+            <T>233912<!--ecoUpgrades_EcoParts_EnergyEfficientDrive--></T>
+            <T>233913<!--ecoUpgrades_EcoParts_FuelCell--></T>
+            <T>233914<!--ecoUpgrades_EcoParts_Siphoner--></T>
+            <T>240886<!--ecoUpgrades_EcoParts_Siphoner_Bath--></T>
+            <T>240889<!--ecoUpgrades_EcoParts_Siphoner_HotTub--></T>
+            <T>240884<!--ecoUpgrades_EcoParts_Siphoner_Shower--></T>
+            <T>240885<!--ecoUpgrades_EcoParts_Siphoner_Sink--></T>
+            <T>235486<!--ecoUpgrades_EcoParts_WaterRecycler--></T>
+            <T>240890<!--ecoUpgrades_EcoParts_WaterRecycler_Bath--></T>
+            <T>240891<!--ecoUpgrades_EcoParts_WaterRecycler_HotTub--></T>
+            <T>240893<!--ecoUpgrades_EcoParts_WaterRecycler_Shower--></T>
+            <T>240892<!--ecoUpgrades_EcoParts_WaterRecycler_Sink--></T>
+            <T>235357<!--dewCollector_Upgrade_ReinforcedContainer_EcoParts--></T>
+            <T>233535<!--trashUpdate_AddRecyclableToRecycler--></T>
+            <T>14445<!--trash_salvage_scavenge--></T>
+            <T>14446<!--trash_scavenge--></T>
+            <T>236877<!--trash_Search_Scrap_Pile--></T>
+            <T>244160<!--trash_Search_Scrap_Pile_RR1_CollectResistanceScrapSupplies--></T>
+            <T>440081<!--mixer_NLS_TalkToNature_UnComfortable--></T>
+            <T>434658<!--super_EP19Gardening_EnchantPlant--></T>
+            <T>437836<!--super_EP19Gardening_EnchantPlant_VerticalGarden--></T>
+            <T>457459<!--rename_HousePlants--></T>
+            <T>467861<!--super_Gardening_TalkToPlants_FromTrait--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311324<!--loot_SelfDiscovery_Progress_Green_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>457459<!--rename_HousePlants--></T>
+            <T>13419<!--Gardening_Talk_To_Plants--></T>
+            <T>467861<!--super_Gardening_TalkToPlants_FromTrait--></T>
+            <T>233443<!--mixer_Social_CivicPolicy_ConvinceToInstall_Recycler--></T>
+            <T>232087<!--ecoFootprint_BaskInTheLight_Self--></T>
+            <T>232087<!--ecoFootprint_BaskInTheLight_Self--></T>
+            <T>235690<!--ecoUpgrades_EcoParts_AtomizedMist--></T>
+            <T>235485<!--ecoUpgrades_EcoParts_CompostingContainer--></T>
+            <T>233912<!--ecoUpgrades_EcoParts_EnergyEfficientDrive--></T>
+            <T>233913<!--ecoUpgrades_EcoParts_FuelCell--></T>
+            <T>233914<!--ecoUpgrades_EcoParts_Siphoner--></T>
+            <T>240886<!--ecoUpgrades_EcoParts_Siphoner_Bath--></T>
+            <T>240889<!--ecoUpgrades_EcoParts_Siphoner_HotTub--></T>
+            <T>240884<!--ecoUpgrades_EcoParts_Siphoner_Shower--></T>
+            <T>240885<!--ecoUpgrades_EcoParts_Siphoner_Sink--></T>
+            <T>235486<!--ecoUpgrades_EcoParts_WaterRecycler--></T>
+            <T>240890<!--ecoUpgrades_EcoParts_WaterRecycler_Bath--></T>
+            <T>240891<!--ecoUpgrades_EcoParts_WaterRecycler_HotTub--></T>
+            <T>240893<!--ecoUpgrades_EcoParts_WaterRecycler_Shower--></T>
+            <T>240892<!--ecoUpgrades_EcoParts_WaterRecycler_Sink--></T>
+            <T>235357<!--dewCollector_Upgrade_ReinforcedContainer_EcoParts--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311323<!--loot_SelfDiscovery_Progress_Green_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordance_lists">
+            <T>37084<!--affordanceList_cleaning--></T>
+          </L>
+          <L n="affordances">
+            <T>14238<!--sink_BrushTeeth--></T>
+            <T>212217<!--sink_BrushTeeth_OffTheGrid--></T>
+            <T>256623<!--terrain-gohere_VacuumHere--></T>
+            <T>256894<!--collect_Trash_EmptyVacuumBag--></T>
+            <T>175391<!--laundry_Hamper_Drop_In--></T>
+            <T>271208<!--laundry_Hamper_Drop_In_Left--></T>
+            <T>175391<!--laundry_Hamper_Drop_In--></T>
+            <T>176492<!--laundry_ClothesLine_PutIn--></T>
+            <T>176011<!--laundry_Dryer_PutIn--></T>
+            <T>175599<!--laundry_WashingMachine_PutIn--></T>
+            <T>176811<!--laundry_WashTub_PutIn--></T>
+            <T>176530<!--collect_Laundry_Unload_ClothesLine_PutAway--></T>
+            <T>176427<!--collect_Laundry_Unload_PutAway_Dryer--></T>
+            <T>176200<!--laundry_PutAway--></T>
+            <T>255205<!--dustFriends_Bunny_StepOn--></T>
+            <T>232075<!--trashUpdate_ClearFlies--></T>
+            <T>239647<!--trashUpdate_Dumpster_ClearFlies--></T>
+            <T>232191<!--trashUpdate_ClearRoaches--></T>
+            <T>239654<!--trashUpdate_Dumpster_ClearRoaches--></T>
+            <T>13360<!--Empty_Trash--></T>
+            <T>144850<!--ToddlerPottyChair_Clean--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311328<!--loot_SelfDiscovery_Progress_Hygiene_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordance_lists">
+            <T>261814<!--affordanceList_TakeShower--></T>
+          </L>
+          <L n="affordances">
+            <T>13076<!--bathtub_Play--></T>
+            <T>13084<!--bathtub_TakeBath--></T>
+            <T>13087<!--bathtub_TakeBubbleBath--></T>
+            <T>120340<!--bathtub_TakeBathWithSoak_CitrusSoak--></T>
+            <T>120341<!--bathtub_TakeBathWithSoak_LavenderFoam--></T>
+            <T>120339<!--bathtub_TakeBathWithSoak_MuscleReleaseSoak--></T>
+            <T>120337<!--bathtub_TakeBathWithSoak_RosePetalSoak--></T>
+            <T>120342<!--bathtub_TakeBathWithSoak_MilkHoneySoak--></T>
+            <T>121575<!--bathtub_TakeBathWithSoak_MilkHoneySoak_DirtyBath--></T>
+            <T>120336<!--bathtub_TakeMudBath--></T>
+            <T>121573<!--bathtub_TakeMudBath_DirtyBath--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff">
+              <U n="buff">
+                <U n="buff_type">
+                  <T n="buff_type">334984<!--buff_SelfDiscovery_Hygiene_Pause--></T>
+                </U>
+                <L n="tests">
+                  <L>
+                    <V t="statistic">
+                      <U n="statistic">
+                        <T n="must_have_stat">True</T>
+                        <T n="stat">306830<!--commodity_SelfDiscovery_Tracker_Hygiene--></T>
+                        <V n="threshold" t="value_threshold">
+                          <U n="value_threshold">
+                            <E n="comparison">LESS</E>
+                            <T n="value">100</T>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>39871<!--RummageForFood_Indoor--></T>
+            <T>39870<!--Rummage_Indoor--></T>
+            <T>37315<!--RummageForFood_Outdoor--></T>
+            <T>13917<!--Rummage_Outdoor--></T>
+            <T>233356<!--trashUpdate_Rummage_TrashPile--></T>
+            <T>237820<!--dumpster_Nap--></T>
+            <T>233893<!--dumpster_DiveForThrills_WooHoo--></T>
+            <T>234078<!--Dumpster_tryForBaby--></T>
+            <T>234507<!--dumpster_HideIn--></T>
+            <T>239840<!--RummageForBitsAndPieces_Indoor--></T>
+            <T>99564<!--RummageForInfo_Indoor--></T>
+            <T>99567<!--RummageForInfo_Outdoor--></T>
+            <T>174746<!--seaweedPile_Rummage--></T>
+            <T>237075<!--freegan_Rummage_Trash_Indoor--></T>
+            <T>237076<!--freegan_Rummage_Trash_Outdoor--></T>
+            <T>232718<!--recycleDisciple_RummageForAssemblage_Indoors--></T>
+            <T>233182<!--recycleDisciple_RummageForAssemblage_Outdoors--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311325<!--loot_SelfDiscovery_Progress_Hygiene_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>206651<!--si_Beachcombing_OpenMysteryBox--></T>
+            <T>210408<!--suntanMixers_ApplySunblock_BeachTowel--></T>
+            <T>206542<!--mixer_Dolphin_AskForSquirt--></T>
+            <T>211612<!--mixer_Dolphin_SimSplash_Playful--></T>
+            <T>206497<!--mixer_Dolphin_Talk--></T>
+            <T>207022<!--mixer_Dolphin_Wave--></T>
+            <T>202219<!--mixer_Dolphin_Feed--></T>
+            <T>206541<!--mixer_Dolphin_Squirt--></T>
+            <T>211147<!--mixer_Dolphin_Pat_userDirected--></T>
+            <T>206425<!--mixer_Dolphin_TrickRequest_Dance--></T>
+            <T>206444<!--mixer_Dolphin_TrickRequest_Fetch--></T>
+            <T>211607<!--mixer_Dolphin_TrickRequest_Jump--></T>
+            <T>206446<!--mixer_Dolphin_TrickRequest_Kiss--></T>
+            <T>206410<!--mixer_Dolphin_TrickRequest_RubBelly--></T>
+            <T>208941<!--beachTowel_Nap--></T>
+            <T>212677<!--beachTowel_Relax--></T>
+            <T>203882<!--si_Beachcombing_Dig_Human_Seashells--></T>
+            <T>210399<!--suntan_BeachTowel--></T>
+            <T>212947<!--suntan_BeachTowel_Nude--></T>
+            <T>210400<!--suntan_BeachTowel_Swimwear--></T>
+            <T>212679<!--sandActivities_SandSculpture_JoinBuild--></T>
+            <T>206673<!--terrain-gohere_Beachcombing_Trash--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>321378<!--loot_SelfDiscovery_Progress_Islander_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>13431<!--generic_consume_drink_bar--></T>
+            <T>179705<!--generic_consume_drink_bar_fromGrabFood--></T>
+            <T>253681<!--generic_consume_SpecterSip--></T>
+            <T>13432<!--generic_consume_drink_nonbar--></T>
+            <T>190271<!--generic_Consume_Drink_marketStall--></T>
+            <T>102351<!--generic_consume_drink_nonbar_cooler--></T>
+            <T>100291<!--generic_consume_drink_nonbar_potion--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="buff_fire_and_forget">
+              <U n="buff_fire_and_forget">
+                <U n="buff">
+                  <T n="buff_type">319212<!--buff_SelfDiscovery_Metabolism_DrankSpoiledMilk--></T>
+                </U>
+                <V n="timing" t="at_beginning" />
+              </U>
+            </V>
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311332<!--loot_SelfDiscovery_Progress_Metabolism_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="object_definition_criteria">
+                <U n="object_definition_criteria">
+                  <V n="identity_test" t="tags">
+                    <U n="tags">
+                      <L n="tag_set">
+                        <E>Drink_Milk</E>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <T n="value">15190<!--Freshness_Spoiled--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>33975<!--Bed_Undercovers_Cry--></T>
+            <T>149954<!--Coffin_Undercovers_Cry--></T>
+            <T>104108<!--tent_Relax_CryInTent--></T>
+            <T>214059<!--toilet_Cry--></T>
+            <T>124824<!--closet_Cry--></T>
+            <T>159489<!--emotionalMeltdowns_Cry--></T>
+            <T>202905<!--si_Possessed_CryOver--></T>
+            <T>310025<!--super_Treehouse_Enclosure_Cry--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>334510<!--loot_SelfDiscovery_Mood_CurrentSituation_Sad_SmallProg--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>210533<!--sandActivities_SandSculpture_Destroy--></T>
+            <T>210562<!--sandActivities_SandSculpture_Stomp--></T>
+            <T>180442<!--snowPal_Destroy--></T>
+            <T>13838<!--Puddle_Stomp--></T>
+            <T>13521<!--Kick_Over_Outdoor--></T>
+            <T>166742<!--socials_Targeted_Mean_AlwaysOn_STC_SwearAt--></T>
+            <T>14330<!--Stomp_Trash_Pile--></T>
+            <T>246302<!--hikingTrail_StopPoint_AngryStomp--></T>
+            <T>312114<!--groupWalkingTrail_stopPoint_angryStomp--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>334509<!--loot_SelfDiscovery_Mood_CurrentSituation_Angry_SmallProg--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>13340<!--DollHouse_Smash--></T>
+            <T>165411<!--object_SchoolProjectBox_Smash--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>334509<!--loot_SelfDiscovery_Mood_CurrentSituation_Angry_SmallProg--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="mood">
+                <U n="mood">
+                  <T n="disallow">True</T>
+                  <T n="mood">14632<!--Mood_Angry--></T>
+                </U>
+              </V>
+              <V t="trait">
+                <U n="trait">
+                  <L n="blacklist_traits">
+                    <T>16857<!--trait_Mean--></T>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>13340<!--DollHouse_Smash--></T>
+            <T>165411<!--object_SchoolProjectBox_Smash--></T>
+            <T>166742<!--socials_Targeted_Mean_AlwaysOn_STC_SwearAt--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311336<!--loot_SelfDiscovery_Progress_Mood_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="mood">
+                <U n="mood">
+                  <T n="mood">14632<!--Mood_Angry--></T>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>107897<!--sim_goHiking--></T>
+            <T>249229<!--infoBoard_LearnAbout_Hiking--></T>
+            <T>241601<!--climbingRoute_Inspect--></T>
+            <T>250467<!--climbingRoute_Inspect_Large--></T>
+            <T>250465<!--climbingRoute_Inspect_Medium--></T>
+            <T>245665<!--computer_BlogAboutSkiing--></T>
+            <T>245663<!--computer_Browse_ResearchTheArtOfSkiing--></T>
+            <T>249230<!--infoBoard_LearnAbout_SkiingAndSnowboarding--></T>
+            <T>249565<!--computer_Snowboarding_UploadVideo--></T>
+            <T>246085<!--computer_Browse_ResearchSnowboarding--></T>
+            <T>246103<!--computer_SocialNetwork_UploadSnowboardingVideo--></T>
+            <T>249230<!--infoBoard_LearnAbout_SkiingAndSnowboarding--></T>
+            <T>246087<!--Snowboarding_GetHype--></T>
+            <T>246095<!--Snowboarding_StretchItOut--></T>
+            <T>249335<!--infoBoard_CheckWildlifeReport--></T>
+            <T>76348<!--Collection_Frogs_FishingHole--></T>
+            <T>77459<!--Collection_Frogs_FishingHole_SO--></T>
+            <T>76105<!--Collection_Frogs_Log_collect--></T>
+            <T>76110<!--Collection_Frogs_WaterPump_collect--></T>
+            <T>103072<!--collection_Insects_Collect--></T>
+            <T>209800<!--lavaRock_breakOpen_large--></T>
+            <T>209819<!--lavaRock_breakOpen_large_deco--></T>
+            <T>209802<!--lavaRock_breakOpen_small--></T>
+            <T>209820<!--lavaRock_breakOpen_small_deco--></T>
+            <T>125228<!--bush_wooHoo--></T>
+            <T>104135<!--Tent_WooHoo--></T>
+            <T>185490<!--LeafPile_Woohoo--></T>
+            <T>207257<!--IslandWaterfall_Woohoo--></T>
+            <T>248740<!--hotSprings_WooHoo--></T>
+            <T>252015<!--InteractableCave_WooHoo--></T>
+            <T>310666<!--treehouse_WooHoo--></T>
+            <T>175755<!--superInteraction_TravelThrough_JungleAdventure--></T>
+            <T>178570<!--superInteraction_TravelThrough_JungleAdventure_NaturalPools--></T>
+            <T>178569<!--superInteraction_TravelThrough_JungleAdventure_TempleEntrance--></T>
+            <T>177752<!--go_To_Specific_Lot_JunglePathObstacles_NaturalPool--></T>
+            <T>177675<!--go_To_Specific_Lot_JunglePathObstacles_Temple--></T>
+            <T>177369<!--marketStalls_pushOrderFood_Jungle_SecretMenu--></T>
+            <T>177369<!--marketStalls_pushOrderFood_Jungle_SecretMenu--></T>
+            <T>75562<!--RabbitHole_Cave_Explore--></T>
+            <T>103038<!--RabbitHole_Bramble_Explore--></T>
+            <T>105599<!--rabbitHole_Bramble_Explore_Herbicide--></T>
+            <T>13896<!--rocketShip_Explore--></T>
+            <T>114744<!--rocketShip_TravelToAlienPlanet--></T>
+            <T>209126<!--beachCave_Content_Explore--></T>
+            <T>125307<!--bush_tryForBaby--></T>
+            <T>104136<!--Tent_TryForBaby--></T>
+            <T>185489<!--leafPile_TryForBaby--></T>
+            <T>207263<!--IslandWaterfall_TryForBaby--></T>
+            <T>248741<!--hotSprings_TryForBaby--></T>
+            <T>252581<!--InteractableCave_TryForBaby--></T>
+            <T>310667<!--treehouse_TryForBaby--></T>
+            <T>75759<!--RabbitHole_Cave_BreakOpen--></T>
+            <T>249253<!--infoBoard_LearnAbout_Excursion--></T>
+            <T>249233<!--infoBoard_LearnAbout_OnsenVenue--></T>
+            <T>249232<!--infoBoard_LearnAbout_RockClimbing--></T>
+            <T>249231<!--infoBoard_LearnAbout_Sledding--></T>
+            <T>247428<!--si_HotSprings_GetIn--></T>
+            <T>252413<!--si_HotSprings_GetIn_Proper--></T>
+            <T>251019<!--si_HotSprings_GetIn_Unclean--></T>
+            <T>252402<!--computer_RockClimbingGear_Purchase--></T>
+            <T>245967<!--computer_RockClimbing_ResearchHandholdTechniques--></T>
+            <T>246475<!--skill_RockClimbing_Gear_Equip--></T>
+            <T>246649<!--skill_RockClimbing_Gear_Repair--></T>
+            <T>245971<!--skill_RockClimbing_ChalkHands--></T>
+            <T>245987<!--skill_RockClimbing_DoPreClimbStretching--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311339<!--loot_SelfDiscovery_Progress_Outdoorsy_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Campfire</E>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>174735<!--socials_Targeted_Friendly_AlwaysOn_STC_LocalCulture_AskAboutJungle--></T>
+            <T>246736<!--mixer_Social_Skiing_DiscussPastSkiExperiences_Friendly_NT--></T>
+            <T>245824<!--mixer_Social_Skiing_GiveAdviceOnAvoidingWipeouts_Friendly_NT--></T>
+            <T>245610<!--mixer_Social_Skiing_InquireAboutPowderConditions_Friendly_NT--></T>
+            <T>246554<!--mixer_Social_Skiing_OfferSkiExpertise_HHSims_Friendly_NT--></T>
+            <T>246381<!--socials_Friendly_Skill_RockClimbing_AskAboutBetaOfRoute--></T>
+            <T>246323<!--socials_Friendly_Skill_RockClimbing_ChatAboutFavoriteHolds--></T>
+            <T>246471<!--socials_Friendly_Skill_RockClimbing_BragAboutHighAltitudeViews--></T>
+            <T>246473<!--socials_Friendly_Skill_RockClimbing_Coach--></T>
+            <T>246333<!--socialSI_Skill_RockClimbing_ShowOffCalluses_Start--></T>
+            <T>246093<!--mixer_socials_BragAboutShredding_Targeted_Friendly_Snowboarding--></T>
+            <T>246100<!--mixer_socials_ChatAboutRadSlope_Targeted_Friendly_Snowboarding--></T>
+            <T>246102<!--mixer_socials_ProvideTips_Targeted_Friendly_Snowboarding--></T>
+            <T>253101<!--social_Snowboarding_AskToBeSnowBro--></T>
+            <T>103870<!--mixer_social_EnthuseAboutWildlifeEncounter_targeted_Friendly_situation_GP01--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311339<!--loot_SelfDiscovery_Progress_Outdoorsy_Max_Large--></T>
+                </L>
+                <U n="success_chance">
+                  <T n="base_chance">100</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>245489<!--climbingRoute_Chooser_Supplemental_RepeatSelector--></T>
+            <T>247102<!--snowSportsSlope_GoDownhill_Sled--></T>
+            <T>246790<!--snowSportsSlope_GoDownhill_Skis--></T>
+            <T>247095<!--snowSportsSlope_GoDownhill_Snowboard--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>334511<!--loot_SelfDiscovery_Progress_Outdoorsy_Max_Medium--></T>
+                </L>
+                <V n="timing" t="at_beginning" />
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Campfire</E>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>26139<!--mixer_social_Propose_targeted_romance_relationship--></T>
+            <T>26129<!--mixer_social_AskToBeBoyfriend_targeted_romance_relationship--></T>
+            <T>145628<!--mixer_social_Propose_targeted_romance_relationship_BlossomFestival--></T>
+            <T>26130<!--mixer_social_AskToBeGirlfriend_targeted_romance_relationship--></T>
+            <T>223464<!--mixer_social_AskToBeBoyfriend_targeted_romance_relationship_RoommateNPC--></T>
+            <T>223467<!--mixer_social_AskToBeGirlfriend_targeted_romance_relationship_RoommateNPC--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>321640<!--loot_SelfDiscovery_Progress_Relationship_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>26147<!--mixer_social_ProfessUndyingLove_targeted_romance_highScore--></T>
+            <T>289770<!--socials_Targeted_Romance_DeclareLove--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>321641<!--loot_SelfDiscovery_Progress_Relationship_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="required_relationship_bits">
+                    <L n="match_any">
+                      <T>24490<!--family_Target_IsHusbandWifeOf_Actor--></T>
+                      <T>15825<!--romantic-Significant_Other--></T>
+                      <T>15816<!--romantic-Engaged--></T>
+                      <T>99429<!--romantic-Promised--></T>
+                      <T>15822<!--romantic-Married--></T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>140975<!--woohoo_Autonomous_RocketShip_Festival_LogicFair--></T>
+            <T>13099<!--bed_woohoo--></T>
+            <T>125228<!--bush_wooHoo--></T>
+            <T>117777<!--hottub_WooHoo--></T>
+            <T>13914<!--rocketShip_WooHoo--></T>
+            <T>14387<!--telescope_WooHoo--></T>
+            <T>104135<!--Tent_WooHoo--></T>
+            <T>119531<!--steamRoom_WooHoo--></T>
+            <T>123397<!--WooHoo_Closet--></T>
+            <T>154858<!--coffin_WooHoo--></T>
+            <T>236629<!--dwelling_woohoo--></T>
+            <T>172276<!--lighthouse_WooHoo--></T>
+            <T>185490<!--LeafPile_Woohoo--></T>
+            <T>200300<!--SleepingPod_Woohoo--></T>
+            <T>193414<!--WalkInSafe_Woohoo--></T>
+            <T>207257<!--IslandWaterfall_Woohoo--></T>
+            <T>227347<!--shower_WooHoo--></T>
+            <T>248740<!--hotSprings_WooHoo--></T>
+            <T>252015<!--InteractableCave_WooHoo--></T>
+            <T>263184<!--livestockPen_WooHoo--></T>
+            <T>290146<!--photobooth_wooHoo--></T>
+            <T>310666<!--treehouse_WooHoo--></T>
+            <T>13097<!--bed_TryForBaby--></T>
+            <T>125307<!--bush_tryForBaby--></T>
+            <T>117788<!--hottub_TryForBaby--></T>
+            <T>13898<!--rocketShip_TryForBaby--></T>
+            <T>14378<!--telescope_TryForBaby--></T>
+            <T>104136<!--Tent_TryForBaby--></T>
+            <T>119532<!--steamRoom_TryForBaby--></T>
+            <T>123645<!--TryForBaby_Closet--></T>
+            <T>154859<!--coffin_TryForBaby--></T>
+            <T>172278<!--lighthouse_TryForBaby--></T>
+            <T>185489<!--leafPile_TryForBaby--></T>
+            <T>200309<!--SleepingPod_tryForBaby--></T>
+            <T>193415<!--WalkInSafe_tryForBaby--></T>
+            <T>207263<!--IslandWaterfall_TryForBaby--></T>
+            <T>227346<!--shower_TryForBaby--></T>
+            <T>248741<!--hotSprings_TryForBaby--></T>
+            <T>252581<!--InteractableCave_TryForBaby--></T>
+            <T>263177<!--livestockPen_tryForBaby--></T>
+            <T>295790<!--photobooth_TryForBaby--></T>
+            <T>310667<!--treehouse_TryForBaby--></T>
+            <T>152767<!--vampire_BatTryForBaby--></T>
+            <T>234078<!--Dumpster_tryForBaby--></T>
+            <T>152769<!--vampire_BatWoohoo--></T>
+            <T>233893<!--dumpster_DiveForThrills_WooHoo--></T>
+            <T>286912<!--FerrisWheel_WooHoo--></T>
+            <T>286914<!--HauntedHouse_WooHoo--></T>
+            <T>286913<!--TunnelLove_WooHoo--></T>
+            <T>446820<!--outhouse_TryForBaby--></T>
+            <T>446435<!--outhouse_WooHoo--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311343<!--loot_SelfDiscovery_Progress_Relationship_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="prohibited_relationship_bits">
+                    <L n="match_any">
+                      <T>24490<!--family_Target_IsHusbandWifeOf_Actor--></T>
+                      <T>15825<!--romantic-Significant_Other--></T>
+                      <T>15816<!--romantic-Engaged--></T>
+                      <T>99429<!--romantic-Promised--></T>
+                      <T>15822<!--romantic-Married--></T>
+                    </L>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>26132<!--mixer_social_BreakUp_targeted_mean_relationship--></T>
+            <T>14556<!--Wedding_BrideGroom_CallOffWedding--></T>
+            <T>26133<!--mixer_social_Divorce_targeted_mean_relationship--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311344<!--loot_SelfDiscovery_Progress_Relationship_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>25873<!--mixer_social_FrenziedKiss_targeted_romance_emotionSpecific--></T>
+            <T>25864<!--mixer_social_OfferRose_targeted_romance_emotionSpeficic--></T>
+            <T>25865<!--mixer_social_PassionateKiss_targeted_romance_emotionSpecific--></T>
+            <T>25872<!--mixer_social_SuaveKiss_targeted_romance_emotionSpecific--></T>
+            <T>26167<!--mixer_social_CaressCheek_targeted_romance_highScore--></T>
+            <T>26157<!--mixer_social_RekindleTheRomance_targeted_romance_lowScore--></T>
+            <T>26161<!--mixer_social_Embrace_targeted_romance_middleScore_STC--></T>
+            <T>26131<!--mixer_social_FirstKiss_targeted_romance_STC--></T>
+            <T>26160<!--mixer_social_HoldHands_targeted_romance_middleScore--></T>
+            <T>26158<!--mixer_social_WhisperSeductively_targeted_romance_middleScore--></T>
+            <T>28612<!--mixer_social_Kiss_targeted_romance_middleScore--></T>
+            <T>26147<!--mixer_social_ProfessUndyingLove_targeted_romance_highScore--></T>
+            <T>25870<!--mixer_social_SweetTalk_targeted_romance_skills--></T>
+            <T>97070<!--mixer_social_KissCheek_targeted_romance_alwaysOn--></T>
+            <T>26163<!--mixer_social_ComplimentAppearance_targeted_romance_alwaysOn--></T>
+            <T>25875<!--mixer_social_Serenade_targeted_romance_emotionSpecific--></T>
+            <T>26168<!--mixer_social_BlowAKiss_targeted_romance_highScore--></T>
+            <T>29347<!--mixer_social_AskRisqueQuestion_targeted_romance_alwaysOn--></T>
+            <T>32413<!--mixer_social_SitIntimate_Cuddle_targeted_friendly_alwaysOn--></T>
+            <T>26546<!--mixer_social_SitIntimate_Kiss_targeted_romance_emotionSpecific--></T>
+            <T>26548<!--mixer_social_SitIntimate_GiveMassage_targeted_romance_highScore--></T>
+            <T>26549<!--mixer_social_SitIntimate_GiveVigorousMassage_targeted_romance_highScore--></T>
+            <T>26547<!--mixer_social_SitIntimate_MakeOut_targeted_romance_highScore--></T>
+            <T>26551<!--mixer_social_SitIntimate_WhisperSweetNothings_targeted_romance_middleScore--></T>
+            <T>75510<!--mixer_social_SitIntimate_Snuggle_targeted_romance_alwaysOn--></T>
+            <T>99913<!--mixer_social_SitIntimate_LookDeeplyIntoEyes_targeted_romance_middleScore--></T>
+            <T>99926<!--mixer_social_SitIntimate_TeaseFlirtatiously_targeted_romance_middleScore--></T>
+            <T>131172<!--mixer_social_SitIntimate_FeedABite_targeted_romance_alwaysOn--></T>
+            <T>26162<!--mixer_social_Flirt_targeted_romance_alwaysOn--></T>
+            <T>289770<!--socials_Targeted_Romance_DeclareLove--></T>
+            <T>25866<!--mixer_social_BeEnticing_targeted_romance_emotionSpecific--></T>
+            <T>365784<!--mixer_social_Intimate_RomanticVenue_WatchSky_targeted_looping--></T>
+            <T>365789<!--mixer_social_Intimate_RomanticVenue_WatchStars_targeted_looping--></T>
+            <T>26129<!--mixer_social_AskToBeBoyfriend_targeted_romance_relationship--></T>
+            <T>26130<!--mixer_social_AskToBeGirlfriend_targeted_romance_relationship--></T>
+            <T>98293<!--mixer_social_KissHands_targeted_romance_emotionSpecific--></T>
+            <T>25963<!--mixer_social_Seduce_targeted_romance_emotionSpecific--></T>
+            <T>99467<!--mxier_social_Seduce_targeted_romance_emotionSpecific_femaleVersion--></T>
+            <T>125281<!--mixer_social_Closet_MakeOut_targeted_romance_highScore--></T>
+            <T>154549<!--mixer_social_Vampire_CompareToLongLostLove_Targeted_Romance_MiddleScore--></T>
+            <T>145628<!--mixer_social_Propose_targeted_romance_relationship_BlossomFestival--></T>
+            <T>149392<!--mixer_social_DeclareEternalLove_Targeted_Romance_HighScore--></T>
+            <T>186374<!--mixer_social_Mistletoe_kiss--></T>
+            <T>205837<!--mixer_social_Mermaid_MerfolkKiss_targeted_alwaysOn--></T>
+            <T>315358<!--mixer_social_Romance_HighScore_Loyal_ExpressDevotion--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311347<!--loot_SelfDiscovery_Progress_Romance_Min_Large--></T>
+                </L>
+                <U n="success_chance">
+                  <T n="base_chance">45</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="required_relationship_bits">
+                    <L n="match_any">
+                      <T>24490<!--family_Target_IsHusbandWifeOf_Actor--></T>
+                      <T>15825<!--romantic-Significant_Other--></T>
+                      <T>15816<!--romantic-Engaged--></T>
+                      <T>99429<!--romantic-Promised--></T>
+                      <T>15822<!--romantic-Married--></T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>25873<!--mixer_social_FrenziedKiss_targeted_romance_emotionSpecific--></T>
+            <T>25864<!--mixer_social_OfferRose_targeted_romance_emotionSpeficic--></T>
+            <T>25865<!--mixer_social_PassionateKiss_targeted_romance_emotionSpecific--></T>
+            <T>25872<!--mixer_social_SuaveKiss_targeted_romance_emotionSpecific--></T>
+            <T>26167<!--mixer_social_CaressCheek_targeted_romance_highScore--></T>
+            <T>26157<!--mixer_social_RekindleTheRomance_targeted_romance_lowScore--></T>
+            <T>26161<!--mixer_social_Embrace_targeted_romance_middleScore_STC--></T>
+            <T>26131<!--mixer_social_FirstKiss_targeted_romance_STC--></T>
+            <T>26160<!--mixer_social_HoldHands_targeted_romance_middleScore--></T>
+            <T>26158<!--mixer_social_WhisperSeductively_targeted_romance_middleScore--></T>
+            <T>28612<!--mixer_social_Kiss_targeted_romance_middleScore--></T>
+            <T>26147<!--mixer_social_ProfessUndyingLove_targeted_romance_highScore--></T>
+            <T>25870<!--mixer_social_SweetTalk_targeted_romance_skills--></T>
+            <T>97070<!--mixer_social_KissCheek_targeted_romance_alwaysOn--></T>
+            <T>26163<!--mixer_social_ComplimentAppearance_targeted_romance_alwaysOn--></T>
+            <T>25875<!--mixer_social_Serenade_targeted_romance_emotionSpecific--></T>
+            <T>26168<!--mixer_social_BlowAKiss_targeted_romance_highScore--></T>
+            <T>29347<!--mixer_social_AskRisqueQuestion_targeted_romance_alwaysOn--></T>
+            <T>32413<!--mixer_social_SitIntimate_Cuddle_targeted_friendly_alwaysOn--></T>
+            <T>26546<!--mixer_social_SitIntimate_Kiss_targeted_romance_emotionSpecific--></T>
+            <T>26548<!--mixer_social_SitIntimate_GiveMassage_targeted_romance_highScore--></T>
+            <T>26549<!--mixer_social_SitIntimate_GiveVigorousMassage_targeted_romance_highScore--></T>
+            <T>26547<!--mixer_social_SitIntimate_MakeOut_targeted_romance_highScore--></T>
+            <T>26551<!--mixer_social_SitIntimate_WhisperSweetNothings_targeted_romance_middleScore--></T>
+            <T>75510<!--mixer_social_SitIntimate_Snuggle_targeted_romance_alwaysOn--></T>
+            <T>99913<!--mixer_social_SitIntimate_LookDeeplyIntoEyes_targeted_romance_middleScore--></T>
+            <T>99926<!--mixer_social_SitIntimate_TeaseFlirtatiously_targeted_romance_middleScore--></T>
+            <T>131172<!--mixer_social_SitIntimate_FeedABite_targeted_romance_alwaysOn--></T>
+            <T>26162<!--mixer_social_Flirt_targeted_romance_alwaysOn--></T>
+            <T>289770<!--socials_Targeted_Romance_DeclareLove--></T>
+            <T>25866<!--mixer_social_BeEnticing_targeted_romance_emotionSpecific--></T>
+            <T>365784<!--mixer_social_Intimate_RomanticVenue_WatchSky_targeted_looping--></T>
+            <T>365789<!--mixer_social_Intimate_RomanticVenue_WatchStars_targeted_looping--></T>
+            <T>26129<!--mixer_social_AskToBeBoyfriend_targeted_romance_relationship--></T>
+            <T>26130<!--mixer_social_AskToBeGirlfriend_targeted_romance_relationship--></T>
+            <T>98293<!--mixer_social_KissHands_targeted_romance_emotionSpecific--></T>
+            <T>25963<!--mixer_social_Seduce_targeted_romance_emotionSpecific--></T>
+            <T>99467<!--mxier_social_Seduce_targeted_romance_emotionSpecific_femaleVersion--></T>
+            <T>125281<!--mixer_social_Closet_MakeOut_targeted_romance_highScore--></T>
+            <T>154549<!--mixer_social_Vampire_CompareToLongLostLove_Targeted_Romance_MiddleScore--></T>
+            <T>145628<!--mixer_social_Propose_targeted_romance_relationship_BlossomFestival--></T>
+            <T>149392<!--mixer_social_DeclareEternalLove_Targeted_Romance_HighScore--></T>
+            <T>186374<!--mixer_social_Mistletoe_kiss--></T>
+            <T>205837<!--mixer_social_Mermaid_MerfolkKiss_targeted_alwaysOn--></T>
+            <T>315358<!--mixer_social_Romance_HighScore_Loyal_ExpressDevotion--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311347<!--loot_SelfDiscovery_Progress_Romance_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="prohibited_relationship_bits">
+                    <L n="match_any">
+                      <T>24490<!--family_Target_IsHusbandWifeOf_Actor--></T>
+                      <T>15825<!--romantic-Significant_Other--></T>
+                      <T>15816<!--romantic-Engaged--></T>
+                      <T>99429<!--romantic-Promised--></T>
+                      <T>15822<!--romantic-Married--></T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>14488<!--tv-watch-romance--></T>
+            <T>370001<!--superInteraction_AuraofFlirtiness_RomanceSkill--></T>
+            <T>369823<!--superInteraction_ScanTheRoom_RomanceSkill--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311347<!--loot_SelfDiscovery_Progress_Romance_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311346<!--loot_SelfDiscovery_Progress_Romance_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Category_DeepThoughts</E>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>253291<!--social_Scared_ScreamIncoherently--></T>
+            <T>256488<!--social_HauntedHouse_Scream--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311350<!--loot_SelfDiscovery_Progress_Scared_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>239936<!--trashUpdate_Dumpster_BondWithFlies--></T>
+            <T>33881<!--stuffedAnimal_Talk_YellAt--></T>
+            <T>231089<!--trashUpdate_BondWithFlies--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>335009<!--loot_SelfDiscovery_Scared_Erratic--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>230913<!--simPicker_SabaccGame_ChooseOpponent--></T>
+            <T>127355<!--DontWakeLlama_PlayWith--></T>
+            <T>310374<!--recreationTable_simblesDominoes_practice--></T>
+            <T>309422<!--simPickerInteraction_recreationTable_simblesDominoes_playWith--></T>
+            <T>33025<!--si_Immediate_TableGame_Cards_PlayWith--></T>
+            <T>127342<!--DontWakeLlamaGame_Play--></T>
+            <T>13337<!--DollHouse_Play--></T>
+            <T>39755<!--DollHouse_Play_Join--></T>
+            <T>9110<!--tv_WatchKids--></T>
+            <T>183234<!--LeafPile_PlayWith--></T>
+            <T>13510<!--jungleGymBoat_AdultAttack_Active--></T>
+            <T>13511<!--jungleGymBoat_AdultAttack_Passive--></T>
+            <T>13517<!--jungleGymRocketShip_AdultAttack_Active--></T>
+            <T>13518<!--jungleGymRocketShip_AdultAttack_Passive--></T>
+            <T>13509<!--jungleGymBoat_AdultAttack--></T>
+            <T>13516<!--jungleGymRocketShip_AdultAttack--></T>
+            <T>317722<!--tv_WatchChildLearning--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311351<!--loot_SelfDiscovery_Progress_Silly_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>177494<!--mixer_social_Targeted_Friendly_MiddleScore_STC_WhatsThatSpot_Child--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311352<!--loot_SelfDiscovery_Progress_Silly_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_blacklist_tags">
+            <E>Interaction_Mean</E>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Prank</E>
+            <E>Interaction_PrankObject</E>
+            <E>Interaction_Funny</E>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>119941<!--mixer_Social_AskForFootMassage_Targeted_Friendly_AlwaysOn--></T>
+            <T>270936<!--mixer_Social_AskForPedicure_Targeted_Friendly_AlwaysOn--></T>
+            <T>119940<!--mixer_Social_AskForHandMassage_Targeted_Friendly_AlwaysOn--></T>
+            <T>270934<!--mixer_Social_AskForManicure_Targeted_Friendly_AlwaysOn--></T>
+            <T>118110<!--mixer_social_AskForMassage_DeepTissue_Friendly_alwaysOn--></T>
+            <T>118113<!--mixer_social_AskForMassage_Fertility_Friendly_alwaysOn--></T>
+            <T>118111<!--mixer_social_AskForMassage_SportsMassage_Friendly_alwaysOn--></T>
+            <T>118112<!--mixer_social_AskForMassage_StoneMassage_Friendly_alwaysOn--></T>
+            <T>118109<!--mixer_social_AskForMassage_Swedish_Friendly_alwaysOn--></T>
+            <T>118121<!--mixer_social_AskForMassage_Aromatherapy_Lavender_Friendly_alwaysOn--></T>
+            <T>118122<!--mixer_social_AskForMassage_Aromatherapy_LotusBlossom_Friendly_alwaysOn--></T>
+            <T>118120<!--mixer_social_AskForMassage_Aromatherapy_Mint_Friendly_alwaysOn--></T>
+            <T>118119<!--mixer_social_AskForMassage_Aromatherapy_Ylang_Friendly_alwaysOn--></T>
+            <T>194243<!--mixer_social_Squad_AskForCompliment_targered_Friendly_alwaysOn--></T>
+            <T>26550<!--mixer_social_SitIntimate_AskForMassage_targeted_romance_highScore--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311360<!--loot_SelfDiscovery_Progress_Snob_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>123245<!--mixer_Social_Clubs_NT_ComplainAboutClubLeader--></T>
+            <T>249531<!--mixer_Social_Lifestyles_Technophobe_ComplainAboutTechnology--></T>
+            <T>32163<!--mixer_social_ComplainAboutBills_targeted_Friendly_alwaysOn_bills--></T>
+            <T>98947<!--mixer_social_ComplainAboutClasses_targeted_Friendly_alwaysOn_child_teen--></T>
+            <T>98204<!--mixer_social_ComplainAboutEverything_targeted_Friendly_alwaysOn_teen--></T>
+            <T>126681<!--mixer_social_ComplainAboutLackofLoveLife_Targeted_Friendly_AlwaysOn_Jealous_Trait--></T>
+            <T>32169<!--mixer_social_ComplainAboutLackOfPower_targeted_friendly_alwaysOn_billsLack--></T>
+            <T>32168<!--mixer_social_ComplainAboutLackOfWater_targeted_friendly_alwaysOn_bills--></T>
+            <T>75754<!--mixer_social_ComplainAboutParents_targeted_Friendly_alwaysOn_teen--></T>
+            <T>28080<!--mixer_social_ComplainAboutTvSize_targeted_Friendly_alwaysOn--></T>
+            <T>119298<!--mixer_social_ComplainAbout_Fruitcake_targeted_alwayson--></T>
+            <T>132643<!--mixer_VegetarianTrait_ComplainAboutFlavorlessMeatSubstitutes--></T>
+            <T>103866<!--mixer_social_ComplainAboutMosquitoes_targeted_Friendly_situation_GP01--></T>
+            <T>113373<!--mixer_social_ComplainAboutWorkload_Targeted_Friendly_AlwaysOn_ActiveCareer--></T>
+            <T>107598<!--mixer_social_ComplainAboutWork_Targeted_Friendly_AlwaysOn_coworkers--></T>
+            <T>271646<!--mixer_social_ComplainAboutNails--></T>
+            <T>131924<!--mixer_social_ComplainAboutFoodPoisoning_Targeted_Friendly_AlwaysOn--></T>
+            <T>267891<!--mixer_LactoseIntolerantTrait_ComplainAboutBloating--></T>
+            <T>153524<!--socials_Targeted_Friendly_AlwaysOn_STC_DoTD_Reaper_Socials_ComplainAboutSpirits--></T>
+            <T>98635<!--mixer_social_ComplainAboutLocalYouths_targeted_friendly_alwaysOn_neighbor--></T>
+            <T>130274<!--mixer_socials_ComplainAboutDish_Targeted_Friendly_AlwaysOn_DiningSocials--></T>
+            <T>131561<!--mixer_socials_ComplainAboutExperimentalFood_Targeted_Friendly_AlwaysOn_DiningSocials--></T>
+            <T>128918<!--mixer_socials_ComplainAboutActor_targeted_Friendly_Movie_AlwaysOn_STC--></T>
+            <T>128919<!--mixer_socials_ComplainAboutDirector_targeted_Friendly_Movie_AlwaysOn_STC--></T>
+            <T>154534<!--mixer_social_Vampire_ComplainAboutSunlight_Targeted_Friendly_AlwaysOn--></T>
+            <T>188951<!--socials_Targeted_Friendly_AlwaysOn_STC_Thermostat_ComplainAbout_CoolingCosts--></T>
+            <T>188952<!--socials_Targeted_Friendly_AlwaysOn_STC_Thermostat_ComplainAbout_HeatingCosts--></T>
+            <T>182651<!--mixer_social_WeatherTemperatureSocials_ComplainAboutBurningTemperature--></T>
+            <T>182518<!--mixer_social_WeatherTemperatureSocials_ComplainAboutCloudyWeather--></T>
+            <T>182639<!--mixer_social_WeatherTemperatureSocials_ComplainAboutFreezingTemperature--></T>
+            <T>182650<!--mixer_social_WeatherTemperatureSocials_ComplainAboutHotTemperature--></T>
+            <T>182218<!--mixer_social_WeatherTemperatureSocials_ComplainAboutRain--></T>
+            <T>182519<!--mixer_social_WeatherTemperatureSocials_ComplainAboutSunnyWeather--></T>
+            <T>182515<!--mixer_social_WeatherTemperatureSocials_ComplainAboutSnow--></T>
+            <T>182583<!--mixer_social_WeatherTemperatureSocials_ComplainAboutThunderstorms--></T>
+            <T>182520<!--mixer_social_WeatherTemperatureSocials_ComplainAboutWindyWeather--></T>
+            <T>182082<!--socials_Targeted_Friendly_HolidaySocials_ComplainAbout--></T>
+            <T>218712<!--universityStudents_Mixers_ComplainAboutClasses--></T>
+            <T>218713<!--universityStudents_Mixers_ComplainAboutProfessor--></T>
+            <T>218715<!--universityStudents_Mixers_ComplainAboutTextbooks--></T>
+            <T>308270<!--mixer_social_ComplainAboutBurnout--></T>
+            <T>308425<!--mixer_social_ComplainAboutBurnout_Fog--></T>
+            <T>280953<!--socials_Targeted_Friendly_AlwaysOn_STC_WeddingParties_ComplainaboutParty--></T>
+            <T>27335<!--mixer_social_ComplainAboutBoredom_targeted_friendly_emotionSpecific--></T>
+            <T>25902<!--mixer_social_ComplainAboutProblems_targeted_friendly_emotionSpecific--></T>
+            <T>138776<!--mixer_social_ComplainAboutLoudNoises_targeted_Mean_alwaysOn_apartmentNeighbor--></T>
+            <T>26158<!--mixer_social_WhisperSeductively_targeted_romance_middleScore--></T>
+            <T>107465<!--mixer_social_BragAboutJobTitle_Targeted_Friendly_AlwaysOn_career--></T>
+            <T>271645<!--mixer_social_BragAboutNails--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311359<!--loot_SelfDiscovery_Progress_Snob_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>26181<!--mixer_social_CheerfulIntroduction_greetings_skills--></T>
+            <T>26182<!--mixer_social_EnchantingIntroduction_greetings_skills--></T>
+            <T>32047<!--mixer_social_HilariousIcebreaker_greetings--></T>
+            <T>160860<!--mixer_social_PoliteIntroduction_greetings_skills--></T>
+            <T>178782<!--mixer_social_AirKissCheekIntroduction--></T>
+            <T>26180<!--mixer_social_FlirtyIntroduction_greetings_skills--></T>
+            <T>194022<!--mixer_social_FamePerk_InstantBesties_RomanceIntroduction_greetings--></T>
+            <T>26177<!--mixer_social_FriendlyIntroduction_greetings--></T>
+            <T>194021<!--mixer_social_FamePerk_InstantBesties_FriendlyIntroduction_greetings--></T>
+            <T>251461<!--mixer_social_RespectfulIntroduction_greetings--></T>
+            <T>286301<!--mixer_social_FriendlyIntroduction_greetings_Werewolf--></T>
+            <T>225315<!--mixer_social_SchoolSpirit_Party_greetings--></T>
+            <T>26178<!--mixer_social_FunnyIntroduction_greetings--></T>
+            <T>273767<!--mixer_socials_GossipAboutOtherParents_Targeted_Friendly_AlwaysOn_STC--></T>
+            <T>31678<!--mixer_social_GossipAboutVideoGamePros_targeted_friendly_alwaysOn_skills--></T>
+            <T>108232<!--mixer_social_GossipAboutBear--></T>
+            <T>107597<!--mixer_social_GossipAboutCoworkers_Targeted_Friendly_AlwaysOn_coworkers--></T>
+            <T>107235<!--mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_Career--></T>
+            <T>113359<!--mixer_social_GossipAboutOfficeRomance_Targeted_Friendly_AlwaysOn_ActiveCareer--></T>
+            <T>25584<!--mixer_social_GossipAbout_targeted_friendly_alwaysOn--></T>
+            <T>286656<!--mixer_social_GossipAbout_targeted_friendly_alwaysOn_Werewolf--></T>
+            <T>98634<!--mixer_social_GossipAboutNeighbors_targeted_friendly_alwaysOn_neighbor--></T>
+            <T>149424<!--mixer_social_GossipAboutVampires_Targeted_Friendly_AlwaysOn--></T>
+            <T>152919<!--mixer_social_GossipSakuraTea_Festival_Blossom_targeted_friendly--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311361<!--loot_SelfDiscovery_Progress_Social_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311362<!--loot_SelfDiscovery_Progress_Social_Max_Small--></T>
+                </L>
+                <U n="success_chance">
+                  <T n="base_chance">10</T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Friendly</E>
+            <E>Interaction_Funny</E>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>182062<!--si_Touching_GiveGift_Money_Amount1--></T>
+            <T>13559<!--microphone_CheerPerformance_ShoutCompliment--></T>
+            <T>187811<!--mixer_social_ComplimentCostume_Targeted_Friendly--></T>
+            <T>29375<!--mixer_social_ComplimentArt_targeted_Friendly_alwaysOn_skills--></T>
+            <T>35490<!--mixer_social_ComplimentColorChoices_targeted_Friendly_alwaysOn_situation_Day1DLC--></T>
+            <T>35495<!--mixer_social_ComplimentCostume_targeted_Friendly_alwaysOn_situation_Day1DLC--></T>
+            <T>37013<!--mixer_social_ComplimentOutfit_targeted_Friendly_alwaysOn_skills--></T>
+            <T>98639<!--mixer_social_ComplimentHouse_targeted_friendly_alwaysOn_neighbor--></T>
+            <T>202251<!--socials_Targeted_Friendly_AlwaysOn_StyleInfluencer_ComplimentStyle--></T>
+            <T>25910<!--mixer_social_HeartfeltCompliment_targeted_friendly_emotionSpecific--></T>
+            <T>14006<!--sim_compliment_food--></T>
+            <T>14007<!--sim_compliment_home--></T>
+            <T>14234<!--sim_wedding_compliment--></T>
+            <T>182063<!--si_Touching_GiveGift_Money_Amount2--></T>
+            <T>180459<!--sim_GiveGift_Friendly_Picker--></T>
+            <T>333226<!--mixer_social_HeartfeltCompliment_targeted_friendly_RanchNectar_werewolfTrash--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311370<!--loot_SelfDiscovery_Progress_Virtues_Min_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>252307<!--socials_Targeted_Proper_ShowAppreciation--></T>
+            <T>252822<!--hotTub_Get_In_Nude_Proper--></T>
+            <T>252412<!--terrain-Swim_Skinnydip_Proper--></T>
+            <T>252413<!--si_HotSprings_GetIn_Proper--></T>
+            <T>252410<!--si_HotSprings_SkinnyDip_Proper--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>335007<!--loot_SelfDiscovery_Virtues_ActProper_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>182064<!--si_Touching_GiveGift_Money_Amount3--></T>
+            <T>182065<!--si_Touching_GiveGift_Money_Amount4--></T>
+            <T>182061<!--si_Touching_GiveGift_Money_Amount5--></T>
+            <T>13457<!--grimReaper_Plead--></T>
+            <T>160349<!--SI_VolunteerEvents_BakeSale--></T>
+            <T>40845<!--grimReaper_Demand--></T>
+            <T>160348<!--SI_VolunteerEvents_Beach--></T>
+            <T>160346<!--SI_VolunteerEvents_NursingHome--></T>
+            <T>160350<!--SI_VolunteerEvents_SoupKitchen--></T>
+            <T>160347<!--SI_VolunteerEvents_Walk--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311369<!--loot_SelfDiscovery_Progress_Virtues_Min_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>251461<!--mixer_social_RespectfulIntroduction_greetings--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>335004<!--loot_SelfDiscovery_Virtues_ActProper_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>28743<!--mixer_social_InviteToFakeParty_targeted_mischief_alwaysOn--></T>
+            <T>26693<!--mixer_social_LieAboutCareer_group_mischief_skills--></T>
+            <T>25575<!--mixer_social_AttemptToScare_targeted_mischief_skills--></T>
+            <T>26707<!--mixer_social_GiveFakeBadNews_targeted_mischief_skills--></T>
+            <T>26179<!--mixer_social_RudeIntroduction_greetings--></T>
+            <T>180456<!--si_Touching_GiveGift_Mean--></T>
+            <T>187282<!--simPicker_Mailbox_SendForgedBreakupLetter--></T>
+            <T>166742<!--socials_Targeted_Mean_AlwaysOn_STC_SwearAt--></T>
+            <T>26544<!--mixer_social_ImplyMotherIsLlama_targeted_mean_highScore--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311368<!--loot_SelfDiscovery_Progress_Virtues_Max_Small--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Mean</E>
+            <E>Interaction_Mischievous</E>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="prohibited_relationship_bits">
+                    <L n="match_any">
+                      <T>26560<!--SpecialBits_Enemy--></T>
+                    </L>
+                  </U>
+                  <L n="subject">
+                    <E>Actor</E>
+                  </L>
+                  <L n="target_sim">
+                    <E>TargetSim</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="affordances">
+            <T>26136<!--mixer_social_DeclareEnemy_targeted_mean_relationship--></T>
+            <T>26138<!--mixer_social_Fight_targeted_mean--></T>
+            <T>277564<!--mixer_social_Fight_targeted_mean_Ghost--></T>
+            <T>196391<!--mixer_social_Fight_targeted_mean_Paparazzi--></T>
+            <T>224783<!--mixer_social_Fight_targeted_mean_Mascot--></T>
+          </L>
+          <L n="basic_extras">
+            <V t="loot">
+              <U n="loot">
+                <L n="loot_list">
+                  <T>311367<!--loot_SelfDiscovery_Progress_Virtues_Max_Large--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+          <L n="test">
+            <L>
+              <V t="sim_info">
+                <U n="sim_info">
+                  <V n="is_active_sim" t="enabled" />
+                </U>
+              </V>
+              <V t="relationship">
+                <U n="relationship">
+                  <U n="prohibited_relationship_bits">
+                    <L n="match_any">
+                      <T>26560<!--SpecialBits_Enemy--></T>
+                    </L>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>318394<!--debugImmediate_SelfDiscovery_Active_Max--></T>
+    <T>318395<!--debugImmediate_SelfDiscovery_Active_Min--></T>
+    <T>318404<!--debugImmediate_SelfDiscovery_Ambitious_Max--></T>
+    <T>318405<!--debugImmediate_SelfDiscovery_Animal_Max--></T>
+    <T>318406<!--debugImmediate_SelfDiscovery_Creative_Max--></T>
+    <T>318407<!--debugImmediate_SelfDiscovery_Critic_Max--></T>
+    <T>318408<!--debugImmediate_SelfDiscovery_Economy_Max--></T>
+    <T>318409<!--debugImmediate_SelfDiscovery_Economy_Min--></T>
+    <T>318410<!--debugImmediate_SelfDiscovery_Family_Max--></T>
+    <T>318411<!--debugImmediate_SelfDiscovery_Family_Min--></T>
+    <T>318412<!--debugImmediate_SelfDiscovery_Fragile_Max--></T>
+    <T>318413<!--debugImmediate_SelfDiscovery_Green_Max--></T>
+    <T>318396<!--debugImmediate_SelfDiscovery_Hygiene_Max--></T>
+    <T>318414<!--debugImmediate_SelfDiscovery_Hygiene_Min--></T>
+    <T>318415<!--debugImmediate_SelfDiscovery_Jealous_Max--></T>
+    <T>318416<!--debugImmediate_SelfDiscovery_Metabolism_Max--></T>
+    <T>318420<!--debugImmediate_SelfDiscovery_Metabolism_Min--></T>
+    <T>318417<!--debugImmediate_SelfDiscovery_Mood_Max--></T>
+    <T>318419<!--debugImmediate_SelfDiscovery_Mood_Min--></T>
+    <T>318418<!--debugImmediate_SelfDiscovery_Outdoorsy_Max--></T>
+    <T>318421<!--debugImmediate_SelfDiscovery_Party_Max--></T>
+    <T>318422<!--debugImmediate_SelfDiscovery_Relationship_Max--></T>
+    <T>318423<!--debugImmediate_SelfDiscovery_Romance_Max--></T>
+    <T>318397<!--debugImmediate_SelfDiscovery_Romance_Min--></T>
+    <T>318398<!--debugImmediate_SelfDiscovery_Scared_Max--></T>
+    <T>318399<!--debugImmediate_SelfDiscovery_Silly_Max--></T>
+    <T>318401<!--debugImmediate_SelfDiscovery_Skill_Max--></T>
+    <T>318400<!--debugImmediate_SelfDiscovery_Skill_Min--></T>
+    <T>318403<!--debugImmediate_SelfDiscovery_Smart_Max--></T>
+    <T>318402<!--debugImmediate_SelfDiscovery_Snob_Max--></T>
+    <T>318424<!--debugImmediate_SelfDiscovery_Social_Max--></T>
+    <T>318425<!--debugImmediate_SelfDiscovery_Social_Min--></T>
+    <T>318426<!--debugImmediate_SelfDiscovery_Tech_Max--></T>
+    <T>318428<!--debugImmediate_SelfDiscovery_Virtues_Max--></T>
+    <T>318427<!--debugImmediate_SelfDiscovery_Virtues_Min--></T>
+    <T>433773<!--debugImmediate_SelfDiscovery_Fantasy_Max--></T>
+    <T>450224<!--debugImmediate_SelfDiscovery_Fantasy_Min--></T>
+  </L>
+  <T n="visible">False</T>
+</I>

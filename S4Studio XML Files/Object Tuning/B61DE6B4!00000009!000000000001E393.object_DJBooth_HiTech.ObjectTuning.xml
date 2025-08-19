@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_DJBooth_HiTech" s="123795">
+  <U n="_components">
+    <V n="affordance_tuning" t="enabled">
+      <U n="enabled">
+        <L n="affordance_map">
+          <U>
+            <T n="key">194076<!--musicProductionStation_PlayTrack--></T>
+            <U n="value">
+              <V n="basic_content" t="flexible_length">
+                <U n="flexible_length">
+                  <V n="content" t="staging_content">
+                    <U n="staging_content">
+                      <U n="content_set">
+                        <L n="affordance_links">
+                          <T>122679<!--DJBooth_Play_DJActions--></T>
+                        </L>
+                      </U>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="crafting_station" t="enabled">
+      <U n="enabled">
+        <L n="crafting_station_types">
+          <T>125929<!--craftingObjectType_DJBooth--></T>
+        </L>
+      </U>
+    </V>
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">MEDIUM</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="inventory_item" t="disabled" />
+    <V n="line_of_sight" t="enabled">
+      <U n="enabled">
+        <U n="line_of_sight">
+          <T n="max_line_of_sight_radius">20</T>
+        </U>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">110393<!--retailComponent_Default--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <V n="delinquency_state_changes" t="enabled">
+          <L n="enabled">
+            <U>
+              <E n="key">POWER</E>
+              <L n="value">
+                <T>122491<!--DJBooth_PerformanceType_None--></T>
+                <T>124628<!--DJBooth_PerformanceState_0_None--></T>
+              </L>
+            </U>
+          </L>
+        </V>
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>124628<!--DJBooth_PerformanceState_0_None--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>122491<!--DJBooth_PerformanceType_None--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122491<!--DJBooth_PerformanceType_None--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>124297<!--DJBooth_MaterialState_00_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122491<!--DJBooth_PerformanceType_None--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123936<!--DJBooth_VFXState_0_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122491<!--DJBooth_PerformanceType_None--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>122403<!--dJBooth_videoChannel_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>124628<!--DJBooth_PerformanceState_0_None--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>121632<!--DJBooth_Telesplosion_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>179194<!--stereoChannel_Off_dJBooth--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123911<!--DJBooth_PerformanceType_Home--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>179194<!--stereoChannel_Off_dJBooth--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>179165<!--stereoChannel_Electro_dJBooth--></T>
+              <T>179163<!--stereoChannel_Pop_dJBooth--></T>
+              <T>179164<!--stereoChannel_Retro_dJBooth--></T>
+              <T>179166<!--stereoChannel_SPop_dJBooth--></T>
+              <T>179162<!--stereoChannel_Disco_Pop_dJBooth--></T>
+              <T>201265<!--stereoChannel_HipHop_djBooth--></T>
+              <T>191967<!--MusicProductionStation_AudioState_Play--></T>
+              <T>441849<!--stereoChannel_Alt_djBooth--></T>
+              <T>282820<!--stereoChannel_Brazilian_djBooth--></T>
+              <T>343008<!--stereoChannel_RnB_dJBooth--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>128106<!--DJBooth_PerformanceType_Radio--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123450<!--upgrade_DJBooth_VideoScreen_Completed--></T>
+              <T>123927<!--upgrade_DJBooth_VFXEmitter_NotStarted--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123418<!--DJBooth_GeoState_Screen--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">AND</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123450<!--upgrade_DJBooth_VideoScreen_Completed--></T>
+              <T>123930<!--upgrade_DJBooth_VFXEmiter_Partial--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123418<!--DJBooth_GeoState_Screen--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123925<!--upgrade_DJBooth_VFXEmitter_Completed--></T>
+              <T>123454<!--upgrade_DJBooth_VideoScreen_NotStarted--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>124031<!--DJBooth_GeoState_FXMachine--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123925<!--upgrade_DJBooth_VFXEmitter_Completed--></T>
+              <T>123458<!--upgrade_DJBooth_VideoScreen_Partial--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>124031<!--DJBooth_GeoState_FXMachine--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123450<!--upgrade_DJBooth_VideoScreen_Completed--></T>
+              <T>123925<!--upgrade_DJBooth_VFXEmitter_Completed--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>124032<!--DJBooth_GeoState_FXMachineScreen--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123925<!--upgrade_DJBooth_VFXEmitter_Completed--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>126666<!--DJBooth_VFXSettings_3_AllOn--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123419<!--DJBooth_GeoState_None--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123936<!--DJBooth_VFXState_0_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>123418<!--DJBooth_GeoState_Screen--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123936<!--DJBooth_VFXState_0_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>123454<!--upgrade_DJBooth_VideoScreen_NotStarted--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>122403<!--dJBooth_videoChannel_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>123458<!--upgrade_DJBooth_VideoScreen_Partial--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>122403<!--dJBooth_videoChannel_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>126663<!--DJBooth_VFXSettings_0_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123936<!--DJBooth_VFXState_0_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>126664<!--DJBooth_VFXSettings_1_Fog--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>126636<!--DJBooth_VFXState_1_Fog--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>126665<!--DJBooth_VFXSettings_2_Lasers--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>126637<!--DJBooth_VFXState_2_Lasers--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>126666<!--DJBooth_VFXSettings_3_AllOn--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123935<!--DJBooth_VFXState_3_AllOn--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>179165<!--stereoChannel_Electro_dJBooth--></T>
+              <T>179163<!--stereoChannel_Pop_dJBooth--></T>
+              <T>179164<!--stereoChannel_Retro_dJBooth--></T>
+              <T>179162<!--stereoChannel_Disco_Pop_dJBooth--></T>
+              <T>179166<!--stereoChannel_SPop_dJBooth--></T>
+              <T>201265<!--stereoChannel_HipHop_djBooth--></T>
+              <T>441849<!--stereoChannel_Alt_djBooth--></T>
+              <T>282820<!--stereoChannel_Brazilian_djBooth--></T>
+              <T>343008<!--stereoChannel_RnB_dJBooth--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>24383<!--StereoOnOff_On--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>179194<!--stereoChannel_Off_dJBooth--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>24384<!--StereoOnOff_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>125089<!--Generic_GoDancingObjects_Visibility_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>179194<!--stereoChannel_Off_dJBooth--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>191966<!--MusicProductionStation_AudioState_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>122491<!--DJBooth_PerformanceType_None--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122492<!--DJBooth_PerformanceType_Gig--></T>
+              <T>123911<!--DJBooth_PerformanceType_Home--></T>
+              <T>128106<!--DJBooth_PerformanceType_Radio--></T>
+              <T>24383<!--StereoOnOff_On--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>224553<!--utilities_Power_Consumption_On--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>122491<!--DJBooth_PerformanceType_None--></T>
+              <T>24384<!--StereoOnOff_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>224564<!--utilities_Power_Consumption_Off--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15078<!--Brokenness_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15081<!--BrokenState_Unbroken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15076<!--Brokenness_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15080<!--BrokenState_Broken--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15080<!--BrokenState_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>122403<!--dJBooth_videoChannel_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15080<!--BrokenState_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>123936<!--DJBooth_VFXState_0_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15080<!--BrokenState_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>121632<!--DJBooth_Telesplosion_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15080<!--BrokenState_Broken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>124228<!--DJBooth_BrokenVFX_On--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15081<!--BrokenState_Unbroken--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>124229<!--DJBooth_BrokenVFX_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">125088<!--Generic_GoDancingObjects_Visibility_On--></T>
+                <U n="value">
+                  <V n="toggle_footprint" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <L n="toggles">
+                        <U>
+                          <T n="enable">True</T>
+                          <T n="footprint_hash">pathing_ftpShape</T>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">125089<!--Generic_GoDancingObjects_Visibility_Off--></T>
+                <U n="value">
+                  <V n="toggle_footprint" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <L n="toggles">
+                        <U>
+                          <T n="footprint_hash">pathing_ftpShape</T>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">125088<!--Generic_GoDancingObjects_Visibility_On--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123160<!--dJBooth_ShowQuality_2_Good--></T>
+              </U>
+              <U>
+                <T n="key">123161<!--dJBooth_ShowQuality_0_Bad--></T>
+              </U>
+              <U>
+                <T n="key">123162<!--dJBooth_ShowQuality_1_Average--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">123162<!--dJBooth_ShowQuality_1_Average--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">124627<!--DJBooth_PerformanceState_1_Off_decay--></T>
+              </U>
+              <U>
+                <T n="key">124628<!--DJBooth_PerformanceState_0_None--></T>
+              </U>
+              <U>
+                <T n="key">124680<!--DJBooth_PerformanceState_2_On_locked--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">124628<!--DJBooth_PerformanceState_0_None--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">122491<!--DJBooth_PerformanceType_None--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value" />
+                  <V n="vfx_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">122492<!--DJBooth_PerformanceType_Gig--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">356063<!--broadcaster_DanceFloor_Danceable--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_lights_hitech</T>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_music_hitech_left</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_sound_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_music_hitech_right</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_sound_2</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">123911<!--DJBooth_PerformanceType_Home--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value" />
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_lights_hitech</T>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_music_hitech_left</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_sound_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_music_hitech_right</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_sound_2</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">128106<!--DJBooth_PerformanceType_Radio--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">356063<!--broadcaster_DanceFloor_Danceable--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_music_hitech_left</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_sound_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_music_hitech_right</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_sound_2</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">122491<!--DJBooth_PerformanceType_None--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">179162<!--stereoChannel_Disco_Pop_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">179163<!--stereoChannel_Pop_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">179164<!--stereoChannel_Retro_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">179165<!--stereoChannel_Electro_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">179166<!--stereoChannel_SPop_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">179194<!--stereoChannel_Off_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">201265<!--stereoChannel_HipHop_djBooth--></T>
+              </U>
+              <U>
+                <T n="key">282820<!--stereoChannel_Brazilian_djBooth--></T>
+              </U>
+              <U>
+                <T n="key">343008<!--stereoChannel_RnB_dJBooth--></T>
+              </U>
+              <U>
+                <T n="key">441849<!--stereoChannel_Alt_djBooth--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">179194<!--stereoChannel_Off_dJBooth--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">73870<!--TheKnack_Awesome--></T>
+              </U>
+              <U>
+                <T n="key">73871<!--TheKnack_NotAwesome--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">73871<!--TheKnack_NotAwesome--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15384<!--Upgrade_Generic_LockBrokenness_Completed--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="autonomy_modifiers">
+                          <U>
+                            <L n="locked_stats">
+                              <T>16633<!--commodity_Object_Brokenness--></T>
+                            </L>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15385<!--Upgrade_Generic_LockBrokenness_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">15386<!--Upgrade_Generic_LockBrokenness_Partial--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15384<!--Upgrade_Generic_LockBrokenness_Completed--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">10512<!--upgrade_TVSuperReception_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">10513<!--upgrade_TVSuperReception_Partial--></T>
+              </U>
+              <U>
+                <T n="key">10514<!--upgrade_TVSuperReception_Completed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">10514<!--upgrade_TVSuperReception_Completed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123451<!--upgrade_DJBooth_Fireproof_Completed--></T>
+              </U>
+              <U>
+                <T n="key">123453<!--upgrade_DJBooth_Fireproof_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">123457<!--upgrade_DJBooth_Fireproof_Partial--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">123451<!--upgrade_DJBooth_Fireproof_Completed--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123925<!--upgrade_DJBooth_VFXEmitter_Completed--></T>
+              </U>
+              <U>
+                <T n="key">123927<!--upgrade_DJBooth_VFXEmitter_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">123930<!--upgrade_DJBooth_VFXEmiter_Partial--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">123925<!--upgrade_DJBooth_VFXEmitter_Completed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">126663<!--DJBooth_VFXSettings_0_Off--></T>
+              </U>
+              <U>
+                <T n="key">126664<!--DJBooth_VFXSettings_1_Fog--></T>
+              </U>
+              <U>
+                <T n="key">126665<!--DJBooth_VFXSettings_2_Lasers--></T>
+              </U>
+              <U>
+                <T n="key">126666<!--DJBooth_VFXSettings_3_AllOn--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">126663<!--DJBooth_VFXSettings_0_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123935<!--DJBooth_VFXState_3_AllOn--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_dry_ice</T>
+                              <V n="joint_name" t="Slot" />
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_laser_loops</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_lasers_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_laser_loops</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_lasers_2</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">123936<!--DJBooth_VFXState_0_Off--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="no_vfx" />
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">126636<!--DJBooth_VFXState_1_Fog--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_dry_ice</T>
+                              <V n="joint_name" t="Slot" />
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">126637<!--DJBooth_VFXState_2_Lasers--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="multiple_effects">
+                        <U n="multiple_effects">
+                          <L n="vfx_list">
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_laser_loops</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_lasers_1</T>
+                              </V>
+                            </U>
+                            <U>
+                              <T n="effect_name">ep02_dj_booth_laser_loops</T>
+                              <V n="joint_name" t="Slot">
+                                <T n="Slot">_FX_lasers_2</T>
+                              </V>
+                            </U>
+                          </L>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">123936<!--DJBooth_VFXState_0_Off--></T>
+            </V>
+            <T n="reset_to_default">False</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123450<!--upgrade_DJBooth_VideoScreen_Completed--></T>
+              </U>
+              <U>
+                <T n="key">123454<!--upgrade_DJBooth_VideoScreen_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">123458<!--upgrade_DJBooth_VideoScreen_Partial--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">123450<!--upgrade_DJBooth_VideoScreen_Completed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123418<!--DJBooth_GeoState_Screen--></T>
+              </U>
+              <U>
+                <T n="key">123419<!--DJBooth_GeoState_None--></T>
+              </U>
+              <U>
+                <T n="key">124031<!--DJBooth_GeoState_FXMachine--></T>
+              </U>
+              <U>
+                <T n="key">124032<!--DJBooth_GeoState_FXMachineScreen--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">124032<!--DJBooth_GeoState_FXMachineScreen--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">124297<!--DJBooth_MaterialState_00_Off--></T>
+              </U>
+              <U>
+                <T n="key">124298<!--DJBooth_MaterialState_01_Genre1--></T>
+              </U>
+              <U>
+                <T n="key">124299<!--DJBooth_MaterialState_02_Genre2--></T>
+              </U>
+              <U>
+                <T n="key">124300<!--DJBooth_MaterialState_03_Genre3--></T>
+              </U>
+              <U>
+                <T n="key">124301<!--DJBooth_MaterialState_04_Genre4--></T>
+              </U>
+              <U>
+                <T n="key">124302<!--DJBooth_MaterialState_05_Genre5--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">124297<!--DJBooth_MaterialState_00_Off--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">123452<!--upgrade_DJBooth_Telesplosion_Completed--></T>
+              </U>
+              <U>
+                <T n="key">123455<!--upgrade_DJBooth_Telesplosion_NotStarted--></T>
+              </U>
+              <U>
+                <T n="key">123456<!--upgrade_DJBooth_Telesplosion_Partial--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">123455<!--upgrade_DJBooth_Telesplosion_NotStarted--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">121631<!--DJBooth_Telesplosion_On--></T>
+              </U>
+              <U>
+                <T n="key">121632<!--DJBooth_Telesplosion_Off--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">121632<!--DJBooth_Telesplosion_Off--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">False</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">122403<!--dJBooth_videoChannel_Off--></T>
+              </U>
+              <U>
+                <T n="key">122404<!--dJBooth_videoChannel_Low--></T>
+              </U>
+              <U>
+                <T n="key">122405<!--dJBooth_videoChannel_High--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">122403<!--dJBooth_videoChannel_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15022<!--AudioVolume_High--></T>
+                <U n="value">
+                  <V n="audio_effect_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_audio_effect">
+                      <U n="start_audio_effect">
+                        <T n="effect_name">stereo_volume_high</T>
+                        <T n="tag_name">volume</T>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15023<!--AudioVolume_Low--></T>
+                <U n="value">
+                  <V n="audio_effect_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_audio_effect">
+                      <U n="start_audio_effect">
+                        <T n="effect_name">stereo_volume_low</T>
+                        <T n="tag_name">volume</T>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15024<!--AudioVolume_Medium--></T>
+                <U n="value">
+                  <V n="audio_effect_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_audio_effect">
+                      <U n="start_audio_effect">
+                        <T n="effect_name">stereo_volume_normal</T>
+                        <T n="tag_name">volume</T>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15024<!--AudioVolume_Medium--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">109127<!--objectStateValue_Detective_Burned--></T>
+              </U>
+              <U>
+                <T n="key">109128<!--objectStateValue_Detective_NotBurned--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">109128<!--objectStateValue_Detective_NotBurned--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">108830<!--ObjectStateValue_Detective_NotStolen--></T>
+              </U>
+              <U>
+                <T n="key">108831<!--ObjectStateValue_Detective_Stolen--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">108830<!--ObjectStateValue_Detective_NotStolen--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">104260<!--objectStateValue_elixirOfBurning_Applied_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">131794<!--Kelpto_Stolen_Object--></T>
+              </U>
+              <U>
+                <T n="key">131795<!--Klepto_Not_Stolen_Object--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">131795<!--Klepto_Not_Stolen_Object--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">24383<!--StereoOnOff_On--></T>
+                <U n="value">
+                  <V n="broadcaster" t="apply_new_value">
+                    <V n="apply_new_value" t="start_broadcaster">
+                      <U n="start_broadcaster">
+                        <L n="broadcaster_types">
+                          <U>
+                            <T n="item">159374<!--broadcaster_Fear_Pet_Stereo--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">24384<!--StereoOnOff_Off--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">24384<!--StereoOnOff_Off--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">74181<!--CraftingEmotion_None--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">191966<!--MusicProductionStation_AudioState_Off--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">224553<!--utilities_Power_Consumption_On--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value">
+                    <V n="apply_new_value" t="apply_statistic_modifiers">
+                      <U n="apply_statistic_modifiers">
+                        <L n="lot_statistic_modifiers">
+                          <U>
+                            <V n="modifier" t="multipliers">
+                              <U n="multipliers">
+                                <U n="value">
+                                  <T n="base_value">-0.01042</T>
+                                  <L n="multipliers">
+                                    <U>
+                                      <T n="multiplier">0.75</T>
+                                    </U>
+                                    <U>
+                                      <T n="multiplier">0.75</T>
+                                      <L n="tests">
+                                        <L>
+                                          <V t="zone">
+                                            <U n="zone">
+                                              <U n="zone_tests">
+                                                <V n="zone_modifiers" t="enabled">
+                                                  <U n="enabled">
+                                                    <V n="whitelist" t="specify">
+                                                      <U n="specify">
+                                                        <L n="whitelist">
+                                                          <T>353534<!--zoneModifier_Hidden_FuseBox_On--></T>
+                                                        </L>
+                                                      </U>
+                                                    </V>
+                                                  </U>
+                                                </V>
+                                              </U>
+                                            </U>
+                                          </V>
+                                        </L>
+                                      </L>
+                                    </U>
+                                  </L>
+                                </U>
+                              </U>
+                            </V>
+                            <T n="statistic">233027<!--commodity_Utilities_Power--></T>
+                          </U>
+                        </L>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">224564<!--utilities_Power_Consumption_Off--></T>
+                <U n="value">
+                  <V n="autonomy_modifiers" t="apply_new_value" />
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">224564<!--utilities_Power_Consumption_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">403716<!--objectStateValue_GhostPowers_BeenUpgraded--></T>
+              </U>
+              <U>
+                <T n="key">403718<!--objectStateValue_GhostPowers_NOTBeenUpgraded--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">403718<!--objectStateValue_GhostPowers_NOTBeenUpgraded--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">185122<!--object_Rain_Outside--></T>
+              </U>
+              <U>
+                <T n="key">185125<!--object_Rain_Inside--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">185125<!--object_Rain_Inside--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15076<!--Brokenness_Broken--></T>
+              </U>
+              <U>
+                <T n="key">15077<!--Brokenness_Neutral--></T>
+              </U>
+              <U>
+                <T n="key">15078<!--Brokenness_Unbroken--></T>
+              </U>
+              <U>
+                <T n="key">97754<!--Brokenness_Broken_Sabotage--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15078<!--Brokenness_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15080<!--BrokenState_Broken--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="single_effect">
+                        <U n="single_effect">
+                          <T n="effect_name">ep02_dj_booth_broken</T>
+                          <V n="joint_name" t="Slot">
+                            <T n="Slot">_FX_repair</T>
+                          </V>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15081<!--BrokenState_Unbroken--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">39292<!--BrokenState_Repairing--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15081<!--BrokenState_Unbroken--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">124228<!--DJBooth_BrokenVFX_On--></T>
+                <U n="value">
+                  <V n="vfx_state" t="apply_new_value">
+                    <V n="apply_new_value" t="start_vfx">
+                      <V n="start_vfx" t="single_effect">
+                        <U n="single_effect">
+                          <T n="effect_name">ep02_dj_booth_broken</T>
+                          <V n="joint_name" t="Slot">
+                            <T n="Slot">_FX_repair_</T>
+                          </V>
+                        </U>
+                      </V>
+                    </V>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">124229<!--DJBooth_BrokenVFX_Off--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">124229<!--DJBooth_BrokenVFX_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="stereo" t="enabled">
+      <V n="enabled" t="literal">
+        <U n="literal">
+          <T n="channel_state">179143<!--StereoChannel_dJBooth--></T>
+          <L n="listen_affordances">
+            <T>228439<!--stereo_listen_djBooth--></T>
+          </L>
+          <T n="off_state">179194<!--stereoChannel_Off_dJBooth--></T>
+        </U>
+      </V>
+    </V>
+    <V n="tooltip_component" t="enabled" />
+    <V n="weather_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="outside_loot">
+          <U>
+            <E n="key">AnyRain</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>185163<!--loot_Wetness_Object_Rain_End--></T>
+              </L>
+              <L n="start_loot">
+                <T>184964<!--Loot_Wetness_Object_Start--></T>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <U n="_components_native">
+    <V n="Video" t="enabled">
+      <U n="enabled">
+        <E n="video_display_type">LIGHT_OVERLAY</E>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>121423<!--generic_DJBooth--></T>
+    <T>127738<!--DJBooth_PlayMusic_genre_00_Practice_level01--></T>
+    <T>127746<!--DJBooth_PlayMusic_genre_00_Practice_level02--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>127745<!--DJBooth_PlayMusic_genre_00_Practice_level03--></T>
+    <T>127744<!--DJBooth_PlayMusic_genre_00_Practice_level04--></T>
+    <T>127743<!--DJBooth_PlayMusic_genre_00_Practice_level05--></T>
+    <T>127742<!--DJBooth_PlayMusic_genre_00_Practice_level06--></T>
+    <T>127741<!--DJBooth_PlayMusic_genre_00_Practice_level07--></T>
+    <T>127740<!--DJBooth_PlayMusic_genre_00_Practice_level08--></T>
+    <T>127739<!--DJBooth_PlayMusic_genre_00_Practice_level09--></T>
+    <T>123750<!--DJBooth_PlayMusic_genre_01_Groovin_lowSkill--></T>
+    <T>123784<!--DJBooth_PlayMusic_genre_01_Groovin_hiSkill--></T>
+    <T>123758<!--DJBooth_PlayMusic_genre_02_Machine_lowSkill--></T>
+    <T>123786<!--DJBooth_PlayMusic_genre_02_Machine_hiSkill--></T>
+    <T>123766<!--DJBooth_PlayMusic_genre_03_ChipTune_lowSkill--></T>
+    <T>123788<!--DJBooth_PlayMusic_genre_03_ChipTune_hiSkill--></T>
+    <T>123768<!--DJBooth_PlayMusic_genre_04_ChillOut--></T>
+    <T>123769<!--DJBooth_PlayMusic_genre_05_Breakbeats--></T>
+    <T>123770<!--DJBooth_PlayMusic_genre_06_Remix--></T>
+    <T>123771<!--DJBooth_PlayMusic_genre_07_House--></T>
+    <T>123772<!--DJBooth_PlayMusic_genre_08_HipHop--></T>
+    <T>123773<!--DJBooth_PlayMusic_genre_09_DrumAndBass--></T>
+    <T>123774<!--DJBooth_PlayMusic_genre_10_Noise--></T>
+    <T>126111<!--DJBooth_Play_Song_Written--></T>
+    <T>122659<!--DJBooth_Watch--></T>
+    <T>122399<!--DJBooth_Dance--></T>
+    <T>128572<!--DJBooth_stereo_Dance--></T>
+    <T>128432<!--stereo_DJBooth_turnOff--></T>
+    <T>128427<!--stereo_PickChannel_dJBooth--></T>
+    <T>179145<!--stereo_TurnOnAndListen_dJBooth--></T>
+    <T>130406<!--DJBooth_AutonomousPickStation--></T>
+    <T>128433<!--stereo_skipToNextSong_DJBooth--></T>
+    <T>125855<!--DJBooth_WriteSong_Staging--></T>
+    <T>125854<!--DJBooth_StartWriting--></T>
+    <T>125866<!--DJBooth_CreateMixTape--></T>
+    <T>13505<!--instrument_Unlock_Music_Track--></T>
+    <T>123892<!--DJBooth_Upgrade_Neverbreak_SI--></T>
+    <T>123891<!--DJBooth_Upgrade_Neverbreak_resume--></T>
+    <T>124003<!--DJBooth_Upgrade_Neverbreak_completedDisplay--></T>
+    <T>123937<!--DJBooth_Upgrade_Fireproof_SI--></T>
+    <T>123938<!--DJBooth_Upgrade_FireProof_resume--></T>
+    <T>124001<!--DJBooth_Upgrade_Fireproof_completedDisplay--></T>
+    <T>123939<!--DJBooth_Upgrade_VFXEmitter_SI--></T>
+    <T>123940<!--DJBooth_Upgrade_VFXEmitter_resume--></T>
+    <T>124005<!--DJBooth_Upgrade_VFXEmitter_completedDisplay--></T>
+    <T>123813<!--DJBooth_Upgrade_VideoScreen_SI--></T>
+    <T>123814<!--DJBooth_Upgrade_VideoScreen_resume--></T>
+    <T>124002<!--DJBooth_Upgrade_VideoScreen_completedDisplay--></T>
+    <T>123897<!--DJBooth_Upgrade_Telesplosion_SI--></T>
+    <T>123896<!--DJBooth_Upgrade_Telesplosion_resume--></T>
+    <T>124004<!--DJBooth_Upgrade_Telesplosion_completedDisplay--></T>
+    <T>128743<!--object_Knack_MakeAwesome_DJBooth--></T>
+    <T>126669<!--DJBooth_VFXSettings_0_Off--></T>
+    <T>126670<!--DJBooth_VFXSettings_1_Fog--></T>
+    <T>126671<!--DJBooth_VFXSettings_2_Lasers--></T>
+    <T>126672<!--DJBooth_VFXSettings_3_AllOn--></T>
+    <T>121626<!--DJBooth_Telesplosion_On--></T>
+    <T>121633<!--DJBooth_Telesplosion_Off--></T>
+    <T>13752<!--object_RepairElectrical--></T>
+    <T>129510<!--object_Hire_Repair_Service--></T>
+    <T>40055<!--object_Bane_Sabotage_StereoTV--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>124292<!--DJBooth_SetVolume_1_Low--></T>
+    <T>124294<!--DJBooth_SetVolume_2_Medium--></T>
+    <T>124293<!--DJBooth_SetVolume_3_High--></T>
+    <T>108781<!--crimeScene_CollectSample--></T>
+    <T>108780<!--crimeScene_DustForPrints--></T>
+    <T>108779<!--crimeScene_TakePicture--></T>
+    <T>123729<!--object_HireNPC_DJ--></T>
+    <T>123731<!--djbooth_HireSpecificNPC_Picker--></T>
+    <T>124277<!--object_HireNPC_DJ_level10--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>111810<!--herbalism_ElixirOfBurning_picker--></T>
+    <T>115812<!--crimeScene_TakeNotes--></T>
+    <T>276518<!--infant_WhatsThat--></T>
+    <T>328068<!--infant_WhatsThat_Immobile_InObject--></T>
+    <T>156936<!--generic_Object_Toddler_Check_Out_HighChair--></T>
+    <T>127025<!--djbooth_HireSpecificHeadlinerNPC_Picker--></T>
+    <T>159879<!--PetInvestigate_Fear_Stereo--></T>
+    <T>194052<!--picker_MusicProductionStation_PlayTrack--></T>
+    <T>159689<!--petInvestigate_Obsess_Watch_Stereo--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>393663<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Repair--></T>
+    <T>13319<!--debug_BreakObject--></T>
+    <T>13327<!--debug_RepairObject--></T>
+    <T>124453<!--DJBooth_Debug_Upgrade_Fireproof--></T>
+    <T>124448<!--DJBooth_Debug_Upgrade_Neverbreak--></T>
+    <T>124452<!--DJBooth_Debug_Upgrade_VFXEmitter--></T>
+    <T>124451<!--DJBooth_Debug_Upgrade_VideoScreen--></T>
+    <T>124449<!--DJBooth_Debug_Upgrade_Telesplosion--></T>
+    <T>144099<!--generic_Object_Toddler_Check_Out--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>99087<!--object_ReplaceBrokenObject--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <T n="_world_file_object_persists">True</T>
+  <T n="fire_retardant">True</T>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+  <V n="supported_posture_types" t="literal">
+    <L n="literal">
+      <U>
+        <T n="posture_type">121363<!--posture_DJBooth--></T>
+      </U>
+    </L>
+  </V>
+</I>

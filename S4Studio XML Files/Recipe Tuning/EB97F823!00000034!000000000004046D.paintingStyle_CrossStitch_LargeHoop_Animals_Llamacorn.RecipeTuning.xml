@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PaintingStyle" i="recipe" m="crafting.painting" n="paintingStyle_CrossStitch_LargeHoop_Animals_Llamacorn" s="263277">
+  <T n="_display_name">0x38B33FE6<!--Sims & Animals--></T>
+  <L n="_textures">
+    <U>
+      <T n="texture">263427<!--paintingTexture_CrossStitch_LargeHoop_Animals_Llamacorn--></T>
+    </U>
+  </L>
+</I>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Video.GlobalTuning" type="Object">
+      <T name="VirtualizationDistance">0</T>
+      <T name="PauseDistance">0</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Video.GlobalTuning" schema_hash="0xF5E38C77">
+      <Columns>
+        <Column name="VirtualizationDistance" type="Single" flags="0x00000000" />
+        <Column name="PauseDistance" type="Single" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

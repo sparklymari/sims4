@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_CAD_Target_Hidden" s="389344">
+  <L n="_loot_on_addition">
+    <T>390734<!--lootActions_Matchmaking_BlindDate_Introduction--></T>
+  </L>
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>393469<!--socials_Targeted_Friendly_CAD_TalkAboutMessingAround--></T>
+        <T>393467<!--socials_Targeted_Friendly_CAD_TalkAboutPhysicalIntimacy--></T>
+        <T>393466<!--socials_Targeted_Friendly_CAD_TalkAboutWoohoo--></T>
+        <T>364196<!--socials_Targeted_Friendly_CAD_TalkAboutAnimals--></T>
+        <T>363085<!--socials_Targeted_Friendly_CAD_TalkAboutBoardGames--></T>
+        <T>364706<!--socials_Targeted_Friendly_CAD_TalkAboutDancing--></T>
+        <T>359237<!--socials_Targeted_Friendly_CAD_TalkAboutDrinks--></T>
+        <T>364756<!--socials_Targeted_Friendly_CAD_TalkAboutExercise--></T>
+        <T>374797<!--socials_Targeted_Friendly_CAD_TalkAboutFishing--></T>
+        <T>359238<!--socials_Targeted_Friendly_CAD_TalkAboutFood--></T>
+        <T>364195<!--socials_Targeted_Friendly_CAD_TalkAboutGardening--></T>
+        <T>364194<!--socials_Targeted_Friendly_CAD_TalkAboutMusicalInstruments--></T>
+        <T>363558<!--socials_Targeted_Friendly_CAD_TalkAboutPainting--></T>
+        <T>364439<!--socials_Targeted_Friendly_CAD_TalkAboutPhoto--></T>
+        <T>363745<!--socials_Targeted_Friendly_CAD_TalkAboutReminisce--></T>
+        <T>364197<!--socials_Targeted_Friendly_CAD_TalkAboutSinging--></T>
+        <T>363977<!--socials_Targeted_Friendly_CAD_TalkAboutSkating--></T>
+        <T>364171<!--socials_Targeted_Friendly_CAD_TalkAboutSkyWatching--></T>
+        <T>359239<!--socials_Targeted_Friendly_CAD_TalkAboutSnow--></T>
+        <T>364757<!--socials_Targeted_Friendly_CAD_TalkAboutSwimming--></T>
+        <T>359240<!--socials_Targeted_Friendly_CAD_TalkAboutTV--></T>
+        <T>363202<!--socials_Targeted_Friendly_CAD_TalkAboutVideoGames--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <T n="visible">False</T>
+</I>

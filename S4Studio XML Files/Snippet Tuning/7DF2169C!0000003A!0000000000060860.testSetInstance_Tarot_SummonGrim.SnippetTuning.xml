@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_Tarot_SummonGrim" s="395360">
+  <L n="test">
+    <L>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">422575<!--collectTarotCardSingle_EP17GENcollector_set1_fool (The Fool)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427579<!--collectTarotCardSingle_EP17GENcollector_set10_hermit (The Hermit)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427580<!--collectTarotCardSingle_EP17GENcollector_set11_wheelOfFortune (The Wheel of Fortune)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427581<!--collectTarotCardSingle_EP17GENcollector_set12_justice (Justice)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427582<!--collectTarotCardSingle_EP17GENcollector_set13_suspension (Suspension)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427583<!--collectTarotCardSingle_EP17GENcollector_set14_temperance (Temperance)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427584<!--collectTarotCardSingle_EP17GENcollector_set15_evil (Evil)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427585<!--collectTarotCardSingle_EP17GENcollector_set16_tower (The Tower)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427586<!--collectTarotCardSingle_EP17GENcollector_set17_star (The Star)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427587<!--collectTarotCardSingle_EP17GENcollector_set18_moon (The Moon)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427588<!--collectTarotCardSingle_EP17GENcollector_set19_sun (The Sun)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427571<!--collectTarotCardSingle_EP17GENcollector_set2_magician (The Magician)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427589<!--collectTarotCardSingle_EP17GENcollector_set20_judgment (Judgment)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427590<!--collectTarotCardSingle_EP17GENcollector_set21_world (The World)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427591<!--collectTarotCardSingle_EP17GENcollector_set22_wands (Wands)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427592<!--collectTarotCardSingle_EP17GENcollector_set23_cups (Cups)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427593<!--collectTarotCardSingle_EP17GENcollector_set24_swords (Swords)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427594<!--collectTarotCardSingle_EP17GENcollector_set25_coins (Coins)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427572<!--collectTarotCardSingle_EP17GENcollector_set3_highSpellcaster (The High Spellcaster)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427573<!--collectTarotCardSingle_EP17GENcollector_set4_empress (The Empress)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427574<!--collectTarotCardSingle_EP17GENcollector_set5_emperor (The Emperor)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427575<!--collectTarotCardSingle_EP17GENcollector_set6_advocate (The Advocate)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427576<!--collectTarotCardSingle_EP17GENcollector_set7_lovers (The Lovers)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427577<!--collectTarotCardSingle_EP17GENcollector_set8_chariot (The Chariot)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+      <V t="inventory">
+        <U n="inventory">
+          <V n="contents_check" t="has_object_with_def">
+            <U n="has_object_with_def">
+              <T n="definition">427578<!--collectTarotCardSingle_EP17GENcollector_set9_strength (Strength)--></T>
+            </U>
+          </V>
+          <V n="inventory_location" t="participant_inventory" />
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x8DF1C31C<!--Once the 25 Tarot Cards in Ravenwood have been found, Summon Grim to aid you in your quest and complete the deck.--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

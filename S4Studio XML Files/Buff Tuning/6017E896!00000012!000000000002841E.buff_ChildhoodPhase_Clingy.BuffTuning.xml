@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_ChildhoodPhase_Clingy" s="164894">
+  <V n="_add_test_set" t="tests_set">
+    <L n="tests_set">
+      <L>
+        <V t="buff">
+          <U n="buff">
+            <L n="blacklist">
+              <T>164896<!--buff_ChildhoodPhase_PickyEater_A--></T>
+              <T>165204<!--buff_ChildhoodPhase_PickyEater_B--></T>
+              <T>165205<!--buff_ChildhoodPhase_PickyEater_C--></T>
+              <T>165206<!--buff_ChildhoodPhase_PickyEater_D--></T>
+              <T>165207<!--buff_ChildhoodPhase_PickyEater_E--></T>
+              <T>164899<!--buff_ChildhoodPhase_Rebellious--></T>
+              <T>164898<!--buff_ChildhoodPhase_MeanStreak--></T>
+              <T>164897<!--buff_ChildhoodPhase_Loud--></T>
+              <T>164895<!--buff_ChildhoodPhase_Distant--></T>
+              <T>164894<!--buff_ChildhoodPhase_Clingy--></T>
+              <T>164893<!--buff_ChildhoodPhase_Bear--></T>
+            </L>
+          </U>
+        </V>
+      </L>
+    </L>
+  </V>
+  <L n="_loot_on_addition">
+    <T>165029<!--loot_ChildhoodPhase_Commodity_Remove--></T>
+    <T>165217<!--loot_ChildhoodPhase_OnAddition_Clingy--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>165320<!--loot_ChildhoodPhase_RemoveTraits--></T>
+    <T>164844<!--loot_ChildhoodPhase_Commodity_Add--></T>
+  </L>
+  <V n="_temporary_commodity_info" t="enabled">
+    <U n="enabled">
+      <L n="categories">
+        <E>ChildhoodPhase_Buffs</E>
+      </L>
+      <T n="max_duration">4320</T>
+    </U>
+  </V>
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13991<!--sim_BeAffectionate--></T>
+      <L n="value">
+        <T>165705<!--mixer_social_TakePictureTogether_targeted_Friendly_alwaysOn_ChildhoodPhase_Clingy--></T>
+        <T>165707<!--mixer_social_LovingHug_ChildhoodPhase_Clingy--></T>
+        <T>165709<!--mixer_social_Hug_targeted_Friendly_MiddleScore_ChildhoodPhase_Clingy--></T>
+        <T>165690<!--mixer_social_ShareSecret_targeted_Friendly_HighScore_ChildhoodPhase_Clingy--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="provided_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>166058<!--socials_Targeted_ChildhoodPhase_AskAboutPhase--></T>
+      </L>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

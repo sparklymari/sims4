@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_ReapSoul" s="392051">
+  <T n="_cancel_on_travel">False</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP17\UI\Icons\Inventory\inventory_ghostSoul.png">2f7d0004:00000000:6e73338df0f8ee76</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x230604A2<!--Collect Soul--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x10EF87A<!--Select the deceased and use Lazy or Standard Collect Soul for an easier reap, or try a more challenging reap with Careful, Flamboyant or Grim-Level Collect Soul.--></T>
+      </V>
+    </U>
+  </V>
+  <L n="_goal_loot_list">
+    <T>402080<!--goalLoot_Career_Reaper_Reap_Initialize--></T>
+  </L>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>382380<!--career_Reaper_Sim_Collect--></T>
+      <T>402051<!--career_Reaper_Sim_CollectFlamboyant--></T>
+      <T>402052<!--career_Reaper_Sim_CollectGrimLevel--></T>
+      <T>402053<!--career_Reaper_Sim_CollectLazy--></T>
+      <T>402074<!--career_Reaper_Sim_CollectPrecision--></T>
+    </L>
+    <T n="consider_user_cancelled_as_failure">False</T>
+    <V n="interaction_outcome" t="enabled">
+      <E n="enabled">SUCCESS</E>
+    </V>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

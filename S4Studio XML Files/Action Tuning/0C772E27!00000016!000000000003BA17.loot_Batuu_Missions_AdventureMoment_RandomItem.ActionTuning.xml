@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Batuu_Missions_AdventureMoment_RandomItem" s="244247">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled">
+              <U n="enabled">
+                <L n="loot_actions">
+                  <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                </L>
+              </U>
+            </V>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240064<!--dataSpike_GP09GEN (Dataspike)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">242795<!--toyHand_GP09GENporg_set1 (Plush Porg)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">241825<!--toyHand_GP09GENewok_set1 (Plush Ewok)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246169<!--sculptTableSmall_GP09GENspira_set1 (Batuuan Spira)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239574<!--lightsaber_GP09GENpower_02 (Imposing Power and Control Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">25</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243105<!--lightsaber_GP09GENprotection_03 (Grand Protection and Defense Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243099<!--lightsaber_GP09GENpower_03 (Fateful Power and Control Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239843<!--collectCrystalKyber_GP09GEN_purple (Purple Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239845<!--collectCrystalKyber_GP09GEN_black (Black Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">1</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">75</T>
+                </U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243103<!--lightsaber_GP09GENprotection_02 (Commanding Protection and Defense Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239562<!--lightsaber_GP09GENelemental_02 (Dominant Elemental Nature Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239568<!--lightsaber_GP09GENpeace_02 (Noble Peace and Justice Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239570<!--lightsaber_GP09GENpeace_03 (Virtuous Peace and Justice Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239844<!--collectCrystalKyber_GP09GEN_yellow (Yellow Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239846<!--collectCrystalKyber_GP09GEN_white (White Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247188<!--sculptTableSmall_GP09GENdroidPersonalityChip_set1 (First Order Personality Chip FO-1)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247189<!--sculptTableSmall_GP09GENdroidPersonalityChip_set2 (Scoundrel Personality Chip S-02)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247190<!--sculptTableSmall_GP09GENdroidPersonalityChip_set3 (Scoundrel Personality Chip S-01)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247191<!--sculptTableSmall_GP09GENdroidPersonalityChip_set4 (First Order Personality Chip FO-2)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">20</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

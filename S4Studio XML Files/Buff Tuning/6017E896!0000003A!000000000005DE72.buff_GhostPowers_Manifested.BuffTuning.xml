@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_GhostPowers_Manifested" s="384626">
+  <L n="_loot_on_addition">
+    <T>392636<!--loot_GhostPowers_Abilities_SuppressNeeds2_Unlocked--></T>
+    <T>405695<!--loot_GhostPowers_Abilities_SuppressNeeds1_Unlocked--></T>
+  </L>
+  <L n="_loot_on_instance">
+    <T>392636<!--loot_GhostPowers_Abilities_SuppressNeeds2_Unlocked--></T>
+    <T>405695<!--loot_GhostPowers_Abilities_SuppressNeeds1_Unlocked--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>392637<!--loot_GhostPowers_Abilities_SuppressNeeds2_Locked--></T>
+    <T>405696<!--loot_GhostPowers_Abilities_SuppressNeeds1_Locked--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="autonomy_modifier">
+        <U n="autonomy_modifier">
+          <L n="commodities_to_add">
+            <T>393850<!--commodity_GhostPowers_Autonomy_Evil--></T>
+            <T>393848<!--commodity_GhostPowers_Autonomy_Good--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>385311<!--occultDebugInteractions_GhostPowers_AddPerks--></T>
+    <T>384979<!--ghostPowers_Abilities_Scary_Self_GhostlyBang--></T>
+    <T>391696<!--ghostPowers_Abilities_Scary_HauntingShriek--></T>
+    <T>391315<!--ghostPowers_Abilities_Chaos_DarkPresence_Distressing--></T>
+    <T>391313<!--ghostPowers_Abilities_Chaos_DarkPresence_Emotional--></T>
+    <T>393133<!--ghostPowers_Abilities_Comfort_PositivePresence_Assuring--></T>
+    <T>393122<!--ghostPowers_Abilities_Comfort_PositivePresence_Fun--></T>
+    <T>393121<!--ghostPowers_Abilities_Comfort_PositivePresence_Happy--></T>
+    <T>395000<!--ghostPowers_Abilities_Chaos_ProduceMaterial_Self--></T>
+    <T>401918<!--ghostPowers_Abilities_Comfort_PositivePresence_Assuring_NPC_Autonomous--></T>
+    <T>402004<!--ghostPowers_Abilities_Comfort_PositivePresence_Fun_NPC_Autonomous--></T>
+    <T>402005<!--ghostPowers_Abilities_Comfort_PositivePresence_Happy_NPC_Autonomous--></T>
+    <T>402009<!--ghostPowers_Abilities_Chaos_ProduceMaterial_Self_NPC_Autonmous--></T>
+    <T>402012<!--ghostPowers_Abilities_Scary_Self_GhostlyBang_NPC_Autonmous--></T>
+    <T>404215<!--occultDebugInteractions_GhostPowers_GiveEssence--></T>
+    <T>404280<!--ghostPowers_CAS_TattooRemove--></T>
+    <T>404218<!--ghostPowers_Abilities_Ult_CAS_Evil--></T>
+    <T>404217<!--ghostPowers_Abilities_Ult_CAS_Good--></T>
+  </L>
+  <L n="target_super_affordances">
+    <U>
+      <T n="affordance">391308<!--ghostPowers_Abilities_Scary_FlickerLights--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Build_Buy_NoAutonomy_Lights</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">422450<!--socialSI_GhostPowers_Scare_HauntingShriek--></T>
+    </U>
+    <U>
+      <T n="affordance">391838<!--socialSI_GhostPowers_MotiveEvil_Absorb_Energy--></T>
+    </U>
+    <U>
+      <T n="affordance">391840<!--socialSI_GhostPowers_MotiveEvil_Absorb_Fun--></T>
+    </U>
+    <U>
+      <T n="affordance">391833<!--socialSI_GhostPowers_MotiveEvil_Absorb_Hunger--></T>
+    </U>
+    <U>
+      <T n="affordance">391839<!--socialSI_GhostPowers_MotiveEvil_Absorb_Social--></T>
+    </U>
+    <U>
+      <T n="affordance">391905<!--socialSI_GhostPowers_MotiveEvil_Drain_Bladder--></T>
+    </U>
+    <U>
+      <T n="affordance">391907<!--socialSI_GhostPowers_MotiveEvil_Drain_Social--></T>
+    </U>
+    <U>
+      <T n="affordance">391906<!--socialSI_GhostPowers_MotiveEvil_Drain_Hygiene--></T>
+    </U>
+    <U>
+      <T n="affordance">391904<!--socialSI_GhostPowers_MotiveEvil_Drain_Energy--></T>
+    </U>
+    <U>
+      <T n="affordance">391861<!--socialSI_GhostPowers_MotiveEvil_Drain_Hunger--></T>
+    </U>
+    <U>
+      <T n="affordance">391908<!--socialSI_GhostPowers_MotiveEvil_Drain_Fun--></T>
+    </U>
+    <U>
+      <T n="affordance">391917<!--socialSI_GhostPowers_MotiveEvil_DrainLife--></T>
+    </U>
+    <U>
+      <T n="affordance">391701<!--ghostPowers_Abilities_Chaos_GiveNightmare--></T>
+    </U>
+    <U>
+      <T n="affordance">391761<!--ghostPowers_Abilities_Scary_LevitateSim_ActiveSim--></T>
+    </U>
+    <U>
+      <T n="affordance">391760<!--ghostPowers_Abilities_Scary_LevitateSim_NPC--></T>
+    </U>
+    <U>
+      <T n="affordance">421115<!--socialSI_GhostPowers_MotiveGood_DetectMood--></T>
+    </U>
+    <U>
+      <T n="affordance">392902<!--socialSI_GhostPowers_WarmEmbrace--></T>
+    </U>
+    <U>
+      <T n="affordance">393238<!--ghostPowers_Abilities_Comfort_GiveGoodDream--></T>
+    </U>
+    <U>
+      <T n="affordance">395068<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Life--></T>
+    </U>
+    <U>
+      <T n="affordance">395065<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Energy--></T>
+    </U>
+    <U>
+      <T n="affordance">395066<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Fun--></T>
+    </U>
+    <U>
+      <T n="affordance">395067<!--socialSI_GhostPowers_MotiveGood_AsktoGive_Social--></T>
+    </U>
+    <U>
+      <T n="affordance">393958<!--ghostPowers_Abilities_Ultimate_Curse--></T>
+    </U>
+    <U>
+      <T n="affordance">393957<!--ghostPowers_Abilities_Ultimate_GoodFortune--></T>
+    </U>
+    <U>
+      <T n="affordance">402006<!--ghostPowers_Abilities_Comfort_GiveGoodDream_NPC_Autonomous--></T>
+    </U>
+    <U>
+      <T n="affordance">402007<!--ghostPowers_Abilities_GhostNap_NPC_Autonomous--></T>
+      <V n="object_filter" t="filter_by_tags">
+        <U n="filter_by_tags">
+          <L n="tags">
+            <E>Func_GhostNap</E>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">402013<!--ghostPowers_Abilities_Chaos_GiveNightmare_NPC_Autonmous--></T>
+    </U>
+  </L>
+  <T n="visible">False</T>
+</I>

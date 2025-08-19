@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_AssigneeInfo" s="402781">
+  <T n="_cancel_on_travel">True</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InGame\UI\Icons\Headlines\Final\headline_book.png">2f7d0004:00000000:7a944bd8a480dcef</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x902B6245<!--Research Assignment--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x6958192F<!--Select a Bookshelf to Research Assignment for the day.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>400272<!--career_Reaper_AssigneeInfo--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <L n="_pre_tests">
+    <V t="zone">
+      <U n="zone">
+        <U n="zone_tests">
+          <V n="world_tests" t="enabled">
+            <U n="enabled">
+              <V n="whitelist" t="specify">
+                <U n="specify">
+                  <V n="threshold" t="all_must_match" />
+                  <L n="whitelist">
+                    <T>415479<!--HeadlessQuarters--></T>
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+        </U>
+      </U>
+    </V>
+  </L>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_MidlifeCrisis_Active_MoodPicker" s="321213">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321214<!--buff_MidlifeCrisis_RandomMood_Angry--></T>
+          </U>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321215<!--buff_MidlifeCrisis_RandomMood_Confident--></T>
+          </U>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321216<!--buff_MidlifeCrisis_RandomMood_Dazed--></T>
+          </U>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321217<!--buff_MidlifeCrisis_RandomMood_Energized--></T>
+          </U>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321218<!--buff_MidlifeCrisis_RandomMood_Flirty--></T>
+          </U>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321219<!--buff_MidlifeCrisis_RandomMood_Focused--></T>
+          </U>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321220<!--buff_MidlifeCrisis_RandomMood_Inspired--></T>
+          </U>
+          <L n="tests">
+            <L>
+              <V t="buff">
+                <U n="buff">
+                  <V n="whitelist" t="enabled">
+                    <L n="enabled">
+                      <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+                    </L>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321221<!--buff_MidlifeCrisis_RandomMood_Sad--></T>
+          </U>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <V n="buff_reason" t="enabled">
+              <T n="enabled">0x6BA6E86E<!--(From Contemplating Life)--></T>
+            </V>
+            <T n="buff_type">321222<!--buff_MidlifeCrisis_RandomMood_Scared--></T>
+          </U>
+        </U>
+      </V>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="buff">
+        <U n="buff">
+          <V n="whitelist" t="enabled">
+            <L n="enabled">
+              <T>313922<!--buff_MidlifeCrisis_Type_Adventure--></T>
+              <T>313923<!--buff_MidlifeCrisis_Type_Create--></T>
+              <T>313924<!--buff_MidlifeCrisis_Type_Relationship--></T>
+              <T>313925<!--buff_MidlifeCrisis_Type_Success--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

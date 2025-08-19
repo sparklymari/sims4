@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000035">
+  <Instances>
+    <I name="sentimentTrack_Actor_CloseTo_Target_ST_ThrowFootballBondingMoment" schema="SentimentTrack" type="Object">
+      <T name="display_in_sim_profile">0</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="SentimentTrack" schema_hash="0x053F72C1">
+      <Columns>
+        <Column name="display_in_sim_profile" type="Boolean" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

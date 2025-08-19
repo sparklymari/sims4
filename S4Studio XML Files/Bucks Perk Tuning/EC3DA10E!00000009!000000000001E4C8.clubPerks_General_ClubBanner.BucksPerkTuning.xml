@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="clubPerks_General_ClubBanner" s="124104">
+  <E n="associated_bucks_type">ClubBucks</E>
+  <T n="display_name">0x6EEF79E<!--Club Pennant--></T>
+  <U n="icon">
+    <T n="key" p="InEP02\UI\Icons\ClubRewards\ClubReward_ClubBanner.png">2f7d0004:00000000:57c46f0646442d0d</T>
+  </U>
+  <T n="perk_description">0x56880ED1<!--Represent your Club allegiance with your very own Club Pennant. Once purchased don't forget to put one in your house!--></T>
+  <L n="rewards">
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107118<!--sculptWall_EP02RWbannerClub_set1 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107105<!--sculptWall_EP02RWbannerClub_set2 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107117<!--sculptWall_EP02RWbannerClub_set3 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107115<!--sculptWall_EP02RWbannerClub_set4 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107108<!--sculptWall_EP02RWbannerClub_set5 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107114<!--sculptWall_EP02RWbannerClub_set6 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107112<!--sculptWall_EP02RWbannerClub_set7 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107104<!--sculptWall_EP02RWbannerClub_set8 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107111<!--sculptWall_EP02RWbannerClub_set9 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107110<!--sculptWall_EP02RWbannerClub_set10 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107109<!--sculptWall_EP02RWbannerClub_set11 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107113<!--sculptWall_EP02RWbannerClub_set12 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107107<!--sculptWall_EP02RWbannerClub_set13 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107106<!--sculptWall_EP02RWbannerClub_set14 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107116<!--sculptWall_EP02RWbannerClub_set15 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107119<!--sculptWall_EP02RWbannerClub_set16 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107120<!--sculptWall_EP02RWbannerClub_set17 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107121<!--sculptWall_EP02RWbannerClub_set18 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107122<!--sculptWall_EP02RWbannerClub_set19 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107123<!--sculptWall_EP02RWbannerClub_set20 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107128<!--sculptWall_EP02RWbannerClub_set21 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107124<!--sculptWall_EP02RWbannerClub_set22 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107125<!--sculptWall_EP02RWbannerClub_set23 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107126<!--sculptWall_EP02RWbannerClub_set24 (Club Pennant)--></T>
+      </U>
+    </V>
+    <V t="build_buy_object">
+      <U n="build_buy_object">
+        <T n="object_definition">107127<!--sculptWall_EP02RWbannerClub_set25 (Club Pennant)--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">300</T>
+</I>

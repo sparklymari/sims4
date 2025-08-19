@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_FamePerk_Influencer_GetPackageContent" s="193836">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="icon" t="enabled">
+                <V n="enabled" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InEP06\UI\Icons\Notifications\notification_Perk_Influencer.png">2f7d0004:00000000:bf6ef90e9165b723</T>
+                  </U>
+                </V>
+              </V>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x9B4A3EA8<!--The package contained a lovely gift from a fan! {0.SimFirstName} received...\n\n{2.String}\n\nIt can be found in {M0.his}{F0.her} personal inventory, or in the household inventory.--></T>
+              </V>
+              <V n="text_tokens" t="enabled">
+                <U n="enabled">
+                  <L n="tokens">
+                    <V t="participant_type" />
+                    <V t="participant_type">
+                      <U n="participant_type">
+                        <V n="objects" t="from_participant">
+                          <U n="from_participant">
+                            <E n="participant">Object</E>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </V>
+              <V n="title" t="enabled">
+                <T n="enabled">0xA43F7516<!--Gift From a Fan--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188855<!--collectPostcard_SP14PETadventure_set1 (Whiskerman's Wharf: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188856<!--collectPostcard_SP14PETadventure_set2 (Champ Les Sims: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188857<!--collectPostcard_SP14PETadventure_set3 (Al Simhara: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188858<!--collectPostcard_SP14PETadventure_set4 (Brindleton Bay: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188859<!--collectPostcard_SP14PETadventure_set5 (Windenburg: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188860<!--collectPostcard_SP14PETadventure_set6 (Sixam: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188861<!--collectPostcard_SP14PETadventure_set7 (Sylvan Glade: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30591<!--collectPostcardGENBent_01_littleHaven (Littlehaven: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30592<!--collectPostcardGENBent_01_luckyPalms (Lucky Palms: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30590<!--collectPostcardGENBent_01_riverview (Riverview: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30595<!--collectPostcardGENRounded_01_barnacleBay (Barnacle Bay: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30596<!--collectPostcardGENRounded_01_champsLesSims (Champs Les Sims: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30597<!--collectPostcardGENRounded_01_dragonValley (Dragon Valley: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30594<!--collectPostcardGENRounded_01_moonlightFalls (Moonlight Falls: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30601<!--collectPostcardGENStandard_01_appaloosaPlains (Appaloosa Plains:  Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30600<!--collectPostcardGENStandard_01_bridgeport (Bridgeport: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30604<!--collectPostcardGENStandard_01_islaParadiso (Isla Paradiso: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30602<!--collectPostcardGENStandard_01_lunarLakes (Lunar Lakes: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30603<!--collectPostcardGENStandard_01_midnightHollow (Midnight Hollow: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30598<!--collectPostcardGENStandard_01_sunsetValley (Sunset Valley: Postcard)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">30599<!--collectPostcardGENStandard_01_twinbrook (Twinbrook: Postcard)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29332<!--collectMySimsBuddy_01 (Buddy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29333<!--collectMySimsCandy_01 (DJ Candy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29342<!--collectMySimsCarl_01 (Zombie Carl)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29343<!--collectMySimsChaz_01 (Chaz McFreely)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29344<!--collectMySimsDrF_01 (Dr. F)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29345<!--collectMySimsElmira_01 (Elmira Clamp)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29346<!--collectMySimsGabby_01 (Ol' Gabby)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29347<!--collectMySimsGino_01 (Chef Gino)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29348<!--collectMySimsGonk_01 (Gonk)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29349<!--collectMySimsGothBoy_01 (Goth Boy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29350<!--collectMySimsHopper_01 (Hopper)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29351<!--collectMySimsJenny_01 (Jenny)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29334<!--collectMySimsLeaf_01 (Leaf)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29335<!--collectMySimsLyndsay_01 (Lyndsay)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29336<!--collectMySimsMorcubus_01 (Morcubus)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29337<!--collectMySimsPoppy_01 (Poppy)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29338<!--collectMySimsTobor_01 (TOBOR)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29339<!--collectMySimsTrevor_01 (Trevor Verily)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29340<!--collectMySimsViolet_01 (Violet)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">29341<!--collectMySimsYuki_01 (Yuki)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">165664<!--collectSeed_EF05GENspringSeed_set1 (Angry Magic Bean)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">165665<!--collectSeed_EF05GENspringSeed_set2 (Playful Magic Bean)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">165666<!--collectSeed_EF05GENspringSeed_set3 (Sad Magic Bean)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">165667<!--collectSeed_EF05GENspringSeed_set4 (Uncomfortable Magic Bean)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">165668<!--collectSeed_EF05GENspringSeed_set5 (Flirty Magic Bean)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">165669<!--collectSeed_EF05GENspringSeed_set6 (Confident Magic Bean)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188693<!--gardenFruit_EP05GENmoney ({S.Money Fruit}{P.Money Fruit})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82986<!--sculptTableMedium_EF03valentineBear_set1 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82995<!--sculptTableMedium_EF03valentineBear_set10 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82996<!--sculptTableMedium_EF03valentineBear_set11 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82987<!--sculptTableMedium_EF03valentineBear_set2 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82988<!--sculptTableMedium_EF03valentineBear_set3 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82989<!--sculptTableMedium_EF03valentineBear_set4 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82990<!--sculptTableMedium_EF03valentineBear_set5 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82991<!--sculptTableMedium_EF03valentineBear_set6 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82992<!--sculptTableMedium_EF03valentineBear_set7 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82993<!--sculptTableMedium_EF03valentineBear_set8 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">82994<!--sculptTableMedium_EF03valentineBear_set9 (The “Lots of Love” Bear)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61659<!--sculptTableGENCandles_01_earth04 (Caress Scented Candles)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61657<!--sculptTableGENCandles_01_regal02 (Caress Scented Candles)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46270<!--sculptTableGENCandles_01_set1 (Caress Scented Candles)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">46271<!--sculptTableGENCandles_01_set2 (Caress Scented Candles)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">61655<!--sculptTableGENCandles_01_Set3 (Caress Scented Candles)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">33418<!--recipe_Food_Homestyle_CookieChocolateChip-Large--></T>
+                      <L n="weighted_quality">
+                        <U>
+                          <T n="quality">15305<!--Quality_Outstanding--></T>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">15744<!--recipe_Food_Homestyle_ApplePie-Large--></T>
+                      <L n="weighted_quality">
+                        <U>
+                          <T n="quality">15305<!--Quality_Outstanding--></T>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                  <V t="specify_recipe">
+                    <U n="specify_recipe">
+                      <T n="recipe">29705<!--recipe_Food_Cupcake_RedVelvetPlate--></T>
+                      <L n="weighted_quality">
+                        <U>
+                          <T n="quality">15305<!--Quality_Outstanding--></T>
+                        </U>
+                      </L>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15323<!--Servings_LargeUntouched--></T>
+                  <T>26207<!--FreshChef_LockFreshness--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

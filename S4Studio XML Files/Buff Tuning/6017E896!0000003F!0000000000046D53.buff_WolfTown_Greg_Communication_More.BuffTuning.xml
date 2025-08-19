@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_WolfTown_Greg_Communication_More" s="290131">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="affordance_filters">
+        <U n="affordance_filters">
+          <V n="as_target" t="enabled">
+            <U n="enabled">
+              <V n="interaction_filters" t="enabled">
+                <U n="enabled">
+                  <V n="super_affordance_filter" t="enabled">
+                    <V n="enabled" t="by_affordance_filter">
+                      <U n="by_affordance_filter">
+                        <V n="affordance_filter" t="literal">
+                          <U n="literal">
+                            <V n="default_inclusion" t="include_all">
+                              <U n="include_all">
+                                <L n="exclude_lists">
+                                  <T>293985<!--affordanceList_Werewolf_NotAllowedOnGregOrRampage--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </V>
+              <V n="social_filters" t="enabled">
+                <U n="enabled">
+                  <V n="mixer_affordance_filter" t="enabled">
+                    <V n="enabled" t="by_affordance_filter">
+                      <U n="by_affordance_filter">
+                        <V n="affordance_filter" t="literal">
+                          <U n="literal">
+                            <V n="default_inclusion" t="exclude_all">
+                              <U n="exclude_all">
+                                <L n="include_lists">
+                                  <T>293993<!--affordanceList_Werewolf_AllowedOnGreg_Communicative--></T>
+                                  <T>293990<!--affordanceList_Werewolf_AllowedOnGreg_Toddler--></T>
+                                  <T>294900<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Friendly--></T>
+                                  <T>294904<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Funny--></T>
+                                  <T>294902<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Mean--></T>
+                                  <T>294903<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Mischief--></T>
+                                  <T>294901<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Romance--></T>
+                                  <T>122592<!--affordanceList_Woohoo--></T>
+                                  <T>331928<!--affordanceList_Werewolf_AllowedOnGreg_Infant--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </V>
+                  <V n="super_affordance_filter" t="enabled">
+                    <V n="enabled" t="by_affordance_filter">
+                      <U n="by_affordance_filter">
+                        <V n="affordance_filter" t="literal">
+                          <U n="literal">
+                            <V n="default_inclusion" t="exclude_all">
+                              <U n="exclude_all">
+                                <L n="include_lists">
+                                  <T>293993<!--affordanceList_Werewolf_AllowedOnGreg_Communicative--></T>
+                                  <T>293990<!--affordanceList_Werewolf_AllowedOnGreg_Toddler--></T>
+                                  <T>294900<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Friendly--></T>
+                                  <T>294904<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Funny--></T>
+                                  <T>294902<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Mean--></T>
+                                  <T>294903<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Mischief--></T>
+                                  <T>294901<!--affordanceList_Werewolf_AllowedOnGreg_Communicative_Romance--></T>
+                                  <T>122592<!--affordanceList_Woohoo--></T>
+                                  <T>331928<!--affordanceList_Werewolf_AllowedOnGreg_Infant--></T>
+                                </L>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </U>
+                    </V>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>290193<!--social_WolfTown_Greg_AskForGift--></T>
+  </L>
+  <T n="visible">False</T>
+</I>

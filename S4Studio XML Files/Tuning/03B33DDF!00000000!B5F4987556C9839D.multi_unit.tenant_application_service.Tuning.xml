@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="multi_unit.tenant_application_service" s="13111272044916999069">
+  <C n="TenantApplicationService">
+    <T n="BLACKLIST_HOUSEHOLD_FILTER">355627<!--Filter_TenantApplications_Blacklist--></T>
+    <L n="DESIRED_RENT_BOUNDS">
+      <U>
+        <T n="key">1</T>
+        <U n="value">
+          <T n="upper_bound">1</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">2</T>
+        <U n="value">
+          <T n="lower_bound">0.4</T>
+          <T n="upper_bound">1</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">3</T>
+        <U n="value">
+          <T n="lower_bound">0.5</T>
+          <T n="upper_bound">1</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">4</T>
+        <U n="value">
+          <T n="lower_bound">0.5</T>
+          <T n="upper_bound">1</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">5</T>
+        <U n="value">
+          <T n="lower_bound">0.7</T>
+          <T n="upper_bound">1</T>
+        </U>
+      </U>
+    </L>
+    <U n="DESIRED_RENT_MULTIPLIER">
+      <L n="multipliers">
+        <U>
+          <T n="multiplier">1.2</T>
+          <L n="tests">
+            <L>
+              <V t="simoleon_value">
+                <U n="simoleon_value">
+                  <U n="value_threshold">
+                    <T n="value">35000</T>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <T n="multiplier">0.8</T>
+          <L n="tests">
+            <L>
+              <V t="simoleon_value">
+                <U n="simoleon_value">
+                  <U n="value_threshold">
+                    <T n="value">19000</T>
+                  </U>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <T n="multiplier">1.1</T>
+          <L n="tests">
+            <L>
+              <V t="career_test">
+                <U n="career_test">
+                  <V n="test_type" t="career_reference">
+                    <U n="career_reference">
+                      <L n="career_list">
+                        <T>12893<!--career_Adult_Astronaut--></T>
+                        <T>106460<!--career_Adult_Business--></T>
+                        <T>107230<!--career_Adult_Active_Doctor--></T>
+                        <T>107255<!--career_Adult_Active_Scientist--></T>
+                        <T>217872<!--careers_Adult_Engineer--></T>
+                        <T>223298<!--careers_Adult_Law--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+            <L>
+              <V t="career_test">
+                <U n="career_test">
+                  <V n="test_type" t="career_reference">
+                    <U n="career_reference">
+                      <V n="user_level" t="enabled">
+                        <U n="enabled">
+                          <T n="lower_bound">5</T>
+                        </U>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+    <T n="HOMELESS_HOUSEHOLD_TENANT_FILTER">351981<!--Filter_TenantApplications--></T>
+    <L n="NUMBER_OF_POTENTIAL_HOUSEHOLDS">
+      <U>
+        <T n="key">1</T>
+        <U n="value">
+          <T n="lower_bound">2</T>
+          <T n="upper_bound">2</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">2</T>
+        <U n="value">
+          <T n="lower_bound">3</T>
+          <T n="upper_bound">5</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">3</T>
+        <U n="value">
+          <T n="lower_bound">4</T>
+          <T n="upper_bound">7</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">4</T>
+        <U n="value">
+          <T n="lower_bound">5</T>
+          <T n="upper_bound">8</T>
+        </U>
+      </U>
+      <U>
+        <T n="key">5</T>
+        <U n="value">
+          <T n="lower_bound">8</T>
+          <T n="upper_bound">12</T>
+        </U>
+      </U>
+    </L>
+    <T n="PREMADE_HOUSEHOLD_TEMPLATE_WEIGHT">4</T>
+    <L n="PREMADE_TENANT_HOUSEHOLD_TEMPLATES">
+      <T>351047<!--premadeHouseholdTemplate_EP15_TenantApplicants_BroadwayActor--></T>
+      <T>357938<!--PremadeHouseholdTemplate_EP15_TenantApplicants_WithPets_CatLady--></T>
+      <T>351045<!--premadeHouseholdTemplate_EP15_TenantApplicants_HotProfessional--></T>
+      <T>357962<!--PremadeHouseholdTemplate_EP15_TenantApplicants_WithPets_TrustFundBaby--></T>
+      <T>351044<!--premadeHouseholdTemplate_EP15_TenantApplicants_YingYangDuo--></T>
+      <T>357305<!--premadeHouseholdTemplate_EP15_TenantApplicants_BodyBuilder--></T>
+      <T>357287<!--premadeHouseholdTemplate_EP15_TenantApplicants_BrokeArtist--></T>
+      <T>357303<!--premadeHouseholdTemplate_EP15_TenantApplicants_Generational--></T>
+      <T>357307<!--premadeHouseholdTemplate_EP15_TenantApplicants_MidAge--></T>
+      <T>357302<!--premadeHouseholdTemplate_EP15_TenantApplicants_MultiBabies--></T>
+      <T>357301<!--premadeHouseholdTemplate_EP15_TenantApplicants_Newlyweds--></T>
+      <T>357306<!--premadeHouseholdTemplate_EP15_TenantApplicants_PunkRocker--></T>
+      <T>357304<!--premadeHouseholdTemplate_EP15_TenantApplicants_Retirees--></T>
+      <T>357288<!--premadeHouseholdTemplate_EP15_TenantApplicants_Roomies--></T>
+      <T>357300<!--premadeHouseholdTemplate_EP15_TenantApplicants_SecludedWriter--></T>
+      <T>357289<!--premadeHouseholdTemplate_EP15_TenantApplicants_SingleMom--></T>
+    </L>
+    <L n="RANDOM_TENANT_HOUSEHOLD_TEMPLATES">
+      <T>350662<!--HH_template_NPC_TenantApplicants_CoupleWithCat--></T>
+      <T>350663<!--HH_template_NPC_TenantApplicants_CoupleWithDog--></T>
+      <T>350674<!--HH_template_NPC_TenantApplicants_CoupleWithSmallDog--></T>
+      <T>350643<!--hH_template_NPC_TenantApplicants_Couple--></T>
+      <T>350718<!--hH_template_NPC_TenantApplicants_Couple_Poor--></T>
+      <T>350729<!--hH_template_NPC_TenantApplicants_Couple_Rich--></T>
+      <T>350699<!--HH_template_NPC_TenantApplicants_CoupleFamilyFF_Cat--></T>
+      <T>350700<!--HH_template_NPC_TenantApplicants_CoupleFamilyFF_Dog--></T>
+      <T>350702<!--HH_template_NPC_TenantApplicants_CoupleFamilyFF_Infant--></T>
+      <T>350701<!--HH_template_NPC_TenantApplicants_CoupleFamilyFF_SmallDog--></T>
+      <T>350703<!--HH_template_NPC_TenantApplicants_CoupleFamilyFF_Toddler--></T>
+      <T>350704<!--HH_template_NPC_TenantApplicants_CoupleFamilyFF_TwinToddler--></T>
+      <T>350732<!--hH_template_NPC_TenantApplicants_CoupleFamilyFF_Poor--></T>
+      <T>350731<!--hH_template_NPC_TenantApplicants_CoupleFamilyFF_Rich--></T>
+      <T>350698<!--HH_template_NPC_TenantApplicants_CoupleFamilyMF_Cat--></T>
+      <T>350655<!--HH_template_NPC_TenantApplicants_CoupleFamilyMF_Dog--></T>
+      <T>350696<!--HH_template_NPC_TenantApplicants_CoupleFamilyMF_SmallDog--></T>
+      <T>350644<!--HH_template_NPC_TenantApplicants_CoupleFamilyMF_Infant--></T>
+      <T>350645<!--HH_template_NPC_TenantApplicants_CoupleFamilyMF_Toddler--></T>
+      <T>350697<!--HH_template_NPC_TenantApplicants_CoupleFamilyMF_TwinToddler--></T>
+      <T>350736<!--hH_template_NPC_TenantApplicants_CoupleFamilyMF_Poor--></T>
+      <T>350735<!--hH_template_NPC_TenantApplicants_CoupleFamilyMF_Rich--></T>
+      <T>350705<!--HH_template_NPC_TenantApplicants_CoupleFamilyMM_Cat--></T>
+      <T>350706<!--HH_template_NPC_TenantApplicants_CoupleFamilyMM_Dog--></T>
+      <T>350707<!--HH_template_NPC_TenantApplicants_CoupleFamilyMM_SmallDog--></T>
+      <T>350708<!--HH_template_NPC_TenantApplicants_CoupleFamilyMM_Infant--></T>
+      <T>350709<!--HH_template_NPC_TenantApplicants_CoupleFamilyMM_Toddler--></T>
+      <T>350710<!--HH_template_NPC_TenantApplicants_CoupleFamilyMM_TwinToddler--></T>
+      <T>350740<!--hH_template_NPC_TenantApplicants_CoupleFamilyMM_Poor--></T>
+      <T>350739<!--hH_template_NPC_TenantApplicants_CoupleFamilyMM_Rich--></T>
+      <T>350711<!--HH_template_NPC_TenantApplicants_GenerationalFamily_FPatriarch--></T>
+      <T>350712<!--HH_template_NPC_TenantApplicants_GenerationalFamily_MPatriarch--></T>
+      <T>350715<!--HH_template_NPC_TenantApplicants_Roomies_Dog--></T>
+      <T>350714<!--HH_template_NPC_TenantApplicants_Roomies_Cat--></T>
+      <T>350716<!--HH_template_NPC_TenantApplicants_Roomies_SmallDog--></T>
+      <T>350743<!--hH_template_NPC_TenantApplicants_Roomies--></T>
+      <T>350745<!--hH_template_NPC_TenantApplicants_Roomies_Poor--></T>
+      <T>350744<!--hH_template_NPC_TenantApplicants_Roomies_Rich--></T>
+      <T>350651<!--HH_template_NPC_TenantApplicants_SimSingle_Cat--></T>
+      <T>350652<!--HH_template_NPC_TenantApplicants_SimSingle_Cats--></T>
+      <T>350653<!--HH_template_NPC_TenantApplicants_SimSingle_Dog--></T>
+      <T>350654<!--HH_template_NPC_TenantApplicants_SimSingle_Dogs--></T>
+      <T>350675<!--HH_template_NPC_TenantApplicants_SimSingle_SmallDog--></T>
+      <T>350676<!--HH_template_NPC_TenantApplicants_SimSingle_SmallDogs--></T>
+      <T>350646<!--hH_template_NPC_TenantApplicants_SimSingle--></T>
+      <T>350748<!--hH_template_NPC_TenantApplicants_SimSingle_Poor--></T>
+      <T>350747<!--hH_template_NPC_TenantApplicants_SimSingle_Rich--></T>
+    </L>
+  </C>
+</M>

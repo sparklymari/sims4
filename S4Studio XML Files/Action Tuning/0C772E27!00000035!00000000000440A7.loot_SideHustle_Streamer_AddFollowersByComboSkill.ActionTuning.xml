@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_SideHustle_Streamer_AddFollowersByComboSkill" s="278695">
+  <L n="loot_actions">
+    <V t="actions">
+      <T n="actions">278689<!--randomWeightedLoot_SideHustle_Streamer_FollowersByComboSkill_LowLow--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">278690<!--randomWeightedLoot_SideHustle_Streamer_FollowersByComboSkill_HighHigh--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">278691<!--randomWeightedLoot_SideHustle_Streamer_FollowersByComboSkill_LowMed--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">278692<!--randomWeightedLoot_SideHustle_Streamer_FollowersByComboSkill_LowHigh--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">278693<!--randomWeightedLoot_SideHustle_Streamer_FollowersByComboSkill_MedMed--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">278694<!--randomWeightedLoot_SideHustle_Streamer_FollowersByComboSkill_MedHigh--></T>
+    </V>
+  </L>
+</I>

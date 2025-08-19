@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003A">
+  <Instances>
+    <I name="uuCASPart_FullBody_pfBody_EP17CrowOnesie" schema="Client_CASThumbnailCamera" type="Object">
+      <T name="CameraPosition">1.5032195,0.9230865,3.2096033</T>
+      <T name="TargetPosition">0.020652626,0.51940125,0.029172018</T>
+      <T name="CameraFOV">10</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Client_CASThumbnailCamera" schema_hash="0x5C3D3343">
+      <Columns>
+        <Column name="CameraPosition" type="Float3" flags="0x00000000" />
+        <Column name="TargetPosition" type="Float3" flags="0x00000000" />
+        <Column name="CameraFOV" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

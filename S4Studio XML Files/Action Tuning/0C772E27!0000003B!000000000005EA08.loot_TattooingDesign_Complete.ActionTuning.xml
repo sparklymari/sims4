@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_TattooingDesign_Complete" s="387592">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xB80A84E2<!--(From Creating Masterpiece Tattoo Design)--></T>
+          </V>
+          <T n="buff_type">387591<!--buff_TattooingDesign_Masterpiece--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_states">
+                  <U n="has_object_with_states">
+                    <L n="state_set">
+                      <T>15247<!--Masterwork_Masterwork--></T>
+                    </L>
+                  </U>
+                </V>
+                <V n="inventory_location" t="participant_inventory">
+                  <U n="participant_inventory">
+                    <E n="inventory">Object</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x3E867FDD<!--(From Creating Excellent Tattoo Design)--></T>
+          </V>
+          <T n="buff_type">387590<!--buff_TattooingDesign_Excellent--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_states">
+                  <U n="has_object_with_states">
+                    <L n="state_set">
+                      <T>15305<!--Quality_Outstanding--></T>
+                    </L>
+                  </U>
+                </V>
+                <V n="inventory_location" t="participant_inventory">
+                  <U n="participant_inventory">
+                    <E n="inventory">Object</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x7945DC0E<!--(From Creating Normal Tattoo Design)--></T>
+          </V>
+          <T n="buff_type">387589<!--buff_TattooingDesign_Normal--></T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="inventory">
+              <U n="inventory">
+                <V n="contents_check" t="has_object_with_states">
+                  <U n="has_object_with_states">
+                    <L n="state_set">
+                      <T>15304<!--Quality_Normal--></T>
+                    </L>
+                  </U>
+                </V>
+                <V n="inventory_location" t="participant_inventory">
+                  <U n="participant_inventory">
+                    <E n="inventory">Object</E>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="actions">
+      <T n="actions">389941<!--loot_Tattooing_SketchpadUnlocks_CabbageNymph--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389945<!--loot_Tattooing_SketchpadUnlocks_Bandito--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389946<!--loot_Tattooing_SketchpadUnlocks_BotanicalCollarbone--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389948<!--loot_Tattooing_SketchpadUnlocks_BotanicalHairline--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389942<!--loot_Tattooing_SketchpadUnlocks_BotanicalHip--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389947<!--loot_Tattooing_SketchpadUnlocks_BotanicalTailbone--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389949<!--loot_Tattooing_SketchpadUnlocks_BotanicalWrist--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389950<!--loot_Tattooing_SketchpadUnlocks_CelticKnot--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389944<!--loot_Tattooing_SketchpadUnlocks_OccultSnake--></T>
+    </V>
+    <V t="actions">
+      <T n="actions">389943<!--loot_Tattooing_SketchpadUnlocks_Magpies--></T>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherSeasonalForecasts" i="snippet" m="snippets" n="weatherSeasonalForecasts_Fall_University" s="208833">
+  <L n="value">
+    <U>
+      <E n="key">EARLY</E>
+      <T n="value">208818<!--weatherForcastList_Fall_UniversityWorld_Early--></T>
+    </U>
+    <U>
+      <E n="key">LATE</E>
+      <T n="value">208819<!--weatherForcastList_Fall_UniversityWorld_Mid--></T>
+    </U>
+    <U>
+      <E n="key">MID</E>
+      <T n="value">208820<!--weatherForcastList_Fall_UniversityWorld_Late--></T>
+    </U>
+  </L>
+</I>

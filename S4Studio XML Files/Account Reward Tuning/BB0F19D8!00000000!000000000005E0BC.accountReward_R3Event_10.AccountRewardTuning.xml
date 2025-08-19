@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R3Event_10" s="385212">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Rewards\GrimEvent_CASShirt_Large.png">2f7d0004:00000000:4717091e9509f096</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445348<!--yfTop_EF61Goth_FlowerBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445349<!--yfTop_EF61Goth_GraveBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445350<!--yfTop_EF61Goth_SkullBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445351<!--yfTop_EF61Goth_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445352<!--yfTop_EF61Goth_SolidPurple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445353<!--yfTop_EF61Goth_SolidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445354<!--yfTop_EF61Goth_SolidTeal--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">445355<!--yfTop_EF61Goth_SpiderBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443305<!--ymTop_EF61Goth_FlowerBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443306<!--ymTop_EF61Goth_GraveBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443307<!--ymTop_EF61Goth_SkullBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443308<!--ymTop_EF61Goth_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443309<!--ymTop_EF61Goth_SolidPurple--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443310<!--ymTop_EF61Goth_SolidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443312<!--ymTop_EF61Goth_SolidTeal--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">443311<!--ymTop_EF61Goth_SpiderBlack--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0xBD933C25<!--Find this item under Tops in Create a Sim, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x3CFC80B4<!--Embrace the night in this elegant, goth-chic button-up.--></T>
+  <T n="reward_name">0x3AFE3D1B<!--Trad Goth Button-Up--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\ThumbnailsFSI\GrimEvent_CASShirt_s.png">2f7d0004:00000000:582c98a9007da2d4</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Thumbnails\GrimEvent_CASShirt.png">2f7d0004:00000000:1faf06bc69d2fc16</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\GrimEvent\Thumbnails\GrimEvent_CASShirt.png">2f7d0004:00000000:1faf06bc69d2fc16</T>
+</I>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_OpenableWindow_Caught" s="283476">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>282992<!--buff_OpenableWindow_AcceptedEvent_CollegeParty--></T>
+          <T>283416<!--buff_OpenableWindow_AcceptedEvent_HangOut--></T>
+          <T>283415<!--buff_OpenableWindow_AcceptedEvent_Loitering--></T>
+          <T>283414<!--buff_OpenableWindow_AcceptedEvent_PopConcert--></T>
+          <T>283413<!--buff_OpenableWindow_AcceptedEvent_RMovie--></T>
+          <T>283412<!--buff_OpenableWindow_AcceptedEvent_SchoolGame--></T>
+          <T>283411<!--buff_OpenableWindow_AcceptedEvent_Sleepover--></T>
+        </L>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x3541F86C<!--(From Getting Caught)--></T>
+          </V>
+          <T n="buff_type">283442<!--buff_OpenableWindow_Caught--></T>
+        </U>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+  </L>
+</I>

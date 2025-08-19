@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="career_Reaper_Deliver" s="392220">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP17\UI\Icons\Headlines\headline_grim.png">2f7d0004:00000000:a5e03ad8bd05d471</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x8DC64477<!--Deliver Grimbrosia--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x7C883B19<!--Add Grimbrosia to Sim Inventory and Deliver Grimbrosia to Grim.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>382326<!--social_Career_Reaper_DeliverGrimbrosia--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

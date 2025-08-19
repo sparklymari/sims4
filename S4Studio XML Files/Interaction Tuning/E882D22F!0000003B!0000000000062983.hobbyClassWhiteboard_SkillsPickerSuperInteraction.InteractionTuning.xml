@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SkillStatePickerSuperInteraction" i="interaction" m="interactions.picker.skills_states_picker_interaction" n="hobbyClassWhiteboard_SkillsPickerSuperInteraction" s="403843">
+  <T n="_multi_surface">False</T>
+  <V n="_saveable" t="disabled" />
+  <T n="category">399762<!--pieMenuCategory_HobbyClassWhiteboard_EmployeeAllowed--></T>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0x6081D144<!--Enable Specific Employee Led Classes--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <V n="display_tooltip" t="enabled">
+    <T n="enabled">0xF64482D4<!--Select which specific Hobby Classes Non-Household Employees are allowed to run from this Whiteboard. Employees from {0.SimFirstName}'s Household are allowed to run any Hobby Class (as long as they meet the requirements).--></T>
+  </V>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="picker_dialog" t="recipe_picker">
+    <U n="recipe_picker">
+      <V n="column_sort_priorities" t="enabled">
+        <L n="enabled">
+          <T>0</T>
+        </L>
+      </V>
+      <L n="dialog_options">
+        <E>DISABLE_CLOSE_BUTTON</E>
+      </L>
+      <T n="display_funds">False</T>
+      <T n="display_ingredient_check">False</T>
+      <T n="hide_row_description">True</T>
+      <T n="is_sortable">True</T>
+      <V n="max_selectable" t="unlimited" />
+      <T n="min_selectable">0</T>
+      <L n="picker_columns">
+        <U>
+          <V n="label" t="enabled">
+            <T n="enabled">0x73B6D930<!--Skill--></T>
+          </V>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0x4623F19D<!--Sort by Skill Name. All selected Skills in the list will be allowed for Employees to host Classes on (as long as they meet the Age and Skill Level requirements).--></T>
+          </V>
+          <T n="width">200</T>
+        </U>
+        <U>
+          <E n="column_data_name">SKILL_LEVEL</E>
+          <E n="column_type">TEXT</E>
+          <V n="label" t="enabled">
+            <T n="enabled">0xC73D13AF<!--Owner Level--></T>
+          </V>
+          <V n="tooltip" t="enabled">
+            <T n="enabled">0xAD07BA1D<!--Sort by the Small Business owner's Skill Level. Employees may have a different Skill Level, and they need at least Level 5 in a Skill (Level 3 in a Minor Skill) to host a Hobby Class on it.--></T>
+          </V>
+          <T n="width">150</T>
+        </U>
+      </L>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <T n="pie_menu_priority">2</T>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="skills_states">
+    <U>
+      <T n="key">101920<!--statistic_Skill_AdultMajor_Herbalism--></T>
+      <U n="value">
+        <T n="disabled_state_value">398939<!--hobbyClassWhiteboard_EmployeeAllowed_Herbalism_No--></T>
+        <T n="enabled_state_value">398940<!--hobbyClassWhiteboard_EmployeeAllowed_Herbalism_Yes--></T>
+        <T n="state">399007<!--hobbyClassWhiteboard_EmployeeAllowed_Herbalism--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">104198<!--statistic_Skill_AdultMajor_Baking--></T>
+      <U n="value">
+        <T n="disabled_state_value">398897<!--hobbyClassWhiteboard_EmployeeAllowed_Baking_No--></T>
+        <T n="enabled_state_value">398898<!--hobbyClassWhiteboard_EmployeeAllowed_Baking_Yes--></T>
+        <T n="state">398986<!--hobbyClassWhiteboard_EmployeeAllowed_Baking--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">105774<!--statistic_Skill_AdultMajor_Photography--></T>
+      <U n="value">
+        <T n="disabled_state_value">398891<!--hobbyClassWhiteboard_EmployeeAllowed_Photography_No--></T>
+        <T n="enabled_state_value">398892<!--hobbyClassWhiteboard_EmployeeAllowed_Photography_Yes--></T>
+        <T n="state">398983<!--hobbyClassWhiteboard_EmployeeAllowed_Photography--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">117858<!--statistic_Skill_AdultMajor_Wellness--></T>
+      <U n="value">
+        <T n="disabled_state_value">398917<!--hobbyClassWhiteboard_EmployeeAllowed_Wellness_No--></T>
+        <T n="enabled_state_value">398918<!--hobbyClassWhiteboard_EmployeeAllowed_Wellness_Yes--></T>
+        <T n="state">398996<!--hobbyClassWhiteboard_EmployeeAllowed_Wellness--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">121612<!--statistic_Skill_AdultMajor_DJMixing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398949<!--hobbyClassWhiteboard_EmployeeAllowed_DJMixing_No--></T>
+        <T n="enabled_state_value">398950<!--hobbyClassWhiteboard_EmployeeAllowed_DJMixing_Yes--></T>
+        <T n="state">399012<!--hobbyClassWhiteboard_EmployeeAllowed_DJMixing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">128145<!--statistic_Skill_AdultMinor_Dancing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398913<!--hobbyClassWhiteboard_EmployeeAllowed_Dancing_No--></T>
+        <T n="enabled_state_value">398914<!--hobbyClassWhiteboard_EmployeeAllowed_Dancing_Yes--></T>
+        <T n="state">398994<!--hobbyClassWhiteboard_EmployeeAllowed_Dancing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">137811<!--statistic_Skill_AdultMajor_Singing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398899<!--hobbyClassWhiteboard_EmployeeAllowed_Singing_No--></T>
+        <T n="enabled_state_value">398900<!--hobbyClassWhiteboard_EmployeeAllowed_Singing_Yes--></T>
+        <T n="state">398987<!--hobbyClassWhiteboard_EmployeeAllowed_Singing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">149556<!--statistic_Skill_Hidden_VampireLore--></T>
+      <U n="value">
+        <T n="disabled_state_value">398919<!--hobbyClassWhiteboard_EmployeeAllowed_VampireLore_No--></T>
+        <T n="enabled_state_value">398920<!--hobbyClassWhiteboard_EmployeeAllowed_VampireLore_Yes--></T>
+        <T n="state">398997<!--hobbyClassWhiteboard_EmployeeAllowed_VampireLore--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">149665<!--statistic_Skill_AdultMajor_PipeOrgan--></T>
+      <U n="value">
+        <T n="disabled_state_value">398909<!--hobbyClassWhiteboard_EmployeeAllowed_PipeOrgan_No--></T>
+        <T n="enabled_state_value">398910<!--hobbyClassWhiteboard_EmployeeAllowed_PipeOrgan_Yes--></T>
+        <T n="state">398992<!--hobbyClassWhiteboard_EmployeeAllowed_PipeOrgan--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">158659<!--statistic_Skill_Bowling--></T>
+      <U n="value">
+        <T n="disabled_state_value">398927<!--hobbyClassWhiteboard_EmployeeAllowed_Bowling_No--></T>
+        <T n="enabled_state_value">398928<!--hobbyClassWhiteboard_EmployeeAllowed_Bowling_Yes--></T>
+        <T n="state">399001<!--hobbyClassWhiteboard_EmployeeAllowed_Bowling--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">160504<!--statistic_Skill_AdultMajor_Parenting--></T>
+      <U n="value">
+        <T n="disabled_state_value">398957<!--hobbyClassWhiteboard_EmployeeAllowed_Parenting_No--></T>
+        <T n="enabled_state_value">398958<!--hobbyClassWhiteboard_EmployeeAllowed_Parenting_Yes--></T>
+        <T n="state">399016<!--hobbyClassWhiteboard_EmployeeAllowed_Parenting--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">161190<!--statistic_Skill_AdultMajor_Veterinarian--></T>
+      <U n="value">
+        <T n="disabled_state_value">398945<!--hobbyClassWhiteboard_EmployeeAllowed_Veterinarian_No--></T>
+        <T n="enabled_state_value">398946<!--hobbyClassWhiteboard_EmployeeAllowed_Veterinarian_Yes--></T>
+        <T n="state">399010<!--hobbyClassWhiteboard_EmployeeAllowed_Veterinarian--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">161220<!--statistic_Skill_DogTraining--></T>
+      <U n="value">
+        <T n="disabled_state_value">398961<!--hobbyClassWhiteboard_EmployeeAllowed_DogTraining_No--></T>
+        <T n="enabled_state_value">398962<!--hobbyClassWhiteboard_EmployeeAllowed_DogTraining_Yes--></T>
+        <T n="state">399018<!--hobbyClassWhiteboard_EmployeeAllowed_DogTraining--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16659<!--skill_Fitness--></T>
+      <U n="value">
+        <T n="disabled_state_value">398889<!--hobbyClassWhiteboard_EmployeeAllowed_Fitness_No--></T>
+        <T n="enabled_state_value">398890<!--hobbyClassWhiteboard_EmployeeAllowed_Fitness_Yes--></T>
+        <T n="state">398982<!--hobbyClassWhiteboard_EmployeeAllowed_Fitness--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16695<!--statistic_Skill_AdultMajor_Bartending--></T>
+      <U n="value">
+        <T n="disabled_state_value">398859<!--hobbyClassWhiteboard_EmployeeAllowed_Bartending_No--></T>
+        <T n="enabled_state_value">398860<!--hobbyClassWhiteboard_EmployeeAllowed_Bartending_Yes--></T>
+        <T n="state">398967<!--hobbyClassWhiteboard_EmployeeAllowed_Bartending--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16698<!--statistic_Skill_AdultMajor_Comedy--></T>
+      <U n="value">
+        <T n="disabled_state_value">398863<!--hobbyClassWhiteboard_EmployeeAllowed_Comedy_No--></T>
+        <T n="enabled_state_value">398864<!--hobbyClassWhiteboard_EmployeeAllowed_Comedy_Yes--></T>
+        <T n="state">398969<!--hobbyClassWhiteboard_EmployeeAllowed_Comedy--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16699<!--statistic_Skill_AdultMajor_Charisma--></T>
+      <U n="value">
+        <T n="disabled_state_value">398853<!--hobbyClassWhiteboard_EmployeeAllowed_Charisma_No--></T>
+        <T n="enabled_state_value">398854<!--hobbyClassWhiteboard_EmployeeAllowed_Charisma_Yes--></T>
+        <T n="state">398964<!--hobbyClassWhiteboard_EmployeeAllowed_Charisma--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16700<!--statistic_Skill_AdultMajor_Gardening--></T>
+      <U n="value">
+        <T n="disabled_state_value">398855<!--hobbyClassWhiteboard_EmployeeAllowed_Gardening_No--></T>
+        <T n="enabled_state_value">398856<!--hobbyClassWhiteboard_EmployeeAllowed_Gardening_Yes--></T>
+        <T n="state">398965<!--hobbyClassWhiteboard_EmployeeAllowed_Gardening--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16701<!--statistic_Skill_AdultMajor_GourmetCooking--></T>
+      <U n="value">
+        <T n="disabled_state_value">398871<!--hobbyClassWhiteboard_EmployeeAllowed_GourmetCooking_No--></T>
+        <T n="enabled_state_value">398872<!--hobbyClassWhiteboard_EmployeeAllowed_GourmetCooking_Yes--></T>
+        <T n="state">398973<!--hobbyClassWhiteboard_EmployeeAllowed_GourmetCooking--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16702<!--statistic_Skill_AdultMajor_Guitar--></T>
+      <U n="value">
+        <T n="disabled_state_value">398883<!--hobbyClassWhiteboard_EmployeeAllowed_Guitar_No--></T>
+        <T n="enabled_state_value">398884<!--hobbyClassWhiteboard_EmployeeAllowed_Guitar_Yes--></T>
+        <T n="state">398979<!--hobbyClassWhiteboard_EmployeeAllowed_Guitar--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16703<!--statistic_Skill_AdultMajor_Programming--></T>
+      <U n="value">
+        <T n="disabled_state_value">398877<!--hobbyClassWhiteboard_EmployeeAllowed_Programming_No--></T>
+        <T n="enabled_state_value">398878<!--hobbyClassWhiteboard_EmployeeAllowed_Programming_Yes--></T>
+        <T n="state">398976<!--hobbyClassWhiteboard_EmployeeAllowed_Programming--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16704<!--statistic_Skill_AdultMajor_Handiness--></T>
+      <U n="value">
+        <T n="disabled_state_value">398857<!--hobbyClassWhiteboard_EmployeeAllowed_Handiness_No--></T>
+        <T n="enabled_state_value">398858<!--hobbyClassWhiteboard_EmployeeAllowed_Handiness_Yes--></T>
+        <T n="state">398966<!--hobbyClassWhiteboard_EmployeeAllowed_Handiness--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16705<!--statistic_Skill_AdultMajor_HomestyleCooking--></T>
+      <U n="value">
+        <T n="disabled_state_value">398873<!--hobbyClassWhiteboard_EmployeeAllowed_HomestyleCooking_No--></T>
+        <T n="enabled_state_value">398874<!--hobbyClassWhiteboard_EmployeeAllowed_HomestyleCooking_Yes--></T>
+        <T n="state">398974<!--hobbyClassWhiteboard_EmployeeAllowed_HomestyleCooking--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16706<!--statistic_Skill_AdultMajor_Logic--></T>
+      <U n="value">
+        <T n="disabled_state_value">398875<!--hobbyClassWhiteboard_EmployeeAllowed_Logic_No--></T>
+        <T n="enabled_state_value">398876<!--hobbyClassWhiteboard_EmployeeAllowed_Logic_Yes--></T>
+        <T n="state">398975<!--hobbyClassWhiteboard_EmployeeAllowed_Logic--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16707<!--statistic_Skill_AdultMajor_Mischief--></T>
+      <U n="value">
+        <T n="disabled_state_value">398881<!--hobbyClassWhiteboard_EmployeeAllowed_Mischief_No--></T>
+        <T n="enabled_state_value">398882<!--hobbyClassWhiteboard_EmployeeAllowed_Mischief_Yes--></T>
+        <T n="state">398978<!--hobbyClassWhiteboard_EmployeeAllowed_Mischief--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16708<!--statistic_Skill_AdultMajor_Painting--></T>
+      <U n="value">
+        <T n="disabled_state_value">398865<!--hobbyClassWhiteboard_EmployeeAllowed_Painting_No--></T>
+        <T n="enabled_state_value">398866<!--hobbyClassWhiteboard_EmployeeAllowed_Painting_Yes--></T>
+        <T n="state">398970<!--hobbyClassWhiteboard_EmployeeAllowed_Painting--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16709<!--statistic_Skill_AdultMajor_Piano--></T>
+      <U n="value">
+        <T n="disabled_state_value">398885<!--hobbyClassWhiteboard_EmployeeAllowed_Piano_No--></T>
+        <T n="enabled_state_value">398886<!--hobbyClassWhiteboard_EmployeeAllowed_Piano_Yes--></T>
+        <T n="state">398980<!--hobbyClassWhiteboard_EmployeeAllowed_Piano--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16710<!--statistic_Skill_AdultMajor_RocketScience--></T>
+      <U n="value">
+        <T n="disabled_state_value">398879<!--hobbyClassWhiteboard_EmployeeAllowed_RocketScience_No--></T>
+        <T n="enabled_state_value">398880<!--hobbyClassWhiteboard_EmployeeAllowed_RocketScience_Yes--></T>
+        <T n="state">398977<!--hobbyClassWhiteboard_EmployeeAllowed_RocketScience--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16712<!--statistic_Skill_AdultMajor_VideoGaming--></T>
+      <U n="value">
+        <T n="disabled_state_value">398861<!--hobbyClassWhiteboard_EmployeeAllowed_VideoGaming_No--></T>
+        <T n="enabled_state_value">398862<!--hobbyClassWhiteboard_EmployeeAllowed_VideoGaming_Yes--></T>
+        <T n="state">398968<!--hobbyClassWhiteboard_EmployeeAllowed_VideoGaming--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16713<!--statistic_Skill_AdultMajor_Violin--></T>
+      <U n="value">
+        <T n="disabled_state_value">398887<!--hobbyClassWhiteboard_EmployeeAllowed_Violin_No--></T>
+        <T n="enabled_state_value">398888<!--hobbyClassWhiteboard_EmployeeAllowed_Violin_Yes--></T>
+        <T n="state">398981<!--hobbyClassWhiteboard_EmployeeAllowed_Violin--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">16714<!--statistic_Skill_AdultMajor_Writing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398867<!--hobbyClassWhiteboard_EmployeeAllowed_Writing_No--></T>
+        <T n="enabled_state_value">398868<!--hobbyClassWhiteboard_EmployeeAllowed_Writing_Yes--></T>
+        <T n="state">398971<!--hobbyClassWhiteboard_EmployeeAllowed_Writing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">174237<!--statistic_Skill_AdultMajor_Archaeology--></T>
+      <U n="value">
+        <T n="disabled_state_value">398937<!--hobbyClassWhiteboard_EmployeeAllowed_Archaeology_No--></T>
+        <T n="enabled_state_value">398938<!--hobbyClassWhiteboard_EmployeeAllowed_Archaeology_Yes--></T>
+        <T n="state">399006<!--hobbyClassWhiteboard_EmployeeAllowed_Archaeology--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">174687<!--statistic_Skill_AdultMinor_LocalCulture--></T>
+      <U n="value">
+        <T n="disabled_state_value">398953<!--hobbyClassWhiteboard_EmployeeAllowed_LocalCulture_No--></T>
+        <T n="enabled_state_value">398954<!--hobbyClassWhiteboard_EmployeeAllowed_LocalCulture_Yes--></T>
+        <T n="state">399014<!--hobbyClassWhiteboard_EmployeeAllowed_LocalCulture--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">186703<!--statistic_Skill_AdultMajor_FlowerArranging--></T>
+      <U n="value">
+        <T n="disabled_state_value">410769<!--HobbyClassWhiteboard_EmployeeAllowed_FlowerArranging_No--></T>
+        <T n="enabled_state_value">410770<!--HobbyClassWhiteboard_EmployeeAllowed_FlowerArranging_Yes--></T>
+        <T n="state">410773<!--HobbyClassWhiteboard_EmployeeAllowed_FlowerArranging--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">192655<!--statistic_Skill_AdultMinor_MediaProduction--></T>
+      <U n="value">
+        <T n="disabled_state_value">398959<!--hobbyClassWhiteboard_EmployeeAllowed_MediaProduction_No--></T>
+        <T n="enabled_state_value">398960<!--hobbyClassWhiteboard_EmployeeAllowed_MediaProduction_Yes--></T>
+        <T n="state">399017<!--hobbyClassWhiteboard_EmployeeAllowed_MediaProduction--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">194727<!--statistic_Skill_AdultMajor_Acting--></T>
+      <U n="value">
+        <T n="disabled_state_value">398951<!--hobbyClassWhiteboard_EmployeeAllowed_Acting_No--></T>
+        <T n="enabled_state_value">398952<!--hobbyClassWhiteboard_EmployeeAllowed_Acting_Yes--></T>
+        <T n="state">399013<!--hobbyClassWhiteboard_EmployeeAllowed_Acting--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">217413<!--statistic_Skill_AdultMajor_Robotics--></T>
+      <U n="value">
+        <T n="disabled_state_value">398905<!--hobbyClassWhiteboard_EmployeeAllowed_Robotics_No--></T>
+        <T n="enabled_state_value">398906<!--hobbyClassWhiteboard_EmployeeAllowed_Robotics_Yes--></T>
+        <T n="state">398990<!--hobbyClassWhiteboard_EmployeeAllowed_Robotics--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">221014<!--statistic_Skill_AdultMajor_ResearchDebate--></T>
+      <U n="value">
+        <T n="disabled_state_value">398903<!--hobbyClassWhiteboard_EmployeeAllowed_ResearchDebate_No--></T>
+        <T n="enabled_state_value">398904<!--hobbyClassWhiteboard_EmployeeAllowed_ResearchDebate_Yes--></T>
+        <T n="state">398989<!--hobbyClassWhiteboard_EmployeeAllowed_ResearchDebate--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">231908<!--statistic_Skill_AdultMajor_Fabrication--></T>
+      <U n="value">
+        <T n="disabled_state_value">398907<!--hobbyClassWhiteboard_EmployeeAllowed_Fabrication_No--></T>
+        <T n="enabled_state_value">398908<!--hobbyClassWhiteboard_EmployeeAllowed_Fabrication_Yes--></T>
+        <T n="state">398991<!--hobbyClassWhiteboard_EmployeeAllowed_Fabrication--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">234806<!--statistic_Skill_AdultMinor_JuiceFizzing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398935<!--hobbyClassWhiteboard_EmployeeAllowed_JuiceFizzing_No--></T>
+        <T n="enabled_state_value">398936<!--hobbyClassWhiteboard_EmployeeAllowed_JuiceFizzing_Yes--></T>
+        <T n="state">399005<!--hobbyClassWhiteboard_EmployeeAllowed_JuiceFizzing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">239521<!--statistic_Skill_AdultMajor_Knitting--></T>
+      <U n="value">
+        <T n="disabled_state_value">410771<!--HobbyClassWhiteboard_EmployeeAllowed_Knitting_No--></T>
+        <T n="enabled_state_value">410772<!--HobbyClassWhiteboard_EmployeeAllowed_Knitting_Yes--></T>
+        <T n="state">410774<!--HobbyClassWhiteboard_EmployeeAllowed_Knitting--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">245613<!--statistic_Skill_AdultMajor_Skiing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398923<!--hobbyClassWhiteboard_EmployeeAllowed_Skiing_No--></T>
+        <T n="enabled_state_value">398924<!--hobbyClassWhiteboard_EmployeeAllowed_Skiing_Yes--></T>
+        <T n="state">398999<!--hobbyClassWhiteboard_EmployeeAllowed_Skiing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">245639<!--statistic_Skill_AdultMajor_RockClimbing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398929<!--hobbyClassWhiteboard_EmployeeAllowed_RockClimbing_No--></T>
+        <T n="enabled_state_value">398930<!--hobbyClassWhiteboard_EmployeeAllowed_RockClimbing_Yes--></T>
+        <T n="state">399002<!--hobbyClassWhiteboard_EmployeeAllowed_RockClimbing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">246054<!--statistic_Skill_AdultMajor_Snowboarding--></T>
+      <U n="value">
+        <T n="disabled_state_value">398925<!--hobbyClassWhiteboard_EmployeeAllowed_Snowboarding_No--></T>
+        <T n="enabled_state_value">398926<!--hobbyClassWhiteboard_EmployeeAllowed_Snowboarding_Yes--></T>
+        <T n="state">399000<!--hobbyClassWhiteboard_EmployeeAllowed_Snowboarding--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">255249<!--statistic_Skill_AdultMinor_Medium--></T>
+      <U n="value">
+        <T n="disabled_state_value">398941<!--hobbyClassWhiteboard_EmployeeAllowed_Medium_No--></T>
+        <T n="enabled_state_value">398942<!--hobbyClassWhiteboard_EmployeeAllowed_Medium_Yes--></T>
+        <T n="state">399008<!--hobbyClassWhiteboard_EmployeeAllowed_Medium--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">259758<!--statistic_Skill_CrossStitch--></T>
+      <U n="value">
+        <T n="disabled_state_value">398931<!--hobbyClassWhiteboard_EmployeeAllowed_CrossStitch_No--></T>
+        <T n="enabled_state_value">398932<!--hobbyClassWhiteboard_EmployeeAllowed_CrossStitch_Yes--></T>
+        <T n="state">399003<!--hobbyClassWhiteboard_EmployeeAllowed_CrossStitch--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">274197<!--statistic_Skill_AdultMinor_Entrepreneur--></T>
+      <U n="value">
+        <T n="disabled_state_value">398947<!--hobbyClassWhiteboard_EmployeeAllowed_Entrepreneur_No--></T>
+        <T n="enabled_state_value">398948<!--hobbyClassWhiteboard_EmployeeAllowed_Entrepreneur_Yes--></T>
+        <T n="state">399011<!--hobbyClassWhiteboard_EmployeeAllowed_Entrepreneur--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">315761<!--statistic_Skill_AdultMinor_RanchNectar--></T>
+      <U n="value">
+        <T n="disabled_state_value">398933<!--hobbyClassWhiteboard_EmployeeAllowed_RanchNectar_No--></T>
+        <T n="enabled_state_value">398934<!--hobbyClassWhiteboard_EmployeeAllowed_RanchNectar_Yes--></T>
+        <T n="state">399004<!--hobbyClassWhiteboard_EmployeeAllowed_RanchNectar--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">322708<!--statistic_Skill_AdultMajor_EquestrianSkill--></T>
+      <U n="value">
+        <T n="disabled_state_value">398915<!--hobbyClassWhiteboard_EmployeeAllowed_Equestrian_No--></T>
+        <T n="enabled_state_value">398916<!--hobbyClassWhiteboard_EmployeeAllowed_Equestrian_Yes--></T>
+        <T n="state">398995<!--hobbyClassWhiteboard_EmployeeAllowed_Equestrian--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">350972<!--statistic_Skill_AdultMajor_Gemology--></T>
+      <U n="value">
+        <T n="disabled_state_value">398921<!--hobbyClassWhiteboard_EmployeeAllowed_Gemology_No--></T>
+        <T n="enabled_state_value">398922<!--hobbyClassWhiteboard_EmployeeAllowed_Gemology_Yes--></T>
+        <T n="state">398998<!--hobbyClassWhiteboard_EmployeeAllowed_Gemology--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">368684<!--statistic_Skill_AdultMajor_Romance--></T>
+      <U n="value">
+        <T n="disabled_state_value">398955<!--hobbyClassWhiteboard_EmployeeAllowed_Romance_No--></T>
+        <T n="enabled_state_value">398956<!--hobbyClassWhiteboard_EmployeeAllowed_Romance_Yes--></T>
+        <T n="state">399015<!--hobbyClassWhiteboard_EmployeeAllowed_Romance--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">371129<!--statistic_Skill_AdultMajor_Pottery--></T>
+      <U n="value">
+        <T n="disabled_state_value">398895<!--hobbyClassWhiteboard_EmployeeAllowed_Pottery_No--></T>
+        <T n="enabled_state_value">398896<!--hobbyClassWhiteboard_EmployeeAllowed_Pottery_Yes--></T>
+        <T n="state">398985<!--hobbyClassWhiteboard_EmployeeAllowed_Pottery--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">371481<!--statistic_Skill_AdultMajor_Tattooing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398893<!--hobbyClassWhiteboard_EmployeeAllowed_Tattooing_No--></T>
+        <T n="enabled_state_value">398894<!--hobbyClassWhiteboard_EmployeeAllowed_Tattooing_Yes--></T>
+        <T n="state">398984<!--hobbyClassWhiteboard_EmployeeAllowed_Tattooing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">380495<!--statistic_Skill_AdultMinor_Thanatology--></T>
+      <U n="value">
+        <T n="disabled_state_value">398943<!--hobbyClassWhiteboard_EmployeeAllowed_Thanatology_No--></T>
+        <T n="enabled_state_value">398944<!--hobbyClassWhiteboard_EmployeeAllowed_Thanatology_Yes--></T>
+        <T n="state">399009<!--hobbyClassWhiteboard_EmployeeAllowed_Thanatology--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">39397<!--statistic_Skill_AdultMajor_Fishing--></T>
+      <U n="value">
+        <T n="disabled_state_value">398869<!--hobbyClassWhiteboard_EmployeeAllowed_Fishing_No--></T>
+        <T n="enabled_state_value">398870<!--hobbyClassWhiteboard_EmployeeAllowed_Fishing_Yes--></T>
+        <T n="state">398972<!--hobbyClassWhiteboard_EmployeeAllowed_Fishing--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">434909<!--statistic_Skill_NLS--></T>
+      <U n="value">
+        <T n="disabled_state_value">454645<!--hobbyClassWhiteboard_EmployeeAllowed_NLS_No--></T>
+        <T n="enabled_state_value">454644<!--hobbyClassWhiteboard_EmployeeAllowed_NLS_Yes--></T>
+        <T n="state">454643<!--hobbyClassWhiteboard_EmployeeAllowed_NLS--></T>
+      </U>
+    </U>
+    <U>
+      <T n="key">439222<!--statistic_Skill_AdultMajor_Apothecary--></T>
+      <U n="value">
+        <T n="disabled_state_value">445000<!--hobbyClassWhiteboard_EmployeeAllowed_Apothecary_No--></T>
+        <T n="enabled_state_value">445001<!--hobbyClassWhiteboard_EmployeeAllowed_Apothecary_Yes--></T>
+        <T n="state">480204<!--hobbyClassWhiteboard_EmployeeAllowed_Apothecary--></T>
+      </U>
+    </U>
+  </L>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="small_business_ownership_test" />
+    <V t="object_ownership">
+      <U n="object_ownership">
+        <T n="consider_renter_as_household_owner">False</T>
+      </U>
+    </V>
+  </L>
+</I>

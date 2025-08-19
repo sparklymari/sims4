@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_GreenScreen_StudioLot" s="193017">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="retail_component" t="disabled" />
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>193009<!--GreenScreen_Values_CowboysVsAliens--></T>
+              <T>193008<!--GreenScreen_Values_GOT--></T>
+              <T>193007<!--GreenScreen_Values_PirateWar--></T>
+              <T>193010<!--GreenScreen_Values_RomaticGarden--></T>
+              <T>193012<!--GreenScreen_Values_SingingInTheRain--></T>
+              <T>191887<!--GreenScreen_Values_SnowyGeneric--></T>
+              <T>193011<!--GreenScreen_Values_SuperHero--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>35296<!--GenericOnOff_On--></T>
+              </L>
+            </V>
+            <E n="trigger_operation">OR</E>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>193009<!--GreenScreen_Values_CowboysVsAliens--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193144<!--GreenScreen_SavedValues_CowboysVsAliens--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>193008<!--GreenScreen_Values_GOT--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193145<!--GreenScreen_SavedValues_GOT--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>193007<!--GreenScreen_Values_PirateWar--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193146<!--GreenScreen_SavedValues_PirateWar--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>193010<!--GreenScreen_Values_RomaticGarden--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193147<!--GreenScreen_SavedValues_RomaticGarden--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>193012<!--GreenScreen_Values_SingingInTheRain--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193148<!--GreenScreen_SavedValues_SingingInTheRain--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>191887<!--GreenScreen_Values_SnowyGeneric--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193149<!--GreenScreen_SavedValues_SnowyGeneric--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35297<!--GenericOnOff_Off--></T>
+              <T>193011<!--GreenScreen_Values_SuperHero--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193150<!--GreenScreen_SavedValues_SuperHero--></T>
+                <T>193166<!--greenScreen_Values_Large_Off--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193144<!--GreenScreen_SavedValues_CowboysVsAliens--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193009<!--GreenScreen_Values_CowboysVsAliens--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193145<!--GreenScreen_SavedValues_GOT--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193008<!--GreenScreen_Values_GOT--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193146<!--GreenScreen_SavedValues_PirateWar--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193007<!--GreenScreen_Values_PirateWar--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193147<!--GreenScreen_SavedValues_RomaticGarden--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193010<!--GreenScreen_Values_RomaticGarden--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193148<!--GreenScreen_SavedValues_SingingInTheRain--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193012<!--GreenScreen_Values_SingingInTheRain--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193149<!--GreenScreen_SavedValues_SnowyGeneric--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>191887<!--GreenScreen_Values_SnowyGeneric--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>35296<!--GenericOnOff_On--></T>
+              <T>193150<!--GreenScreen_SavedValues_SuperHero--></T>
+              <T>193166<!--greenScreen_Values_Large_Off--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>193011<!--GreenScreen_Values_SuperHero--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35296<!--GenericOnOff_On--></T>
+              </U>
+              <U>
+                <T n="key">35297<!--GenericOnOff_Off--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35297<!--GenericOnOff_Off--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">193166<!--greenScreen_Values_Large_Off--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">193146<!--GreenScreen_SavedValues_PirateWar--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>193078<!--GreenScreen_Picker_Custom--></T>
+    <T>193091<!--GreenScreen_StateChange_TurnOnOrOff--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <V n="flammable_area" t="placement_footprint">
+    <U n="placement_footprint">
+      <T n="use_largest_polygon">True</T>
+    </U>
+  </V>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

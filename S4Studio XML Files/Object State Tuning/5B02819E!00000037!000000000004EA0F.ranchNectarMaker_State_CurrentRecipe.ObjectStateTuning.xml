@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="ranchNectarMaker_State_CurrentRecipe" s="322063">
+  <L n="_values">
+    <T>322066<!--ranchNectarMaker_Values_CurrentRecipe_Apple--></T>
+    <T>322133<!--ranchNectarMaker_Values_CurrentRecipe_Energy--></T>
+    <T>322065<!--ranchNectarMaker_Values_CurrentRecipe_Grape--></T>
+    <T>322135<!--ranchNectarMaker_Values_CurrentRecipe_Life--></T>
+    <T>322134<!--ranchNectarMaker_Values_CurrentRecipe_Moonpetal--></T>
+    <T>322136<!--ranchNectarMaker_Values_CurrentRecipe_None--></T>
+    <T>322131<!--ranchNectarMaker_Values_CurrentRecipe_Plasma--></T>
+    <T>322129<!--ranchNectarMaker_Values_CurrentRecipe_Potato--></T>
+    <T>322128<!--ranchNectarMaker_Values_CurrentRecipe_Strawberry--></T>
+    <T>322127<!--ranchNectarMaker_Values_CurrentRecipe_Trash--></T>
+    <T>322132<!--ranchNectarMaker_Values_CurrentRecipe_Valerian--></T>
+    <T>322130<!--ranchNectarMaker_Values_CurrentRecipe_WildGrass--></T>
+    <T>323809<!--ranchNectarMaker_Values_CurrentRecipe_AnyBerry--></T>
+    <T>323810<!--ranchNectarMaker_Values_CurrentRecipe_AnyFruit--></T>
+  </L>
+</I>

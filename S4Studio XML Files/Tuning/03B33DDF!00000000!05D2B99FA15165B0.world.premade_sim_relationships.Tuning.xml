@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="world.premade_sim_relationships" s="419601810556282288">
+  <C n="PremadeSimRelationships">
+    <L n="RELATIONSHIP_MAP">
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126954<!--simTemplate_LunaVillareal--></T>
+        <T n="sim_b">126956<!--simTemplate_SergioRomeo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126954<!--simTemplate_LunaVillareal--></T>
+        <T n="sim_b">126953<!--simTemplate_SiobhanFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126954<!--simTemplate_LunaVillareal--></T>
+        <T n="sim_b">126955<!--simTemplate_SofiaBjergsen--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126955<!--simTemplate_SofiaBjergsen--></T>
+        <T n="sim_b">126953<!--simTemplate_SiobhanFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129893<!--loot_Relationship_Starting_NPC_SignificantOther--></T>
+        <T n="sim_a">126956<!--simTemplate_SergioRomeo--></T>
+        <T n="sim_b">126953<!--simTemplate_SiobhanFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126955<!--simTemplate_SofiaBjergsen--></T>
+        <T n="sim_b">126956<!--simTemplate_SergioRomeo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127811<!--simTemplate_MaxVillareal--></T>
+        <T n="sim_b">127810<!--simTemplate_MorganFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127813<!--simTemplate_UlrikeFaust--></T>
+        <T n="sim_b">127810<!--simTemplate_MorganFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127812<!--simTemplate_WolfgangMunch--></T>
+        <T n="sim_b">127810<!--simTemplate_MorganFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127811<!--simTemplate_MaxVillareal--></T>
+        <T n="sim_b">127813<!--simTemplate_UlrikeFaust--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127811<!--simTemplate_MaxVillareal--></T>
+        <T n="sim_b">127812<!--simTemplate_WolfgangMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127813<!--simTemplate_UlrikeFaust--></T>
+        <T n="sim_b">127812<!--simTemplate_WolfgangMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126972<!--simTemplate_GuntherMunch--></T>
+        <T n="sim_b">126974<!--simTemplate_HugoVillareal--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126972<!--simTemplate_GuntherMunch--></T>
+        <T n="sim_b">126975<!--simTemplate_MaaikeHaas--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126972<!--simTemplate_GuntherMunch--></T>
+        <T n="sim_b">126977<!--simTemplate_YukiBehr--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126974<!--simTemplate_HugoVillareal--></T>
+        <T n="sim_b">126975<!--simTemplate_MaaikeHaas--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126974<!--simTemplate_HugoVillareal--></T>
+        <T n="sim_b">126977<!--simTemplate_YukiBehr--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126975<!--simTemplate_MaaikeHaas--></T>
+        <T n="sim_b">126977<!--simTemplate_YukiBehr--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127816<!--simTemplate_DominicFyres--></T>
+        <T n="sim_b">127817<!--simTemplate_CandyBehr--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127816<!--simTemplate_DominicFyres--></T>
+        <T n="sim_b">127818<!--simTemplate_JoaquinLeChien--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127818<!--simTemplate_JoaquinLeChien--></T>
+        <T n="sim_b">127817<!--simTemplate_CandyBehr--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126968<!--simTemplate_ClaraBjergsen--></T>
+        <T n="sim_b">127952<!--simTemplate_MilaMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126968<!--simTemplate_ClaraBjergsen--></T>
+        <T n="sim_b">126974<!--simTemplate_HugoVillareal--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">126974<!--simTemplate_HugoVillareal--></T>
+        <T n="sim_b">127952<!--simTemplate_MilaMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127866<!--simTemplate_BjornBjergsen--></T>
+        <T n="sim_b">127952<!--simTemplate_MilaMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127866<!--simTemplate_BjornBjergsen--></T>
+        <T n="sim_b">127820<!--simTemplate_JacquesVillareal--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127866<!--simTemplate_BjornBjergsen--></T>
+        <T n="sim_b">127816<!--simTemplate_DominicFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127816<!--simTemplate_DominicFyres--></T>
+        <T n="sim_b">127952<!--simTemplate_MilaMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127820<!--simTemplate_JacquesVillareal--></T>
+        <T n="sim_b">127952<!--simTemplate_MilaMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127820<!--simTemplate_JacquesVillareal--></T>
+        <T n="sim_b">127816<!--simTemplate_DominicFyres--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127823<!--simTemplate_ElsaBjergsen--></T>
+        <T n="sim_b">127863<!--simTemplate_LucasMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127823<!--simTemplate_ElsaBjergsen--></T>
+        <T n="sim_b">127811<!--simTemplate_MaxVillareal--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127811<!--simTemplate_MaxVillareal--></T>
+        <T n="sim_b">127863<!--simTemplate_LucasMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127820<!--simTemplate_JacquesVillareal--></T>
+        <T n="sim_b">127812<!--simTemplate_WolfgangMunch--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">220512<!--premadeSimTemplate_DarrelCharm--></T>
+        <T n="sim_b">220795<!--premadeSimTemplate_GraceAnansi--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220520<!--premadeSimTemplate_EmiliaErnest--></T>
+        <T n="sim_b">220795<!--premadeSimTemplate_GraceAnansi--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220520<!--premadeSimTemplate_EmiliaErnest--></T>
+        <T n="sim_b">220799<!--premadeSimTemplate_TomaxCollette--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220823<!--premadeSimTemplate_SimeonSilversweater--></T>
+        <T n="sim_b">220822<!--premadeSimTemplate_MorgynEmber--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220822<!--premadeSimTemplate_MorgynEmber--></T>
+        <T n="sim_b">221201<!--premadeSimTemplate_LFaba--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">221201<!--premadeSimTemplate_LFaba--></T>
+        <T n="sim_b">220823<!--premadeSimTemplate_SimeonSilversweater--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220597<!--loot_Relationship_Starting_NPC_MildlyDisliked--></T>
+        <T n="sim_a">220505<!--premadeSimTemplate_MinervaCharm--></T>
+        <T n="sim_b">221201<!--premadeSimTemplate_LFaba--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220505<!--premadeSimTemplate_MinervaCharm--></T>
+        <T n="sim_b">220823<!--premadeSimTemplate_SimeonSilversweater--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">127820<!--simTemplate_JacquesVillareal--></T>
+        <T n="sim_b">126977<!--simTemplate_YukiBehr--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">220505<!--premadeSimTemplate_MinervaCharm--></T>
+        <T n="sim_b">220822<!--premadeSimTemplate_MorgynEmber--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">220512<!--premadeSimTemplate_DarrelCharm--></T>
+        <T n="sim_b">220823<!--premadeSimTemplate_SimeonSilversweater--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">220519<!--premadeSimTemplate_GemmaCharm--></T>
+        <T n="sim_b">221201<!--premadeSimTemplate_LFaba--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220795<!--premadeSimTemplate_GraceAnansi--></T>
+        <T n="sim_b">220822<!--premadeSimTemplate_MorgynEmber--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">220799<!--premadeSimTemplate_TomaxCollette--></T>
+        <T n="sim_b">220822<!--premadeSimTemplate_MorgynEmber--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">220520<!--premadeSimTemplate_EmiliaErnest--></T>
+        <T n="sim_b">220822<!--premadeSimTemplate_MorgynEmber--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220597<!--loot_Relationship_Starting_NPC_MildlyDisliked--></T>
+        <T n="sim_a">239576<!--premadeSimTemplate_KnoxGreenburg--></T>
+        <T n="sim_b">239577<!--premadeSimTemplate_BessSterling--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220597<!--loot_Relationship_Starting_NPC_MildlyDisliked--></T>
+        <T n="sim_a">239576<!--premadeSimTemplate_KnoxGreenburg--></T>
+        <T n="sim_b">239578<!--premadeSimTemplate_JulesRico--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">239583<!--premadeSimTemplate_FrancineSpencer--></T>
+        <T n="sim_b">239609<!--premadeSimTemplate_MaryGreenburg--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">239583<!--premadeSimTemplate_FrancineSpencer--></T>
+        <T n="sim_b">239610<!--premadeSimTemplate_BlossomGreenburg--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">239580<!--premadeSimTemplate_FayeHarris--></T>
+        <T n="sim_b">239585<!--premadeSimTemplate_YaseminTinker--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">239586<!--premadeSimTemplate_OliveTinker--></T>
+        <T n="sim_b">239582<!--premadeSimTemplate_GideonHarris--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220597<!--loot_Relationship_Starting_NPC_MildlyDisliked--></T>
+        <T n="sim_a">220512<!--premadeSimTemplate_DarrelCharm--></T>
+        <T n="sim_b">220799<!--premadeSimTemplate_TomaxCollette--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">254860<!--loot_PremadesSetup_EP10_Affluent_Commuter_01--></T>
+        <T n="sim_a">252231<!--premadeSimTemplate_EP10_Affluent_Mother--></T>
+        <T n="sim_b">252238<!--premadeSimTemplate_EP10_Commuter_Father--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">254858<!--loot_PremadesSetup_EP10_Affluent_Elder_01--></T>
+        <T n="sim_a">252230<!--premadeSimTemplate_EP10_Affluent_Father--></T>
+        <T n="sim_b">252234<!--premadeSimTemplate_EP10_Elder_Gfather--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">254859<!--loot_PremadesSetup_EP10_Affluent_Elder_02--></T>
+        <T n="sim_a">252232<!--premadeSimTemplate_EP10_Affluent_ChildT--></T>
+        <T n="sim_b">252235<!--premadeSimTemplate_EP10_Elder_GchildT--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">252534<!--loot_Sentiment_AddSentiment_Bitter_grudge_generic--></T>
+        <T n="sim_a">252234<!--premadeSimTemplate_EP10_Elder_Gfather--></T>
+        <T n="sim_b">252230<!--premadeSimTemplate_EP10_Affluent_Father--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">254861<!--loot_PremadesSetup_EP10_Elder_Affluent_01--></T>
+        <T n="sim_a">252236<!--premadeSimTemplate_EP10_Elder_Gmother--></T>
+        <T n="sim_b">252231<!--premadeSimTemplate_EP10_Affluent_Mother--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">252535<!--loot_Sentiment_AddSentiment_Adoring_generic_AboutTarget--></T>
+        <T n="sim_a">252235<!--premadeSimTemplate_EP10_Elder_GchildT--></T>
+        <T n="sim_b">252232<!--premadeSimTemplate_EP10_Affluent_ChildT--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265031<!--loot_PremadesSetup_EP11_SimonScott_AgnesCrumplebottom--></T>
+        <T n="sim_a">260167<!--premadeSimTemplate_EP11_SimonScott--></T>
+        <T n="sim_b">259306<!--premadeSimTemplate_EP11_AgnesCrumplebottom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265033<!--loot_PremadesSetup_EP11_IanMoody_AgathaCrumplebottom--></T>
+        <T n="sim_a">264805<!--premadeSimTemplate_EP11_IanMoody--></T>
+        <T n="sim_b">260162<!--premadeSimTemplate_EP11_AgathaCrumplebottom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265034<!--loot_PremadesSetup_EP11_MichaelBell_CeciliaKang--></T>
+        <T n="sim_a">260166<!--premadeSimTemplate_EP11_MichaelBell--></T>
+        <T n="sim_b">264804<!--premadeSimTemplate_EP11_CeciliaKang--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265035<!--loot_PremadesSetup_EP11_KimGoldbloom_MichaelBell--></T>
+        <T n="sim_a">260163<!--premadeSimTemplate_EP11_KimGoldbloom--></T>
+        <T n="sim_b">260166<!--premadeSimTemplate_EP11_MichaelBell--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265039<!--loot_PremadesSetup_EP11_ThomasWatson_RahmiWatson--></T>
+        <T n="sim_a">264799<!--premadeSimTemplate_EP11_ThomasWatson--></T>
+        <T n="sim_b">264800<!--premadeSimTemplate_EP11_RahmiWatson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265040<!--loot_PremadesSetup_EP11_RashidahWatson_RahulChopra--></T>
+        <T n="sim_a">264801<!--premadeSimTemplate_EP11_RashidahWatson--></T>
+        <T n="sim_b">260165<!--premadeSimTemplate_EP11_RahulChopra--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265044<!--loot_PremadesSetup_EP11_MairaWatson_KimGoldbloom--></T>
+        <T n="sim_a">264802<!--premadeSimTemplate_EP11_MairaWatson--></T>
+        <T n="sim_b">260163<!--premadeSimTemplate_EP11_KimGoldbloom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265048<!--loot_PremadesSetup_EP11_RahmiWatson_LavinaChopra--></T>
+        <T n="sim_a">264800<!--premadeSimTemplate_EP11_RahmiWatson--></T>
+        <T n="sim_b">260164<!--premadeSimTemplate_EP11_LavinaChopra--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">250613<!--loot_Sentiment_AddSentiment_Enamored_generic--></T>
+        <T n="sim_a">260165<!--premadeSimTemplate_EP11_RahulChopra--></T>
+        <T n="sim_b">264801<!--premadeSimTemplate_EP11_RashidahWatson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">265032<!--loot_PremadesSetup_EP11_SaraScott_AgnesCrumplebottom--></T>
+        <T n="sim_a">260168<!--premadeSimTemplate_EP11_SaraScott--></T>
+        <T n="sim_b">259306<!--premadeSimTemplate_EP11_AgnesCrumplebottom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">251172<!--loot_Sentiment_AddSentiment_Guilty_generic_AboutTargetSim--></T>
+        <T n="sim_a">260164<!--premadeSimTemplate_EP11_LavinaChopra--></T>
+        <T n="sim_b">264800<!--premadeSimTemplate_EP11_RahmiWatson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260168<!--premadeSimTemplate_EP11_SaraScott--></T>
+        <T n="sim_b">260162<!--premadeSimTemplate_EP11_AgathaCrumplebottom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260168<!--premadeSimTemplate_EP11_SaraScott--></T>
+        <T n="sim_b">260166<!--premadeSimTemplate_EP11_MichaelBell--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260168<!--premadeSimTemplate_EP11_SaraScott--></T>
+        <T n="sim_b">260163<!--premadeSimTemplate_EP11_KimGoldbloom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260168<!--premadeSimTemplate_EP11_SaraScott--></T>
+        <T n="sim_b">260164<!--premadeSimTemplate_EP11_LavinaChopra--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260168<!--premadeSimTemplate_EP11_SaraScott--></T>
+        <T n="sim_b">264805<!--premadeSimTemplate_EP11_IanMoody--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260167<!--premadeSimTemplate_EP11_SimonScott--></T>
+        <T n="sim_b">264799<!--premadeSimTemplate_EP11_ThomasWatson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">260167<!--premadeSimTemplate_EP11_SimonScott--></T>
+        <T n="sim_b">260163<!--premadeSimTemplate_EP11_KimGoldbloom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">264804<!--premadeSimTemplate_EP11_CeciliaKang--></T>
+        <T n="sim_b">264805<!--premadeSimTemplate_EP11_IanMoody--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">264799<!--premadeSimTemplate_EP11_ThomasWatson--></T>
+        <T n="sim_b">260162<!--premadeSimTemplate_EP11_AgathaCrumplebottom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">264799<!--premadeSimTemplate_EP11_ThomasWatson--></T>
+        <T n="sim_b">260163<!--premadeSimTemplate_EP11_KimGoldbloom--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">264805<!--premadeSimTemplate_EP11_IanMoody--></T>
+        <T n="sim_b">264800<!--premadeSimTemplate_EP11_RahmiWatson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">264806<!--premadeSimTemplate_EP11_DerekMcMillan--></T>
+        <T n="sim_b">260166<!--premadeSimTemplate_EP11_MichaelBell--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269849<!--loot_Relationship_Starting_NPC_Acquaintance_-10--></T>
+        <T n="sim_a">259306<!--premadeSimTemplate_EP11_AgnesCrumplebottom--></T>
+        <T n="sim_b">264801<!--premadeSimTemplate_EP11_RashidahWatson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269849<!--loot_Relationship_Starting_NPC_Acquaintance_-10--></T>
+        <T n="sim_a">259306<!--premadeSimTemplate_EP11_AgnesCrumplebottom--></T>
+        <T n="sim_b">260165<!--premadeSimTemplate_EP11_RahulChopra--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269849<!--loot_Relationship_Starting_NPC_Acquaintance_-10--></T>
+        <T n="sim_a">264800<!--premadeSimTemplate_EP11_RahmiWatson--></T>
+        <T n="sim_b">260165<!--premadeSimTemplate_EP11_RahulChopra--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">285911<!--loot_PremadesSetup_GP11_MateoMarkovic_ArnessaThebe--></T>
+        <T n="sim_a">278718<!--premadeSimTemplate_GP11_Markovic_Mateo--></T>
+        <T n="sim_b">278717<!--premadeSimTemplate_GP11_Laurent_ArnessaThebe--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">285912<!--loot_PremadesSetup_GP11_LuciaMarkovic_HectorLaurent--></T>
+        <T n="sim_a">278719<!--premadeSimTemplate_GP11_Markovic_Lucia--></T>
+        <T n="sim_b">278713<!--premadeSimTemplate_GP11_Laurent_Hector--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">285913<!--loot_PremadesSetup_GP11_Hilarylaurent_LuciaMarkovic--></T>
+        <T n="sim_a">278716<!--premadeSimTemplate_GP11_Laurent_Hilary--></T>
+        <T n="sim_b">278719<!--premadeSimTemplate_GP11_Markovic_Lucia--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">285914<!--loot_PremadesSetup_GP11_JaleelFaiz_DomiqueSoto--></T>
+        <T n="sim_a">278712<!--premadeSimTemplate_GP11_Jaleel_Faiz--></T>
+        <T n="sim_b">278721<!--premadeSimTemplate_GP11_Soto_Dominique--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">285915<!--loot_PremadesSetup_GP11_CamilleSoto_MateoMarkovic--></T>
+        <T n="sim_a">278722<!--premadeSimTemplate_GP11_Soto_Camille--></T>
+        <T n="sim_b">278718<!--premadeSimTemplate_GP11_Markovic_Mateo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289951<!--loot_PremadesSetup_WolfTown_Celene_Greg--></T>
+        <T n="sim_a">289888<!--premadeSimTemplate_WolfTown_CeleneLopez--></T>
+        <T n="sim_b">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289888<!--premadeSimTemplate_WolfTown_CeleneLopez--></T>
+        <T n="sim_b">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289888<!--premadeSimTemplate_WolfTown_CeleneLopez--></T>
+        <T n="sim_b">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289888<!--premadeSimTemplate_WolfTown_CeleneLopez--></T>
+        <T n="sim_b">289885<!--premadeSimTemplate_WolfTown_WolfgangWilder--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289953<!--loot_PremadesSetup_WolfTown_Lou_Celene--></T>
+        <T n="sim_a">289887<!--premadeSimTemplate_WolfTown_LouHowell--></T>
+        <T n="sim_b">289888<!--premadeSimTemplate_WolfTown_CeleneLopez--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289927<!--loot_PremadesSetup_WolfTown_Kristopher_Rory--></T>
+        <T n="sim_a">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+        <T n="sim_b">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">254853<!--loot_Relationship_Starting_NPC_CloseFriends--></T>
+        <T n="sim_a">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+        <T n="sim_b">289885<!--premadeSimTemplate_WolfTown_WolfgangWilder--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289947<!--loot_PremadesSetup_WolfTown_Jacob_Kristopher--></T>
+        <T n="sim_a">289884<!--premadeSimTemplate_WolfTown_JacobVolkov--></T>
+        <T n="sim_b">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289938<!--loot_PremadesSetup_WolfTown_Rory_Jacob--></T>
+        <T n="sim_a">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+        <T n="sim_b">289884<!--premadeSimTemplate_WolfTown_JacobVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+        <T n="sim_b">289887<!--premadeSimTemplate_WolfTown_LouHowell--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289946<!--loot_PremadesSetup_WolfTown_Lily_Greg--></T>
+        <T n="sim_a">289886<!--premadeSimTemplate_WolfTown_LilyZhu--></T>
+        <T n="sim_b">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">289886<!--premadeSimTemplate_WolfTown_LilyZhu--></T>
+        <T n="sim_b">289885<!--premadeSimTemplate_WolfTown_WolfgangWilder--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289954<!--loot_PremadesSetup_WolfTown_Greg_Other--></T>
+        <T n="sim_a">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+        <T n="sim_b">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289954<!--loot_PremadesSetup_WolfTown_Greg_Other--></T>
+        <T n="sim_a">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+        <T n="sim_b">289884<!--premadeSimTemplate_WolfTown_JacobVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289954<!--loot_PremadesSetup_WolfTown_Greg_Other--></T>
+        <T n="sim_a">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+        <T n="sim_b">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289954<!--loot_PremadesSetup_WolfTown_Greg_Other--></T>
+        <T n="sim_a">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+        <T n="sim_b">289887<!--premadeSimTemplate_WolfTown_LouHowell--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">289954<!--loot_PremadesSetup_WolfTown_Greg_Other--></T>
+        <T n="sim_a">289881<!--premadeSimTemplate_WolfTown_Greg--></T>
+        <T n="sim_b">289885<!--premadeSimTemplate_WolfTown_WolfgangWilder--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289888<!--premadeSimTemplate_WolfTown_CeleneLopez--></T>
+        <T n="sim_b">289886<!--premadeSimTemplate_WolfTown_LilyZhu--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+        <T n="sim_b">289886<!--premadeSimTemplate_WolfTown_LilyZhu--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">289882<!--premadeSimTemplate_WolfTown_KristopherVolkov--></T>
+        <T n="sim_b">289887<!--premadeSimTemplate_WolfTown_LouHowell--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+        <T n="sim_b">289886<!--premadeSimTemplate_WolfTown_LilyZhu--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289883<!--premadeSimTemplate_WolfTown_RoryOaklow--></T>
+        <T n="sim_b">289885<!--premadeSimTemplate_WolfTown_WolfgangWilder--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289887<!--premadeSimTemplate_WolfTown_LouHowell--></T>
+        <T n="sim_b">289884<!--premadeSimTemplate_WolfTown_JacobVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">269848<!--loot_Relationship_Starting_NPC_Acquaintance_10--></T>
+        <T n="sim_a">289885<!--premadeSimTemplate_WolfTown_WolfgangWilder--></T>
+        <T n="sim_b">289884<!--premadeSimTemplate_WolfTown_JacobVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">289886<!--premadeSimTemplate_WolfTown_LilyZhu--></T>
+        <T n="sim_b">289884<!--premadeSimTemplate_WolfTown_JacobVolkov--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">300482<!--loot_PremadesSetup_EP12_NoahKane_SidneyPrice--></T>
+        <T n="sim_a">300472<!--premadeSimTemplate_HS_NoahKane--></T>
+        <T n="sim_b">300402<!--premadeSimTemplate_HS_SidneyPrice--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">300484<!--loot_PremadesSetup_EP12_MollyPrescott_SidneyPrice--></T>
+        <T n="sim_a">300413<!--premadeSimTemplate_HS_MollyPrescott--></T>
+        <T n="sim_b">300402<!--premadeSimTemplate_HS_SidneyPrice--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">300483<!--loot_PremadesSetup_EP12_MollyPrescott_AshHarjo--></T>
+        <T n="sim_a">300413<!--premadeSimTemplate_HS_MollyPrescott--></T>
+        <T n="sim_b">300470<!--premadeSimTemplate_HS_AshHarjo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">300485<!--loot_PremadesSetup_EP12_AshHarjo_SidneyPrice--></T>
+        <T n="sim_a">300470<!--premadeSimTemplate_HS_AshHarjo--></T>
+        <T n="sim_b">300402<!--premadeSimTemplate_HS_SidneyPrice--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308630<!--loot_PremadesSetup_EP13_BayArea_AdharaMichaelson_IanRobles--></T>
+        <T n="sim_a">307808<!--premadeSimTemplate_EP13_MichaelsonTrent_AdharaMichaelson--></T>
+        <T n="sim_b">307805<!--premadeSimTemplate_EP13_Robles_IanRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308810<!--loot_PremadesSetup_EP13_BayArea_AurelioRobles_TalaRuano--></T>
+        <T n="sim_a">307806<!--premadeSimTemplate_EP13_Robles_AurelioRobles--></T>
+        <T n="sim_b">307845<!--premadeSimTemplate_EP13_RoblesRuano_TalaRuano--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308625<!--loot_PremadesSetup_EP13_BayArea_BerniceRobles_JayRobles--></T>
+        <T n="sim_a">307804<!--premadeSimTemplate_EP13_Robles_BerniceRobles--></T>
+        <T n="sim_b">307843<!--premadeSimTemplate_EP13_RoblesRuano_JayRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308811<!--loot_PremadesSetup_EP13_BayArea_BerniceRobles_TalaRuano--></T>
+        <T n="sim_a">307804<!--premadeSimTemplate_EP13_Robles_BerniceRobles--></T>
+        <T n="sim_b">307845<!--premadeSimTemplate_EP13_RoblesRuano_TalaRuano--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308624<!--loot_PremadesSetup_EP13_BayArea_BerniceRobles_XochitilLuna--></T>
+        <T n="sim_a">307804<!--premadeSimTemplate_EP13_Robles_BerniceRobles--></T>
+        <T n="sim_b">307847<!--premadeSimTemplate_EP13_LunaSullivan_XochitilLuna--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308627<!--loot_PremadesSetup_EP13_BayArea_DoliRuano_ChristopherMichaelson--></T>
+        <T n="sim_a">307844<!--premadeSimTemplate_EP13_RoblesRuano_DoliRuano--></T>
+        <T n="sim_b">307809<!--premadeSimTemplate_EP13_MichaelsonTrent_ChristopherMichaelson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308812<!--loot_PremadesSetup_EP13_BayArea_IanRobles_JayRobles--></T>
+        <T n="sim_a">307805<!--premadeSimTemplate_EP13_Robles_IanRobles--></T>
+        <T n="sim_b">307843<!--premadeSimTemplate_EP13_RoblesRuano_JayRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308631<!--loot_PremadesSetup_EP13_BayArea_IanRobles_XochitilLuna--></T>
+        <T n="sim_a">307805<!--premadeSimTemplate_EP13_Robles_IanRobles--></T>
+        <T n="sim_b">307847<!--premadeSimTemplate_EP13_LunaSullivan_XochitilLuna--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308629<!--loot_PremadesSetup_EP13_BayArea_IgnacioRobles_EleanorSullivan--></T>
+        <T n="sim_a">307803<!--premadeSimTemplate_EP13_Robles_IgnacioRobles--></T>
+        <T n="sim_b">307849<!--premadeSimTemplate_EP13_LunaSullivan_EleanorSullivan--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308809<!--loot_PremadesSetup_EP13_BayArea_IgnacioRobles_TalaRuano--></T>
+        <T n="sim_a">307803<!--premadeSimTemplate_EP13_Robles_IgnacioRobles--></T>
+        <T n="sim_b">307845<!--premadeSimTemplate_EP13_RoblesRuano_TalaRuano--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308807<!--loot_PremadesSetup_EP13_BayArea_JayRobles_AurelioRobles--></T>
+        <T n="sim_a">307843<!--premadeSimTemplate_EP13_RoblesRuano_JayRobles--></T>
+        <T n="sim_b">307806<!--premadeSimTemplate_EP13_Robles_AurelioRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308806<!--loot_PremadesSetup_EP13_BayArea_JayRobles_IgnacioRobles--></T>
+        <T n="sim_a">307843<!--premadeSimTemplate_EP13_RoblesRuano_JayRobles--></T>
+        <T n="sim_b">307803<!--premadeSimTemplate_EP13_Robles_IgnacioRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">308632<!--loot_PremadesSetup_EP13_BayArea_XochitilLuna_ChristopherMichaelson--></T>
+        <T n="sim_a">307847<!--premadeSimTemplate_EP13_LunaSullivan_XochitilLuna--></T>
+        <T n="sim_b">307809<!--premadeSimTemplate_EP13_MichaelsonTrent_ChristopherMichaelson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323594<!--loot_PremadesSetup_EP13_BayArea_BerniceRobles_AurelioRobles--></T>
+        <T n="sim_a">307804<!--premadeSimTemplate_EP13_Robles_BerniceRobles--></T>
+        <T n="sim_b">307806<!--premadeSimTemplate_EP13_Robles_AurelioRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323596<!--loot_PremadesSetup_EP13_BayArea_CelesteMichaelson_AtlasMichaelson--></T>
+        <T n="sim_a">307808<!--premadeSimTemplate_EP13_MichaelsonTrent_AdharaMichaelson--></T>
+        <T n="sim_b">307841<!--premadeSimTemplate_EP13_MichaelsonTrent_PenelopeMichaelson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323597<!--loot_PremadesSetup_EP13_BayArea_ChristopherMichaelson_AtlasMichaelson--></T>
+        <T n="sim_a">307809<!--premadeSimTemplate_EP13_MichaelsonTrent_ChristopherMichaelson--></T>
+        <T n="sim_b">307841<!--premadeSimTemplate_EP13_MichaelsonTrent_PenelopeMichaelson--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323599<!--loot_PremadesSetup_EP13_BayArea_DoliRuano_TalaRuano--></T>
+        <T n="sim_a">307844<!--premadeSimTemplate_EP13_RoblesRuano_DoliRuano--></T>
+        <T n="sim_b">307845<!--premadeSimTemplate_EP13_RoblesRuano_TalaRuano--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323601<!--loot_PremadesSetup_EP13_BayArea_EleanorSullivan_KarmineLuna--></T>
+        <T n="sim_a">307849<!--premadeSimTemplate_EP13_LunaSullivan_EleanorSullivan--></T>
+        <T n="sim_b">307848<!--premadeSimTemplate_EP13_LunaSullivan_KarmineLuna--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323595<!--loot_PremadesSetup_EP13_BayArea_IanRobles_AurelioRobles--></T>
+        <T n="sim_a">307805<!--premadeSimTemplate_EP13_Robles_IanRobles--></T>
+        <T n="sim_b">307806<!--premadeSimTemplate_EP13_Robles_AurelioRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323593<!--loot_PremadesSetup_EP13_BayArea_IgnacioRobles_AurelioRobles--></T>
+        <T n="sim_a">307803<!--premadeSimTemplate_EP13_Robles_IgnacioRobles--></T>
+        <T n="sim_b">307806<!--premadeSimTemplate_EP13_Robles_AurelioRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323592<!--loot_PremadesSetup_EP13_BayArea_IgnacioRobles_BerniceRobles--></T>
+        <T n="sim_a">307803<!--premadeSimTemplate_EP13_Robles_IgnacioRobles--></T>
+        <T n="sim_b">307804<!--premadeSimTemplate_EP13_Robles_BerniceRobles--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323598<!--loot_PremadesSetup_EP13_BayArea_JayRobles_TalaRuano--></T>
+        <T n="sim_a">307843<!--premadeSimTemplate_EP13_RoblesRuano_JayRobles--></T>
+        <T n="sim_b">307845<!--premadeSimTemplate_EP13_RoblesRuano_TalaRuano--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">323600<!--loot_PremadesSetup_EP13_BayArea_XochitlLuna_KarmineLuna--></T>
+        <T n="sim_a">307847<!--premadeSimTemplate_EP13_LunaSullivan_XochitilLuna--></T>
+        <T n="sim_b">307848<!--premadeSimTemplate_EP13_LunaSullivan_KarmineLuna--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">327575<!--loot_PremadesSetup_EP13_BayArea_IanRobles_TalaRuano--></T>
+        <T n="sim_a">307805<!--premadeSimTemplate_EP13_Robles_IanRobles--></T>
+        <T n="sim_b">307845<!--premadeSimTemplate_EP13_RoblesRuano_TalaRuano--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336406<!--loot_PremadesSetup_EP14_AnimalFamilySimChild_HorseTrainer--></T>
+        <T n="sim_a">335518<!--premadeSimTemplate_EP14_AnimalFamily_SimChild--></T>
+        <T n="sim_b">335507<!--premadeSimTemplate_EP14_HorseTrainer_Sim--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336405<!--loot_PremadesSetup_EP14_AnimalFamilySimChild_MysteriousRancher--></T>
+        <T n="sim_a">335518<!--premadeSimTemplate_EP14_AnimalFamily_SimChild--></T>
+        <T n="sim_b">334521<!--premadeSimTemplate_EP14_MysteriousRancher--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336409<!--loot_PremadesSetup_EP14_AnimalFamilySimChild_NectarFriendMaterialistic--></T>
+        <T n="sim_a">335518<!--premadeSimTemplate_EP14_AnimalFamily_SimChild--></T>
+        <T n="sim_b">335510<!--premadeSimTemplate_EP14_NectarFriend_Materialistic--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336407<!--loot_PremadesSetup_EP14_AnimalFamilySimChild_RanchParent--></T>
+        <T n="sim_a">335518<!--premadeSimTemplate_EP14_AnimalFamily_SimChild--></T>
+        <T n="sim_b">335519<!--premadeSimTemplate_EP14_AnimalFamily_RanchParent--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336403<!--loot_PremadesSetup_EP14_FamilyParent_AnimalFamilySimChild--></T>
+        <T n="sim_a">335520<!--premadeSimTemplate_EP14_AnimalFamily_FamilyParent--></T>
+        <T n="sim_b">335518<!--premadeSimTemplate_EP14_AnimalFamily_SimChild--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336401<!--loot_PremadesSetup_EP14_FamilyParent_HorseTrainer--></T>
+        <T n="sim_a">335520<!--premadeSimTemplate_EP14_AnimalFamily_FamilyParent--></T>
+        <T n="sim_b">335507<!--premadeSimTemplate_EP14_HorseTrainer_Sim--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336400<!--loot_PremadesSetup_EP14_FamilyParent_MysteriousRancher--></T>
+        <T n="sim_a">335520<!--premadeSimTemplate_EP14_AnimalFamily_FamilyParent--></T>
+        <T n="sim_b">334521<!--premadeSimTemplate_EP14_MysteriousRancher--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336404<!--loot_PremadesSetup_EP14_FamilyParent_RetiredHorseChampion--></T>
+        <T n="sim_a">335520<!--premadeSimTemplate_EP14_AnimalFamily_FamilyParent--></T>
+        <T n="sim_b">335522<!--premadeSimTemplate_EP14_RetiredHorseChampion_Sim--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336285<!--loot_PremadesSetup_EP14_HorseTrainer_RanchParent--></T>
+        <T n="sim_a">335507<!--premadeSimTemplate_EP14_HorseTrainer_Sim--></T>
+        <T n="sim_b">335519<!--premadeSimTemplate_EP14_AnimalFamily_RanchParent--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336395<!--loot_PremadesSetup_EP14_HorseTrainer_RetiredHorseChampion--></T>
+        <T n="sim_a">335507<!--premadeSimTemplate_EP14_HorseTrainer_Sim--></T>
+        <T n="sim_b">335522<!--premadeSimTemplate_EP14_RetiredHorseChampion_Sim--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336284<!--loot_PremadesSetup_EP14_MysteriousRancher_HorseTrainer--></T>
+        <T n="sim_a">334521<!--premadeSimTemplate_EP14_MysteriousRancher--></T>
+        <T n="sim_b">335507<!--premadeSimTemplate_EP14_HorseTrainer_Sim--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336413<!--loot_PremadesSetup_EP14_NectarFriendCreative_MysteriousRancher--></T>
+        <T n="sim_a">335509<!--premadeSimTemplate_EP14_NectarFriend_CreativeFriend--></T>
+        <T n="sim_b">334521<!--premadeSimTemplate_EP14_MysteriousRancher--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336414<!--loot_PremadesSetup_EP14_NectarFriendCreative_NectarFriendMaterialistic--></T>
+        <T n="sim_a">335509<!--premadeSimTemplate_EP14_NectarFriend_CreativeFriend--></T>
+        <T n="sim_b">335510<!--premadeSimTemplate_EP14_NectarFriend_Materialistic--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336410<!--loot_PremadesSetup_EP14_NectarFriendMaterialistic_MysteriousRancher--></T>
+        <T n="sim_a">335510<!--premadeSimTemplate_EP14_NectarFriend_Materialistic--></T>
+        <T n="sim_b">334521<!--premadeSimTemplate_EP14_MysteriousRancher--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336398<!--loot_PremadesSetup_EP14_RanchParent_FamilyParent--></T>
+        <T n="sim_a">335519<!--premadeSimTemplate_EP14_AnimalFamily_RanchParent--></T>
+        <T n="sim_b">335520<!--premadeSimTemplate_EP14_AnimalFamily_FamilyParent--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">336396<!--loot_PremadesSetup_EP14_RanchParent_MysteriousRancher--></T>
+        <T n="sim_a">335519<!--premadeSimTemplate_EP14_AnimalFamily_RanchParent--></T>
+        <T n="sim_b">334521<!--premadeSimTemplate_EP14_MysteriousRancher--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">350750<!--loot_PremadesSetup_EP15_FamilyParent_Linh--></T>
+        <T n="sim_a">348302<!--premadeSimTemplate_EP15_ThiLinh--></T>
+        <T n="sim_b">348360<!--premadeSimTemplate_EP15_ChanhLinh--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">350750<!--loot_PremadesSetup_EP15_FamilyParent_Linh--></T>
+        <T n="sim_a">348302<!--premadeSimTemplate_EP15_ThiLinh--></T>
+        <T n="sim_b">348361<!--premadeSimTemplate_EP15_ArturoLinh--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">350751<!--loot_PremadesSetup_EP15_FamilySibling_Linh--></T>
+        <T n="sim_a">348302<!--premadeSimTemplate_EP15_ThiLinh--></T>
+        <T n="sim_b">348362<!--premadeSimTemplate_EP15_LienSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353007<!--loot_PremadesSetup_EP15_Thi_Cam--></T>
+        <T n="sim_a">348302<!--premadeSimTemplate_EP15_ThiLinh--></T>
+        <T n="sim_b">348364<!--premadeSimTemplate_EP15_CamSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353004<!--loot_PremadesSetup_EP15_Lien_Cam--></T>
+        <T n="sim_a">348362<!--premadeSimTemplate_EP15_LienSadya--></T>
+        <T n="sim_b">348364<!--premadeSimTemplate_EP15_CamSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353006<!--loot_PremadesSetup_EP15_Lien_Alon--></T>
+        <T n="sim_a">348362<!--premadeSimTemplate_EP15_LienSadya--></T>
+        <T n="sim_b">348363<!--premadeSimTemplate_EP15_AlonSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">352997<!--loot_PremadesSetup_EP15_Kasem_Sud--></T>
+        <T n="sim_a">348304<!--premadeSimTemplate_EP15_KasemBunMa--></T>
+        <T n="sim_b">348357<!--premadeSimTemplate_EP15_SudBunMa--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">352998<!--loot_PremadesSetup_EP15_Kasem_Nin--></T>
+        <T n="sim_a">348304<!--premadeSimTemplate_EP15_KasemBunMa--></T>
+        <T n="sim_b">348306<!--premadeSimTemplate_EP15_NinBunMa--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">352999<!--loot_PremadesSetup_EP15_Chanh_Lien--></T>
+        <T n="sim_a">348360<!--premadeSimTemplate_EP15_ChanhLinh--></T>
+        <T n="sim_b">348362<!--premadeSimTemplate_EP15_LienSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353000<!--loot_PremadesSetup_EP15_Chanh_Cam--></T>
+        <T n="sim_a">348360<!--premadeSimTemplate_EP15_ChanhLinh--></T>
+        <T n="sim_b">348364<!--premadeSimTemplate_EP15_CamSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353001<!--loot_PremadesSetup_EP15_Chanh_Arturo--></T>
+        <T n="sim_a">348360<!--premadeSimTemplate_EP15_ChanhLinh--></T>
+        <T n="sim_b">348361<!--premadeSimTemplate_EP15_ArturoLinh--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">352996<!--loot_PremadesSetup_EP15_Bua_Kasem--></T>
+        <T n="sim_a">348305<!--premadeSimTemplate_EP15_BuaBunMa--></T>
+        <T n="sim_b">348304<!--premadeSimTemplate_EP15_KasemBunMa--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353002<!--loot_PremadesSetup_EP15_Arturo_Lien--></T>
+        <T n="sim_a">348361<!--premadeSimTemplate_EP15_ArturoLinh--></T>
+        <T n="sim_b">348362<!--premadeSimTemplate_EP15_LienSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353003<!--loot_PremadesSetup_EP15_Arturo_Cam--></T>
+        <T n="sim_a">348361<!--premadeSimTemplate_EP15_ArturoLinh--></T>
+        <T n="sim_b">348364<!--premadeSimTemplate_EP15_CamSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353005<!--loot_PremadesSetup_EP15_Alon_Cam--></T>
+        <T n="sim_a">348363<!--premadeSimTemplate_EP15_AlonSadya--></T>
+        <T n="sim_b">348364<!--premadeSimTemplate_EP15_CamSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353008<!--loot_PremadesSetup_EP15_Bua_Sud--></T>
+        <T n="sim_a">348305<!--premadeSimTemplate_EP15_BuaBunMa--></T>
+        <T n="sim_b">348357<!--premadeSimTemplate_EP15_SudBunMa--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353009<!--loot_PremadesSetup_EP15_Nin_Sud--></T>
+        <T n="sim_a">348306<!--premadeSimTemplate_EP15_NinBunMa--></T>
+        <T n="sim_b">348357<!--premadeSimTemplate_EP15_SudBunMa--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353010<!--loot_PremadesSetup_EP15_Van_Zhaf--></T>
+        <T n="sim_a">348358<!--premadeSimTemplate_EP15_VaneshaCahyaputri--></T>
+        <T n="sim_b">348359<!--premadeSimTemplate_EP15_ZhafiraCahyaputri--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353180<!--loot_PremadesSetup_EP15_Alon_Thi--></T>
+        <T n="sim_a">348363<!--premadeSimTemplate_EP15_AlonSadya--></T>
+        <T n="sim_b">348302<!--premadeSimTemplate_EP15_ThiLinh--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353182<!--loot_PremadesSetup_EP15_Arturo_Alon--></T>
+        <T n="sim_a">348361<!--premadeSimTemplate_EP15_ArturoLinh--></T>
+        <T n="sim_b">348363<!--premadeSimTemplate_EP15_AlonSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353183<!--loot_PremadesSetup_EP15_Chanh_Alon--></T>
+        <T n="sim_a">348360<!--premadeSimTemplate_EP15_ChanhLinh--></T>
+        <T n="sim_b">348363<!--premadeSimTemplate_EP15_AlonSadya--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">353181<!--loot_PremadesSetup_EP15_Bua_Nin--></T>
+        <T n="sim_a">348305<!--premadeSimTemplate_EP15_BuaBunMa--></T>
+        <T n="sim_b">348306<!--premadeSimTemplate_EP15_NinBunMa--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">358187<!--loot_PremadesSetup_EP15_Bua_Art--></T>
+        <T n="sim_a">348305<!--premadeSimTemplate_EP15_BuaBunMa--></T>
+        <T n="sim_b">348361<!--premadeSimTemplate_EP15_ArturoLinh--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">358186<!--loot_PremadesSetup_EP15_Van_Thi--></T>
+        <T n="sim_a">348302<!--premadeSimTemplate_EP15_ThiLinh--></T>
+        <T n="sim_b">348358<!--premadeSimTemplate_EP15_VaneshaCahyaputri--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371033<!--loot_PremadesSetup_EP16_ElderWomanToChef--></T>
+        <T n="sim_a">370578<!--premadeSimTemplate_EP16_Singles_ElderFemale--></T>
+        <T n="sim_b">370580<!--premadeSimTemplate_EP16_Singles_Chef--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371032<!--loot_PremadesSetup_EP16_GothBoytoChef--></T>
+        <T n="sim_a">370579<!--premadeSimTemplate_EP16_Singles_GothGuy--></T>
+        <T n="sim_b">370580<!--premadeSimTemplate_EP16_Singles_Chef--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371030<!--loot_PremadesSetup_EP16_GothBoytoHeartthrob--></T>
+        <T n="sim_a">370579<!--premadeSimTemplate_EP16_Singles_GothGuy--></T>
+        <T n="sim_b">370581<!--premadeSimTemplate_EP16_Singles_DashingMan--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371031<!--loot_PremadesSetup_EP16_HeartthrobtoGothBoy--></T>
+        <T n="sim_a">370581<!--premadeSimTemplate_EP16_Singles_DashingMan--></T>
+        <T n="sim_b">370579<!--premadeSimTemplate_EP16_Singles_GothGuy--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371037<!--loot_PremadesSetup_EP16_HusbandtoChef--></T>
+        <T n="sim_a">370574<!--premadeSimTemplate_EP16_RockyRelationship_Husband--></T>
+        <T n="sim_b">370580<!--premadeSimTemplate_EP16_Singles_Chef--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371040<!--loot_PremadesSetup_EP16_HusbandToSingleMom--></T>
+        <T n="sim_a">370574<!--premadeSimTemplate_EP16_RockyRelationship_Husband--></T>
+        <T n="sim_b">370575<!--premadeSimTemplate_EP16_SingleParent_Mother--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371043<!--loot_PremadesSetup_EP16_HusbandToWife--></T>
+        <T n="sim_a">370574<!--premadeSimTemplate_EP16_RockyRelationship_Husband--></T>
+        <T n="sim_b">370573<!--premadeSimTemplate_EP16_RockyRelationship_Wife--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371038<!--loot_PremadesSetup_EP16_SingleMomtoBothChildren--></T>
+        <T n="sim_a">370575<!--premadeSimTemplate_EP16_SingleParent_Mother--></T>
+        <T n="sim_b">370577<!--premadeSimTemplate_EP16_SingleParent_Teen--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371038<!--loot_PremadesSetup_EP16_SingleMomtoBothChildren--></T>
+        <T n="sim_a">370575<!--premadeSimTemplate_EP16_SingleParent_Mother--></T>
+        <T n="sim_b">370576<!--premadeSimTemplate_EP16_SingleParent_YASon--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371034<!--loot_PremadesSetup_EP16_SingleMomtoHeartthrob--></T>
+        <T n="sim_a">370575<!--premadeSimTemplate_EP16_SingleParent_Mother--></T>
+        <T n="sim_b">370581<!--premadeSimTemplate_EP16_Singles_DashingMan--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371036<!--loot_PremadesSetup_EP16_SonToHeartthrob--></T>
+        <T n="sim_a">370576<!--premadeSimTemplate_EP16_SingleParent_YASon--></T>
+        <T n="sim_b">370581<!--premadeSimTemplate_EP16_Singles_DashingMan--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371039<!--loot_PremadesSetup_EP16_TeentoSingleMom--></T>
+        <T n="sim_a">370577<!--premadeSimTemplate_EP16_SingleParent_Teen--></T>
+        <T n="sim_b">370575<!--premadeSimTemplate_EP16_SingleParent_Mother--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371041<!--loot_PremadesSetup_EP16_WifeToChef--></T>
+        <T n="sim_a">370573<!--premadeSimTemplate_EP16_RockyRelationship_Wife--></T>
+        <T n="sim_b">370580<!--premadeSimTemplate_EP16_Singles_Chef--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371035<!--loot_PremadesSetup_EP16_WifetoElderWoman--></T>
+        <T n="sim_a">370573<!--premadeSimTemplate_EP16_RockyRelationship_Wife--></T>
+        <T n="sim_b">370578<!--premadeSimTemplate_EP16_Singles_ElderFemale--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">371042<!--loot_PremadesSetup_EP16_WifetoSingleMom--></T>
+        <T n="sim_a">370573<!--premadeSimTemplate_EP16_RockyRelationship_Wife--></T>
+        <T n="sim_b">370575<!--premadeSimTemplate_EP16_SingleParent_Mother--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388787<!--loot_PremadesSetup_EP17_Ekade_Layne--></T>
+        <T n="sim_a">372954<!--premadeSimTemplate_EP17_EkadeAether--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388792<!--loot_PremadesSetup_EP17_Esther_Kai--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">372955<!--premadeSimTemplate_EP17_KaiAether--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388725<!--loot_PremadesSetup_EP17_Esther_Layne--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388726<!--loot_PremadesSetup_EP17_Esther_Olive--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">372957<!--premadeSimTemplate_EP17_OliveSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388724<!--loot_PremadesSetup_EP17_Esther_Radwan--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">372961<!--premadeSimTemplate_EP17_RadwanGomes--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388722<!--loot_PremadesSetup_EP17_Esther_Tziporah--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">372960<!--premadeSimTemplate_EP17_TziporahGomes--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388723<!--loot_PremadesSetup_EP17_Esther_Zelmira--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">372962<!--premadeSimTemplate_EP17_ZelmiraGomes--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388788<!--loot_PremadesSetup_EP17_Kai_Layne--></T>
+        <T n="sim_a">372955<!--premadeSimTemplate_EP17_KaiAether--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388786<!--loot_PremadesSetup_EP17_Nyon_Layne--></T>
+        <T n="sim_a">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388789<!--loot_PremadesSetup_EP17_Nyon_Takama--></T>
+        <T n="sim_a">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+        <T n="sim_b">372956<!--premadeSimTemplate_EP17_TakamaAether--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388767<!--loot_PremadesSetup_EP17_Radwan_Ekade--></T>
+        <T n="sim_a">372961<!--premadeSimTemplate_EP17_RadwanGomes--></T>
+        <T n="sim_b">372954<!--premadeSimTemplate_EP17_EkadeAether--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388793<!--loot_PremadesSetup_EP17_Radwan_Layne--></T>
+        <T n="sim_a">372961<!--premadeSimTemplate_EP17_RadwanGomes--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388770<!--loot_PremadesSetup_EP17_Radwan_Nyon--></T>
+        <T n="sim_a">372961<!--premadeSimTemplate_EP17_RadwanGomes--></T>
+        <T n="sim_b">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388769<!--loot_PremadesSetup_EP17_Tziporah_Layne--></T>
+        <T n="sim_a">372960<!--premadeSimTemplate_EP17_TziporahGomes--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388771<!--loot_PremadesSetup_EP17_Tziporah_Nyon--></T>
+        <T n="sim_a">372960<!--premadeSimTemplate_EP17_TziporahGomes--></T>
+        <T n="sim_b">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388785<!--loot_PremadesSetup_EP17_Tziporah_Olive--></T>
+        <T n="sim_a">372960<!--premadeSimTemplate_EP17_TziporahGomes--></T>
+        <T n="sim_b">372957<!--premadeSimTemplate_EP17_OliveSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388764<!--loot_PremadesSetup_EP17_Waylon_Esther--></T>
+        <T n="sim_a">378501<!--premadeSimTemplate_EP17_WaylonWarez--></T>
+        <T n="sim_b">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388763<!--loot_PremadesSetup_EP17_Waylon_Kai--></T>
+        <T n="sim_a">378501<!--premadeSimTemplate_EP17_WaylonWarez--></T>
+        <T n="sim_b">372955<!--premadeSimTemplate_EP17_KaiAether--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388729<!--loot_PremadesSetup_EP17_Waylon_Layne--></T>
+        <T n="sim_a">378501<!--premadeSimTemplate_EP17_WaylonWarez--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388766<!--loot_PremadesSetup_EP17_Waylon_Zelmira--></T>
+        <T n="sim_a">378501<!--premadeSimTemplate_EP17_WaylonWarez--></T>
+        <T n="sim_b">372962<!--premadeSimTemplate_EP17_ZelmiraGomes--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388765<!--loot_PremadesSetup_EP17_Waylon_Zuleika--></T>
+        <T n="sim_a">378501<!--premadeSimTemplate_EP17_WaylonWarez--></T>
+        <T n="sim_b">372952<!--premadeSimTemplate_EP17_ZuleikaIzadi--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388772<!--loot_PremadesSetup_EP17_Zelmira_Layne--></T>
+        <T n="sim_a">372962<!--premadeSimTemplate_EP17_ZelmiraGomes--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388783<!--loot_PremadesSetup_EP17_Zelmira_Nyon--></T>
+        <T n="sim_a">372962<!--premadeSimTemplate_EP17_ZelmiraGomes--></T>
+        <T n="sim_b">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388784<!--loot_PremadesSetup_EP17_Zelmira_Olive--></T>
+        <T n="sim_a">372962<!--premadeSimTemplate_EP17_ZelmiraGomes--></T>
+        <T n="sim_b">372957<!--premadeSimTemplate_EP17_OliveSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388728<!--loot_PremadesSetup_EP17_Zuleika_Layne--></T>
+        <T n="sim_a">372952<!--premadeSimTemplate_EP17_ZuleikaIzadi--></T>
+        <T n="sim_b">372958<!--premadeSimTemplate_EP17_LayneCoffin--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388727<!--loot_PremadesSetup_EP17_Zuleika_Olive--></T>
+        <T n="sim_a">372952<!--premadeSimTemplate_EP17_ZuleikaIzadi--></T>
+        <T n="sim_b">372957<!--premadeSimTemplate_EP17_OliveSpecter--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388794<!--loot_PremadesSetup_EP17_Nyon_Edith--></T>
+        <T n="sim_a">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+        <T n="sim_b">378499<!--premadeSimTemplate_EP17_Edith--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388795<!--loot_PremadesSetup_EP17_Nyon_Alice--></T>
+        <T n="sim_a">372959<!--premadeSimTemplate_EP17_NyonSpecter--></T>
+        <T n="sim_b">378498<!--premadeSimTemplate_EP17_Alice--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388796<!--loot_PremadesSetup_EP17_Zelmira_Ravendancer--></T>
+        <T n="sim_a">372962<!--premadeSimTemplate_EP17_ZelmiraGomes--></T>
+        <T n="sim_b">378500<!--premadeSimTemplate_EP17_RavendancerGoth--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388798<!--loot_PremadesSetup_EP17_Esther_Ravendancer--></T>
+        <T n="sim_a">372953<!--premadeSimTemplate_EP17_EstherGomes--></T>
+        <T n="sim_b">378500<!--premadeSimTemplate_EP17_RavendancerGoth--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388797<!--loot_PremadesSetup_EP17_Waylon_Ravendancer--></T>
+        <T n="sim_a">378501<!--premadeSimTemplate_EP17_WaylonWarez--></T>
+        <T n="sim_b">378500<!--premadeSimTemplate_EP17_RavendancerGoth--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">388799<!--loot_PremadesSetup_EP17_Alice_Edith--></T>
+        <T n="sim_a">378498<!--premadeSimTemplate_EP17_Alice--></T>
+        <T n="sim_b">378499<!--premadeSimTemplate_EP17_Edith--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">422609<!--loot_PremadesSetup_EP17_Radwan_Tziporah--></T>
+        <T n="sim_a">372961<!--premadeSimTemplate_EP17_RadwanGomes--></T>
+        <T n="sim_b">372960<!--premadeSimTemplate_EP17_TziporahGomes--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+        <T n="sim_b">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+        <T n="sim_b">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+        <T n="sim_b">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+        <T n="sim_b">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+        <T n="sim_b">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">385030<!--loot_PremadesSetup_EP18_BetrayedBusinessPartner--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393634<!--loot_PremadesSetup_EP18_Nora_Erik--></T>
+        <T n="sim_a">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+        <T n="sim_b">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393635<!--loot_PremadesSetup_EP18_Daliha_Nora--></T>
+        <T n="sim_a">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+        <T n="sim_b">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393641<!--loot_PremadesSetup_EP18_Freya_Erik--></T>
+        <T n="sim_a">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+        <T n="sim_b">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393633<!--loot_PremadesSetup_EP18_Nora_Freya--></T>
+        <T n="sim_a">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+        <T n="sim_b">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">439438<!--loot_PremadesSetup_EP18_Daliha_Freya--></T>
+        <T n="sim_a">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+        <T n="sim_b">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393181<!--loot_PremadesSetup_EP18_Close_Rel_Family--></T>
+        <T n="sim_a">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+        <T n="sim_b">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393181<!--loot_PremadesSetup_EP18_Close_Rel_Family--></T>
+        <T n="sim_a">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+        <T n="sim_b">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393633<!--loot_PremadesSetup_EP18_Nora_Freya--></T>
+        <T n="sim_a">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+        <T n="sim_b">373081<!--preMadeSimTemplate_Nora_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">432090<!--loot_PremadesSetup_EP18_Erik_Daliha--></T>
+        <T n="sim_a">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+        <T n="sim_b">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+        <T n="sim_b">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393638<!--loot_PremadesSetup_EP18_Crispin_Coleman--></T>
+        <T n="sim_a">380336<!--preMadeSimTemplate_Cannonball_Coleman_EP18--></T>
+        <T n="sim_b">380338<!--preMadeSimTemplate_Crispin_Black_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393637<!--loot_PremadesSetup_EP18_Ollie_Coleman--></T>
+        <T n="sim_a">380337<!--preMadeSimTemplate_Ollie_Mark_EP18--></T>
+        <T n="sim_b">380336<!--preMadeSimTemplate_Cannonball_Coleman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393636<!--loot_PremadesSetup_EP18_Ollie_Crispin--></T>
+        <T n="sim_a">380337<!--preMadeSimTemplate_Ollie_Mark_EP18--></T>
+        <T n="sim_b">380338<!--preMadeSimTemplate_Crispin_Black_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393181<!--loot_PremadesSetup_EP18_Close_Rel_Family--></T>
+        <T n="sim_a">373408<!--preMadeSimTemplate_Nia_Sarpong_EP18--></T>
+        <T n="sim_b">373409<!--preMadeSimTemplate_Lerato_Sarpong_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">254853<!--loot_Relationship_Starting_NPC_CloseFriends--></T>
+        <T n="sim_a">379548<!--preMadeSimTemplate_Zain_Amri_EP18--></T>
+        <T n="sim_b">373407<!--preMadeSimTemplate_Corey_Nyhus_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">393181<!--loot_PremadesSetup_EP18_Close_Rel_Family--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+        <T n="sim_b">380336<!--preMadeSimTemplate_Cannonball_Coleman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">380336<!--preMadeSimTemplate_Cannonball_Coleman_EP18--></T>
+        <T n="sim_b">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">373083<!--preMadeSimTemplate_Erik_Loden_EP18--></T>
+        <T n="sim_b">373409<!--preMadeSimTemplate_Lerato_Sarpong_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">380337<!--preMadeSimTemplate_Ollie_Mark_EP18--></T>
+        <T n="sim_b">373084<!--preMadeSimTemplate_Freya_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">380338<!--preMadeSimTemplate_Crispin_Black_EP18--></T>
+        <T n="sim_b">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">264829<!--loot_Relationship_Starting_NPC_BadMarriage--></T>
+        <T n="sim_a">373074<!--preMadeSimTemplate_Jolanda_Koopman_EP18--></T>
+        <T n="sim_b">375304<!--preMadeSimTemplate_Gert_Koopman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">373074<!--preMadeSimTemplate_Jolanda_Koopman_EP18--></T>
+        <T n="sim_b">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">129892<!--loot_Relationship_Starting_NPC_GoodFriend--></T>
+        <T n="sim_a">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+        <T n="sim_b">373407<!--preMadeSimTemplate_Corey_Nyhus_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">373085<!--preMadeSimTemplate_Daliha_Loden_EP18--></T>
+        <T n="sim_b">375304<!--preMadeSimTemplate_Gert_Koopman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">375304<!--preMadeSimTemplate_Gert_Koopman_EP18--></T>
+        <T n="sim_b">379547<!--preMadeSimTemplate_Bruno_Hoffman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">373082<!--preMadeSimTemplate_GrammaHattie_Loden_EP18--></T>
+        <T n="sim_b">375304<!--preMadeSimTemplate_Gert_Koopman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">379546<!--preMadeSimTemplate_Felix_Hoffman_EP18--></T>
+        <T n="sim_b">375304<!--preMadeSimTemplate_Gert_Koopman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">373407<!--preMadeSimTemplate_Corey_Nyhus_EP18--></T>
+        <T n="sim_b">380336<!--preMadeSimTemplate_Cannonball_Coleman_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">293652<!--loot_Relationship_Starting_NPC_Friends--></T>
+        <T n="sim_a">380336<!--preMadeSimTemplate_Cannonball_Coleman_EP18--></T>
+        <T n="sim_b">379548<!--preMadeSimTemplate_Zain_Amri_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">220958<!--loot_Relationship_Starting_NPC_Acquaintance--></T>
+        <T n="sim_a">379548<!--preMadeSimTemplate_Zain_Amri_EP18--></T>
+        <T n="sim_b">380337<!--preMadeSimTemplate_Ollie_Mark_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">444838<!--loot_PremadesSetup_EP18_NiaTattooUnlocks--></T>
+        <T n="sim_a">373408<!--preMadeSimTemplate_Nia_Sarpong_EP18--></T>
+        <T n="sim_b">373407<!--preMadeSimTemplate_Corey_Nyhus_EP18--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445799<!--loot_PremadesSetup_EP19_Ayo_Iris--></T>
+        <T n="sim_a">431814<!--premadeSimTemplate_EP19_AyoLadipo--></T>
+        <T n="sim_b">431812<!--premadeSimTemplate_EP19_IrisLadipo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445798<!--loot_PremadesSetup_EP19_Flora_Iris--></T>
+        <T n="sim_a">431813<!--premadeSimTemplate_EP19_FloraLadipo--></T>
+        <T n="sim_b">431812<!--premadeSimTemplate_EP19_IrisLadipo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445791<!--loot_PremadesSetup_EP19_Ayo_Elric--></T>
+        <T n="sim_a">431814<!--premadeSimTemplate_EP19_AyoLadipo--></T>
+        <T n="sim_b">431810<!--premadeSimTemplate_EP19_ElricDeMuray--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445796<!--loot_PremadesSetup_EP19_Care_Zhaleh--></T>
+        <T n="sim_a">431808<!--premadeSimTemplate_EP19_CareRen--></T>
+        <T n="sim_b">431806<!--premadeSimTemplate_EP19_ZhalehAmani--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445800<!--loot_PremadesSetup_EP19_Elric_Todd--></T>
+        <T n="sim_a">431810<!--premadeSimTemplate_EP19_ElricDeMuray--></T>
+        <T n="sim_b">431809<!--premadeSimTemplate_EP19_ToddAttenberry--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445797<!--loot_PremadesSetup_EP19_Flora_Ayo--></T>
+        <T n="sim_a">431813<!--premadeSimTemplate_EP19_FloraLadipo--></T>
+        <T n="sim_b">431814<!--premadeSimTemplate_EP19_AyoLadipo--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445792<!--loot_PremadesSetup_EP19_Green_Mother--></T>
+        <T n="sim_a">431804<!--premadeSimTemplate_EP19_GreenMan--></T>
+        <T n="sim_b">431805<!--premadeSimTemplate_EP19_MotherNature--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445795<!--loot_PremadesSetup_EP19_Iris_Nadya--></T>
+        <T n="sim_a">431812<!--premadeSimTemplate_EP19_IrisLadipo--></T>
+        <T n="sim_b">431811<!--premadeSimTemplate_EP19_NadyaKishka--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445794<!--loot_PremadesSetup_EP19_Nadya_Care--></T>
+        <T n="sim_a">431811<!--premadeSimTemplate_EP19_NadyaKishka--></T>
+        <T n="sim_b">431808<!--premadeSimTemplate_EP19_CareRen--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445793<!--loot_PremadesSetup_EP19_Nadya_Joe--></T>
+        <T n="sim_a">431811<!--premadeSimTemplate_EP19_NadyaKishka--></T>
+        <T n="sim_b">431807<!--premadeSimTemplate_EP19_JoeTrader--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445803<!--loot_PremadesSetup_EP19_Oberon_Mara--></T>
+        <T n="sim_a">431817<!--premadeSimTemplate_EP19_OberonSummerdream--></T>
+        <T n="sim_b">431818<!--premadeSimTemplate_EP19_MaraSummerdream--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445802<!--loot_PremadesSetup_EP19_Titania_Mara--></T>
+        <T n="sim_a">431816<!--premadeSimTemplate_EP19_TitaniaSummerdream--></T>
+        <T n="sim_b">431818<!--premadeSimTemplate_EP19_MaraSummerdream--></T>
+      </U>
+      <U>
+        <T n="relationship_loot">445801<!--loot_PremadesSetup_EP19_Titania_Oberon--></T>
+        <T n="sim_a">431816<!--premadeSimTemplate_EP19_TitaniaSummerdream--></T>
+        <T n="sim_b">431817<!--premadeSimTemplate_EP19_OberonSummerdream--></T>
+      </U>
+    </L>
+  </C>
+</M>

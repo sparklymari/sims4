@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000038">
+  <Instances>
+    <I name="unitRatingCategory_Enviornment" schema="UnitRatingCategory" type="Object">
+      <V name="_display_data" variant="0x3BB04258" schema="OptionalDisplayMixinTunable">
+        <V name="instance_display_description" variant="0xC1A03855" />
+        <V name="instance_display_icon" variant="0xC1A03855" />
+        <V name="instance_display_name" variant="0x87E76EC3">
+          <T type="LocalizationKey">0x47E688EC</T>
+        </V>
+        <V name="instance_display_secondary_icon" variant="0xC1A03855" />
+        <V name="instance_display_tooltip" variant="0x5C574C73">
+          <T type="LocalizationKey">0x70DF3558</T>
+        </V>
+      </V>
+      <T name="category_type">2</T>
+      <L name="sub_scores">
+        <U type="Object" schema="SubScore">
+          <T name="RatingSubScore">2</T>
+          <U name="SubScoreData" schema="SubScoreDataTuple">
+            <T name="icon">00B2D882-00000000-EB77B8D9BE362511</T>
+            <T name="name">0xE107678D</T>
+          </U>
+        </U>
+        <U type="Object" schema="SubScore">
+          <T name="RatingSubScore">0</T>
+          <U name="SubScoreData" schema="SubScoreDataTuple">
+            <T name="icon">00B2D882-00000000-2E550218A10D6395</T>
+            <T name="name">0xD12134A1</T>
+          </U>
+        </U>
+        <U type="Object" schema="SubScore">
+          <T name="RatingSubScore">1</T>
+          <U name="SubScoreData" schema="SubScoreDataTuple">
+            <T name="icon">00B2D882-00000000-D5891ECCD2725300</T>
+            <T name="name">0x75C4BB0A</T>
+          </U>
+        </U>
+      </L>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="UnitRatingCategory" schema_hash="0x88510D8D">
+      <Columns>
+        <Column name="_display_data" type="Variant" flags="0x00000000" />
+        <Column name="category_type" type="UInt32" flags="0x00000000" />
+        <Column name="sub_scores" type="Vector" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="OptionalDisplayMixinTunable" schema_hash="0x2A90C3F5">
+      <Columns>
+        <Column name="instance_display_description" type="Variant" flags="0x00000000" />
+        <Column name="instance_display_icon" type="Variant" flags="0x00000000" />
+        <Column name="instance_display_name" type="Variant" flags="0x00000000" />
+        <Column name="instance_display_secondary_icon" type="Variant" flags="0x00000000" />
+        <Column name="instance_display_tooltip" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="SubScore" schema_hash="0xAC9C58F6">
+      <Columns>
+        <Column name="RatingSubScore" type="UInt32" flags="0x00000000" />
+        <Column name="SubScoreData" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="SubScoreDataTuple" schema_hash="0x9BD417E5">
+      <Columns>
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

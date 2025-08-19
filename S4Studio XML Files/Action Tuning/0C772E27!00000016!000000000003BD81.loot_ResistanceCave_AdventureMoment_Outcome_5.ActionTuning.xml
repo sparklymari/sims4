@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ResistanceCave_AdventureMoment_Outcome_5" s="245121">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">245132<!--buff_Batuu_ResistanceCave_Cooldown_Short--></T>
+        </U>
+      </U>
+    </V>
+    <V t="bucks_loot">
+      <U n="bucks_loot">
+        <T n="amount">250</T>
+        <E n="bucks_type">GalacticCredits</E>
+        <V n="notification" t="disabled" />
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <V n="icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0x18480F63<!--{0.SimFirstName} Received:\n{2.String}--></T>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <V n="luck_tuning" t="enabled">
+              <U n="enabled">
+                <L n="loot_actions">
+                  <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                </L>
+              </U>
+            </V>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240064<!--dataSpike_GP09GEN (Dataspike)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246275<!--sculptTableSmall_GP09GENthermalDetonator_set1 (Thermal Detonator)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">241542<!--sculptTableMedium_GP09GENelectrobinoculars_set1 (TD2.3 Electrobinoculars)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247084<!--sculptTableSmall_GP09GENsalvageDroid_set1 (Scrap Metal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">50</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246217<!--gameCardSingle_GP09GENid (Fake ID Card)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247084<!--sculptTableSmall_GP09GENsalvageDroid_set1 (Scrap Metal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">25</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">85</T>
+                </U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239570<!--lightsaber_GP09GENpeace_03 (Virtuous Peace and Justice Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239574<!--lightsaber_GP09GENpower_02 (Imposing Power and Control Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239562<!--lightsaber_GP09GENelemental_02 (Dominant Elemental Nature Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243103<!--lightsaber_GP09GENprotection_02 (Commanding Protection and Defense Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239844<!--collectCrystalKyber_GP09GEN_yellow (Yellow Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239846<!--collectCrystalKyber_GP09GEN_white (White Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239568<!--lightsaber_GP09GENpeace_02 (Noble Peace and Justice Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">10</T>
+                </U>
+              </U>
+              <U>
+                <U n="luck_option_config">
+                  <T n="player_perception">100</T>
+                </U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239332<!--lightsaber_GP09GENelemental_01 (Ornate Elemental Nature Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243105<!--lightsaber_GP09GENprotection_03 (Grand Protection and Defense Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239843<!--collectCrystalKyber_GP09GEN_purple (Purple Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239845<!--collectCrystalKyber_GP09GEN_black (Black Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">243099<!--lightsaber_GP09GENpower_03 (Fateful Power and Control Lightsaber Hilt)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">5</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

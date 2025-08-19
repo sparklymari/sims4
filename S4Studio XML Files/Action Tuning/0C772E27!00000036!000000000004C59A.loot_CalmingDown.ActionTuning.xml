@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_CalmingDown" s="312730">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x3E9B1F64<!--(From Being Comforted by Family Member)--></T>
+          </V>
+          <T n="buff_type">312729<!--buff_FamilyDynamics_CalmingDown--></T>
+        </U>
+        <E n="subject">TargetSim</E>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xB7023970<!--(From Calming Angry Family Member)--></T>
+          </V>
+          <T n="buff_type">312728<!--buff_FamilyDynamics_ContagiousAnger--></T>
+        </U>
+        <U n="chance">
+          <T n="base_chance">70</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="mood">
+              <U n="mood">
+                <T n="mood">14632<!--Mood_Angry--></T>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x217DF1B5<!--(From Comforting Scared Family Member)--></T>
+          </V>
+          <T n="buff_type">312731<!--buff_FamilyDynamics_ContagiousFear--></T>
+        </U>
+        <U n="chance">
+          <T n="base_chance">70</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="mood">
+              <U n="mood">
+                <T n="mood">251719<!--Mood_Scared--></T>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x8E9F6930<!--(From Consoling Tense Family Member)--></T>
+          </V>
+          <T n="buff_type">312732<!--buff_FamilyDynamics_ContagiousStress--></T>
+        </U>
+        <U n="chance">
+          <T n="base_chance">70</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="mood">
+              <U n="mood">
+                <T n="mood">14645<!--Mood_Stressed--></T>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xB985659C<!--(From Comforting Embarrassed Family Member)--></T>
+          </V>
+          <T n="buff_type">312733<!--buff_FamilyDynamics_ContagiousEmbarrassment--></T>
+        </U>
+        <U n="chance">
+          <T n="base_chance">70</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="mood">
+              <U n="mood">
+                <T n="mood">14635<!--Mood_Embarrassed--></T>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0xFDB39DFE<!--(From Consoling Sad Family Member)--></T>
+          </V>
+          <T n="buff_type">312734<!--buff_FamilyDynamics_ContagiousSadness--></T>
+        </U>
+        <U n="chance">
+          <T n="base_chance">70</T>
+        </U>
+        <L n="tests">
+          <L>
+            <V t="mood">
+              <U n="mood">
+                <T n="mood">14643<!--Mood_Sad--></T>
+                <E n="who">TargetSim</E>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

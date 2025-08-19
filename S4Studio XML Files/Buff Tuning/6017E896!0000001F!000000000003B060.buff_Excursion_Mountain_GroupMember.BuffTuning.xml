@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Excursion_Mountain_GroupMember" s="241760">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="static_commodity_to_add">
+    <T>241771<!--staticCommodity_Excursion_Mountain_InspectClimb--></T>
+    <T>250837<!--staticCommodity_Excursion_Mountain_ForceClimb--></T>
+    <T>250988<!--staticCommodity_Excursion_Mountain_takephoto--></T>
+    <T>250895<!--staticCommodity_Excursion_Mountain_takeselfie--></T>
+    <T>251196<!--staticCommodity_Excursion_Mountain_ForceClimb_Average--></T>
+    <T>251197<!--staticCommodity_Excursion_Mountain_ForceClimb_Master--></T>
+    <T>250712<!--staticCommodity_Excursion_Mountain_CheckMountainReadiness_Climber--></T>
+    <T>250716<!--staticCommodity_Excursion_Mountain_CheckMountainReadiness_Leader--></T>
+  </L>
+  <L n="super_affordances">
+    <T>250724<!--autonomousSimPicker_Excursion_Mountain_CheckClimberReadiness--></T>
+  </L>
+  <T n="visible">False</T>
+</I>

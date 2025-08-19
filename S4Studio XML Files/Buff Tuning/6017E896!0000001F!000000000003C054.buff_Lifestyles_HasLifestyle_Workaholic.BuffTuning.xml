@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Lifestyles_HasLifestyle_Workaholic" s="245844">
+  <L n="_loot_on_removal">
+    <T>252372<!--loot_Lifestyles_LifestyleLost_Workaholic--></T>
+  </L>
+  <L n="actor_mixers">
+    <U>
+      <T n="key">13998<!--sim_Chat--></T>
+      <L n="value">
+        <T>249134<!--mixer_Social_Lifestyles_ShareLifestyleTips_Workaholic--></T>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <U n="game_effect_modifier">
+    <L n="_game_effect_modifiers">
+      <V t="affordance_modifier">
+        <U n="affordance_modifier">
+          <L n="basic_extras">
+            <V t="buff">
+              <U n="buff">
+                <U n="buff_type">
+                  <V n="buff_reason" t="enabled">
+                    <T n="enabled">0xCD1EEE50<!--(From Workaholic Lifestyle)--></T>
+                  </V>
+                  <T n="buff_type">245827<!--buff_Lifestyles_Workaholic_AtWork--></T>
+                </U>
+              </U>
+            </V>
+          </L>
+          <L n="interaction_category_tags">
+            <E>Interaction_Career_Work_RabbitHole</E>
+          </L>
+        </U>
+      </V>
+      <V t="relationship_track_decay_modifier">
+        <U n="relationship_track_decay_modifier">
+          <T n="modifier">1.1</T>
+          <T n="relationship_track">16650<!--LTR_Friendship_Main--></T>
+        </U>
+      </V>
+      <V t="relationship_track_decay_modifier">
+        <U n="relationship_track_decay_modifier">
+          <T n="modifier">1.1</T>
+          <T n="relationship_track">16651<!--LTR_Romance_Main--></T>
+        </U>
+      </V>
+    </L>
+  </U>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>246018<!--super_Lifestyles_Workaholic_WorkOffHours--></T>
+  </L>
+  <T n="visible">False</T>
+</I>

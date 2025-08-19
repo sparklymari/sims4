@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="situationGoalObjectInteraction_CommunalEvents_Animal_Day_Guests_PetAnAnimal" s="331810">
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP14\UI\Icons\Events\EventGoal_HaveGuestsPetAnimal.png">2f7d0004:00000000:81a20b81f4f486bb</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0x8F865BDD<!--Have Guests Pet Ranch Animals--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x57348EF1<!--Guests will automatically attempt to Pet Animals when Mini Goats, Mini Sheep, and Horses are present on the lot.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>305241<!--sI_AnimalObjects_Pet_Sheep_Outcome_Success_TYAE--></T>
+      <T>305243<!--sI_AnimalObjects_Pet_Sheep_Outcome_Success_Toddler--></T>
+      <T>305242<!--sI_AnimalObjects_Pet_Sheep_Outcome_Success_Child--></T>
+      <T>305238<!--sI_AnimalObjects_Pet_Sheep_Outcome_Failure_TYAE--></T>
+      <T>305240<!--sI_AnimalObjects_Pet_Sheep_Outcome_Failure_Toddler--></T>
+      <T>305239<!--sI_AnimalObjects_Pet_Sheep_Outcome_Failure_Child--></T>
+      <T>303968<!--sI_AnimalObjects_Pet_Goat_Outcome_Success_TYAE--></T>
+      <T>303967<!--sI_AnimalObjects_Pet_Goat_Outcome_Success_Toddler--></T>
+      <T>303966<!--sI_AnimalObjects_Pet_Goat_Outcome_Success_Child--></T>
+      <T>303965<!--sI_AnimalObjects_Pet_Goat_Outcome_Failure_TYAE--></T>
+      <T>303964<!--sI_AnimalObjects_Pet_Goat_Outcome_Failure_Toddler--></T>
+      <T>303963<!--sI_AnimalObjects_Pet_Goat_Outcome_Failure_Child--></T>
+      <T>262550<!--sI_AnimalObjects_Pet_Rabbit_Outcome_Success_TYAE--></T>
+      <T>262549<!--sI_AnimalObjects_Pet_Rabbit_Outcome_Success_Toddler--></T>
+      <T>262548<!--sI_AnimalObjects_Pet_Rabbit_Outcome_Success_Child--></T>
+      <T>262546<!--sI_AnimalObjects_Pet_Rabbit_Outcome_Failure_TYAE--></T>
+      <T>262545<!--sI_AnimalObjects_Pet_Rabbit_Outcome_Failure_Toddler--></T>
+      <T>262544<!--sI_AnimalObjects_Pet_Rabbit_Outcome_Failure_Child--></T>
+      <T>262535<!--sI_AnimalObjects_Pet_Chicken_Outcome_Success_TYAE--></T>
+      <T>262537<!--sI_AnimalObjects_Pet_Chicken_Outcome_Success_Toddler--></T>
+      <T>262536<!--sI_AnimalObjects_Pet_Chicken_Outcome_Success_Child--></T>
+      <T>262541<!--sI_AnimalObjects_Pet_Chicken_Outcome_Failure_TYAE--></T>
+      <T>262540<!--sI_AnimalObjects_Pet_Chicken_Outcome_Failure_Toddler--></T>
+      <T>262539<!--sI_AnimalObjects_Pet_Chicken_Outcome_Failure_Child--></T>
+      <T>269605<!--sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_TYAE--></T>
+      <T>269604<!--sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_Toddler--></T>
+      <T>269603<!--sI_AnimalObjects_Pet_Chicken_Chick_Outcome_Success_Child--></T>
+      <T>262992<!--sI_AnimalObjects_Pet_LivestockPen_Cow--></T>
+      <T>262993<!--sI_AnimalObjects_Pet_LivestockPen_Llama--></T>
+    </L>
+    <E n="test_event">InteractionComplete</E>
+  </U>
+  <T n="_iterations">2</T>
+  <L n="_post_tests">
+    <V t="situation_job">
+      <U n="situation_job">
+        <L n="situation_jobs">
+          <T>330679<!--communalEvents_Job_Guests--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="_score">30</T>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

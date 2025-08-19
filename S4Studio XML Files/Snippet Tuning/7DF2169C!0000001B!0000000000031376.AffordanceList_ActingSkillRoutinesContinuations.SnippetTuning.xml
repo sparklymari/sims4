@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="AffordanceList_ActingSkillRoutinesContinuations" s="201590">
+  <L n="value">
+    <T>195489<!--si_Touching_ActingSkill_ActionRoutine_1--></T>
+    <T>195490<!--si_Touching_ActingSkill_ActionRoutine_2--></T>
+    <T>195486<!--si_Touching_ActingSkill_ActionRoutine_Choose--></T>
+    <T>195487<!--si_Touching_ActingSkill_DramaRoutine_1--></T>
+    <T>195488<!--si_Touching_ActingSkill_DramaRoutine_2--></T>
+    <T>195485<!--si_Touching_ActingSkill_DramaRoutine_Choose--></T>
+    <T>195454<!--si_Touching_ActingSkill_HorrorRoutine_1--></T>
+    <T>195455<!--si_Touching_ActingSkill_HorrorRoutine_2--></T>
+    <T>195453<!--si_Touching_ActingSkill_HorrorRoutine_Choose--></T>
+    <T>192398<!--si_Touching_ActingSkill_RomanceRoutine_1--></T>
+    <T>192400<!--si_Touching_ActingSkill_RomanceRoutine_2--></T>
+    <T>192417<!--si_Touching_ActingSkill_RomanceRoutine_Choose--></T>
+    <T>195585<!--si_Touching_ActingSkill_SciFiRoutine_1--></T>
+    <T>195587<!--si_Touching_ActingSkill_SciFiRoutine_2--></T>
+    <T>195584<!--si_Touching_ActingSkill_SciFiRoutine_Choose--></T>
+    <T>195612<!--actingSkill_Solo_ComedyRoutine_1--></T>
+    <T>195613<!--actingSkill_Solo_ComedyRoutine_2--></T>
+    <T>195610<!--actingSkill_Solo_ComedyRoutine_Choose--></T>
+    <T>198936<!--actingSkill_Solo_DramaticMonologueRoutine_1--></T>
+    <T>199258<!--actingSkill_Solo_DramaticMonologueRoutine_2--></T>
+    <T>199256<!--actingSkill_Solo_DramaticMonologueRoutine_Choose--></T>
+    <T>195225<!--actingSkill_Solo_MusicalRoutine_Choose--></T>
+    <T>195236<!--actingSkill_NonTieredMenu_MusicalRoutine_1--></T>
+    <T>200562<!--si_Touching_ActingSkill_TargetSimRoutine--></T>
+  </L>
+</I>

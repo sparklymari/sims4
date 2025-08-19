@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectPart" i="object_part" m="objects.part" n="objectPart_EP16World_FountainOfLove_Stand" s="369259">
+  <U n="supported_affordance_data">
+    <V n="compatibility" t="literal">
+      <U n="literal">
+        <V n="default_inclusion" t="exclude_all">
+          <U n="exclude_all">
+            <L n="include_affordances">
+              <T>369208<!--EP16World_FountainOfDreams_StealFromFountain--></T>
+              <T>369207<!--EP16World_FountainOfDreams_WishForHappiness--></T>
+              <T>369206<!--EP16World_FountainOfDreams_WishForLove--></T>
+              <T>369209<!--EP16World_FountainOfDreams_WishForOthersHappiness--></T>
+              <T>369210<!--EP16World_FountainOfDreams_WishForOthersUnhappiness--></T>
+              <T>13983<!--sim-stand--></T>
+              <T>370594<!--EP16SpecialNPC_TheRingBear_StealCoins--></T>
+            </L>
+          </U>
+        </V>
+      </U>
+    </V>
+  </U>
+  <V n="supported_posture_types" t="literal">
+    <L n="literal">
+      <U>
+        <T n="posture_type">15537<!--posture_Stand--></T>
+      </U>
+    </L>
+  </V>
+</I>

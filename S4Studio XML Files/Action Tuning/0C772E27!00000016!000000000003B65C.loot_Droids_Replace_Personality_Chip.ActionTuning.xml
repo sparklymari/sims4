@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Droids_Replace_Personality_Chip" s="243292">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247193<!--sculptTableSmall_GP09GENdroidPersonalityChip_set7 (Default Droid Personality Chip)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">236520<!--droid_Personality_Chips_Default--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247188<!--sculptTableSmall_GP09GENdroidPersonalityChip_set1 (First Order Personality Chip FO-1)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">245503<!--droid_Values_ChipDefinition_FO1--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247192<!--sculptTableSmall_GP09GENdroidPersonalityChip_set5 (Resistance Personality Chip R-01)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">245505<!--droid_Values_ChipDefinition_R1--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247190<!--sculptTableSmall_GP09GENdroidPersonalityChip_set3 (Scoundrel Personality Chip S-01)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">245507<!--droid_Values_ChipDefinition_S1--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247191<!--sculptTableSmall_GP09GENdroidPersonalityChip_set4 (First Order Personality Chip FO-2)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">245504<!--droid_Values_ChipDefinition_FO2--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247194<!--sculptTableSmall_GP09GENdroidPersonalityChip_set6 (Resistance Personality Chip R-02)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">245506<!--droid_Values_ChipDefinition_R2--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition">
+          <U n="definition">
+            <T n="definition">247189<!--sculptTableSmall_GP09GENdroidPersonalityChip_set2 (Scoundrel Personality Chip S-02)--></T>
+          </U>
+        </V>
+        <V n="location" t="inventory" />
+        <E n="owner_sim">Actor</E>
+        <T n="set_sim_as_owner">True</T>
+        <L n="tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">245501<!--droid_Values_ChipDefinition_S2--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

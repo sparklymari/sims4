@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_WolfTown_Adventure_Result_FrogCity" s="298091">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <U n="chance">
+          <T n="base_chance">50</T>
+        </U>
+        <V n="notification" t="enabled">
+          <V n="enabled" t="literal">
+            <U n="literal">
+              <L n="dialog_options">
+                <E>DISABLE_CLOSE_BUTTON</E>
+              </L>
+              <V n="secondary_icon" t="enabled">
+                <V n="enabled" t="participant">
+                  <U n="participant">
+                    <L n="participant_type">
+                      <E>Actor</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+              <V n="text" t="single">
+                <T n="single">0xA66CB355<!--{0.SimFirstName} found something in the Underground!\n\nItems Received: \n{1.String}--></T>
+              </V>
+              <V n="text_tokens" t="enabled">
+                <U n="enabled">
+                  <L n="tokens">
+                    <V t="participant_type" />
+                  </L>
+                </U>
+              </V>
+            </U>
+          </V>
+        </V>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33359<!--collectTerrariumGENFrog_05_yellowSpiral (Whirlyflower Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33356<!--collectTerrariumGENFrog_05_purpleSpiral (Eggplant Whirl Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33345<!--collectTerrariumGENFrog_03_redWaves (Heartsurfer Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33341<!--collectTerrariumGENFrog_03_yellowWaves (Sunsurfer Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33344<!--collectTerrariumGENFrog_03_purpleWaves (Surfer Eggplant Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33355<!--collectTerrariumGENFrog_05_redSpiral (Bullseye Frog)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount" />
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33340<!--collectTerrariumGENFrog_03_greenWaves (Surfer Leaf Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33342<!--collectTerrariumGENFrog_03_brownWaves (Dirtsurfer Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33354<!--collectTerrariumGENFrog_05_greenSpiral (HypnoFrog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33339<!--collectTerrariumGENFrog_02_purpleSpots (Spotted Eggplant Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33337<!--collectTerrariumGENFrog_02_redSpots (Spotted Heart Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33349<!--collectTerrariumGENFrog_04_yellowStripes (Tiger Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33338<!--collectTerrariumGENFrog_02_yellowSpots (Leopard Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33357<!--collectTerrariumGENFrog_05_brownSpiral (Dirtwhirl Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33350<!--collectTerrariumGENFrog_04_redStripes (Striped Heart Frog)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">33353<!--collectTerrariumGENFrog_04_purpleStripes (Striped Eggplant Frog)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

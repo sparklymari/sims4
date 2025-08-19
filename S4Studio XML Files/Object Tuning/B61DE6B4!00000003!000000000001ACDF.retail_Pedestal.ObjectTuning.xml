@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="retail_Pedestal" s="109791">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="light_retail_surface_component" t="enabled" />
+    <V n="retail_component" t="disabled" />
+    <V n="small_business_attendance_tooltip_component" t="enabled">
+      <U n="enabled">
+        <V n="markup_text" t="enabled">
+          <T n="enabled">0x441F8B3C<!--({0.Number}% Modifier)--></T>
+        </V>
+        <V n="small_business_open_close_object_states" t="enabled">
+          <U n="enabled">
+            <T n="closed_state_value">371878<!--smallBusiness_OpenClose_Close--></T>
+            <T n="object_state">373879<!--SmallBusiness_OpenClose--></T>
+            <T n="open_state_value">371877<!--smallBusiness_OpenClose_Open--></T>
+          </U>
+        </V>
+        <V n="small_business_retail_object_states" t="enabled">
+          <U n="enabled">
+            <T n="light_retail_state_value">404765<!--smallBusiness_LightRetail_SalesEnabled--></T>
+            <T n="object_state">404767<!--smallBusiness_LightRetail_SalesState--></T>
+          </U>
+        </V>
+        <V n="tooltip_field_markup" t="enabled" />
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>15132<!--Dirty_Clean--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15130<!--DirtyState_Clean--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>15133<!--Dirty_Dirty--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15131<!--DirtyState_Dirty--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>39611<!--FireState_Burn_Material_Change--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>101103<!--DirtyState_Neutral--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>39611<!--FireState_Burn_Material_Change--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15134<!--Dirty_Neutral--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>15132<!--Dirty_Clean--></T>
+              </L>
+            </V>
+          </U>
+          <U>
+            <L n="at_states">
+              <T>77532<!--FireState_Burn_Material_Change_Replace--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15132<!--Dirty_Clean--></T>
+              </U>
+              <U>
+                <T n="key">15133<!--Dirty_Dirty--></T>
+              </U>
+              <U>
+                <T n="key">15134<!--Dirty_Neutral--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15132<!--Dirty_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">101103<!--DirtyState_Neutral--></T>
+              </U>
+              <U>
+                <T n="key">15130<!--DirtyState_Clean--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">15131<!--DirtyState_Dirty--></T>
+                <U n="value">
+                  <V n="material_state" t="apply_new_value">
+                    <U n="apply_new_value">
+                      <V n="state_name" t="set_to_custom_value">
+                        <T n="set_to_custom_value">Dirty</T>
+                      </V>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15130<!--DirtyState_Clean--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">235497<!--ecoFootprint_Object_AcidRain_Outside--></T>
+              </U>
+              <U>
+                <T n="key">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">235498<!--ecoFootprint_Object_AcidRain_Inside--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">255047<!--dustLevel_Object_Values_None--></T>
+              </U>
+              <U>
+                <T n="key">255048<!--dustLevel_Object_Values_Clean--></T>
+              </U>
+              <U>
+                <T n="key">255049<!--dustLevel_Object_Values_Dusty--></T>
+              </U>
+              <U>
+                <T n="key">255050<!--dustLevel_Object_Values_Dirty--></T>
+              </U>
+              <U>
+                <T n="key">255051<!--dustLevel_Object_Values_Filthy--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">255047<!--dustLevel_Object_Values_None--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">404765<!--smallBusiness_LightRetail_SalesEnabled--></T>
+              </U>
+              <U>
+                <T n="key">404766<!--smallBusiness_LightRetail_SalesDisabled--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">404765<!--smallBusiness_LightRetail_SalesEnabled--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">371877<!--smallBusiness_OpenClose_Open--></T>
+              </U>
+              <U>
+                <T n="key">371878<!--smallBusiness_OpenClose_Close--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">371878<!--smallBusiness_OpenClose_Close--></T>
+            </V>
+            <V n="tested_states_on_add" t="enabled">
+              <U n="enabled">
+                <V n="fallback_state" t="enabled">
+                  <T n="enabled">371878<!--smallBusiness_OpenClose_Close--></T>
+                </V>
+                <L n="tested_states">
+                  <U>
+                    <T n="state">371877<!--smallBusiness_OpenClose_Open--></T>
+                    <L n="tests">
+                      <L>
+                        <V t="is_small_business_open">
+                          <U n="is_small_business_open">
+                            <E n="participant">CurrentlyOpenSmallBusinessOwner</E>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </V>
+            <V n="tested_states_post_load" t="enabled">
+              <U n="enabled">
+                <V n="fallback_state" t="enabled">
+                  <T n="enabled">371878<!--smallBusiness_OpenClose_Close--></T>
+                </V>
+                <L n="tested_states">
+                  <U>
+                    <T n="state">371877<!--smallBusiness_OpenClose_Open--></T>
+                    <L n="tests">
+                      <L>
+                        <V t="is_small_business_open">
+                          <U n="is_small_business_open">
+                            <E n="participant">CurrentlyOpenSmallBusinessOwner</E>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">427192<!--smallBusiness_LightRetail_SmallBusinessActive_Active--></T>
+              </U>
+              <U>
+                <T n="key">427193<!--smallBusiness_LightRetail_SmallBusinessActive_Inactive--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">427193<!--smallBusiness_LightRetail_SmallBusinessActive_Inactive--></T>
+            </V>
+            <V n="tested_states_on_add" t="enabled">
+              <U n="enabled">
+                <V n="fallback_state" t="enabled">
+                  <T n="enabled">427193<!--smallBusiness_LightRetail_SmallBusinessActive_Inactive--></T>
+                </V>
+                <L n="tested_states">
+                  <U>
+                    <T n="state">427192<!--smallBusiness_LightRetail_SmallBusinessActive_Active--></T>
+                    <L n="tests">
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">28614<!--venue_residential--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">394911<!--venue_SmallBusiness--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">229251<!--venue_residential_tinyhome--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">252380<!--venue_residential_HauntedHouse--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </V>
+            <V n="tested_states_post_load" t="enabled">
+              <U n="enabled">
+                <V n="fallback_state" t="enabled">
+                  <T n="enabled">427193<!--smallBusiness_LightRetail_SmallBusinessActive_Inactive--></T>
+                </V>
+                <L n="tested_states">
+                  <U>
+                    <T n="state">427192<!--smallBusiness_LightRetail_SmallBusinessActive_Active--></T>
+                    <L n="tests">
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">28614<!--venue_residential--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">394911<!--venue_SmallBusiness--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">229251<!--venue_residential_tinyhome--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                      <L>
+                        <V t="location">
+                          <U n="location">
+                            <U n="location_tests">
+                              <V n="is_venue_type" t="enabled">
+                                <U n="enabled">
+                                  <T n="venue_type">252380<!--venue_residential_HauntedHouse--></T>
+                                </U>
+                              </V>
+                            </U>
+                          </U>
+                        </V>
+                        <V t="small_business_ownership_test">
+                          <U n="small_business_ownership_test">
+                            <E n="participant">ActorHouseholdMembers</E>
+                          </U>
+                        </V>
+                      </L>
+                    </L>
+                  </U>
+                </L>
+              </U>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39611<!--FireState_Burn_Material_Change--></T>
+              </U>
+              <U>
+                <T n="key">39736<!--FireState_Burn_Material_Change_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">77532<!--FireState_Burn_Material_Change_Replace--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">35956<!--Materialistic_Admired--></T>
+              </U>
+              <U>
+                <T n="key">35957<!--Materialistic_YetToAdmire--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">35957<!--Materialistic_YetToAdmire--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled">
+      <U n="enabled">
+        <L n="custom_tooltips">
+          <U>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">recipe_name</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x8B16DB19<!--{0.ObjectName}--></T>
+                  </V>
+                  <V n="text_tokens" t="enabled">
+                    <U n="enabled">
+                      <L n="tokens">
+                        <V t="participant_type">
+                          <U n="participant_type">
+                            <V n="objects" t="from_participant">
+                              <U n="from_participant">
+                                <E n="participant">Object</E>
+                              </U>
+                            </V>
+                          </U>
+                        </V>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">371878<!--smallBusiness_OpenClose_Close--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">subtext</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xC8071E3E<!--Small Business is Closed--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">404765<!--smallBusiness_LightRetail_SalesEnabled--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0xAC738E17<!--<font color='#199C2C'>Sales Enabled</font>--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="object_tests">
+              <L>
+                <V t="state">
+                  <U n="state">
+                    <T n="value">404766<!--smallBusiness_LightRetail_SalesDisabled--></T>
+                  </U>
+                </V>
+              </L>
+            </L>
+            <L n="tooltip_fields">
+              <U>
+                <E n="key">recipe_description</E>
+                <U n="value">
+                  <V n="text" t="single">
+                    <T n="single">0x91A29570<!--<font color='#EC262E'>Sales Disabled</font>--></T>
+                  </V>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+        <L n="tooltip_tests">
+          <L>
+            <V t="state">
+              <U n="state">
+                <T n="value">427192<!--smallBusiness_LightRetail_SmallBusinessActive_Active--></T>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V n="weather_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="outside_loot">
+          <U>
+            <E n="key">AnyRain</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>235500<!--loot_EcoFootprint_Object_AcidRain_End--></T>
+              </L>
+              <L n="start_loot">
+                <T>235499<!--loot_EcoFootprint_Object_AcidRain--></T>
+              </L>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <U n="_components_native">
+    <V n="Slot" t="enabled">
+      <U n="enabled">
+        <U n="default_slot">
+          <L n="autonomy_modifiers">
+            <U>
+              <V n="affordance_compatibility" t="enabled">
+                <V n="enabled" t="literal">
+                  <U n="literal">
+                    <V n="default_inclusion" t="exclude_all">
+                      <U n="exclude_all">
+                        <L n="include_affordances">
+                          <T>400142<!--smallBusinessSystem_LightRetail_Deliberate--></T>
+                          <T>402596<!--smallBusinessSystem_LightRetail_Purchase_Autonomous--></T>
+                        </L>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </V>
+              <V n="provided_affordance_compatibility" t="literal">
+                <U n="literal">
+                  <V n="default_inclusion" t="exclude_all">
+                    <U n="exclude_all">
+                      <L n="include_affordances">
+                        <T>400142<!--smallBusinessSystem_LightRetail_Deliberate--></T>
+                        <T>400141<!--smallBusinessSystem_LightRetail_Purchase--></T>
+                        <T>402596<!--smallBusinessSystem_LightRetail_Purchase_Autonomous--></T>
+                        <T>405203<!--a2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_LightRetail--></T>
+                        <T>405205<!--c2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_LightRetail--></T>
+                        <T>131790<!--swipe--></T>
+                        <T>193237<!--swipe_ClubGatheringEncouraged--></T>
+                        <T>132381<!--swipe_High_Skill--></T>
+                        <T>132380<!--swipe_Med_Skill--></T>
+                        <T>132350<!--swipe_Household_Inventory--></T>
+                        <T>193238<!--swipe_Household_Inventory_ClubGatheringEncouraged--></T>
+                        <T>132384<!--swipe_Household_Inventory_High_Skill--></T>
+                        <T>132383<!--swipe_Household_Inventory_Med_Skill--></T>
+                        <T>408854<!--swipe_SmallBusinessPerk_WhiteCollar--></T>
+                        <T>408857<!--swipe_Household_Inventory_SmallBusinessPerk_WhiteCollar--></T>
+                      </L>
+                    </U>
+                  </V>
+                </U>
+              </V>
+            </U>
+          </L>
+          <T n="return_owned_objects">True</T>
+          <L n="slot_provided_affordances">
+            <U>
+              <T n="affordance">400141<!--smallBusinessSystem_LightRetail_Purchase--></T>
+              <V n="object_filter" t="allow_all" />
+            </U>
+            <U>
+              <T n="affordance">402596<!--smallBusinessSystem_LightRetail_Purchase_Autonomous--></T>
+              <V n="object_filter" t="allow_all" />
+            </U>
+            <U>
+              <T n="affordance">400142<!--smallBusinessSystem_LightRetail_Deliberate--></T>
+              <V n="object_filter" t="allow_all" />
+            </U>
+            <U>
+              <T n="affordance">405203<!--a2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_LightRetail--></T>
+              <V n="object_filter" t="allow_all" />
+            </U>
+            <U>
+              <T n="affordance">405205<!--c2a_simPickerInteraction_SmallBusinessPerks_SwayToBuy_LightRetail--></T>
+              <V n="object_filter" t="allow_all" />
+            </U>
+          </L>
+          <L n="state_values_tuning">
+            <U>
+              <T n="state_to_set">115768<!--displayComponent_Values_SmallQuantity--></T>
+            </U>
+          </L>
+        </U>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>196759<!--famePerks_GoodReputation_GivingBack_DonateObject--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>116777<!--si_Retail_Clean_Pedestal_Superficial--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>399557<!--smallBusiness_SetMarkUp_VLow--></T>
+    <T>399558<!--smallBusiness_SetMarkUp_Low--></T>
+    <T>399559<!--smallBusiness_SetMarkUp_Base--></T>
+    <T>399560<!--smallBusiness_SetMarkUp_High--></T>
+    <T>399561<!--smallBusiness_SetMarkUp_VHigh--></T>
+    <T>404147<!--lightRetailSurface_ObjectInInventoryPicker_SlotObjectFromInventory--></T>
+    <T>404148<!--lightRetailSurface_objectInSlotPicker_CollectPickedItems--></T>
+    <T>404769<!--lightRetailSurface_ToggleSalesMode_Immediate--></T>
+    <T>144099<!--generic_Object_Toddler_Check_Out--></T>
+    <T>276518<!--infant_WhatsThat--></T>
+    <T>328068<!--infant_WhatsThat_Immobile_InObject--></T>
+    <T>422197<!--lightRetailSurface_si_ClearShelves--></T>
+    <T>109817<!--si_Retail_Clean_Pedestal--></T>
+    <T>13983<!--sim-stand--></T>
+    <T>13142<!--Cheat_MakeDirty--></T>
+    <T>74457<!--fire_ReplaceBurntObject--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+  <L n="slot_cost_modifiers">
+    <U>
+      <T n="key">_gameplaySlot_Deco_Large</T>
+      <T n="value">1000</T>
+    </U>
+    <U>
+      <T n="key">_gameplaySlot_Deco_Medium</T>
+      <T n="value">1000</T>
+    </U>
+    <U>
+      <T n="key">_gameplaySlot_Deco_Small</T>
+      <T n="value">1000</T>
+    </U>
+  </L>
+</I>

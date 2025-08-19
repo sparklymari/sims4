@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Door" i="object" m="objects.doors.door" n="door_ClubPremade_DJs" s="128596">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">NONE</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="portal" t="enabled">
+      <U n="enabled">
+        <V n="_portal_animation_component" t="enabled">
+          <U n="enabled">
+            <T n="_portal_asm" p="InGame\Sage\Door_OpenClose.interactionasm">02d5df13:00000000:8eb45e8e9b0eee0c</T>
+          </U>
+        </V>
+        <L n="_portal_data">
+          <T>178685<!--portalData_Door--></T>
+        </L>
+        <L n="_portal_disallowed_tags">
+          <E>PortalDisallowance_Ungreeted</E>
+        </L>
+        <V n="_portal_locking_component" t="enabled">
+          <U n="enabled">
+            <L n="preset_lock_datas">
+              <V t="unlock_buff">
+                <U n="unlock_buff">
+                  <L n="buffs">
+                    <T>422124<!--buff_Burglar_Role_Active--></T>
+                    <T>422126<!--buff_Burglar_Role_Leave--></T>
+                    <T>422125<!--buff_Burglar_Role_Arrested--></T>
+                    <T>427070<!--buff_Burglar_Role_Holding--></T>
+                    <T>421848<!--buff_BurglarPolice_Role_PreFight--></T>
+                    <T>426716<!--buff_BurglarPolice_Role_PostArrest--></T>
+                    <T>422063<!--buff_BurglarPolice_Role_PostFight--></T>
+                    <T>234743<!--buff_Situation_Fire_Firefighter_Role_FightFire--></T>
+                    <T>423365<!--buff_Burglar_Hidden_JustLeftSituation--></T>
+                  </L>
+                  <E n="lock_priority">OVERRIDE_PLAYER_LOCK</E>
+                </U>
+              </V>
+              <V t="lock_clubs">
+                <U n="lock_clubs">
+                  <L n="except_club_seeds">
+                    <T>126141<!--clubSeed_InitialSeeds_DJs--></T>
+                  </L>
+                  <E n="lock_priority">PLAYER_LOCK</E>
+                  <E n="lock_sides">LOCK_FRONT</E>
+                </U>
+              </V>
+            </L>
+          </U>
+        </V>
+        <L n="state_values_which_disable_portals">
+          <U>
+            <T n="key">344315<!--door_LockPortal_Locked--></T>
+            <L n="value">
+              <T>178685<!--portalData_Door--></T>
+              <T>200995<!--portalData_DoorHuman_doubleLane--></T>
+              <T>194578<!--portalData_DoorSliding--></T>
+              <T>337572<!--portalData_Gate--></T>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">29001<!--FrontDoor_Enabled--></T>
+              </U>
+              <U>
+                <T n="key">29002<!--FrontDoor_Disabled--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">29002<!--FrontDoor_Disabled--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">344314<!--door_LockPortal_Unlocked--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">135096<!--FrontDoor_IsFrontDoor--></T>
+              </U>
+              <U>
+                <T n="key">135097<!--FrontDoor_IsNotFrontDoor--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">135097<!--FrontDoor_IsNotFrontDoor--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">135099<!--InactiveApartmentDoor_Enabled--></T>
+              </U>
+              <U>
+                <T n="key">135100<!--InactiveApartmentDoor_Disabled--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">135100<!--InactiveApartmentDoor_Disabled--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">138043<!--FrontDoor_Apartment_SituationVFX_0_Off--></T>
+              </U>
+              <U>
+                <T n="key">138044<!--FrontDoor_Apartment_SituationVFX_1_Music--></T>
+              </U>
+              <U>
+                <T n="key">138045<!--FrontDoor_Apartment_SituationVFX_2_Woohoo--></T>
+              </U>
+              <U>
+                <T n="key">145042<!--FrontDoor_Apartment_SituationVFX_3_Fight--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">138043<!--FrontDoor_Apartment_SituationVFX_0_Off--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_part_data">
+    <U>
+      <U n="forward_direction_for_picking">
+        <T n="y">-1</T>
+      </U>
+      <T n="part_definition">128832<!--part_DoorClub_Back--></T>
+    </U>
+    <U>
+      <U n="forward_direction_for_picking">
+        <T n="y">-1</T>
+      </U>
+      <T n="part_definition">128831<!--part_DoorClub_Front--></T>
+      <V n="subroot_index" t="enabled">
+        <T n="enabled">1</T>
+      </V>
+    </U>
+  </L>
+  <L n="_super_affordances">
+    <T>13983<!--sim-stand--></T>
+    <T>25211<!--door_RingDoorbell--></T>
+    <T>34721<!--door_PlayerRingDoorbell--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>13342<!--door_SetFrontDoor--></T>
+    <T>75240<!--door_SetFrontDoor_Debug--></T>
+    <T>117847<!--door_Padlock_ImmediateInteraction_Lock--></T>
+    <T>117850<!--door_Padlock_ImmediateInteractions_Unlock_Actor--></T>
+    <T>117852<!--door_Padlock_ImmediateInteractions_Unlock_All--></T>
+    <T>117861<!--door_Padlock_ImmediateInteraction_Lock_Everyone_Allow_Actor--></T>
+    <T>117863<!--door_Padlock_ImmediateInteractions_Unlock_Household--></T>
+    <T>117866<!--door_Padlock_ImmediateInteractions_Unlock_Employees--></T>
+    <T>117869<!--door_Padlock_ImmediateInteraction_Lock_Everyone_Allow_Household--></T>
+    <T>117871<!--door_Padlock_ImmediateInteraction_Lock_Everyone_Allow_Employees--></T>
+    <T>159331<!--door_Padlock_ImmediateInteraction_Lock_Pet_Dog--></T>
+    <T>159332<!--door_Padlock_ImmediateInteraction_Lock_Pet_Cat--></T>
+    <T>135105<!--door_ApartmentAskToChatPicker--></T>
+    <T>144929<!--door_Apartment_InviteToHangout_simPicker--></T>
+    <T>141210<!--si_SimPicker_TravelWith_VisitApartment--></T>
+    <T>139307<!--door_Apartment_NPCRingDoorbell--></T>
+    <T>156619<!--door_Apartment_NPC_angryKnock_childComplaint--></T>
+    <T>139453<!--door_Apartment_WaitOutside--></T>
+    <T>138615<!--door_Apartment_AngryKnock--></T>
+    <T>143700<!--door_AngryKnock_ApartmentLandlord--></T>
+    <T>149553<!--door_Apartment_AngryKnock_Neighbor_Complain_Noise--></T>
+    <T>145249<!--door_Apartment_PoliteKnock--></T>
+    <T>138068<!--door_Apartment_RouteTo_AnswerComplaint_loudNeighborNPC--></T>
+    <T>138019<!--door_Apartment_RouteTo_thenCheckMail--></T>
+    <T>138018<!--door_Apartment_RouteTo_thenEmptyTrash--></T>
+    <T>140819<!--door_Apartment_RouteTo_insideHomeLot_endSituationLoudNoises--></T>
+    <T>141939<!--door_Apartment_RouteTo_goInside_ActiveLot--></T>
+    <T>146553<!--door_Apartment_InviteOver_createSituation--></T>
+    <T>187562<!--TrickorTreat_Arrive--></T>
+    <T>222938<!--collegeOrganization_SecretSociety_JoinVisit_UnlockDoor--></T>
+    <T>224069<!--door_Padlock_ImmediateInteractions_Unlocks_RoommateNPCs--></T>
+    <T>224052<!--door_Padlock_ImmediateInteraction_Locks_RoommateNPCs--></T>
+    <T>229629<!--door_PlayerRingDoorbell_UniversityHousing--></T>
+    <T>233492<!--door_Immediate_NoTrespassing_Friends--></T>
+    <T>233434<!--door_Immediate_NoTrespassing_Neighbors--></T>
+    <T>235115<!--Door_Immediate_NoTrespassing_Vampires--></T>
+    <T>233493<!--door_Immediate_NoTrespassing_Solicitors--></T>
+    <T>255024<!--door_PlayerRingDoorbell_ParanormalInvestigation--></T>
+    <T>265702<!--door_PlayerRingDoorbell_InteriorDecorator--></T>
+    <T>261756<!--door_Padlock_ImmediateInteractions_Unlocks_Chickens--></T>
+    <T>261757<!--door_Padlock_ImmediateInteraction_Locks_Chickens--></T>
+    <T>292253<!--door_Padlock_Lock_Everyone_Allow_HighSchoolFaculty--></T>
+    <T>281942<!--door_Padlock_ImmediateInteraction_Lock_BabyProof--></T>
+    <T>282125<!--toddler_gate_breakloose--></T>
+    <T>325262<!--door_Padlock_ImmediateInteraction_Locks_Goats--></T>
+    <T>325263<!--door_Padlock_ImmediateInteraction_Locks_Sheep--></T>
+    <T>325288<!--door_Padlock_ImmediateInteractions_Unlocks_Goats--></T>
+    <T>325289<!--door_Padlock_ImmediateInteractions_Unlocks_Sheep--></T>
+    <T>326539<!--door_Padlock_ImmediateInteraction_Locks_Horse--></T>
+    <T>303786<!--door_Padlock_ImmediateInteractions_Unlocks_RanchHand--></T>
+    <T>303787<!--door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_RanchHand--></T>
+    <T>343943<!--snooping_Eavesdrop_Door--></T>
+    <T>338220<!--immediate_Snooping_B&E_Start--></T>
+    <T>353030<!--si_SimPicker_TravelWith_VisitMultiUnit--></T>
+    <T>347944<!--simPicker_door_switchActiveHouseholdControl--></T>
+    <T>348945<!--businessRule_APM_DeliverFinePicker--></T>
+    <T>351312<!--rentArrears_APM_DeliverRentDemandPicker--></T>
+    <T>353786<!--door_MultiUnit_InviteToHangout_SimPicker--></T>
+    <T>353785<!--multiUnit_Door_Invite_Over--></T>
+    <T>358207<!--snooping_Travel_BreakIn_Start_RR--></T>
+    <T>359796<!--door_PlayerRingDoorbell_muEvent_PropertyOwner--></T>
+    <T>392605<!--door_PlayerRingDoorbell_GhostPowers_OpenDoorPolicy--></T>
+    <T>142061<!--si_SimPicker_TravelWith_GoHome--></T>
+    <T>149818<!--door_Apartment_PoliteKnock_Neighbor_Intrigued_Noise--></T>
+    <T>150225<!--door_Apartment_PoliteKnock_Neighbor_Intrigued_Smell--></T>
+    <T>155836<!--door_Apartment_endSituationNeighborReactsToYou_LoudNoises--></T>
+    <T>152867<!--vampire_SpiritPowers_AlwaysWelcome--></T>
+    <T>152935<!--vampire_SpiritPowers_AlwaysWelcome_DoorLock_Actor--></T>
+    <T>152936<!--vampire_SpiritPowers_AlwaysWelcome_DoorLock_All--></T>
+    <T>164217<!--lockHouseholdSimsPickerInteraction_lock_door--></T>
+    <T>164218<!--lockHouseholdSimsPickerInteraction_unlock_door--></T>
+    <T>152939<!--vampire_SpiritPowers_AlwaysWelcome_DoorUnlock_Actor--></T>
+    <T>152940<!--vampire_SpiritPowers_AlwaysWelcome_DoorUnlock_All--></T>
+    <T>146179<!--door_Padlock_ImmediateInteractions_Unlock_Butler--></T>
+    <T>146183<!--door_Padlock_ImmediateInteraction_Locks_Everyone_Allow_Butler--></T>
+    <T>160193<!--petInvestigate_Obsess_Watch_Doorbell_Cat--></T>
+    <T>164503<!--petInvestigate_LazyTrait_Obsess_Watch_Doorbell--></T>
+    <T>167285<!--door_Padlock_ImmediateInteraction_Lock_AllPets--></T>
+    <T>170586<!--door_RingDoorbell_Debug--></T>
+    <T>177529<!--petInvestigate_Obsess_Watch_Doorbell_Dog--></T>
+    <T>177527<!--petInvestigate_Obsess_Watch_Doorbell_NoBark--></T>
+    <T>128802<!--si_door_Club_AttemptSecretKnock--></T>
+    <T>128803<!--si_door_Club_SecretKnock--></T>
+    <T>129190<!--clubPickerSuperInteraction_Padlock_Lock_Everyone_Allow_Club_FrontSide--></T>
+    <T>129191<!--clubPickerSuperInteraction_Padlock_Unlock_Club_FrontSide--></T>
+    <T>139222<!--Door_debug_setVFX_0_Off--></T>
+    <T>139223<!--Door_debug_setVFX_1_loudMusic--></T>
+    <T>139224<!--Door_debug_setVFX_2_loudWoohoo--></T>
+  </L>
+  <T n="allow_putdown_nearby_on_carry_cancellation">False</T>
+  <V n="blocking_balloon_overrides" t="enabled">
+    <L n="enabled">
+      <U>
+        <L n="balloon_choices">
+          <U>
+            <V n="item" t="balloon_icon">
+              <U n="balloon_icon">
+                <V n="icon" t="resource_key">
+                  <U n="resource_key">
+                    <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_lockedDoor.png">2f7d0004:00000000:235fd7428b835446</T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </L>
+        <L n="balloon_target">
+          <E>Actor</E>
+        </L>
+      </U>
+    </L>
+  </V>
+  <T n="disable_los_reference_point">True</T>
+  <T n="is_door_portal">True</T>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

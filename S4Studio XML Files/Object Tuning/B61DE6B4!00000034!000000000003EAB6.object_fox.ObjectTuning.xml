@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Sim" i="object" m="sims.sim" n="object_fox" s="256694">
+  <U n="_carrying_component">
+    <V n="carry_locomotion" t="bipedal">
+      <U n="bipedal">
+        <L n="handedness_trait_map">
+          <U>
+            <E n="key">LEFT</E>
+            <T n="value">113589<!--trait_Handedness_Left--></T>
+          </U>
+          <U>
+            <E n="key">RIGHT</E>
+            <T n="value">113588<!--trait_Handedness_Right--></T>
+          </U>
+        </L>
+      </U>
+    </V>
+    <T n="default_put_down_strategy">145549<!--putDownStrategy_Default--></T>
+  </U>
+  <U n="_components">
+    <V n="animal_preferences" t="enabled">
+      <U n="enabled">
+        <L n="assignable_preference_tags">
+          <E>Func_Book</E>
+          <E>Func_Drink_Gifting</E>
+          <E>Func_Meal_Meat</E>
+          <E>Func_Meal_Veggie</E>
+          <E>Func_Painting_Gifting</E>
+          <E>Func_Sculpture</E>
+          <E>Func_Flower_Gifting</E>
+          <E>Func_Produce</E>
+          <E>Func_Insect_Farmed</E>
+          <E>Func_Fish</E>
+          <E>Func_CrossStitch</E>
+          <E>Func_Wool</E>
+          <E>Func_Milk</E>
+          <E>Func_CannedGood</E>
+          <E>Func_Insect_Wild</E>
+        </L>
+        <T n="category_gift_readiness_cooldown">32</T>
+        <T n="normal_gift_readiness_cooldown">16</T>
+        <L n="should_always_dislike_tags" />
+        <L n="should_always_like_tags">
+          <E>Func_Egg</E>
+        </L>
+      </U>
+    </V>
+    <V n="autonomy" t="enabled">
+      <U n="enabled">
+        <L n="preroll_affordance_skip_set">
+          <T>30917<!--SocialPickerSI--></T>
+        </L>
+      </U>
+    </V>
+    <V n="carryable" t="enabled">
+      <U n="enabled">
+        <U n="allowed_hands_data">
+          <V n="biped_allowed_hands" t="right_only" />
+          <V n="quadruped_allowed_hands" t="back_only" />
+        </U>
+        <V n="carry_affordances" t="use_custom_affordances">
+          <L n="use_custom_affordances">
+            <T>132170<!--carry_HoldSim--></T>
+            <T>13134<!--carry_holdnothing--></T>
+          </L>
+        </V>
+        <V n="constraint_pick_up" t="enabled">
+          <L n="enabled">
+            <V t="circle">
+              <U n="circle">
+                <T n="ideal_radius">0.5</T>
+              </U>
+            </V>
+            <V t="facing">
+              <U n="facing">
+                <T n="inner_radius">0</T>
+                <T n="range">65</T>
+              </U>
+            </V>
+          </L>
+        </V>
+      </U>
+    </V>
+    <V n="censor_grid" t="enabled" />
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <T n="_focus_bone">b__R_Eye__</T>
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">HIGH</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="line_of_sight" t="enabled">
+      <U n="enabled">
+        <U n="line_of_sight">
+          <T n="max_line_of_sight_radius">10</T>
+        </U>
+      </U>
+    </V>
+    <V n="live_drag_target" t="enabled">
+      <U n="enabled">
+        <L n="drop_tests_and_actions">
+          <U>
+            <E n="drop_type">SIM</E>
+            <L n="test_set">
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">15108<!--Consumable_Empty--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">15190<!--Freshness_Spoiled--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">LESS</E>
+                  <T n="value">15333<!--StackHeight_0_Few--></T>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">39611<!--FireState_Burn_Material_Change--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="object_has_no_children">
+                <U n="object_has_no_children">
+                  <E n="targets">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <T n="value">104398<!--GardeningIdentify_Identified--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <L n="actions">
+              <T>110723<!--loot_LiveDrag_Identify--></T>
+            </L>
+            <E n="drop_type">SIM</E>
+            <L n="test_set">
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">15108<!--Consumable_Empty--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">15190<!--Freshness_Spoiled--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">LESS</E>
+                  <T n="value">15333<!--StackHeight_0_Few--></T>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">39611<!--FireState_Burn_Material_Change--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="object_has_no_children">
+                <U n="object_has_no_children">
+                  <E n="targets">LiveDragActor</E>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <L n="actions">
+              <T>130363<!--loot_LiveDrag_Inventory_PortableBar--></T>
+            </L>
+            <E n="drop_type">SIM</E>
+            <L n="test_set">
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">15108<!--Consumable_Empty--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">15190<!--Freshness_Spoiled--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">LESS</E>
+                  <T n="value">15333<!--StackHeight_0_Few--></T>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_pass" />
+                  <E n="operator">NOTEQUAL</E>
+                  <T n="value">39611<!--FireState_Burn_Material_Change--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <E n="drop_type">SIM</E>
+            <L n="test_set">
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_fail" />
+                  <E n="operator">EQUAL</E>
+                  <T n="value">15108<!--Consumable_Empty--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+              <V t="state">
+                <U n="state">
+                  <V n="fallback_behavior" t="always_fail" />
+                  <E n="operator">GREATER_OR_EQUAL</E>
+                  <T n="value">158887<!--petFoodBowl_Freshness_Spoiled--></T>
+                  <E n="who">LiveDragActor</E>
+                </U>
+              </V>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="proximity_component" t="enabled">
+      <U n="enabled">
+        <L n="buffs">
+          <T>32807<!--Buff_Near_Friendly--></T>
+          <T>32943<!--Buff_Near_MyChild--></T>
+          <T>32815<!--Buff_Near_Partner--></T>
+          <T>32813<!--Buff_Near_Romance--></T>
+          <T>32818<!--Buff_Near_Unfriendly--></T>
+          <T>38898<!--Buff_Proximity_PoorPlaying--></T>
+          <T>38910<!--Buff_Proximity_Embarassed_By_PoorPlaying--></T>
+          <T>97686<!--Buff_Near_NewSibling--></T>
+          <T>29863<!--PaMatriarch_Skill_Up--></T>
+          <T>108234<!--Buff_Bear_Nearby--></T>
+          <T>164675<!--buff_BadManners_Visiting--></T>
+          <T>169547<!--buff_Near_HouseholdToddler--></T>
+        </L>
+      </U>
+    </V>
+    <V n="routing_component" t="enabled">
+      <U n="enabled">
+        <U n="plan_context_data">
+          <U n="default_context">
+            <V n="_agent_height_clearance_override" t="enabled">
+              <T n="enabled">0.5</T>
+            </V>
+            <V n="_allowed_portal_flags" t="enabled">
+              <L n="enabled">
+                <E>STAIRS_PORTAL_LONG</E>
+                <E>STAIRS_PORTAL_SHORT</E>
+                <E>Elevator</E>
+              </L>
+            </V>
+          </U>
+        </U>
+        <U n="walkstyle_behavior">
+          <L n="combo_walkstyle_replacements">
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\WalkGhost.walkstyle">27c01d95:00000000:0000000085fa674b</T>
+                <T p="InGame\Locomotion\Jog.walkstyle">27c01d95:00000000:00000000208631a7</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\JogGhost.walkstyle">27c01d95:00000000:000000006d8226d0</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\WalkGhost.walkstyle">27c01d95:00000000:0000000085fa674b</T>
+                <T p="InGame\Locomotion\WalkSad.walkstyle">27c01d95:00000000:00000000192e937a</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\WalkGhostSad.walkstyle">27c01d95:00000000:0000000035c03e01</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\WalkGhost.walkstyle">27c01d95:00000000:0000000085fa674b</T>
+                <T p="InGame\Locomotion\WalkAngry.walkstyle">27c01d95:00000000:00000000e8698d8d</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\WalkGhostAngry.walkstyle">27c01d95:00000000:0000000059778116</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\WalkGhost.walkstyle">27c01d95:00000000:0000000085fa674b</T>
+                <T p="InGame\Locomotion\WalkHappy.walkstyle">27c01d95:00000000:0000000066499344</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\WalkGhostHappy.walkstyle">27c01d95:00000000:0000000050190287</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+                <T p="InGame\Locomotion\WalkSad.walkstyle">27c01d95:00000000:00000000192e937a</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\SwimSad.walkstyle">27c01d95:00000000:000000006b45f2f3</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+                <T p="InGame\Locomotion\WalkAngry.walkstyle">27c01d95:00000000:00000000e8698d8d</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\SwimAngry.walkstyle">27c01d95:00000000:00000000fbbc7568</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+                <T p="InGame\Locomotion\WalkPlayful.walkstyle">27c01d95:00000000:00000000e7bc0bc5</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\SwimPlayful.walkstyle">27c01d95:00000000:00000000708846c8</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+                <T p="InGame\Locomotion\WalkEnergetic.walkstyle">27c01d95:00000000:000000003202eed6</T>
+              </L>
+              <T n="result" p="InGame\Locomotion\SwimEnergized.walkstyle">27c01d95:00000000:000000003f3989ce</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGP07\Locomotion\GP07_WalkPossessed.walkstyle">27c01d95:00000000:00000000a68a97e0</T>
+                <T p="InEP07\Locomotion\SwimMermaid.walkstyle">27c01d95:00000000:0000000086c89dce</T>
+              </L>
+              <T n="result" p="InEP07\Locomotion\SwimMermaid.walkstyle">27c01d95:00000000:0000000086c89dce</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGP07\Locomotion\GP07_WalkPossessed.walkstyle">27c01d95:00000000:00000000a68a97e0</T>
+                <T p="InEP07\Locomotion\SwimMermaid_MediumSpeed.walkstyle">27c01d95:00000000:0000000062f44389</T>
+              </L>
+              <T n="result" p="InEP07\Locomotion\SwimMermaid_MediumSpeed.walkstyle">27c01d95:00000000:0000000062f44389</T>
+            </U>
+            <U>
+              <L n="key_combo_list">
+                <T p="InGP07\Locomotion\GP07_WalkPossessed.walkstyle">27c01d95:00000000:00000000a68a97e0</T>
+                <T p="InEP07\Locomotion\SwimMermaid_SlowSpeed.walkstyle">27c01d95:00000000:00000000b86c9513</T>
+              </L>
+              <T n="result" p="InEP07\Locomotion\SwimMermaid_SlowSpeed.walkstyle">27c01d95:00000000:00000000b86c9513</T>
+            </U>
+          </L>
+          <T n="default_walkstyle" p="InEP11\Locomotion\EP11_Fox_Trot.walkstyle">27c01d95:00000000:00000000731b3462</T>
+          <T n="run_required_segment_distance">8</T>
+          <T n="run_required_total_distance">12</T>
+          <T n="run_walkstyle" p="InEP11\Locomotion\EP11_Fox_Run.walkstyle">27c01d95:00000000:0000000033a75194</T>
+          <T n="short_walkstyle" p="InGame\Locomotion\Walk.walkstyle">27c01d95:00000000:000000007db16dbe</T>
+          <T n="short_walkstyle_distance">3.5</T>
+          <L n="short_walkstyle_distance_override_map">
+            <U>
+              <T n="key" p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+              <T n="value">5</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimAngry.walkstyle">27c01d95:00000000:00000000fbbc7568</T>
+              <T n="value">5</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimEnergized.walkstyle">27c01d95:00000000:000000003f3989ce</T>
+              <T n="value">5</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimPlayful.walkstyle">27c01d95:00000000:00000000708846c8</T>
+              <T n="value">5</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimSad.walkstyle">27c01d95:00000000:000000006b45f2f3</T>
+              <T n="value">5</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkAngry.walkstyle">27c01d95:00000000:00000000e8698d8d</T>
+              <T n="value">4</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkSad.walkstyle">27c01d95:00000000:00000000192e937a</T>
+              <T n="value">4</T>
+            </U>
+          </L>
+          <L n="short_walkstyle_map">
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_IceSkate.walkstyle">27c01d95:00000000:0000000003eddea7</T>
+              <T n="value" p="InEP05\Locomotion\EP05_IceSkate.walkstyle">27c01d95:00000000:0000000003eddea7</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_IceSkateBackwards.walkstyle">27c01d95:00000000:000000005fffed97</T>
+              <T n="value" p="InEP05\Locomotion\EP05_IceSkateBackwards.walkstyle">27c01d95:00000000:000000005fffed97</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_IceSkateHighSkill.walkstyle">27c01d95:00000000:000000005555a4ea</T>
+              <T n="value" p="InEP05\Locomotion\EP05_IceSkateHighSkill.walkstyle">27c01d95:00000000:000000005555a4ea</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_IceSkateLowSkill.walkstyle">27c01d95:00000000:00000000d4dc3a9e</T>
+              <T n="value" p="InEP05\Locomotion\EP05_IceSkateLowSkill.walkstyle">27c01d95:00000000:00000000d4dc3a9e</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_RollerSkate.walkstyle">27c01d95:00000000:000000001cb6aa0c</T>
+              <T n="value" p="InEP05\Locomotion\EP05_RollerSkate.walkstyle">27c01d95:00000000:000000001cb6aa0c</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_RollerSkateBackwards.walkstyle">27c01d95:00000000:000000003ef677de</T>
+              <T n="value" p="InEP05\Locomotion\EP05_RollerSkateBackwards.walkstyle">27c01d95:00000000:000000003ef677de</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_RollerSkateHighSkill.walkstyle">27c01d95:00000000:0000000031319277</T>
+              <T n="value" p="InEP05\Locomotion\EP05_RollerSkateHighSkill.walkstyle">27c01d95:00000000:0000000031319277</T>
+            </U>
+            <U>
+              <T n="key" p="InEP05\Locomotion\EP05_RollerSkateLowSkill.walkstyle">27c01d95:00000000:00000000c010a085</T>
+              <T n="value" p="InEP05\Locomotion\EP05_RollerSkateLowSkill.walkstyle">27c01d95:00000000:00000000c010a085</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\RunPanic.walkstyle">27c01d95:00000000:00000000278b1e71</T>
+              <T n="value" p="InGame\Locomotion\RunPanic.walkstyle">27c01d95:00000000:00000000278b1e71</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+              <T n="value" p="InGame\Locomotion\Swim.walkstyle">27c01d95:00000000:00000000090d7f4d</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimAngry.walkstyle">27c01d95:00000000:00000000fbbc7568</T>
+              <T n="value" p="InGame\Locomotion\SwimAngry.walkstyle">27c01d95:00000000:00000000fbbc7568</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimEnergized.walkstyle">27c01d95:00000000:000000003f3989ce</T>
+              <T n="value" p="InGame\Locomotion\SwimEnergized.walkstyle">27c01d95:00000000:000000003f3989ce</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimPlayful.walkstyle">27c01d95:00000000:00000000708846c8</T>
+              <T n="value" p="InGame\Locomotion\SwimPlayful.walkstyle">27c01d95:00000000:00000000708846c8</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\SwimSad.walkstyle">27c01d95:00000000:000000006b45f2f3</T>
+              <T n="value" p="InGame\Locomotion\SwimSad.walkstyle">27c01d95:00000000:000000006b45f2f3</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkGhost.walkstyle">27c01d95:00000000:0000000085fa674b</T>
+              <T n="value" p="InGame\Locomotion\WalkGhost.walkstyle">27c01d95:00000000:0000000085fa674b</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkGhostAngry.walkstyle">27c01d95:00000000:0000000059778116</T>
+              <T n="value" p="InGame\Locomotion\WalkGhostAngry.walkstyle">27c01d95:00000000:0000000059778116</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkGhostHappy.walkstyle">27c01d95:00000000:0000000050190287</T>
+              <T n="value" p="InGame\Locomotion\WalkGhostHappy.walkstyle">27c01d95:00000000:0000000050190287</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkGhostSad.walkstyle">27c01d95:00000000:0000000035c03e01</T>
+              <T n="value" p="InGame\Locomotion\WalkGhostSad.walkstyle">27c01d95:00000000:0000000035c03e01</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkPregnant.walkstyle">27c01d95:00000000:000000000f5ca155</T>
+              <T n="value" p="InGame\Locomotion\WalkPregnant.walkstyle">27c01d95:00000000:000000000f5ca155</T>
+            </U>
+            <U>
+              <T n="key" p="InGame\Locomotion\WalkReaper.walkstyle">27c01d95:00000000:00000000ae69ba8b</T>
+              <T n="value" p="InGame\Locomotion\WalkReaper.walkstyle">27c01d95:00000000:00000000ae69ba8b</T>
+            </U>
+          </L>
+        </U>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="state_triggers">
+          <U>
+            <L n="at_states">
+              <T>75469<!--FireState_Burn_Sim_Burning_Singed--></T>
+            </L>
+            <V n="set_states" t="Set_state_list">
+              <L n="Set_state_list">
+                <T>75466<!--Sim_singed_singed--></T>
+              </L>
+            </V>
+          </U>
+        </L>
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15152<!--Fat_0--></T>
+              </U>
+              <U>
+                <T n="key">15153<!--Fat_1--></T>
+              </U>
+              <U>
+                <T n="key">15154<!--Fat_2--></T>
+              </U>
+              <U>
+                <T n="key">15155<!--Fat_3--></T>
+              </U>
+              <U>
+                <T n="key">15156<!--Fat_4--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15154<!--Fat_2--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15180<!--Fit_0--></T>
+              </U>
+              <U>
+                <T n="key">15181<!--Fit_1--></T>
+              </U>
+              <U>
+                <T n="key">15182<!--Fit_2--></T>
+              </U>
+              <U>
+                <T n="key">15183<!--Fit_3--></T>
+              </U>
+              <U>
+                <T n="key">15184<!--Fit_4--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15182<!--Fit_2--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">15298<!--Pregnant_FirstTrimester--></T>
+                <U n="value">
+                  <V n="pregnancy_progress" t="apply_new_value">
+                    <T n="apply_new_value">0.5</T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15299<!--Pregnant_NotPregnant--></T>
+                <U n="value">
+                  <V n="pregnancy_progress" t="apply_new_value" />
+                </U>
+              </U>
+              <U>
+                <T n="key">15301<!--Pregnant_SecondTrimester--></T>
+                <U n="value">
+                  <V n="pregnancy_progress" t="apply_new_value">
+                    <T n="apply_new_value">0.75</T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">15302<!--Pregnant_ThirdTrimester--></T>
+                <U n="value">
+                  <V n="pregnancy_progress" t="apply_new_value">
+                    <T n="apply_new_value">0.95</T>
+                  </V>
+                </U>
+              </U>
+              <U>
+                <T n="key">75273<!--Pregnant_InLabor--></T>
+                <U n="value">
+                  <V n="pregnancy_progress" t="apply_new_value">
+                    <T n="apply_new_value">1</T>
+                  </V>
+                </U>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">15299<!--Pregnant_NotPregnant--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39737<!--FireState_Burn_Material_Change_Not_Burning--></T>
+              </U>
+              <U>
+                <T n="key">75468<!--FireState_Burn_Sim_Burning--></T>
+              </U>
+              <U>
+                <T n="key">75469<!--FireState_Burn_Sim_Burning_Singed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">74096<!--FireState_Burn_Sim_Not_Burning--></T>
+            </V>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">75466<!--Sim_singed_singed--></T>
+              </U>
+              <U>
+                <T n="key">75467<!--Sim_singed_non_singed--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">75467<!--Sim_singed_non_singed--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">104128<!--SimGrubby_NotGrubby--></T>
+              </U>
+              <U>
+                <T n="key">104129<!--SimGrubby_Grubby--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">104128<!--SimGrubby_NotGrubby--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">274808<!--SimFaceGrubby_FaceGrubby--></T>
+              </U>
+              <U>
+                <T n="key">274809<!--SimFaceGrubby_NotFaceGrubby--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">274809<!--SimFaceGrubby_NotFaceGrubby--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">160280<!--bowling_Ball_Values_Red--></T>
+              </U>
+              <U>
+                <T n="key">160282<!--bowling_Ball_Values_default--></T>
+              </U>
+              <U>
+                <T n="key">160532<!--bowling_Ball_Values_Gold--></T>
+              </U>
+              <U>
+                <T n="key">160533<!--bowling_Ball_Values_Blue--></T>
+              </U>
+              <U>
+                <T n="key">160534<!--bowling_Ball_Values_LightBlue--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">160282<!--bowling_Ball_Values_default--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">115466<!--sim_Frozen_Unfrozen--></T>
+              </U>
+              <U>
+                <T n="key">115467<!--sim_Frozen_Frozen--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">115466<!--sim_Frozen_Unfrozen--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">115715<!--sim_Frozen_Frozen_Child--></T>
+              </U>
+              <U>
+                <T n="key">115716<!--sim_Frozen_UnFrozen_Child--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">115716<!--sim_Frozen_UnFrozen_Child--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">121725<!--iceCream_Broadcaster_On--></T>
+              </U>
+              <U>
+                <T n="key">121726<!--iceCream_Broadcaster_Off--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">121726<!--iceCream_Broadcaster_Off--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">149312<!--phone_UseType_Camera--></T>
+              </U>
+              <U>
+                <T n="key">149313<!--phone_UseType_Game--></T>
+              </U>
+              <U>
+                <T n="key">149314<!--phone_UseType_Photo--></T>
+              </U>
+              <U>
+                <T n="key">149315<!--phone_UseType_Text--></T>
+              </U>
+              <U>
+                <T n="key">149316<!--phone_UseType_Web--></T>
+              </U>
+              <U>
+                <T n="key">283303<!--phone_UseType_vChat--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">149315<!--phone_UseType_Text--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+            <T n="reset_to_default">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">149293<!--phone_Color_TurquoiseStripes--></T>
+              </U>
+              <U>
+                <T n="key">149294<!--phone_Color_Default--></T>
+              </U>
+              <U>
+                <T n="key">149295<!--phone_Color_Lime--></T>
+              </U>
+              <U>
+                <T n="key">149296<!--phone_Color_MintGreenStripes--></T>
+              </U>
+              <U>
+                <T n="key">149297<!--phone_Color_OrangePolka--></T>
+              </U>
+              <U>
+                <T n="key">149298<!--phone_Color_Purple--></T>
+              </U>
+              <U>
+                <T n="key">149299<!--phone_Color_Red--></T>
+              </U>
+              <U>
+                <T n="key">149300<!--phone_Color_RoseGold--></T>
+              </U>
+              <U>
+                <T n="key">149301<!--phone_Color_Silver--></T>
+              </U>
+              <U>
+                <T n="key">149302<!--phone_Color_White--></T>
+              </U>
+              <U>
+                <T n="key">149303<!--phone_Color_BlackStripes--></T>
+              </U>
+              <U>
+                <T n="key">149304<!--phone_Color_Black--></T>
+              </U>
+              <U>
+                <T n="key">149305<!--phone_Color_BluePolka--></T>
+              </U>
+              <U>
+                <T n="key">149306<!--phone_Color_Brown--></T>
+              </U>
+              <U>
+                <T n="key">149307<!--phone_Color_DarkBlue--></T>
+              </U>
+              <U>
+                <T n="key">149308<!--phone_Color_DarkGreen--></T>
+              </U>
+              <U>
+                <T n="key">149309<!--phone_Color_Gold--></T>
+              </U>
+              <U>
+                <T n="key">149310<!--phone_Color_HotPinkPolka--></T>
+              </U>
+              <U>
+                <T n="key">149311<!--phone_Color_LightPink--></T>
+              </U>
+              <U>
+                <T n="key">284000<!--phone_Color_Values_swirlBlue--></T>
+              </U>
+              <U>
+                <T n="key">284001<!--phone_Color_Values_swirlGray--></T>
+              </U>
+              <U>
+                <T n="key">284002<!--phone_Color_Values_swirlGreen--></T>
+              </U>
+              <U>
+                <T n="key">284003<!--phone_Color_Values_swirlOrange--></T>
+              </U>
+              <U>
+                <T n="key">284004<!--phone_Color_Values_swirlPink--></T>
+              </U>
+              <U>
+                <T n="key">284005<!--phone_Color_Values_swirlPurple--></T>
+              </U>
+              <U>
+                <T n="key">284034<!--phone_Color_Values_paintCanary--></T>
+              </U>
+              <U>
+                <T n="key">284035<!--phone_Color_Values_paintBlack--></T>
+              </U>
+              <U>
+                <T n="key">284036<!--phone_Color_Values_paintBlue--></T>
+              </U>
+              <U>
+                <T n="key">284037<!--phone_Color_Values_paintGreen--></T>
+              </U>
+              <U>
+                <T n="key">284038<!--phone_Color_Values_paintTeal--></T>
+              </U>
+              <U>
+                <T n="key">284039<!--phone_Color_Values_paintWhite--></T>
+              </U>
+              <U>
+                <T n="key">284062<!--phone_Color_Values_astroBlack--></T>
+              </U>
+              <U>
+                <T n="key">284063<!--phone_Color_Values_astroGray--></T>
+              </U>
+              <U>
+                <T n="key">284064<!--phone_Color_Values_astroMaroon--></T>
+              </U>
+              <U>
+                <T n="key">284065<!--phone_Color_Values_astroPeach--></T>
+              </U>
+              <U>
+                <T n="key">284066<!--phone_Color_Values_astroPink--></T>
+              </U>
+              <U>
+                <T n="key">284067<!--phone_Color_Values_astroPurple--></T>
+              </U>
+              <U>
+                <T n="key">284226<!--phone_Color_Values_roseWhite--></T>
+              </U>
+              <U>
+                <T n="key">284227<!--phone_Color_Values_roseMetalGold--></T>
+              </U>
+              <U>
+                <T n="key">284228<!--phone_Color_Values_roseBlack--></T>
+              </U>
+              <U>
+                <T n="key">284229<!--phone_Color_Values_roseBlue--></T>
+              </U>
+              <U>
+                <T n="key">284230<!--phone_Color_Values_roseGreen--></T>
+              </U>
+              <U>
+                <T n="key">284231<!--phone_Color_Values_roseLavender--></T>
+              </U>
+              <U>
+                <T n="key">284250<!--phone_Color_Values_floralPeach--></T>
+              </U>
+              <U>
+                <T n="key">284251<!--phone_Color_Values_floralGreenBlue--></T>
+              </U>
+              <U>
+                <T n="key">284252<!--phone_Color_Values_floralYellow--></T>
+              </U>
+              <U>
+                <T n="key">284253<!--phone_Color_Values_floralMauve--></T>
+              </U>
+              <U>
+                <T n="key">284254<!--phone_Color_Values_floralPink--></T>
+              </U>
+              <U>
+                <T n="key">284255<!--phone_Color_Values_floralSlate--></T>
+              </U>
+              <U>
+                <T n="key">284274<!--phone_Color_Values_geoBlue--></T>
+              </U>
+              <U>
+                <T n="key">284275<!--phone_Color_Values_geoRed--></T>
+              </U>
+              <U>
+                <T n="key">284276<!--phone_Color_Values_geoGreen--></T>
+              </U>
+              <U>
+                <T n="key">284277<!--phone_Color_Values_geoSilver--></T>
+              </U>
+              <U>
+                <T n="key">284278<!--phone_Color_Values_geoGold--></T>
+              </U>
+              <U>
+                <T n="key">284279<!--phone_Color_Values_geoBrown--></T>
+              </U>
+              <U>
+                <T n="key">284299<!--phone_Color_Values_cassetteRed--></T>
+              </U>
+              <U>
+                <T n="key">284300<!--phone_Color_Values_cassetteBlack--></T>
+              </U>
+              <U>
+                <T n="key">284301<!--phone_Color_Values_cassetteGreen--></T>
+              </U>
+              <U>
+                <T n="key">284302<!--phone_Color_Values_cassetteBlue--></T>
+              </U>
+              <U>
+                <T n="key">284303<!--phone_Color_Values_cassettePink--></T>
+              </U>
+              <U>
+                <T n="key">284304<!--phone_Color_Values_cassetteOrange--></T>
+              </U>
+              <U>
+                <T n="key">284323<!--phone_Color_Values_duoSlate--></T>
+              </U>
+              <U>
+                <T n="key">284324<!--phone_Color_Values_duoUmber--></T>
+              </U>
+              <U>
+                <T n="key">284325<!--phone_Color_Values_duoBabyBlue--></T>
+              </U>
+              <U>
+                <T n="key">284326<!--phone_Color_Values_duoLavender--></T>
+              </U>
+              <U>
+                <T n="key">284327<!--phone_Color_Values_duoGreen--></T>
+              </U>
+              <U>
+                <T n="key">284328<!--phone_Color_Values_duoBlack--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">149294<!--phone_Color_Default--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">154789<!--SimReflection_NoMirrors--></T>
+              </U>
+              <U>
+                <T n="key">154790<!--SimReflection_Default--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">154790<!--SimReflection_Default--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">181195<!--EffectiveTemperature_ExtremeFreezing--></T>
+              </U>
+              <U>
+                <T n="key">181196<!--EffectiveTemperature_Freezing--></T>
+              </U>
+              <U>
+                <T n="key">181197<!--EffectiveTemperature_Cold--></T>
+              </U>
+              <U>
+                <T n="key">181198<!--EffectiveTemperature_Cool--></T>
+              </U>
+              <U>
+                <T n="key">181199<!--EffectiveTemperature_Warm--></T>
+              </U>
+              <U>
+                <T n="key">181200<!--EffectiveTemperature_Hot--></T>
+              </U>
+              <U>
+                <T n="key">181201<!--EffectiveTemperature_Burning--></T>
+              </U>
+              <U>
+                <T n="key">181202<!--EffectiveTemperature_ExtremeBurning--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">181198<!--EffectiveTemperature_Cool--></T>
+            </V>
+            <T n="reset_on_load_if_time_passes">True</T>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">183594<!--wetness_State_Values_Sim_Dry--></T>
+              </U>
+              <U>
+                <T n="key">183595<!--wetness_State_Values_Sim_Wet--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">183594<!--wetness_State_Values_Sim_Dry--></T>
+            </V>
+          </U>
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">264687<!--critterGifting_DiscoverGift_Available--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">267359<!--foxStalk_Broadcast_On--></T>
+              </U>
+              <U>
+                <T n="key">267360<!--foxStalk_Broadcast_Off--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">267359<!--foxStalk_Broadcast_On--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="weather_aware_component" t="enabled">
+      <U n="enabled">
+        <L n="anywhere_loot">
+          <U>
+            <E n="key">AnyRain</E>
+          </U>
+          <U>
+            <E n="key">Thunder</E>
+          </U>
+          <U>
+            <E n="key">Snow_Storm</E>
+          </U>
+        </L>
+        <L n="disable_loot">
+          <T>189227<!--loot_Temperature_Immune_To_Temperature_Set--></T>
+        </L>
+        <L n="enable_loot">
+          <T>189228<!--loot_Temperature_Immune_To_Temperature_Remove--></T>
+        </L>
+        <L n="inside_loot">
+          <U>
+            <E n="key">Burning</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>183284<!--loot_GlobalTemperature_Inside_Burning--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Hot</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>183285<!--loot_GlobalTemperature_Inside_Hot--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Warm</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>239917<!--loot_Temperature_MountainSnow_EffectiveTemperature_Reset--></T>
+                <T>183286<!--loot_GlobalTemperature_Inside_Warm--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Cool</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>183287<!--loot_GlobalTemperature_Inside_Cool--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Cold</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>183288<!--loot_GlobalTemperature_Inside_Cold--></T>
+                <T>237502<!--loot_GlobalTemperature_MountainSnow_Inside_Cold--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Freezing</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>183289<!--loot_GlobalTemperature_Inside_Freezing--></T>
+                <T>237503<!--loot_GlobalTemperature_MountainSnow_Inside_Freezing--></T>
+              </L>
+            </U>
+          </U>
+        </L>
+        <L n="outside_loot">
+          <U>
+            <E n="key">Burning</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>183602<!--loot_GlobalTemperature_TraitBuff_Removal_BurningMan_Burning--></T>
+              </L>
+              <L n="start_loot">
+                <T>183276<!--loot_GlobalTemperature_Outside_Burning--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Hot</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>183603<!--loot_GlobalTemperature_TraitBuff_Removal_BurningMan_Hot--></T>
+              </L>
+              <L n="start_loot">
+                <T>183279<!--loot_GlobalTemperature_Outside_Hot--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Warm</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>239917<!--loot_Temperature_MountainSnow_EffectiveTemperature_Reset--></T>
+                <T>183280<!--loot_GlobalTemperature_Outside_Warm--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Cool</E>
+            <U n="value">
+              <L n="start_loot">
+                <T>183281<!--loot_GlobalTemperature_Outside_Cool--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Cold</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>183605<!--loot_GlobalTemperature_TraitBuff_Removal_IceMan_Cold--></T>
+                <T>184202<!--loot_Temperature_VFX_ColdBreath_Removal--></T>
+                <T>237519<!--loot_Temperature_MountainSnow_VFX_ColdBreath_Remove--></T>
+              </L>
+              <L n="start_loot">
+                <T>183282<!--loot_GlobalTemperature_Outside_Cold--></T>
+                <T>184199<!--loot_Temperature_VFX_ColdBreath--></T>
+                <T>237517<!--loot_Temperature_MountainSnow_VFX_ColdBreath--></T>
+                <T>237506<!--loot_GlobalTemperature_MountainSnow_Outside_Cold--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">Freezing</E>
+            <U n="value">
+              <L n="end_loot">
+                <T>183604<!--loot_GlobalTemperature_TraitBuff_Removal_IceMan_Freezing--></T>
+                <T>184202<!--loot_Temperature_VFX_ColdBreath_Removal--></T>
+                <T>237519<!--loot_Temperature_MountainSnow_VFX_ColdBreath_Remove--></T>
+              </L>
+              <L n="start_loot">
+                <T>183283<!--loot_GlobalTemperature_Outside_Freezing--></T>
+                <T>184199<!--loot_Temperature_VFX_ColdBreath--></T>
+                <T>237517<!--loot_Temperature_MountainSnow_VFX_ColdBreath--></T>
+                <T>237507<!--loot_GlobalTemperature_MountainSnow_Outside_Freezing--></T>
+              </L>
+            </U>
+          </U>
+          <U>
+            <E n="key">AnyRain</E>
+          </U>
+          <U>
+            <E n="key">Snow_Storm</E>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_default_anim_params">
+    <U>
+      <T n="name">isMermaid</T>
+      <V n="value" t="boolean" />
+    </U>
+  </L>
+  <T n="_disable_child_footprint_and_shadow">True</T>
+  <U n="_interaction_queue">
+    <T n="max_interactions">6</T>
+  </U>
+  <L n="_relation_panel_affordances">
+    <T>127151<!--phone_Text_Angry--></T>
+    <T>127150<!--phone_Text_Energized--></T>
+    <T>127146<!--phone_Text_Flirty--></T>
+    <T>127149<!--phone_Text_Happy--></T>
+    <T>127148<!--phone_Text_Playful--></T>
+    <T>127147<!--phone_Text_Sad--></T>
+    <T>216212<!--relationshipPanel_Freelancer_Fashion_Photographer_Meet_With_Style_Influencer--></T>
+    <T>250897<!--immediate_OpenSimProfile_RelPanel--></T>
+    <T>266237<!--immediate_RelPanel_CallOver_AnimalObject_Chickens--></T>
+    <T>266329<!--immediate_RelPanel_SendHome_AnimalObject_Chickens--></T>
+    <T>268004<!--immediate_RelPanel_FocusCamera_AnimalHome_Rabbit--></T>
+    <T>268097<!--immediate_RelPanel_CallOver_Animal_Object_Rabbits--></T>
+    <T>240189<!--immediate_RelPanel_FocusCamera--></T>
+    <T>268056<!--immediate_RelPanel_LockCamera--></T>
+    <T>268555<!--immediate_RelPanel_AnimalObjects_LockCamera_Chicken--></T>
+    <T>268556<!--immediate_RelPanel_AnimalObjects_LockCamera_Rabbit--></T>
+    <T>305173<!--immediate_RelPanel_AnimalObjects_LockCamera_GoatSheep--></T>
+    <T>333736<!--immediate_RelPanel_CallOver_AnimalObjects_GoatSheep--></T>
+    <T>362291<!--immediateSuperInteraction_CAD_AskOnDate_RelPanel_Adult--></T>
+    <T>362247<!--immediateSuperInteraction_CAD_AskOnDate_RelPanel_Teen--></T>
+    <T>365250<!--immediateSuperInteraction_CAD_AskToHangout_RelPanel--></T>
+    <T>373122<!--phone_Chat_OpenableWindow_TriggerCollegeParty--></T>
+    <T>374095<!--phone_RelPanelSocial_DiscussInterests--></T>
+    <T>374097<!--phone_RelPanelSocial_Flirt--></T>
+    <T>374096<!--phone_RelPanelSocial_GetToKnow--></T>
+    <T>374098<!--phone_RelPanelSocial_SendSelfie--></T>
+    <T>378503<!--immediateSuperInteraction_RelSocials_HideRelationship_FromRelPanel--></T>
+    <T>395003<!--immediateSuperInteraction_AskOnDate_RelPanel_Adult--></T>
+    <T>395004<!--immediateSuperInteraction_AskOnDate_RelPanel_Teen--></T>
+    <T>267972<!--immediate_RelPanel_FocusCamera_AnimalHome_Chicken--></T>
+  </L>
+  <L n="_super_affordances">
+    <T>24107<!--picker_Relbit_Add--></T>
+    <T>13328<!--debug_Reset--></T>
+    <T>274798<!--debug_ObjectDestroy_Sim--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>13143<!--cheat_make_me_happy--></T>
+    <T>13141<!--cheat_enable_stat_decay--></T>
+    <T>13140<!--cheat_disable_stat_decay--></T>
+    <T>176207<!--debug_AddDebugInteractionBuff--></T>
+    <T>189659<!--debug_RemoveRecentFire--></T>
+    <T>215186<!--debugImmediate_rabbitHole--></T>
+    <T>13817<!--picker_Trait_Add--></T>
+    <T>13818<!--picker_Trait_Remove--></T>
+    <T>191703<!--Cheat_RemoveFromFamilyBG--></T>
+    <T>219569<!--cheat_LockMotives--></T>
+    <T>8268<!--DebugEmotionIntensity_Angry--></T>
+    <T>8284<!--DebugEmotionIntensity_Bored--></T>
+    <T>258314<!--debug_AddTraitOutcomeBuff--></T>
+    <T>290848<!--debug_AddDebugFailOutcomeBuff--></T>
+    <T>8295<!--DebugEmotionIntensity_Confident--></T>
+    <T>8277<!--DebugEmotionIntensity_Enraged--></T>
+    <T>8282<!--DebugEmotionIntensity_Depressed--></T>
+    <T>8273<!--DebugEmotionIntensity_Elated--></T>
+    <T>8285<!--DebugEmotionIntensity_Embarrassed--></T>
+    <T>8292<!--DebugEmotionIntensity_Energized--></T>
+    <T>8296<!--DebugEmotionIntensity_Fearless--></T>
+    <T>8276<!--DebugEmotionIntensity_Fine--></T>
+    <T>8297<!--DebugEmotionIntensity_Flirty--></T>
+    <T>8294<!--DebugEmotionIntensity_Focused--></T>
+    <T>263615<!--nameSim_Fox--></T>
+    <T>262473<!--foxSocial_Fox_Play--></T>
+    <T>264693<!--cheats_AnimalObjects_CritterGifting_DisableDiscoverGiftCooldown--></T>
+    <T>259732<!--foxSocial_SimToFox_NonTouching_Sim--></T>
+    <T>260829<!--critterGifting_GiveGift_ToFox_Picker_Book--></T>
+    <T>260830<!--critterGifting_GiveGift_ToFox_Picker_CannedGoods--></T>
+    <T>260831<!--critterGifting_GiveGift_ToFox_Picker_CrossStitch--></T>
+    <T>260832<!--critterGifting_GiveGift_ToFox_Picker_Drink--></T>
+    <T>260841<!--critterGifting_GiveGift_ToFox_Picker_Egg--></T>
+    <T>8278<!--DebugEmotionIntensity_Furious--></T>
+    <T>260842<!--critterGifting_GiveGift_ToFox_Picker_Fish--></T>
+    <T>260843<!--critterGifting_GiveGift_ToFox_Picker_Flower--></T>
+    <T>268562<!--fox_Sim_CallOver--></T>
+    <T>260845<!--critterGifting_GiveGift_ToFox_Picker_MealMeat--></T>
+    <T>260846<!--critterGifting_GiveGift_ToFox_Picker_MealVeggie--></T>
+    <T>260847<!--critterGifting_GiveGift_ToFox_Picker_Milk--></T>
+    <T>260848<!--critterGifting_GiveGift_ToFox_Picker_Painting--></T>
+    <T>260849<!--critterGifting_GiveGift_ToFox_Picker_Produce--></T>
+    <T>260850<!--critterGifting_GiveGift_ToFox_Picker_Sculpture--></T>
+    <T>8272<!--DebugEmotionIntensity_Happy--></T>
+    <T>260851<!--critterGifting_GiveGift_ToFox_Picker_Wool--></T>
+    <T>266729<!--cheats_AnimalObjects_CritterGifting_KnowAllPreferences--></T>
+    <T>267169<!--critterGifting_GiveGift_ToFox_Picker_InsectWild--></T>
+    <T>267159<!--critterGifting_GiveGift_ToFox_Picker_InsectFarm--></T>
+    <T>269639<!--fox_Immediate_KlobberToDrogEgg--></T>
+    <T>268485<!--fox_SimWatchFox--></T>
+    <T>269412<!--fox_SimWatchFox_Toddler--></T>
+    <T>270980<!--foxSocial_SimToFox_Sing--></T>
+    <T>270700<!--Fox_Cheat_Death_OldAge--></T>
+    <T>329758<!--DebugDeathInteraction_Fox--></T>
+    <T>8286<!--DebugEmotionIntensity_Humiliated--></T>
+    <T>8289<!--DebugEmotionIntensity_Hysterical--></T>
+    <T>8290<!--DebugEmotionIntensity_Imaginative--></T>
+    <T>8291<!--DebugEmotionIntensity_Inspired--></T>
+    <T>8275<!--DebugEmotionIntensity_InTheZone--></T>
+    <T>8283<!--DebugEmotionIntensity_Miserable--></T>
+    <T>8269<!--DebugEmotionIntensity_Mortified--></T>
+    <T>8298<!--DebugEmotionIntensity_Passionate--></T>
+    <T>268557<!--animalObjects_ObjectInInventory_AnimalClothing_Picker_Fox--></T>
+    <T>268856<!--sI_AnimalObjects_AnimalClothing_Fox_Take--></T>
+    <T>8274<!--DebugEmotionIntensity_Playful--></T>
+    <T>8293<!--DebugEmotionIntensity_Pumped--></T>
+    <T>8280<!--DebugEmotionIntensity_Sad--></T>
+    <T>8288<!--DebugEmotionIntensity_Silly--></T>
+    <T>8271<!--DebugEmotionIntensity_Sloshed--></T>
+    <T>8270<!--DebugEmotionIntensity_Stressed--></T>
+    <T>8287<!--DebugEmotionIntensity_Tense--></T>
+    <T>8281<!--DebugEmotionIntensity_Uncomfortable--></T>
+    <T>251734<!--debugEmotionIntensity_Scared--></T>
+    <T>251735<!--debugEmotionIntensity_Terrified--></T>
+    <T>24108<!--picker_Relbit_Remove--></T>
+    <T>24110<!--picker_Buff_Add--></T>
+    <T>24112<!--picker_Buff_Remove--></T>
+    <T>161677<!--picker_Grounding--></T>
+    <T>373337<!--immediate_OpenSimProfile_PieMenu_Relationship--></T>
+  </L>
+  <U n="animation_overlay_component">
+    <L n="animation_overlays">
+      <U>
+        <T n="_overlay_animation">11495<!--Facial_Overlay_Mood--></T>
+      </U>
+    </L>
+  </U>
+  <U n="initial_buff">
+    <T n="buff_type">12837<!--MoodBuff_Hidden_FineDefault--></T>
+  </U>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

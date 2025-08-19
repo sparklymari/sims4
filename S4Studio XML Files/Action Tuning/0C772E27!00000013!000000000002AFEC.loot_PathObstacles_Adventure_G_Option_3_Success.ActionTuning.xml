@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_PathObstacles_Adventure_G_Option_3_Success" s="176108">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <V n="buff_reason" t="enabled">
+            <T n="enabled">0x35538F28<!--(From Encountering Sloths in Jungle)--></T>
+          </V>
+          <T n="buff_type">180331<!--buff_PathObstacle_AdventureRewardBuffs_SlothWalk--></T>
+        </U>
+      </U>
+    </V>
+    <V t="vfx">
+      <U n="vfx">
+        <E n="subject">TargetTeleportPortalObjectDestinations</E>
+        <U n="vfx">
+          <T n="effect_name">gp06_path_obstacles_bats</T>
+        </U>
+      </U>
+    </V>
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178395<!--craftRelicTop_GP06GENbird_chaos (Zazatototl Chaos Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178396<!--craftRelicTop_GP06GENbird_death (Zazatototl Death Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178402<!--craftRelicTop_GP06GENbird_watcher (Zazatototl Watcher Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178407<!--craftRelicTop_GP06GENcat_chaos (Balampalsoh Chaos Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178408<!--craftRelicTop_GP06GENcat_death (Balampalsoh Death Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178410<!--craftRelicTop_GP06GENcat_watcher (Balampalsoh Watcher Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178403<!--craftRelicTop_GP06GENllama_chaos (Totecallama Chaos Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178404<!--craftRelicTop_GP06GENllama_death (Totecallama Death Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">178406<!--craftRelicTop_GP06GENllama_watcher (Totecallama Watcher Relic)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

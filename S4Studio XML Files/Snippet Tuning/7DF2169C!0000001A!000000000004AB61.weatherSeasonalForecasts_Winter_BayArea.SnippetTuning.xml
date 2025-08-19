@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="WeatherSeasonalForecasts" i="snippet" m="snippets" n="weatherSeasonalForecasts_Winter_BayArea" s="306017">
+  <L n="value">
+    <U>
+      <E n="key">EARLY</E>
+      <T n="value">306032<!--weatherForcastList_Winter_BayArea_Early--></T>
+    </U>
+    <U>
+      <E n="key">LATE</E>
+      <T n="value">306033<!--weatherForcastList_Winter_BayArea_Late--></T>
+    </U>
+    <U>
+      <E n="key">MID</E>
+      <T n="value">306034<!--weatherForcastList_Winter_BayArea_Mid--></T>
+    </U>
+  </L>
+</I>

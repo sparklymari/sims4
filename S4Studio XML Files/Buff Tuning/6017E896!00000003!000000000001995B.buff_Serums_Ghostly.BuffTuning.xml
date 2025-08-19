@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Serums_Ghostly" s="104795">
+  <L n="_loot_on_addition">
+    <T>104894<!--lootActions_Trait_Add_Ghost_Random--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>329414<!--loot_Ghost_Resurrect_NoMilestoneUnlock--></T>
+  </L>
+  <V n="_temporary_commodity_info" t="enabled">
+    <U n="enabled">
+      <L n="categories" />
+      <T n="max_duration">240</T>
+    </U>
+  </V>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xC299AA18<!--Who are the neighbors calling?--></T>
+  <T n="buff_name">0xA25ED197<!--Ghostly--></T>
+  <T n="icon" p="InEP01\UI\Icons\Buffs\Buffs_Serums.png">2f7d0004:00000000:b81dc533499baf4f</T>
+  <T n="mood_type">14642<!--Mood_Playful--></T>
+  <T n="mood_weight">2</T>
+  <L n="super_affordances">
+    <T>467113<!--superInteraction_FairyOccult_RegenerateEmotionalAppetite_IsGhost--></T>
+  </L>
+</I>

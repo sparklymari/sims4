@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SimReward" i="reward" m="rewards.reward" n="reward_StarWars_Reputation_Scoundrel_Level2" s="244640">
+  <T n="icon" p="InGP09\UI\Icons\Headlines\Headline_scoundrel.png">2f7d0004:00000000:0e196fda249b533d</T>
+  <T n="name">0x300725D3<!--Scoundrel--></T>
+  <V n="reward_description" t="disabled" />
+  <L n="rewards">
+    <V t="specific_reward">
+      <V n="specific_reward" t="buff">
+        <U n="buff">
+          <U n="buff">
+            <T n="buff_type">325690<!--buff_AspirationComplete_Invisible--></T>
+          </U>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245501<!--ymBody_GP09SmugglerUniform_SolidBeigeLilacBrown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245502<!--ymBody_GP09SmugglerUniform_SolidBlueBlueDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245509<!--ymBody_GP09SmugglerUniform_SolidBlueOrange--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245503<!--ymBody_GP09SmugglerUniform_SolidBlueOrangeGray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245504<!--ymBody_GP09SmugglerUniform_SolidBlueTeal--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245505<!--ymBody_GP09SmugglerUniform_SolidBrownBeige--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245506<!--ymBody_GP09SmugglerUniform_SolidBrownGreenLt--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245507<!--ymBody_GP09SmugglerUniform_SolidGrayBrown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245508<!--ymBody_GP09SmugglerUniform_SolidGreenLtOlive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245508<!--ymBody_GP09SmugglerUniform_SolidGreenLtOlive--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244523<!--yfBody_GP09SmugglerUniform_CrossBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244524<!--yfBody_GP09SmugglerUniform_CrossBlueBeige--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244525<!--yfBody_GP09SmugglerUniform_CrossBrownGray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244526<!--yfBody_GP09SmugglerUniform_CrossBrownGreen--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244527<!--yfBody_GP09SmugglerUniform_DotsBeigeGrayDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244531<!--yfBody_GP09SmugglerUniform_DotsBluePurple--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244528<!--yfBody_GP09SmugglerUniform_DotsBluePurpleBeige--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244529<!--yfBody_GP09SmugglerUniform_DotsGrayOrange--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">244530<!--yfBody_GP09SmugglerUniform_DotsGreenBrown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245631<!--yuHat_GP09Smuggler_SolidBeige--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245636<!--yuHat_GP09Smuggler_SolidBlue--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245632<!--yuHat_GP09Smuggler_SolidBrown--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245633<!--yuHat_GP09Smuggler_SolidBrownDk--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245634<!--yuHat_GP09Smuggler_SolidGray--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="cas_part">
+        <U n="cas_part">
+          <T n="cas_part">245635<!--yuHat_GP09Smuggler_SolidGreenLt--></T>
+        </U>
+      </V>
+    </V>
+    <V t="specific_reward">
+      <V n="specific_reward" t="build_buy_object">
+        <U n="build_buy_object">
+          <T n="object_definition">246810<!--sculptWall_GP09GENbanner_01_set9 (Scoundrel Banners)--></T>
+        </U>
+      </V>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="sims.ghost_powers.ghost_powers_tuning.GhostPowersTunables" schema="sims.ghost_powers.ghost_powers_tuning.GhostPowersTunables" type="Object">
+      <T name="GHOST_POWERS_EVIL_ULTIMATE_ICON">00B2D882-00000000-E8B0D264A53FA414</T>
+      <T name="GHOST_POWERS_EVIL_ULTIMATE_STATISTIC">384630</T>
+      <T name="GHOST_POWERS_GOOD_ULTIMATE_ICON">00B2D882-00000000-234902FB9D9FB520</T>
+      <T name="GHOST_POWERS_GOOD_ULTIMATE_STATISTIC">384631</T>
+      <T name="GHOST_POWERS_MANA_COMMODITY">384632</T>
+      <T name="GHOST_POWERS_RANKED_STATISTIC">384633</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="sims.ghost_powers.ghost_powers_tuning.GhostPowersTunables" schema_hash="0x94DCB249">
+      <Columns>
+        <Column name="GHOST_POWERS_EVIL_ULTIMATE_ICON" type="ResourceKey" flags="0x00000000" />
+        <Column name="GHOST_POWERS_EVIL_ULTIMATE_STATISTIC" type="TableSetReference" flags="0x00000000" />
+        <Column name="GHOST_POWERS_GOOD_ULTIMATE_ICON" type="ResourceKey" flags="0x00000000" />
+        <Column name="GHOST_POWERS_GOOD_ULTIMATE_STATISTIC" type="TableSetReference" flags="0x00000000" />
+        <Column name="GHOST_POWERS_MANA_COMMODITY" type="TableSetReference" flags="0x00000000" />
+        <Column name="GHOST_POWERS_RANKED_STATISTIC" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

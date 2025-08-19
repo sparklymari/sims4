@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000039">
+  <Instances>
+    <I name="URT_RelSat_Main" schema="UnidirectionalRelationshipTrack" type="Object">
+      <T name="display_in_sim_profile">1</T>
+      <V name="display_priority" variant="0xF8CBBF4C">
+        <T type="Int32">4</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="UnidirectionalRelationshipTrack" schema_hash="0x9B5FE83B">
+      <Columns>
+        <Column name="display_in_sim_profile" type="Boolean" flags="0x00000000" />
+        <Column name="display_priority" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

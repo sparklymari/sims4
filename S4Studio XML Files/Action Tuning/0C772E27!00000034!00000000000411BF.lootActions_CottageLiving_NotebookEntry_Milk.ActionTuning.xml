@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="lootActions_CottageLiving_NotebookEntry_Milk" s="266687">
+  <L n="loot_actions">
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266467<!--notebookEntryCountryItem_Milk_Base--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">271852<!--drinkBottle_EP11GENmilk_set1_base ({S.Bottle of Milk}{P.Bottles of Milk})--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266468<!--notebookEntryCountryItem_Milk_Black--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277731<!--drinkBottle_EP11GENmilk_set2_black (Obsidian Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266469<!--notebookEntryCountryItem_Milk_Blue--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277732<!--drinkBottle_EP11GENmilk_set1_blue (Enriched Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266470<!--notebookEntryCountryItem_Milk_Brown--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277733<!--drinkBottle_EP11GENmilk_set3_brown (Chocolate Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266471<!--notebookEntryCountryItem_Milk_Gold--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277734<!--drinkBottle_EP11GENmilk_set4_gold (Golden Honey Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266472<!--notebookEntryCountryItem_Milk_Green--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277735<!--drinkBottle_EP11GENmilk_set1_green (Mighty Plant Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266473<!--notebookEntryCountryItem_Milk_Orange--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277736<!--drinkBottle_EP11GENmilk_set5_orange (Pumpkin Spice Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266474<!--notebookEntryCountryItem_Milk_Pink--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277737<!--drinkBottle_EP11GENmilk_set6_pink (Strawberry Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266475<!--notebookEntryCountryItem_Milk_Rainbow--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277794<!--drinkBottle_EP11GENmilk_set7_rainbow (Rainbow Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="create_notebook_entry">
+      <U n="create_notebook_entry">
+        <V n="notebook_entry" t="create_entry_from_participant_definition">
+          <U n="create_entry_from_participant_definition">
+            <T n="reference_notebook_entry">266476<!--notebookEntryCountryItem_Milk_Red--></T>
+          </U>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="object_definition_criteria">
+              <U n="object_definition_criteria">
+                <V n="identity_test" t="definition_id">
+                  <U n="definition_id">
+                    <T n="actual_object">277795<!--drinkBottle_EP11GENmilk_set8_red (Fire Milk)--></T>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

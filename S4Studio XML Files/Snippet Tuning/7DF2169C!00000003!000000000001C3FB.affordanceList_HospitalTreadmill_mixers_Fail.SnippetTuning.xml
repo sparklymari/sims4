@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_HospitalTreadmill_mixers_Fail" s="115707">
+  <L n="value">
+    <T>115681<!--hospitalTreadmill_patient_actionFailure_focus--></T>
+    <T>115682<!--hospitalTreadmill_patient_actionFailure_intense--></T>
+    <T>115685<!--hospitalTreadmill_patient_actionFailure_strenuous--></T>
+    <T>111715<!--hospitalTreadmill_patient_failure_mixer--></T>
+  </L>
+</I>

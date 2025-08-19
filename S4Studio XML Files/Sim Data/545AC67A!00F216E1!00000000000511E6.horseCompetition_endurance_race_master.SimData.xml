@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000037">
+  <Instances>
+    <I name="horseCompetition_endurance_race_master" schema="HorseCompetition" type="Object">
+      <U name="value" schema="TunableHorseCompetition">
+        <T name="competition_description">0xB0DE8207</T>
+        <T name="cropped_hero_image">00B2D882-00000000-7B8AF2CEA550428F</T>
+        <T name="entry_fee">1000</T>
+        <T name="hero_image">00B2D882-00000000-70CC55F23BB6F1B1</T>
+        <L name="horse_skill_requirements">
+          <U type="Object" schema="HorseCompetitionSkillRequirement">
+            <T name="recommended_level">9</T>
+            <T name="skill">324634</T>
+          </U>
+          <U type="Object" schema="HorseCompetitionSkillRequirement">
+            <T name="recommended_level">5</T>
+            <T name="skill">324633</T>
+          </U>
+        </L>
+        <T name="icon">00B2D882-00000000-0BA48581FD3BD284</T>
+        <L name="placements">
+          <U type="Object" schema="HorseCompetitionPlacement">
+            <T name="frame_name">gold</T>
+            <T name="icon">00B2D882-00000000-9FAFFBF98CFECFA3</T>
+            <T name="large_icon">00B2D882-00000000-B9D4D94AC766F0C9</T>
+            <T name="medal_name">0xBADD5C25</T>
+            <T name="name">0xEA3FFA09</T>
+            <T name="narrative_description">0xE4C3B215</T>
+            <T name="results_title_text">0x2FA50A9B</T>
+            <T name="simoleon_amount">3000</T>
+          </U>
+          <U type="Object" schema="HorseCompetitionPlacement">
+            <T name="frame_name">silver</T>
+            <T name="icon">00B2D882-00000000-9FACE0F98CFC6C7B</T>
+            <T name="large_icon">00B2D882-00000000-B9DEDE4AC76F4DA5</T>
+            <T name="medal_name">0x6C41BD6A</T>
+            <T name="name">0xD42FFB34</T>
+            <T name="narrative_description">0xEC9615AE</T>
+            <T name="results_title_text">0x2FA50A9B</T>
+            <T name="simoleon_amount">2500</T>
+          </U>
+          <U type="Object" schema="HorseCompetitionPlacement">
+            <T name="frame_name">bronze</T>
+            <T name="icon">00B2D882-00000000-9FA8F2F98CF8A1BA</T>
+            <T name="large_icon">00B2D882-00000000-B9DBC04AC76CE494</T>
+            <T name="medal_name">0x9E38837A</T>
+            <T name="name">0x56B78078</T>
+            <T name="narrative_description">0xAD446A02</T>
+            <T name="results_title_text">0x2FA50A9B</T>
+            <T name="simoleon_amount">2000</T>
+          </U>
+          <U type="Object" schema="HorseCompetitionPlacement">
+            <T name="frame_name">nomedal</T>
+            <T name="icon">00B2D882-00000000-476B42023FE07357</T>
+            <T name="large_icon">00B2D882-00000000-476B42023FE07357</T>
+            <T name="medal_name">0x6B194B94</T>
+            <T name="name">0x509C4614</T>
+            <T name="narrative_description">0x619435D2</T>
+            <T name="results_title_text">0x509C4614</T>
+            <T name="simoleon_amount">0</T>
+          </U>
+        </L>
+        <T name="show_title">1</T>
+        <L name="sim_skill_requirements">
+          <U type="Object" schema="HorseCompetitionSkillRequirement">
+            <T name="recommended_level">9</T>
+            <T name="skill">322708</T>
+          </U>
+        </L>
+        <T name="title">0xC3F385FF</T>
+      </U>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="HorseCompetition" schema_hash="0xF9CF2902">
+      <Columns>
+        <Column name="value" type="Object" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="TunableHorseCompetition" schema_hash="0x5101EA02">
+      <Columns>
+        <Column name="competition_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="cropped_hero_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="entry_fee" type="Int32" flags="0x00000000" />
+        <Column name="hero_image" type="ResourceKey" flags="0x00000000" />
+        <Column name="horse_skill_requirements" type="Vector" flags="0x00000000" />
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="placements" type="Vector" flags="0x00000000" />
+        <Column name="show_title" type="Boolean" flags="0x00000000" />
+        <Column name="sim_skill_requirements" type="Vector" flags="0x00000000" />
+        <Column name="title" type="LocalizationKey" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="HorseCompetitionSkillRequirement" schema_hash="0xF7224F48">
+      <Columns>
+        <Column name="recommended_level" type="Int32" flags="0x00000000" />
+        <Column name="skill" type="TableSetReference" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="HorseCompetitionPlacement" schema_hash="0x51439784">
+      <Columns>
+        <Column name="frame_name" type="String" flags="0x00000000" />
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="large_icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="medal_name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="narrative_description" type="LocalizationKey" flags="0x00000000" />
+        <Column name="results_title_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="simoleon_amount" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MixerInteraction" i="interaction" m="interactions.base.mixer_interaction" n="mural_FloorSpray_PaintActive" s="147904">
+  <T n="allow_user_directed">False</T>
+  <V n="basic_content" t="one_shot">
+    <U n="one_shot">
+      <U n="animation_ref">
+        <T n="factory">146319<!--Mural_FloorSpray_Paint--></T>
+      </U>
+    </U>
+  </V>
+  <V n="basic_focus" t="disable_focus" />
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+  </L>
+  <U n="sub_action">
+    <T n="base_weight">20</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals" />
+  <L n="tests">
+    <L>
+      <V t="state_white_black">
+        <U n="state_white_black">
+          <U n="states">
+            <V n="blacklist" t="specify">
+              <U n="specify">
+                <L n="blacklist">
+                  <T>148374<!--mural_Wall_ZillaCity_AToBase_4--></T>
+                  <T>148601<!--mural_Wall_ActGlobe_AToBase_0--></T>
+                  <T>148602<!--mural_Wall_ActGlobe_AToBase_1--></T>
+                  <T>148603<!--mural_Wall_ActGlobe_AToBase_2--></T>
+                  <T>148604<!--mural_Wall_ActGlobe_AToBase_3--></T>
+                  <T>148605<!--mural_Wall_ActGlobe_AToBase_4--></T>
+                  <T>148623<!--mural_Wall_ActTrees_AToBase_0--></T>
+                  <T>148624<!--mural_Wall_ActTrees_AToBase_1--></T>
+                  <T>148625<!--mural_Wall_ActTrees_AToBase_2--></T>
+                  <T>148626<!--mural_Wall_ActTrees_AToBase_3--></T>
+                  <T>148627<!--mural_Wall_ActTrees_AToBase_4--></T>
+                  <T>148868<!--mural_Wall_CulElephant_AToBase_0--></T>
+                  <T>148869<!--mural_Wall_CulElephant_AToBase_1--></T>
+                  <T>148870<!--mural_Wall_CulElephant_AToBase_2--></T>
+                  <T>148871<!--mural_Wall_CulElephant_AToBase_3--></T>
+                  <T>148872<!--mural_Wall_CulElephant_AToBase_4--></T>
+                  <T>148890<!--mural_Wall_CulFish_AToBase_0--></T>
+                  <T>148891<!--mural_Wall_CulFish_AToBase_1--></T>
+                  <T>148892<!--mural_Wall_CulFish_AToBase_2--></T>
+                  <T>148893<!--mural_Wall_CulFish_AToBase_3--></T>
+                  <T>148894<!--mural_Wall_CulFish_AToBase_4--></T>
+                  <T>148846<!--mural_Wall_CulGirl_AToBase_0--></T>
+                  <T>148847<!--mural_Wall_CulGirl_AToBase_1--></T>
+                  <T>148848<!--mural_Wall_CulGirl_AToBase_2--></T>
+                  <T>148849<!--mural_Wall_CulGirl_AToBase_3--></T>
+                  <T>148850<!--mural_Wall_CulGirl_AToBase_4--></T>
+                  <T>148824<!--mural_Wall_CulJapanese_AToBase_0--></T>
+                  <T>148825<!--mural_Wall_CulJapanese_AToBase_1--></T>
+                  <T>148826<!--mural_Wall_CulJapanese_AToBase_2--></T>
+                  <T>148827<!--mural_Wall_CulJapanese_AToBase_3--></T>
+                  <T>148828<!--mural_Wall_CulJapanese_AToBase_4--></T>
+                  <T>148394<!--mural_Wall_FigEgypt_AToBase_0--></T>
+                  <T>148395<!--mural_Wall_FigEgypt_AToBase_1--></T>
+                  <T>148396<!--mural_Wall_FigEgypt_AToBase_2--></T>
+                  <T>148397<!--mural_Wall_FigEgypt_AToBase_3--></T>
+                  <T>148398<!--mural_Wall_FigEgypt_AToBase_4--></T>
+                  <T>148438<!--mural_Wall_FigGang_AToBase_0--></T>
+                  <T>148439<!--mural_Wall_FigGang_AToBase_1--></T>
+                  <T>148440<!--mural_Wall_FigGang_AToBase_2--></T>
+                  <T>148441<!--mural_Wall_FigGang_AToBase_3--></T>
+                  <T>148442<!--mural_Wall_FigGang_AToBase_4--></T>
+                  <T>148416<!--mural_Wall_FigGeisha_AToBase_0--></T>
+                  <T>148417<!--mural_Wall_FigGeisha_AToBase_1--></T>
+                  <T>148418<!--mural_Wall_FigGeisha_AToBase_2--></T>
+                  <T>148419<!--mural_Wall_FigGeisha_AToBase_3--></T>
+                  <T>148420<!--mural_Wall_FigGeisha_AToBase_4--></T>
+                  <T>148460<!--mural_Wall_FigKing_AToBase_0--></T>
+                  <T>148461<!--mural_Wall_FigKing_AToBase_1--></T>
+                  <T>148462<!--mural_Wall_FigKing_AToBase_2--></T>
+                  <T>148463<!--mural_Wall_FigKing_AToBase_3--></T>
+                  <T>148464<!--mural_Wall_FigKing_AToBase_4--></T>
+                  <T>147745<!--mural_Wall_Fish_AToBase_0--></T>
+                  <T>147746<!--mural_Wall_Fish_AToBase_1--></T>
+                  <T>147747<!--mural_Wall_Fish_AToBase_2--></T>
+                  <T>147748<!--mural_Wall_Fish_AToBase_3--></T>
+                  <T>147749<!--mural_Wall_Fish_AToBase_4--></T>
+                  <T>147751<!--mural_Wall_Flowers_AToBase_0--></T>
+                  <T>147752<!--mural_Wall_Flowers_AToBase_1--></T>
+                  <T>147753<!--mural_Wall_Flowers_AToBase_2--></T>
+                  <T>147754<!--mural_Wall_Flowers_AToBase_3--></T>
+                  <T>147755<!--mural_Wall_Flowers_AToBase_4--></T>
+                  <T>147757<!--mural_Wall_Leaves_AToBase_0--></T>
+                  <T>147758<!--mural_Wall_Leaves_AToBase_1--></T>
+                  <T>147759<!--mural_Wall_Leaves_AToBase_2--></T>
+                  <T>147760<!--mural_Wall_Leaves_AToBase_3--></T>
+                  <T>147761<!--mural_Wall_Leaves_AToBase_4--></T>
+                  <T>148304<!--mural_Wall_MagentaCity_AToBase_0--></T>
+                  <T>148305<!--mural_Wall_MagentaCity_AToBase_1--></T>
+                  <T>148306<!--mural_Wall_MagentaCity_AToBase_2--></T>
+                  <T>148307<!--mural_Wall_MagentaCity_AToBase_3--></T>
+                  <T>148308<!--mural_Wall_MagentaCity_AToBase_4--></T>
+                  <T>148326<!--mural_Wall_MosaicCity_AToBase_0--></T>
+                  <T>148327<!--mural_Wall_MosaicCity_AToBase_1--></T>
+                  <T>148328<!--mural_Wall_MosaicCity_AToBase_2--></T>
+                  <T>148329<!--mural_Wall_MosaicCity_AToBase_3--></T>
+                  <T>148330<!--mural_Wall_MosaicCity_AToBase_4--></T>
+                  <T>148500<!--mural_Wall_OptCanyon_AToBase_0--></T>
+                  <T>148501<!--mural_Wall_OptCanyon_AToBase_1--></T>
+                  <T>148502<!--mural_Wall_OptCanyon_AToBase_2--></T>
+                  <T>148503<!--mural_Wall_OptCanyon_AToBase_3--></T>
+                  <T>148504<!--mural_Wall_OptCanyon_AToBase_4--></T>
+                  <T>148522<!--mural_Wall_OptGarden_AToBase_0--></T>
+                  <T>148523<!--mural_Wall_OptGarden_AToBase_1--></T>
+                  <T>148524<!--mural_Wall_OptGarden_AToBase_2--></T>
+                  <T>148525<!--mural_Wall_OptGarden_AToBase_3--></T>
+                  <T>148526<!--mural_Wall_OptGarden_AToBase_4--></T>
+                  <T>148544<!--mural_Wall_OptKoi_AToBase_0--></T>
+                  <T>148545<!--mural_Wall_OptKoi_AToBase_1--></T>
+                  <T>148546<!--mural_Wall_OptKoi_AToBase_2--></T>
+                  <T>148547<!--mural_Wall_OptKoi_AToBase_3--></T>
+                  <T>148548<!--mural_Wall_OptKoi_AToBase_4--></T>
+                  <T>148566<!--mural_Wall_OptUniverse_AToBase_0--></T>
+                  <T>148567<!--mural_Wall_OptUniverse_AToBase_1--></T>
+                  <T>148568<!--mural_Wall_OptUniverse_AToBase_2--></T>
+                  <T>148569<!--mural_Wall_OptUniverse_AToBase_3--></T>
+                  <T>148570<!--mural_Wall_OptUniverse_AToBase_4--></T>
+                  <T>148348<!--mural_Wall_OrangeCity_AToBase_0--></T>
+                  <T>148349<!--mural_Wall_OrangeCity_AToBase_1--></T>
+                  <T>148350<!--mural_Wall_OrangeCity_AToBase_2--></T>
+                  <T>148351<!--mural_Wall_OrangeCity_AToBase_3--></T>
+                  <T>148352<!--mural_Wall_OrangeCity_AToBase_4--></T>
+                  <T>147763<!--mural_Wall_Tree_AToBase_0--></T>
+                  <T>147764<!--mural_Wall_Tree_AToBase_1--></T>
+                  <T>147765<!--mural_Wall_Tree_AToBase_2--></T>
+                  <T>147766<!--mural_Wall_Tree_AToBase_3--></T>
+                  <T>147767<!--mural_Wall_Tree_AToBase_4--></T>
+                  <T>148370<!--mural_Wall_ZillaCity_AToBase_0--></T>
+                  <T>148371<!--mural_Wall_ZillaCity_AToBase_1--></T>
+                  <T>148372<!--mural_Wall_ZillaCity_AToBase_2--></T>
+                  <T>148373<!--mural_Wall_ZillaCity_AToBase_3--></T>
+                  <T>147836<!--mural_Floor_Magenta_AToBase_0--></T>
+                  <T>147883<!--mural_Floor_Mosaic_AToBase_4--></T>
+                  <T>147918<!--mural_Floor_Magenta_AToBase_1--></T>
+                  <T>147919<!--mural_Floor_Magenta_AToBase_2--></T>
+                  <T>147920<!--mural_Floor_Magenta_AToBase_3--></T>
+                  <T>147921<!--mural_Floor_Magenta_AToBase_4--></T>
+                  <T>147846<!--mural_Floor_Mosaic_AToBase_0--></T>
+                  <T>147880<!--mural_Floor_Mosaic_AToBase_1--></T>
+                  <T>147881<!--mural_Floor_Mosaic_AToBase_2--></T>
+                  <T>147882<!--mural_Floor_Mosaic_AToBase_3--></T>
+                </L>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+  <T n="visible">False</T>
+</I>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_SkillBuilding_Tattooing" s="394921">
+  <L n="affordance_lists">
+    <T>395078<!--affordanceList_Tattooing_SkillBuildingInteractions--></T>
+  </L>
+  <E n="category">ART_AND_MUSIC</E>
+  <T n="category_icon" p="InEP18\UI\Icons\Clubs\Rules\clubs_rules_PracticeTattooing.png">2f7d0004:00000000:8be04eb7d5202e95</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xC3B4C98C<!--Practice Tattooing--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x77DDCDB9<!--Sims will practice tattooing on:--></T>
+        <T>0x2C60A8AF<!--• Sketchpads--></T>
+        <T>0xE50E80B1<!--• Tattoo Tables--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0xE5921C3<!--Practice Tattooing--></T>
+  <T n="tooltip_template_negative">0xF7DD5757<!--Don't Practice Tattooing--></T>
+</I>

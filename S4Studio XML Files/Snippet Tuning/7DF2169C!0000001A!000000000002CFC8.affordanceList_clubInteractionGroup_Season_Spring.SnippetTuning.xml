@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_clubInteractionGroup_Season_Spring" s="184264">
+  <L n="value">
+    <T>182894<!--Seasonal_Throwing_Mud--></T>
+    <T>185933<!--terrain-gohere_Rain_Play--></T>
+    <T>184903<!--waypoint_Rain_Outside_Play--></T>
+    <T>182011<!--autonomous_ObjectPicker_MudPuddle--></T>
+    <T>181958<!--mudPuddle_Play--></T>
+    <T>187812<!--mudPuddle_Play_Toddler--></T>
+    <T>182088<!--mudPuddle_Immediate_Play--></T>
+  </L>
+</I>

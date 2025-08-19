@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_WitchOccult_IsWitch_AnyAge" s="217701">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <L n="super_affordances">
+    <T>220911<!--debug_Familiars_Bind_Bat--></T>
+    <T>215564<!--nameFamiliarInteraction--></T>
+    <T>221006<!--familiar_BeginSummon--></T>
+    <T>216515<!--familiarPickerInteraction_unbind--></T>
+    <T>214778<!--immediate_Familiars_Dismiss--></T>
+    <T>215440<!--immediate_Familiars_SendToForage_OnSim--></T>
+    <T>214340<!--debug_Familiars_Bind_Bunnerfly--></T>
+    <T>213601<!--debug_Familiars_Bind_Dragon--></T>
+    <T>214338<!--debug_Familiars_Bind_Fairy--></T>
+    <T>214339<!--debug_Familiars_Bind_Frog--></T>
+    <T>214341<!--debug_Familiars_Bind_Owl--></T>
+    <T>214336<!--debug_Familiars_Bind_Phoenix--></T>
+    <T>214697<!--debug_Familiars_Bind_Raven--></T>
+    <T>214334<!--debug_Familiars_Bind_Skull--></T>
+    <T>214335<!--debug_Familiars_Bind_Voidcritter--></T>
+    <T>214337<!--debug_Familiars_Bind_VoodooDoll--></T>
+  </L>
+  <T n="visible">False</T>
+</I>

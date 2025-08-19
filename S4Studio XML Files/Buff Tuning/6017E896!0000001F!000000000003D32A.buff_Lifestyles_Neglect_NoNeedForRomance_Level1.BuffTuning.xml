@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Lifestyles_Neglect_NoNeedForRomance_Level1" s="250666">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xEDB33DA1<!--{0.SimFirstName} really wants to spend more time focusing on {M0.himself}{F0.herself}. Why did {M0.he}{F0.she} think being in a relationship was a good idea in the first place?--></T>
+  <T n="buff_name">0x3BF03C54<!--But My 'Me' Time!--></T>
+  <T n="icon" p="InEP10\UI\Icons\Buffs\Buffs_relationshipNeglect_neg.png">2f7d0004:00000000:76323bed457aabab</T>
+  <V n="interactions" t="enabled">
+    <U n="enabled">
+      <L n="interaction_items">
+        <T>251176<!--idle_Lifestyles_Romance_Neglect--></T>
+      </L>
+    </U>
+  </V>
+  <T n="mood_type">14645<!--Mood_Stressed--></T>
+  <T n="mood_weight">3</T>
+  <T n="visible">True</T>
+</I>

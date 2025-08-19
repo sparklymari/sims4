@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Clubs_MovieInteractions_SIs" s="129626">
+  <L n="value">
+    <T>129539<!--object_Movie_Watch_Pickers_Comedy2--></T>
+    <T>129540<!--object_Movie_Watch_Pickers_DiamondsAreForSims--></T>
+    <T>129541<!--object_Movie_Watch_Pickers_LostDogsJourneyHome--></T>
+    <T>129542<!--object_Movie_Watch_Pickers_MoonlightMassacre--></T>
+    <T>129543<!--object_Movie_Watch_Pickers_RoaringHeights--></T>
+    <T>129544<!--object_Movie_Watch_Pickers_SimsOfTheDead--></T>
+    <T>129545<!--object_Movie_Watch_Pickers_SuperHeroes--></T>
+    <T>129546<!--object_Movie_Watch_Pickers_TheAdventuresOfSpaceshipSimulation--></T>
+    <T>129547<!--object_Movie_Watch_Pickers_TheKhlumzeeSisters--></T>
+    <T>129548<!--object_Movie_Watch_Pickers_TheSpiral--></T>
+    <T>129209<!--tv_MovieWatchCurrentChannelAutonomously--></T>
+    <T>128725<!--movie_Watch_Comedy2--></T>
+    <T>128720<!--movie_Watch_DiamondsAreForSims--></T>
+    <T>128728<!--movie_Watch_LostDogsJourneyHome--></T>
+    <T>128723<!--movie_Watch_MoonlightMassacre--></T>
+    <T>128726<!--movie_Watch_RoaringHeights--></T>
+    <T>128722<!--movie_Watch_SimsOfTheDead--></T>
+    <T>128729<!--movie_Watch_SuperHeroes--></T>
+    <T>128721<!--movie_Watch_TheAdventuresOfSpaceshipSimulation--></T>
+    <T>128724<!--movie_Watch_TheKhlumzeeSisters--></T>
+    <T>128727<!--movie_Watch_TheSpiral--></T>
+    <T>130715<!--TV_Movie_WatchRandomMovie--></T>
+    <T>132401<!--tv_PickMovieAutonomously--></T>
+  </L>
+</I>

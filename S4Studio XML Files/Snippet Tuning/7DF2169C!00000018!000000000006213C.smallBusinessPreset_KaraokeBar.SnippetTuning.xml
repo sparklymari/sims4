@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BusinessPreset" i="snippet" m="small_business.small_business_tuning" n="smallBusinessPreset_KaraokeBar" s="401724">
+  <T n="name">0xC69B6C84<!--Karaoke Bar--></T>
+  <L n="rule_set">
+    <T>149981<!--clubInteractionGroup_SkillBuilding_Singing--></T>
+    <T>122484<!--clubInteractionGroup_ObjectBased_DrinkBarDrinks--></T>
+    <T>129105<!--clubInteractionGroup_ObjectBased_WatchLiveEntertainment--></T>
+    <T>122422<!--clubInteractionGroup_Social_BeFriendly--></T>
+  </L>
+</I>

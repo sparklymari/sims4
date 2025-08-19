@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_FoodAndDrink_GrilledCheese" s="132512">
+  <L n="affordances">
+    <T>132270<!--mixer_social_TalkAboutGrilledCheese_targeted_Friendly_alwaysOn_aspiration--></T>
+    <T>132355<!--mixer_social_EvangelizeGrilledCheese_Friendly_alwaysOn_Trait--></T>
+    <T>132318<!--easel_StartCrafting_GrilledCheese--></T>
+    <T>132282<!--rocketShip_EatGrilledCheeseInSpace--></T>
+    <T>132300<!--solo_trait_MeltMaster_SummonGrilledCheese--></T>
+    <T>375973<!--fridge_CookAutonomously_GrilledCheese_ForClubRule--></T>
+    <T>13287<!--crafting_resume--></T>
+    <T>375974<!--grilledCheese_Consume_ForClubRule--></T>
+  </L>
+  <E n="category">FOOD_AND_DRINK</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_GrilledCheese.png">2f7d0004:00000000:dbd5895d7b92a63d</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x29CE5591<!--All things Grilled Cheese--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xA5805620<!--Sims will cook, consume, paint, and talk about Grilled Cheese.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xA5805620<!--Sims will cook, consume, paint, and talk about Grilled Cheese.--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x29CE5591<!--All things Grilled Cheese--></T>
+  <T n="tooltip_template_negative">0xECDB9FCC<!--No Grilled Cheese Things--></T>
+</I>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_AnimalObjects_AnimalClothing_Rewards_RareUncommon" s="265851">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <U n="chance">
+          <T n="base_chance">75</T>
+        </U>
+        <T n="make_sim_owner">True</T>
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279343<!--animalClothing_EP11GENchicken_polkaDot_set1 (Red Polka Dot Blouse)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279344<!--animalClothing_EP11GENchicken_polkaDot_set2 (Blue Polka Dot Blouse)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279348<!--animalClothing_EP11GENchicken_topHat_set1 (Lloyd's Baby Blue Top Hat)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279349<!--animalClothing_EP11GENchicken_topHat_set2 (Harry's Orange Top Hat)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279350<!--animalClothing_EP11GENchicken_topHat_set3 (Formal Black Top Hat)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279356<!--animalClothing_EP11GENcow_professorMoosalot_set1 (Professor Moos'alot)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279357<!--animalClothing_EP11GENcow_cottagecore_set1 (Cottagecore for Cows)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279368<!--animalClothing_EP11GENllama_llamacorn_set1 (Llamacorn)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279369<!--animalClothing_EP11GENllama_tarp_set1 (Woven Blanket)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279370<!--animalClothing_EP11GENllama_cottagecore_set1 (Cottagecore for Llamas)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279340<!--animalClothing_EP11GENchicken_countryTop_set1 (Colonel’s Red Hot Top)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">284222<!--animalClothing_EP11GENchicken_fezHat_set1 (The Dr.'s Fez)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279341<!--animalClothing_EP11GENchicken_countryTop_set2 (Colonel’s Gold Top)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279345<!--animalClothing_EP11GENchicken_sweater_set1 (Sweater in Argyle)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279346<!--animalClothing_EP11GENchicken_sweater_set2 (Sweater in Stripes)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279347<!--animalClothing_EP11GENchicken_sweater_set3 (Sweater with Hearts)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279355<!--animalClothing_EP11GENcow_sweater_set1 (Nifty Sweater)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279358<!--animalClothing_EP11GENcow_capTop_set1 (Cap & Top)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279371<!--animalClothing_EP11GENllama_neckWarmer_set1 (The Amazing Technicolor Neckwarmer)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279330<!--animalClothing_EP11GENrabbit_sweaterVest_set1 (Zigzag Sweater Vest)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279331<!--animalClothing_EP11GENrabbit_sweaterVest_set2 (Checkered Sweater Vest)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279332<!--animalClothing_EP11GENrabbit_dress_set1 (Pink Sun Dress)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279333<!--animalClothing_EP11GENrabbit_dress_set2 (Yellow Sun Dress)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">279334<!--animalClothing_EP11GENrabbit_dress_set3 (Red & Black Sun Dress)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">284236<!--animalClothing_EP11GENfox_robber_set1 (Robber's Gear in Black)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">284238<!--animalClothing_EP11GENfox_grandma_set1 (Grandma's Lavender Bonnet & Scarf)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">284237<!--animalClothing_EP11GENfox_robinhood_set1 (Sherwood Forest Set in Khaki)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

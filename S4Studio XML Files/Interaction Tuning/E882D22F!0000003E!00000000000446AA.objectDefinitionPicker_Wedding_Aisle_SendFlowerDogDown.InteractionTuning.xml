@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectDefinitionPickerInteraction" i="interaction" m="objects.definition_picker_interaction" n="objectDefinitionPicker_Wedding_Aisle_SendFlowerDogDown" s="280234">
+  <V n="_saveable" t="disabled" />
+  <V n="content_score" t="disabled" />
+  <V n="continuation" t="enabled">
+    <L n="enabled">
+      <U>
+        <T n="affordance">277535<!--wedding_Aisle_WalkDown_Flower--></T>
+      </U>
+    </L>
+  </V>
+  <L n="definition_to_loot">
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">294360<!--weddingBouquet_GP11GEN01_set1 (Red Rose Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280309<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_1--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">296442<!--weddingBouquet_GP11GEN01_set2 (Pale Blue Rose Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280310<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_2--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">296443<!--weddingBouquet_GP11GEN01_set3 (Blush Rose Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280311<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_3--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">296642<!--weddingBouquet_GP11GEN01_set4 (Pastel Garden Flower Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280312<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_4--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298214<!--weddingBouquet_GP11GEN01_set5 (White Rose Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280313<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_5--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298215<!--weddingBouquet_GP11GEN01_set6 (Colorful Daisy Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280314<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_6--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298468<!--weddingBouquet_GP11GEN01_set7 (Rainbow Rose Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280308<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type1_7--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">294713<!--weddingBouquet_GP11GEN02_set1 (Red Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280320<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_1--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298666<!--weddingBouquet_GP11GEN02_set2 (Pink and Orange Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280321<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_2--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298667<!--weddingBouquet_GP11GEN02_set3 (Colorful Daisy Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280322<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_3--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298668<!--weddingBouquet_GP11GEN02_set4 (Blush Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280323<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_4--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298757<!--weddingBouquet_GP11GEN02_set5 (White Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280324<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_5--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">298758<!--weddingBouquet_GP11GEN02_set6 (Pink Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280325<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_6--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">299580<!--weddingBouquet_GP11GEN02_set7 (Black Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280326<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_7--></T>
+    </U>
+    <U>
+      <U n="definition_id_test">
+        <T n="definition">299591<!--weddingBouquet_GP11GEN02_set8 (Blue Rose Delicate Bouquet)--></T>
+      </U>
+      <T n="loot_to_apply">280319<!--loot_Wedding_Aisle_PickedBouquet_Buff_Type2_8--></T>
+    </U>
+  </L>
+  <T n="display_name">0x6AF2D925<!--Select Flowers--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="object_tags_or_definition" t="specific_items">
+    <U n="specific_items">
+      <L n="item_list">
+        <T>294360<!--weddingBouquet_GP11GEN01_set1 (Red Rose Bouquet)--></T>
+        <T>296442<!--weddingBouquet_GP11GEN01_set2 (Pale Blue Rose Bouquet)--></T>
+        <T>296443<!--weddingBouquet_GP11GEN01_set3 (Blush Rose Bouquet)--></T>
+        <T>296642<!--weddingBouquet_GP11GEN01_set4 (Pastel Garden Flower Bouquet)--></T>
+        <T>298214<!--weddingBouquet_GP11GEN01_set5 (White Rose Bouquet)--></T>
+        <T>298215<!--weddingBouquet_GP11GEN01_set6 (Colorful Daisy Bouquet)--></T>
+        <T>298468<!--weddingBouquet_GP11GEN01_set7 (Rainbow Rose Bouquet)--></T>
+        <T>294713<!--weddingBouquet_GP11GEN02_set1 (Red Rose Delicate Bouquet)--></T>
+        <T>298666<!--weddingBouquet_GP11GEN02_set2 (Pink and Orange Rose Delicate Bouquet)--></T>
+        <T>298667<!--weddingBouquet_GP11GEN02_set3 (Colorful Daisy Delicate Bouquet)--></T>
+        <T>298668<!--weddingBouquet_GP11GEN02_set4 (Blush Rose Delicate Bouquet)--></T>
+        <T>298757<!--weddingBouquet_GP11GEN02_set5 (White Rose Delicate Bouquet)--></T>
+        <T>298758<!--weddingBouquet_GP11GEN02_set6 (Pink Rose Delicate Bouquet)--></T>
+        <T>299580<!--weddingBouquet_GP11GEN02_set7 (Black Rose Delicate Bouquet)--></T>
+        <T>299591<!--weddingBouquet_GP11GEN02_set8 (Blue Rose Delicate Bouquet)--></T>
+      </L>
+    </U>
+  </V>
+  <V n="picker_dialog" t="object_picker" />
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals" />
+</I>

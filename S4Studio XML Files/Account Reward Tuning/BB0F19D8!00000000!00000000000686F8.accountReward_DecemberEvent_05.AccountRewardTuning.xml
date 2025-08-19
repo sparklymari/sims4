@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_DecemberEvent_05" s="427768">
+  <T n="category">0xE3F0F4E8<!--Create a Sim--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Rewards\December_animalSlippers_large.png">2f7d0004:00000000:8bb115b134f1c455</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462523<!--cuShoes_EFDec24EVRanimalSlippers_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462515<!--cuShoes_EFDec24EVRanimalSlippers_Bones--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462516<!--cuShoes_EFDec24EVRanimalSlippers_Cow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462517<!--cuShoes_EFDec24EVRanimalSlippers_Croc--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462518<!--cuShoes_EFDec24EVRanimalSlippers_Fox--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462519<!--cuShoes_EFDec24EVRanimalSlippers_Frog--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462520<!--cuShoes_EFDec24EVRanimalSlippers_Panda--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462521<!--cuShoes_EFDec24EVRanimalSlippers_Racoon--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462522<!--cuShoes_EFDec24EVRanimalSlippers_Reindeer--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462532<!--yfShoes_EFDec24EVRanimalSlippers_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462524<!--yfShoes_EFDec24EVRanimalSlippers_Bones--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462525<!--yfShoes_EFDec24EVRanimalSlippers_Cow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462526<!--yfShoes_EFDec24EVRanimalSlippers_Croc--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462527<!--yfShoes_EFDec24EVRanimalSlippers_Fox--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462528<!--yfShoes_EFDec24EVRanimalSlippers_Frog--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462529<!--yfShoes_EFDec24EVRanimalSlippers_Panda--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462530<!--yfShoes_EFDec24EVRanimalSlippers_Racoon--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462531<!--yfShoes_EFDec24EVRanimalSlippers_Reindeer--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462541<!--ymShoes_EFDec24EVRanimalSlippers_Bear--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462533<!--ymShoes_EFDec24EVRanimalSlippers_Bones--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462534<!--ymShoes_EFDec24EVRanimalSlippers_Cow--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462535<!--ymShoes_EFDec24EVRanimalSlippers_Croc--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462536<!--ymShoes_EFDec24EVRanimalSlippers_Fox--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462537<!--ymShoes_EFDec24EVRanimalSlippers_Frog--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462538<!--ymShoes_EFDec24EVRanimalSlippers_Panda--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462539<!--ymShoes_EFDec24EVRanimalSlippers_Racoon--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">462540<!--ymShoes_EFDec24EVRanimalSlippers_Reindeer--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x604F719C<!--Find this item under Shoes in Create a Sim, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x103F68E<!--This festive season, keep yourself happy and your feet even happier with a pair of Feet Friend Slippers. Available in a range of animal designs from Create a Sim this adorable footwear is perfect for lounging in.--></T>
+  <T n="reward_name">0x3970E4B1<!--Feet Friend Slippers--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\ThumbnailsFSI\December_animalSlippers_s.png">2f7d0004:00000000:d6ffe6208115cf33</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_animalSlippers.png">2f7d0004:00000000:7636a0f15d593865</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\DecemberEvent\Thumbnails\December_animalSlippers.png">2f7d0004:00000000:7636a0f15d593865</T>
+</I>

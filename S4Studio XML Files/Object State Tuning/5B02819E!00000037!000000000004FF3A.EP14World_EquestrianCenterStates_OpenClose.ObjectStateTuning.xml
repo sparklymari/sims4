@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectState" i="object_state" m="objects.components.state" n="EP14World_EquestrianCenterStates_OpenClose" s="327482">
+  <L n="_values">
+    <T>327479<!--EP14World_EquestrianCenter_States_OpenClose_Closed--></T>
+    <T>327478<!--EP14World_EquestrianCenter_States_OpenClose_Open--></T>
+    <T>335374<!--eP14World_EquestrianCenter_States_OpenClose_BarrelRacing--></T>
+    <T>335667<!--eP14World_EquestrianCenter_States_OpenClose_UltimateCompetition--></T>
+    <T>335377<!--eP14World_EquestrianCenter_States_OpenClose_EnduranceRacing--></T>
+    <T>335375<!--eP14World_EquestrianCenter_States_OpenClose_ShowJumping--></T>
+    <T>335376<!--eP14World_EquestrianCenter_States_OpenClose_WesternPleasure--></T>
+  </L>
+</I>

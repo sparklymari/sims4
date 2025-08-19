@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Batuu_Missions_RR1_FoodDonation" s="245602">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">5</T>
+            <L n="reward_objects">
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240864<!--foodPlateEatSingle_GP09BATbatuuBon (Batuu Bon)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240866<!--foodPlateEatSingle_GP09BATendorianTipYip (Fried Endorian Tip-Yip)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240867<!--foodPlateEatSingle_GP09BATfelucianGardenSpread (Felucian Garden Spread)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240868<!--foodPlateEatSingle_GP09BATmustafarianLavaRoll (Mustafarian Lava Roll)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240861<!--foodBowlEatSingle_GP09BAToutpostPopcorn (Outpost Popcorn Mix)--></T>
+                    </U>
+                  </V>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240862<!--foodBowlEatSingle_GP09BATrisingMoonsOats (Rising Moons Overnight Oats)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240865<!--foodPlateEatSingle_GP09BATbraisedShaakRoast (Braised Shaak Roast)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+              <U>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240871<!--foodPlateEatSingle_GP09BATyobshrimpNoodleSalad (Yobshrimp Noodle Salad)--></T>
+                    </U>
+                  </V>
+                </L>
+                <L n="states_on_reward_object">
+                  <T>15113<!--Consumable_Untouched--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

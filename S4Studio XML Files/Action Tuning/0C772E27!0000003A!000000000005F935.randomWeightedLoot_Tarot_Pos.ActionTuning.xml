@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Tarot_Pos" s="391477">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391027<!--loot_Tarot_Card_Outcomes_Chariot--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391028<!--loot_Tarot_Card_Outcomes_Cups--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391029<!--loot_Tarot_Card_Outcomes_Death--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391083<!--loot_Tarot_Card_Outcomes_Death_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391030<!--loot_Tarot_Card_Outcomes_Emperor--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391031<!--loot_Tarot_Card_Outcomes_Empress--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391086<!--loot_Tarot_Card_Outcomes_Evil_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391033<!--loot_Tarot_Card_Outcomes_Fool--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391034<!--loot_Tarot_Card_Outcomes_Advocate--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391035<!--loot_Tarot_Card_Outcomes_Hermit--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391036<!--loot_Tarot_Card_Outcomes_Spellcaster--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391104<!--loot_Tarot_Card_Outcomes_Spellcaster_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391037<!--loot_Tarot_Card_Outcomes_Judgment--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391099<!--loot_Tarot_Card_Outcomes_Judgment_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391038<!--loot_Tarot_Card_Outcomes_Justice--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391039<!--loot_Tarot_Card_Outcomes_Lovers--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391101<!--loot_Tarot_Card_Outcomes_Lovers_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391040<!--loot_Tarot_Card_Outcomes_Magician--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391041<!--loot_Tarot_Card_Outcomes_Moon--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391042<!--loot_Tarot_Card_Outcomes_Coins--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391043<!--loot_Tarot_Card_Outcomes_Star--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391044<!--loot_Tarot_Card_Outcomes_Strength--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391045<!--loot_Tarot_Card_Outcomes_Sun--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391117<!--loot_Tarot_Card_Outcomes_Sun_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391046<!--loot_Tarot_Card_Outcomes_Suspension--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391048<!--loot_Tarot_Card_Outcomes_Temperance--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391050<!--loot_Tarot_Card_Outcomes_Wands--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391051<!--loot_Tarot_Card_Outcomes_Wheel--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391123<!--loot_Tarot_Card_Outcomes_Wheel_reverse--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391052<!--loot_Tarot_Card_Outcomes_World--></T>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="actions">
+        <T n="actions">391124<!--loot_Tarot_Card_Outcomes_World_reverse--></T>
+      </V>
+    </U>
+  </L>
+</I>

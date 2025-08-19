@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ObjectCreate_BoxOfDecorations" s="181665">
+  <L n="loot_actions">
+    <V t="create_object">
+      <U n="create_object">
+        <V n="creation_data" t="definition_tested">
+          <U n="definition_tested">
+            <L n="definitions">
+              <U>
+                <T n="definition">189784<!--sculptTableMedium_EP05GENfallTileable_set1 (Fashionable Fall Branches)--></T>
+              </U>
+              <U>
+                <T n="definition">189785<!--sculptTableMedium_EP05GENfallTileable_set2 (Fashionable Fall Branches)--></T>
+              </U>
+              <U>
+                <T n="definition">189786<!--sculptTableMedium_EP05GENfallTileable_set3 (Fashionable Fall Branches)--></T>
+              </U>
+              <U>
+                <T n="definition">189787<!--sculptTableMedium_EP05GENfallTileable_set4 (Fashionable Fall Branches)--></T>
+              </U>
+              <U>
+                <T n="definition">189982<!--sculptFloor_EP05GENpumpkinLeaves2x1x2_set1 (Pumpkin Trio)--></T>
+              </U>
+              <U>
+                <T n="definition">189983<!--sculptFloor_EP05GENpumpkinLeaves2x1x2_set2 (Pumpkin Trio)--></T>
+              </U>
+              <U>
+                <T n="definition">189984<!--sculptFloor_EP05GENpumpkinLeaves2x1x2_set3 (Pumpkin Trio)--></T>
+              </U>
+              <U>
+                <T n="definition">189985<!--sculptFloor_EP05GENpumpkinLeaves2x1x2_set4 (Pumpkin Trio)--></T>
+              </U>
+              <U>
+                <T n="definition">196032<!--sculptTableMedium_EP05Jackolantern_set1 (Plastic Pumpkin Eater)--></T>
+              </U>
+              <U>
+                <T n="definition">196033<!--sculptTableMedium_EP05Jackolantern_set2 (Plastic Pumpkin Eater)--></T>
+              </U>
+              <U>
+                <T n="definition">196036<!--sculptTableMedium_EP05Jackolantern_set5 (Plastic Pumpkin Eater)--></T>
+              </U>
+              <U>
+                <T n="definition">181005<!--sculptFloor_EF07EAMduck_set1 (Hungry Like The Duck)--></T>
+              </U>
+              <U>
+                <T n="definition">181006<!--sculptFloor_EF07EAMduck_set2 (Hungry Like The Duck)--></T>
+              </U>
+              <U>
+                <T n="definition">35728<!--sculptTableGENGnome_02_01_set4 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="definition">36417<!--sculptTableGENGnome_02_set4 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="definition">36993<!--sculptTableGENGnome_03_set4 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="definition">25027<!--sculptTableFCHenBasket_01_set1 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="definition">25028<!--sculptTableFCHenBasket_01_set2 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="definition">25029<!--sculptTableFCHenBasket_01_set3 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="definition">25043<!--sculptTableFCRoosterCeramic_01_set1 (Cock’s Crow Table Accent)--></T>
+              </U>
+              <U>
+                <T n="definition">25044<!--sculptTableFCRoosterCeramic_01_set2 (Cock’s Crow Table Accent)--></T>
+              </U>
+              <U>
+                <T n="definition">25045<!--sculptTableFCRoosterCeramic_01_set3 (Cock’s Crow Table Accent)--></T>
+              </U>
+              <U>
+                <T n="definition">189779<!--sculptTableLarge_EP05GENcornucopia_set1 (Horn Of Plenty)--></T>
+              </U>
+              <U>
+                <T n="definition">189780<!--sculptTableLarge_EP05GENcornucopia_set2 (Horn Of Plenty)--></T>
+              </U>
+              <U>
+                <T n="definition">189781<!--sculptTableLarge_EP05GENcornucopia_set3 (Horn Of Plenty)--></T>
+              </U>
+              <U>
+                <T n="definition">189782<!--sculptTableLarge_EP05GENcornucopia_set4 (Horn Of Plenty)--></T>
+              </U>
+              <U>
+                <T n="definition">189996<!--sculptTableLarge_EP05GENcones_set10 (Spires Of Whimsy)--></T>
+              </U>
+              <U>
+                <T n="definition">189991<!--sculptTableLarge_EP05GENcones_set5 (Spires Of Whimsy)--></T>
+              </U>
+              <U>
+                <T n="definition">190017<!--sculptTableMedium_EP05GENcards_set3 (Assorted Holiday Card Displays)--></T>
+              </U>
+              <U>
+                <T n="definition">190018<!--sculptTableMedium_EP05GENcards_set4 (Assorted Holiday Card Displays)--></T>
+              </U>
+              <U>
+                <T n="definition">25084<!--sculptTableSCPictureFrame_03_set2 (Pear Essentials Framed Watercolor)--></T>
+              </U>
+              <U>
+                <T n="definition">25088<!--sculptTableSCPictureFrame_04_set2 (Apple of Your Eye Framed Watercolor)--></T>
+              </U>
+              <U>
+                <T n="definition">46270<!--sculptTableGENCandles_01_set1 (Caress Scented Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">61659<!--sculptTableGENCandles_01_earth04 (Caress Scented Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">61657<!--sculptTableGENCandles_01_regal02 (Caress Scented Candles)--></T>
+              </U>
+              <U>
+                <T n="definition">13495<!--sculptTableTUDFruit_01_set1 (Fine Bowl of Fruit)--></T>
+              </U>
+              <U>
+                <T n="definition">189530<!--lightTableMedium_EP05GENbags_set13 (Happy Holiday Floor Lanterns)--></T>
+              </U>
+              <U>
+                <T n="definition">189534<!--lightTableMedium_EP05GENbags_set17 (Happy Holiday Floor Lanterns)--></T>
+              </U>
+              <U>
+                <T n="definition">189529<!--lightTableMedium_EP05GENbags_set12 (Happy Holiday Floor Lanterns)--></T>
+              </U>
+              <U>
+                <T n="definition">189525<!--lightTableMedium_EP05GENbags_set8 (Happy Holiday Floor Lanterns)--></T>
+              </U>
+              <U>
+                <T n="definition">189549<!--lightTableMedium_EP05GENfallTileable_set1 (Candlelit Fall Leaves)--></T>
+              </U>
+              <U>
+                <T n="definition">189550<!--lightTableMedium_EP05GENfallTileable_set2 (Candlelit Fall Leaves)--></T>
+              </U>
+              <U>
+                <T n="definition">189551<!--lightTableMedium_EP05GENfallTileable_set3 (Candlelit Fall Leaves)--></T>
+              </U>
+              <U>
+                <T n="definition">189552<!--lightTableMedium_EP05GENfallTileable_set4 (Candlelit Fall Leaves)--></T>
+              </U>
+              <U>
+                <T n="definition">196039<!--lightFloor_EP05PumpkinPlant2x1_set1 (Spoooooooky Pumpkin Tree)--></T>
+              </U>
+              <U>
+                <T n="definition">196042<!--lightFloor_EP05PumpkinPlant2x1_set4 (Spoooooooky Pumpkin Tree)--></T>
+              </U>
+            </L>
+          </U>
+        </V>
+        <V n="location" t="position">
+          <U n="position">
+            <T n="ignore_bb_footprints">False</T>
+            <V n="initial_location" t="from_participant">
+              <U n="from_participant">
+                <E n="participant">Object</E>
+              </U>
+            </V>
+          </U>
+        </V>
+        <E n="owner_sim">Actor</E>
+        <T n="quantity">3</T>
+        <E n="subject">Actor</E>
+        <L n="tests">
+          <L>
+            <V t="season">
+              <U n="season">
+                <L n="seasons">
+                  <E>FALL</E>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+        <V n="text" t="use_default" />
+      </U>
+    </V>
+  </L>
+</I>

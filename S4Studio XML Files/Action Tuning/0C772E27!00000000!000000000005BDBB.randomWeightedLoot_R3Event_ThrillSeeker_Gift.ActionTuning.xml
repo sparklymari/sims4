@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_R3Event_ThrillSeeker_Gift" s="376251">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+            </U>
+          </V>
+          <V n="fallback_location_target_override" t="disabled" />
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">45119<!--collectFishSmallGENAngel_01 (Angelfish)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">20</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">20</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">15</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">34206<!--bookThinGENCookingBeginner_01 (Cooking Vol 1: Let's Cook!)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">15</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">34207<!--bookGENCookingIntermediate_01 (Cooking Vol 2: Let's Keeping Cooking!)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">34204<!--bookGENCookingAdvanced_01 (Cooking Vol 3: I'm Here to Cook!)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">5</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">57932<!--bookThinGENFishingBeginner_01 (Fishing Vol 1: Getting Hooked)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">15</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">57931<!--bookGENFishingIntermediate_01 (Fishing Vol 2: Tackles and Techniques)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">57933<!--bookGENFishingAdvanced_01 (Fishing Vol 3: See the Fish, Be the Fish)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">5</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">34251<!--bookThinGENGourmetCookingBeginner_01 (Gourmet Cooking Vol 1: Make Food Fancy)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">15</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">34252<!--bookGENGourmetCookingIntermediate_01 (Gourmet Cooking Vol 2: Presentation is King)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">34250<!--bookGENGourmetCookingAdvanced_01 (Gourmet Cooking Vol 3: Can You Eat That?)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">5</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">436973<!--collectGrimm_EF61EVR_set1 (Original Freezer Boney)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">436974<!--collectGrimm_EF61EVR_set2 (Starborn Freezer Boney)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">436975<!--collectGrimm_EF61EVR_set3 (Sugar Skull Freezer Boney)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">436976<!--collectGrimm_EF61EVR_set4 (Metallic Freezer Boney)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">2</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">436977<!--collectGrimm_EF61EVR_set5 (Plush Freezer Boney)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">2</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">436978<!--collectGrimm_EF61EVR_set6 (Glow-in-the-Dark Freezer Boney)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory">
+            <U n="inventory">
+              <E n="location_target">LotOwnerSingleAndInstanced</E>
+            </U>
+          </V>
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="secondary_icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>LotOwnerSingleAndInstanced</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB142AAB9<!--Thanks for the scare! Here's a gift:\n{1.String}--></T>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">1</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">2</T>
+            <L n="tests">
+              <L>
+                <V t="buff">
+                  <U n="buff">
+                    <V n="whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>376515<!--buff_R3Event_ThrillSeeker_gotTerrified--></T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+  </L>
+  <L n="tests">
+    <L>
+      <V t="sim_info">
+        <U n="sim_info">
+          <V n="npc" t="enabled">
+            <T n="enabled">True</T>
+          </V>
+        </U>
+      </V>
+      <V t="situation_job_test">
+        <U n="situation_job_test">
+          <T n="negate">True</T>
+          <L n="role_tags">
+            <E>Situation_Walkby</E>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

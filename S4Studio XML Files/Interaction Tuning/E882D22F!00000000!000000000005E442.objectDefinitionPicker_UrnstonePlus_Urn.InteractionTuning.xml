@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ObjectDefinitionPickerInteraction" i="interaction" m="objects.definition_picker_interaction" n="objectDefinitionPicker_UrnstonePlus_Urn" s="386114">
+  <V n="_saveable" t="disabled" />
+  <T n="category">386121<!--pieMenuCategory_Gravesite_Urnstone--></T>
+  <V n="content_score" t="disabled" />
+  <V n="continuation" t="enabled">
+    <L n="enabled">
+      <U>
+        <T n="affordance">386434<!--immediate_UrnstonePlus_SetState_Urn--></T>
+      </U>
+    </L>
+  </V>
+  <T n="display_name">0x902F0DA7<!--Urn--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <V n="object_tags_or_definition" t="specific_items">
+    <U n="specific_items">
+      <L n="item_list">
+        <T>67531<!--urn_EP01GENalien01_set1 (Alien Capsule)--></T>
+        <T>441573<!--urn_EP17GEN01_set1 (Urn of Yearning)--></T>
+        <T>453033<!--urn_EP07GENmerfolk_set1 (Merfolk Urn)--></T>
+        <T>465920<!--urn_EP19GENfairy_set1 (Fairy Urn)--></T>
+        <T>231219<!--urn_EP08GENrobot (Servo Remains)--></T>
+        <T>341465<!--urn_EP14GENhorse_set1 (Noble Steed's Urn)--></T>
+        <T>145305<!--urn_GP04GENvampire (Vampire Urn)--></T>
+        <T>222674<!--urn_GP08GENwitch_set1 (Spellcaster's Urn)--></T>
+        <T>310766<!--urn_GP12GENwerewolf_set1 (Werewolf Urn)--></T>
+        <T>18592<!--urnGEN_01 (Urn)--></T>
+      </L>
+    </U>
+  </V>
+  <V n="picker_dialog" t="object_picker">
+    <U n="object_picker">
+      <E n="dialog_style">LARGE_ICON</E>
+      <T n="hide_row_description">True</T>
+      <T n="num_columns">4</T>
+      <E n="picker_type">OBJECT_LARGE</E>
+      <V n="title" t="enabled">
+        <T n="enabled">0xA1A65F42<!--Select Urn--></T>
+      </V>
+    </U>
+  </V>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="test_set_reference">
+      <T n="test_set_reference">404575<!--testSet_FloatingUrn_Disallow--></T>
+    </V>
+  </L>
+</I>

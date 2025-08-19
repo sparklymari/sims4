@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SuperInteraction" i="interaction" m="interactions.base.super_interaction" n="university_ClassroomShell_GuestLectures_A" s="220431">
+  <V n="_icon" t="participant">
+    <U n="participant">
+      <L n="participant_type">
+        <E>Actor</E>
+      </L>
+    </U>
+  </V>
+  <V n="_saveable" t="enabled" />
+  <T n="attention_cost">0.5</T>
+  <V n="basic_content" t="one_shot" />
+  <L n="basic_extras">
+    <V t="payment">
+      <U n="payment">
+        <V n="payment" t="literal">
+          <U n="literal">
+            <V n="payment_cost" t="amount">
+              <U n="amount">
+                <T n="amount">40</T>
+              </U>
+            </V>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V t="save_participant">
+      <U n="save_participant">
+        <E n="participant">Object</E>
+        <E n="saved_participant">SavedActor2</E>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
+  </L>
+  <T n="category">220445<!--university_PieMenuCategories_ClassroomShell_GuestLecture--></T>
+  <V n="content_score" t="disabled" />
+  <T n="display_name">0xF3775E85<!--Attend Guest Lecture--></T>
+  <V n="display_name_overrides" t="testable">
+    <U n="testable">
+      <L n="overrides">
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x9F1F8319<!--Guest Lecture on Education, Elementary Teaching--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217932<!--university_ClassroomShell_GuestLecture_A_0--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x9A6E249F<!--Guest Lecture on Education, Junior High Teaching--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217933<!--university_ClassroomShell_GuestLecture_A_1--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x452EABE6<!--Guest Lecture Education, High School Teaching--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217934<!--university_ClassroomShell_GuestLecture_A_2--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0xBEFB7B63<!--Guest Lecture Education, Bullying--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217935<!--university_ClassroomShell_GuestLecture_A_3--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x14145FFF<!--Guest Lecture Education, Understanding Your Students--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217936<!--university_ClassroomShell_GuestLecture_A_4--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x217BA11E<!--Guest Lecture Education, Psychology of Learning--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217937<!--university_ClassroomShell_GuestLecture_A_5--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x86E22FAD<!--Guest Lecture Education, A Parent's Role in their Child's Education--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217938<!--university_ClassroomShell_GuestLecture_A_6--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x7F6C88C8<!--Guest Lecture Education, Technology in Schools--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217939<!--university_ClassroomShell_GuestLecture_A_7--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x401BD229<!--Guest Lecture Education, Handling Large Classes--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217940<!--university_ClassroomShell_GuestLecture_A_8--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x807D1B4F<!--Guest Lecture Education, Becoming a Leader--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217941<!--university_ClassroomShell_GuestLecture_A_9--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0xE641B207<!--Guest Lecture Education, Common Core--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217942<!--university_ClassroomShell_GuestLecture_A_10--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0x1EEACED0<!--Guest Lecture Education, Game Based Learning--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217943<!--university_ClassroomShell_GuestLecture_A_11--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+        <U>
+          <V n="new_display_name" t="enabled">
+            <T n="enabled">0xCEE75C30<!--Guest Lecture Education, Organization and Time Saving--></T>
+          </V>
+          <T n="new_pie_menu_category" o="true" />
+          <L n="test">
+            <L>
+              <V t="state">
+                <U n="state">
+                  <E n="operator">EQUAL</E>
+                  <T n="value">217944<!--university_ClassroomShell_GuestLecture_A_12--></T>
+                  <E n="who">Object</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Super</E>
+    <E>Interaction_All</E>
+  </L>
+  <V n="outcome" t="single">
+    <U n="single">
+      <U n="actions">
+        <L n="continuation">
+          <U>
+            <T n="affordance">220457<!--si_University_ClassroomShell_GuestLectures--></T>
+          </U>
+        </L>
+        <L n="loot_list">
+          <T>226967<!--loot_University_ClassroomShell_GuestLecture_A--></T>
+        </L>
+      </U>
+    </U>
+  </V>
+  <E n="scoring_priority">NORMAL</E>
+  <T n="subaction_selection_weight">1</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified" />
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+    <V t="day_and_time">
+      <U n="day_and_time">
+        <V n="time_range" t="enabled">
+          <U n="enabled">
+            <U n="begin_time">
+              <T n="hour">17</T>
+            </U>
+            <U n="duration">
+              <T n="hour">2</T>
+            </U>
+          </U>
+        </V>
+        <V n="tooltip" t="enabled">
+          <T n="enabled">0x8A7CF927<!--Come back between 5 PM and 7 PM for the next lecture series.--></T>
+        </V>
+      </U>
+    </V>
+  </L>
+  <T n="time_overhead">30</T>
+</I>

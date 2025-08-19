@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_HauntedHouse_Visible_Nope" s="254003">
+  <L n="_loot_on_addition">
+    <T>311350<!--loot_SelfDiscovery_Progress_Scared_Max_Small--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0xF2A39515<!--NOPE--></T>
+  <T n="buff_name">0xCF128E30<!--NOPE--></T>
+  <T n="icon" p="InSP18\UI\Icons\Buffs\Buffs_specter_neg.png">2f7d0004:00000000:cd1815c7ac380d6d</T>
+  <T n="mood_type">251719<!--Mood_Scared--></T>
+  <T n="mood_weight">10</T>
+  <T n="visible">True</T>
+</I>

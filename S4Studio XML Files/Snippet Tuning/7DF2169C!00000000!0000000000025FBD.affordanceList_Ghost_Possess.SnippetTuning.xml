@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_Ghost_Possess" s="155581">
+  <L n="value">
+    <T>102258<!--Ghost_Possess--></T>
+    <T>168502<!--Ghost_Pet_Possess--></T>
+    <T>102433<!--Ghost_Possess_Break_Electrocution--></T>
+    <T>102774<!--Ghost_Possess_Break_Plumbing--></T>
+    <T>102255<!--Ghost_Possess_Repair--></T>
+    <T>121648<!--Ghost_Possess_Bonfire--></T>
+    <T>143965<!--Ghost_Possess_BubbleBlower--></T>
+    <T>151552<!--pipeOrgan_Haunt--></T>
+    <T>324988<!--Ghost_Horse_Possess--></T>
+    <T>393934<!--ghost_Possess_Festival--></T>
+    <T>401385<!--ghost_Possess_MischieviousGhost--></T>
+    <T>391312<!--ghostPowers_Abilities_Scary_MusicalPossess--></T>
+    <T>402034<!--ghostPowers_Abilities_Scary_MusicalPossess_NPC_Autonomous--></T>
+    <T>391309<!--ghostPowers_Abilities_Scary_SinisterPossess--></T>
+    <T>393854<!--ghostPowers_Abilities_Scary_SinisterPossess_Autonomous--></T>
+    <T>393663<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Repair--></T>
+    <T>417293<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Repair_Askto--></T>
+    <T>393664<!--ghostPowers_Abilities_Helpful_Instantly_Possess_Upgrade--></T>
+  </L>
+</I>

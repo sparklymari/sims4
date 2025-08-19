@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_SkillBuilding_Apothecary" s="445829">
+  <L n="affordances">
+    <T>445824<!--apothecaryCraftTable_ClubRules_AutonomouslyCraftElixir--></T>
+    <T>448570<!--apothecaryCraftTable_ClubRules_AutonomouslyCraftElixir_NPC--></T>
+    <T>439228<!--apothecaryCraftTable_StartCrafting_CuresAndElixirs--></T>
+    <T>438911<!--craftingResume_ApothecaryCraftTable_CuresandElixirs--></T>
+    <T>439227<!--ApothecaryCraftTable_Staging_CruesAndElixirs--></T>
+    <T>446386<!--ApothecaryCraftTable_CleanUp_CuresAndElixirs--></T>
+  </L>
+  <E n="category">HOBBIES</E>
+  <T n="category_icon" p="InEP19\UI\Icons\Skills\Skill_Apothecary.png">2f7d0004:00000000:cb54723f323b18b3</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0xE6C2792C<!--Craft Apothecary Elixirs--></T>
+  <L n="small_business_customer_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0x9F3ABC07<!--Sims will use:--></T>
+        <T>0x1082E8C4<!--• Apothecary Tables--></T>
+      </L>
+    </U>
+  </L>
+  <T n="small_business_employee_rule">False</T>
+  <T n="tooltip_template">0xE6C2792C<!--Craft Apothecary Elixirs--></T>
+  <T n="tooltip_template_negative">0x34A6D977<!--Don't Craft Apothecary Elixirs--></T>
+</I>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Spells_Terrain_SpawnPlant" s="214456">
+  <L n="loot_actions">
+    <V t="create_plant">
+      <U n="create_plant">
+        <L n="fruits_to_sprout_from">
+          <U>
+            <T n="fruit">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+            <U n="weight">
+              <T n="base_value">35</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+            <U n="weight">
+              <T n="base_value">15</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+            <U n="weight">
+              <T n="base_value">35</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+            <U n="weight">
+              <T n="base_value">15</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+            <U n="weight">
+              <T n="base_value">15</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+            <U n="weight">
+              <T n="base_value">15</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">65804<!--gardenFlower_BONUS01GENdeathFlower ({S.Death Flower}{P.Death Flowers})--></T>
+            <U n="weight">
+              <T n="base_value">10</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+            <U n="weight">
+              <T n="base_value">5</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+            <U n="weight">
+              <T n="base_value">100</T>
+            </U>
+          </U>
+          <U>
+            <T n="fruit">227209<!--gardenFruit_GP08GENvalerian ({S.Valerian Root}{P.Valerian Roots})--></T>
+            <U n="weight">
+              <T n="base_value">100</T>
+            </U>
+          </U>
+        </L>
+        <L n="states_to_set_on_plant">
+          <T>77615<!--PlantGrowth_3_Blossoming--></T>
+        </L>
+        <E n="subject">Object</E>
+      </U>
+    </V>
+  </L>
+</I>

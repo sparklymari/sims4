@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_DJPlaying" s="153194">
+  <L n="value">
+    <T>121412<!--DJBooth_Play--></T>
+    <T>123768<!--DJBooth_PlayMusic_genre_04_ChillOut--></T>
+    <T>123769<!--DJBooth_PlayMusic_genre_05_Breakbeats--></T>
+    <T>123770<!--DJBooth_PlayMusic_genre_06_Remix--></T>
+    <T>123771<!--DJBooth_PlayMusic_genre_07_House--></T>
+    <T>123772<!--DJBooth_PlayMusic_genre_08_HipHop--></T>
+    <T>123773<!--DJBooth_PlayMusic_genre_09_DrumAndBass--></T>
+    <T>123774<!--DJBooth_PlayMusic_genre_10_Noise--></T>
+    <T>127738<!--DJBooth_PlayMusic_genre_00_Practice_level01--></T>
+    <T>127746<!--DJBooth_PlayMusic_genre_00_Practice_level02--></T>
+    <T>127745<!--DJBooth_PlayMusic_genre_00_Practice_level03--></T>
+    <T>127744<!--DJBooth_PlayMusic_genre_00_Practice_level04--></T>
+    <T>127743<!--DJBooth_PlayMusic_genre_00_Practice_level05--></T>
+    <T>127742<!--DJBooth_PlayMusic_genre_00_Practice_level06--></T>
+    <T>127741<!--DJBooth_PlayMusic_genre_00_Practice_level07--></T>
+    <T>127740<!--DJBooth_PlayMusic_genre_00_Practice_level08--></T>
+    <T>127739<!--DJBooth_PlayMusic_genre_00_Practice_level09--></T>
+    <T>123784<!--DJBooth_PlayMusic_genre_01_Groovin_hiSkill--></T>
+    <T>123750<!--DJBooth_PlayMusic_genre_01_Groovin_lowSkill--></T>
+    <T>123786<!--DJBooth_PlayMusic_genre_02_Machine_hiSkill--></T>
+    <T>123758<!--DJBooth_PlayMusic_genre_02_Machine_lowSkill--></T>
+    <T>123788<!--DJBooth_PlayMusic_genre_03_ChipTune_hiSkill--></T>
+    <T>123766<!--DJBooth_PlayMusic_genre_03_ChipTune_lowSkill--></T>
+  </L>
+</I>

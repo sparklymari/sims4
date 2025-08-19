@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="MusicStyle" i="recipe" m="crafting.music" n="musicStyle_SingingSkill_PortableKeyboard_Jazz" s="150270">
+  <L n="music_tracks">
+    <T>150283<!--musicTrack_SingingSkill_PortableKeyboard_Jazz_Song1--></T>
+    <T>150285<!--musicTrack_SingingSkill_PortableKeyboard_Jazz_Song2--></T>
+    <T>150284<!--musicTrack_SingingSkill_PortableKeyboard_Jazz_Song3--></T>
+  </L>
+  <T n="pie_menu_category">138743<!--instrument_SingSong_Jazz--></T>
+</I>

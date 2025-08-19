@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_Infants_FoodPreferences_Unsure_Set_Actor" s="290847">
+  <L n="test">
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294162<!--cupSmall_EF48GENbabyFood_Applesauce (Applesauce)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289167<!--foodPreferences_Infants_Applesauce--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294167<!--cupSmall_EF48GENbabyFood_CrushedCarrots (Crushed Carrots)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289182<!--foodPreferences_Infants_crushedCarrots--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294174<!--cupSmall_EF48GENbabyFood_HomemadeHummus (Homemade Hummus)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289183<!--foodPreferences_Infants_homemadeHummus--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294170<!--cupSmall_EF48GENbabyFood_IceCream (Ice Cream)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289192<!--foodPreferences_Infants_iceCream--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294163<!--cupSmall_EF48GENbabyFood_MashedMango (Mashed Mango)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289193<!--foodPreferences_Infants_mashedMango--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294166<!--cupSmall_EF48GENbabyFood_MashedPeas (Mashed Peas)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289194<!--foodPreferences_Infants_mashedPeas--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294172<!--cupSmall_EF48GENbabyFood_OatmealCereal (Oatmeal Cereal)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289184<!--foodPreferences_Infants_oatmealCereal--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294165<!--cupSmall_EF48GENbabyFood_PapayaPaste (Papaya Paste)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289185<!--foodPreferences_Infants_papayaPaste--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294168<!--cupSmall_EF48GENbabyFood_PumpkinPuree (Pumpkin Puree)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289186<!--foodPreferences_Infants_pumpkinPuree--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294171<!--cupSmall_EF48GENbabyFood_RicePorridge (Rice Porridge)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289187<!--foodPreferences_Infants_ricePorridge--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294164<!--cupSmall_EF48GENbabyFood_SmashedAvocado (Smashed Avocado)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289188<!--foodPreferences_Infants_smashedAvocado--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294169<!--cupSmall_EF48GENbabyFood_SmashedLemon (Smashed Lemon)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289189<!--foodPreferences_Infants_smashedLemon--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294173<!--cupSmall_EF48GENbabyFood_SweetPotatoPuree (Sweet Potato Puree)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289190<!--foodPreferences_Infants_sweetPotatoPuree--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294161<!--cupSmall_EF48GENbabyFood_Yogurt (Yogurt)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289191<!--foodPreferences_Infants_yogurt--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294156<!--foodPlateEatSingle_EF48GENbananaSlice (Banana Slices)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289275<!--foodPreferences_Infants_bananaSlices--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294157<!--foodPlateEatSingle_EF48GENoatyO (Oaty O's)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289277<!--foodPreferences_Infants_OatyOs--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294158<!--foodPlateEatSingle_EF48GENpeanutButterPuff (Peanut Butter Puffs)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289278<!--foodPreferences_Infants_peanutButterPuffs--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="object_definition_criteria">
+        <U n="object_definition_criteria">
+          <V n="identity_test" t="definition_id">
+            <U n="definition_id">
+              <T n="actual_object">294159<!--foodPlateEatSingle_EF48GENyogurtMelt (Yogurt Melts)--></T>
+            </U>
+          </V>
+          <E n="participant">PickedObject</E>
+        </U>
+      </V>
+      <V t="gameplay_object_preference_test">
+        <U n="gameplay_object_preference_test">
+          <T n="gameplay_object_preference">289276<!--foodPreferences_Infants_yogurtMelts--></T>
+          <L n="preference_type">
+            <E>UNSURE</E>
+          </L>
+          <E n="sims">Actor</E>
+          <T n="targetless">True</T>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

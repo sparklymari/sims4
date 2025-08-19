@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_BoosterPacks_Found" s="134221">
+  <V n="_luck_tuning" t="enabled">
+    <U n="enabled">
+      <L n="loot_actions">
+        <T>471525<!--loot_LuckSys_ImpactOnAction_Collectibles_RWL--></T>
+      </L>
+    </U>
+  </V>
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138821<!--notification_MonsterCollection_BoosterPack_earth1--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124478<!--collectMonsterBattleCard_SP07GENearth_set1 (Nymphaea)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124478<!--collectMonsterBattleCard_SP07GENearth_set1 (Nymphaea)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">30</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138822<!--notification_MonsterCollection_BoosterPack_earth2--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126489<!--collectMonsterBattleCard_SP07GENearth_set2 (Mytheme)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126489<!--collectMonsterBattleCard_SP07GENearth_set2 (Mytheme)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138823<!--notification_MonsterCollection_BoosterPack_earth3--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126490<!--collectMonsterBattleCard_SP07GENearth_set3 (Suintor)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126490<!--collectMonsterBattleCard_SP07GENearth_set3 (Suintor)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138824<!--notification_MonsterCollection_BoosterPack_earth4--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126491<!--collectMonsterBattleCard_SP07GENearth_set4 (Simgaia)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126491<!--collectMonsterBattleCard_SP07GENearth_set4 (Simgaia)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138825<!--notification_MonsterCollection_BoosterPack_fire1--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124479<!--collectMonsterBattleCard_SP07GENfire_set1 (Yorier)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124479<!--collectMonsterBattleCard_SP07GENfire_set1 (Yorier)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">30</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138826<!--notification_MonsterCollection_BoosterPack_fire2--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126486<!--collectMonsterBattleCard_SP07GENfire_set2 (Canis)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126486<!--collectMonsterBattleCard_SP07GENfire_set2 (Canis)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138827<!--notification_MonsterCollection_BoosterPack_fire3--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126487<!--collectMonsterBattleCard_SP07GENfire_set3 (Cyprin)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126487<!--collectMonsterBattleCard_SP07GENfire_set3 (Cyprin)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138828<!--notification_MonsterCollection_BoosterPack_fire4--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126488<!--collectMonsterBattleCard_SP07GENfire_set4 (Fissure)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126488<!--collectMonsterBattleCard_SP07GENfire_set4 (Fissure)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138811<!--notification_MonsterCollection_BoosterPack_void1--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124480<!--collectMonsterBattleCard_SP07GENvoid_set1 (Wisp)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124480<!--collectMonsterBattleCard_SP07GENvoid_set1 (Wisp)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">30</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138812<!--notification_MonsterCollection_BoosterPack_void2--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126483<!--collectMonsterBattleCard_SP07GENvoid_set2 (Veild)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126483<!--collectMonsterBattleCard_SP07GENvoid_set2 (Veild)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138813<!--notification_MonsterCollection_BoosterPack_void3--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126484<!--collectMonsterBattleCard_SP07GENvoid_set3 (Wickyn)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126484<!--collectMonsterBattleCard_SP07GENvoid_set3 (Wickyn)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138814<!--notification_MonsterCollection_BoosterPack_void4--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126485<!--collectMonsterBattleCard_SP07GENvoid_set4 (Vulpes)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126485<!--collectMonsterBattleCard_SP07GENvoid_set4 (Vulpes)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138815<!--notification_MonsterCollection_BoosterPack_water1--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124471<!--collectMonsterBattleCard_SP07GENwater_set1 (Kampos)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124471<!--collectMonsterBattleCard_SP07GENwater_set1 (Kampos)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">30</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138816<!--notification_MonsterCollection_BoosterPack_water2--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126480<!--collectMonsterBattleCard_SP07GENwater_set2 (Pleuro)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126480<!--collectMonsterBattleCard_SP07GENwater_set2 (Pleuro)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138817<!--notification_MonsterCollection_BoosterPack_water3--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126481<!--collectMonsterBattleCard_SP07GENwater_set3 (Bubalus)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126481<!--collectMonsterBattleCard_SP07GENwater_set3 (Bubalus)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138818<!--notification_MonsterCollection_BoosterPack_water4--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126482<!--collectMonsterBattleCard_SP07GENwater_set4 (Arcticorn)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126482<!--collectMonsterBattleCard_SP07GENwater_set4 (Arcticorn)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138809<!--notification_MonsterCollection_BoosterPack_air1--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124477<!--collectMonsterBattleCard_SP07GENair_set1 (Avesu)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">124477<!--collectMonsterBattleCard_SP07GENair_set1 (Avesu)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138810<!--notification_MonsterCollection_BoosterPack_air2--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126477<!--collectMonsterBattleCard_SP07GENair_set2 (Dicoatl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126477<!--collectMonsterBattleCard_SP07GENair_set2 (Dicoatl)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138819<!--notification_MonsterCollection_BoosterPack_air3--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126478<!--collectMonsterBattleCard_SP07GENair_set3 (Meduso)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126478<!--collectMonsterBattleCard_SP07GENair_set3 (Meduso)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">30</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <V n="notification" t="enabled">
+            <V n="enabled" t="reference">
+              <T n="reference">138820<!--notification_MonsterCollection_BoosterPack_air4--></T>
+            </V>
+          </V>
+          <L n="object_rewards">
+            <U>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126479<!--collectMonsterBattleCard_SP07GENair_set4 (Nimbus)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">7</T>
+                  </U>
+                </U>
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">126479<!--collectMonsterBattleCard_SP07GENair_set4 (Nimbus)--></T>
+                      </U>
+                    </V>
+                  </L>
+                  <L n="states_on_reward_object">
+                    <T>134516<!--object_Collection_Monsters_Rarity_Foil--></T>
+                    <T>134130<!--object_Collection_Monsters_Level_1--></T>
+                  </L>
+                  <U n="weight">
+                    <T n="base_value">3</T>
+                  </U>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">10</T>
+      </U>
+    </U>
+  </L>
+</I>

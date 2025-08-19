@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Broadcaster" i="broadcaster" m="broadcasters.broadcaster" n="broadcaster_Gemology_CutGemstones" s="358144">
+  <V n="clustering" t="disabled" />
+  <L n="constraints">
+    <V t="circle">
+      <U n="circle">
+        <T n="radius">5</T>
+      </U>
+    </V>
+  </L>
+  <L n="effects">
+    <V t="state_value_buff">
+      <U n="state_value_buff">
+        <U n="buff">
+          <V n="buff_reason" t="disabled" />
+          <T n="buff_type">351441<!--buff_Gemology_Alabaster_NegativeMoodlets--></T>
+        </U>
+        <T n="state">352553<!--crystalType_State--></T>
+        <L n="state_value_buff_map">
+          <U>
+            <T n="state_value">352837<!--crystalType_Alabaster--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xF0565046<!--(From Nearby Charged Alabaster)--></T>
+              </V>
+              <T n="buff_type">351441<!--buff_Gemology_Alabaster_NegativeMoodlets--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352838<!--crystalType_Amethyst--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xB2BB069B<!--(From Nearby Charged Amethyst)--></T>
+              </V>
+              <T n="buff_type">351451<!--buff_Gemology_Amethyst_LucidDreams--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352839<!--crystalType_Citrine--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x310E0071<!--(From Nearby Charged Citrine)--></T>
+              </V>
+              <T n="buff_type">351453<!--buff_Gemology_Citrine_FindSimoleons--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352840<!--crystalType_Diamond--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xE3A874CC<!--(From Nearby Charged Diamond)--></T>
+              </V>
+              <T n="buff_type">351455<!--buff_Gemology_Diamond_PartnersBond--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352841<!--crystalType_Emerald--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xBBFF28C6<!--(From Nearby Charged Emerald)--></T>
+              </V>
+              <T n="buff_type">351449<!--buff_Gemology_Emerald_ChanceCards--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352842<!--crystalType_FireOpal--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xD4FAA9E0<!--(From Nearby Charged Fire Opal)--></T>
+              </V>
+              <T n="buff_type">351456<!--buff_Gemology_FireOpal_DateSuccess--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352843<!--crystalType_Hematite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x2F1F8C50<!--(From Nearby Charged Hematite)--></T>
+              </V>
+              <T n="buff_type">351457<!--buff_Gemology_Hematite_Immortal--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352844<!--crystalType_Jet--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x4EE1973B<!--(From Nearby Charged Jet)--></T>
+              </V>
+              <T n="buff_type">351489<!--buff_Gemology_Jet_GrimWoohoo--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352845<!--crystalType_Jonquilyst--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xBC840BAD<!--(From Nearby Charged Jonquilyst)--></T>
+              </V>
+              <T n="buff_type">351490<!--buff_Gemology_Jonquilyst_TenseMoodlets--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352846<!--crystalType_OrangeTopaz--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x1558F8D0<!--(From Nearby Charged Orange Topaz)--></T>
+              </V>
+              <T n="buff_type">351493<!--buff_Gemology_OrangeTopaz_CreativeSkills--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352847<!--crystalType_PeachQuartz--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xBACB620B<!--(From Nearby Charged Peach)--></T>
+              </V>
+              <T n="buff_type">351494<!--buff_Gemology_PeachQuartz_FamilyBond--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352848<!--crystalType_Plumbite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xC9330F1F<!--(From Nearby Charged Plumbite)--></T>
+              </V>
+              <T n="buff_type">351495<!--buff_Gemology_Plumbite_MotivesIncrease--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352849<!--crystalType_Quartz--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x3217D9D3<!--(From Nearby Charged Quartz)--></T>
+              </V>
+              <T n="buff_type">351448<!--buff_Gemology_Quartz_AspirationPoints--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352850<!--crystalType_Rainborz--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xAAB4A29D<!--(From Nearby Charged Rainborz)--></T>
+              </V>
+              <T n="buff_type">351440<!--buff_Gemology_Rainborz_Brave--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352851<!--crystalType_RoseQuartz--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xE0C4F1DE<!--(From Nearby Charged Rose Quartz)--></T>
+              </V>
+              <T n="buff_type">351496<!--buff_Gemology_Rose_PartnerLoss--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352852<!--crystalType_Ruby--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x5B1819E6<!--(From Nearby Charged Ruby)--></T>
+              </V>
+              <T n="buff_type">351497<!--buff_Gemology_Ruby_BadWoohoo--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352853<!--crystalType_Sapphire--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xA0A8F20C<!--(From Nearby Charged Sapphire)--></T>
+              </V>
+              <T n="buff_type">351498<!--buff_Gemology_Sapphire_MentalSkills--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352854<!--crystalType_Shinalite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x79E1ECA9<!--(From Nearby Charged Shinolite)--></T>
+              </V>
+              <T n="buff_type">351499<!--buff_Gemology_Shinolite_Fertility--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352855<!--crystalType_Simanite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x743B0836<!--(From Nearby Charged Simanite)--></T>
+              </V>
+              <T n="buff_type">351500<!--buff_Gemology_Simanite_CareerProgress--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352856<!--crystalType_Turquoise--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x3C13E8AC<!--(From Nearby Charged Turquoise)--></T>
+              </V>
+              <T n="buff_type">351502<!--buff_Gemology_Turquoise_ConfidentSkills--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352857<!--crystalType_Crandestine--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x3A0F1697<!--(From Nearby Charged Crandestine)--></T>
+              </V>
+              <T n="buff_type">351454<!--buff_Gemology_Crandestine_WeakWill--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352858<!--crystalType_Nitelite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xDBCE4690<!--(From Nearby Charged Nitelite)--></T>
+              </V>
+              <T n="buff_type">351492<!--buff_Gemology_Nitelite_AlienPowers--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352859<!--crystalType_Amazonite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x9D275EB2<!--(From Nearby Charged Amazonite)--></T>
+              </V>
+              <T n="buff_type">351443<!--buff_Gemology_Amazonite_QualityArtifacts--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352860<!--crystalType_Alexandrite--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0xF3E6FA48<!--(From Nearby Charged Alexandrite)--></T>
+              </V>
+              <T n="buff_type">351442<!--buff_Gemology_Alexandrite_WantsRefresh--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352861<!--crystalType_Amber--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x6F08A8FC<!--(From Nearby Charged Amber)--></T>
+              </V>
+              <T n="buff_type">355896<!--buff_Gemology_Amber_SuccessClearSkies--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352862<!--crystalType_Moonstone--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x9FD6614B<!--(From Nearby Charged Moonstone)--></T>
+              </V>
+              <T n="buff_type">351491<!--buff_Gemology_Moonstone_Occults--></T>
+            </U>
+          </U>
+          <U>
+            <T n="state_value">352863<!--crystalType_Jade--></T>
+            <U n="buff">
+              <V n="buff_reason" t="enabled">
+                <T n="enabled">0x95CC2C9D<!--(From Nearby Charged Jade)--></T>
+              </V>
+              <T n="buff_type">351458<!--buff_Gemology_Jade_FindCrystals--></T>
+            </U>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+  <V n="frequency" t="on_enter">
+    <U n="on_enter">
+      <T n="allow_multiple">True</T>
+    </U>
+  </V>
+  <T n="register_state_changed">True</T>
+</I>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_Object_SkatingRink_PracticeTricks_NoVFX" s="189879">
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="icon" p="InGame\UI\Icons\Debug\missing_image.png">2f7d0004:00000000:30f0846c783606f9</T>
+  <V n="route_events" t="enabled">
+    <U n="enabled">
+      <L n="repeating_events">
+        <T>183856<!--routeEvent_SkatingRink_Trick_Fail--></T>
+        <T>189864<!--routeEvent_SkatingRink_T2_JumpBackFlip_NoVfx--></T>
+        <T>189861<!--routeEvent_SkatingRink_T1_SkateOneLeg_NoVfx--></T>
+        <T>189865<!--routeEvent_SkatingRink_T3_SpinJump_NoVfx--></T>
+        <T>189862<!--routeEvent_SkatingRink_T1_SpinSimple1_NoVfx--></T>
+        <T>189863<!--routeEvent_SkatingRink_T1_SpinSimple2_NoVfx--></T>
+        <T>185916<!--routeEvent_SkatingRink_T1_SkateBackwards--></T>
+        <T>186071<!--routeEvent_SkatingRink_T1_SkateForward--></T>
+        <T>191270<!--routeEvent_SkatingRink_Trick_Fall--></T>
+      </L>
+      <L n="single_events">
+        <T>185916<!--routeEvent_SkatingRink_T1_SkateBackwards--></T>
+      </L>
+    </U>
+  </V>
+  <T n="visible">False</T>
+</I>

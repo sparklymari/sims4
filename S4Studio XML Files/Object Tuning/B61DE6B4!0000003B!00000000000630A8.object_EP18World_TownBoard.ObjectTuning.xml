@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_EP18World_TownBoard" s="405672">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="states">
+          <U>
+            <V n="default_value" t="reference">
+              <T n="reference">98746<!--GenericFX_Off--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>395619<!--immediate_HobbyMeetup_CheckCurrent--></T>
+    <T>395720<!--immediate_HobbyMeetup_CheckNext--></T>
+    <T>395714<!--immediate_HobbyMeetup_Info_Books--></T>
+    <T>395713<!--immediate_HobbyMeetup_Info_Creative--></T>
+    <T>395716<!--immediate_HobbyMeetup_Info_Fitness--></T>
+    <T>395712<!--immediate_HobbyMeetup_Info_FoodDrink--></T>
+    <T>395719<!--immediate_HobbyMeetup_Info_Logic--></T>
+    <T>395718<!--immediate_HobbyMeetup_Info_Peformer--></T>
+    <T>395715<!--immediate_HobbyMeetup_Info_Pottery--></T>
+    <T>405676<!--objectPicker_HobbyMeetup_FocusCamera--></T>
+    <T>414731<!--immediate_EP18World_Bakery--></T>
+    <T>400418<!--si_TheCollector_StayNear--></T>
+    <T>414729<!--immediate_EP18World_Pottery--></T>
+    <T>414730<!--immediate_EP18World_Sweet--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

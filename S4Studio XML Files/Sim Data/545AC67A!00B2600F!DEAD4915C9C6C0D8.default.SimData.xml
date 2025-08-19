@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000000">
+  <Instances>
+    <I name="default" schema="Renderer.GlobalLightSettings" type="Object">
+      <T name="LightIntensityScale">1.3</T>
+      <T name="MinimumRoomBrightestPoint">0</T>
+      <T name="MaximumRoomBrightestPoint">4</T>
+      <T name="MaximumLightmapTexelIntensity">1.5</T>
+      <T name="NearbyLightDimming">0.4</T>
+      <T name="NearbyWindowDimming">0.8</T>
+      <T name="SunlightScale">1.2</T>
+      <T name="ExteriorDropShadowDimming">0.35</T>
+      <T name="RugLightmapDimming">0.8</T>
+      <T name="BradyBunchBlue">0.01,0.01,0.01</T>
+      <T name="AmbientScale">0</T>
+      <T name="AmbienceMinimum">1</T>
+      <T name="AmbienceMaximum">1</T>
+      <T name="AmbienceHeightSpread">0.052</T>
+      <T name="LightRigMaximum">1</T>
+      <T name="LightRigScale">1</T>
+      <T name="LightRigBBBThreshold">1</T>
+      <T name="LightRigBBBAmbientDimming">0</T>
+      <T name="LightInteriorCounterDirectionScale">0</T>
+      <T name="VertexColorScale">2</T>
+      <T name="LightRigMinspecBaseAmbient">0</T>
+      <T name="LightRigMinspecAmbientLimit">2</T>
+      <T name="LightRigMinspecDirectionalLimit">2</T>
+      <T name="LightRigMinspecAmbientFactor">0.333</T>
+      <T name="LightRigMinspecDirectionalFactor">0.666</T>
+      <T name="LightRigMinspecMaxDirectionalToAmbientRatio">50</T>
+      <T name="WindowSunBrightness">0.8</T>
+      <T name="WindowSunSideScale">0.7</T>
+      <T name="WindowDarkSideScale">1.2</T>
+      <T name="WindowAreaConversionFactor">1</T>
+      <T name="WindowSpillMultiplier">0.5</T>
+      <T name="WindowSillShadowDistance">0.05</T>
+      <T name="WindowSunHeading">39</T>
+      <T name="WindowSunPitch">43</T>
+      <T name="WindowDesaturateSkyColor">0.05</T>
+      <T name="OpaqueWindowColor">0.4,0.4,0.4</T>
+      <T name="EnableLightRigBBBOnLightMaps">1</T>
+      <U name="LightRigBBBWallFloorLight1" schema="Renderer.BBBLight">
+        <T name="Direction">0,22</T>
+        <T name="Intensity">0.3</T>
+        <T name="Color">0.55,0.55,0.9</T>
+      </U>
+      <U name="LightRigBBBWallFloorLight2" schema="Renderer.BBBLight">
+        <T name="Direction">120,22</T>
+        <T name="Intensity">0.3</T>
+        <T name="Color">0.55,0.55,0.9</T>
+      </U>
+      <U name="LightRigBBBWallFloorLight3" schema="Renderer.BBBLight">
+        <T name="Direction">240,22</T>
+        <T name="Intensity">0.3</T>
+        <T name="Color">0.55,0.55,0.9</T>
+      </U>
+      <U name="LightRigBBBObjectLight1" schema="Renderer.BBBLight">
+        <T name="Direction">45,5</T>
+        <T name="Intensity">0.4</T>
+        <T name="Color">0.55,0.55,1</T>
+      </U>
+      <U name="LightRigBBBObjectLight2" schema="Renderer.BBBLight">
+        <T name="Direction">225,18</T>
+        <T name="Intensity">0.4</T>
+        <T name="Color">0.55,0.55,1</T>
+      </U>
+      <U name="LightRigBBBObjectLight3" schema="Renderer.BBBLight">
+        <T name="Direction">240,80</T>
+        <T name="Intensity">0.4</T>
+        <T name="Color">0.632,0.55,0.468</T>
+      </U>
+      <L name="LightingSolverLODs">
+        <U type="Object" schema="Renderer.LightingSolverLODTuning">
+          <T name="LightMapSubdivision">1</T>
+        </U>
+        <U type="Object" schema="Renderer.LightingSolverLODTuning">
+          <T name="LightMapSubdivision">4</T>
+        </U>
+      </L>
+      <T name="AcidRainColor">0.3,0.6,0.2</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Renderer.GlobalLightSettings" schema_hash="0x5F084E68">
+      <Columns>
+        <Column name="LightIntensityScale" type="Single" flags="0x00000000" />
+        <Column name="MinimumRoomBrightestPoint" type="Single" flags="0x00000000" />
+        <Column name="MaximumRoomBrightestPoint" type="Single" flags="0x00000000" />
+        <Column name="MaximumLightmapTexelIntensity" type="Single" flags="0x00000000" />
+        <Column name="NearbyLightDimming" type="Single" flags="0x00000000" />
+        <Column name="NearbyWindowDimming" type="Single" flags="0x00000000" />
+        <Column name="SunlightScale" type="Single" flags="0x00000000" />
+        <Column name="ExteriorDropShadowDimming" type="Single" flags="0x00000000" />
+        <Column name="RugLightmapDimming" type="Single" flags="0x00000000" />
+        <Column name="BradyBunchBlue" type="Float3" flags="0x00000000" />
+        <Column name="AmbientScale" type="Single" flags="0x00000000" />
+        <Column name="AmbienceMinimum" type="Single" flags="0x00000000" />
+        <Column name="AmbienceMaximum" type="Single" flags="0x00000000" />
+        <Column name="AmbienceHeightSpread" type="Single" flags="0x00000000" />
+        <Column name="LightRigMaximum" type="Single" flags="0x00000000" />
+        <Column name="LightRigScale" type="Single" flags="0x00000000" />
+        <Column name="LightRigBBBThreshold" type="Single" flags="0x00000000" />
+        <Column name="LightRigBBBAmbientDimming" type="Single" flags="0x00000000" />
+        <Column name="LightInteriorCounterDirectionScale" type="Single" flags="0x00000000" />
+        <Column name="VertexColorScale" type="Single" flags="0x00000000" />
+        <Column name="LightRigMinspecBaseAmbient" type="Single" flags="0x00000000" />
+        <Column name="LightRigMinspecAmbientLimit" type="Single" flags="0x00000000" />
+        <Column name="LightRigMinspecDirectionalLimit" type="Single" flags="0x00000000" />
+        <Column name="LightRigMinspecAmbientFactor" type="Single" flags="0x00000000" />
+        <Column name="LightRigMinspecDirectionalFactor" type="Single" flags="0x00000000" />
+        <Column name="LightRigMinspecMaxDirectionalToAmbientRatio" type="Single" flags="0x00000000" />
+        <Column name="WindowSunBrightness" type="Single" flags="0x00000000" />
+        <Column name="WindowSunSideScale" type="Single" flags="0x00000000" />
+        <Column name="WindowDarkSideScale" type="Single" flags="0x00000000" />
+        <Column name="WindowAreaConversionFactor" type="Single" flags="0x00000000" />
+        <Column name="WindowSpillMultiplier" type="Single" flags="0x00000000" />
+        <Column name="WindowSillShadowDistance" type="Single" flags="0x00000000" />
+        <Column name="WindowSunHeading" type="Single" flags="0x00000000" />
+        <Column name="WindowSunPitch" type="Single" flags="0x00000000" />
+        <Column name="WindowDesaturateSkyColor" type="Single" flags="0x00000000" />
+        <Column name="OpaqueWindowColor" type="Float3" flags="0x00000000" />
+        <Column name="EnableLightRigBBBOnLightMaps" type="Boolean" flags="0x00000000" />
+        <Column name="LightRigBBBWallFloorLight1" type="Object" flags="0x00000000" />
+        <Column name="LightRigBBBWallFloorLight2" type="Object" flags="0x00000000" />
+        <Column name="LightRigBBBWallFloorLight3" type="Object" flags="0x00000000" />
+        <Column name="LightRigBBBObjectLight1" type="Object" flags="0x00000000" />
+        <Column name="LightRigBBBObjectLight2" type="Object" flags="0x00000000" />
+        <Column name="LightRigBBBObjectLight3" type="Object" flags="0x00000000" />
+        <Column name="LightingSolverLODs" type="Vector" flags="0x00000000" />
+        <Column name="AcidRainColor" type="Float3" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Renderer.BBBLight" schema_hash="0x717BBF01">
+      <Columns>
+        <Column name="Direction" type="Float2" flags="0x00000000" />
+        <Column name="Intensity" type="Single" flags="0x00000000" />
+        <Column name="Color" type="Float3" flags="0x00000000" />
+      </Columns>
+    </Schema>
+    <Schema name="Renderer.LightingSolverLODTuning" schema_hash="0x6C46A856">
+      <Columns>
+        <Column name="LightMapSubdivision" type="Int32" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

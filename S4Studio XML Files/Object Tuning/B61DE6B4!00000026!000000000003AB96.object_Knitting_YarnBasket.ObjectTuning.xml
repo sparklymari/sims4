@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_Knitting_YarnBasket" s="240534">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="inventory_item" t="enabled">
+      <U n="enabled">
+        <V n="no_carry_add_to_sim_inventory_affordances" t="OVERRIDE">
+          <L n="OVERRIDE">
+            <T>10459<!--si_SwipeIntoSimInventory--></T>
+            <T>202254<!--si_SwipeIntoSimInventory_Swim--></T>
+          </L>
+        </V>
+        <T n="skip_carry_pose">True</T>
+        <E n="stack_scheme">NONE</E>
+        <L n="valid_inventory_types">
+          <E>SIM</E>
+          <E>STORAGE_CHEST_DORM</E>
+          <E>STORAGE_CHEST</E>
+        </L>
+      </U>
+    </V>
+    <V n="retail_component" t="enabled">
+      <V n="enabled" t="reference">
+        <T n="reference">115303<!--retailComponent_Default_HighAppeal--></T>
+      </V>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">39478<!--FireState_Burn_Incinerate_Burning--></T>
+              </U>
+              <U>
+                <T n="key">39479<!--FireState_Burn_Incinerate--></T>
+              </U>
+              <U>
+                <T n="key">39612<!--FireState_Burn_Incinerate_Not_Burning--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">39612<!--FireState_Burn_Incinerate_Not_Burning--></T>
+            </V>
+          </U>
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">131794<!--Kelpto_Stolen_Object--></T>
+              </U>
+              <U>
+                <T n="key">131795<!--Klepto_Not_Stolen_Object--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">131795<!--Klepto_Not_Stolen_Object--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V n="tooltip_component" t="enabled" />
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+    <T>243600<!--knitting_StartCrafting_SweaterScarfs_Inventory--></T>
+    <T>240587<!--knitting_BatAtYarnBasket--></T>
+    <T>243651<!--knitting_Picker_Scrap_Inventory--></T>
+    <T>239937<!--Knitting_CreateObject_WorkInProgress--></T>
+    <T>239948<!--knitting_CreateObject_Finished--></T>
+    <T>239944<!--Knitting_CraftingPhase--></T>
+    <T>240784<!--craftingResume_Knitting--></T>
+    <T>243649<!--knitting_Picker_Resume_Inventory--></T>
+    <T>243773<!--knitting_StartCrafting_SuperFail_Inventory--></T>
+    <T>243598<!--knitting_StartCrafting_Sweaters_Inventory--></T>
+    <T>243596<!--knitting_StartCrafting_Socks_Inventory--></T>
+    <T>243594<!--knitting_StartCrafting_Rugs_Inventory--></T>
+    <T>243592<!--knitting_StartCrafting_Pouffes_Inventory--></T>
+    <T>243590<!--knitting_StartCrafting_Onesies_Inventory--></T>
+    <T>243588<!--knitting_StartCrafting_Furnishings_Inventory--></T>
+    <T>243586<!--knitting_StartCrafting_Decorations_Inventory--></T>
+    <T>243584<!--knitting_StartCrafting_ChildToys_Inventory--></T>
+    <T>243582<!--knitting_StartCrafting_Beanies_Inventory--></T>
+    <T>243646<!--knitting_Empty--></T>
+    <T>244857<!--knitting_CraftingPhase_BigProject--></T>
+    <T>244902<!--knitting_StartCrafting_Mailboxes_Inventory--></T>
+    <T>266572<!--knitting_StartCrafting_AnimalClothing_Inventory--></T>
+    <T>102258<!--Ghost_Possess--></T>
+    <T>106859<!--simRay_Transform_Object--></T>
+    <T>213491<!--spells_Object_Duplicate--></T>
+    <T>276518<!--infant_WhatsThat--></T>
+    <T>328068<!--infant_WhatsThat_Immobile_InObject--></T>
+    <T>245590<!--Knitting_CraftingAutonomously--></T>
+    <T>144099<!--generic_Object_Toddler_Check_Out--></T>
+    <T>156936<!--generic_Object_Toddler_Check_Out_HighChair--></T>
+    <T>245831<!--knitting_StartCrafting_BabyOnesies_Inventory--></T>
+    <T>320058<!--objectDefinitionPicker_FriendshipBracelet_Make_InventoryStart--></T>
+    <T>320261<!--objectDefinitionPicker_FriendshipBracelet_Make_WorldStart--></T>
+    <T>348577<!--knitting_NPC_NoProduct--></T>
+    <T>383019<!--simPicker_Mentoring_AskFor_Knitting--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

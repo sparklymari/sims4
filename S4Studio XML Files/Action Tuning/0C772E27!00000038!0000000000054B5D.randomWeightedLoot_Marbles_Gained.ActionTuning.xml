@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_Marbles_Gained" s="346973">
+  <V n="_luck_tuning" t="enabled">
+    <U n="enabled">
+      <L n="loot_actions">
+        <T>471525<!--loot_LuckSys_ImpactOnAction_Collectibles_RWL--></T>
+      </L>
+    </U>
+  </V>
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364953<!--collectMarble_EP15GEN_common_set1 (Lumberjackson Red)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant" />
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364668<!--collectMarble_EP15GEN_common_set2 (Olive's Garden)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364669<!--collectMarble_EP15GEN_common_set3 (Belladonna Cove)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364670<!--collectMarble_EP15GEN_common_set4 (Eyes of Pinochle Point)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364671<!--collectMarble_EP15GEN_common_set5 (Road to Nowhere)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364672<!--collectMarble_EP15GEN_common_set6 (Rainbow)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364674<!--collectMarble_EP15GEN_common_set7 (Sulani Swirl)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364673<!--collectMarble_EP15GEN_uncommon_set8 (Selvadorada Sun)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364719<!--collectMarble_EP15GEN_uncommon_set9 (Al Simhara Marble)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364720<!--collectMarble_EP15GEN_uncommon_set10 (Confetti Chaos)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364721<!--collectMarble_EP15GEN_uncommon_set11 (Servos Steel)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364722<!--collectMarble_EP15GEN_uncommon_set12 (Midnight Hollow Marble)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">75</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364723<!--collectMarble_EP15GEN_rare_set13 (Eye of the Tiger)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364724<!--collectMarble_EP15GEN_rare_set14 (El Bandito's Treasure)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition">
+            <U n="definition">
+              <T n="definition">364725<!--collectMarble_EP15GEN_rare_set15 (Princess Cordelia's Lost Marble)--></T>
+            </U>
+          </V>
+          <V n="location" t="inventory" />
+          <V n="notification_inventory" t="enabled">
+            <U n="enabled">
+              <U n="household_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+              <U n="participant_inventory">
+                <L n="dialog_options">
+                  <E>DISABLE_CLOSE_BUTTON</E>
+                </L>
+                <V n="icon" t="enabled">
+                  <V n="enabled" t="participant">
+                    <U n="participant">
+                      <L n="participant_type">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </V>
+                <V n="text" t="single">
+                  <T n="single">0xB9F63DA1<!--{0.SimFirstName} found a Collectible Marble! It can be found in {0.SimPronounPossessiveDependent} inventory.\n\nItems found:\n{1.String}--></T>
+                </V>
+                <V n="text_tokens" t="enabled">
+                  <U n="enabled">
+                    <L n="tokens">
+                      <V t="participant_type" />
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </U>
+          </V>
+          <E n="owner_sim">Actor</E>
+        </U>
+      </V>
+      <U n="luck_option_config">
+        <T n="player_perception">100</T>
+      </U>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+  </L>
+</I>

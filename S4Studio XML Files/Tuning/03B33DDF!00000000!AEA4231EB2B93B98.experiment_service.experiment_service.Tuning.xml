@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="experiment_service.experiment_service" s="12584221873534483352">
+  <C n="ExperimentService">
+    <L n="EXPERIMENTS">
+      <U>
+        <E n="key">BalanceSystemModifiers</E>
+        <V n="value" t="sim_experiment" />
+      </U>
+      <U>
+        <E n="key">CareerIncomeBoost</E>
+        <V n="value" t="sim_experiment">
+          <U n="sim_experiment">
+            <L n="loot_mapping">
+              <U>
+                <T n="key">1</T>
+                <L n="value">
+                  <T>426333<!--loot_careerIncomeBoost_groupA--></T>
+                </L>
+              </U>
+              <U>
+                <T n="key">2</T>
+                <L n="value">
+                  <T>426334<!--loot_careerIncomeBoost_groupB--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+      <U>
+        <E n="key">N3_DQ_Iteration</E>
+        <V n="value" t="pivotal_moment_experiment">
+          <U n="pivotal_moment_experiment">
+            <L n="control_group_pivotal_moments">
+              <T>342429<!--pivotalMoment_Money--></T>
+              <T>342430<!--pivotalMoment_Needs--></T>
+              <T>342432<!--pivotalMoment_Skill--></T>
+              <T>342433<!--pivotalMoment_SocialAndTravel--></T>
+              <T>342431<!--pivotalMoment_Phone--></T>
+              <T>342428<!--pivotalMoment_Aspiration--></T>
+            </L>
+            <L n="pivotal_moment_mapping">
+              <U>
+                <T n="key">1</T>
+                <L n="value">
+                  <T>431348<!--pivotalMoment_Needs_N3--></T>
+                  <T>431347<!--pivotalMoment_Money_N3--></T>
+                  <T>431349<!--pivotalMoment_Exploration_N3--></T>
+                  <T>431346<!--pivotalMoment_Aspiration_N3--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+      <U>
+        <E n="key">N5_DreamsV0</E>
+        <V n="value" t="sim_experiment">
+          <U n="sim_experiment">
+            <L n="loot_mapping">
+              <U>
+                <T n="key">1</T>
+                <L n="value">
+                  <T>439726<!--loot_PivotalMoment_dreamsV0_N5_trigger_choice--></T>
+                </L>
+              </U>
+              <U>
+                <T n="key">2</T>
+                <L n="value">
+                  <T>439726<!--loot_PivotalMoment_dreamsV0_N5_trigger_choice--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+      <U>
+        <E n="key">N5_DreamsV0_DLC</E>
+        <V n="value" t="sim_experiment">
+          <U n="sim_experiment">
+            <L n="loot_mapping">
+              <U>
+                <T n="key">1</T>
+                <L n="value">
+                  <T>439726<!--loot_PivotalMoment_dreamsV0_N5_trigger_choice--></T>
+                </L>
+              </U>
+              <U>
+                <T n="key">2</T>
+                <L n="value">
+                  <T>439726<!--loot_PivotalMoment_dreamsV0_N5_trigger_choice--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+      <U>
+        <E n="key">StarterNeeds</E>
+        <V n="value" t="sim_experiment">
+          <U n="sim_experiment">
+            <L n="loot_mapping">
+              <U>
+                <T n="key">1</T>
+                <L n="value">
+                  <T>403509<!--loot_motive_starterNeeds_groupA--></T>
+                </L>
+              </U>
+              <U>
+                <T n="key">2</T>
+                <L n="value">
+                  <T>403510<!--loot_motive_starterNeeds_groupB--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+      <U>
+        <E n="key">StartingSimoleons</E>
+        <V n="value" t="sim_experiment">
+          <U n="sim_experiment">
+            <L n="loot_mapping">
+              <U>
+                <T n="key">1</T>
+                <L n="value">
+                  <T>422846<!--loot_startingSimoleonBoost_groupA--></T>
+                </L>
+              </U>
+              <U>
+                <T n="key">2</T>
+                <L n="value">
+                  <T>426283<!--loot_startingSimoleonBoost_groupB--></T>
+                </L>
+              </U>
+            </L>
+          </U>
+        </V>
+      </U>
+    </L>
+  </C>
+</M>

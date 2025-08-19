@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Stage_Sound_Social_ShoutForbiddenWords" s="200033">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">198940<!--buff_Stage_Sound_TurnOff--></T>
+        </U>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200029<!--state_Stage_Sound_TVLow_HouseLow_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193619<!--careerSituation_ActorCareer_TVLow_HouseLow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">190409<!--state_StageMark_Visibility_Off--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">98746<!--GenericFX_Off--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200198<!--state_Stage_Sound_TVHigh_Hospital_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193647<!--careerSituation_ActorCareer_TVHigh_Hospital--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200239<!--state_Stage_Sound_TVHigh_Victorian_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193649<!--careerSituation_ActorCareer_TVHigh_Victorian--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200274<!--state_Stage_Sound_Movie_Pirate_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193678<!--careerSituation_ActorCareer_Movie_Pirate--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200290<!--state_Stage_Sound_Movie_Medieval_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193677<!--careerSituation_ActorCareer_Movie_Medieval--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200305<!--state_Stage_Sound_Movie_Western_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193676<!--careerSituation_ActorCareer_Movie_Western--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200315<!--state_Stage_Sound_Movie_Victorian_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193679<!--careerSituation_ActorCareer_Movie_Victorian--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+    <V t="state_change">
+      <U n="state_change">
+        <T n="state_value">200326<!--state_Stage_Sound_Movie_SuperHero_ShoutForbiddenWords--></T>
+        <V n="subject" t="participant">
+          <E n="participant">SavedActor1</E>
+        </V>
+        <L n="tests">
+          <L>
+            <V t="situation_running_test">
+              <U n="situation_running_test">
+                <V n="situation_whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>193680<!--careerSituation_ActorCareer_Movie_Superhero--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

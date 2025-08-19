@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000001C">
+  <Instances>
+    <I name="objectRelationshipTrack_Dolphin_Merfolk" schema="ObjectRelationshipTrack" type="Object">
+      <T name="display_in_sim_profile">0</T>
+      <V name="display_priority" variant="0xF8CBBF4C">
+        <T type="Int32">1</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="ObjectRelationshipTrack" schema_hash="0xF56D4314">
+      <Columns>
+        <Column name="display_in_sim_profile" type="Boolean" flags="0x00000000" />
+        <Column name="display_priority" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

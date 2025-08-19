@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LotDecorationPreset" i="lot_decoration_preset" m="lot_decoration.lot_decoration_preset" n="lotDecorationPresets_Holidays_WinterFest" s="184879">
+  <V n="_display_data" t="optional_display_mixin">
+    <U n="optional_display_mixin">
+      <V n="instance_display_description" t="disabled" />
+      <V n="instance_display_icon" t="disabled" />
+      <V n="instance_display_name" t="enabled_display_name">
+        <T n="enabled_display_name">0x3E52A2A2<!--Winterfest--></T>
+      </V>
+      <V n="instance_display_tooltip" t="disabled" />
+    </U>
+  </V>
+  <L n="location_content">
+    <U>
+      <E n="key">EAVES</E>
+      <L n="value">
+        <U>
+          <T n="key">191124<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191125<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191126<!--decoTrim_EP05GENlights01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191127<!--decoTrim_EP05GENlights02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191129<!--decoTrim_EP05GENlights03 Placeholder Description--></T>
+        </U>
+        <U>
+          <T n="key">194667<!--decoTrim_EP05GENstreamer01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194673<!--decoTrim_EP05GENstreamer01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194796<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194798<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+      </L>
+    </U>
+    <U>
+      <E n="key">FENCES</E>
+      <L n="value">
+        <U>
+          <T n="key">191117<!--decoTrim_EP05GENbanner01 Placeholder name--></T>
+        </U>
+        <U>
+          <T n="key">191119<!--decoTrim_EP05GENbanner02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191123<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194560<!--decoTrim_EP05GENbanner04 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194561<!--decoTrim_EP05GENbanner04 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194673<!--decoTrim_EP05GENstreamer01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194747<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194748<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194749<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194750<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194751<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194752<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194753<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194754<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194755<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+      </L>
+    </U>
+    <U>
+      <E n="key">FOUNDATIONS</E>
+      <L n="value">
+        <U>
+          <T n="key">191117<!--decoTrim_EP05GENbanner01 Placeholder name--></T>
+        </U>
+        <U>
+          <T n="key">191118<!--decoTrim_EP05GENbunting01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191119<!--decoTrim_EP05GENbanner02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191126<!--decoTrim_EP05GENlights01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191127<!--decoTrim_EP05GENlights02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191129<!--decoTrim_EP05GENlights03 Placeholder Description--></T>
+        </U>
+        <U>
+          <T n="key">194590<!--decoTrim_EP05GENbunting01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194599<!--decoTrim_EP05GENbunting01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194603<!--decoTrim_EP05GENbunting01 Placeholder Name--></T>
+        </U>
+      </L>
+    </U>
+    <U>
+      <E n="key">FRIEZES</E>
+      <L n="value">
+        <U>
+          <T n="key">191124<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191125<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191126<!--decoTrim_EP05GENlights01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191127<!--decoTrim_EP05GENlights02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191129<!--decoTrim_EP05GENlights03 Placeholder Description--></T>
+        </U>
+        <U>
+          <T n="key">194796<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194798<!--decoTrim_EP05GENicicle01 Placeholder Name--></T>
+        </U>
+      </L>
+    </U>
+    <U>
+      <E n="key">SPANDRELS</E>
+      <L n="value">
+        <U>
+          <T n="key">191117<!--decoTrim_EP05GENbanner01 Placeholder name--></T>
+        </U>
+        <U>
+          <T n="key">191119<!--decoTrim_EP05GENbanner02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191123<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191126<!--decoTrim_EP05GENlights01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191127<!--decoTrim_EP05GENlights02 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">191129<!--decoTrim_EP05GENlights03 Placeholder Description--></T>
+        </U>
+        <U>
+          <T n="key">194560<!--decoTrim_EP05GENbanner04 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194747<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194748<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194749<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194750<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194751<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194752<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194753<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194754<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+        <U>
+          <T n="key">194755<!--decoTrim_EP05GENgarland01 Placeholder Name--></T>
+        </U>
+      </L>
+    </U>
+  </L>
+</I>

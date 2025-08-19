@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="PurchasePickerInteraction" i="interaction" m="interactions.base.picker_interaction" n="purchase_MarketStalls_Magic_Broom" s="216951">
+  <V n="_saveable" t="disabled" />
+  <T n="allow_user_directed">False</T>
+  <V n="content_score" t="disabled" />
+  <V n="delivery_method" t="purchase_to_inventory">
+    <U n="purchase_to_inventory">
+      <E n="participant_type">Actor</E>
+    </U>
+  </V>
+  <T n="display_name">0xB10E65D9<!--Brooms & Crystals--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Func_Marketstalls_PurchaseNonFood</E>
+  </L>
+  <L n="loots_on_purchase">
+    <T>152038<!--loot_Buff_MarketStalls_RemoveHaggle--></T>
+  </L>
+  <V n="picker_dialog" t="purchase_picker">
+    <U n="purchase_picker">
+      <V n="max_selectable" t="unlimited" />
+      <V n="text" t="enabled">
+        <V n="enabled" t="single">
+          <T n="single">0xB10E65D9<!--Brooms & Crystals--></T>
+        </V>
+      </V>
+    </U>
+  </V>
+  <V n="pie_menu_icon" t="enabled">
+    <V n="enabled" t="resource_key">
+      <U n="resource_key">
+        <T n="key" p="InGame\UI\Icons\PieMenu\Interactions\icon_pieMenu_immediateInteraction.png">2f7d0004:00000000:25eea5cdba6a6fd6</T>
+      </U>
+    </V>
+  </V>
+  <U n="price_multiplier">
+    <L n="multipliers">
+      <U>
+        <T n="multiplier">0.75</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>132805<!--buff_Object_MarketStalls_Haggle--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.2</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>148137<!--buff_Object_MarketStalls_InTheKnow--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.9</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>377844<!--buff_MovingOn_Hidden_FindingPurpose--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">1.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>237110<!--buff_Trait_Freegan_DiscountDenied_Final--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <E n="subject">TargetSim</E>
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>234624<!--buff_Trait_Freegan_ToughNegotiator--></T>
+                    <T>234623<!--buff_Trait_Freegan_SweetSavings--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <V n="whitelist" t="enabled">
+                  <L n="enabled">
+                    <T>249840<!--buff_Trait_WorldlyKnowledge_NoteworthyNegotiation--></T>
+                  </L>
+                </V>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+      <U>
+        <T n="multiplier">0.5</T>
+        <L n="tests">
+          <L>
+            <V t="bucks_perks_test">
+              <U n="bucks_perks_test">
+                <T n="bucks_perk">216505<!--witchPerks_Open_4B_MagicalDiscounts--></T>
+              </U>
+            </V>
+            <V t="location">
+              <U n="location">
+                <U n="location_tests">
+                  <V n="is_venue_type" t="enabled">
+                    <U n="enabled">
+                      <T n="venue_type">212896<!--venue_MagicHQ--></T>
+                    </U>
+                  </V>
+                </U>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </L>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <L n="purchase_list_option">
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">227181<!--magicBroom_GP08GEN01_set5 (Gnarled Wood Broom)--></T>
+            <T n="weight">1</T>
+          </U>
+          <U>
+            <T n="item">230602<!--magicBroom_GP08GEN01_set1 (Gnarled Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">227183<!--magicBroom_GP08GEN03_set6 (Classic Wood Broom)--></T>
+            <T n="weight">1</T>
+          </U>
+          <U>
+            <T n="item">227184<!--magicBroom_GP08GEN04_set1 (Rocket Broom)--></T>
+            <T n="weight">1</T>
+          </U>
+          <U>
+            <T n="item">231161<!--magicBroom_GP08GEN05_set1 (Magic Mop)--></T>
+            <T n="weight">1</T>
+          </U>
+          <U>
+            <T n="item">230603<!--magicBroom_GP08GEN01_set2 (Gnarled Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230604<!--magicBroom_GP08GEN01_set3 (Gnarled Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230596<!--magicBroom_GP08GEN03_set1 (Classic Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230597<!--magicBroom_GP08GEN03_set2 (Classic Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230598<!--magicBroom_GP08GEN03_set3 (Classic Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230599<!--magicBroom_GP08GEN03_set4 (Classic Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230600<!--magicBroom_GP08GEN03_set5 (Classic Wood Broom)--></T>
+          </U>
+          <U>
+            <T n="item">227183<!--magicBroom_GP08GEN03_set6 (Classic Wood Broom)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">1</T>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">28748<!--collectCrystalMedGEN_01_ruby (Ruby)--></T>
+          </U>
+          <U>
+            <T n="item">28738<!--collectCrystalMedGEN_01_alabaster (Alabaster)--></T>
+          </U>
+          <U>
+            <T n="item">28739<!--collectCrystalMedGEN_01_citrine (Citrine)--></T>
+          </U>
+          <U>
+            <T n="item">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+            <T n="weight">3</T>
+          </U>
+          <U>
+            <T n="item">28728<!--collectCrystalSmGEN_01_diamond (Diamond)--></T>
+          </U>
+        </L>
+        <T n="items_avaiable">2</T>
+      </U>
+    </V>
+    <V t="specific_items">
+      <U n="specific_items">
+        <L n="item_list">
+          <T>28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+        </L>
+      </U>
+    </V>
+    <V t="tested_items">
+      <U n="tested_items">
+        <L n="item_list">
+          <U>
+            <T n="item">28749<!--collectCrystalMedGEN_01_shinalite (Shinolite)--></T>
+            <L n="tests">
+              <L>
+                <V t="day_and_time">
+                  <U n="day_and_time">
+                    <V n="days_available" t="enabled">
+                      <U n="enabled">
+                        <T n="1 MONDAY">True</T>
+                        <T n="4 THURSDAY">True</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <T n="item">28740<!--collectCrystalMedGEN_01_fireOpal (Fire Opal)--></T>
+            <L n="tests">
+              <L>
+                <V t="day_and_time">
+                  <U n="day_and_time">
+                    <V n="days_available" t="enabled">
+                      <U n="enabled">
+                        <T n="2 TUESDAY">True</T>
+                        <T n="5 FRIDAY">True</T>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+    <V t="random_items">
+      <U n="random_items">
+        <L n="item_list">
+          <U>
+            <T n="item">227184<!--magicBroom_GP08GEN04_set1 (Rocket Broom)--></T>
+            <T n="weight">1</T>
+          </U>
+          <U>
+            <T n="item">231161<!--magicBroom_GP08GEN05_set1 (Magic Mop)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">230762<!--magicBroom_GP08GEN04_set2 (Rocket Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230763<!--magicBroom_GP08GEN04_set3 (Rocket Broom)--></T>
+          </U>
+          <U>
+            <T n="item">230764<!--magicBroom_GP08GEN04_set4 (Rocket Broom)--></T>
+          </U>
+          <U>
+            <T n="item">231162<!--magicBroom_GP08GEN05_set2 (Magic Mop)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">231163<!--magicBroom_GP08GEN05_set3 (Magic Mop)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">231164<!--magicBroom_GP08GEN05_set4 (Magic Mop)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">231165<!--magicBroom_GP08GEN05_set5 (Magic Mop)--></T>
+            <T n="weight">2</T>
+          </U>
+          <U>
+            <T n="item">231166<!--magicBroom_GP08GEN05_set6 (Magic Mop)--></T>
+            <T n="weight">2</T>
+          </U>
+        </L>
+        <T n="items_avaiable">1</T>
+      </U>
+    </V>
+  </L>
+  <V n="purchase_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0xB96DD5F3<!--Thanks for shopping at Brooms, Baubles, and Beyond! Check back tomorrow as our daily offerings are always changing. The items {0.SimFirstName} bought can be found in {M0.his}{F0.her} inventory.--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <T n="show_discount">True</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+          </L>
+        </V>
+        <V n="species" t="specified">
+          <U n="specified">
+            <L n="species">
+              <E />
+            </L>
+          </U>
+        </V>
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

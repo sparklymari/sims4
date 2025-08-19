@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="BucksPerk" i="bucks_perk" m="bucks.bucks_perk" n="restaurantPerks_ChefsHat" s="139156">
+  <E n="associated_bucks_type">RestaurantBucks</E>
+  <T n="display_name">0x375375DB<!--The Chef's Hat--></T>
+  <U n="icon">
+    <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_chefhat.png">2f7d0004:00000000:41b5c8b9a16c95bb</T>
+  </U>
+  <T n="perk_description">0xB6574AFC<!--The Chef's Hat \n\nUnlocks an additional Chef Hat for your Sims.--></T>
+  <L n="rewards">
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118641<!--yuHat_GP03Toque_SolidBlackBlack--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118642<!--yuHat_GP03Toque_SolidBlackRed--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118643<!--yuHat_GP03Toque_SolidBlueBlack--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118644<!--yuHat_GP03Toque_SolidGrayBlack--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118645<!--yuHat_GP03Toque_SolidGrayGrayDK--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118646<!--yuHat_GP03Toque_SolidPurpleBlack--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118647<!--yuHat_GP03Toque_SolidRedBlack--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118648<!--yuHat_GP03Toque_SolidRedWhite--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118649<!--yuHat_GP03Toque_SolidWhiteBlack--></T>
+      </U>
+    </V>
+    <V t="cas_part">
+      <U n="cas_part">
+        <T n="cas_part">118650<!--yuHat_GP03Toque_SolidWhiteWhite--></T>
+      </U>
+    </V>
+  </L>
+  <T n="unlock_cost">5000</T>
+</I>

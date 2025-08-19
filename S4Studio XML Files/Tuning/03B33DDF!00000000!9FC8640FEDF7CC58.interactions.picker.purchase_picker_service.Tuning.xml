@@ -1,0 +1,2378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<M n="interactions.picker.purchase_picker_service" s="11513562466952399960">
+  <C n="PurchasePickerGroup">
+    <L n="_elements">
+      <T ev="1">EP11_VillageShops_Grocery</T>
+      <T ev="2">EP11_VillageShops_Garden</T>
+      <T ev="3">EP11_VillageShops_Garden_OnLot</T>
+      <T ev="4">EP11_VillageShops_Grocery_OnLot</T>
+      <T ev="5">EP14_GroceryStore</T>
+      <T ev="6">EP18_ShadyNPC</T>
+      <T ev="7">EP19_EverdewSeeds</T>
+    </L>
+  </C>
+  <C n="PurchasePickerService">
+    <L n="PICKER_DATA_GROUPS">
+      <U>
+        <E n="key">EP11_VillageShops_Garden</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">34201<!--bookGENGardeningIntermediate_01 (Gardening Vol 2: Getting Your Thumbs Green)--></T>
+              </U>
+              <U>
+                <T n="key">34202<!--bookThinGENGardeningBeginner_01 (Gardening Vol 1: Water, Light and Dirt)--></T>
+              </U>
+              <U>
+                <T n="key">34203<!--bookGENGardeningAdvanced_01 (Gardening Vol 3: Strange and Forbidden Plant Genetics)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271489<!--crossStitchHoopLarge_EP11GEN_set1 (Large Cross-stitch Hoop)--></T>
+              </U>
+              <U>
+                <T n="key">271491<!--crossStitchHoopMedium_EP11GEN_set1 (Medium Cross-stitch Hoop)--></T>
+              </U>
+              <U>
+                <T n="key">271492<!--crossStitchHoopSmall_EP11GEN_set1 (Small Cross-stitch Hoop)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272265<!--gardenFertilizer_EP11GENcrop_set5 (Super Vitality Fertilizer)--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272253<!--gardenFruit_EP11GENMushroomWildVerdant ({S.Verdant Mushroom}{P.Verdant Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271534<!--animalFeedBag_EP11GEN_set8_normal (Friendly Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271538<!--animalFeedBag_EP11GEN_set4_fishy (Fishy Protein Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271540<!--animalFeedBag_EP11GEN_set5_flirty (Flirty Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271543<!--animalFeedBag_EP11GEN_set10_pumpkin (Pumpkin Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271544<!--animalFeedBag_EP11GEN_set1_blueberry (Fruity Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271547<!--animalFeedBag_EP11GEN_set14_veggie (Veggie Treat)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271109<!--foodJarEatSingle_EP11GENjamStrawberry (Strawberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271111<!--foodJarEatSingle_EP11GENjamBlueberry (Blueberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271113<!--foodJarEatSingle_EP11GENjamRaspberry (Raspberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271117<!--foodJarEatSingle_EP11GENjamApple (Apple Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271125<!--foodJarEatSingle_EP11GENjamCowberry (Cowberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271127<!--foodJarEatSingle_EP11GENjamBlackberry (Blackberry Jam)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271115<!--foodJarEatSingle_EP11GENcustard (Custard)--></T>
+              </U>
+              <U>
+                <T n="key">271129<!--foodJarEatSingle_EP11GENsauceTomato (Tomato Sauce)--></T>
+              </U>
+              <U>
+                <T n="key">271131<!--foodJarEatSingle_EP11GENmayonnaise (Mayonnaise)--></T>
+              </U>
+              <U>
+                <T n="key">271133<!--foodJarEatSingle_EP11GENsauceChocolate (Chocolate Syrup)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271119<!--foodJarEatSingle_EP11GENpreservesPumpkin (Pumpkin Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271121<!--foodJarEatSingle_EP11GENpreservesLettuce (Lettuce Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271123<!--foodJarEatSingle_EP11GENpreservesAubergine (Aubergine Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271135<!--foodJarEatSingle_EP11GENpreservesMushroom_set1 (Charming Mushroom Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271146<!--foodJarEatSingle_EP11GENpreservesWatermelon (Watermelon Conserve)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+              </U>
+              <U>
+                <T n="key">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">67363<!--gardenFruit_GP01GENelderberry_toxic ({S.Noxious Elderberry}{P.Noxious Elderberries})--></T>
+              </U>
+              <U>
+                <T n="key">67364<!--gardenFruit_GP01GENmushroomMorel_toxic ({S.False Morel Mushroom}{P.False Morel Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+              </U>
+              <U>
+                <T n="key">67557<!--gardenFruit_GP01GENhuckleberry_toxic ({S.Muckleberry}{P.Muckleberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">72387<!--gardenFruit_EP01GENorb ({S.Glow Orb}{P.Glow Orbs})--></T>
+              </U>
+              <U>
+                <T n="key">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+              </U>
+              <U>
+                <T n="key">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+              </U>
+              <U>
+                <T n="key">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">4</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+              </U>
+              <U>
+                <T n="key">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+              </U>
+              <U>
+                <T n="key">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+              </U>
+              <U>
+                <T n="key">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+              </U>
+              <U>
+                <T n="key">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+              </U>
+              <U>
+                <T n="key">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+              </U>
+              <U>
+                <T n="key">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+              </U>
+              <U>
+                <T n="key">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+              </U>
+              <U>
+                <T n="key">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+              </U>
+              <U>
+                <T n="key">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">4</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188683<!--gardenFlower_EP05GENholly ({S.Holly}{P.Hollies})--></T>
+              </U>
+              <U>
+                <T n="key">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+              </U>
+              <U>
+                <T n="key">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">242040<!--gardenFruit_EP09GENsoybean ({S.Soy Beans}{P.Soy Beans})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+              </U>
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+              <U>
+                <T n="key">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+              </U>
+              <U>
+                <T n="key">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+              </U>
+              <U>
+                <T n="key">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+              </U>
+              <U>
+                <T n="key">67365<!--gardenFlower_GP01GENfireleaf_toxic ({S.Poison Fireleaf}{P.Poison Fireleaves})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">144964<!--gardenFruit_GP04GENplasma ({S.Plasma Fruit}{P.Plasma Fruit})--></T>
+              </U>
+              <U>
+                <T n="key">145294<!--gardenFlower_GP04wolfsbane ({S.Wolfsbane}{P.Wolfsbanes})--></T>
+              </U>
+              <U>
+                <T n="key">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188675<!--gardenFlower_EP05GENbegonia ({S.Begonia}{P.Begonias})--></T>
+              </U>
+              <U>
+                <T n="key">188677<!--gardenFlower_EP05GENchristmasRose ({S.Christmas Rose}{P.Christmas Roses})--></T>
+              </U>
+              <U>
+                <T n="key">188679<!--gardenFlower_EP05GENcrocus ({S.Crocus}{P.Crocuses})--></T>
+              </U>
+              <U>
+                <T n="key">188681<!--gardenFlower_EP05GENdahlia ({S.Dahlia}{P.Dahlias})--></T>
+              </U>
+              <U>
+                <T n="key">188685<!--gardenFlower_EP05GENsnowdrop ({S.Snow Drop}{P.Snow Drops})--></T>
+              </U>
+              <U>
+                <T n="key">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+              </U>
+              <U>
+                <T n="key">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+              </U>
+              <U>
+                <T n="key">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+              </U>
+              <U>
+                <T n="key">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+              </U>
+              <U>
+                <T n="key">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+              </U>
+              <U>
+                <T n="key">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+              </U>
+              <U>
+                <T n="key">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178800<!--gardenFruit_GP06GENEmotionalBerry_happy ({S.Merry Berry}{P.Merry Berries})--></T>
+              </U>
+              <U>
+                <T n="key">178801<!--gardenFruit_GP06GENEmotionalBerry_confident ({S.Gutsberry}{P.Gutsberries})--></T>
+              </U>
+              <U>
+                <T n="key">178802<!--gardenFruit_GP06GENEmotionalBerry_energized ({S.Vimberry}{P.Vimberries})--></T>
+              </U>
+              <U>
+                <T n="key">178803<!--gardenFruit_GP06GENEmotionalBerry_flirty ({S.Flutterberry}{P.Flutterberries})--></T>
+              </U>
+              <U>
+                <T n="key">178804<!--gardenFruit_GP06GENEmotionalBerry_focused ({S.Cerebrerry}{P.Cerebrerries})--></T>
+              </U>
+              <U>
+                <T n="key">178805<!--gardenFruit_GP06GENEmotionalBerry_inspired ({S.Museberry}{P.Museberries})--></T>
+              </U>
+              <U>
+                <T n="key">178806<!--gardenFruit_GP06GENEmotionalBerry_playful ({S.Razzleberry}{P.Razzleberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">4</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+              </U>
+              <U>
+                <T n="key">227209<!--gardenFruit_GP08GENvalerian ({S.Valerian Root}{P.Valerian Roots})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">35725<!--sculptTableGENGnome_01_set1 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">35726<!--sculptTableGENGnome_02_01_set2 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">35727<!--sculptTableGENGnome_02_01_set3 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">35728<!--sculptTableGENGnome_02_01_set4 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">36414<!--sculptTableGENGnome_02_set1 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36415<!--sculptTableGENGnome_02_set2 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36416<!--sculptTableGENGnome_02_set3 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36417<!--sculptTableGENGnome_02_set4 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36990<!--sculptTableGENGnome_03_set1 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="key">36991<!--sculptTableGENGnome_03_set2 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="key">36992<!--sculptTableGENGnome_03_set3 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="key">36993<!--sculptTableGENGnome_03_set4 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">277722<!--woolLlama_EP11GEN_set7 (Blue Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277723<!--woolLlama_EP11GEN_set4 (Brown Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277725<!--woolLlama_EP11GEN_set8 (Green Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277726<!--woolLlama_EP11GEN_set6 (Orange Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277727<!--woolLlama_EP11GEN_set3 (Pink Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277729<!--woolLlama_EP11GEN_set5 (Red Wool)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+              </U>
+              <U>
+                <T n="key">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+              </U>
+              <U>
+                <T n="key">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+              </U>
+              <U>
+                <T n="key">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+              </U>
+              <U>
+                <T n="key">62723<!--seedPacket_Garden_Starter_Deluxe_FlowersFruit (Farmer Flowers and Fruit)--></T>
+              </U>
+              <U>
+                <T n="key">62724<!--seedPacket_Garden_Starter_Deluxe_VegetablesHerbs (Farmer Veggies and Herbs)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">147519<!--gardenSeedPacket_GP04GEN_garlic (Garlic Seeds)--></T>
+              </U>
+              <U>
+                <T n="key">147520<!--gardenSeedPacket_GP04GEN_wolfsbane (Wolfsbane Seeds)--></T>
+              </U>
+              <U>
+                <T n="key">147521<!--gardenSeedPacket_GP04GEN_plasma (Plasma Fruit Seeds)--></T>
+              </U>
+              <U>
+                <T n="key">147522<!--gardenSeedPacket_GP04GEN_mosquito (Sixam Mosquito Trap Seeds)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188697<!--seedPacket_Garden_EP05_summer (Seasonal Summer Plants)--></T>
+              </U>
+              <U>
+                <T n="key">188699<!--seedPacket_Garden_EP05_fall (Seasonal Fall Plants)--></T>
+              </U>
+              <U>
+                <T n="key">188700<!--seedPacket_Garden_EP05_winter (Seasonal Winter Plants)--></T>
+              </U>
+              <U>
+                <T n="key">188702<!--seedPacket_Garden_EP05_spring (Seasonal Spring Plants)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">124934<!--seedPacket_Garden_Start_GrowFruit (Starter Growfruit)--></T>
+              </U>
+              <U>
+                <T n="key">176694<!--seedPacket_Garden_Starter_Catnip (Catnip Herb Packet)--></T>
+              </U>
+              <U>
+                <T n="key">188693<!--gardenFruit_EP05GENmoney ({S.Money Fruit}{P.Money Fruit})--></T>
+              </U>
+              <U>
+                <T n="key">193547<!--seedPacket_Garden_rare (Rare Plants)--></T>
+              </U>
+              <U>
+                <T n="key">209128<!--gardenFruit_GP07GENinfected (Bizarre Fruit)--></T>
+              </U>
+              <U>
+                <T n="key">228500<!--seedPacket_Garden_Starter_Magic (Starter Magical Plants)--></T>
+              </U>
+              <U>
+                <T n="key">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+              </U>
+              <U>
+                <T n="key">271541<!--animalFeedBag_EP11GEN_set3_chocolatey (Chocolatey Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271542<!--animalFeedBag_EP11GEN_set9_obsidian (Midnight Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271545<!--animalFeedBag_EP11GEN_set6_golden (Golden Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271546<!--animalFeedBag_EP11GEN_set11_rainbow (Rainbow Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271548<!--animalFeedBag_EP11GEN_set13_spicy (Spicy Treat)--></T>
+              </U>
+              <U>
+                <T n="key">277721<!--woolLlama_EP11GEN_set11 (Black Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277724<!--woolLlama_EP11GEN_set10 (Gold Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277728<!--woolLlama_EP11GEN_set9 (Rainbow Wool)--></T>
+              </U>
+              <U>
+                <T n="key">72385<!--gardenFlower_EP01GENmaw ({S.Fang Flower}{P.Fang Flowers})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <L n="tests">
+              <L>
+                <V t="drama_node">
+                  <U n="drama_node">
+                    <L n="drama_nodes">
+                      <T>259973<!--festivalContestDramaNode_VillageFair_GiantCropPie--></T>
+                      <T>259972<!--festivalContestDramaNode_VillageFair_NormalCropPie--></T>
+                    </L>
+                    <V n="time_to_run" t="enabled">
+                      <U n="enabled">
+                        <U n="threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <U n="value">
+                            <T n="hours">12</T>
+                          </U>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">276648<!--sculptTableMedium_EP11GENgnome_set1 (Herb the Posy Protector  )--></T>
+              </U>
+              <U>
+                <T n="key">276649<!--sculptTableMedium_EP11GENgnome_set2 (Herb the Posy Protector  )--></T>
+              </U>
+              <U>
+                <T n="key">276650<!--sculptTableMedium_EP11GENgnome_set3 (Herb the Posy Protector  )--></T>
+              </U>
+              <U>
+                <T n="key">276651<!--sculptTableMedium_EP11GENgnome_set4 (Herb the Posy Protector  )--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <E n="key">EP11_VillageShops_Garden_OnLot</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">34201<!--bookGENGardeningIntermediate_01 (Gardening Vol 2: Getting Your Thumbs Green)--></T>
+              </U>
+              <U>
+                <T n="key">34202<!--bookThinGENGardeningBeginner_01 (Gardening Vol 1: Water, Light and Dirt)--></T>
+              </U>
+              <U>
+                <T n="key">34203<!--bookGENGardeningAdvanced_01 (Gardening Vol 3: Strange and Forbidden Plant Genetics)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271489<!--crossStitchHoopLarge_EP11GEN_set1 (Large Cross-stitch Hoop)--></T>
+              </U>
+              <U>
+                <T n="key">271491<!--crossStitchHoopMedium_EP11GEN_set1 (Medium Cross-stitch Hoop)--></T>
+              </U>
+              <U>
+                <T n="key">271492<!--crossStitchHoopSmall_EP11GEN_set1 (Small Cross-stitch Hoop)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272265<!--gardenFertilizer_EP11GENcrop_set5 (Super Vitality Fertilizer)--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272253<!--gardenFruit_EP11GENMushroomWildVerdant ({S.Verdant Mushroom}{P.Verdant Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271534<!--animalFeedBag_EP11GEN_set8_normal (Friendly Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271538<!--animalFeedBag_EP11GEN_set4_fishy (Fishy Protein Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271540<!--animalFeedBag_EP11GEN_set5_flirty (Flirty Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271543<!--animalFeedBag_EP11GEN_set10_pumpkin (Pumpkin Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271544<!--animalFeedBag_EP11GEN_set1_blueberry (Fruity Treat)--></T>
+              </U>
+              <U>
+                <T n="key">271547<!--animalFeedBag_EP11GEN_set14_veggie (Veggie Treat)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271109<!--foodJarEatSingle_EP11GENjamStrawberry (Strawberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271111<!--foodJarEatSingle_EP11GENjamBlueberry (Blueberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271113<!--foodJarEatSingle_EP11GENjamRaspberry (Raspberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271117<!--foodJarEatSingle_EP11GENjamApple (Apple Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271125<!--foodJarEatSingle_EP11GENjamCowberry (Cowberry Jam)--></T>
+              </U>
+              <U>
+                <T n="key">271127<!--foodJarEatSingle_EP11GENjamBlackberry (Blackberry Jam)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271115<!--foodJarEatSingle_EP11GENcustard (Custard)--></T>
+              </U>
+              <U>
+                <T n="key">271129<!--foodJarEatSingle_EP11GENsauceTomato (Tomato Sauce)--></T>
+              </U>
+              <U>
+                <T n="key">271131<!--foodJarEatSingle_EP11GENmayonnaise (Mayonnaise)--></T>
+              </U>
+              <U>
+                <T n="key">271133<!--foodJarEatSingle_EP11GENsauceChocolate (Chocolate Syrup)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">271119<!--foodJarEatSingle_EP11GENpreservesPumpkin (Pumpkin Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271121<!--foodJarEatSingle_EP11GENpreservesLettuce (Lettuce Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271123<!--foodJarEatSingle_EP11GENpreservesAubergine (Aubergine Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271135<!--foodJarEatSingle_EP11GENpreservesMushroom_set1 (Charming Mushroom Conserve)--></T>
+              </U>
+              <U>
+                <T n="key">271146<!--foodJarEatSingle_EP11GENpreservesWatermelon (Watermelon Conserve)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+              </U>
+              <U>
+                <T n="key">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">67363<!--gardenFruit_GP01GENelderberry_toxic ({S.Noxious Elderberry}{P.Noxious Elderberries})--></T>
+              </U>
+              <U>
+                <T n="key">67364<!--gardenFruit_GP01GENmushroomMorel_toxic ({S.False Morel Mushroom}{P.False Morel Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+              </U>
+              <U>
+                <T n="key">67557<!--gardenFruit_GP01GENhuckleberry_toxic ({S.Muckleberry}{P.Muckleberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">72387<!--gardenFruit_EP01GENorb ({S.Glow Orb}{P.Glow Orbs})--></T>
+              </U>
+              <U>
+                <T n="key">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+              </U>
+              <U>
+                <T n="key">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+              </U>
+              <U>
+                <T n="key">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">4</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+              </U>
+              <U>
+                <T n="key">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+              </U>
+              <U>
+                <T n="key">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+              </U>
+              <U>
+                <T n="key">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+              </U>
+              <U>
+                <T n="key">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+              </U>
+              <U>
+                <T n="key">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+              </U>
+              <U>
+                <T n="key">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+              </U>
+              <U>
+                <T n="key">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+              </U>
+              <U>
+                <T n="key">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+              </U>
+              <U>
+                <T n="key">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">4</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188683<!--gardenFlower_EP05GENholly ({S.Holly}{P.Hollies})--></T>
+              </U>
+              <U>
+                <T n="key">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+              </U>
+              <U>
+                <T n="key">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">242040<!--gardenFruit_EP09GENsoybean ({S.Soy Beans}{P.Soy Beans})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+              </U>
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+              <U>
+                <T n="key">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+              </U>
+              <U>
+                <T n="key">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+              </U>
+              <U>
+                <T n="key">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+              </U>
+              <U>
+                <T n="key">67365<!--gardenFlower_GP01GENfireleaf_toxic ({S.Poison Fireleaf}{P.Poison Fireleaves})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">144964<!--gardenFruit_GP04GENplasma ({S.Plasma Fruit}{P.Plasma Fruit})--></T>
+              </U>
+              <U>
+                <T n="key">145294<!--gardenFlower_GP04wolfsbane ({S.Wolfsbane}{P.Wolfsbanes})--></T>
+              </U>
+              <U>
+                <T n="key">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188675<!--gardenFlower_EP05GENbegonia ({S.Begonia}{P.Begonias})--></T>
+              </U>
+              <U>
+                <T n="key">188677<!--gardenFlower_EP05GENchristmasRose ({S.Christmas Rose}{P.Christmas Roses})--></T>
+              </U>
+              <U>
+                <T n="key">188679<!--gardenFlower_EP05GENcrocus ({S.Crocus}{P.Crocuses})--></T>
+              </U>
+              <U>
+                <T n="key">188681<!--gardenFlower_EP05GENdahlia ({S.Dahlia}{P.Dahlias})--></T>
+              </U>
+              <U>
+                <T n="key">188685<!--gardenFlower_EP05GENsnowdrop ({S.Snow Drop}{P.Snow Drops})--></T>
+              </U>
+              <U>
+                <T n="key">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+              </U>
+              <U>
+                <T n="key">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">213665<!--gardenFruit_EP07GENkava (Kava Root)--></T>
+              </U>
+              <U>
+                <T n="key">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+              </U>
+              <U>
+                <T n="key">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+              </U>
+              <U>
+                <T n="key">215739<!--gardenFruit_EP07GENtaro ({S.Taro Root}{P.Taro Roots})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23452<!--gardenFlowerGENOrchid_01 ({S.Orchid}{P.Orchids})--></T>
+              </U>
+              <U>
+                <T n="key">23455<!--gardenFlowerGENBirdParadise_01 ({S.Bird of Paradise}{P.Birds of Paradise})--></T>
+              </U>
+              <U>
+                <T n="key">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178800<!--gardenFruit_GP06GENEmotionalBerry_happy ({S.Merry Berry}{P.Merry Berries})--></T>
+              </U>
+              <U>
+                <T n="key">178801<!--gardenFruit_GP06GENEmotionalBerry_confident ({S.Gutsberry}{P.Gutsberries})--></T>
+              </U>
+              <U>
+                <T n="key">178802<!--gardenFruit_GP06GENEmotionalBerry_energized ({S.Vimberry}{P.Vimberries})--></T>
+              </U>
+              <U>
+                <T n="key">178803<!--gardenFruit_GP06GENEmotionalBerry_flirty ({S.Flutterberry}{P.Flutterberries})--></T>
+              </U>
+              <U>
+                <T n="key">178804<!--gardenFruit_GP06GENEmotionalBerry_focused ({S.Cerebrerry}{P.Cerebrerries})--></T>
+              </U>
+              <U>
+                <T n="key">178805<!--gardenFruit_GP06GENEmotionalBerry_inspired ({S.Museberry}{P.Museberries})--></T>
+              </U>
+              <U>
+                <T n="key">178806<!--gardenFruit_GP06GENEmotionalBerry_playful ({S.Razzleberry}{P.Razzleberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">4</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+              </U>
+              <U>
+                <T n="key">227209<!--gardenFruit_GP08GENvalerian ({S.Valerian Root}{P.Valerian Roots})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">35725<!--sculptTableGENGnome_01_set1 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">35726<!--sculptTableGENGnome_02_01_set2 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">35727<!--sculptTableGENGnome_02_01_set3 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">35728<!--sculptTableGENGnome_02_01_set4 (There’s No Place like Gnome)--></T>
+              </U>
+              <U>
+                <T n="key">36414<!--sculptTableGENGnome_02_set1 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36415<!--sculptTableGENGnome_02_set2 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36416<!--sculptTableGENGnome_02_set3 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36417<!--sculptTableGENGnome_02_set4 (Happy Gnome Garden Pal)--></T>
+              </U>
+              <U>
+                <T n="key">36990<!--sculptTableGENGnome_03_set1 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="key">36991<!--sculptTableGENGnome_03_set2 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="key">36992<!--sculptTableGENGnome_03_set3 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+              <U>
+                <T n="key">36993<!--sculptTableGENGnome_03_set4 (Gnome Matter What, I’m Still Your Baby)--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">277722<!--woolLlama_EP11GEN_set7 (Blue Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277723<!--woolLlama_EP11GEN_set4 (Brown Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277725<!--woolLlama_EP11GEN_set8 (Green Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277726<!--woolLlama_EP11GEN_set6 (Orange Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277727<!--woolLlama_EP11GEN_set3 (Pink Wool)--></T>
+              </U>
+              <U>
+                <T n="key">277729<!--woolLlama_EP11GEN_set5 (Red Wool)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+              </U>
+              <U>
+                <T n="key">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+              </U>
+              <U>
+                <T n="key">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+              </U>
+              <U>
+                <T n="key">59680<!--seedPacket_Garden_Starter_Vegetables (Starter Vegetables)--></T>
+              </U>
+              <U>
+                <T n="key">62723<!--seedPacket_Garden_Starter_Deluxe_FlowersFruit (Farmer Flowers and Fruit)--></T>
+              </U>
+              <U>
+                <T n="key">62724<!--seedPacket_Garden_Starter_Deluxe_VegetablesHerbs (Farmer Veggies and Herbs)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">147519<!--gardenSeedPacket_GP04GEN_garlic (Garlic Seeds)--></T>
+              </U>
+              <U>
+                <T n="key">147520<!--gardenSeedPacket_GP04GEN_wolfsbane (Wolfsbane Seeds)--></T>
+              </U>
+              <U>
+                <T n="key">147521<!--gardenSeedPacket_GP04GEN_plasma (Plasma Fruit Seeds)--></T>
+              </U>
+              <U>
+                <T n="key">147522<!--gardenSeedPacket_GP04GEN_mosquito (Sixam Mosquito Trap Seeds)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188697<!--seedPacket_Garden_EP05_summer (Seasonal Summer Plants)--></T>
+              </U>
+              <U>
+                <T n="key">188699<!--seedPacket_Garden_EP05_fall (Seasonal Fall Plants)--></T>
+              </U>
+              <U>
+                <T n="key">188700<!--seedPacket_Garden_EP05_winter (Seasonal Winter Plants)--></T>
+              </U>
+              <U>
+                <T n="key">188702<!--seedPacket_Garden_EP05_spring (Seasonal Spring Plants)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">276648<!--sculptTableMedium_EP11GENgnome_set1 (Herb the Posy Protector  )--></T>
+              </U>
+              <U>
+                <T n="key">276649<!--sculptTableMedium_EP11GENgnome_set2 (Herb the Posy Protector  )--></T>
+              </U>
+              <U>
+                <T n="key">276650<!--sculptTableMedium_EP11GENgnome_set3 (Herb the Posy Protector  )--></T>
+              </U>
+              <U>
+                <T n="key">276651<!--sculptTableMedium_EP11GENgnome_set4 (Herb the Posy Protector  )--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <E n="key">EP11_VillageShops_Grocery</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">34204<!--bookGENCookingAdvanced_01 (Cooking Vol 3: I'm Here to Cook!)--></T>
+              </U>
+              <U>
+                <T n="key">34206<!--bookThinGENCookingBeginner_01 (Cooking Vol 1: Let's Cook!)--></T>
+              </U>
+              <U>
+                <T n="key">34207<!--bookGENCookingIntermediate_01 (Cooking Vol 2: Let's Keeping Cooking!)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">34250<!--bookGENGourmetCookingAdvanced_01 (Gourmet Cooking Vol 3: Can You Eat That?)--></T>
+              </U>
+              <U>
+                <T n="key">34251<!--bookThinGENGourmetCookingBeginner_01 (Gourmet Cooking Vol 1: Make Food Fancy)--></T>
+              </U>
+              <U>
+                <T n="key">34252<!--bookGENGourmetCookingIntermediate_01 (Gourmet Cooking Vol 2: Presentation is King)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">76353<!--book_EP01GENbakingAdvanced (Baking Vol 3: Bake)--></T>
+              </U>
+              <U>
+                <T n="key">76354<!--book_EP01GENbakingIntermediate (Baking Vol 2: Shape)--></T>
+              </U>
+              <U>
+                <T n="key">76355<!--bookThin_EP01GENbakingBeginner (Baking Vol 1: Mix)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">277732<!--drinkBottle_EP11GENmilk_set1_blue (Enriched Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277733<!--drinkBottle_EP11GENmilk_set3_brown (Chocolate Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277736<!--drinkBottle_EP11GENmilk_set5_orange (Pumpkin Spice Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277737<!--drinkBottle_EP11GENmilk_set6_pink (Strawberry Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277795<!--drinkBottle_EP11GENmilk_set8_red (Fire Milk)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+              </U>
+              <U>
+                <T n="key">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+              </U>
+              <U>
+                <T n="key">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+              </U>
+              <U>
+                <T n="key">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+              </U>
+              <U>
+                <T n="key">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+              </U>
+              <U>
+                <T n="key">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+              </U>
+              <U>
+                <T n="key">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+              </U>
+              <U>
+                <T n="key">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+              </U>
+              <U>
+                <T n="key">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+              <U>
+                <T n="key">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+              </U>
+              <U>
+                <T n="key">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+              </U>
+              <U>
+                <T n="key">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+              </U>
+              <U>
+                <T n="key">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">72387<!--gardenFruit_EP01GENorb ({S.Glow Orb}{P.Glow Orbs})--></T>
+              </U>
+              <U>
+                <T n="key">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+              </U>
+              <U>
+                <T n="key">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+              </U>
+              <U>
+                <T n="key">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+              </U>
+              <U>
+                <T n="key">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">4</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+              </U>
+              <U>
+                <T n="key">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+              </U>
+              <U>
+                <T n="key">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+              </U>
+              <U>
+                <T n="key">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+              </U>
+              <U>
+                <T n="key">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+              </U>
+              <U>
+                <T n="key">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+              </U>
+              <U>
+                <T n="key">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">44910<!--collectFishMedGENCatfish_01_set1 (Catfish)--></T>
+              </U>
+              <U>
+                <T n="key">44914<!--collectFishMedGENTilapia_01 (Tilapia)--></T>
+              </U>
+              <U>
+                <T n="key">45222<!--collectFishLargeGENWolfEel_01 (Wolf Eel)--></T>
+              </U>
+              <U>
+                <T n="key">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+              </U>
+              <U>
+                <T n="key">45313<!--collectFIshLargeGENSturgeon_01 (Sturgeon)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272254<!--gardenFruit_EP11GENmushroomWildCharming ({S.Charming Mushroom}{P.Charming Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">272255<!--gardenFruit_EP11GENMushroomWildSpicy ({S.Spicy Mushroom}{P.Spicy Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">272256<!--gardenFruit_EP11GENmushroomWildLovely ({S.Lovely Mushroom}{P.Lovely Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">272308<!--egg_EP11GEN_set2_Gold (Golden Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272310<!--egg_EP11GEN_set4_obsidian (Obsidian Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272314<!--egg_EP11GEN_set8_Rainbow (Rainbow Egg)--></T>
+              </U>
+              <U>
+                <T n="key">277731<!--drinkBottle_EP11GENmilk_set2_black (Obsidian Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277734<!--drinkBottle_EP11GENmilk_set4_gold (Golden Honey Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277794<!--drinkBottle_EP11GENmilk_set7_rainbow (Rainbow Milk)--></T>
+              </U>
+              <U>
+                <T n="key">37858<!--gardenFruitGENCowplant_01 ({S.Cowplant Berry}{P.Cowplant Berries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <L n="tests">
+              <L>
+                <V t="drama_node">
+                  <U n="drama_node">
+                    <L n="drama_nodes">
+                      <T>259971<!--festivalContestDramaNode_VillageFair_ChickenEgg--></T>
+                      <T>259969<!--festivalContestDramaNode_VillageFair_CowMilk--></T>
+                      <T>259970<!--festivalContestDramaNode_VillageFair_LlamaWool--></T>
+                    </L>
+                    <V n="time_to_run" t="enabled">
+                      <U n="enabled">
+                        <U n="threshold">
+                          <E n="comparison">LESS_OR_EQUAL</E>
+                          <U n="value">
+                            <T n="hours">12</T>
+                          </U>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272309<!--egg_EP11GEN_set3_Chocolate (Chocolate Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272311<!--egg_EP11GEN_set5_Blue (Blue Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272312<!--egg_EP11GEN_set6_Green (Green Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272313<!--egg_EP11GEN_set7_Orange (Orange Egg)--></T>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+      <U>
+        <E n="key">EP11_VillageShops_Grocery_OnLot</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">34204<!--bookGENCookingAdvanced_01 (Cooking Vol 3: I'm Here to Cook!)--></T>
+              </U>
+              <U>
+                <T n="key">34206<!--bookThinGENCookingBeginner_01 (Cooking Vol 1: Let's Cook!)--></T>
+              </U>
+              <U>
+                <T n="key">34207<!--bookGENCookingIntermediate_01 (Cooking Vol 2: Let's Keeping Cooking!)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">34250<!--bookGENGourmetCookingAdvanced_01 (Gourmet Cooking Vol 3: Can You Eat That?)--></T>
+              </U>
+              <U>
+                <T n="key">34251<!--bookThinGENGourmetCookingBeginner_01 (Gourmet Cooking Vol 1: Make Food Fancy)--></T>
+              </U>
+              <U>
+                <T n="key">34252<!--bookGENGourmetCookingIntermediate_01 (Gourmet Cooking Vol 2: Presentation is King)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">76353<!--book_EP01GENbakingAdvanced (Baking Vol 3: Bake)--></T>
+              </U>
+              <U>
+                <T n="key">76354<!--book_EP01GENbakingIntermediate (Baking Vol 2: Shape)--></T>
+              </U>
+              <U>
+                <T n="key">76355<!--bookThin_EP01GENbakingBeginner (Baking Vol 1: Mix)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">277732<!--drinkBottle_EP11GENmilk_set1_blue (Enriched Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277733<!--drinkBottle_EP11GENmilk_set3_brown (Chocolate Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277736<!--drinkBottle_EP11GENmilk_set5_orange (Pumpkin Spice Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277737<!--drinkBottle_EP11GENmilk_set6_pink (Strawberry Milk)--></T>
+              </U>
+              <U>
+                <T n="key">277795<!--drinkBottle_EP11GENmilk_set8_red (Fire Milk)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+              </U>
+              <U>
+                <T n="key">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+              </U>
+              <U>
+                <T n="key">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+              </U>
+              <U>
+                <T n="key">66208<!--gardenFlower_GP01GENfireleaf ({S.Fireleaf}{P.Fireleaves})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+              </U>
+              <U>
+                <T n="key">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+              </U>
+              <U>
+                <T n="key">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+              </U>
+              <U>
+                <T n="key">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+              </U>
+              <U>
+                <T n="key">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23440<!--gardenFruitGENDragon_01 ({S.Dragon Fruit}{P.Dragon Fruits})--></T>
+              </U>
+              <U>
+                <T n="key">45767<!--gardenFruitGENBonsai ({S.Bonsai Bud}{P.Bonsai Buds})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+              <U>
+                <T n="key">23439<!--gardenFruitGENPomegranate_01 ({S.Pomegranate}{P.Pomegranates})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+              </U>
+              <U>
+                <T n="key">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+              </U>
+              <U>
+                <T n="key">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">66140<!--gardenFruit_GP01GENelderberry ({S.Elderberry}{P.Elderberries})--></T>
+              </U>
+              <U>
+                <T n="key">66145<!--gardenFruit_GP01GENmushroomMorel ({S.Morel Mushroom}{P.Morel Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">67556<!--gardenFruit_GP01GENhuckleberry ({S.Huckleberry}{P.Huckleberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">72387<!--gardenFruit_EP01GENorb ({S.Glow Orb}{P.Glow Orbs})--></T>
+              </U>
+              <U>
+                <T n="key">72391<!--gardenFruit_EP01GENspike ({S.Quill Fruit}{P.Quill Fruit})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">215737<!--gardenFruit_EP07GENcoconut ({S.Coconut}{P.Coconuts})--></T>
+              </U>
+              <U>
+                <T n="key">215738<!--gardenFruit_EP07GENpineapple ({S.Pineapple}{P.Pineapples})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+              </U>
+              <U>
+                <T n="key">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+              </U>
+              <U>
+                <T n="key">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">4</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+              </U>
+              <U>
+                <T n="key">178855<!--gardenFruit_GP06GENBlackBean ({S.Black Bean}{P.Black Beans})--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+              </U>
+              <U>
+                <T n="key">188689<!--gardenFruit_EP05GENgreenPeppers ({S.Bell Pepper}{P.Bell Peppers})--></T>
+              </U>
+              <U>
+                <T n="key">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45040<!--collectFishMedGENBass_01 (Bass)--></T>
+              </U>
+              <U>
+                <T n="key">45115<!--collectFishMedGENTrout_01 (Trout)--></T>
+              </U>
+              <U>
+                <T n="key">45218<!--collectFishLargeGENSalmon_01 (Salmon)--></T>
+              </U>
+              <U>
+                <T n="key">45420<!--collectFishSmallGENPerch_01 (Perch)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">44910<!--collectFishMedGENCatfish_01_set1 (Catfish)--></T>
+              </U>
+              <U>
+                <T n="key">44914<!--collectFishMedGENTilapia_01 (Tilapia)--></T>
+              </U>
+              <U>
+                <T n="key">45222<!--collectFishLargeGENWolfEel_01 (Wolf Eel)--></T>
+              </U>
+              <U>
+                <T n="key">45250<!--collectFishSmallGENKissingGourami_01 (Kissing Gourami)--></T>
+              </U>
+              <U>
+                <T n="key">45313<!--collectFIshLargeGENSturgeon_01 (Sturgeon)--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">2</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">272309<!--egg_EP11GEN_set3_Chocolate (Chocolate Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272311<!--egg_EP11GEN_set5_Blue (Blue Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272312<!--egg_EP11GEN_set6_Green (Green Egg)--></T>
+              </U>
+              <U>
+                <T n="key">272313<!--egg_EP11GEN_set7_Orange (Orange Egg)--></T>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+      <U>
+        <E n="key">EP14_GroceryStore</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+              </U>
+              <U>
+                <T n="key">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+              </U>
+              <U>
+                <T n="key">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+              </U>
+              <U>
+                <T n="key">66143<!--gardenFlower_GP01GENchamomile ({S.Chamomile}{P.Chamomiles})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">145307<!--gardenFruit_GP04GENgarlic ({S.Garlic}{P.Garlic})--></T>
+              </U>
+              <U>
+                <T n="key">188687<!--gardenFruit_EP05GENgreenBeans ({S.Green Bean}{P.Green Beans})--></T>
+              </U>
+              <U>
+                <T n="key">188691<!--gardenFruit_EP05GENpeas ({S.Green Pea}{P.Green Peas})--></T>
+              </U>
+              <U>
+                <T n="key">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+              </U>
+              <U>
+                <T n="key">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">178808<!--gardenFruit_GP06GENavocado ({S.Avocado}{P.Avocados})--></T>
+              </U>
+              <U>
+                <T n="key">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+              </U>
+              <U>
+                <T n="key">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+              </U>
+              <U>
+                <T n="key">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+              </U>
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+              <U>
+                <T n="key">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+              </U>
+              <U>
+                <T n="key">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+              </U>
+              <U>
+                <T n="key">270257<!--gardenFruit_EP11GENBlueberry_set1 ({S.Blueberry}{P.Blueberries})--></T>
+              </U>
+              <U>
+                <T n="key">270258<!--gardenFruit_EP11GENChocolateBerry_set1 ({S.Chocoberry}{P.Chocoberries})--></T>
+                <T n="value">0.5</T>
+              </U>
+              <U>
+                <T n="key">270259<!--gardenFruit_EP11GENRaspberry_set1 ({S.Raspberry}{P.Raspberries})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+            <T n="quantity_for_each_item">2</T>
+          </U>
+        </L>
+      </U>
+      <U>
+        <E n="key">EP18_ShadyNPC</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">457838<!--drink_EP18GENconfidentpotion (Confident Potion)--></T>
+              </U>
+              <U>
+                <T n="key">457840<!--drink_EP18GENenergizedpotion (Energized Potion)--></T>
+              </U>
+              <U>
+                <T n="key">457841<!--drink_EP18GENflirtypotion (Flirty Potion)--></T>
+              </U>
+              <U>
+                <T n="key">457842<!--drink_EP18GENfocusedpotion (Focused Potion)--></T>
+              </U>
+              <U>
+                <T n="key">457843<!--drink_EP18GENhappypotion (Happy Potion)--></T>
+              </U>
+              <U>
+                <T n="key">457844<!--drink_EP18GENinspiredpotion (Inspired Potion)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">21926<!--gardenFlowerGENSnapDragon_01 ({S.Snapdragon}{P.Snapdragons})--></T>
+              </U>
+              <U>
+                <T n="key">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+              </U>
+              <U>
+                <T n="key">22466<!--gardenFruitGENLemon_01 ({S.Lemon}{P.Lemons})--></T>
+              </U>
+              <U>
+                <T n="key">22467<!--gardenFruitGENCherry_01 ({S.Cherry}{P.Cherries})--></T>
+              </U>
+              <U>
+                <T n="key">22468<!--gardenFruitGENPlantain_01 ({S.Plantain}{P.Plantains})--></T>
+              </U>
+              <U>
+                <T n="key">23437<!--gardenFruitGENStrawberry_01 ({S.Strawberry}{P.Strawberries})--></T>
+              </U>
+              <U>
+                <T n="key">23438<!--gardenFruitGENBlackberry_01 ({S.Blackberry}{P.Blackberries})--></T>
+              </U>
+              <U>
+                <T n="key">23442<!--gardenFruitGENGrapes_01 ({S.Grape}{P.Grapes})--></T>
+              </U>
+              <U>
+                <T n="key">23445<!--gardenFruitGENPear_01 ({S.Pear}{P.Pears})--></T>
+              </U>
+              <U>
+                <T n="key">23447<!--gardenFlowerGENRose_01 ({S.Rose}{P.Roses})--></T>
+              </U>
+              <U>
+                <T n="key">23448<!--gardenFlowerGENTulip_01 ({S.Tulip}{P.Tulips})--></T>
+              </U>
+              <U>
+                <T n="key">23449<!--gardenFlowerGENDaisy_01 ({S.Daisy}{P.Daisies})--></T>
+              </U>
+              <U>
+                <T n="key">23450<!--gardenFlowerGENLily_01 ({S.Lily}{P.Lilies})--></T>
+              </U>
+              <U>
+                <T n="key">23451<!--gardenFlowerGENChrysanthemum_01 ({S.Chrysanthemum}{P.Chrysanthemums})--></T>
+              </U>
+              <U>
+                <T n="key">23453<!--gardenFlowerGENBlueBell_01 ({S.Bluebell}{P.Bluebells})--></T>
+              </U>
+              <U>
+                <T n="key">24494<!--gardenFruitGENTrash_01 ({S.Trash Fruit}{P.Trash Fruits})--></T>
+                <T n="value">10</T>
+              </U>
+              <U>
+                <T n="key">45295<!--gardenFruitGENPotato_01 ({S.Potato}{P.Potatoes})--></T>
+              </U>
+              <U>
+                <T n="key">45299<!--gardenFruitGENCarrot_01 ({S.Carrot}{P.Carrots})--></T>
+              </U>
+              <U>
+                <T n="key">45311<!--gardenFruitGENMushroom_01 ({S.Mushroom}{P.Mushrooms})--></T>
+              </U>
+              <U>
+                <T n="key">45732<!--gardenFlowerGENBasil_01 ({S.Basil}{P.Basil})--></T>
+              </U>
+              <U>
+                <T n="key">45734<!--gardenFlowerGENParsley_01 ({S.Parsley}{P.Parsley})--></T>
+              </U>
+              <U>
+                <T n="key">45736<!--gardenFlowerGENSage_01 ({S.Sage}{P.Sage})--></T>
+              </U>
+              <U>
+                <T n="key">46336<!--gardenFruitGENTomato_01 ({S.Tomato}{P.Tomatoes})--></T>
+              </U>
+              <U>
+                <T n="key">46396<!--gardenFruitGENOnion_01 ({S.Onion}{P.Onions})--></T>
+              </U>
+              <U>
+                <T n="key">47457<!--gardenFlowerGENSpinach_01 ({S.Spinach}{P.Spinach})--></T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">3</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">144534<!--toyHand_EF04GENButterfly_set2 (Butterfly McButterflyface)--></T>
+              </U>
+              <U>
+                <T n="key">144537<!--toyHand_EF04GENBear_set3 (Mr. Blue Bear)--></T>
+              </U>
+              <U>
+                <T n="key">151894<!--toyHand_EF04GENDucky_set3 (Ducky)--></T>
+              </U>
+              <U>
+                <T n="key">160101<!--toyBallPet_EP04GENSqueaky_set1 (WHATWASTHAT? Squeakenthinger)--></T>
+              </U>
+              <U>
+                <T n="key">214028<!--toyHand_EF14GENpanda_set1 (Moon Panda Toy)--></T>
+              </U>
+              <U>
+                <T n="key">22286<!--toyHandSmallGENHorse_01 (Pretty Prancing Palomino Pony Toy)--></T>
+              </U>
+              <U>
+                <T n="key">22323<!--toyHandSmallGENDragon_01 (Fearsome Dragon Toy)--></T>
+              </U>
+              <U>
+                <T n="key">233312<!--toyDoll_EP08GENrobot_set1 (Chatter Bot)--></T>
+              </U>
+              <U>
+                <T n="key">296512<!--toyHand_EF48GENsqueaker_set1 (Little Squeakheart)--></T>
+              </U>
+              <U>
+                <T n="key">447301<!--drinkCanLrg_EP18GENshady ("Power-Sip")--></T>
+                <T n="value">20</T>
+              </U>
+            </L>
+            <T n="quantity_for_each_item">5</T>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">10527<!--paintWallQA2x1x3_06_set1 (“Blooming Beauty” Wall Painting)--></T>
+              </U>
+              <U>
+                <T n="key">10530<!--paintWallQA2x1x2_06_set1 (Land-Coral Garden)--></T>
+              </U>
+              <U>
+                <T n="key">107480<!--sculptFloor_EP02GENgardenSnail2x2_set1 (Perfectly Pulmonate)--></T>
+              </U>
+              <U>
+                <T n="key">11181<!--paintWallFC2x1x3_02_set1 (Viva More of La Landscape)--></T>
+              </U>
+              <U>
+                <T n="key">112027<!--sculptFloor_SP06MARBLEstatueFemale1x1x3_set1 (The Blossoms' Empress)--></T>
+              </U>
+              <U>
+                <T n="key">112051<!--sculptFloor_SP06MARBLEstatueMale1x2x3_set1 (The Sitter)--></T>
+              </U>
+              <U>
+                <T n="key">12071<!--sculptTableFCRabbitCeramic_01_set1 (Garden Friend)--></T>
+              </U>
+              <U>
+                <T n="key">121902<!--paintWall1X1x2_EP03GENtree (Tree of Food)--></T>
+              </U>
+              <U>
+                <T n="key">121916<!--paintWall1X1x3_EP03GENscrollTree (Falling Blossoms)--></T>
+              </U>
+              <U>
+                <T n="key">13371<!--sculptTableTUDDog_01_set1 (On the Hunt Statuette)--></T>
+              </U>
+              <U>
+                <T n="key">151521<!--sculptFloor_GP04GENfairy_set1 (Kneeling Fairy Gargoyle)--></T>
+              </U>
+              <U>
+                <T n="key">151823<!--sculptFloor_GP04GENwoman_set1 (Forgotten Woman Statue)--></T>
+              </U>
+              <U>
+                <T n="key">17827<!--paintWallTUD1x1x3_01_set1 (No. 46 Landscape)--></T>
+              </U>
+              <U>
+                <T n="key">181005<!--sculptFloor_EF07EAMduck_set1 (Hungry Like The Duck)--></T>
+              </U>
+              <U>
+                <T n="key">210731<!--sculptTableMedium_EP07GENgourd_set1 (For Gourd Sake)--></T>
+              </U>
+              <U>
+                <T n="key">21824<!--paintWallSC1x1x2_01_set1 (Gravity & Light Contemporary Watercolor)--></T>
+              </U>
+              <U>
+                <T n="key">219271<!--sculptTableMedium_EP07GENdecorativeVase_set1 (Lost Vase of Prosperity)--></T>
+              </U>
+              <U>
+                <T n="key">219376<!--sculptTableMedium_EP07LOCALhook_set1 (Kraken's Grappled Arm)--></T>
+              </U>
+              <U>
+                <T n="key">25027<!--sculptTableFCHenBasket_01_set1 (Mother Hen)--></T>
+              </U>
+              <U>
+                <T n="key">25043<!--sculptTableFCRoosterCeramic_01_set1 (Cock’s Crow Table Accent)--></T>
+              </U>
+              <U>
+                <T n="key">259834<!--paintWall1X1x2_EP10GENscroll_set1 (Hanging Painted Scroll)--></T>
+              </U>
+              <U>
+                <T n="key">260318<!--sculptTableMedium_SP18GENegypt_set1 (Statue of Horus)--></T>
+              </U>
+              <U>
+                <T n="key">270521<!--paintWall1x1x1_EP11GEN_set1 (The Still Life with Stuff & Such Series - by Hodgekiss Schmergg)--></T>
+              </U>
+              <U>
+                <T n="key">272868<!--paintWall2x1x1_GP10GENbigAbstract_set1 (Outdoorsy indoors)--></T>
+              </U>
+              <U>
+                <T n="key">29594<!--sculptTableFCPigCeramic_01_set1 (Porkelain Pal)--></T>
+              </U>
+              <U>
+                <T n="key">31060<!--sculptTableQAShip_01_set1 (Captain Chaz MacFreeling’s Galleon)--></T>
+              </U>
+              <U>
+                <T n="key">3297<!--paintWallQA2x1x2_03_set1 (Ode to Jazz 6: “Ghost Quartet”)--></T>
+              </U>
+              <U>
+                <T n="key">33308<!--paintWallKID2x1x1_01_set1 (Eyes for Nature Painting)--></T>
+              </U>
+              <U>
+                <T n="key">354306<!--paintWall2x1x1_EP14GEN_set1 (Home on the Range Paintings)--></T>
+              </U>
+              <U>
+                <T n="key">366821<!--sculptTableMedium_SP45Mbust_set1 (Muse-On-A-Shelf)--></T>
+              </U>
+              <U>
+                <T n="key">373403<!--paintWall1X1x2_EP15SEApainting_set1 (Traditional Tapestry)--></T>
+              </U>
+              <U>
+                <T n="key">44183<!--paintWallMIS2x1x1_02_set1 (The Primrose Path)--></T>
+              </U>
+              <U>
+                <T n="key">44204<!--paintWallGENScenery2x1x1_01_set3 (Martian Memories Landscape #3)--></T>
+              </U>
+              <U>
+                <T n="key">90285<!--sculptTableMedium_GP02GENstones_set1 (The Precarious)--></T>
+              </U>
+            </L>
+          </U>
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">11315<!--paintWallFC1x1x3_03_set1 (Coq au Peinture)--></T>
+              </U>
+              <U>
+                <T n="key">114391<!--paintWall1x1x2_EF05GENdetective_set1 (Cop and Llama)--></T>
+              </U>
+              <U>
+                <T n="key">120449<!--paintWall2x1x3_EF03GENsadClown_set1 (Tragic Clown)--></T>
+              </U>
+              <U>
+                <T n="key">17831<!--paintWallTUD1x1x3_02_set1 (Art in a Box)--></T>
+              </U>
+              <U>
+                <T n="key">17835<!--paintWallTUD1x1x3_03_set1 (Portrait of a Marriage)--></T>
+              </U>
+              <U>
+                <T n="key">23143<!--paintWallMIS2x1x1_01_set1 (Mega Art)--></T>
+              </U>
+              <U>
+                <T n="key">2429<!--paintWallQA2x1x2_02_set1 (Jazz Cats: Whiskers of a Forgotten Past)--></T>
+              </U>
+              <U>
+                <T n="key">24987<!--paintWallFC1x1x3_04_set1 (Ceci N’est Pas Une Poire)--></T>
+              </U>
+              <U>
+                <T n="key">27748<!--sculptTableCBust_01_set1 (Womannequin )--></T>
+              </U>
+              <U>
+                <T n="key">29556<!--paintWallFC1x1x3_05_set1 (Floral Revelation )--></T>
+              </U>
+              <U>
+                <T n="key">31293<!--sculptTableQABust_01_set1 (Princess Cordelia Royal Bust)--></T>
+              </U>
+              <U>
+                <T n="key">3298<!--paintWallQA1x1x4_01_set1 (Blue for the Blues Wall Painting  )--></T>
+              </U>
+              <U>
+                <T n="key">38059<!--paintWallBBYDino1x1x1_01_set1 (Baby Dino Nursery Art)--></T>
+              </U>
+              <U>
+                <T n="key">38069<!--paintWallBBYElephant1x1x1_01_set1 ("Working for Peanuts" Wall Painting)--></T>
+              </U>
+              <U>
+                <T n="key">38078<!--paintWallBBYRabbit1x1x1_01_set1 (Baby Bunny Nursery Art)--></T>
+              </U>
+              <U>
+                <T n="key">43004<!--paintWallGFPortrait1x1x1_01_set1 (Mystery Poser Antique Portrait)--></T>
+              </U>
+              <U>
+                <T n="key">465478<!--collectPaintWall_EP18SHADY1x1x3_01_set1 (This is Many Pears)--></T>
+              </U>
+              <U>
+                <T n="key">465479<!--collectPaintwall_EP18SHADY1x1x3_02_set1 (Fancy Chicken Painting)--></T>
+              </U>
+              <U>
+                <T n="key">465480<!--collectPaintWall_EP18SHADY1x1x3_03_set1 (Portrait of Friends)--></T>
+              </U>
+              <U>
+                <T n="key">465481<!--collectPaintWall_EP18SHADY1x1x3_04_set1 (Flower Friends)--></T>
+              </U>
+              <U>
+                <T n="key">465482<!--collectPaintWall_EP18SHADY1x1x3_05_set1 (Art in Many Boxes)--></T>
+              </U>
+              <U>
+                <T n="key">465483<!--collectPaintWall_EP18SHADY1x1x4_01_Set1 (Critter Blues)--></T>
+              </U>
+              <U>
+                <T n="key">465484<!--collectPaintWall_EP18SHADY2x1x1_01_set1 (Critter's Field)--></T>
+              </U>
+              <U>
+                <T n="key">465485<!--collectPaintWall_EP18SHADY2x1x2_02_set1 (Jazz Friends)--></T>
+              </U>
+              <U>
+                <T n="key">465486<!--collectPaintWall_EP18SHADYdetective1x1x2_set1 (Cop and Mr. Llama)--></T>
+              </U>
+              <U>
+                <T n="key">465487<!--collectPaintWall_EP18SHADYDino1x1x1_01_set1 (Stylish Baby Dino Nursery Art)--></T>
+              </U>
+              <U>
+                <T n="key">465488<!--collectPaintWall_EP18SHADYPainterFigDrawings2x1x2_01_set1 (Study of Form)--></T>
+              </U>
+              <U>
+                <T n="key">465489<!--collectPaintWall_EP18SHADYPortrait1x1x1_01_set1 (Normal Antique Portrait)--></T>
+              </U>
+              <U>
+                <T n="key">465490<!--collectPaintWall_EP18SHADYsadClown2x1x3_set1 (Gleeful Clown)--></T>
+              </U>
+              <U>
+                <T n="key">465491<!--collectPaintWall_EP18SHADYSpecPopArt2x1x2_01_set1 (Raccoon in Boxes)--></T>
+              </U>
+              <U>
+                <T n="key">465589<!--collectSculptTable_EP18SHADYbust_01_set1 (Cool Princess Cordelia Royal Bust)--></T>
+              </U>
+              <U>
+                <T n="key">465780<!--collectSculptTable_EP18SHADYbust_02_set1 (Looking for Arms)--></T>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+      <U>
+        <E n="key">EP19_EverdewSeeds</E>
+        <L n="value">
+          <U>
+            <L n="items_list">
+              <U>
+                <T n="key">466373<!--gardenFruit_EP19GENmoodBush_set1 ({S.Moody Shrub Seed}{P.Moody Shrub Seeds})--></T>
+              </U>
+              <U>
+                <T n="key">466375<!--gardenFruit_EP19GENlightningRoot_set1 ({S.Lightning Root Seed}{P.Lightning Root Seeds})--></T>
+              </U>
+              <U>
+                <T n="key">466377<!--gardenFlower_EP19GENauraBlossom_set1 ({S.Aura Blossom Seed}{P.Aura Blossom Seeds})--></T>
+              </U>
+            </L>
+            <T n="number_of_types_of_items">3</T>
+          </U>
+        </L>
+      </U>
+    </L>
+    <U n="REFRESH_TIME">
+      <T n="hour">7</T>
+    </U>
+  </C>
+</M>

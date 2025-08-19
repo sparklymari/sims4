@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x0000003B">
+  <Instances>
+    <I name="Reward_Knowledge_MotivatingSpeech" schema="SimReward" type="Object">
+      <T name="icon">00B2D882-00000000-A848A22976D2A813</T>
+      <T name="name">0xF3D8BE2F</T>
+      <V name="reward_description" variant="0xF8CBBF4C">
+        <T type="LocalizationKey">0x71B6BE7D</T>
+      </V>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="SimReward" schema_hash="0xEEED38EF">
+      <Columns>
+        <Column name="icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="name" type="LocalizationKey" flags="0x00000000" />
+        <Column name="reward_description" type="Variant" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

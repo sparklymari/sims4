@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Objective" i="objective" m="event_testing.objective_tuning" n="objective_CareerAssignment_Handyperson_WaterPlant" s="354066">
+  <T n="display_text">0x671E7845<!--Water Garden Plants--></T>
+  <V n="objective_completion_type" t="iterations">
+    <U n="iterations">
+      <T n="iterations_required_to_pass">3</T>
+    </U>
+  </V>
+  <V n="objective_test" t="ran_interaction_test">
+    <U n="ran_interaction_test">
+      <L n="affordances">
+        <T>190787<!--Gardening_Water_Planter_Start--></T>
+        <T>432853<!--super_PottedPlants_Gardening_Water_Area--></T>
+        <T>191378<!--gardening_Water_Planter_Start_Tend--></T>
+        <T>190782<!--Gardening_Water_Planter_End--></T>
+        <T>191376<!--Gardening_Water_Planter_End_Tend--></T>
+        <T>191627<!--gardening_Water_Plant_End--></T>
+        <T>8416<!--Gardening_Water_Continuation--></T>
+        <T>234983<!--gardening_VerticalGarden_Water_Continuation--></T>
+        <T>236244<!--gardening_VerticalGarden_MeatWall_Water_Mature_Continuation--></T>
+        <T>236242<!--gardening_VerticalGarden_MeatWall_Water_Sprout_Continuation--></T>
+        <T>8258<!--Gardening_Water_All_low--></T>
+        <T>235380<!--gardening_VerticalGarden_Water_All--></T>
+        <T>241099<!--gardening_VerticalGarden_MeatWall_Water_All_low_Mature--></T>
+        <T>241097<!--gardening_VerticalGarden_MeatWall_Water_All_low_Sprout--></T>
+        <T>241106<!--gardening_VerticalGarden_MeatWall_Water_All_Area_Sprout--></T>
+        <T>241105<!--gardening_VerticalGarden_MeatWall_Water_All_Area_Mature--></T>
+        <T>234981<!--gardening_VerticalGarden_Water_All_Area--></T>
+        <T>183148<!--Gardening_Water_All_Area--></T>
+        <T>234978<!--gardening_VerticalGarden_Tend_Continuation_water--></T>
+        <T>36199<!--Gardening_Tend_Continuation_water--></T>
+        <T>228286<!--Gardening_Water_Org_SecretSociety_SpriteGarden--></T>
+        <T>190784<!--gardening_Water_Planter_Continuation--></T>
+        <T>101265<!--Gardening_Water_Alien_display--></T>
+        <T>432852<!--super_PottedPlants_Gardening_Water--></T>
+        <T>432854<!--super_PottedPlants_Gardening_Water_Cont--></T>
+        <T>432855<!--super_PottedPlants_Gardening_Tend_Cont_Water--></T>
+      </L>
+    </U>
+  </V>
+  <T n="relative_to_unlock_moment">True</T>
+  <T n="resettable">True</T>
+  <T n="tooltip">0x10F2365A<!--Water a plant at home or in a shared space--></T>
+</I>

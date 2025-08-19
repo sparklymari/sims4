@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_InfantMilestones_Anticipation" s="328059">
+  <L n="value">
+    <T>324353<!--highChair_FeedInfant_Feed_FirstBite_MilestoneUnlock--></T>
+    <T>327664<!--tummyTimeTogether_SocialMixers_Anticipation_Small_Playmat--></T>
+    <T>321984<!--tummyTimeTogether_SocialMixers_Anticipation_Small--></T>
+    <T>324072<!--food_Eat_Infant_HighChair_Anticipation_FirstFingerFood--></T>
+    <T>323249<!--mixer_infant_WiggleToMusic_Anticipation_Big--></T>
+    <T>328057<!--mixer_infant_WiggleToMusic_Anticipation_Small--></T>
+    <T>328058<!--toy_Play_Infant_Anticipation_Big--></T>
+    <T>321985<!--toy_Play_Infant_Anticipation_Small--></T>
+    <T>323263<!--playmat_Mixers_Anticipation_Small--></T>
+    <T>327488<!--playmat_Mixers_Anticipation_Big--></T>
+    <T>324223<!--infantMilestone_Mixers_AnticipationMoment_Big--></T>
+    <T>331058<!--toy_Play_Infant_Anticipation_Grab--></T>
+    <T>324222<!--infantMilestone_Mixers_AnticipationMoment_TakePicture--></T>
+    <T>324226<!--infantMilestone_Mixers_AnticipationMoment_Watch--></T>
+    <T>326639<!--infantMilestone_Mixers_AnticipationMoment_WatchToddler--></T>
+    <T>322078<!--tummyTime_Mixers_Anticipation_Creep--></T>
+    <T>327746<!--aggregateSI_Infant_Anticipation--></T>
+    <T>327742<!--aggregateSI_Infant_Anticipation_Basic--></T>
+    <T>333136<!--socials_InfantToSim_GoToAnticipation--></T>
+    <T>323343<!--autonomous_ObjectPicker_Infant_Anticipation_PullToStand--></T>
+    <T>322081<!--autonomousSimPicker_InfantMilestones_Anticipation_BlowKiss--></T>
+    <T>322082<!--autonomousSimPicker_InfantMilestones_Anticipation_PeekABoo--></T>
+    <T>323694<!--autonomousSimPicker_InfantMilestones_Anticipation_Wave--></T>
+    <T>333467<!--highChair_FeedInfant_Anticipation_Pincer--></T>
+    <T>327659<!--immediate_Infant_Anticipation_HighChair--></T>
+    <T>327489<!--immediate_Infant_Anticipation_Playmat--></T>
+    <T>327808<!--social_InfantMilestones_Anticipation_BlowKiss--></T>
+    <T>327810<!--social_InfantMilestones_Anticipation_Listener--></T>
+    <T>327809<!--social_InfantMilestones_Anticipation_PeekABoo--></T>
+    <T>327744<!--social_InfantMilestones_Anticipation_Wave--></T>
+    <T>327492<!--highChair_Infant_Anticipation_Big--></T>
+    <T>327658<!--highChair_Infant_Anticipation_Small--></T>
+    <T>327739<!--infantMilestones_Anticipation_Start_Big--></T>
+    <T>327738<!--infantMilestones_Anticipation_Start_Small--></T>
+    <T>322085<!--infantMilestones_AnticipationMoment_Babble--></T>
+    <T>327737<!--infantMilestones_AnticipationMoment_Coo--></T>
+    <T>322108<!--infantMilestones_AnticipationMoment_FirstWord--></T>
+    <T>327743<!--infantMilestones_AnticipationMoment_SitUp--></T>
+    <T>327857<!--infantMilestone_PullToStand_Anticipation--></T>
+    <T>327662<!--playmat_Anticipation_GoToTummyTime--></T>
+    <T>332010<!--nestingBlocks_Play_Infant_Anticipation_Big--></T>
+    <T>332011<!--nestingBlocks_Play_Infant_Anticipation_Small--></T>
+    <T>332012<!--toy_Dollhouse_Infant_Anticipation_Big--></T>
+    <T>332013<!--toy_Dollhouse_Infant_Anticipation_Small--></T>
+    <T>332016<!--infantMilestones_Anticipation_ToeInMouth--></T>
+  </L>
+</I>

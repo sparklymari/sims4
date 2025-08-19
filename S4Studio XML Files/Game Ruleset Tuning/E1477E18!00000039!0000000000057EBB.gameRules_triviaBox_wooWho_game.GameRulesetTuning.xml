@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameRules" i="game_ruleset" m="objects.components.game_component" n="gameRules_triviaBox_wooWho_game" s="360123">
+  <L n="affordances_on_turn_start">
+    <U>
+      <T n="affordance">363160<!--triviabox_wooWho_answerQuestion--></T>
+      <E n="affordance_priority">High</E>
+      <V n="super_affordance" t="enabled">
+        <T n="enabled">360125<!--triviaBox_wooWho_playing--></T>
+      </V>
+    </U>
+    <U>
+      <T n="affordance">363159<!--triviabox_wooWho_askQuestion--></T>
+      <E n="affordance_priority">Critical</E>
+      <V n="super_affordance" t="enabled">
+        <T n="enabled">360125<!--triviaBox_wooWho_playing--></T>
+      </V>
+    </U>
+  </L>
+  <T n="clear_score_on_player_join">True</T>
+  <T n="game_name">0xE8B49F37<!--Woo-Who!?--></T>
+  <U n="players_per_game">
+    <T n="lower_bound">2</T>
+    <T n="upper_bound">6</T>
+  </U>
+  <U n="score_info">
+    <U n="score_increase">
+      <T n="lower_bound">1</T>
+      <T n="upper_bound">1</T>
+    </U>
+  </U>
+  <U n="teams_per_game">
+    <T n="lower_bound">2</T>
+    <T n="upper_bound">6</T>
+  </U>
+</I>

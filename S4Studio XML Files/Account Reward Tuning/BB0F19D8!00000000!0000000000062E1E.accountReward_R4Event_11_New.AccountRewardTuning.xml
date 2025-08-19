@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="accountReward_R4Event_11_New" s="405022">
+  <T n="category">0x2EA18A3<!--Full Body--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CAScalienteDress_large.png">2f7d0004:00000000:7def1db65139958b</T>
+  <L n="items">
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458133<!--yfBody_EF62DressCaliente_SolidAqua--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458134<!--yfBody_EF62DressCaliente_SolidBlack--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458135<!--yfBody_EF62DressCaliente_SolidBlue--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458136<!--yfBody_EF62DressCaliente_SolidBlueDk--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458137<!--yfBody_EF62DressCaliente_SolidBrown--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458138<!--yfBody_EF62DressCaliente_SolidKhaki--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458141<!--yfBody_EF62DressCaliente_SolidRed--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458139<!--yfBody_EF62DressCaliente_SolidWhite--></T>
+      </U>
+    </V>
+    <V t="cas_item">
+      <U n="cas_item">
+        <T n="item_resource">458140<!--yfBody_EF62DressCaliente_SolidYellow--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x7898CF54<!--Find this item in Create a Sim under Full Body, or use the Event Rewards filter.--></T>
+  <T n="reward_description">0x428C49A9<!--The little black dress inspired by Dina Caliente, is a versatile essential to your wardrobe that can be worn dressed up or down, for any occasion.--></T>
+  <T n="reward_name">0xAB5B818C<!--Dina Caliente's LBD--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_CAScalienteDress_large.png">2f7d0004:00000000:7def1db65139958b</T>
+  <V n="reward_timeline_image" t="large_image">
+    <T n="large_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CAScalienteDress.png">2f7d0004:00000000:96418d6cfe00dddf</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_CAScalienteDress.png">2f7d0004:00000000:96418d6cfe00dddf</T>
+</I>

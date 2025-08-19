@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="GameObject" i="object" m="objects.game_object" n="object_Festival_Spawners_FleaMarket_Sofa" s="136475">
+  <U n="_components">
+    <V n="focus" t="enabled">
+      <U n="enabled">
+        <V n="_focus_score" t="globally">
+          <U n="globally">
+            <E n="base">LOW</E>
+          </U>
+        </V>
+      </U>
+    </V>
+    <V n="spawner_component" t="enabled">
+      <U n="enabled">
+        <V n="reset_spawner_count" t="enabled" />
+        <V n="spawn_firemeter" t="enabled">
+          <V n="enabled" t="global_firemeter" />
+        </V>
+        <L n="spawner_data_from_tuning">
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136474<!--spawner_Festival_Sofa_set1--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136632<!--spawner_Festival_Sofa_set2--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136630<!--spawner_Festival_Sofa_set3--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136629<!--spawner_Festival_Sofa_set4--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136628<!--spawner_Festival_Sofa_set5--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136627<!--spawner_Festival_Sofa_set6--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">136631<!--spawner_Festival_Sofa_FleaMarket--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">153974<!--spawner_Festival_Sofa_FleaMarket02--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">153975<!--spawner_Festival_Sofa_FleaMarket03--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">153976<!--spawner_Festival_Sofa_FleaMarket04--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">153977<!--spawner_Festival_Sofa_FleaMarket05--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">153978<!--spawner_Festival_Sofa_FleaMarket06--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154001<!--spawner_Festival_Sofa_set07--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154002<!--spawner_Festival_Sofa_RandomExtras_0--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154003<!--spawner_Festival_Sofa_RandomExtras_1--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154012<!--spawner_Festival_Sofa_RandomExtras_10--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154013<!--spawner_Festival_Sofa_RandomExtras_11--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154014<!--spawner_Festival_Sofa_RandomExtras_12--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154015<!--spawner_Festival_Sofa_RandomExtras_13--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154016<!--spawner_Festival_Sofa_RandomExtras_14--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154017<!--spawner_Festival_Sofa_RandomExtras_15--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154018<!--spawner_Festival_Sofa_RandomExtras_16--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154019<!--spawner_Festival_Sofa_RandomExtras_17--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154020<!--spawner_Festival_Sofa_RandomExtras_18--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154021<!--spawner_Festival_Sofa_RandomExtras_19--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154004<!--spawner_Festival_Sofa_RandomExtras_2--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154005<!--spawner_Festival_Sofa_RandomExtras_3--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154006<!--spawner_Festival_Sofa_RandomExtras_4--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154007<!--spawner_Festival_Sofa_RandomExtras_5--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154008<!--spawner_Festival_Sofa_RandomExtras_6--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154009<!--spawner_Festival_Sofa_RandomExtras_7--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154010<!--spawner_Festival_Sofa_RandomExtras_8--></T>
+          </V>
+          <V t="spawnerdata_reference">
+            <T n="spawnerdata_reference">154011<!--spawner_Festival_Sofa_RandomExtras_9--></T>
+          </V>
+        </L>
+      </U>
+    </V>
+    <V n="state" t="enabled">
+      <U n="enabled">
+        <L n="states">
+          <U>
+            <L n="client_states">
+              <U>
+                <T n="key">140848<!--FleaMarket_SpawnerValues--></T>
+              </U>
+            </L>
+            <V n="default_value" t="reference">
+              <T n="reference">140848<!--FleaMarket_SpawnerValues--></T>
+            </V>
+          </U>
+        </L>
+      </U>
+    </V>
+  </U>
+  <L n="_super_affordances">
+    <T>13328<!--debug_Reset--></T>
+    <T>13326<!--debug_ObjectDestroy--></T>
+    <T>103888<!--cheat_set_as_head--></T>
+  </L>
+  <U n="recycling_data">
+    <L n="recycling_values">
+      <U>
+        <E n="Bucks Type">RecycleBitsBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+      <U>
+        <E n="Bucks Type">RecyclePiecesBucks</E>
+        <T n="Value">0.5</T>
+      </U>
+    </L>
+  </U>
+</I>

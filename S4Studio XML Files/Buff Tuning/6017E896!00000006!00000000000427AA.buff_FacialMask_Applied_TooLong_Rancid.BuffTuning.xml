@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="Buff" i="buff" m="buffs.buff" n="buff_FacialMask_Applied_TooLong_Rancid" s="272298">
+  <L n="_loot_on_addition">
+    <T>271636<!--loot_FacialMask_ColdBonus_Remove--></T>
+  </L>
+  <L n="_loot_on_removal">
+    <T>272299<!--loot_FacialMask_BonusBuff_Rancid--></T>
+  </L>
+  <T n="audio_sting_on_add" p="InGame\Audio\Stings\sting_buff_gain.propx">39b2aa4a:00000000:8af8b916cf64c646</T>
+  <T n="audio_sting_on_remove" p="InGame\Audio\Stings\sting_buff_loss.propx">39b2aa4a:00000000:3bf33216a25546ea</T>
+  <T n="buff_description">0x3B26BAC6<!--Why is this thing still on {0.SimFirstName}’s face?!--></T>
+  <T n="buff_name">0xC6332F59<!--Very Weird Sensations--></T>
+  <T n="icon" p="InGP02\UI\Icons\Buffs\Buffs_FacialMask_neg.png">2f7d0004:00000000:4ebea8d511e1efaf</T>
+  <T n="mood_type">14646<!--Mood_Uncomfortable--></T>
+  <T n="mood_weight">3</T>
+  <T n="show_timeout">False</T>
+  <L n="static_commodity_to_add">
+    <T>271414<!--staticCommodity_FacialMask_Remove--></T>
+  </L>
+</I>

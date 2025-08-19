@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Tattooing_DesignUnlocks_Skill10" s="389618">
+  <L n="loot_actions">
+    <V t="cas_unlock">
+      <U n="cas_unlock">
+        <V n="cas_part_source" t="reference">
+          <U n="reference">
+            <L n="cas_parts">
+              <T>437963<!--yuTattoo_HeadEP18Crown_Black_colored--></T>
+              <T>437964<!--yuTattoo_HeadEP18Crown_BlueOrange_colored--></T>
+              <T>437965<!--yuTattoo_HeadEP18Crown_BluePink_colored--></T>
+              <T>437967<!--yuTattoo_HeadEP18Crown_Brown_colored--></T>
+              <T>437966<!--yuTattoo_HeadEP18Crown_BrownDk_colored--></T>
+              <T>437968<!--yuTattoo_HeadEP18Crown_DarkRed_colored--></T>
+              <T>437969<!--yuTattoo_HeadEP18Crown_GreenTeal_colored--></T>
+              <T>437970<!--yuTattoo_HeadEP18Crown_RedOrange_colored--></T>
+              <T>437971<!--yuTattoo_HeadEP18Crown_White_colored--></T>
+            </L>
+          </U>
+        </V>
+        <E n="unlock_mode">SIM</E>
+      </U>
+    </V>
+    <V t="cas_unlock">
+      <U n="cas_unlock">
+        <V n="cas_part_source" t="pelt_brushes_reference">
+          <U n="pelt_brushes_reference">
+            <L n="pelt_brushes">
+              <T>448048<!--PeltBrush_Type09--></T>
+            </L>
+          </U>
+        </V>
+        <E n="unlock_mode">SIM</E>
+      </U>
+    </V>
+    <V t="cas_unlock">
+      <U n="cas_unlock">
+        <V n="cas_part_source" t="pelt_layers_reference">
+          <U n="pelt_layers_reference">
+            <L n="pelt_layers">
+              <T>452185</T>
+            </L>
+          </U>
+        </V>
+        <E n="unlock_mode">SIM</E>
+      </U>
+    </V>
+  </L>
+</I>

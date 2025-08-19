@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_DeathReactions" s="30814">
+  <L n="value">
+    <T>13863<!--reaction_DeathAggregate--></T>
+    <T>13864<!--reaction_DeathFriend--></T>
+    <T>13857<!--reactionFallback_DeathFriend--></T>
+    <T>13865<!--reaction_DeathLovedOne--></T>
+    <T>13858<!--reactionFallback_DeathLovedOne--></T>
+    <T>13866<!--reaction_DeathNemesis--></T>
+    <T>13859<!--reactionFallback_DeathNemesis--></T>
+    <T>13867<!--reaction_DeathNeutral--></T>
+    <T>13860<!--reactionFallback_DeathNeutral--></T>
+    <T>378482<!--reaction_Death_Bawling--></T>
+    <T>378476<!--reaction_Death_Confused--></T>
+    <T>378480<!--reaction_Death_Crying--></T>
+    <T>378471<!--reaction_Death_SadisticGlee--></T>
+    <T>378474<!--reaction_Death_Stoic--></T>
+    <T>378481<!--reaction_Death_Weeping--></T>
+    <T>378478<!--reaction_Death_Awkward--></T>
+    <T>378475<!--reaction_Death_Disgusted--></T>
+    <T>378477<!--reaction_Death_Indifference--></T>
+    <T>378472<!--reaction_Death_Smirk--></T>
+    <T>378479<!--reaction_Death_Sniffling--></T>
+    <T>378473<!--reaction_Death_AngryYelling--></T>
+  </L>
+</I>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_MountainSnow_TemperatureBehavior_Allow" s="239871">
+  <L n="test">
+    <L>
+      <V t="zone">
+        <U n="zone">
+          <U n="zone_tests">
+            <V n="world_tests" t="enabled">
+              <U n="enabled">
+                <V n="whitelist" t="specify">
+                  <U n="specify">
+                    <L n="whitelist">
+                      <T>248698<!--Yukimatsu--></T>
+                      <T>247835<!--EP10_BaseCamp_01--></T>
+                      <T>247967<!--EP10_BaseCamp_02--></T>
+                      <T>247198<!--EP10_BaseCamp_03--></T>
+                    </L>
+                  </U>
+                </V>
+              </U>
+            </V>
+          </U>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

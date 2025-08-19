@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_ClimbingRoute_RemoveBuffTracking" s="250578">
+  <L n="loot_actions">
+    <V t="buff_removal">
+      <U n="buff_removal">
+        <L n="buffs_to_remove">
+          <T>250558<!--buff_ClimbingRoute_BreakingPointReachedAverage_Tracker--></T>
+          <T>250559<!--buff_ClimbingRoute_BreakingPointReachedMaster_Tracker--></T>
+          <T>250560<!--buff_ClimbingRoute_BreakingPointReachedNovice_Tracker--></T>
+          <T>250575<!--buff_ClimbingRoute_ExcelsAtElevating_Tracker--></T>
+          <T>250573<!--buff_ClimbingRoute_FailedSlipGrip_Tracker--></T>
+          <T>250572<!--buff_ClimbingRoute_LessTalkMoreChalk_Tracker--></T>
+          <T>250570<!--buff_ClimbingRoute_NotReadyYet_Tracker--></T>
+          <T>250577<!--buff_ClimbingRoute_PeakFailure_Tracker--></T>
+          <T>250561<!--buff_ClimbingRoute_PeakTrainingAverage_Tracker--></T>
+          <T>250562<!--buff_ClimbingRoute_PeakTrainingMaster_Tracker--></T>
+          <T>250563<!--buff_ClimbingRoute_PeakTrainingNovice_Tracker--></T>
+          <T>250576<!--buff_ClimbingRoute_PracticeNotMakePerfect_Tracker--></T>
+          <T>250574<!--buff_ClimbingRoute_ReachingRockBottom_Tracker--></T>
+          <T>250564<!--buff_ClimbingRoute_SlowAndSteadyAverage_Tracker--></T>
+          <T>250565<!--buff_ClimbingRoute_SlowAndSteadyMaster_Tracker--></T>
+          <T>250566<!--buff_ClimbingRoute_SlowAndSteadyNovice_Tracker--></T>
+          <T>250568<!--buff_ClimbingRoute_SpectacularClimbing_Tracker--></T>
+          <T>250571<!--buff_ClimbingRoute_SummitOrPlummet_Tracker--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ClubInteractionGroup" i="club_interaction_group" m="clubs.club_tuning" n="clubInteractionGroup_FoodAndDrink_ObjectBased_TendEspressoBar" s="434955">
+  <L n="affordances">
+    <T>122156<!--espressoBar_Tend--></T>
+    <T>122249<!--espressoBar_Clean--></T>
+    <T>124011<!--espressoBarCompoundObject_Clean--></T>
+    <T>178330<!--espressoBarCompoundObject_Clean_FromSlottedObject--></T>
+    <T>402526<!--marketStalls_Tend_CoffeeCounter--></T>
+    <T>280337<!--marketStalls_Tend_BubbleTeaCounter--></T>
+  </L>
+  <E n="category">FOOD_AND_DRINK</E>
+  <T n="category_icon" p="InGame\UI\Icons\Clubs\Rules\clubs_rules_TendCoffeeCounter.png">2f7d0004:00000000:0891a554205df6c4</T>
+  <T n="club_bucks_reward">2</T>
+  <T n="club_rule">False</T>
+  <T n="is_targeted">False</T>
+  <T n="name">0x3E1EA6AA<!--Tend Coffee/Tea Bars and Counters--></T>
+  <T n="small_business_customer_rule">False</T>
+  <T n="small_business_employee_rule">True</T>
+  <L n="small_business_employee_tooltip">
+    <U>
+      <E n="key">BASE_GAME</E>
+      <L n="value">
+        <T>0xAAF7596B<!--Sims will tend and take paid orders on:--></T>
+        <T>0x11A1B42C<!--• Coffee Counters--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">EP02</E>
+      <L n="value">
+        <T>0xB2CEAD77<!--• Espresso Bars--></T>
+      </L>
+    </U>
+    <U>
+      <E n="key">EP12</E>
+      <L n="value">
+        <T>0xD8628830<!--• Bubble Tea Counters--></T>
+      </L>
+    </U>
+  </L>
+  <T n="tooltip_template">0x481E26D1<!--**DEBUG**--></T>
+  <T n="tooltip_template_negative">0x481E26D1<!--**DEBUG**--></T>
+</I>

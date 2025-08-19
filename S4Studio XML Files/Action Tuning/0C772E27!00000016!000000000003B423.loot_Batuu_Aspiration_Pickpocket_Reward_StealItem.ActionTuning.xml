@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_Batuu_Aspiration_Pickpocket_Reward_StealItem" s="242723">
+  <L n="loot_actions">
+    <V t="object_rewards">
+      <U n="object_rewards">
+        <T n="make_sim_owner">False</T>
+        <V n="notification" t="disabled" />
+        <L n="object_rewards">
+          <U>
+            <T n="quantity">1</T>
+            <L n="reward_objects">
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">240064<!--dataSpike_GP09GEN (Dataspike)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246217<!--gameCardSingle_GP09GENid (Fake ID Card)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246275<!--sculptTableSmall_GP09GENthermalDetonator_set1 (Thermal Detonator)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">241542<!--sculptTableMedium_GP09GENelectrobinoculars_set1 (TD2.3 Electrobinoculars)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247084<!--sculptTableSmall_GP09GENsalvageDroid_set1 (Scrap Metal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">17</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">246169<!--sculptTableSmall_GP09GENspira_set1 (Batuuan Spira)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">6</T>
+                </U>
+              </U>
+              <U>
+                <V n="quantity" t="specific_amount">
+                  <T n="specific_amount">1</T>
+                </V>
+                <L n="reward">
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247188<!--sculptTableSmall_GP09GENdroidPersonalityChip_set1 (First Order Personality Chip FO-1)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247189<!--sculptTableSmall_GP09GENdroidPersonalityChip_set2 (Scoundrel Personality Chip S-02)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247190<!--sculptTableSmall_GP09GENdroidPersonalityChip_set3 (Scoundrel Personality Chip S-01)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247191<!--sculptTableSmall_GP09GENdroidPersonalityChip_set4 (First Order Personality Chip FO-2)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247192<!--sculptTableSmall_GP09GENdroidPersonalityChip_set5 (Resistance Personality Chip R-01)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247194<!--sculptTableSmall_GP09GENdroidPersonalityChip_set6 (Resistance Personality Chip R-02)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">247193<!--sculptTableSmall_GP09GENdroidPersonalityChip_set7 (Default Droid Personality Chip)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239840<!--collectCrystalKyber_GP09GEN_blue (Blue Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239842<!--collectCrystalKyber_GP09GEN_green (Green Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                  <V t="specify_definition">
+                    <U n="specify_definition">
+                      <T n="definition">239841<!--collectCrystalKyber_GP09GEN_red (Red Kyber Crystal)--></T>
+                    </U>
+                  </V>
+                </L>
+                <U n="weight">
+                  <T n="base_value">2</T>
+                </U>
+              </U>
+            </L>
+          </U>
+        </L>
+      </U>
+    </V>
+  </L>
+</I>

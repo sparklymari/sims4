@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_FashionMarketplace_ApplyCountryChange" s="287372">
+  <L n="loot_actions">
+    <V t="actions">
+      <T n="actions">287385<!--randomWeightedLoot_FashionMarketplace_CountryChange--></T>
+    </V>
+  </L>
+</I>

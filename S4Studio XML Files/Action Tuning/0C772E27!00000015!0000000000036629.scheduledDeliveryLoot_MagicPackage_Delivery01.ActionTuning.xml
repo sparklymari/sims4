@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="ScheduledDeliveryLoot" i="action" m="delivery.scheduled_delivery_loot_op" n="scheduledDeliveryLoot_MagicPackage_Delivery01" s="222761">
+  <V n="at_home_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGP08\UI\Icons\Notification\Notification_MagicalPackage.png">2f7d0004:00000000:9e3fe669d34d6a5d</T>
+            </U>
+          </V>
+        </V>
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0xC276F727<!--Your prowess in the magical arts is gaining recognition. A Magical Care Package is sent to every Acolyte containing some everyday essentials for an up-and-coming Spellcaster. Be sure to check your mailbox!--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <V n="not_home_notification" t="enabled">
+    <V n="enabled" t="literal">
+      <U n="literal">
+        <V n="icon" t="enabled">
+          <V n="enabled" t="resource_key">
+            <U n="resource_key">
+              <T n="key" p="InGP08\UI\Icons\Notification\Notification_MagicalPackage.png">2f7d0004:00000000:9e3fe669d34d6a5d</T>
+            </U>
+          </V>
+        </V>
+        <V n="secondary_icon" t="enabled">
+          <V n="enabled" t="participant" />
+        </V>
+        <V n="text" t="single">
+          <T n="single">0xC276F727<!--Your prowess in the magical arts is gaining recognition. A Magical Care Package is sent to every Acolyte containing some everyday essentials for an up-and-coming Spellcaster. Be sure to check your mailbox!--></T>
+        </V>
+      </U>
+    </V>
+  </V>
+  <U n="objects_to_deliver">
+    <T n="make_sim_owner">True</T>
+    <L n="object_rewards">
+      <U>
+        <T n="quantity">1</T>
+        <L n="reward_objects">
+          <U>
+            <V n="quantity" t="one_of_each" />
+            <L n="reward">
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">230602<!--magicBroom_GP08GEN01_set1 (Gnarled Wood Broom)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">227727<!--familiarOrb_GP08GEN_bunnerFly (Familiar Orb of the Bunnerfly)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">28750<!--collectCrystalMedGEN_01_turquoise (Turquoise)--></T>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <V n="quantity" t="one_of_each" />
+            <L n="reward">
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">230603<!--magicBroom_GP08GEN01_set2 (Gnarled Wood Broom)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">227732<!--familiarOrb_GP08GEN_raven (Familiar Orb of the Raven)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">28782<!--collectMetalSmGEN_01_obtainium (Obtainium)--></T>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <V n="quantity" t="one_of_each" />
+            <L n="reward">
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">230604<!--magicBroom_GP08GEN01_set3 (Gnarled Wood Broom)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">227728<!--familiarOrb_GP08GEN_fairy (Familiar Orb of the Fairy)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">28729<!--collectCrystalSmGEN_01_emerald (Emerald)--></T>
+                </U>
+              </V>
+            </L>
+          </U>
+          <U>
+            <V n="quantity" t="one_of_each" />
+            <L n="reward">
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">230605<!--magicBroom_GP08GEN01_set4 (Gnarled Wood Broom)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">227730<!--familiarOrb_GP08GEN_owl (Familiar Orb of the Sixam Owl)--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">21939<!--gardenFruitGENApple_01 ({S.Apple}{P.Apples})--></T>
+                </U>
+              </V>
+              <V t="specify_definition">
+                <U n="specify_definition">
+                  <T n="definition">227207<!--gardenFruit_GP08GENmandrake ({S.Mandrake}{P.Mandrakes})--></T>
+                </U>
+              </V>
+            </L>
+          </U>
+        </L>
+      </U>
+    </L>
+  </U>
+  <T n="time_from_now">15</T>
+</I>

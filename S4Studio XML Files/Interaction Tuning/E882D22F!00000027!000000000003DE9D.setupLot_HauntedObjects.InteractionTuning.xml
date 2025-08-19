@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="DebugSetupLotInteraction" i="interaction" m="objects.terrain" n="setupLot_HauntedObjects" s="253597">
+  <V n="_saveable" t="disabled" />
+  <T n="automation">True</T>
+  <T n="category">146389<!--pieMenuCategory_SetupLot--></T>
+  <V n="content_score" t="disabled" />
+  <T n="debug">True</T>
+  <T n="display_name">0x13B68C27<!--Haunted Objects--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>INVALID</E>
+  </L>
+  <T n="pie_menu_priority">8</T>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <T n="setup_lot_destroy_old_objects">True</T>
+  <L n="setup_lot_objects">
+    <U>
+      <T n="definition">260868<!--lightTableMedium_SP18GENsacredCandles_set1 (Sacred Candles)--></T>
+      <U n="position">
+        <T n="x">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260865<!--sculptTableMedium_SP18GENaccursedDoll_set1 (Creepy Doll)--></T>
+      <L n="init_state_values" />
+      <U n="position">
+        <T n="x">2</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260905<!--sculptTableMedium_SP18GENsoulScrap_set1 (Soul Scrap)--></T>
+      <U n="position">
+        <T n="x">3</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260891<!--sculptTableSmall_SP18GENbizarreIdol_set1 (Bizarre Idol)--></T>
+      <U n="position">
+        <T n="x">3</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260893<!--sculptTableSmall_SP18GENspecterCandyJar_set1 (Unassuming Candy Jar)--></T>
+      <U n="position">
+        <T n="x">3</T>
+        <T n="y">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260895<!--sculptTableSmall_SP18GENwraithWax_set1 (Wraith Wax)--></T>
+      <U n="position">
+        <T n="x">3</T>
+        <T n="y">3</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260887<!--drinkStemmed_SP18GENspecterSip_set1 (Specter Sip)--></T>
+      <U n="position">
+        <T n="x">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260889<!--foodGrip_SP18GENectocake_set1 (Ectocake)--></T>
+      <U n="position">
+        <T n="x">1</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260863<!--sculptFloor_SP18RWtendrils_set1 (Strange Overgrowth)--></T>
+      <U n="position">
+        <T n="x">4</T>
+        <T n="y">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260866<!--sculptTableMedium_SP18RWdoll_set1 (Hello Dahlia)--></T>
+      <U n="position">
+        <T n="x">4</T>
+        <T n="y">3</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260876<!--sculptTableMedium_SP18RWspecterJar_set1 (Grumpy Specter Jar)--></T>
+    </U>
+    <U>
+      <T n="definition">262938<!--sculptTableMedium_SP18RWspecterJar_set2 (Specter Buddies Jar)--></T>
+      <U n="position">
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260862<!--sculptFloor_SP18GENaccursedTendrils_set1 (Twisted Tendril)--></T>
+      <L n="init_state_values" />
+      <U n="position">
+        <T n="x">4</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260858<!--rug1x1_SP18GENaccursedRunes_set1 (Mysterious Rune)--></T>
+      <L n="init_state_values" />
+      <U n="position">
+        <T n="x">4</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">262939<!--sculptTableMedium_SP18RWspecterJar_set3 (Mopey Specter Jar)--></T>
+      <U n="position">
+        <T n="y">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">260906<!--specter_SP18GEN_set1_friendly (Friendly Specter)--></T>
+      <U n="position">
+        <T n="x">-1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">261463<!--specter_SP18GEN_set2_mean (Mischievous Specter)--></T>
+      <U n="position">
+        <T n="x">-1</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">261464<!--specter_SP18GEN_set3_mysterious (Mysterious Specter)--></T>
+      <U n="position">
+        <T n="x">-1</T>
+        <T n="y">2</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">263812<!--specter_SP18GEN_set4_tina (Dina the Specter)--></T>
+      <U n="position">
+        <T n="x">-1</T>
+        <T n="y">3</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">264648<!--puddleSmall_SP18GENaccursed_set1 (Goo Puddle)--></T>
+      <L n="init_state_values" />
+      <U n="position">
+        <T n="x">5</T>
+        <T n="y">0</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">264564<!--sculptTableMedium_SP18GENaccursedHands_set1 (Clay Hands)--></T>
+      <L n="init_state_values" />
+      <U n="position">
+        <T n="x">5</T>
+        <T n="y">1</T>
+      </U>
+    </U>
+    <U>
+      <T n="definition">264714<!--sculptTableMedium_SP18RWbasementHands_set1 (Display Only Clay Hands)--></T>
+      <L n="init_state_values" />
+      <U n="position">
+        <T n="x">5</T>
+        <T n="y">2</T>
+      </U>
+    </U>
+  </L>
+  <T n="simless">False</T>
+  <E n="target_type">OBJECT</E>
+  <L n="test_globals">
+    <V t="sim_info">
+      <U n="sim_info">
+        <V n="ages" t="specified">
+          <L n="specified">
+            <E>TEEN</E>
+            <E>YOUNGADULT</E>
+            <E>ADULT</E>
+            <E>ELDER</E>
+            <E>CHILD</E>
+            <E>TODDLER</E>
+            <E>BABY</E>
+            <E>INFANT</E>
+          </L>
+        </V>
+        <V n="species" t="unspecified" />
+        <E n="who">Actor</E>
+      </U>
+    </V>
+  </L>
+</I>

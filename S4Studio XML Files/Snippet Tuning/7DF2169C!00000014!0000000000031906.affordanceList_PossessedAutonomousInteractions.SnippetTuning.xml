@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AffordanceList" i="snippet" m="snippets" n="affordanceList_PossessedAutonomousInteractions" s="203014">
+  <L n="value">
+    <T>202891<!--autonomous_ObjectPicker_Possessed_Idle--></T>
+    <T>202889<!--autonomous_ObjectPicker_Possessed_Plants--></T>
+    <T>202888<!--waypoint_Possessed_Wander--></T>
+    <T>133052<!--sink_StartCrafting_Autonomously--></T>
+    <T>203020<!--autonomousSimPicker_Possessed_P2N_Chat--></T>
+    <T>203017<!--autonomousSimPicker_Possessed_P2P_Chat--></T>
+    <T>204297<!--welcomeWagon_Interactions_go_to_front_door--></T>
+    <T>120206<!--si_WelcomeWagon_Follow_DoorKnocker--></T>
+    <T>119788<!--FruitCakeBearer_Carry_Fruitcake--></T>
+    <T>203133<!--infectHouse_AddPlant--></T>
+    <T>207074<!--possessed_Timeout--></T>
+    <T>203047<!--fridge_Plant_fruit--></T>
+  </L>
+</I>

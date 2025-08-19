@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="AccountReward" i="account_reward" m="account_rewards.account_reward_tuning" n="reward_R4Event_Checkpoint_0" s="428671">
+  <T n="category">0x47CE21B0<!--Household Funds--></T>
+  <T n="image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_simoleons_large.png">2f7d0004:00000000:7f189755ce53fe4d</T>
+  <L n="items">
+    <V t="consumable_item">
+      <U n="consumable_item">
+        <T n="item_resource">428673<!--loot_R4Event_Consumable_0--></T>
+      </U>
+    </V>
+  </L>
+  <T n="location_tip">0x23D4A20F<!--Find these in your Household Funds available in Live Mode and Build Mode.--></T>
+  <T n="reward_description">0x99A8655E<!--The sweet currency of all things good and bad! Use it to spruce up your home or simply stash it for a rainy day.--></T>
+  <T n="reward_name">0x26A05A61<!--500 Simoleons--></T>
+  <T n="reward_thumbnail_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Rewards\Anniversary_simoleons_large.png">2f7d0004:00000000:7f189755ce53fe4d</T>
+  <V n="reward_timeline_image" t="small_image">
+    <T n="small_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_simoleons.png">2f7d0004:00000000:9f1573270353769d</T>
+  </V>
+  <T n="small_image" p="InGame\UI\Icons\LiveEvents\AnniversaryEvent\Thumbnails\Anniversary_simoleons.png">2f7d0004:00000000:9f1573270353769d</T>
+</I>

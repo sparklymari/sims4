@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimData version="0x00000101" u="0x00000038">
+  <Instances>
+    <I name="business_Rental" schema="Business" type="Object">
+      <L name="advertising_name_map" />
+      <L name="advertising_type_sort_order" />
+      <T name="alert_enabled">1</T>
+      <V name="associated_guidance" variant="0xF8CBBF4C">
+        <T type="Int64">1</T>
+      </V>
+      <L name="available_rules">
+        <T type="TableSetReference">347342</T>
+        <T type="TableSetReference">343562</T>
+        <T type="TableSetReference">348401</T>
+        <T type="TableSetReference">348400</T>
+        <T type="TableSetReference">348397</T>
+        <T type="TableSetReference">352253</T>
+      </L>
+      <T name="bucks">64</T>
+      <V name="business_summary_tooltip" variant="0xC1A03855" />
+      <V name="buy_business_dropdown_data" variant="0xC1A03855" />
+      <T name="filter_button_tooltip">0xE770AABF</T>
+      <L name="markup_multiplier_data" />
+      <T name="no_business_text">0x425FD6EF</T>
+      <T name="opening_fee">0</T>
+      <T name="purchase_business_button_text">0xB8A50824</T>
+      <L name="quality_settings" />
+      <T name="registration_fee">0</T>
+      <T name="show_employee_button">0</T>
+      <T name="show_sell_button">0</T>
+      <V name="show_settings_button" variant="0xC1A03855" />
+      <T name="tab_button_icon">00B2D882-00000000-1F19506CF97DBD88</T>
+      <T name="tutorial_button_element">802</T>
+      <T name="tutorial_panel_element">801</T>
+    </I>
+  </Instances>
+  <Schemas>
+    <Schema name="Business" schema_hash="0x38003C57">
+      <Columns>
+        <Column name="advertising_name_map" type="Vector" flags="0x00000000" />
+        <Column name="advertising_type_sort_order" type="Vector" flags="0x00000000" />
+        <Column name="alert_enabled" type="Boolean" flags="0x00000000" />
+        <Column name="associated_guidance" type="Variant" flags="0x00000000" />
+        <Column name="available_rules" type="Vector" flags="0x00000000" />
+        <Column name="bucks" type="Int64" flags="0x00000000" />
+        <Column name="business_summary_tooltip" type="Variant" flags="0x00000000" />
+        <Column name="buy_business_dropdown_data" type="Variant" flags="0x00000000" />
+        <Column name="filter_button_tooltip" type="LocalizationKey" flags="0x00000000" />
+        <Column name="markup_multiplier_data" type="Vector" flags="0x00000000" />
+        <Column name="no_business_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="opening_fee" type="Int32" flags="0x00000000" />
+        <Column name="purchase_business_button_text" type="LocalizationKey" flags="0x00000000" />
+        <Column name="quality_settings" type="Vector" flags="0x00000000" />
+        <Column name="registration_fee" type="Int32" flags="0x00000000" />
+        <Column name="show_employee_button" type="Boolean" flags="0x00000000" />
+        <Column name="show_sell_button" type="Boolean" flags="0x00000000" />
+        <Column name="show_settings_button" type="Variant" flags="0x00000000" />
+        <Column name="tab_button_icon" type="ResourceKey" flags="0x00000000" />
+        <Column name="tutorial_button_element" type="Int64" flags="0x00000000" />
+        <Column name="tutorial_panel_element" type="Int64" flags="0x00000000" />
+      </Columns>
+    </Schema>
+  </Schemas>
+</SimData>

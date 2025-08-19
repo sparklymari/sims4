@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SituationGoalObjectInteraction" i="situation_goal" m="situations.situation_goal_object_interaction" n="goal_CAD_Interaction_Paint" s="363559">
+  <T n="_cooldown">45</T>
+  <V n="_display_data" t="enabled">
+    <U n="enabled">
+      <V n="instance_display_icon" t="enabled">
+        <T n="enabled" p="InEP16\UI\Icons\Events\EventGoal_PaintersPalette.png">2f7d0004:00000000:4fc58c07f973f65e</T>
+      </V>
+      <V n="instance_display_name" t="enabled">
+        <T n="enabled">0xA3B213E0<!--Paint--></T>
+      </V>
+      <V n="instance_display_tooltip" t="enabled">
+        <T n="enabled">0x2451BCA8<!--Use an easel, sketchpad, or paint a mural.--></T>
+      </V>
+    </U>
+  </V>
+  <U n="_goal_test">
+    <L n="affordances">
+      <T>147900<!--mural_Floor_ResumePaint--></T>
+      <T>147901<!--mural_Floor_StartPaint--></T>
+      <T>149561<!--mural_Floor_Graffiti_Staging--></T>
+      <T>147899<!--mural_Floor_Paint_Staging--></T>
+      <T>148233<!--mural_Garage_Graffiti_Staging--></T>
+      <T>148232<!--mural_Garage_Paint_Staging--></T>
+      <T>148171<!--mural_RollUp_Graffiti_Staging--></T>
+      <T>147629<!--mural_RollUp_Paint_Staging--></T>
+      <T>148021<!--mural_wallBrush_Graffiti_Staging--></T>
+      <T>146266<!--mural_wallBrush_Paint_Center--></T>
+      <T>148025<!--mural_Wall_ResumeGraffiti--></T>
+      <T>146620<!--mural_Wall_ResumePaint--></T>
+      <T>148019<!--mural_Wall_StartGraffiti--></T>
+      <T>146495<!--mural_Wall_StartPaint--></T>
+      <T>148277<!--mural_Wall_StartPaint_City--></T>
+      <T>148280<!--mural_Wall_StartPaint_Cultural--></T>
+      <T>148279<!--mural_Wall_StartPaint_Figures--></T>
+      <T>148281<!--mural_Wall_StartPaint_Illusion--></T>
+      <T>148278<!--mural_Wall_StartPaint_Political--></T>
+      <T>220724<!--mural_EP08_Floor_Paint_Staging--></T>
+      <T>220756<!--mural_EP08_Floor_ResumePaint--></T>
+      <T>220723<!--mural_EP08_Floor_StartPaint_Arts1--></T>
+      <T>220946<!--mural_EP08_Floor_StartPaint_Arts2--></T>
+      <T>13357<!--Easel_Canvas_Paint_Emotion--></T>
+      <T>206184<!--sketchpad_StartCrafting_Freelancer_Artist_Paint_Character_Design--></T>
+      <T>206185<!--sketchpad_StartCrafting_Freelancer_Artist_Paint_Enviroment_Design--></T>
+      <T>206191<!--sketchpad_StartCrafting_Freelancer_Artist_Paint_Icon--></T>
+      <T>206190<!--sketchpad_StartCrafting_Freelancer_Artist_Paint_Logo--></T>
+      <T>206186<!--sketchpad_StartCrafting_Freelancer_Artist_Paint_Portrait--></T>
+      <T>206188<!--sketchpad_StartCrafting_Freelancer_Artist_Paint_SplashArt--></T>
+      <T>38887<!--Easel_Canvas_Paint_Large--></T>
+      <T>13356<!--Easel_Canvas_Paint_Medium--></T>
+      <T>31691<!--Easel_Canvas_Paint_Passive--></T>
+      <T>38886<!--Easel_Canvas_Paint_Small--></T>
+      <T>96823<!--crafting_resume_Easel--></T>
+      <T>97079<!--crafting_resume_Easel_Practice--></T>
+      <T>13358<!--easel_CreateCanvas--></T>
+      <T>40778<!--easel_PracticePainting--></T>
+    </L>
+    <V n="running_time" t="enabled">
+      <T n="enabled">2</T>
+    </V>
+    <E n="test_event">InteractionUpdate</E>
+  </U>
+  <L n="_post_tests">
+    <V t="situation_job">
+      <U n="situation_job">
+        <L n="situation_jobs">
+          <T>365353<!--job_CAD_Actor_Date_Adult--></T>
+          <T>365354<!--job_CAD_Actor_Date_Teen--></T>
+          <T>365360<!--job_CAD_Target_Hangout--></T>
+          <T>365361<!--job_CAD_Target_Hangout_AdditionalGuest--></T>
+          <T>365356<!--job_CAD_Target_Date_Adult--></T>
+          <T>365357<!--job_CAD_Target_Date_Adult_AdditionalDate--></T>
+          <T>365358<!--job_CAD_Target_Date_Teen--></T>
+          <T>365359<!--job_CAD_Target_Date_Teen_AdditionalDate--></T>
+          <T>376785<!--job_CAD_Actor_Date_Adult_BlindDate--></T>
+          <T>376786<!--job_CAD_Actor_Date_Adult_BlindDate_Catfish--></T>
+          <T>374485<!--job_CAD_Target_Date_Adult_BlindDate--></T>
+          <T>375208<!--job_CAD_Target_Date_Adult_BlindDate_Catfish--></T>
+          <T>379086<!--job_CAD_Actor_Date_Recovery--></T>
+          <T>379088<!--job_CAD_Actor_Date_Teen_Recovery--></T>
+          <T>375557<!--job_CAD_Target_Date_Teen_RecoveryDate--></T>
+          <T>375556<!--job_CAD_Target_Date_Adult_RecoveryDate--></T>
+          <T>365355<!--job_CAD_Actor_Hangout--></T>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="_score">30</T>
+  <L n="_tested_score_overrides">
+    <U>
+      <T n="score">45</T>
+      <L n="tests">
+        <V t="buff">
+          <U n="buff">
+            <V n="whitelist" t="enabled">
+              <L n="enabled">
+                <T>351456<!--buff_Gemology_FireOpal_DateSuccess--></T>
+              </L>
+            </V>
+          </U>
+        </V>
+      </L>
+    </U>
+  </L>
+  <T n="audio_sting_on_complete" p="InGame\Audio\Bumper\bumper_event_goal_complete.propx">39b2aa4a:00000000:ed52c39bcc2a7111</T>
+</I>

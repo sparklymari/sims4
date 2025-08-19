@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSet_Gravesite_NoUrnstoneDeco" s="386112">
+  <V n="invert_test" t="enabled" />
+  <L n="test">
+    <L>
+      <V t="slot_test">
+        <U n="slot_test">
+          <V n="child_slot" t="by_reference">
+            <T n="by_reference">_gameplaySlot_Deco_Medium</T>
+          </V>
+          <V n="slot_test_type" t="has_used_slot">
+            <U n="has_used_slot">
+              <V n="object_type" t="enabled">
+                <V n="enabled" t="object_tags">
+                  <U n="object_tags">
+                    <L n="tag_set">
+                      <E>Func_Urnstone</E>
+                    </L>
+                  </U>
+                </V>
+              </V>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomWeightedLoot_SandPlay_Bottle" s="472755">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <L n="object_rewards">
+            <U>
+              <V n="luck_tuning" t="enabled">
+                <U n="enabled">
+                  <L n="loot_actions">
+                    <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                  </L>
+                </U>
+              </V>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">295477<!--collectBottleMessage_GP11GENshortRound_green (Message in a Bottle: The Little Genius)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">5</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299199<!--collectBottleMessage_GP11GENshortRound_red (Message in a Bottle: A Love Poem)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299200<!--collectBottleMessage_GP11GENshortRound_blue (Message in a Bottle: A Thousand Leaves)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">-20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299202<!--collectBottleMessage_GP11GENshortRound_brown (Message in a Bottle: An 'Imminent' Warning)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">10</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299201<!--collectBottleMessage_GP11GENshortRound_clear (Message in a Bottle: Sunlit Wishes)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <L n="object_rewards">
+            <U>
+              <V n="luck_tuning" t="enabled">
+                <U n="enabled">
+                  <L n="loot_actions">
+                    <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                  </L>
+                </U>
+              </V>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">295471<!--collectBottleMessage_GP11GENshortTaper_green (Message in a Bottle: A Pirate's Joke)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">5</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299187<!--collectBottleMessage_GP11GENshortTaper_red (Message in a Bottle: Unrequited Love)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299188<!--collectBottleMessage_GP11GENshortTaper_blue (Message in a Bottle: A Bold Reminder)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">-20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299190<!--collectBottleMessage_GP11GENshortTaper_brown (Message in a Bottle: A Threat from Beyond)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">10</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299189<!--collectBottleMessage_GP11GENshortTaper_clear (Message in a Bottle: An Inspiring Role-Model)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <L n="object_rewards">
+            <U>
+              <V n="luck_tuning" t="enabled">
+                <U n="enabled">
+                  <L n="loot_actions">
+                    <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                  </L>
+                </U>
+              </V>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">295473<!--collectBottleMessage_GP11GENtallCylinder_green (Message in a Bottle: The Clumsy Pirate)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">5</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299191<!--collectBottleMessage_GP11GENtallCylinder_red (Message in a Bottle: Till Death...)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299192<!--collectBottleMessage_GP11GENtallCylinder_blue (Message in a Bottle: A Lover's Grudge)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">-20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299194<!--collectBottleMessage_GP11GENtallCylinder_brown (Message in a Bottle: A Cursed Message)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">10</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299193<!--collectBottleMessage_GP11GENtallCylinder_clear (Message in a Bottle: A Wish of Adventure)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+    <U>
+      <V n="action" t="object_rewards">
+        <U n="object_rewards">
+          <T n="make_sim_owner">True</T>
+          <L n="object_rewards">
+            <U>
+              <V n="luck_tuning" t="enabled">
+                <U n="enabled">
+                  <L n="loot_actions">
+                    <T>452528<!--loot_LuckSys_ImpactOnAction_Collectibles--></T>
+                  </L>
+                </U>
+              </V>
+              <T n="quantity">1</T>
+              <L n="reward_objects">
+                <U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">295475<!--collectBottleMessage_GP11GENtallSquare_green (Message in a Bottle: A Bright Hello)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">5</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299195<!--collectBottleMessage_GP11GENtallSquare_red (Message in a Bottle: A Pledge of Love)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299196<!--collectBottleMessage_GP11GENtallSquare_blue (Message in a Bottle: A Scandalous Invitation)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">-20</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299198<!--collectBottleMessage_GP11GENtallSquare_brown (Message in a Bottle: A Grim Promise)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+                <U>
+                  <U n="luck_option_config">
+                    <T n="player_perception">10</T>
+                  </U>
+                  <L n="reward">
+                    <V t="specify_definition">
+                      <U n="specify_definition">
+                        <T n="definition">299197<!--collectBottleMessage_GP11GENtallSquare_clear (Message in a Bottle: Moonlit Musings)--></T>
+                      </U>
+                    </V>
+                  </L>
+                </U>
+              </L>
+            </U>
+          </L>
+        </U>
+      </V>
+    </U>
+  </L>
+</I>

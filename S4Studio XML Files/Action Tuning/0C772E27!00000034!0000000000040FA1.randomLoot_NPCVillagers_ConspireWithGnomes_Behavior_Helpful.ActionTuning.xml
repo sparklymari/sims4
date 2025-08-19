@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="RandomWeightedLoot" i="action" m="interactions.utils.loot" n="randomLoot_NPCVillagers_ConspireWithGnomes_Behavior_Helpful" s="266145">
+  <L n="random_loot_actions">
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition_tested">
+            <U n="definition_tested">
+              <L n="definitions">
+                <U>
+                  <T n="definition">22678<!--salvageJunkGEN_01_set1 ({S.Common Upgrade Part}{P.Common Upgrade Parts})--></T>
+                </U>
+                <U>
+                  <T n="definition">22667<!--salvageKitchenGEN_01_set1 ({S.Kitchen Upgrade Part}{P.Kitchen Upgrade Parts})--></T>
+                </U>
+                <U>
+                  <T n="definition">22669<!--salvagePlumbingGEN_01_set1 ({S.Plumbing Upgrade Part}{P.Plumbing Upgrade Parts})--></T>
+                </U>
+                <U>
+                  <T n="definition">22671<!--salvageElectronicGEN_01_set1 ({S.Electronic Upgrade Part}{P.Electronic Upgrade Parts})--></T>
+                </U>
+              </L>
+            </U>
+          </V>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+          <T n="quantity">2</T>
+          <T n="set_sim_as_owner">True</T>
+          <E n="subject">Object</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="oneshot_broadcaster">
+        <U n="oneshot_broadcaster">
+          <U n="broadcaster_request">
+            <L n="broadcaster_types">
+              <U>
+                <T n="item">266491<!--broadcaster_NPCVillagers_ConspireWithGnomes_RepairObjects--></T>
+              </U>
+            </L>
+          </U>
+          <E n="subject">Object</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">24</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="desired_state_threshold" t="enabled">
+                      <U n="enabled">
+                        <E n="comparison">EQUAL</E>
+                        <T n="value">15080<!--BrokenState_Broken--></T>
+                      </U>
+                    </V>
+                    <V n="identity_test" t="tags">
+                      <U n="tags">
+                        <L n="tag_set">
+                          <E>Func_Sink</E>
+                          <E>Func_TV</E>
+                          <E>Func_Toilet</E>
+                          <E>Func_Stereo</E>
+                          <E>Func_Shower</E>
+                        </L>
+                      </U>
+                    </V>
+                    <V n="subject_specific_tests" t="all_objects">
+                      <U n="all_objects">
+                        <U n="quantity">
+                          <E n="comparison">EQUAL</E>
+                          <T n="value">0</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="oneshot_broadcaster">
+        <U n="oneshot_broadcaster">
+          <U n="broadcaster_request">
+            <L n="broadcaster_types">
+              <U>
+                <T n="item">266490<!--broadcaster_NPCVillagers_ConspireWithGnomes_CleanObjects--></T>
+              </U>
+            </L>
+          </U>
+          <E n="subject">Object</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">12</T>
+        <L n="multipliers">
+          <U>
+            <T n="multiplier">0</T>
+            <L n="tests">
+              <L>
+                <V t="object_criteria">
+                  <U n="object_criteria">
+                    <V n="desired_state_threshold" t="enabled">
+                      <U n="enabled">
+                        <E n="comparison">EQUAL</E>
+                        <T n="value">15131<!--DirtyState_Dirty--></T>
+                      </U>
+                    </V>
+                    <V n="identity_test" t="tags">
+                      <U n="tags">
+                        <L n="tag_set">
+                          <E>Func_Counter</E>
+                          <E>Func_Sink</E>
+                          <E>Func_Toilet</E>
+                          <E>Func_Shower</E>
+                          <E>Func_Bathtub</E>
+                        </L>
+                      </U>
+                    </V>
+                    <V n="subject_specific_tests" t="all_objects">
+                      <U n="all_objects">
+                        <U n="quantity">
+                          <E n="comparison">EQUAL</E>
+                          <T n="value">0</T>
+                        </U>
+                      </U>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </L>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition_tested">
+            <U n="definition_tested">
+              <L n="definitions">
+                <U>
+                  <T n="definition">281906<!--gardenPlantSprout_EP11GEN_mushroomWildCharming (** DEBUG **)--></T>
+                </U>
+                <U>
+                  <T n="definition">281907<!--gardenPlantSprout_EP11GEN_mushroomWildLovely (** DEBUG **)--></T>
+                </U>
+                <U>
+                  <T n="definition">281909<!--gardenPlantSprout_EP11GEN_mushroomWildNightly (** DEBUG **)--></T>
+                </U>
+                <U>
+                  <T n="definition">281910<!--gardenPlantSprout_EP11GEN_mushroomWildSpicy (** DEBUG **)--></T>
+                </U>
+                <U>
+                  <T n="definition">281911<!--gardenPlantSprout_EP11GEN_mushroomWildVerdant (** DEBUG **)--></T>
+                </U>
+              </L>
+            </U>
+          </V>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+          <T n="quantity">2</T>
+          <T n="set_sim_as_owner">True</T>
+          <E n="subject">Object</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition_tested">
+            <U n="definition_tested">
+              <L n="definitions">
+                <U>
+                  <T n="definition">271881<!--jar_EP11GENcropSeed_set1_aubergine (Aubergine Seeds)--></T>
+                </U>
+                <U>
+                  <T n="definition">284571<!--jar_EP11GENcropSeed_set2_lettuce (Lettuce Seeds)--></T>
+                </U>
+                <U>
+                  <T n="definition">284572<!--jar_EP11GENcropSeed_set3_pumpkin (Pumpkin Seeds)--></T>
+                </U>
+                <U>
+                  <T n="definition">284573<!--jar_EP11GENcropSeed_set4_watermelon (Watermelon Seeds)--></T>
+                </U>
+                <U>
+                  <T n="definition">284574<!--jar_EP11GENcropSeed_set5_mushroom (Mushroom Seeds)--></T>
+                </U>
+              </L>
+            </U>
+          </V>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+          <T n="quantity">2</T>
+          <T n="set_sim_as_owner">True</T>
+          <E n="subject">Object</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">3</T>
+      </U>
+    </U>
+    <U>
+      <V n="action" t="create_object">
+        <U n="create_object">
+          <V n="creation_data" t="definition_tested">
+            <U n="definition_tested">
+              <L n="definitions">
+                <U>
+                  <T n="definition">59678<!--seedPacket_Garden_Starter_Fruits (Starter Fruits)--></T>
+                </U>
+                <U>
+                  <T n="definition">59676<!--seedPacket_Garden_Starter_Flowers (Starter Flowers)--></T>
+                </U>
+                <U>
+                  <T n="definition">59679<!--seedPacket_Garden_Starter_Herbs (Starter Herbs)--></T>
+                </U>
+                <U>
+                  <T n="definition">193549<!--seedPacket_Garden_uncommon (Uncommon Plants)--></T>
+                </U>
+                <U>
+                  <T n="definition">193547<!--seedPacket_Garden_rare (Rare Plants)--></T>
+                </U>
+              </L>
+            </U>
+          </V>
+          <V n="location" t="position">
+            <U n="position">
+              <V n="initial_location" t="from_participant">
+                <U n="from_participant">
+                  <E n="participant">Object</E>
+                </U>
+              </V>
+            </U>
+          </V>
+          <E n="owner_sim">LotOwnerSingleAndInstanced</E>
+          <T n="quantity">2</T>
+          <T n="set_sim_as_owner">True</T>
+          <E n="subject">Object</E>
+        </U>
+      </V>
+      <U n="weight">
+        <T n="base_value">2</T>
+      </U>
+    </U>
+  </L>
+</I>

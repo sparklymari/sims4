@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="LootActions" i="action" m="interactions.utils.loot" n="loot_R4Event_SpawnEmit_Buff" s="425369">
+  <L n="loot_actions">
+    <V t="buff">
+      <U n="buff">
+        <U n="buff">
+          <T n="buff_type">425368<!--buff_R4Event_SpawnEmit--></T>
+        </U>
+        <E n="subject">AllInstancedSims</E>
+        <L n="tests">
+          <L>
+            <V t="buff">
+              <U n="buff">
+                <L n="blacklist">
+                  <T>425368<!--buff_R4Event_SpawnEmit--></T>
+                </L>
+              </U>
+            </V>
+          </L>
+        </L>
+      </U>
+    </V>
+  </L>
+  <T n="run_test_first">True</T>
+  <L n="tests">
+    <L>
+      <V t="situation_running_test">
+        <U n="situation_running_test">
+          <V n="situation_whitelist" t="enabled">
+            <L n="enabled">
+              <T>410965<!--eventSituation_R4Event_Quest02--></T>
+              <T>410966<!--eventSituation_R4Event_Quest03--></T>
+              <T>410967<!--eventSituation_R4Event_Quest04--></T>
+              <T>410968<!--eventSituation_R4Event_Quest05--></T>
+              <T>410969<!--eventSituation_R4Event_Quest06--></T>
+              <T>410970<!--eventSituation_R4Event_Quest07--></T>
+              <T>410971<!--eventSituation_R4Event_Quest08--></T>
+            </L>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="situation_goal_test">
+        <U n="situation_goal_test">
+          <L n="situation_goals">
+            <T>428853<!--scenarioGoal_ZoneLoaded_R4Event_MagnoliaBlossom--></T>
+            <T>422787<!--goalRanInteractionOnTargetedSim_R4Event_meetEmit--></T>
+            <T>422788<!--goalRanInteractionOnTargetedSim_R4Event_missingItems--></T>
+            <T>414469<!--r4Event_ObjectInteraction_AskAboutMissingItem--></T>
+          </L>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>

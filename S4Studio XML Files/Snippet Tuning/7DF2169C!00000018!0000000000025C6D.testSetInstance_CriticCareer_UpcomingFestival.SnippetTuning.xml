@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="TestSetInstance" i="snippet" m="event_testing.tests" n="testSetInstance_CriticCareer_UpcomingFestival" s="154733">
+  <L n="test">
+    <L>
+      <V t="time_until_festival">
+        <U n="time_until_festival">
+          <V n="drama_node" t="enabled">
+            <T n="enabled">140083<!--festivalDramaNode_BlossomFestival--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="time_until_festival">
+        <U n="time_until_festival">
+          <V n="drama_node" t="enabled">
+            <T n="enabled">140085<!--festivalDramaNode_FleaMarket--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="time_until_festival">
+        <U n="time_until_festival">
+          <V n="drama_node" t="enabled">
+            <T n="enabled">140082<!--festivalDramaNode_FoodFestival--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="time_until_festival">
+        <U n="time_until_festival">
+          <V n="drama_node" t="enabled">
+            <T n="enabled">140084<!--festivalDramaNode_LampFestival--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+    <L>
+      <V t="time_until_festival">
+        <U n="time_until_festival">
+          <V n="drama_node" t="enabled">
+            <T n="enabled">141200<!--festivalDramaNode_LogicFair--></T>
+          </V>
+        </U>
+      </V>
+    </L>
+  </L>
+</I>
