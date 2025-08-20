@@ -689,7 +689,7 @@
       <T n="take_pto_button_text">0xA0C11A0D<!--Take PTO--></T>
     </U>
   </U>
-  <E n="career_panel_type">AGENT_BASED_CAREER</E>
+  <E n="career_panel_type">ACTIVE_GIG_BASED_CAREER</E>
   <T n="career_rabbit_hole">234354<!--careerRabbitHole--></T>
   <U n="career_story_progression">
     <V n="joining" t="enabled">
